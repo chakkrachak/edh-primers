@@ -43,7 +43,7 @@ h1 .accent { color: var(--accent-blue); }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 22px;
 }
 
