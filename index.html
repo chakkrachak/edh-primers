@@ -4,39 +4,9 @@
 <meta name="description" content="Rapports complets de construction Commander EDH : Scryfall, EDHREC, Commander Spellbook.">
 <meta property="og:title" content="EDH Primers">
 <meta property="og:description" content="8 rapports de construction Commander">
-<style>
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:"Segoe UI",Roboto,Arial,sans-serif;background:#05060f;color:#e8e8f0;min-height:100vh;padding:40px 28px 60px;line-height:1.5;position:relative;overflow-x:hidden}
-body::before{content:"";position:fixed;inset:-20%;background:radial-gradient(600px 400px at 15% 20%,#3b1d6e66,transparent 60%),radial-gradient(700px 500px at 85% 75%,#0e5a8a66,transparent 60%),radial-gradient(500px 400px at 50% 50%,#6e1d3b44,transparent 65%);animation:shift 16s ease-in-out infinite alternate;z-index:-2}
-@keyframes shift{from{transform:translate(0,0) scale(1)}to{transform:translate(-2%,3%) scale(1.08)}}
-header{max-width:1280px;margin:0 auto 36px;position:relative;z-index:1}
-h1{font-size:34px;font-weight:800;letter-spacing:2px;color:#fff;text-shadow:0 0 24px #7b61ff88}
-h1 .accent{color:#9aa5ff}
-.sub{color:#9aa0c0;margin-top:6px;font-size:15px}
-.count{display:inline-block;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:20px;padding:3px 14px;font-size:13px;color:#9aa5ff;margin-top:12px;backdrop-filter:blur(8px)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:26px;max-width:1280px;margin:0 auto;position:relative;z-index:1}
-.card{display:block;background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.14);border-radius:20px;overflow:hidden;text-decoration:none;color:inherit;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);box-shadow:0 8px 32px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.09);transition:transform .2s,border-color .2s,box-shadow .2s}
-.card:hover{transform:translateY(-6px);border-color:rgba(155,140,255,.55);box-shadow:0 20px 50px rgba(0,0,0,.6),0 0 30px rgba(123,97,255,.18),inset 0 1px 0 rgba(255,255,255,.12)}
-.card-art{position:relative;aspect-ratio:63/88;overflow:hidden;background:#000}
-.card-art img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s}
-.card:hover .card-art img{transform:scale(1.04)}
-.card-body{padding:16px}
-.card-name{font-size:17px;font-weight:800;color:#fff;line-height:1.25}
-.card-pips{margin:8px 0 6px;display:flex;gap:6px}
-.pip{width:15px;height:15px;border-radius:50%;display:inline-block;border:1px solid rgba(255,255,255,.5);box-shadow:0 0 8px rgba(255,255,255,.25)}
-.card-plan{font-size:11px;font-weight:700;color:#9aa5ff;text-transform:uppercase;letter-spacing:.8px;margin-bottom:8px;text-shadow:0 0 12px #7b61ff55}
-.card-desc{font-size:13px;color:#c0c6e0;line-height:1.55}
-.card-hs{margin-top:12px;border-top:1px solid rgba(255,255,255,.12);padding-top:10px}
-.hs-label{font-size:10px;font-weight:700;color:#8a93b8;text-transform:uppercase;letter-spacing:1.2px;margin-bottom:7px}
-.hs-row{display:flex;gap:5px;overflow:hidden}
-.thumb{flex:0 0 auto;width:40px;border-radius:7px;overflow:hidden;border:1px solid rgba(255,255,255,.2);transition:transform .15s,box-shadow .15s}
-.thumb:hover{transform:translateY(-3px);box-shadow:0 0 14px rgba(155,140,255,.4)}
-.thumb img{width:100%;display:block}
-footer{max-width:1280px;margin:48px auto 0;text-align:center;color:#6a7090;font-size:13px;position:relative;z-index:1}
-footer a{color:#9aa5ff;text-decoration:none}
-@media(max-width:700px){.grid{grid-template-columns:1fr}body{padding:28px 16px 40px}}
-</style></head><body>
+
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/index.css"></head><body>
 <header>
   <h1>EDH <span class="accent">Primers</span></h1>
   <div class="sub">Rapports complets de construction Commander — Scryfall · EDHREC · Commander Spellbook</div>
@@ -47,7 +17,7 @@ footer a{color:#9aa5ff;text-decoration:none}
       <div class="card-art"><img loading="lazy" src="https://cards.scryfall.io/large/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857" alt="Aminatou, the Fateshifter" data-name="Aminatou, the Fateshifter"></div>
       <div class="card-body">
         <div class="card-name">Aminatou, the Fateshifter</div>
-        <div class="card-pips"><span class="pip" style="background:#f9f4d6;" title="Blanc"></span><span class="pip" style="background:#2e6fd8;" title="Bleu"></span><span class="pip" style="background:#2b2b2b;" title="Noir"></span></div>
+        <div class="card-pips"><span class="pip pip-w" title="Blanc"></span><span class="pip pip-u" title="Bleu"></span><span class="pip pip-b" title="Noir"></span></div>
         <div class="card-plan">BLINK / FLICKER</div>
         <p class="card-desc">La reine du flicker Esper. Son −1 exile un permanent que tu possèdes et le fait revenir — des déclenchements ETB en cascade. Son +1 contrôle…</p>
         <div class="card-hs">
@@ -61,7 +31,7 @@ footer a{color:#9aa5ff;text-decoration:none}
       <div class="card-art"><img loading="lazy" src="https://cards.scryfall.io/large/front/0/7/07b4e4f8-6a31-4533-be51-668ce3ddc84f.jpg?1783906375" alt="Cloud, Ex-SOLDIER" data-name="Cloud, Ex-SOLDIER"></div>
       <div class="card-body">
         <div class="card-name">Cloud, Ex-SOLDIER</div>
-        <div class="card-pips"><span class="pip" style="background:#d8432f;" title="Rouge"></span><span class="pip" style="background:#3e8e4e;" title="Vert"></span><span class="pip" style="background:#f9f4d6;" title="Blanc"></span></div>
+        <div class="card-pips"><span class="pip pip-r" title="Rouge"></span><span class="pip pip-g" title="Vert"></span><span class="pip pip-w" title="Blanc"></span></div>
         <div class="card-plan">VOLTRON ÉQUIPEMENT</div>
         <p class="card-desc">Le général voltron équipement par excellence : il s'équipe gratuitement à l'arrivée, pioche massivement à chaque attaque (1 carte par créatu…</p>
         <div class="card-hs">
@@ -75,7 +45,7 @@ footer a{color:#9aa5ff;text-decoration:none}
       <div class="card-art"><img loading="lazy" src="https://cards.scryfall.io/large/front/b/c/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6.jpg?1783908077" alt="Gisa and Geralf" data-name="Gisa and Geralf"></div>
       <div class="card-body">
         <div class="card-name">Gisa and Geralf</div>
-        <div class="card-pips"><span class="pip" style="background:#2e6fd8;" title="Bleu"></span><span class="pip" style="background:#2b2b2b;" title="Noir"></span></div>
+        <div class="card-pips"><span class="pip pip-u" title="Bleu"></span><span class="pip pip-b" title="Noir"></span></div>
         <div class="card-plan">🧟 ZOMBIE TRIBAL — Le plan signature (1 179 decks)</div>
         <p class="card-desc">Le commandant Zombie tribal / reanimator : il meule 4 cartes à l'arrivée et vous laisse lancer un Zombie depuis le cimetière à chaque tour. …</p>
         <div class="card-hs">
@@ -89,7 +59,7 @@ footer a{color:#9aa5ff;text-decoration:none}
       <div class="card-art"><img loading="lazy" src="https://cards.scryfall.io/large/front/8/d/8d4e5480-a287-4a25-b855-a26dae555b1c.jpg?1783909053" alt="Lathril, Blade of the Elves" data-name="Lathril, Blade of the Elves"></div>
       <div class="card-body">
         <div class="card-name">Lathril, Blade of the Elves</div>
-        <div class="card-pips"><span class="pip" style="background:#2b2b2b;" title="Noir"></span><span class="pip" style="background:#3e8e4e;" title="Vert"></span></div>
+        <div class="card-pips"><span class="pip pip-b" title="Noir"></span><span class="pip pip-g" title="Vert"></span></div>
         <div class="card-plan">ELFBALL (Tribal Elfes)</div>
         <p class="card-desc">Une commandante Golgari tribale Elfes qui génère une armée de jetons à chaque contact, puis les utilise via son activation pour drainer 10 P…</p>
         <div class="card-hs">
@@ -103,7 +73,7 @@ footer a{color:#9aa5ff;text-decoration:none}
       <div class="card-art"><img loading="lazy" src="https://cards.scryfall.io/large/front/5/f/5fea0781-e933-47ef-9414-92c8652a7778.jpg?1783907753" alt="Saheeli, Radiant Creator" data-name="Saheeli, Radiant Creator"></div>
       <div class="card-body">
         <div class="card-name">Saheeli, Radiant Creator</div>
-        <div class="card-pips"><span class="pip" style="background:#3e8e4e;" title="Vert"></span><span class="pip" style="background:#2e6fd8;" title="Bleu"></span><span class="pip" style="background:#d8432f;" title="Rouge"></span></div>
+        <div class="card-pips"><span class="pip pip-g" title="Vert"></span><span class="pip pip-u" title="Bleu"></span><span class="pip pip-r" title="Rouge"></span></div>
         <div class="card-plan">⚡ ENERGY — Le plan signature (1 209 decks)</div>
         <p class="card-desc">La reine de l'énergie : chaque sort d'artefact ou d'Artificier vous donne un marqueur , et 3  au début du combat = une copie 5/5 célérité de…</p>
         <div class="card-hs">
@@ -117,7 +87,7 @@ footer a{color:#9aa5ff;text-decoration:none}
       <div class="card-art"><img loading="lazy" src="https://cards.scryfall.io/large/front/f/9/f94e888b-6eeb-4ef3-ab21-5ed2bf0036a3.jpg?1783925554" alt="Slogurk, the Overslime" data-name="Slogurk, the Overslime"></div>
       <div class="card-body">
         <div class="card-name">Slogurk, the Overslime</div>
-        <div class="card-pips"><span class="pip" style="background:#3e8e4e;" title="Vert"></span><span class="pip" style="background:#2e6fd8;" title="Bleu"></span></div>
+        <div class="card-pips"><span class="pip pip-g" title="Vert"></span><span class="pip pip-u" title="Bleu"></span></div>
         <div class="card-plan">LANDS MATTER / LOAM</div>
         <p class="card-desc">Un commandant Simic Lands Matter unique : chaque terrain qui meurt ou est millé le fait grossir (+1/+1). Vous sacrifiez et rejouez vos terra…</p>
         <div class="card-hs">
@@ -131,7 +101,7 @@ footer a{color:#9aa5ff;text-decoration:none}
       <div class="card-art"><img loading="lazy" src="https://cards.scryfall.io/large/front/5/a/5aa1a2d7-6133-41a9-9662-9008d1309935.jpg?1783906373" alt="Terra, Herald of Hope" data-name="Terra, Herald of Hope"></div>
       <div class="card-body">
         <div class="card-name">Terra, Herald of Hope</div>
-        <div class="card-pips"><span class="pip" style="background:#d8432f;" title="Rouge"></span><span class="pip" style="background:#f9f4d6;" title="Blanc"></span><span class="pip" style="background:#2b2b2b;" title="Noir"></span></div>
+        <div class="card-pips"><span class="pip pip-r" title="Rouge"></span><span class="pip pip-w" title="Blanc"></span><span class="pip pip-b" title="Noir"></span></div>
         <div class="card-plan">REANIMATOR (réanimation aggro)</div>
         <p class="card-desc">Une commandante Mardu réanimation qui remplit son propre cimetière (Trance : mill 2 + vol à chaque début de combat) puis réanime gratuitemen…</p>
         <div class="card-hs">
@@ -145,7 +115,7 @@ footer a{color:#9aa5ff;text-decoration:none}
       <div class="card-art"><img loading="lazy" src="https://cards.scryfall.io/large/front/f/e/fe9be3e0-076c-4703-9750-2a6b0a178bc9.jpg?1783915606" alt="Yuriko, the Tiger's Shadow" data-name="Yuriko, the Tiger's Shadow"></div>
       <div class="card-body">
         <div class="card-name">Yuriko, the Tiger's Shadow</div>
-        <div class="card-pips"><span class="pip" style="background:#2e6fd8;" title="Bleu"></span><span class="pip" style="background:#2b2b2b;" title="Noir"></span></div>
+        <div class="card-pips"><span class="pip pip-u" title="Bleu"></span><span class="pip pip-b" title="Noir"></span></div>
         <div class="card-plan">NINJUTSU TRIBAL</div>
         <p class="card-desc">Une commandante Dimir aggro/contrôle unique : le commander ninjutsu lui permet de revenir à volonté depuis la zone de commandement pour ~2 m…</p>
         <div class="card-hs">

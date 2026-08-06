@@ -1,60 +1,23 @@
 <!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Cloud, Ex-SOLDIER — Rapport Final Commander EDH (v2)</title>
-<style>
-body{background:linear-gradient(160deg,#10101c,#1a1a2e 60%,#16213e);color:#e8e8f0;font-family:"Segoe UI",Arial,sans-serif;padding:28px;max-width:1200px;margin:0 auto;line-height:1.55;}
-h1{color:#7ee787;font-size:30px;border-bottom:3px solid #2d6a4f;padding-bottom:12px;}
-h2{color:#79c0ff;font-size:22px;margin-top:38px;border-bottom:1px solid #2d2d44;padding-bottom:8px;}
-h3{color:#ffd77a;font-size:17px;margin-top:22px;}
-table{border-collapse:collapse;margin:14px 0;width:auto;}
-td,th{border:1px solid #33335a;padding:8px 14px;font-size:14px;}
-th{background:#1f1f3a;color:#79c0ff;text-align:left;}
-.oracle{background:#0d0d18;border-left:4px solid #7ee787;padding:14px 18px;border-radius:8px;font-style:italic;color:#c8d6e5;margin:14px 0;}
-.plan{background:#151528;border-radius:12px;padding:18px 22px;margin:16px 0;border:1px solid #2d2d44;}
-.plan.chosen{border:2px solid #7ee787;background:#14211a;}
-.badge{display:inline-block;background:#2d6a4f;color:#fff;border-radius:20px;padding:3px 12px;font-size:13px;font-weight:700;margin-left:8px;}
-.combo{background:#131a2b;border:1px solid #2d4a5a;border-radius:12px;padding:16px 20px;margin:14px 0;}
-.combo h3{color:#7ee787;font-size:15px;}
-.combo .meta{color:#8a93b8;font-size:12px;margin-bottom:8px;}
-.step{background:#0d0d18;border-radius:8px;padding:8px 14px;margin:6px 0;border-left:3px solid #79c0ff;font-size:13px;}
-.result{background:#14211a;border-left:4px solid #7ee787;padding:8px 12px;border-radius:6px;margin:8px 0;font-size:13px;}
-.warning{background:#2a1f12;border-left:4px solid #ffd77a;padding:10px 14px;border-radius:6px;font-size:14px;color:#e8d5b0;margin:10px 0;}
-.source{background:#121a2e;border-left:4px solid #79c0ff;padding:10px 14px;border-radius:6px;font-size:13px;color:#b8c8e8;margin:10px 0;}
-.category{background:#12122a;border-radius:12px;padding:16px 20px;margin:14px 0;border:1px solid #2d2d44;}
-.category .summary{color:#c8d0e8;font-size:14px;margin-bottom:12px;padding-bottom:12px;border-bottom:1px dashed #2d2d44;}
-.category h3{margin-top:6px;}
-ul{margin:6px 0 6px 20px;}
-li{margin:3px 0;}
-strong{color:#fff;}
-.card-block{transition:transform .15s;}
-.card-block:hover{transform:translateY(-2px);border-color:#3d3d6a !important;}
-.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:10px;margin-top:6px;}
-@media (max-width:700px){.card-grid{grid-template-columns:1fr;}}
-.toc{background:#151528;border-radius:12px;padding:16px 24px;border:1px solid #2d2d44;}
-.toc a{color:#79c0ff;text-decoration:none;}
-#modal{display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,.92);z-index:9999;align-items:center;justify-content:center;cursor:zoom-out;}
-#modal.open{display:flex;}
-#modal img{max-width:92vw;max-height:92vh;border-radius:14px;box-shadow:0 8px 40px rgba(0,0,0,.8);}
-#modal .caption{position:absolute;bottom:18px;left:0;right:0;text-align:center;color:#ddd;font-size:15px;font-weight:600;text-shadow:0 2px 6px #000;pointer-events:none;}
-#modal .hint{position:absolute;top:14px;right:20px;color:#888;font-size:13px;}
-.copy-btn{background:none;border:1px solid #2d2d44;border-radius:6px;cursor:pointer;margin-left:8px;font-size:13px;padding:2px 8px;vertical-align:middle;transition:all .15s;}
-.copy-btn:hover{border-color:#79c0ff;background:#1f1f3a;transform:scale(1.1);}
-.copied{background:#2d6a4f !important;border-color:#7ee787 !important;}
-</style></head><body>
+
+<link rel="stylesheet" href="../css/theme.css">
+<link rel="stylesheet" href="../css/report.css"></head><body>
 <h1>Cloud, Ex-SOLDIER — Rapport Final Commander EDH</h1>
-<p style="color:#999;">Rapport v2 généré par <strong>MTG Commander Builder</strong> · Sources : Scryfall (cartes, images, symboles, textes Oracle) · EDHREC (catégories, scores de synergie) · Commander Spellbook (combos) · EDHREC Articles (guide)<br>💡 <em>Chaque explication est vérifiée contre le texte Oracle officiel. Le badge « synergie 0.xx » = score EDHREC. Cliquez sur 📋 pour copier, sur une carte pour zoomer.</em></p>
-<div class="toc"><h3 style="margin-top:6px;">📑 Sommaire</h3><ol>
+<p class="report-sub">Rapport v2 généré par <strong>MTG Commander Builder</strong> · Sources : Scryfall (cartes, images, symboles, textes Oracle) · EDHREC (catégories, scores de synergie) · Commander Spellbook (combos) · EDHREC Articles (guide)<br>💡 <em>Chaque explication est vérifiée contre le texte Oracle officiel. Le badge « synergie 0.xx » = score EDHREC. Cliquez sur 📋 pour copier, sur une carte pour zoomer.</em></p>
+<div class="toc"><h3 class="toc-h3">📑 Sommaire</h3><ol>
 <li><a href="#s1">Fiche du Commander</a></li>
 <li><a href="#s2">Plan de jeu retenu : VOLTRON ÉQUIPEMENT</a></li>
 <li><a href="#s3">Cartes par catégories EDHREC</a></li>
 <li><a href="#s4">Combos pertinents (4)</a></li>
 </ol></div>
 <h2 id="s1">1. Fiche du Commander <button class="copy-btn" data-copy="Cloud, Ex-SOLDIER" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h2>
-<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:260px;"><img src="https://cards.scryfall.io/normal/front/0/7/07b4e4f8-6a31-4533-be51-668ce3ddc84f.jpg?1783906375" data-large="https://cards.scryfall.io/large/front/0/7/07b4e4f8-6a31-4533-be51-668ce3ddc84f.jpg?1783906375" data-name="Cloud, Ex-SOLDIER" loading="lazy" style="width:260px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Cloud, Ex-SOLDIER</div></div></div>
+<div class="center"><div class="big-card" style="width:260px;"><img src="https://cards.scryfall.io/normal/front/0/7/07b4e4f8-6a31-4533-be51-668ce3ddc84f.jpg?1783906375" data-large="https://cards.scryfall.io/large/front/0/7/07b4e4f8-6a31-4533-be51-668ce3ddc84f.jpg?1783906375" data-name="Cloud, Ex-SOLDIER" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Cloud, Ex-SOLDIER</div></div></div>
 <table>
 <tr><th>Attribut</th><th>Valeur</th></tr>
 <tr><td><strong>Nom officiel</strong></td><td>Cloud, Ex-SOLDIER</td></tr>
-<tr><td><strong>Coût</strong></td><td><img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/R.svg" alt="R" title="R" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/G.svg" alt="G" title="G" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/W.svg" alt="W" title="W" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/> (4 mana)</td></tr>
+<tr><td><strong>Coût</strong></td><td><img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/R.svg" alt="R" title="R" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/G.svg" alt="G" title="G" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/W.svg" alt="W" title="W" class="ms"/> (4 mana)</td></tr>
 <tr><td><strong>Type</strong></td><td>Créature légendaire — Humain Soldat Mercenaire</td></tr>
 <tr><td><strong>Identité de couleur</strong></td><td>🔴🟢⚪ Naya (R/G/W)</td></tr>
 <tr><td><strong>Force / Endurance</strong></td><td>4/4</td></tr>
@@ -76,71 +39,71 @@ strong{color:#fff;}
     <li><strong>Condition de victoire</strong> : Cloud en double frappe (Halvar, Aurelia) ou inblocable (Rogue's Passage) avec +20/+20 d'équipements = 40+ dégâts de commandant en un combat. Les trésors accumulés financent les équipements suivants.</li>
     </ul>
 <div class="source"><strong>📰 Source secondaire</strong> : <em>« EDHREC Guide to Equipment in Commander »</em> (Cooper Gottfried, edhrec.com) : le guide officiel EDHREC identifie <strong>4 piliers</strong> d'un deck équipement : ① les <strong>équipements</strong> (soit des armes bon marché à équiper — Mask of Memory, Lavaspur Boots — soit des armes puissantes à coût réduit comme Colossus Hammer), ② les <strong>créatures à équiper</strong> (avec évasion ou double frappe, qui doublent la puissance des équipements), ③ les <strong>payoffs</strong> (récompenses : ramp via Sword of the Animist, déclenchements doublés via Cloud Midgar, gain de vie), ④ les <strong>enablers</strong> (réduction de coût : Bureau Headmaster, Bladehold War-Whip, Puresteel Paladin). Notre liste Cloud suit exactement ce squelette : Colossus Hammer (équipement puissant), Cloud + Aurelia (créatures à équiper/double frappe), Sword of the Animist + Cloud Midgar (payoffs), Puresteel + Sigarda's Aid (enablers).</div>
-<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:185px;"><img src="https://cards.scryfall.io/normal/front/d/8/d8f8a324-006d-4cb8-9816-620a603b4229.jpg?1783915714" data-large="https://cards.scryfall.io/large/front/d/8/d8f8a324-006d-4cb8-9816-620a603b4229.jpg?1783915714" data-name="Puresteel Paladin" loading="lazy" style="width:185px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Puresteel Paladin</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:185px;"><img src="https://cards.scryfall.io/normal/front/8/9/897a134e-7e61-4fe1-bbae-23ef1fe5c0cf.jpg?1783926175" data-large="https://cards.scryfall.io/large/front/8/9/897a134e-7e61-4fe1-bbae-23ef1fe5c0cf.jpg?1783926175" data-name="Colossus Hammer" loading="lazy" style="width:185px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Colossus Hammer</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:185px;"><img src="https://cards.scryfall.io/normal/front/c/6/c6548a30-577a-47e7-aa6e-8f6db1f7b78e.jpg?1783915603" data-large="https://cards.scryfall.io/large/front/c/6/c6548a30-577a-47e7-aa6e-8f6db1f7b78e.jpg?1783915603" data-name="Champion&#x27;s Helm" loading="lazy" style="width:185px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Champion&#x27;s Helm</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:185px;"><img src="https://cards.scryfall.io/normal/front/b/6/b61634ae-05be-4b56-8ebb-9d4ade902e42.jpg?1783903217" data-large="https://cards.scryfall.io/large/front/b/6/b61634ae-05be-4b56-8ebb-9d4ade902e42.jpg?1783903217" data-name="Lightning Greaves" loading="lazy" style="width:185px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Lightning Greaves</div></div></div>
+<div class="center"><div class="big-card" style="width:185px;"><img src="https://cards.scryfall.io/normal/front/d/8/d8f8a324-006d-4cb8-9816-620a603b4229.jpg?1783915714" data-large="https://cards.scryfall.io/large/front/d/8/d8f8a324-006d-4cb8-9816-620a603b4229.jpg?1783915714" data-name="Puresteel Paladin" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Puresteel Paladin</div></div><div class="big-card" style="width:185px;"><img src="https://cards.scryfall.io/normal/front/8/9/897a134e-7e61-4fe1-bbae-23ef1fe5c0cf.jpg?1783926175" data-large="https://cards.scryfall.io/large/front/8/9/897a134e-7e61-4fe1-bbae-23ef1fe5c0cf.jpg?1783926175" data-name="Colossus Hammer" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Colossus Hammer</div></div><div class="big-card" style="width:185px;"><img src="https://cards.scryfall.io/normal/front/c/6/c6548a30-577a-47e7-aa6e-8f6db1f7b78e.jpg?1783915603" data-large="https://cards.scryfall.io/large/front/c/6/c6548a30-577a-47e7-aa6e-8f6db1f7b78e.jpg?1783915603" data-name="Champion&#x27;s Helm" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Champion&#x27;s Helm</div></div><div class="big-card" style="width:185px;"><img src="https://cards.scryfall.io/normal/front/b/6/b61634ae-05be-4b56-8ebb-9d4ade902e42.jpg?1783903217" data-large="https://cards.scryfall.io/large/front/b/6/b61634ae-05be-4b56-8ebb-9d4ade902e42.jpg?1783903217" data-name="Lightning Greaves" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Lightning Greaves</div></div></div>
 </div>
 <h2 id="s3">3. Cartes en synergie par catégories EDHREC</h2>
-<p style="color:#999;">Chaque explication est vérifiée contre le texte Oracle officiel (Scryfall). Le badge « synergie 0.xx » est le score EDHREC : proportion de decks jouant cette carte. 📋 copie la liste des cartes de la catégorie.</p>
+<p class="report-sub">Chaque explication est vérifiée contre le texte Oracle officiel (Scryfall). Le badge « synergie 0.xx » est le score EDHREC : proportion de decks jouant cette carte. 📋 copie la liste des cartes de la catégorie.</p>
 <div class="category"><h3>🌟 High Synergy Cards <button class="copy-btn" data-copy="Puresteel Paladin, Colossus Hammer, Conqueror&#x27;s Flail, Red XIII, Proud Warrior, Tifa, Martial Artist, Sword of the Animist" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
 <div class="summary">Le cœur du moteur voltron : les équipements, les piocheurs et les boosters de Cloud.</div>
 <div class="card-grid">
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/d/8/d8f8a324-006d-4cb8-9816-620a603b4229.jpg?1783915714" data-large="https://cards.scryfall.io/large/front/d/8/d8f8a324-006d-4cb8-9816-620a603b4229.jpg?1783915714" data-name="Puresteel Paladin" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Puresteel Paladin<span class="syn" style="color:#7ee787;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #7ee787;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.86</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Pioche une carte à chaque équipement qui entre (Oracle) + avec 3+ artefacts, tous tes équipements ont équip {0} — le moteur pioche/équipement gratuit du deck.</div>
+      <div class="cb-body">
+        <div class="cb-name">Puresteel Paladin<span class="syn syn-hi" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.86</span></div>
+        <div class="cb-expl">Pioche une carte à chaque équipement qui entre (Oracle) + avec 3+ artefacts, tous tes équipements ont équip {0} — le moteur pioche/équipement gratuit du deck.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/8/9/897a134e-7e61-4fe1-bbae-23ef1fe5c0cf.jpg?1783926175" data-large="https://cards.scryfall.io/large/front/8/9/897a134e-7e61-4fe1-bbae-23ef1fe5c0cf.jpg?1783926175" data-name="Colossus Hammer" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Colossus Hammer<span class="syn" style="color:#7ee787;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #7ee787;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.82</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">La créature équipée gagne +10/+10 (Oracle). Cloud s'équipe gratuitement à l'arrivée → menace à 14/14 immédiate. Équip {8} est cher, mais Puresteel Paladin/Sigarda's Aid le rendent gratuit.</div>
+      <div class="cb-body">
+        <div class="cb-name">Colossus Hammer<span class="syn syn-hi" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.82</span></div>
+        <div class="cb-expl">La créature équipée gagne +10/+10 (Oracle). Cloud s'équipe gratuitement à l'arrivée → menace à 14/14 immédiate. Équip {8} est cher, mais Puresteel Paladin/Sigarda's Aid le rendent gratuit.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/d/5/d5f5399a-26c6-4ecd-9715-f6440f6958f1.jpg?1783921792" data-large="https://cards.scryfall.io/large/front/d/5/d5f5399a-26c6-4ecd-9715-f6440f6958f1.jpg?1783921792" data-name="Conqueror&#x27;s Flail" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Conqueror&#x27;s Flail<span class="syn" style="color:#7ee787;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #7ee787;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.75</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">La créature équipée gagne +1/+1 par couleur parmi tes permanents (Oracle) ET tant qu'elle est équipée, tes adversaires ne peuvent pas lancer de sorts pendant TON tour — un verrou de tour complet.</div>
+      <div class="cb-body">
+        <div class="cb-name">Conqueror&#x27;s Flail<span class="syn syn-hi" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.75</span></div>
+        <div class="cb-expl">La créature équipée gagne +1/+1 par couleur parmi tes permanents (Oracle) ET tant qu'elle est équipée, tes adversaires ne peuvent pas lancer de sorts pendant TON tour — un verrou de tour complet.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/1/0/10407b26-be28-4628-9567-746681e5c834.jpg?1783906343" data-large="https://cards.scryfall.io/large/front/1/0/10407b26-be28-4628-9567-746681e5c834.jpg?1783906343" data-name="Red XIII, Proud Warrior" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Red XIII, Proud Warrior<span class="syn" style="color:#7ee787;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #7ee787;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.73</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Vigilance + piétinement (Oracle), et tes autres créatures modifiées (équipées, enchantées, avec marqueurs) les gagnent aussi. À l'arrivée, récupère une Aura ou un Équipement de ton cimetière.</div>
+      <div class="cb-body">
+        <div class="cb-name">Red XIII, Proud Warrior<span class="syn syn-hi" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.73</span></div>
+        <div class="cb-expl">Vigilance + piétinement (Oracle), et tes autres créatures modifiées (équipées, enchantées, avec marqueurs) les gagnent aussi. À l'arrivée, récupère une Aura ou un Équipement de ton cimetière.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/3/1/31513afc-329c-4913-8fcd-945c39ec82b2.jpg?1783906372" data-large="https://cards.scryfall.io/large/front/3/1/31513afc-329c-4913-8fcd-945c39ec82b2.jpg?1783906372" data-name="Tifa, Martial Artist" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Tifa, Martial Artist<span class="syn" style="color:#7ee787;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #7ee787;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.73</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Combat côtoié (melee) + quand une créature de force ≥ 7 que tu contrôles inflige des dégâts de combat : dégage toutes tes créatures ET phase de combat supplémentaire si c'est le premier combat — double les attaques de Cloud.</div>
+      <div class="cb-body">
+        <div class="cb-name">Tifa, Martial Artist<span class="syn syn-hi" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.73</span></div>
+        <div class="cb-expl">Combat côtoié (melee) + quand une créature de force ≥ 7 que tu contrôles inflige des dégâts de combat : dégage toutes tes créatures ET phase de combat supplémentaire si c'est le premier combat — double les attaques de Cloud.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/6/4/64401acc-d080-4763-b67a-95164c11c69e.jpg?1783915589" data-large="https://cards.scryfall.io/large/front/6/4/64401acc-d080-4763-b67a-95164c11c69e.jpg?1783915589" data-name="Sword of the Animist" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Sword of the Animist<span class="syn" style="color:#7ee787;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #7ee787;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.72</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">+1/+1 (Oracle) et à chaque attaque de la créature équipée, cherche un terrain de base engagé — Cloud rampe de 1 terrain par combat.</div>
+      <div class="cb-body">
+        <div class="cb-name">Sword of the Animist<span class="syn syn-hi" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.72</span></div>
+        <div class="cb-expl">+1/+1 (Oracle) et à chaque attaque de la créature équipée, cherche un terrain de base engagé — Cloud rampe de 1 terrain par combat.</div>
       </div>
     </div>
 </div></div>
@@ -148,63 +111,63 @@ strong{color:#fff;}
 <div class="summary">Les cartes les plus jouées : ramp, tutor équipement et protections.</div>
 <div class="card-grid">
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/7/a/7afc4a15-5ff8-457a-aa62-803b2d78d912.jpg?1783903228" data-large="https://cards.scryfall.io/large/front/7/a/7afc4a15-5ff8-457a-aa62-803b2d78d912.jpg?1783903228" data-name="Nature&#x27;s Lore" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Nature&#x27;s Lore<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.32</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Cherche une forêt dans ta bibliothèque et la met engagée sur le champ de bataille (Oracle) — ramp 2-mana.</div>
+      <div class="cb-body">
+        <div class="cb-name">Nature&#x27;s Lore<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.32</span></div>
+        <div class="cb-expl">Cherche une forêt dans ta bibliothèque et la met engagée sur le champ de bataille (Oracle) — ramp 2-mana.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/9/9/99155fae-507a-4eab-918a-bdee021e2262.jpg?1783906352" data-large="https://cards.scryfall.io/large/front/9/9/99155fae-507a-4eab-918a-bdee021e2262.jpg?1783906352" data-name="Bugenhagen, Wise Elder" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Bugenhagen, Wise Elder<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.60</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À ton entretien, si tu contrôles une créature de force ≥ 7 (Cloud équipé !), pioche une carte (Oracle). Et {T}: ajoute un mana de n'importe quelle couleur.</div>
+      <div class="cb-body">
+        <div class="cb-name">Bugenhagen, Wise Elder<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.60</span></div>
+        <div class="cb-expl">À ton entretien, si tu contrôles une créature de force ≥ 7 (Cloud équipé !), pioche une carte (Oracle). Et {T}: ajoute un mana de n'importe quelle couleur.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/2/c/2cf7e8a3-fad7-413d-b17c-7519a9cf5fb5.jpg?1783906652" data-large="https://cards.scryfall.io/large/front/2/c/2cf7e8a3-fad7-413d-b17c-7519a9cf5fb5.jpg?1783906652" data-name="Cloud, Midgar Mercenary" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Cloud, Midgar Mercenary<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.60</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À l'arrivée, cherche un Équipement dans ta bibliothèque (Oracle). Tant qu'il est équipé, les capacités déclenchées de Cloud et de ses équipements se déclenchent une fois de plus — double les effets de tes armes.</div>
+      <div class="cb-body">
+        <div class="cb-name">Cloud, Midgar Mercenary<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.60</span></div>
+        <div class="cb-expl">À l'arrivée, cherche un Équipement dans ta bibliothèque (Oracle). Tant qu'il est équipé, les capacités déclenchées de Cloud et de ses équipements se déclenchent une fois de plus — double les effets de tes armes.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/e/6/e60deb92-f7dd-4f4e-9036-e47dd586f985.jpg?1783903229" data-large="https://cards.scryfall.io/large/front/e/6/e60deb92-f7dd-4f4e-9036-e47dd586f985.jpg?1783903229" data-name="Cultivate" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Cultivate<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.18</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Cherche jusqu'à deux terrains de base : un engagé sur le champ de bataille, l'autre en main (Oracle).</div>
+      <div class="cb-body">
+        <div class="cb-name">Cultivate<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.18</span></div>
+        <div class="cb-expl">Cherche jusqu'à deux terrains de base : un engagé sur le champ de bataille, l'autre en main (Oracle).</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/c/6/c6548a30-577a-47e7-aa6e-8f6db1f7b78e.jpg?1783915603" data-large="https://cards.scryfall.io/large/front/c/6/c6548a30-577a-47e7-aa6e-8f6db1f7b78e.jpg?1783915603" data-name="Champion&#x27;s Helm" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Champion&#x27;s Helm<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.59</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">+2/+2 (Oracle). Tant que la créature équipée est légendaire (Cloud !), elle a la portée (hexproof) — protection contre les sorts ciblés adverses. Équip {1}.</div>
+      <div class="cb-body">
+        <div class="cb-name">Champion&#x27;s Helm<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.59</span></div>
+        <div class="cb-expl">+2/+2 (Oracle). Tant que la créature équipée est légendaire (Cloud !), elle a la portée (hexproof) — protection contre les sorts ciblés adverses. Équip {1}.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/b/6/b61634ae-05be-4b56-8ebb-9d4ade902e42.jpg?1783903217" data-large="https://cards.scryfall.io/large/front/b/6/b61634ae-05be-4b56-8ebb-9d4ade902e42.jpg?1783903217" data-name="Lightning Greaves" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Lightning Greaves<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.40</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">La créature équipée a la hâte et le linceul (shroud) (Oracle) — elle ne peut être ciblée par PERSONNE, même toi. Hâte pour frapper immédiatement, mais prévois de la dé-équiper pour la booster.</div>
+      <div class="cb-body">
+        <div class="cb-name">Lightning Greaves<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.40</span></div>
+        <div class="cb-expl">La créature équipée a la hâte et le linceul (shroud) (Oracle) — elle ne peut être ciblée par PERSONNE, même toi. Hâte pour frapper immédiatement, mais prévois de la dé-équiper pour la booster.</div>
       </div>
     </div>
 </div></div>
@@ -212,63 +175,63 @@ strong{color:#fff;}
 <div class="summary">Les créatures d'appui : tutors d'équipement, extra combats et gardes du corps.</div>
 <div class="card-grid">
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/9/7/97502411-5c93-434c-b77b-ceb2c32feae7.jpg?1783928291" data-large="https://cards.scryfall.io/large/front/9/7/97502411-5c93-434c-b77b-ceb2c32feae7.jpg?1783928291" data-name="Halvar, God of Battle" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Halvar, God of Battle<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.18</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Tes créatures enchantées/équipées ont la double frappe (Oracle). Au début de chaque combat, tu peux déplacer gratuitement une Aura/Équipement vers une autre de tes créatures — rééquipe Cloud à chaque combat.</div>
+      <div class="cb-body">
+        <div class="cb-name">Halvar, God of Battle<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.18</span></div>
+        <div class="cb-expl">Tes créatures enchantées/équipées ont la double frappe (Oracle). Au début de chaque combat, tu peux déplacer gratuitement une Aura/Équipement vers une autre de tes créatures — rééquipe Cloud à chaque combat.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/e/c/ec5e2680-8b42-4571-ab45-4936aec51901.jpg?1783915063" data-large="https://cards.scryfall.io/large/front/e/c/ec5e2680-8b42-4571-ab45-4936aec51901.jpg?1783915063" data-name="Kellan, the Fae-Blooded" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Kellan, the Fae-Blooded<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.24</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Double frappe + tes autres créatures gagnent +1/+0 par Aura/Équipement attaché à Kellan (Oracle). À l'arrivée, cherche une Aura ou un Équipement.</div>
+      <div class="cb-body">
+        <div class="cb-name">Kellan, the Fae-Blooded<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.24</span></div>
+        <div class="cb-expl">Double frappe + tes autres créatures gagnent +1/+0 par Aura/Équipement attaché à Kellan (Oracle). À l'arrivée, cherche une Aura ou un Équipement.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915" data-large="https://cards.scryfall.io/large/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915" data-name="Aurelia, the Warleader" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Aurelia, the Warleader<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.05</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Vol, vigilance, hâte (Oracle). Quand elle attaque pour la première fois, dégage tes créatures et il y a une phase de combat supplémentaire — double les attaques de Cloud et ses pioches.</div>
+      <div class="cb-body">
+        <div class="cb-name">Aurelia, the Warleader<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.05</span></div>
+        <div class="cb-expl">Vol, vigilance, hâte (Oracle). Quand elle attaque pour la première fois, dégage tes créatures et il y a une phase de combat supplémentaire — double les attaques de Cloud et ses pioches.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/4/d/4d3473d0-b46f-41f5-ac1e-ba217f7747d4.jpg?1783930209" data-large="https://cards.scryfall.io/large/front/4/d/4d3473d0-b46f-41f5-ac1e-ba217f7747d4.jpg?1783930209" data-name="Stoneforge Mystic" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Stoneforge Mystic<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.38</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À l'arrivée, cherche un Équipement (Oracle). {1}{W}, {T}: mets un Équipement de ta main sur le champ de bataille — le tutor + pose gratuite.</div>
+      <div class="cb-body">
+        <div class="cb-name">Stoneforge Mystic<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.38</span></div>
+        <div class="cb-expl">À l'arrivée, cherche un Équipement (Oracle). {1}{W}, {T}: mets un Équipement de ta main sur le champ de bataille — le tutor + pose gratuite.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/a/1/a11f77e4-edb6-43c6-b8ca-d4f62d26d0c0.jpg?1783915725" data-large="https://cards.scryfall.io/large/front/a/1/a11f77e4-edb6-43c6-b8ca-d4f62d26d0c0.jpg?1783915725" data-name="Danitha Capashen, Paragon" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Danitha Capashen, Paragon<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.40</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Première frappe, vigilance, lien de vie (Oracle). Tes sorts d'Aura et d'Équipement coûtent {1} de moins — la réduction tribale.</div>
+      <div class="cb-body">
+        <div class="cb-name">Danitha Capashen, Paragon<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.40</span></div>
+        <div class="cb-expl">Première frappe, vigilance, lien de vie (Oracle). Tes sorts d'Aura et d'Équipement coûtent {1} de moins — la réduction tribale.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/1/5/1582488a-ad15-487e-9271-6d9330b46fb4.jpg?1783903254" data-large="https://cards.scryfall.io/large/front/1/5/1582488a-ad15-487e-9271-6d9330b46fb4.jpg?1783903254" data-name="Bastion Protector" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Bastion Protector<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.41</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Tes créatures commandant (Cloud !) gagnent +2/+2 et ont l'indestructible (Oracle) — le garde du corps ultime.</div>
+      <div class="cb-body">
+        <div class="cb-name">Bastion Protector<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.41</span></div>
+        <div class="cb-expl">Tes créatures commandant (Cloud !) gagnent +2/+2 et ont l'indestructible (Oracle) — le garde du corps ultime.</div>
       </div>
     </div>
 </div></div>
@@ -276,63 +239,63 @@ strong{color:#fff;}
 <div class="summary">Removal et protection : garder Cloud et son armure en vie.</div>
 <div class="card-grid">
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/b/4/b4e9c870-23c0-413a-ae39-265f09da16d1.jpg?1783903243" data-large="https://cards.scryfall.io/large/front/b/4/b4e9c870-23c0-413a-ae39-265f09da16d1.jpg?1783903243" data-name="Swords to Plowshares" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Swords to Plowshares<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.07</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Exile une créature ciblée (Oracle) ; son contrôleur gagne de la vie égale à sa force. Le removal blanc de référence.</div>
+      <div class="cb-body">
+        <div class="cb-name">Swords to Plowshares<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.07</span></div>
+        <div class="cb-expl">Exile une créature ciblée (Oracle) ; son contrôleur gagne de la vie égale à sa force. Le removal blanc de référence.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/9/5/95ca89ea-1200-4bb4-ae4b-af35d3ccd35b.jpg?1783903242" data-large="https://cards.scryfall.io/large/front/9/5/95ca89ea-1200-4bb4-ae4b-af35d3ccd35b.jpg?1783903242" data-name="Path to Exile" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Path to Exile<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.13</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Exile une créature ciblée (Oracle) ; son contrôleur cherche un terrain de base. Second removal blanc.</div>
+      <div class="cb-body">
+        <div class="cb-name">Path to Exile<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.13</span></div>
+        <div class="cb-expl">Exile une créature ciblée (Oracle) ; son contrôleur cherche un terrain de base. Second removal blanc.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/e/3/e32c67d1-187f-40df-b3b3-6036f5c92834.jpg?1783915629" data-large="https://cards.scryfall.io/large/front/e/3/e32c67d1-187f-40df-b3b3-6036f5c92834.jpg?1783915629" data-name="Heroic Intervention" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Heroic Intervention<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.02</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Tes permanents gagnent la portée (hexproof) et l'indestructible jusqu'à la fin du tour (Oracle) — protège tout le board équipé.</div>
+      <div class="cb-body">
+        <div class="cb-name">Heroic Intervention<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.02</span></div>
+        <div class="cb-expl">Tes permanents gagnent la portée (hexproof) et l'indestructible jusqu'à la fin du tour (Oracle) — protège tout le board équipé.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/e/0/e0d8c9f6-cbbd-4694-b100-01cfb81036cc.jpg?1783908890" data-large="https://cards.scryfall.io/large/front/e/0/e0d8c9f6-cbbd-4694-b100-01cfb81036cc.jpg?1783908890" data-name="Boros Charm" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Boros Charm<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.00</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Choix : 4 dégâts à un joueur/PW, indestructible pour tes permanents, ou double frappe pour une créature (Oracle) — le mode indestructible sauve Cloud.</div>
+      <div class="cb-body">
+        <div class="cb-name">Boros Charm<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.00</span></div>
+        <div class="cb-expl">Choix : 4 dégâts à un joueur/PW, indestructible pour tes permanents, ou double frappe pour une créature (Oracle) — le mode indestructible sauve Cloud.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/a/b/ab12f69e-1491-47a8-8c46-d85bbf637ff6.jpg?1783915723" data-large="https://cards.scryfall.io/large/front/a/b/ab12f69e-1491-47a8-8c46-d85bbf637ff6.jpg?1783915723" data-name="Flawless Maneuver" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Flawless Maneuver<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.04</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Gratuit si tu contrôles un commandant (Oracle) — tes créatures gagnent l'indestructible. Le free-spell de protection.</div>
+      <div class="cb-body">
+        <div class="cb-name">Flawless Maneuver<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.04</span></div>
+        <div class="cb-expl">Gratuit si tu contrôles un commandant (Oracle) — tes créatures gagnent l'indestructible. Le free-spell de protection.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/6/0/608cdbdb-6f7e-438a-bab0-0e7782435f0f.jpg?1783913897" data-large="https://cards.scryfall.io/large/front/6/0/608cdbdb-6f7e-438a-bab0-0e7782435f0f.jpg?1783913897" data-name="Akroma&#x27;s Will" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Akroma&#x27;s Will<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.07</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Si tu contrôles un commandant, choisis deux modes : vol+vigilance+double frappe OU lien de vie+indestructible+protection contre chaque couleur (Oracle) — le finisher des attaques équipées.</div>
+      <div class="cb-body">
+        <div class="cb-name">Akroma&#x27;s Will<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.07</span></div>
+        <div class="cb-expl">Si tu contrôles un commandant, choisis deux modes : vol+vigilance+double frappe OU lien de vie+indestructible+protection contre chaque couleur (Oracle) — le finisher des attaques équipées.</div>
       </div>
     </div>
 </div></div>
@@ -340,63 +303,63 @@ strong{color:#fff;}
 <div class="summary">Ramp et recherche d'équipement.</div>
 <div class="card-grid">
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/e/6/e60deb92-f7dd-4f4e-9036-e47dd586f985.jpg?1783903229" data-large="https://cards.scryfall.io/large/front/e/6/e60deb92-f7dd-4f4e-9036-e47dd586f985.jpg?1783903229" data-name="Cultivate" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Cultivate<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.18</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Cherche jusqu'à deux terrains de base : un engagé, l'autre en main (Oracle).</div>
+      <div class="cb-body">
+        <div class="cb-name">Cultivate<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.18</span></div>
+        <div class="cb-expl">Cherche jusqu'à deux terrains de base : un engagé, l'autre en main (Oracle).</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/7/a/7afc4a15-5ff8-457a-aa62-803b2d78d912.jpg?1783903228" data-large="https://cards.scryfall.io/large/front/7/a/7afc4a15-5ff8-457a-aa62-803b2d78d912.jpg?1783903228" data-name="Nature&#x27;s Lore" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Nature&#x27;s Lore<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.32</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Cherche une forêt et la met engagée (Oracle).</div>
+      <div class="cb-body">
+        <div class="cb-name">Nature&#x27;s Lore<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.32</span></div>
+        <div class="cb-expl">Cherche une forêt et la met engagée (Oracle).</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/9/9/99bf792f-963e-4509-8d3c-7db129c6a77f.jpg?1783903227" data-large="https://cards.scryfall.io/large/front/9/9/99bf792f-963e-4509-8d3c-7db129c6a77f.jpg?1783903227" data-name="Three Visits" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Three Visits<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.10</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Cherche une forêt et la met engagée (Oracle) — la version améliorée de Nature's Lore.</div>
+      <div class="cb-body">
+        <div class="cb-name">Three Visits<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.10</span></div>
+        <div class="cb-expl">Cherche une forêt et la met engagée (Oracle) — la version améliorée de Nature's Lore.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/b/7/b7c47024-5e08-4b17-b41a-7647f8b814b9.jpg?1783907042" data-large="https://cards.scryfall.io/large/front/b/7/b7c47024-5e08-4b17-b41a-7647f8b814b9.jpg?1783907042" data-name="Rampant Growth" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Rampant Growth<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.20</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Cherche un terrain de base et le met engagé (Oracle).</div>
+      <div class="cb-body">
+        <div class="cb-name">Rampant Growth<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.20</span></div>
+        <div class="cb-expl">Cherche un terrain de base et le met engagé (Oracle).</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/6/d/6db45698-9da9-4cea-b9bf-0f84ab276b51.jpg?1783928877" data-large="https://cards.scryfall.io/large/front/6/d/6db45698-9da9-4cea-b9bf-0f84ab276b51.jpg?1783928877" data-name="Open the Armory" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Open the Armory<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.29</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Cherche une Aura ou un Équipement dans ta bibliothèque (Oracle) — tutor flexible.</div>
+      <div class="cb-body">
+        <div class="cb-name">Open the Armory<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.29</span></div>
+        <div class="cb-expl">Cherche une Aura ou un Équipement dans ta bibliothèque (Oracle) — tutor flexible.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/5/5/55d61383-b739-4422-a76c-d8cbca13c5b2.jpg?1783915711" data-large="https://cards.scryfall.io/large/front/5/5/55d61383-b739-4422-a76c-d8cbca13c5b2.jpg?1783915711" data-name="Steelshaper&#x27;s Gift" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Steelshaper&#x27;s Gift<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.35</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Cherche un Équipement (Oracle) — le tutor le plus direct du deck.</div>
+      <div class="cb-body">
+        <div class="cb-name">Steelshaper&#x27;s Gift<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.35</span></div>
+        <div class="cb-expl">Cherche un Équipement (Oracle) — le tutor le plus direct du deck.</div>
       </div>
     </div>
 </div></div>
@@ -404,63 +367,63 @@ strong{color:#fff;}
 <div class="summary">L'arsenal : les équipements qui font la force de Cloud.</div>
 <div class="card-grid">
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/b/6/b61634ae-05be-4b56-8ebb-9d4ade902e42.jpg?1783903217" data-large="https://cards.scryfall.io/large/front/b/6/b61634ae-05be-4b56-8ebb-9d4ade902e42.jpg?1783903217" data-name="Lightning Greaves" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Lightning Greaves<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.40</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Hâte + linceul (shroud) (Oracle) — voir catégorie Top Cards.</div>
+      <div class="cb-body">
+        <div class="cb-name">Lightning Greaves<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.40</span></div>
+        <div class="cb-expl">Hâte + linceul (shroud) (Oracle) — voir catégorie Top Cards.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/8/9/897a134e-7e61-4fe1-bbae-23ef1fe5c0cf.jpg?1783926175" data-large="https://cards.scryfall.io/large/front/8/9/897a134e-7e61-4fe1-bbae-23ef1fe5c0cf.jpg?1783926175" data-name="Colossus Hammer" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Colossus Hammer<span class="syn" style="color:#7ee787;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #7ee787;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.82</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">+10/+10 (Oracle) — voir catégorie High Synergy.</div>
+      <div class="cb-body">
+        <div class="cb-name">Colossus Hammer<span class="syn syn-hi" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.82</span></div>
+        <div class="cb-expl">+10/+10 (Oracle) — voir catégorie High Synergy.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/c/6/c6548a30-577a-47e7-aa6e-8f6db1f7b78e.jpg?1783915603" data-large="https://cards.scryfall.io/large/front/c/6/c6548a30-577a-47e7-aa6e-8f6db1f7b78e.jpg?1783915603" data-name="Champion&#x27;s Helm" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Champion&#x27;s Helm<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.59</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">+2/+2 + hexproof si légendaire (Oracle) — voir catégorie Top Cards.</div>
+      <div class="cb-body">
+        <div class="cb-name">Champion&#x27;s Helm<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.59</span></div>
+        <div class="cb-expl">+2/+2 + hexproof si légendaire (Oracle) — voir catégorie Top Cards.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218" data-large="https://cards.scryfall.io/large/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218" data-name="Helm of the Host" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Helm of the Host<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.14</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Au début de ton combat, crée un jeton copie de la créature équipée, non-légendaire, avec hâte (Oracle) — double Cloud à chaque combat.</div>
+      <div class="cb-body">
+        <div class="cb-name">Helm of the Host<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.14</span></div>
+        <div class="cb-expl">Au début de ton combat, crée un jeton copie de la créature équipée, non-légendaire, avec hâte (Oracle) — double Cloud à chaque combat.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/c/7/c7710eb5-c56a-437b-8847-2a829c404d47.jpg?1783930094" data-large="https://cards.scryfall.io/large/front/c/7/c7710eb5-c56a-437b-8847-2a829c404d47.jpg?1783930094" data-name="Sword of Feast and Famine" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Sword of Feast and Famine<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.36</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">+2/+2, protection contre le noir et le vert (Oracle). Au contact : l'adversaire défausse une carte et tu dégages tous tes terrains — la pièce du combo Aggravated Assault (combats infinis).</div>
+      <div class="cb-body">
+        <div class="cb-name">Sword of Feast and Famine<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.36</span></div>
+        <div class="cb-expl">+2/+2, protection contre le noir et le vert (Oracle). Au contact : l'adversaire défausse une carte et tu dégages tous tes terrains — la pièce du combo Aggravated Assault (combats infinis).</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/a/1/a16fabbe-4557-4067-b882-f2e5dbd8b458.jpg?1783926799" data-large="https://cards.scryfall.io/large/front/a/1/a16fabbe-4557-4067-b882-f2e5dbd8b458.jpg?1783926799" data-name="Sword of Hearth and Home" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Sword of Hearth and Home<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.11</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">+2/+2, protection contre le vert et le blanc (Oracle). Au contact : exile une créature que tu possèdes, puis cherche un terrain de base — blink + ramp.</div>
+      <div class="cb-body">
+        <div class="cb-name">Sword of Hearth and Home<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.11</span></div>
+        <div class="cb-expl">+2/+2, protection contre le vert et le blanc (Oracle). Au contact : exile une créature que tu possèdes, puis cherche un terrain de base — blink + ramp.</div>
       </div>
     </div>
 </div></div>
@@ -468,63 +431,63 @@ strong{color:#fff;}
 <div class="summary">Moteurs d'équipement gratuit et extra combats.</div>
 <div class="card-grid">
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/5/6/56274b88-6e3f-4538-bb0c-eb5e52a58ef3.jpg?1783916332" data-large="https://cards.scryfall.io/large/front/5/6/56274b88-6e3f-4538-bb0c-eb5e52a58ef3.jpg?1783916332" data-name="Forge Anew" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Forge Anew<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.52</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À l'arrivée, renvoie un Équipement de ton cimetière sur le champ de bataille (Oracle). Pendant TON tour, équipement à vitesse éclair + le premier équipement de chaque tour coûte {0}.</div>
+      <div class="cb-body">
+        <div class="cb-name">Forge Anew<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.52</span></div>
+        <div class="cb-expl">À l'arrivée, renvoie un Équipement de ton cimetière sur le champ de bataille (Oracle). Pendant TON tour, équipement à vitesse éclair + le premier équipement de chaque tour coûte {0}.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/5/3/531da950-dc96-4050-94a8-e01b73ddd965.jpg?1783928726" data-large="https://cards.scryfall.io/large/front/5/3/531da950-dc96-4050-94a8-e01b73ddd965.jpg?1783928726" data-name="Sigarda&#x27;s Aid" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Sigarda&#x27;s Aid<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.44</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Tes sorts d'Aura et d'Équipement ont le flash (Oracle) + à chaque équipement qui entre, tu peux l'attacher gratuitement à une créature — équipement à vitesse éclair.</div>
+      <div class="cb-body">
+        <div class="cb-name">Sigarda&#x27;s Aid<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.44</span></div>
+        <div class="cb-expl">Tes sorts d'Aura et d'Équipement ont le flash (Oracle) + à chaque équipement qui entre, tu peux l'attacher gratuitement à une créature — équipement à vitesse éclair.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/d/5/d54a8329-b940-42c9-8ace-1d74407d14cb.jpg?1783926448" data-large="https://cards.scryfall.io/large/front/d/5/d54a8329-b940-42c9-8ace-1d74407d14cb.jpg?1783926448" data-name="Fighter Class" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Fighter Class<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.22</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À l'arrivée, cherche un Équipement (Oracle). Niveau 2 : équiper coûte {2} de moins. Niveau 3 : quand une créature attaque, force un bloqueur unique — isole Cloud pour le contact.</div>
+      <div class="cb-body">
+        <div class="cb-name">Fighter Class<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.22</span></div>
+        <div class="cb-expl">À l'arrivée, cherche un Équipement (Oracle). Niveau 2 : équiper coûte {2} de moins. Niveau 3 : quand une créature attaque, force un bloqueur unique — isole Cloud pour le contact.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060" data-large="https://cards.scryfall.io/large/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060" data-name="Aggravated Assault" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Aggravated Assault<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.10</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{3}{R}{R} : dégage tes créatures + phase de combat supplémentaire suivie d'une phase principale (Oracle). Combo avec Sword of Feast and Famine : contact → dégagement des terrains → re-paiement → combats infinis.</div>
+      <div class="cb-body">
+        <div class="cb-name">Aggravated Assault<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.10</span></div>
+        <div class="cb-expl">{3}{R}{R} : dégage tes créatures + phase de combat supplémentaire suivie d'une phase principale (Oracle). Combo avec Sword of Feast and Famine : contact → dégagement des terrains → re-paiement → combats infinis.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/1/6/1624a5f4-f5bc-47c9-85de-c5520ee234ce.jpg?1783911799" data-large="https://cards.scryfall.io/large/front/1/6/1624a5f4-f5bc-47c9-85de-c5520ee234ce.jpg?1783911799" data-name="Annie Joins Up" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Annie Joins Up<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.09</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À l'arrivée : 5 dégâts à une créature/PW adverse (Oracle). Puis les capacités déclenchées de tes créatures légendaires se déclenchent une fois de plus — double les déclenchements de Cloud.</div>
+      <div class="cb-body">
+        <div class="cb-name">Annie Joins Up<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.09</span></div>
+        <div class="cb-expl">À l'arrivée : 5 dégâts à une créature/PW adverse (Oracle). Puis les capacités déclenchées de tes créatures légendaires se déclenchent une fois de plus — double les déclenchements de Cloud.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/3/f/3f65afa5-e4f7-49c2-97f9-47ad5dbcacfa.jpg?1783912396" data-large="https://cards.scryfall.io/large/front/3/f/3f65afa5-e4f7-49c2-97f9-47ad5dbcacfa.jpg?1783912396" data-name="Strong Back" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Strong Back<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.02</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Équiper la créature enchantée coûte {3} de moins (Oracle) + elle gagne +2/+2 pour chaque Aura et Équipement qui lui est attaché — grossit avec chaque arme.</div>
+      <div class="cb-body">
+        <div class="cb-name">Strong Back<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.02</span></div>
+        <div class="cb-expl">Équiper la créature enchantée coûte {3} de moins (Oracle) + elle gagne +2/+2 pour chaque Aura et Équipement qui lui est attaché — grossit avec chaque arme.</div>
       </div>
     </div>
 </div></div>
@@ -532,63 +495,63 @@ strong{color:#fff;}
 <div class="summary">Terrains utilitaires : imblocabilité, buffs et anti-cimetière.</div>
 <div class="card-grid">
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/4/4/4493b62b-f354-47ff-9dcf-cc6e29de77c6.jpg?1785497634" data-large="https://cards.scryfall.io/large/front/4/4/4493b62b-f354-47ff-9dcf-cc6e29de77c6.jpg?1785497634" data-name="Rogue&#x27;s Passage" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Rogue&#x27;s Passage<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.07</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{4}, {T}: une créature ciblée ne peut pas être bloquée ce tour-ci (Oracle) — garantit le contact de Cloud.</div>
+      <div class="cb-body">
+        <div class="cb-name">Rogue&#x27;s Passage<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.07</span></div>
+        <div class="cb-expl">{4}, {T}: une créature ciblée ne peut pas être bloquée ce tour-ci (Oracle) — garantit le contact de Cloud.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/3/b/3b2c82ea-6793-407c-ac9f-5fc14d4d09ea.jpg?1783912951" data-large="https://cards.scryfall.io/large/front/3/b/3b2c82ea-6793-407c-ac9f-5fc14d4d09ea.jpg?1783912951" data-name="Slayers&#x27; Stronghold" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Slayers&#x27; Stronghold<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.50</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{R}{W}, {T}: une créature gagne +2/+0, vigilance et hâte jusqu'à la fin du tour (Oracle) — buff combat.</div>
+      <div class="cb-body">
+        <div class="cb-name">Slayers&#x27; Stronghold<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.50</span></div>
+        <div class="cb-expl">{R}{W}, {T}: une créature gagne +2/+0, vigilance et hâte jusqu'à la fin du tour (Oracle) — buff combat.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/3/2/32da0d6c-64dd-4aec-b63e-953e96164603.jpg?1783906980" data-large="https://cards.scryfall.io/large/front/3/2/32da0d6c-64dd-4aec-b63e-953e96164603.jpg?1783906980" data-name="Kessig Wolf Run" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Kessig Wolf Run<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.07</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{X}{R}{G}, {T}: une créature gagne +X/+0 et piétinement (Oracle) — le finisher surprise.</div>
+      <div class="cb-body">
+        <div class="cb-name">Kessig Wolf Run<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.07</span></div>
+        <div class="cb-expl">{X}{R}{G}, {T}: une créature gagne +X/+0 et piétinement (Oracle) — le finisher surprise.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/c/1/c1e0f201-42cb-46a1-901a-65bb4fc18f6c.jpg?1783926791" data-large="https://cards.scryfall.io/large/front/c/1/c1e0f201-42cb-46a1-901a-65bb4fc18f6c.jpg?1783926791" data-name="Urza&#x27;s Saga" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Urza&#x27;s Saga<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.04</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Saga en 3 étapes : mana incolore, puis jeton Construct 0/0 qui grossit avec tes artefacts, puis cherche un artefact à coût ≤ 1 (Oracle) — trouve Sol Ring ou un équipement clé.</div>
+      <div class="cb-body">
+        <div class="cb-name">Urza&#x27;s Saga<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.04</span></div>
+        <div class="cb-expl">Saga en 3 étapes : mana incolore, puis jeton Construct 0/0 qui grossit avec tes artefacts, puis cherche un artefact à coût ≤ 1 (Oracle) — trouve Sol Ring ou un équipement clé.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/9/f/9fbe68ba-ffe5-4fe0-ac0a-0b3221e4f395.jpg?1783903197" data-large="https://cards.scryfall.io/large/front/9/f/9fbe68ba-ffe5-4fe0-ac0a-0b3221e4f395.jpg?1783903197" data-name="Scavenger Grounds" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Scavenger Grounds<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.34</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{2}, {T}, sacrifie un Désert : exile tous les cimetières (Oracle) — anti-récursion.</div>
+      <div class="cb-body">
+        <div class="cb-name">Scavenger Grounds<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.34</span></div>
+        <div class="cb-expl">{2}, {T}, sacrifie un Désert : exile tous les cimetières (Oracle) — anti-récursion.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/e/2/e2a27742-08c1-4153-af7f-25a7a98f585e.jpg?1783903721" data-large="https://cards.scryfall.io/large/front/e/2/e2a27742-08c1-4153-af7f-25a7a98f585e.jpg?1783903721" data-name="Reliquary Tower" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Reliquary Tower<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.07</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Pas de limite de main (Oracle) — garde ta pioche massive.</div>
+      <div class="cb-body">
+        <div class="cb-name">Reliquary Tower<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.07</span></div>
+        <div class="cb-expl">Pas de limite de main (Oracle) — garde ta pioche massive.</div>
       </div>
     </div>
 </div></div>
@@ -596,72 +559,72 @@ strong{color:#fff;}
 <div class="summary">La base Naya : shocks, fetches et terrains doubles.</div>
 <div class="card-grid">
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/0/5/0548fb60-c843-4f8f-a029-6f10efc63a41.jpg?1783903206" data-large="https://cards.scryfall.io/large/front/0/5/0548fb60-c843-4f8f-a029-6f10efc63a41.jpg?1783903206" data-name="Command Tower" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Command Tower<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.07</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{T}: ajoute un mana de n'importe quelle couleur de ton identité (Oracle) — le meilleur terrain du format.</div>
+      <div class="cb-body">
+        <div class="cb-name">Command Tower<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.07</span></div>
+        <div class="cb-expl">{T}: ajoute un mana de n'importe quelle couleur de ton identité (Oracle) — le meilleur terrain du format.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/1/e/1ee8255a-44f6-4faa-9843-15432bf751ea.jpg?1784065855" data-large="https://cards.scryfall.io/large/front/1/e/1ee8255a-44f6-4faa-9843-15432bf751ea.jpg?1784065855" data-name="Stomping Ground" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Stomping Ground<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.05</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{T}: ajoute {R} ou {G} (Oracle) — shockland rouge/vert, entre dégagé contre 2 PV.</div>
+      <div class="cb-body">
+        <div class="cb-name">Stomping Ground<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.05</span></div>
+        <div class="cb-expl">{T}: ajoute {R} ou {G} (Oracle) — shockland rouge/vert, entre dégagé contre 2 PV.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/b/9/b9b0589d-f327-46a7-8bac-06b7654c547a.jpg?1784036854" data-large="https://cards.scryfall.io/large/front/b/9/b9b0589d-f327-46a7-8bac-06b7654c547a.jpg?1784036854" data-name="Temple Garden" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Temple Garden<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.06</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{T}: ajoute {G} ou {W} (Oracle) — shockland blanc/vert.</div>
+      <div class="cb-body">
+        <div class="cb-name">Temple Garden<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.06</span></div>
+        <div class="cb-expl">{T}: ajoute {G} ou {W} (Oracle) — shockland blanc/vert.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/a/7/a7758cc6-4e18-48a5-8720-5f42b5cd9d31.jpg?1784036842" data-large="https://cards.scryfall.io/large/front/a/7/a7758cc6-4e18-48a5-8720-5f42b5cd9d31.jpg?1784036842" data-name="Sacred Foundry" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Sacred Foundry<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.01</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{T}: ajoute {R} ou {W} (Oracle) — shockland blanc/rouge.</div>
+      <div class="cb-body">
+        <div class="cb-name">Sacred Foundry<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.01</span></div>
+        <div class="cb-expl">{T}: ajoute {R} ou {W} (Oracle) — shockland blanc/rouge.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/4/e/4e11ea8a-f895-438d-a3b7-f070238e4161.jpg?1783911232" data-large="https://cards.scryfall.io/large/front/4/e/4e11ea8a-f895-438d-a3b7-f070238e4161.jpg?1783911232" data-name="Wooded Foothills" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Wooded Foothills<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.05</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Paye 1 PV, sacrifie : cherche une Montagne ou une Forêt (Oracle) — fetch rouge/vert.</div>
+      <div class="cb-body">
+        <div class="cb-name">Wooded Foothills<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.05</span></div>
+        <div class="cb-expl">Paye 1 PV, sacrifie : cherche une Montagne ou une Forêt (Oracle) — fetch rouge/vert.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/b/d/bd1d13f7-fd38-4f0b-a8e0-1eac78668117.jpg?1783911233" data-large="https://cards.scryfall.io/large/front/b/d/bd1d13f7-fd38-4f0b-a8e0-1eac78668117.jpg?1783911233" data-name="Windswept Heath" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Windswept Heath<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.05</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Paye 1 PV, sacrifie : cherche une Forêt ou une Plaine (Oracle) — fetch blanc/vert.</div>
+      <div class="cb-body">
+        <div class="cb-name">Windswept Heath<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.05</span></div>
+        <div class="cb-expl">Paye 1 PV, sacrifie : cherche une Forêt ou une Plaine (Oracle) — fetch blanc/vert.</div>
       </div>
     </div>
 </div></div>
 <h2 id="s4">4. Combos pertinents (4)</h2>
-<p style="color:#999;">Filtre : identité compatible + chevauchement avec les cartes EDHREC + 2-4 cartes + popularité ≥ 100. 📋 copie la liste des cartes du combo.</p>
+<p class="report-sub">Filtre : identité compatible + chevauchement avec les cartes EDHREC + 2-4 cartes + popularité ≥ 100. 📋 copie la liste des cartes du combo.</p>
 <div class="combo">
 <h3>🔗 Sword of Feast and Famine + Aggravated Assault <button class="copy-btn" data-copy="Sword of Feast and Famine, Aggravated Assault" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
 <div class="meta">Identité R · Popularité : 34059 decks</div>
-<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/c/7/c7710eb5-c56a-437b-8847-2a829c404d47.jpg?1783930094" data-large="https://cards.scryfall.io/large/front/c/7/c7710eb5-c56a-437b-8847-2a829c404d47.jpg?1783930094" data-name="Sword of Feast and Famine" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Sword of Feast and Famine</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060" data-large="https://cards.scryfall.io/large/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060" data-name="Aggravated Assault" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Aggravated Assault</div></div></div>
+<div class="center"><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/c/7/c7710eb5-c56a-437b-8847-2a829c404d47.jpg?1783930094" data-large="https://cards.scryfall.io/large/front/c/7/c7710eb5-c56a-437b-8847-2a829c404d47.jpg?1783930094" data-name="Sword of Feast and Famine" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Sword of Feast and Famine</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060" data-large="https://cards.scryfall.io/large/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060" data-name="Aggravated Assault" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Aggravated Assault</div></div></div>
 <div class="result"><strong>Produit</strong> : </div>
 <div class="step"><strong>Prérequis</strong> : Sword of Feast and Famine attached to a creature that can attack this turn.
 An opponent is unable to block and kill the creature with Sword of Feast and Famine attached.
@@ -669,18 +632,18 @@ Lands you control can tap to produce at least {3}{R}{R}.</div>
 <div class="step"><strong>Exécution</strong> : Deal combat damage to an opponent with the creature that has Sword of Feast and Famine attached.
 Sword of Feast and Famine triggers, causing that opponent to discard a card, and you to untap all lands you control.
 Proceed to your postcombat main phase.
-Activate all mana producing lands you control by tapping them, adding at least <img src="https://svgs.scryfall.io/card-symbols/3.svg" alt="3" title="3" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/R.svg" alt="R" title="R" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/R.svg" alt="R" title="R" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
-Activate Aggravated Assault by paying <img src="https://svgs.scryfall.io/card-symbols/3.svg" alt="3" title="3" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/R.svg" alt="R" title="R" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/R.svg" alt="R" title="R" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>, untapping all creatures you control and causing you to get an additional combat and main phase after this phase.
+Activate all mana producing lands you control by tapping them, adding at least <img src="https://svgs.scryfall.io/card-symbols/3.svg" alt="3" title="3" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/R.svg" alt="R" title="R" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/R.svg" alt="R" title="R" class="ms"/>.
+Activate Aggravated Assault by paying <img src="https://svgs.scryfall.io/card-symbols/3.svg" alt="3" title="3" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/R.svg" alt="R" title="R" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/R.svg" alt="R" title="R" class="ms"/>, untapping all creatures you control and causing you to get an additional combat and main phase after this phase.
 Repeat.</div>
 </div>
 <div class="combo">
 <h3>🔗 Crackdown Construct + Puresteel Paladin <button class="copy-btn" data-copy="Crackdown Construct, Puresteel Paladin" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
 <div class="meta">Identité W · Popularité : 1124 decks</div>
-<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/9/9/993bc69a-b615-48c5-af81-252a73384e8c.jpg?1783936730" data-large="https://cards.scryfall.io/large/front/9/9/993bc69a-b615-48c5-af81-252a73384e8c.jpg?1783936730" data-name="Crackdown Construct" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Crackdown Construct</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/d/8/d8f8a324-006d-4cb8-9816-620a603b4229.jpg?1783915714" data-large="https://cards.scryfall.io/large/front/d/8/d8f8a324-006d-4cb8-9816-620a603b4229.jpg?1783915714" data-name="Puresteel Paladin" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Puresteel Paladin</div></div></div>
+<div class="center"><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/9/9/993bc69a-b615-48c5-af81-252a73384e8c.jpg?1783936730" data-large="https://cards.scryfall.io/large/front/9/9/993bc69a-b615-48c5-af81-252a73384e8c.jpg?1783936730" data-name="Crackdown Construct" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Crackdown Construct</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/d/8/d8f8a324-006d-4cb8-9816-620a603b4229.jpg?1783915714" data-large="https://cards.scryfall.io/large/front/d/8/d8f8a324-006d-4cb8-9816-620a603b4229.jpg?1783915714" data-name="Puresteel Paladin" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Puresteel Paladin</div></div></div>
 <div class="result"><strong>Produit</strong> : </div>
 <div class="step"><strong>Prérequis</strong> : You control an Equipment.
 You control at least three artifacts.</div>
-<div class="step"><strong>Exécution</strong> : Activate the Equipment by paying <img src="https://svgs.scryfall.io/card-symbols/0.svg" alt="0" title="0" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>, targeting Crackdown Construct.
+<div class="step"><strong>Exécution</strong> : Activate the Equipment by paying <img src="https://svgs.scryfall.io/card-symbols/0.svg" alt="0" title="0" class="ms"/>, targeting Crackdown Construct.
 Crackdown Construct triggers, giving itself +1/+1 until end of turn.
 Resolve the equip ability, attaching the Equipment to Crackdown Construct.
 Repeat.</div>
@@ -688,7 +651,7 @@ Repeat.</div>
 <div class="combo">
 <h3>🔗 Aurelia, the Warleader + Helm of the Host <button class="copy-btn" data-copy="Aurelia, the Warleader, Helm of the Host" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
 <div class="meta">Identité RW · Popularité : 30396 decks</div>
-<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915" data-large="https://cards.scryfall.io/large/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915" data-name="Aurelia, the Warleader" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Aurelia, the Warleader</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218" data-large="https://cards.scryfall.io/large/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218" data-name="Helm of the Host" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Helm of the Host</div></div></div>
+<div class="center"><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915" data-large="https://cards.scryfall.io/large/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915" data-name="Aurelia, the Warleader" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Aurelia, the Warleader</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218" data-large="https://cards.scryfall.io/large/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218" data-name="Helm of the Host" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Helm of the Host</div></div></div>
 <div class="result"><strong>Produit</strong> :  ·  ·  ·  · </div>
 <div class="step"><strong>Prérequis</strong> : Helm attached to Aurelia.</div>
 <div class="step"><strong>Exécution</strong> : At the beginning of your combat phase, Helm of the Host triggers, creating a nonlegendary token copy of Aurelia.
@@ -699,7 +662,7 @@ Repeat each combat phase.</div>
 <div class="combo">
 <h3>🔗 Aurelia, the Warleader + Sword of Hearth and Home <button class="copy-btn" data-copy="Aurelia, the Warleader, Sword of Hearth and Home" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
 <div class="meta">Identité RW · Popularité : 11985 decks</div>
-<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915" data-large="https://cards.scryfall.io/large/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915" data-name="Aurelia, the Warleader" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Aurelia, the Warleader</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/a/1/a16fabbe-4557-4067-b882-f2e5dbd8b458.jpg?1783926799" data-large="https://cards.scryfall.io/large/front/a/1/a16fabbe-4557-4067-b882-f2e5dbd8b458.jpg?1783926799" data-name="Sword of Hearth and Home" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Sword of Hearth and Home</div></div></div>
+<div class="center"><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915" data-large="https://cards.scryfall.io/large/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915" data-name="Aurelia, the Warleader" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Aurelia, the Warleader</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/a/1/a16fabbe-4557-4067-b882-f2e5dbd8b458.jpg?1783926799" data-large="https://cards.scryfall.io/large/front/a/1/a16fabbe-4557-4067-b882-f2e5dbd8b458.jpg?1783926799" data-name="Sword of Hearth and Home" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Sword of Hearth and Home</div></div></div>
 <div class="result"><strong>Produit</strong> :  ·  ·  ·  · </div>
 <div class="step"><strong>Prérequis</strong> : Sword of Hearth and Home attached to any other creature you control.
 The creature with Sword of Hearth and Home attached can attack this turn.
@@ -711,7 +674,7 @@ Sword of Hearth and Home triggers, blinking Aurelia and searching your library f
 Repeat each combat phase.</div>
 </div>
 <div class="warning"><strong>⚠️ Note</strong> : 110 combos Naya écartés (chevauchement insuffisant, 5+ cartes, popularité faible, ou pièces hors-plan) et 66 hors-couleurs.</div>
-<p style="color:#666;font-size:12px;margin-top:30px;border-top:1px solid #2d2d44;padding-top:12px;">
+<p class="report-footer">
 Rapport v2 généré le 06/08/2026 à 08:50 · Sources : Scryfall API (noms, textes Oracle, images, symboles officiels) · EDHREC (données, scores de synergie) · Commander Spellbook (combos) · EDHREC Articles (guides)<br>
 Toutes les images et symboles proviennent des serveurs officiels Scryfall. Les explications sont vérifiées contre les textes Oracle.</p>
 <div id="modal" onclick="closeModal()">

@@ -1,0 +1,320 @@
+/* ============================================================
+   EDH Primers — Rapports Commander (fiche + plan + catégories + combos)
+   Usage : <link rel="stylesheet" href="../css/theme.css">
+           <link rel="stylesheet" href="../css/report.css">
+   ============================================================ */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: linear-gradient(160deg, #10101c, var(--bg-3) 60%, #16213e);
+  color: var(--text);
+  font-family: var(--font);
+  padding: 28px;
+  max-width: 1200px;
+  margin: 0 auto;
+  line-height: 1.55;
+}
+
+h1 {
+  color: var(--accent-green);
+  font-size: 30px;
+  border-bottom: 3px solid #2d6a4f;
+  padding-bottom: 12px;
+}
+h2 {
+  color: var(--accent-blue);
+  font-size: 22px;
+  margin-top: 38px;
+  border-bottom: 1px solid var(--border-strong);
+  padding-bottom: 8px;
+}
+h3 {
+  color: var(--accent-gold);
+  font-size: 17px;
+  margin-top: 22px;
+}
+
+table { border-collapse: collapse; margin: 14px 0; width: auto; }
+td, th { border: 1px solid #33335a; padding: 8px 14px; font-size: 14px; }
+th {
+  background: #1f1f3a;
+  color: var(--accent-blue);
+  text-align: left;
+}
+
+.oracle {
+  background: var(--bg-inset);
+  border-left: 4px solid var(--accent-green);
+  padding: 14px 18px;
+  border-radius: 8px;
+  font-style: italic;
+  color: #c8d6e5;
+  margin: 14px 0;
+}
+
+.plan {
+  background: #151528;
+  border-radius: var(--radius);
+  padding: 18px 22px;
+  margin: 16px 0;
+  border: 1px solid var(--border-strong);
+}
+.plan.chosen {
+  border: 2px solid var(--accent-green);
+  background: #14211a;
+}
+.badge {
+  display: inline-block;
+  background: #2d6a4f;
+  color: var(--text-strong);
+  border-radius: 20px;
+  padding: 3px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+.combo {
+  background: #131a2b;
+  border: 1px solid #2d4a5a;
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  margin: 14px 0;
+}
+.combo h3 { color: var(--accent-green); font-size: 15px; }
+.combo .meta { color: var(--text-muted); font-size: 12px; margin-bottom: 8px; }
+
+.step {
+  background: var(--bg-inset);
+  border-radius: 8px;
+  padding: 8px 14px;
+  margin: 6px 0;
+  border-left: 3px solid var(--accent-blue);
+  font-size: 13px;
+}
+.result {
+  background: #14211a;
+  border-left: 4px solid var(--accent-green);
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin: 8px 0;
+  font-size: 13px;
+}
+.warning {
+  background: #2a1f12;
+  border-left: 4px solid var(--accent-gold);
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #e8d5b0;
+  margin: 10px 0;
+}
+.source {
+  background: #121a2e;
+  border-left: 4px solid var(--accent-blue);
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #b8c8e8;
+  margin: 10px 0;
+}
+
+.category {
+  background: var(--bg-card-solid);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  margin: 14px 0;
+  border: 1px solid var(--border-strong);
+}
+.category .summary {
+  color: var(--text-soft);
+  font-size: 14px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed var(--border-strong);
+}
+.category h3 { margin-top: 6px; }
+
+ul { margin: 6px 0 6px 20px; }
+li { margin: 3px 0; }
+strong { color: var(--text-strong); }
+
+.card-block { transition: transform .15s; }
+.card-block:hover {
+  transform: translateY(-2px);
+  border-color: #3d3d6a !important;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 10px;
+  margin-top: 6px;
+}
+@media (max-width: 700px) { .card-grid { grid-template-columns: 1fr; } }
+
+.toc {
+  background: #151528;
+  border-radius: var(--radius);
+  padding: 16px 24px;
+  border: 1px solid var(--border-strong);
+}
+.toc a { color: var(--accent-blue); text-decoration: none; }
+
+/* Modale plein écran (zoom cartes) */
+#modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0, 0, 0, .92);
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+}
+#modal.open { display: flex; }
+#modal img {
+  max-width: 92vw;
+  max-height: 92vh;
+  border-radius: 14px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, .8);
+}
+#modal .caption {
+  position: absolute;
+  bottom: 18px; left: 0; right: 0;
+  text-align: center;
+  color: #ddd;
+  font-size: 15px;
+  font-weight: 600;
+  text-shadow: 0 2px 6px #000;
+  pointer-events: none;
+}
+#modal .hint {
+  position: absolute;
+  top: 14px; right: 20px;
+  color: #888;
+  font-size: 13px;
+}
+
+/* Boutons 📋 copie */
+.copy-btn {
+  background: none;
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 13px;
+  padding: 2px 8px;
+  vertical-align: middle;
+  transition: all .15s;
+}
+.copy-btn:hover {
+  border-color: var(--accent-blue);
+  background: #1f1f3a;
+  transform: scale(1.1);
+}
+.copied {
+  background: #2d6a4f !important;
+  border-color: var(--accent-green) !important;
+}
+
+/* Sous-titre du rapport (inline historique → classé) */
+.report-sub {
+  color: #999;
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* ============================================================
+   Composants des rapports (ex-styles inline du générateur)
+   ============================================================ */
+
+/* Bloc carte horizontal : image à gauche, texte à droite */
+.card-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin: 10px 0;
+  background: var(--bg-inset);
+  border: 1px solid #232342;
+  border-radius: var(--radius);
+  padding: 10px;
+  text-align: left;
+}
+.card-block img {
+  width: 150px;
+  min-width: 150px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .4);
+  cursor: zoom-in;
+}
+.cb-body { flex: 1; }
+.cb-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent-gold);
+}
+.cb-expl {
+  font-size: 12px;
+  color: #c8d0e8;
+  margin-top: 6px;
+  line-height: 1.5;
+}
+
+/* Badge de synergie EDHREC */
+.syn {
+  font-size: 11px;
+  font-weight: 700;
+  margin-left: 8px;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 1px 8px;
+  white-space: nowrap;
+}
+.syn-hi  { color: var(--accent-green); border-color: var(--accent-green); }
+.syn-mid { color: var(--accent-gold);  border-color: var(--accent-gold); }
+.syn-lo  { color: var(--text-muted);   border-color: var(--text-muted); }
+
+/* Grande carte (fiche commander, plan, combos) */
+.big-card {
+  display: inline-block;
+  text-align: center;
+  margin: 8px;
+  vertical-align: top;
+}
+.big-card img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .5);
+  cursor: zoom-in;
+}
+.big-card .big-label {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 5px;
+  color: #ddd;
+}
+
+/* Symboles de mana (SVG Scryfall) */
+.ms {
+  height: 1.1em;
+  vertical-align: -0.18em;
+  display: inline-block;
+  margin: 0 1px;
+}
+
+/* Utilitaire centrage */
+.center { text-align: center; }
+
+/* Sommaire */
+.toc-h3 { margin-top: 6px; }
+
+/* Pied de rapport */
+.report-footer {
+  color: #666;
+  font-size: 12px;
+  margin-top: 30px;
+  border-top: 1px solid var(--border-strong);
+  padding-top: 12px;
+}

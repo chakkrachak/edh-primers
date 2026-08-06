@@ -1,0 +1,42 @@
+/* ============================================================
+   EDH Primers — Theme tokens (shared by index + reports)
+   Chargé en premier par toutes les pages.
+   ============================================================ */
+:root {
+  /* Surfaces */
+  --bg: #05060f;
+  --bg-2: #10101c;
+  --bg-3: #1a1a2e;
+  --bg-card: rgba(255, 255, 255, .055);
+  --bg-card-solid: #12122a;
+  --bg-inset: #0d0d18;
+
+  /* Bordures */
+  --border: rgba(255, 255, 255, .14);
+  --border-strong: #2d2d44;
+  --border-soft: rgba(255, 255, 255, .12);
+
+  /* Accents (palette MTG Commander Builder) */
+  --accent-blue: #79c0ff;
+  --accent-violet: #9aa5ff;
+  --accent-neon: #7b61ff;
+  --accent-green: #7ee787;
+  --accent-gold: #ffd77a;
+  --accent-orange: #ff9d5c;
+
+  /* Texte */
+  --text: #e8e8f0;
+  --text-strong: #ffffff;
+  --text-muted: #8a93b8;
+  --text-soft: #b8c0d8;
+  --text-dim: #6a7090;
+
+  /* Forme */
+  --radius: 12px;
+  --radius-lg: 20px;
+  --font: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  /* Ombres */
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, .45);
+  --shadow-hover: 0 20px 50px rgba(0, 0, 0, .6);
+}

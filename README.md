@@ -6,6 +6,19 @@ Rapports EDH complets générés par **MTG Commander Builder** (Scryfall + EDHRE
 
 Chaque primer contient : la fiche du commander (Oracle vérifié, symboles SVG), le plan de jeu retenu avec source secondaire, les cartes par catégories EDHREC (badges de synergie, explications vérifiées contre l'Oracle) et les combos pertinents filtrés par identité de couleur.
 
+## Structure
+
+```
+├── index.html          ← page d'accueil (cards commander)
+├── css/
+│   ├── theme.css       ← tokens partagés (couleurs, formes, typo)
+│   ├── index.css       ← styles de l'index (glass neon)
+│   └── report.css      ← styles des rapports (fiche, catégories, combos)
+└── content/            ← les rapports (un HTML par commander)
+```
+
+Le site est **100 % statique** : aucun CSS inline — l'index charge `css/theme.css` + `css/index.css`, chaque rapport charge `css/theme.css` + `css/report.css`. Tout nouveau rapport généré par `report_gen.py` référence automatiquement ces fichiers.
+
 ## Primers (`content/`)
 
 | Commander | Couleurs | Plan retenu | Fichier |
@@ -22,3 +35,4 @@ Chaque primer contient : la fiche du commander (Oracle vérifié, symboles SVG),
 ## Utilisation
 
 Ouvrez les fichiers `.html` dans un navigateur : zoom modal sur les cartes, boutons 📋 pour copier les listes, symboles de mana officiels Scryfall.
+

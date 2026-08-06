@@ -1,60 +1,23 @@
 <!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Terra, Herald of Hope — Rapport Final Commander EDH (v2)</title>
-<style>
-body{background:linear-gradient(160deg,#10101c,#1a1a2e 60%,#16213e);color:#e8e8f0;font-family:"Segoe UI",Arial,sans-serif;padding:28px;max-width:1200px;margin:0 auto;line-height:1.55;}
-h1{color:#7ee787;font-size:30px;border-bottom:3px solid #2d6a4f;padding-bottom:12px;}
-h2{color:#79c0ff;font-size:22px;margin-top:38px;border-bottom:1px solid #2d2d44;padding-bottom:8px;}
-h3{color:#ffd77a;font-size:17px;margin-top:22px;}
-table{border-collapse:collapse;margin:14px 0;width:auto;}
-td,th{border:1px solid #33335a;padding:8px 14px;font-size:14px;}
-th{background:#1f1f3a;color:#79c0ff;text-align:left;}
-.oracle{background:#0d0d18;border-left:4px solid #7ee787;padding:14px 18px;border-radius:8px;font-style:italic;color:#c8d6e5;margin:14px 0;}
-.plan{background:#151528;border-radius:12px;padding:18px 22px;margin:16px 0;border:1px solid #2d2d44;}
-.plan.chosen{border:2px solid #7ee787;background:#14211a;}
-.badge{display:inline-block;background:#2d6a4f;color:#fff;border-radius:20px;padding:3px 12px;font-size:13px;font-weight:700;margin-left:8px;}
-.combo{background:#131a2b;border:1px solid #2d4a5a;border-radius:12px;padding:16px 20px;margin:14px 0;}
-.combo h3{color:#7ee787;font-size:15px;}
-.combo .meta{color:#8a93b8;font-size:12px;margin-bottom:8px;}
-.step{background:#0d0d18;border-radius:8px;padding:8px 14px;margin:6px 0;border-left:3px solid #79c0ff;font-size:13px;}
-.result{background:#14211a;border-left:4px solid #7ee787;padding:8px 12px;border-radius:6px;margin:8px 0;font-size:13px;}
-.warning{background:#2a1f12;border-left:4px solid #ffd77a;padding:10px 14px;border-radius:6px;font-size:14px;color:#e8d5b0;margin:10px 0;}
-.source{background:#121a2e;border-left:4px solid #79c0ff;padding:10px 14px;border-radius:6px;font-size:13px;color:#b8c8e8;margin:10px 0;}
-.category{background:#12122a;border-radius:12px;padding:16px 20px;margin:14px 0;border:1px solid #2d2d44;}
-.category .summary{color:#c8d0e8;font-size:14px;margin-bottom:12px;padding-bottom:12px;border-bottom:1px dashed #2d2d44;}
-.category h3{margin-top:6px;}
-ul{margin:6px 0 6px 20px;}
-li{margin:3px 0;}
-strong{color:#fff;}
-.card-block{transition:transform .15s;}
-.card-block:hover{transform:translateY(-2px);border-color:#3d3d6a !important;}
-.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:10px;margin-top:6px;}
-@media (max-width:700px){.card-grid{grid-template-columns:1fr;}}
-.toc{background:#151528;border-radius:12px;padding:16px 24px;border:1px solid #2d2d44;}
-.toc a{color:#79c0ff;text-decoration:none;}
-#modal{display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,.92);z-index:9999;align-items:center;justify-content:center;cursor:zoom-out;}
-#modal.open{display:flex;}
-#modal img{max-width:92vw;max-height:92vh;border-radius:14px;box-shadow:0 8px 40px rgba(0,0,0,.8);}
-#modal .caption{position:absolute;bottom:18px;left:0;right:0;text-align:center;color:#ddd;font-size:15px;font-weight:600;text-shadow:0 2px 6px #000;pointer-events:none;}
-#modal .hint{position:absolute;top:14px;right:20px;color:#888;font-size:13px;}
-.copy-btn{background:none;border:1px solid #2d2d44;border-radius:6px;cursor:pointer;margin-left:8px;font-size:13px;padding:2px 8px;vertical-align:middle;transition:all .15s;}
-.copy-btn:hover{border-color:#79c0ff;background:#1f1f3a;transform:scale(1.1);}
-.copied{background:#2d6a4f !important;border-color:#7ee787 !important;}
-</style></head><body>
+
+<link rel="stylesheet" href="../css/theme.css">
+<link rel="stylesheet" href="../css/report.css"></head><body>
 <h1>Terra, Herald of Hope — Rapport Final Commander EDH</h1>
-<p style="color:#999;">Rapport v2 généré par <strong>MTG Commander Builder</strong> · Sources : Scryfall (cartes, images, symboles, textes Oracle) · EDHREC (catégories, scores de synergie) · Commander Spellbook (combos) · EDHREC Articles (guide)<br>💡 <em>Chaque explication est vérifiée contre le texte Oracle officiel. Le badge « synergie 0.xx » = score EDHREC. Cliquez sur 📋 pour copier, sur une carte pour zoomer.</em></p>
-<div class="toc"><h3 style="margin-top:6px;">📑 Sommaire</h3><ol>
+<p class="report-sub">Rapport v2 généré par <strong>MTG Commander Builder</strong> · Sources : Scryfall (cartes, images, symboles, textes Oracle) · EDHREC (catégories, scores de synergie) · Commander Spellbook (combos) · EDHREC Articles (guide)<br>💡 <em>Chaque explication est vérifiée contre le texte Oracle officiel. Le badge « synergie 0.xx » = score EDHREC. Cliquez sur 📋 pour copier, sur une carte pour zoomer.</em></p>
+<div class="toc"><h3 class="toc-h3">📑 Sommaire</h3><ol>
 <li><a href="#s1">Fiche du Commander</a></li>
 <li><a href="#s2">Plan de jeu retenu : REANIMATOR (réanimation aggro)</a></li>
 <li><a href="#s3">Cartes par catégories EDHREC</a></li>
 <li><a href="#s4">Combos pertinents (9)</a></li>
 </ol></div>
 <h2 id="s1">1. Fiche du Commander <button class="copy-btn" data-copy="Terra, Herald of Hope" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h2>
-<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:260px;"><img src="https://cards.scryfall.io/normal/front/5/a/5aa1a2d7-6133-41a9-9662-9008d1309935.jpg?1783906373" data-large="https://cards.scryfall.io/large/front/5/a/5aa1a2d7-6133-41a9-9662-9008d1309935.jpg?1783906373" data-name="Terra, Herald of Hope" loading="lazy" style="width:260px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Terra, Herald of Hope</div></div></div>
+<div class="center"><div class="big-card" style="width:260px;"><img src="https://cards.scryfall.io/normal/front/5/a/5aa1a2d7-6133-41a9-9662-9008d1309935.jpg?1783906373" data-large="https://cards.scryfall.io/large/front/5/a/5aa1a2d7-6133-41a9-9662-9008d1309935.jpg?1783906373" data-name="Terra, Herald of Hope" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Terra, Herald of Hope</div></div></div>
 <table>
 <tr><th>Attribut</th><th>Valeur</th></tr>
 <tr><td><strong>Nom officiel</strong></td><td>Terra, Herald of Hope</td></tr>
-<tr><td><strong>Coût</strong></td><td><img src="https://svgs.scryfall.io/card-symbols/R.svg" alt="R" title="R" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/W.svg" alt="W" title="W" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/B.svg" alt="B" title="B" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/> (3 mana)</td></tr>
+<tr><td><strong>Coût</strong></td><td><img src="https://svgs.scryfall.io/card-symbols/R.svg" alt="R" title="R" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/W.svg" alt="W" title="W" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/B.svg" alt="B" title="B" class="ms"/> (3 mana)</td></tr>
 <tr><td><strong>Type</strong></td><td>Créature légendaire — Humain Sorcier Guerrier</td></tr>
 <tr><td><strong>Identité de couleur</strong></td><td>🔴⚪⚫ Mardu (R/W/B)</td></tr>
 <tr><td><strong>Force / Endurance</strong></td><td>3/3</td></tr>
@@ -62,7 +25,7 @@ strong{color:#fff;}
 <tr><td><strong>Légalité Commander</strong></td><td>✅ Légale</td></tr>
 </table>
 <h3>Texte Oracle exact</h3>
-<div class="oracle"><strong>Trance</strong> — Au début du combat pendant votre tour, mill deux cartes et Terra gagne le vol jusqu'à la fin du tour.<br><br>À chaque fois que Terra inflige des blessures de combat à un joueur, vous pouvez payer <img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/> : renvoyez une carte de créature ciblée de force inférieure ou égale à 3 depuis votre cimetière sur le champ de bataille, engagée.</div>
+<div class="oracle"><strong>Trance</strong> — Au début du combat pendant votre tour, mill deux cartes et Terra gagne le vol jusqu'à la fin du tour.<br><br>À chaque fois que Terra inflige des blessures de combat à un joueur, vous pouvez payer <img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" class="ms"/> : renvoyez une carte de créature ciblée de force inférieure ou égale à 3 depuis votre cimetière sur le champ de bataille, engagée.</div>
 <h3>Lecture rapide</h3>
 <p>Une commandante <strong>Mardu réanimation</strong> qui remplit son propre cimetière (Trance : mill 2 + vol à chaque début de combat) puis réanime gratuitement des créatures de force ≤ 3 à chaque contact contre {2}. Le deck combine des sorts de réanimation à bas coût (Reanimate, Animate Dead) avec des finishers massifs (Rise of the Dark Realms, Living Death).</p>
 <h2 id="s2">2. Plan de jeu retenu : REANIMATOR (réanimation aggro) <button class="copy-btn" data-copy="Reanimate, Priest of Fell Rites, Karmic Guide, Buried Alive" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h2>
@@ -76,71 +39,71 @@ strong{color:#fff;}
     <li><strong>Condition de victoire</strong> : Submerger avec des créatures réanimées + Terra qui frappe en vol. Finishers : Rise of the Dark Realms (toutes les créatures de TOUS les cimetières) ou Living Death massif.</li>
     </ul>
 <div class="source"><strong>📰 Source secondaire</strong> : <em>« EDHREC Guide to Reanimator in Commander »</em> (EDHREC Articles) : le guide explique que le réanimateur repose sur <strong>le tutor direct vers le cimetière</strong> (Buried Alive, Entomb — « vous pouvez chercher n'importe quelle bombe directement dans votre cimetière »), les <strong>bombes à coût de mana élevé</strong> jouées sans les payer (Sheoldred, Archon of Cruelty) et la <strong>flexibilité du deck</strong> (du casual au compétitif, avec des passerelles vers les decks sacrifice via les sacrifice outlets). Notre liste suit ce squelette : Buried Alive/Entomb pour remplir, Reanimate/Animate Dead pour tricher, et un axe sacrifice (Ashnod's Altar, Goblin Bombardment).</div>
-<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:185px;"><img src="https://cards.scryfall.io/normal/front/3/6/368b6903-5fc4-43e7-bd44-46b8107c8bb4.jpg?1783909614" data-large="https://cards.scryfall.io/large/front/3/6/368b6903-5fc4-43e7-bd44-46b8107c8bb4.jpg?1783909614" data-name="Reanimate" loading="lazy" style="width:185px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Reanimate</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:185px;"><img src="https://cards.scryfall.io/normal/front/d/1/d116329d-6de7-402c-821d-e9aeba9ad2b1.jpg?1783926812" data-large="https://cards.scryfall.io/large/front/d/1/d116329d-6de7-402c-821d-e9aeba9ad2b1.jpg?1783926812" data-name="Priest of Fell Rites" loading="lazy" style="width:185px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Priest of Fell Rites</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:185px;"><img src="https://cards.scryfall.io/normal/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-large="https://cards.scryfall.io/large/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-name="Karmic Guide" loading="lazy" style="width:185px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Karmic Guide</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:185px;"><img src="https://cards.scryfall.io/normal/front/7/6/76878b19-2916-4f3f-bee5-20846bc9e2db.jpg?1783911216" data-large="https://cards.scryfall.io/large/front/7/6/76878b19-2916-4f3f-bee5-20846bc9e2db.jpg?1783911216" data-name="Buried Alive" loading="lazy" style="width:185px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Buried Alive</div></div></div>
+<div class="center"><div class="big-card" style="width:185px;"><img src="https://cards.scryfall.io/normal/front/3/6/368b6903-5fc4-43e7-bd44-46b8107c8bb4.jpg?1783909614" data-large="https://cards.scryfall.io/large/front/3/6/368b6903-5fc4-43e7-bd44-46b8107c8bb4.jpg?1783909614" data-name="Reanimate" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Reanimate</div></div><div class="big-card" style="width:185px;"><img src="https://cards.scryfall.io/normal/front/d/1/d116329d-6de7-402c-821d-e9aeba9ad2b1.jpg?1783926812" data-large="https://cards.scryfall.io/large/front/d/1/d116329d-6de7-402c-821d-e9aeba9ad2b1.jpg?1783926812" data-name="Priest of Fell Rites" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Priest of Fell Rites</div></div><div class="big-card" style="width:185px;"><img src="https://cards.scryfall.io/normal/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-large="https://cards.scryfall.io/large/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-name="Karmic Guide" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Karmic Guide</div></div><div class="big-card" style="width:185px;"><img src="https://cards.scryfall.io/normal/front/7/6/76878b19-2916-4f3f-bee5-20846bc9e2db.jpg?1783911216" data-large="https://cards.scryfall.io/large/front/7/6/76878b19-2916-4f3f-bee5-20846bc9e2db.jpg?1783911216" data-name="Buried Alive" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Buried Alive</div></div></div>
 </div>
 <h2 id="s3">3. Cartes en synergie par catégories EDHREC</h2>
-<p style="color:#999;">Chaque explication est vérifiée contre le texte Oracle officiel (Scryfall). Le badge « synergie 0.xx » est le score EDHREC : proportion de decks jouant cette carte. 📋 copie la liste des cartes de la catégorie.</p>
+<p class="report-sub">Chaque explication est vérifiée contre le texte Oracle officiel (Scryfall). Le badge « synergie 0.xx » est le score EDHREC : proportion de decks jouant cette carte. 📋 copie la liste des cartes de la catégorie.</p>
 <div class="category"><h3>🌟 High Synergy Cards <button class="copy-btn" data-copy="Celes, Rune Knight, Stitcher&#x27;s Supplier, Reanimate, Priest of Fell Rites, Anger, Stitch Together" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
 <div class="summary">Le cœur du moteur réanimation : mill, sorts de réanimation et hâte depuis le cimetière.</div>
 <div class="card-grid">
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/3/0/30584c53-533b-4dc7-b07c-8600164a99b3.jpg?1783906375" data-large="https://cards.scryfall.io/large/front/3/0/30584c53-533b-4dc7-b07c-8600164a99b3.jpg?1783906375" data-name="Celes, Rune Knight" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Celes, Rune Knight<span class="syn" style="color:#7ee787;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #7ee787;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.75</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À l'arrivée, défaussez n'importe quel nombre de cartes puis piochez autant de cartes plus une (Oracle) — une pioche massive qui remplit le cimetière, la parfaite compagne de Terra.</div>
+      <div class="cb-body">
+        <div class="cb-name">Celes, Rune Knight<span class="syn syn-hi" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.75</span></div>
+        <div class="cb-expl">À l'arrivée, défaussez n'importe quel nombre de cartes puis piochez autant de cartes plus une (Oracle) — une pioche massive qui remplit le cimetière, la parfaite compagne de Terra.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/2/e/2edcde06-b326-476e-884d-770187c785fe.jpg?1783907080" data-large="https://cards.scryfall.io/large/front/2/e/2edcde06-b326-476e-884d-770187c785fe.jpg?1783907080" data-name="Stitcher&#x27;s Supplier" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Stitcher&#x27;s Supplier<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.68</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À l'arrivée et à la mort, mill 3 cartes (Oracle) — 3 cartes au cimetière pour 1 mana, le dork de mill parfait.</div>
+      <div class="cb-body">
+        <div class="cb-name">Stitcher&#x27;s Supplier<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.68</span></div>
+        <div class="cb-expl">À l'arrivée et à la mort, mill 3 cartes (Oracle) — 3 cartes au cimetière pour 1 mana, le dork de mill parfait.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/3/6/368b6903-5fc4-43e7-bd44-46b8107c8bb4.jpg?1783909614" data-large="https://cards.scryfall.io/large/front/3/6/368b6903-5fc4-43e7-bd44-46b8107c8bb4.jpg?1783909614" data-name="Reanimate" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Reanimate<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.65</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Mettez une carte de créature ciblée d'un cimetière sur le champ de bataille sous votre contrôle, vous perdez un nombre de PV égal à sa valeur de mana (Oracle) — la réanimation 1-mana ultime.</div>
+      <div class="cb-body">
+        <div class="cb-name">Reanimate<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.65</span></div>
+        <div class="cb-expl">Mettez une carte de créature ciblée d'un cimetière sur le champ de bataille sous votre contrôle, vous perdez un nombre de PV égal à sa valeur de mana (Oracle) — la réanimation 1-mana ultime.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/d/1/d116329d-6de7-402c-821d-e9aeba9ad2b1.jpg?1783926812" data-large="https://cards.scryfall.io/large/front/d/1/d116329d-6de7-402c-821d-e9aeba9ad2b1.jpg?1783926812" data-name="Priest of Fell Rites" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Priest of Fell Rites<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.62</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{T}, payez 3 PV, sacrifiez : renvoyez une créature de votre cimetière (Oracle). Unearth {3}{W}{B} — réanimation + une réserve en fin de partie.</div>
+      <div class="cb-body">
+        <div class="cb-name">Priest of Fell Rites<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.62</span></div>
+        <div class="cb-expl">{T}, payez 3 PV, sacrifiez : renvoyez une créature de votre cimetière (Oracle). Unearth {3}{W}{B} — réanimation + une réserve en fin de partie.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/e/8/e886a604-e3ce-4c6a-b63e-2c7f910a177a.jpg?1783903778" data-large="https://cards.scryfall.io/large/front/e/8/e886a604-e3ce-4c6a-b63e-2c7f910a177a.jpg?1783903778" data-name="Anger" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Anger<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.60</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Hâte (Oracle). Tant que cette carte est dans votre cimetière et que vous contrôlez une Montagne, vos créatures ont la hâte — vos réanimations attaquent immédiatement.</div>
+      <div class="cb-body">
+        <div class="cb-name">Anger<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.60</span></div>
+        <div class="cb-expl">Hâte (Oracle). Tant que cette carte est dans votre cimetière et que vous contrôlez une Montagne, vos créatures ont la hâte — vos réanimations attaquent immédiatement.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/8/4/8423c98d-4cb6-4a70-8bf2-3ac24c025c4e.jpg?1783934297" data-large="https://cards.scryfall.io/large/front/8/4/8423c98d-4cb6-4a70-8bf2-3ac24c025c4e.jpg?1783934297" data-name="Stitch Together" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Stitch Together<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.59</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Renvoyez une créature de votre cimetière à votre main (Oracle). Threshold (7+ cartes au cimetière) : sur le champ de bataille à la place — un Reanimate bis.</div>
+      <div class="cb-body">
+        <div class="cb-name">Stitch Together<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.59</span></div>
+        <div class="cb-expl">Renvoyez une créature de votre cimetière à votre main (Oracle). Threshold (7+ cartes au cimetière) : sur le champ de bataille à la place — un Reanimate bis.</div>
       </div>
     </div>
 </div></div>
@@ -148,63 +111,63 @@ strong{color:#fff;}
 <div class="summary">Les finishers et engines les plus joués : wipes asymétriques, réanimation et draw.</div>
 <div class="card-grid">
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/5/0/50c1d6ca-7789-46b5-bc89-85cc3915cb85.jpg?1783931018" data-large="https://cards.scryfall.io/large/front/5/0/50c1d6ca-7789-46b5-bc89-85cc3915cb85.jpg?1783931018" data-name="Ruinous Ultimatum" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Ruinous Ultimatum<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.27</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Détruisez tous les permanents non-terrain de vos adversaires (Oracle) — le wipe asymétrique Mardu : ils perdent tout, vous gardez votre board réanimé.</div>
+      <div class="cb-body">
+        <div class="cb-name">Ruinous Ultimatum<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.27</span></div>
+        <div class="cb-expl">Détruisez tous les permanents non-terrain de vos adversaires (Oracle) — le wipe asymétrique Mardu : ils perdent tout, vous gardez votre board réanimé.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-large="https://cards.scryfall.io/large/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-name="Karmic Guide" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Karmic Guide<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.51</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Vol, protection contre le noir, écho {3}{W}{W} (Oracle). À l'arrivée, renvoie une créature de votre cimetière — la réanimation volante classique.</div>
+      <div class="cb-body">
+        <div class="cb-name">Karmic Guide<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.51</span></div>
+        <div class="cb-expl">Vol, protection contre le noir, écho {3}{W}{W} (Oracle). À l'arrivée, renvoie une créature de votre cimetière — la réanimation volante classique.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/8/6/8645bf0c-631f-4003-bd24-3e069ae23513.jpg?1783909071" data-large="https://cards.scryfall.io/large/front/8/6/8645bf0c-631f-4003-bd24-3e069ae23513.jpg?1783909071" data-name="Rise of the Dark Realms" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Rise of the Dark Realms<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.53</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Mettez toutes les cartes de créature de TOUS les cimetières sur le champ de bataille sous votre contrôle (Oracle) — le finisher ultime.</div>
+      <div class="cb-body">
+        <div class="cb-name">Rise of the Dark Realms<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.53</span></div>
+        <div class="cb-expl">Mettez toutes les cartes de créature de TOUS les cimetières sur le champ de bataille sous votre contrôle (Oracle) — le finisher ultime.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/a/9/a93e3406-4e29-4bc0-ae52-cbd2ac1f99a4.jpg?1783909093" data-large="https://cards.scryfall.io/large/front/a/9/a93e3406-4e29-4bc0-ae52-cbd2ac1f99a4.jpg?1783909093" data-name="Alesha, Who Laughs at Fate" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Alesha, Who Laughs at Fate<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.44</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Première frappe (Oracle). À chaque attaque, marqueur +1/+1 ; à votre fin, si vous avez attaqué, renvoyez une créature de force ≤ à celle d'Alesha — une mini-Terra.</div>
+      <div class="cb-body">
+        <div class="cb-name">Alesha, Who Laughs at Fate<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.44</span></div>
+        <div class="cb-expl">Première frappe (Oracle). À chaque attaque, marqueur +1/+1 ; à votre fin, si vous avez attaqué, renvoyez une créature de force ≤ à celle d'Alesha — une mini-Terra.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/f/2/f2103bba-f367-45ed-9b2c-bf31bb2926a5.jpg?1783927512" data-large="https://cards.scryfall.io/large/front/f/2/f2103bba-f367-45ed-9b2c-bf31bb2926a5.jpg?1783927512" data-name="Key to the City" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Key to the City<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.50</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{T}, défaussez une carte : une créature ne peut pas être bloquée ce tour (Oracle). Quand l'artefact se dégage, payez {2} pour piocher — imblocabilité + card filtering.</div>
+      <div class="cb-body">
+        <div class="cb-name">Key to the City<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.50</span></div>
+        <div class="cb-expl">{T}, défaussez une carte : une créature ne peut pas être bloquée ce tour (Oracle). Quand l'artefact se dégage, payez {2} pour piocher — imblocabilité + card filtering.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/0/8/08838865-a9b6-4323-96a2-0d3a7aba9d3d.jpg?1783903784" data-large="https://cards.scryfall.io/large/front/0/8/08838865-a9b6-4323-96a2-0d3a7aba9d3d.jpg?1783903784" data-name="Morbid Opportunist" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Morbid Opportunist<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.35</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À chaque fois qu'une ou plusieurs autres créatures meurent, piochez une carte (une fois par tour, Oracle) — vos sacrifices deviennent du draw.</div>
+      <div class="cb-body">
+        <div class="cb-name">Morbid Opportunist<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.35</span></div>
+        <div class="cb-expl">À chaque fois qu'une ou plusieurs autres créatures meurent, piochez une carte (une fois par tour, Oracle) — vos sacrifices deviennent du draw.</div>
       </div>
     </div>
 </div></div>
@@ -212,63 +175,63 @@ strong{color:#fff;}
 <div class="summary">Les menaces à réanimer et les dorks de cimetière.</div>
 <div class="card-grid">
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-large="https://cards.scryfall.io/large/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-name="Sun Titan" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Sun Titan<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.36</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Vigilance (Oracle). À l'arrivée et à chaque attaque, renvoyez un permanent de valeur de mana ≤ 3 de votre cimetière — la machine à valeur parfaite pour Terra.</div>
+      <div class="cb-body">
+        <div class="cb-name">Sun Titan<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.36</span></div>
+        <div class="cb-expl">Vigilance (Oracle). À l'arrivée et à chaque attaque, renvoyez un permanent de valeur de mana ≤ 3 de votre cimetière — la machine à valeur parfaite pour Terra.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/c/2/c2073453-4108-4039-a8c2-0f94dd7bf237.jpg?1783903738" data-large="https://cards.scryfall.io/large/front/c/2/c2073453-4108-4039-a8c2-0f94dd7bf237.jpg?1783903738" data-name="Millikin" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Millikin<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.43</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{T}, mill une carte : ajoute {C} (Oracle) — mana + mill à chaque activation.</div>
+      <div class="cb-body">
+        <div class="cb-name">Millikin<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.43</span></div>
+        <div class="cb-expl">{T}, mill une carte : ajoute {C} (Oracle) — mana + mill à chaque activation.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/b/b/bb65df55-d6a6-4a57-a903-e5eb17637982.jpg?1783931087" data-large="https://cards.scryfall.io/large/front/b/b/bb65df55-d6a6-4a57-a903-e5eb17637982.jpg?1783931087" data-name="Luminous Broodmoth" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Luminous Broodmoth<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.33</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Vol (Oracle). À chaque créature sans vol qui meurt, renvoyez-la avec un marqueur vol — une seconde vie volante pour tout votre board.</div>
+      <div class="cb-body">
+        <div class="cb-name">Luminous Broodmoth<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.33</span></div>
+        <div class="cb-expl">Vol (Oracle). À chaque créature sans vol qui meurt, renvoyez-la avec un marqueur vol — une seconde vie volante pour tout votre board.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/9/c/9cd16dac-3bf9-4a71-a906-0cfbf98cdca5.jpg?1783903802" data-large="https://cards.scryfall.io/large/front/9/c/9cd16dac-3bf9-4a71-a906-0cfbf98cdca5.jpg?1783903802" data-name="Selfless Spirit" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Selfless Spirit<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.29</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Vol (Oracle). Sacrifiez-le : vos créatures gagnent l'indestructible jusqu'à la fin du tour — protège votre board réanimé d'un wipe.</div>
+      <div class="cb-body">
+        <div class="cb-name">Selfless Spirit<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.29</span></div>
+        <div class="cb-expl">Vol (Oracle). Sacrifiez-le : vos créatures gagnent l'indestructible jusqu'à la fin du tour — protège votre board réanimé d'un wipe.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/f/b/fb086307-b089-45ba-81d3-789ed35dc5b8.jpg?1783920833" data-large="https://cards.scryfall.io/large/front/f/b/fb086307-b089-45ba-81d3-789ed35dc5b8.jpg?1783920833" data-name="Sister Hospitaller" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Sister Hospitaller<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.40</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À l'arrivée, renvoyez une créature de votre cimetière et gagnez de la vie égale à sa valeur de mana (Oracle) — réanimation + drain en une carte.</div>
+      <div class="cb-body">
+        <div class="cb-name">Sister Hospitaller<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.40</span></div>
+        <div class="cb-expl">À l'arrivée, renvoyez une créature de votre cimetière et gagnez de la vie égale à sa valeur de mana (Oracle) — réanimation + drain en une carte.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869" data-large="https://cards.scryfall.io/large/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869" data-name="Pitiless Plunderer" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Pitiless Plunderer<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.33</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À chaque autre créature qui meurt, créez un jeton Trésor (Oracle) — vos sacrifices deviennent du ramp.</div>
+      <div class="cb-body">
+        <div class="cb-name">Pitiless Plunderer<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.33</span></div>
+        <div class="cb-expl">À chaque autre créature qui meurt, créez un jeton Trésor (Oracle) — vos sacrifices deviennent du ramp.</div>
       </div>
     </div>
 </div></div>
@@ -276,63 +239,63 @@ strong{color:#fff;}
 <div class="summary">Tutors de cimetière, removal et protection.</div>
 <div class="card-grid">
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/3/c/3caa9c55-5e3b-436b-84a9-b7ccebf63799.jpg?1783918480" data-large="https://cards.scryfall.io/large/front/3/c/3caa9c55-5e3b-436b-84a9-b7ccebf63799.jpg?1783918480" data-name="Entomb" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Entomb<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.22</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Cherchez une carte dans votre bibliothèque et mettez-la dans votre cimetière (Oracle) — la pièce de départ du combo réanimation : cherchez la bombe, puis Reanimate.</div>
+      <div class="cb-body">
+        <div class="cb-name">Entomb<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.22</span></div>
+        <div class="cb-expl">Cherchez une carte dans votre bibliothèque et mettez-la dans votre cimetière (Oracle) — la pièce de départ du combo réanimation : cherchez la bombe, puis Reanimate.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/b/4/b4e9c870-23c0-413a-ae39-265f09da16d1.jpg?1783903243" data-large="https://cards.scryfall.io/large/front/b/4/b4e9c870-23c0-413a-ae39-265f09da16d1.jpg?1783903243" data-name="Swords to Plowshares" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Swords to Plowshares<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.15</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Exile une créature ciblée (Oracle), son contrôleur gagne de la vie égale à sa force — le meilleur removal blanc.</div>
+      <div class="cb-body">
+        <div class="cb-name">Swords to Plowshares<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.15</span></div>
+        <div class="cb-expl">Exile une créature ciblée (Oracle), son contrôleur gagne de la vie égale à sa force — le meilleur removal blanc.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/9/5/95ca89ea-1200-4bb4-ae4b-af35d3ccd35b.jpg?1783903242" data-large="https://cards.scryfall.io/large/front/9/5/95ca89ea-1200-4bb4-ae4b-af35d3ccd35b.jpg?1783903242" data-name="Path to Exile" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Path to Exile<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.14</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Exile une créature ciblée (Oracle), son contrôleur peut chercher un terrain de base — le second removal blanc.</div>
+      <div class="cb-body">
+        <div class="cb-name">Path to Exile<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.14</span></div>
+        <div class="cb-expl">Exile une créature ciblée (Oracle), son contrôleur peut chercher un terrain de base — le second removal blanc.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/4/0/407183c6-c962-4f8c-867e-abc309b6c573.jpg?1783903759" data-large="https://cards.scryfall.io/large/front/4/0/407183c6-c962-4f8c-867e-abc309b6c573.jpg?1783903759" data-name="Anguished Unmaking" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Anguished Unmaking<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.15</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Exile un permanent non-terrain ciblé, vous perdez 3 PV (Oracle) — removal polyvalent 3-mana.</div>
+      <div class="cb-body">
+        <div class="cb-name">Anguished Unmaking<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.15</span></div>
+        <div class="cb-expl">Exile un permanent non-terrain ciblé, vous perdez 3 PV (Oracle) — removal polyvalent 3-mana.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/0/e/0e13f735-54fa-42b6-aea4-ced33811d7d4.jpg?1783915679" data-large="https://cards.scryfall.io/large/front/0/e/0e13f735-54fa-42b6-aea4-ced33811d7d4.jpg?1783915679" data-name="Deadly Rollick" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Deadly Rollick<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.00</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Si vous contrôlez un commandant, lancez-le gratuitement (Oracle). Exile une créature — l'as gratuit dans la manche.</div>
+      <div class="cb-body">
+        <div class="cb-name">Deadly Rollick<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.00</span></div>
+        <div class="cb-expl">Si vous contrôlez un commandant, lancez-le gratuitement (Oracle). Exile une créature — l'as gratuit dans la manche.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/e/0/e0d8c9f6-cbbd-4694-b100-01cfb81036cc.jpg?1783908890" data-large="https://cards.scryfall.io/large/front/e/0/e0d8c9f6-cbbd-4694-b100-01cfb81036cc.jpg?1783908890" data-name="Boros Charm" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Boros Charm<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.18</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Choix : 4 dégâts à un joueur/PW, indestructible pour vos permanents, ou double frappe (Oracle) — protection de board ou finisher.</div>
+      <div class="cb-body">
+        <div class="cb-name">Boros Charm<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.18</span></div>
+        <div class="cb-expl">Choix : 4 dégâts à un joueur/PW, indestructible pour vos permanents, ou double frappe (Oracle) — protection de board ou finisher.</div>
       </div>
     </div>
 </div></div>
@@ -340,63 +303,63 @@ strong{color:#fff;}
 <div class="summary">Les moteurs de mill et réanimation de masse.</div>
 <div class="card-grid">
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/7/6/76878b19-2916-4f3f-bee5-20846bc9e2db.jpg?1783911216" data-large="https://cards.scryfall.io/large/front/7/6/76878b19-2916-4f3f-bee5-20846bc9e2db.jpg?1783911216" data-name="Buried Alive" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Buried Alive<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.42</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Cherchez jusqu'à trois créatures et mettez-les dans votre cimetière (Oracle) — la meilleure carte du deck avec Terra : posez 3 bombes, réanimez-les.</div>
+      <div class="cb-body">
+        <div class="cb-name">Buried Alive<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.42</span></div>
+        <div class="cb-expl">Cherchez jusqu'à trois créatures et mettez-les dans votre cimetière (Oracle) — la meilleure carte du deck avec Terra : posez 3 bombes, réanimez-les.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/f/c/fc019ffa-4461-4f3d-ab8d-e4d20e77ca0c.jpg?1783903774" data-large="https://cards.scryfall.io/large/front/f/c/fc019ffa-4461-4f3d-ab8d-e4d20e77ca0c.jpg?1783903774" data-name="Faithless Looting" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Faithless Looting<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.36</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Piochez deux cartes puis défaussez-en deux (Oracle). Flashback {2}{R} — mill + filtration en une carte, deux fois.</div>
+      <div class="cb-body">
+        <div class="cb-name">Faithless Looting<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.36</span></div>
+        <div class="cb-expl">Piochez deux cartes puis défaussez-en deux (Oracle). Flashback {2}{R} — mill + filtration en une carte, deux fois.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/e/e/ee008d81-df28-49a8-917d-44f66527e469.jpg?1783907079" data-large="https://cards.scryfall.io/large/front/e/e/ee008d81-df28-49a8-917d-44f66527e469.jpg?1783907079" data-name="Victimize" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Victimize<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.26</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Choisissez deux créatures de votre cimetière, sacrifiez une créature, renvoyez-les engagées (Oracle) — le sort de réanimation le plus rentable.</div>
+      <div class="cb-body">
+        <div class="cb-name">Victimize<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.26</span></div>
+        <div class="cb-expl">Choisissez deux créatures de votre cimetière, sacrifiez une créature, renvoyez-les engagées (Oracle) — le sort de réanimation le plus rentable.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/4/a/4ac29c46-f8ee-42ba-a98c-d785ba65485e.jpg?1783907088" data-large="https://cards.scryfall.io/large/front/4/a/4ac29c46-f8ee-42ba-a98c-d785ba65485e.jpg?1783907088" data-name="Living Death" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Living Death<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.14</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Chaque joueur exile les créatures de son cimetière, sacrifie ses créatures, puis met en jeu celles qu'il a exilées (Oracle) — l'échange global qui remplit votre board.</div>
+      <div class="cb-body">
+        <div class="cb-name">Living Death<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.14</span></div>
+        <div class="cb-expl">Chaque joueur exile les créatures de son cimetière, sacrifie ses créatures, puis met en jeu celles qu'il a exilées (Oracle) — l'échange global qui remplit votre board.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/8/d/8deab1ef-4219-4767-a3c4-b61250d0ebe0.jpg?1783903800" data-large="https://cards.scryfall.io/large/front/8/d/8deab1ef-4219-4767-a3c4-b61250d0ebe0.jpg?1783903800" data-name="Sevinne&#x27;s Reclamation" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Sevinne&#x27;s Reclamation<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.12</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Renvoyez un permanent de valeur de mana ≤ 3 de votre cimetière (Oracle). Flashback {4}{W} : si lancé depuis le cimetière, copiez-le — réanimation doublée.</div>
+      <div class="cb-body">
+        <div class="cb-name">Sevinne&#x27;s Reclamation<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.12</span></div>
+        <div class="cb-expl">Renvoyez un permanent de valeur de mana ≤ 3 de votre cimetière (Oracle). Flashback {4}{W} : si lancé depuis le cimetière, copiez-le — réanimation doublée.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/b/1/b1f73271-b70f-40ae-be64-f8de7805923a.jpg?1783921900" data-large="https://cards.scryfall.io/large/front/b/1/b1f73271-b70f-40ae-be64-f8de7805923a.jpg?1783921900" data-name="Unearth" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Unearth<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.05</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Renvoyez une créature de valeur de mana ≤ 3 de votre cimetière (Oracle). Cycling {2} — réanimation 1-mana parfaite pour les créatures de Terra.</div>
+      <div class="cb-body">
+        <div class="cb-name">Unearth<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.05</span></div>
+        <div class="cb-expl">Renvoyez une créature de valeur de mana ≤ 3 de votre cimetière (Oracle). Cycling {2} — réanimation 1-mana parfaite pour les créatures de Terra.</div>
       </div>
     </div>
 </div></div>
@@ -404,63 +367,63 @@ strong{color:#fff;}
 <div class="summary">Outils de sacrifice, imblocabilité et draw.</div>
 <div class="card-grid">
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/b/6/b61634ae-05be-4b56-8ebb-9d4ade902e42.jpg?1783903217" data-large="https://cards.scryfall.io/large/front/b/6/b61634ae-05be-4b56-8ebb-9d4ade902e42.jpg?1783903217" data-name="Lightning Greaves" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Lightning Greaves<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.05</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Hâte + linceul (shroud) pour la créature équipée (Oracle) — Terra frappe immédiatement et ne peut être ciblée.</div>
+      <div class="cb-body">
+        <div class="cb-name">Lightning Greaves<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.05</span></div>
+        <div class="cb-expl">Hâte + linceul (shroud) pour la créature équipée (Oracle) — Terra frappe immédiatement et ne peut être ciblée.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/1/d/1d8b007b-3169-4ee3-80c7-781fc096fc7a.jpg?1783903215" data-large="https://cards.scryfall.io/large/front/1/d/1d8b007b-3169-4ee3-80c7-781fc096fc7a.jpg?1783903215" data-name="Skullclamp" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Skullclamp<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.20</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">+1/-1 (Oracle). À la mort de la créature équipée, piochez deux cartes — équipez un jeton 1/1 et piochez 2.</div>
+      <div class="cb-body">
+        <div class="cb-name">Skullclamp<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.20</span></div>
+        <div class="cb-expl">+1/-1 (Oracle). À la mort de la créature équipée, piochez deux cartes — équipez un jeton 1/1 et piochez 2.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/1/6/169356e0-46dc-4096-8e66-36726454f104.jpg?1783933075" data-large="https://cards.scryfall.io/large/front/1/6/169356e0-46dc-4096-8e66-36726454f104.jpg?1783933075" data-name="Altar of Dementia" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Altar of Dementia<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.08</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Sacrifiez une créature : le joueur ciblé mill un nombre de cartes égal à sa force (Oracle) — sacrifice outlet + finisher par mill.</div>
+      <div class="cb-body">
+        <div class="cb-name">Altar of Dementia<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.08</span></div>
+        <div class="cb-expl">Sacrifiez une créature : le joueur ciblé mill un nombre de cartes égal à sa force (Oracle) — sacrifice outlet + finisher par mill.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605" data-large="https://cards.scryfall.io/large/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605" data-name="Ashnod&#x27;s Altar" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Ashnod&#x27;s Altar<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.13</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Sacrifiez une créature : ajoutez {C}{C} (Oracle) — vos réanimations deviennent du ramp.</div>
+      <div class="cb-body">
+        <div class="cb-name">Ashnod&#x27;s Altar<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.13</span></div>
+        <div class="cb-expl">Sacrifiez une créature : ajoutez {C}{C} (Oracle) — vos réanimations deviennent du ramp.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/b/2/b279f268-c37e-4a2d-8195-74f4881226fc.jpg?1785497631" data-large="https://cards.scryfall.io/large/front/b/2/b279f268-c37e-4a2d-8195-74f4881226fc.jpg?1785497631" data-name="Wayfarer&#x27;s Bauble" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Wayfarer&#x27;s Bauble<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.16</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{2}, {T}, sacrifiez : cherchez un terrain de base (Oracle) — ramp terrain pour 1 mana.</div>
+      <div class="cb-body">
+        <div class="cb-name">Wayfarer&#x27;s Bauble<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.16</span></div>
+        <div class="cb-expl">{2}, {T}, sacrifiez : cherchez un terrain de base (Oracle) — ramp terrain pour 1 mana.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789" data-large="https://cards.scryfall.io/large/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789" data-name="Phyrexian Altar" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Phyrexian Altar<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.00</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Sacrifiez une créature : ajoutez un mana de n'importe quelle couleur (Oracle) — la pièce des combos de sacrifice.</div>
+      <div class="cb-body">
+        <div class="cb-name">Phyrexian Altar<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.00</span></div>
+        <div class="cb-expl">Sacrifiez une créature : ajoutez un mana de n'importe quelle couleur (Oracle) — la pièce des combos de sacrifice.</div>
       </div>
     </div>
 </div></div>
@@ -468,63 +431,63 @@ strong{color:#fff;}
 <div class="summary">Réanimation, drain et valeur noire.</div>
 <div class="card-grid">
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-large="https://cards.scryfall.io/large/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-name="Animate Dead" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Animate Dead<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.12</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Enchante une carte de créature dans un cimetière (Oracle). À l'arrivée, mettez cette créature sur le champ de bataille et l'Aura s'y attache — la réanimation classique.</div>
+      <div class="cb-body">
+        <div class="cb-name">Animate Dead<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.12</span></div>
+        <div class="cb-expl">Enchante une carte de créature dans un cimetière (Oracle). À l'arrivée, mettez cette créature sur le champ de bataille et l'Aura s'y attache — la réanimation classique.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/3/d/3dd34a1a-e76b-46ee-be8d-5f7f4a092648.jpg?1783913006" data-large="https://cards.scryfall.io/large/front/3/d/3dd34a1a-e76b-46ee-be8d-5f7f4a092648.jpg?1783913006" data-name="Necromancy" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Necromancy<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.03</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Flash (Oracle). Mettez une créature d'un cimetière sur le champ de bataille ; elle a la hâte mais est sacrifiée au cleanup si vous l'avez lancée comme un éclair — réanimation à vitesse éclair.</div>
+      <div class="cb-body">
+        <div class="cb-name">Necromancy<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.03</span></div>
+        <div class="cb-expl">Flash (Oracle). Mettez une créature d'un cimetière sur le champ de bataille ; elle a la hâte mais est sacrifiée au cleanup si vous l'avez lancée comme un éclair — réanimation à vitesse éclair.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/e/2/e262f55e-9239-4a97-a19e-9b08fb34502e.jpg?1783926784" data-large="https://cards.scryfall.io/large/front/e/2/e262f55e-9239-4a97-a19e-9b08fb34502e.jpg?1783926784" data-name="Goblin Bombardment" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Goblin Bombardment<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.03</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Sacrifiez une créature : infligez 1 dégât à n'importe quelle cible (Oracle) — vos réanimations deviennent des finishers par dégâts.</div>
+      <div class="cb-body">
+        <div class="cb-name">Goblin Bombardment<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.03</span></div>
+        <div class="cb-expl">Sacrifiez une créature : infligez 1 dégât à n'importe quelle cible (Oracle) — vos réanimations deviennent des finishers par dégâts.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/9/d/9d9ca869-e68a-4f53-9f52-85c714dac6f3.jpg?1783903238" data-large="https://cards.scryfall.io/large/front/9/d/9d9ca869-e68a-4f53-9f52-85c714dac6f3.jpg?1783903238" data-name="Black Market Connections" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Black Market Connections<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.10</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À votre première phase principale, choisissez une ou plusieurs options : Trésor (−1 PV), pioche (−2 PV), ou mercenaire 3/2 (−3 PV) (Oracle) — la valeur noire ultime.</div>
+      <div class="cb-body">
+        <div class="cb-name">Black Market Connections<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.10</span></div>
+        <div class="cb-expl">À votre première phase principale, choisissez une ou plusieurs options : Trésor (−1 PV), pioche (−2 PV), ou mercenaire 3/2 (−3 PV) (Oracle) — la valeur noire ultime.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/0/7/0784b6f0-9ebf-43d2-ba0f-a6bc93ba0c48.jpg?1783909072" data-large="https://cards.scryfall.io/large/front/0/7/0784b6f0-9ebf-43d2-ba0f-a6bc93ba0c48.jpg?1783909072" data-name="Phyrexian Arena" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Phyrexian Arena<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.13</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À votre entretien, piochez une carte et perdez 1 PV (Oracle) — pioche lente et constante.</div>
+      <div class="cb-body">
+        <div class="cb-name">Phyrexian Arena<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.13</span></div>
+        <div class="cb-expl">À votre entretien, piochez une carte et perdez 1 PV (Oracle) — pioche lente et constante.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/a/e/ae2da18f-0d7d-446c-b463-8bf170ed95da.jpg?1783907405" data-large="https://cards.scryfall.io/large/front/a/e/ae2da18f-0d7d-446c-b463-8bf170ed95da.jpg?1783907405" data-name="Smile at Death" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Smile at Death<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.06</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À votre entretien, renvoyez jusqu'à deux créatures de force ≤ 2 de votre cimetière avec un marqueur +1/+1 (Oracle) — la réanimation automatique de Terra, doublée.</div>
+      <div class="cb-body">
+        <div class="cb-name">Smile at Death<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.06</span></div>
+        <div class="cb-expl">À votre entretien, renvoyez jusqu'à deux créatures de force ≤ 2 de votre cimetière avec un marqueur +1/+1 (Oracle) — la réanimation automatique de Terra, doublée.</div>
       </div>
     </div>
 </div></div>
@@ -532,13 +495,13 @@ strong{color:#fff;}
 <div class="summary">Le PW Mardu : hâte, indestructible et réanimation.</div>
 <div class="card-grid">
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/d/d/ddeb54d6-a600-42b9-98df-20f8d58caed8.jpg?1783921477" data-large="https://cards.scryfall.io/large/front/d/d/ddeb54d6-a600-42b9-98df-20f8d58caed8.jpg?1783921477" data-name="Dihada, Binder of Wills" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Dihada, Binder of Wills<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.08</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">+2 : une créature légendaire gagne vigilance, lien de vie et indestructible jusqu'à votre prochain tour (Oracle). −3 : révélez 4 cartes, gardez les légendaires. −7 : renvoyez des créatures légendaires de votre cimetière — le PW Mardu parfait.</div>
+      <div class="cb-body">
+        <div class="cb-name">Dihada, Binder of Wills<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.08</span></div>
+        <div class="cb-expl">+2 : une créature légendaire gagne vigilance, lien de vie et indestructible jusqu'à votre prochain tour (Oracle). −3 : révélez 4 cartes, gardez les légendaires. −7 : renvoyez des créatures légendaires de votre cimetière — le PW Mardu parfait.</div>
       </div>
     </div>
 </div></div>
@@ -546,63 +509,63 @@ strong{color:#fff;}
 <div class="summary">Imblocabilité, sacrifice et anti-cimetière.</div>
 <div class="card-grid">
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/4/4/4493b62b-f354-47ff-9dcf-cc6e29de77c6.jpg?1785497634" data-large="https://cards.scryfall.io/large/front/4/4/4493b62b-f354-47ff-9dcf-cc6e29de77c6.jpg?1785497634" data-name="Rogue&#x27;s Passage" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Rogue&#x27;s Passage<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.37</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{4}, {T}: une créature ciblée ne peut pas être bloquée ce tour (Oracle) — garantit le contact de Terra (réanimation gratuite).</div>
+      <div class="cb-body">
+        <div class="cb-name">Rogue&#x27;s Passage<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.37</span></div>
+        <div class="cb-expl">{4}, {T}: une créature ciblée ne peut pas être bloquée ce tour (Oracle) — garantit le contact de Terra (réanimation gratuite).</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/0/b/0b47f6d2-9f65-47a4-bfc4-15619befe53d.jpg?1783911207" data-large="https://cards.scryfall.io/large/front/0/b/0b47f6d2-9f65-47a4-bfc4-15619befe53d.jpg?1783911207" data-name="Phyrexian Tower" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Phyrexian Tower<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.07</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{T}, sacrifiez une créature : ajoutez {B}{B} (Oracle) — sacrifice outlet intégré au terrain.</div>
+      <div class="cb-body">
+        <div class="cb-name">Phyrexian Tower<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.07</span></div>
+        <div class="cb-expl">{T}, sacrifiez une créature : ajoutez {B}{B} (Oracle) — sacrifice outlet intégré au terrain.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/5/5/55b5b094-9d2d-4d96-b90c-78fecdae725a.jpg?1783903734" data-large="https://cards.scryfall.io/large/front/5/5/55b5b094-9d2d-4d96-b90c-78fecdae725a.jpg?1783903734" data-name="Bojuka Bog" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Bojuka Bog<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.16</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Entre engagé, exile le cimetière d'un joueur ciblé (Oracle) — anti-récursion gratuit contre les autres decks réanimateurs.</div>
+      <div class="cb-body">
+        <div class="cb-name">Bojuka Bog<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.16</span></div>
+        <div class="cb-expl">Entre engagé, exile le cimetière d'un joueur ciblé (Oracle) — anti-récursion gratuit contre les autres decks réanimateurs.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/4/9/499037cc-a577-41cb-8ca2-5e117945634f.jpg?1783923812" data-large="https://cards.scryfall.io/large/front/4/9/499037cc-a577-41cb-8ca2-5e117945634f.jpg?1783923812" data-name="Takenuma, Abandoned Mire" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Takenuma, Abandoned Mire<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.06</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Channel {3}{B}, défaussez : mill 3 puis renvoyez une créature ou planeswalker de votre cimetière à votre main (Oracle), coût réduit par vos légendaires — tutor cimetière.</div>
+      <div class="cb-body">
+        <div class="cb-name">Takenuma, Abandoned Mire<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.06</span></div>
+        <div class="cb-expl">Channel {3}{B}, défaussez : mill 3 puis renvoyez une créature ou planeswalker de votre cimetière à votre main (Oracle), coût réduit par vos légendaires — tutor cimetière.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/9/e/9e1a9e38-6ffc-490f-b0be-23ba4e8204c6.jpg?1783927747" data-large="https://cards.scryfall.io/large/front/9/e/9e1a9e38-6ffc-490f-b0be-23ba4e8204c6.jpg?1783927747" data-name="Urborg, Tomb of Yawgmoth" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Urborg, Tomb of Yawgmoth<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.04</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Chaque terrain est un marais en plus de ses autres types (Oracle) — fixe votre mana noir.</div>
+      <div class="cb-body">
+        <div class="cb-name">Urborg, Tomb of Yawgmoth<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.04</span></div>
+        <div class="cb-expl">Chaque terrain est un marais en plus de ses autres types (Oracle) — fixe votre mana noir.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/8/9/894aa6b6-0d08-4c43-8734-9cb7b31359c6.jpg?1783903727" data-large="https://cards.scryfall.io/large/front/8/9/894aa6b6-0d08-4c43-8734-9cb7b31359c6.jpg?1783903727" data-name="High Market" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">High Market<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.51</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{T}, sacrifiez une créature : gagnez 1 PV (Oracle) — sacrifice outlet + gain de vie.</div>
+      <div class="cb-body">
+        <div class="cb-name">High Market<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.51</span></div>
+        <div class="cb-expl">{T}, sacrifiez une créature : gagnez 1 PV (Oracle) — sacrifice outlet + gain de vie.</div>
       </div>
     </div>
 </div></div>
@@ -610,89 +573,89 @@ strong{color:#fff;}
 <div class="summary">La base Mardu : terrains doubles et fixeurs de mana.</div>
 <div class="card-grid">
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/0/5/0548fb60-c843-4f8f-a029-6f10efc63a41.jpg?1783903206" data-large="https://cards.scryfall.io/large/front/0/5/0548fb60-c843-4f8f-a029-6f10efc63a41.jpg?1783903206" data-name="Command Tower" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Command Tower<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.05</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{T}: ajoute un mana de n'importe quelle couleur de votre identité (Oracle).</div>
+      <div class="cb-body">
+        <div class="cb-name">Command Tower<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.05</span></div>
+        <div class="cb-expl">{T}: ajoute un mana de n'importe quelle couleur de votre identité (Oracle).</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/d/1/d11c5fe0-1528-4c94-a8cc-42bcab9d7487.jpg?1785759427" data-large="https://cards.scryfall.io/large/front/d/1/d11c5fe0-1528-4c94-a8cc-42bcab9d7487.jpg?1785759427" data-name="Exotic Orchard" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Exotic Orchard<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.25</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{T}: ajoute un mana de n'importe quelle couleur qu'un terrain adverse pourrait produire (Oracle) — mana multicolore.</div>
+      <div class="cb-body">
+        <div class="cb-name">Exotic Orchard<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.25</span></div>
+        <div class="cb-expl">{T}: ajoute un mana de n'importe quelle couleur qu'un terrain adverse pourrait produire (Oracle) — mana multicolore.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/a/6/a68fbeaa-941f-4d53-becd-f93ed22b9a54.jpg?1783907273" data-large="https://cards.scryfall.io/large/front/a/6/a68fbeaa-941f-4d53-becd-f93ed22b9a54.jpg?1783907273" data-name="Nomad Outpost" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Nomad Outpost<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.10</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Entre engagé, {T}: ajoute {R}, {W} ou {B} (Oracle) — le tri-terrain Mardu.</div>
+      <div class="cb-body">
+        <div class="cb-name">Nomad Outpost<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.10</span></div>
+        <div class="cb-expl">Entre engagé, {T}: ajoute {R}, {W} ou {B} (Oracle) — le tri-terrain Mardu.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/f/4/f465ded8-0d38-42ac-bafc-a12185013c5d.jpg?1783903732" data-large="https://cards.scryfall.io/large/front/f/4/f465ded8-0d38-42ac-bafc-a12185013c5d.jpg?1783903732" data-name="Fetid Heath" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Fetid Heath<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.42</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{W/B}, {T}: ajoute {W}{W}, {W}{B} ou {B}{B} (Oracle) — le terrain double blanc/noir.</div>
+      <div class="cb-body">
+        <div class="cb-name">Fetid Heath<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.42</span></div>
+        <div class="cb-expl">{W/B}, {T}: ajoute {W}{W}, {W}{B} ou {B}{B} (Oracle) — le terrain double blanc/noir.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/d/7/d707c477-440f-417c-970a-0e7426a58045.jpg?1783903193" data-large="https://cards.scryfall.io/large/front/d/7/d707c477-440f-417c-970a-0e7426a58045.jpg?1783903193" data-name="Smoldering Marsh" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Smoldering Marsh<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.25</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{T}: ajoute {B} ou {R} (Oracle), entre engagé sauf si vous contrôlez 2+ terrains de base — le terrain double noir/rouge.</div>
+      <div class="cb-body">
+        <div class="cb-name">Smoldering Marsh<span class="syn syn-lo" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.25</span></div>
+        <div class="cb-expl">{T}: ajoute {B} ou {R} (Oracle), entre engagé sauf si vous contrôlez 2+ terrains de base — le terrain double noir/rouge.</div>
       </div>
     </div>
 
-    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+    <div class="card-block">
       <img src="https://cards.scryfall.io/normal/front/7/4/74a13fea-4f48-428b-b42b-4ba63d4752ed.jpg?1783909574" data-large="https://cards.scryfall.io/large/front/7/4/74a13fea-4f48-428b-b42b-4ba63d4752ed.jpg?1783909574" data-name="Graven Cairns" loading="lazy"
-           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           
            onclick="openModal(this)"/>
-      <div style="flex:1;">
-        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Graven Cairns<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.49</span></div>
-        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{B/R}, {T}: ajoute {B}{B}, {B}{R} ou {R}{R} (Oracle) — le terrain double noir/rouge flexible.</div>
+      <div class="cb-body">
+        <div class="cb-name">Graven Cairns<span class="syn syn-mid" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.49</span></div>
+        <div class="cb-expl">{B/R}, {T}: ajoute {B}{B}, {B}{R} ou {R}{R} (Oracle) — le terrain double noir/rouge flexible.</div>
       </div>
     </div>
 </div></div>
 <h2 id="s4">4. Combos pertinents (9)</h2>
-<p style="color:#999;">Filtre : identité compatible + chevauchement avec les cartes EDHREC + 2-4 cartes + popularité ≥ 100. 📋 copie la liste des cartes du combo.</p>
+<p class="report-sub">Filtre : identité compatible + chevauchement avec les cartes EDHREC + 2-4 cartes + popularité ≥ 100. 📋 copie la liste des cartes du combo.</p>
 <div class="combo">
 <h3>🔗 Terra, Herald of Hope + Aurelia, the Warleader + Ashnod's Altar + Karmic Guide <button class="copy-btn" data-copy="Terra, Herald of Hope, Aurelia, the Warleader, Ashnod&#x27;s Altar, Karmic Guide" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
 <div class="meta">Identité RWB · Popularité : 2266 decks</div>
-<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/5/a/5aa1a2d7-6133-41a9-9662-9008d1309935.jpg?1783906373" data-large="https://cards.scryfall.io/large/front/5/a/5aa1a2d7-6133-41a9-9662-9008d1309935.jpg?1783906373" data-name="Terra, Herald of Hope" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Terra, Herald of Hope</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915" data-large="https://cards.scryfall.io/large/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915" data-name="Aurelia, the Warleader" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Aurelia, the Warleader</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605" data-large="https://cards.scryfall.io/large/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605" data-name="Ashnod&#x27;s Altar" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Ashnod&#x27;s Altar</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-large="https://cards.scryfall.io/large/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-name="Karmic Guide" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Karmic Guide</div></div></div>
+<div class="center"><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/5/a/5aa1a2d7-6133-41a9-9662-9008d1309935.jpg?1783906373" data-large="https://cards.scryfall.io/large/front/5/a/5aa1a2d7-6133-41a9-9662-9008d1309935.jpg?1783906373" data-name="Terra, Herald of Hope" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Terra, Herald of Hope</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915" data-large="https://cards.scryfall.io/large/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915" data-name="Aurelia, the Warleader" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Aurelia, the Warleader</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605" data-large="https://cards.scryfall.io/large/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605" data-name="Ashnod&#x27;s Altar" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Ashnod&#x27;s Altar</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-large="https://cards.scryfall.io/large/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-name="Karmic Guide" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Karmic Guide</div></div></div>
 <div class="result"><strong>Produit</strong> :  ·  ·  ·  ·  · </div>
 <div class="step"><strong>Prérequis</strong> : An opponent cannot block creatures you control.</div>
 <div class="step"><strong>Exécution</strong> : At the beginning of your combat phase, Terra&#x27;s first ability triggers, causing you to mill two cards.
 Declare Terra and Aurelia as attackers.
 Aurelia triggers, causing you to untap all other creatures you control and to get an additional combat phase after this one.
 Deal combat damage to an opponent using Terra, triggering its second ability.
-Holding priority, activate Ashnod&#x27;s Altar twice by sacrificing Aurelia and Karmic Guide, adding <img src="https://svgs.scryfall.io/card-symbols/C.svg" alt="C" title="C" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/C.svg" alt="C" title="C" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/C.svg" alt="C" title="C" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/C.svg" alt="C" title="C" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
-Resolve the Terra ability, choosing to pay <img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/> to trigger its reflexive ability, returning Karmic Guide from your graveyard to the battlefield tapped.
+Holding priority, activate Ashnod&#x27;s Altar twice by sacrificing Aurelia and Karmic Guide, adding <img src="https://svgs.scryfall.io/card-symbols/C.svg" alt="C" title="C" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/C.svg" alt="C" title="C" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/C.svg" alt="C" title="C" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/C.svg" alt="C" title="C" class="ms"/>.
+Resolve the Terra ability, choosing to pay <img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" class="ms"/> to trigger its reflexive ability, returning Karmic Guide from your graveyard to the battlefield tapped.
 When Karmic Guide enters the battlefield, it triggers, returning Aurelia from your graveyard to the battlefield. 
 Repeat each combat phase.</div>
 </div>
 <div class="combo">
 <h3>🔗 Luminous Broodmoth + Ashnod's Altar <button class="copy-btn" data-copy="Luminous Broodmoth, Ashnod&#x27;s Altar" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
 <div class="meta">Identité W · Popularité : 30010 decks</div>
-<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/b/b/bb65df55-d6a6-4a57-a903-e5eb17637982.jpg?1783931087" data-large="https://cards.scryfall.io/large/front/b/b/bb65df55-d6a6-4a57-a903-e5eb17637982.jpg?1783931087" data-name="Luminous Broodmoth" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Luminous Broodmoth</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605" data-large="https://cards.scryfall.io/large/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605" data-name="Ashnod&#x27;s Altar" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Ashnod&#x27;s Altar</div></div></div>
+<div class="center"><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/b/b/bb65df55-d6a6-4a57-a903-e5eb17637982.jpg?1783931087" data-large="https://cards.scryfall.io/large/front/b/b/bb65df55-d6a6-4a57-a903-e5eb17637982.jpg?1783931087" data-name="Luminous Broodmoth" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Luminous Broodmoth</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605" data-large="https://cards.scryfall.io/large/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605" data-name="Ashnod&#x27;s Altar" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Ashnod&#x27;s Altar</div></div></div>
 <div class="result"><strong>Produit</strong> :  ·  ·  ·  · </div>
-<div class="step"><strong>Exécution</strong> : Activate Ashnod&#x27;s Altar by sacrificing the persist or undying creature, adding <img src="https://svgs.scryfall.io/card-symbols/C.svg" alt="C" title="C" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/C.svg" alt="C" title="C" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
+<div class="step"><strong>Exécution</strong> : Activate Ashnod&#x27;s Altar by sacrificing the persist or undying creature, adding <img src="https://svgs.scryfall.io/card-symbols/C.svg" alt="C" title="C" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/C.svg" alt="C" title="C" class="ms"/>.
 When the creature dies, its persist or undying ability triggers if it doesn&#x27;t have a -1/-1 counter or +1/+1 counter on it respectively, and Luminous Broodmoth triggers if the creature didn&#x27;t have flying.
 Resolve the persist or undying trigger, if applicable, returning the creature from your graveyard to the battlefield with either a -1/-1 counter or a +1/+1 counter on it.
 Resolve the Luminous Broodmoth trigger, if applicable, returning the creature from your graveyard to the battlefield with a flying counter on it if the creature is still in your graveyard.
@@ -701,7 +664,7 @@ Repeat.</div>
 <div class="combo">
 <h3>🔗 Luminous Broodmoth + Pitiless Plunderer + Viscera Seer + Reassembling Skeleton <button class="copy-btn" data-copy="Luminous Broodmoth, Pitiless Plunderer, Viscera Seer, Reassembling Skeleton" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
 <div class="meta">Identité WB · Popularité : 7855 decks</div>
-<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/b/b/bb65df55-d6a6-4a57-a903-e5eb17637982.jpg?1783931087" data-large="https://cards.scryfall.io/large/front/b/b/bb65df55-d6a6-4a57-a903-e5eb17637982.jpg?1783931087" data-name="Luminous Broodmoth" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Luminous Broodmoth</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869" data-large="https://cards.scryfall.io/large/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869" data-name="Pitiless Plunderer" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Pitiless Plunderer</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/f/5/f511830b-1c1f-4d30-aa5d-4314726d142e.jpg?1783903780" data-large="https://cards.scryfall.io/large/front/f/5/f511830b-1c1f-4d30-aa5d-4314726d142e.jpg?1783903780" data-name="Viscera Seer" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Viscera Seer</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/4/d/4d431445-d7db-4ce1-b422-41494d9be1b4.jpg?1783907080" data-large="https://cards.scryfall.io/large/front/4/d/4d431445-d7db-4ce1-b422-41494d9be1b4.jpg?1783907080" data-name="Reassembling Skeleton" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Reassembling Skeleton</div></div></div>
+<div class="center"><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/b/b/bb65df55-d6a6-4a57-a903-e5eb17637982.jpg?1783931087" data-large="https://cards.scryfall.io/large/front/b/b/bb65df55-d6a6-4a57-a903-e5eb17637982.jpg?1783931087" data-name="Luminous Broodmoth" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Luminous Broodmoth</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869" data-large="https://cards.scryfall.io/large/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869" data-name="Pitiless Plunderer" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Pitiless Plunderer</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/f/5/f511830b-1c1f-4d30-aa5d-4314726d142e.jpg?1783903780" data-large="https://cards.scryfall.io/large/front/f/5/f511830b-1c1f-4d30-aa5d-4314726d142e.jpg?1783903780" data-name="Viscera Seer" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Viscera Seer</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/4/d/4d431445-d7db-4ce1-b422-41494d9be1b4.jpg?1783907080" data-large="https://cards.scryfall.io/large/front/4/d/4d431445-d7db-4ce1-b422-41494d9be1b4.jpg?1783907080" data-name="Reassembling Skeleton" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Reassembling Skeleton</div></div></div>
 <div class="result"><strong>Produit</strong> :  ·  ·  ·  · </div>
 <div class="step"><strong>Exécution</strong> : Activate Viscera Seer by sacrificing Reassembling Skeleton.
 When Reassembling Skeleton dies, Luminous Broodmoth and Pitiless Plunderer trigger.
@@ -710,14 +673,14 @@ Resolve the Pitiless Plunderer trigger, creating a Treasure token.
 Activate Viscera Seer by sacrificing Reassembling Skeleton.
 When Reassembling Skeleton dies, Pitiless Plunderer triggers, creating a Treasure token.
 Resolve the Viscera Seer abilities from steps 1 and 5, causing you to scry 1 twice.
-Activate the Treasures by tapping and sacrificing them, adding <img src="https://svgs.scryfall.io/card-symbols/1.svg" alt="1" title="1" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/B.svg" alt="B" title="B" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
-Activate Reassembling Skeleton by paying <img src="https://svgs.scryfall.io/card-symbols/1.svg" alt="1" title="1" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/B.svg" alt="B" title="B" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>, returning it from your graveyard to the battlefield.
+Activate the Treasures by tapping and sacrificing them, adding <img src="https://svgs.scryfall.io/card-symbols/1.svg" alt="1" title="1" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/B.svg" alt="B" title="B" class="ms"/>.
+Activate Reassembling Skeleton by paying <img src="https://svgs.scryfall.io/card-symbols/1.svg" alt="1" title="1" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/B.svg" alt="B" title="B" class="ms"/>, returning it from your graveyard to the battlefield.
 Repeat.</div>
 </div>
 <div class="combo">
 <h3>🔗 Sun Titan + Karmic Guide + Animate Dead + Altar of Dementia <button class="copy-btn" data-copy="Sun Titan, Karmic Guide, Animate Dead, Altar of Dementia" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
 <div class="meta">Identité WB · Popularité : 3472 decks</div>
-<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-large="https://cards.scryfall.io/large/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-name="Sun Titan" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Sun Titan</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-large="https://cards.scryfall.io/large/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-name="Karmic Guide" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Karmic Guide</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-large="https://cards.scryfall.io/large/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-name="Animate Dead" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Animate Dead</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/1/6/169356e0-46dc-4096-8e66-36726454f104.jpg?1783933075" data-large="https://cards.scryfall.io/large/front/1/6/169356e0-46dc-4096-8e66-36726454f104.jpg?1783933075" data-name="Altar of Dementia" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Altar of Dementia</div></div></div>
+<div class="center"><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-large="https://cards.scryfall.io/large/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-name="Sun Titan" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Sun Titan</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-large="https://cards.scryfall.io/large/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-name="Karmic Guide" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Karmic Guide</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-large="https://cards.scryfall.io/large/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-name="Animate Dead" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Animate Dead</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/1/6/169356e0-46dc-4096-8e66-36726454f104.jpg?1783933075" data-large="https://cards.scryfall.io/large/front/1/6/169356e0-46dc-4096-8e66-36726454f104.jpg?1783933075" data-name="Altar of Dementia" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Altar of Dementia</div></div></div>
 <div class="result"><strong>Produit</strong> :  ·  ·  ·  · </div>
 <div class="step"><strong>Exécution</strong> : Cast Sun Titan.
 Sun Titan enters the battlefield, returning Animate Dead from your graveyard to the battlefield.
@@ -732,9 +695,9 @@ Repeat from step 2.</div>
 <div class="combo">
 <h3>🔗 Karmic Guide + Sister Hospitaller + Ashnod's Altar <button class="copy-btn" data-copy="Karmic Guide, Sister Hospitaller, Ashnod&#x27;s Altar" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
 <div class="meta">Identité WB · Popularité : 2935 decks</div>
-<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-large="https://cards.scryfall.io/large/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-name="Karmic Guide" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Karmic Guide</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/f/b/fb086307-b089-45ba-81d3-789ed35dc5b8.jpg?1783920833" data-large="https://cards.scryfall.io/large/front/f/b/fb086307-b089-45ba-81d3-789ed35dc5b8.jpg?1783920833" data-name="Sister Hospitaller" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Sister Hospitaller</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605" data-large="https://cards.scryfall.io/large/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605" data-name="Ashnod&#x27;s Altar" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Ashnod&#x27;s Altar</div></div></div>
+<div class="center"><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-large="https://cards.scryfall.io/large/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-name="Karmic Guide" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Karmic Guide</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/f/b/fb086307-b089-45ba-81d3-789ed35dc5b8.jpg?1783920833" data-large="https://cards.scryfall.io/large/front/f/b/fb086307-b089-45ba-81d3-789ed35dc5b8.jpg?1783920833" data-name="Sister Hospitaller" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Sister Hospitaller</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605" data-large="https://cards.scryfall.io/large/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605" data-name="Ashnod&#x27;s Altar" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Ashnod&#x27;s Altar</div></div></div>
 <div class="result"><strong>Produit</strong> :  ·  ·  ·  ·  · </div>
-<div class="step"><strong>Exécution</strong> : Cast Karmic Guide by paying <img src="https://svgs.scryfall.io/card-symbols/3.svg" alt="3" title="3" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/W.svg" alt="W" title="W" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/W.svg" alt="W" title="W" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
+<div class="step"><strong>Exécution</strong> : Cast Karmic Guide by paying <img src="https://svgs.scryfall.io/card-symbols/3.svg" alt="3" title="3" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/W.svg" alt="W" title="W" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/W.svg" alt="W" title="W" class="ms"/>.
 When Karmic Guide enters, it triggers, targeting Sister Hospitaller.
 Holding priority, activate Ashnod&#x27;s Altar by sacrificing Karmic Guide.
 Resolve the Karmic Guide ability, returning Sister Hospitaller from your graveyard to the battlefield.
@@ -746,11 +709,11 @@ Repeat from step 2.</div>
 <div class="combo">
 <h3>🔗 Sun Titan + Karmic Guide + Animate Dead + Ashnod's Altar <button class="copy-btn" data-copy="Sun Titan, Karmic Guide, Animate Dead, Ashnod&#x27;s Altar" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
 <div class="meta">Identité WB · Popularité : 2741 decks</div>
-<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-large="https://cards.scryfall.io/large/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-name="Sun Titan" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Sun Titan</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-large="https://cards.scryfall.io/large/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-name="Karmic Guide" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Karmic Guide</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-large="https://cards.scryfall.io/large/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-name="Animate Dead" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Animate Dead</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605" data-large="https://cards.scryfall.io/large/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605" data-name="Ashnod&#x27;s Altar" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Ashnod&#x27;s Altar</div></div></div>
+<div class="center"><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-large="https://cards.scryfall.io/large/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-name="Sun Titan" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Sun Titan</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-large="https://cards.scryfall.io/large/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-name="Karmic Guide" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Karmic Guide</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-large="https://cards.scryfall.io/large/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-name="Animate Dead" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Animate Dead</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605" data-large="https://cards.scryfall.io/large/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605" data-name="Ashnod&#x27;s Altar" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Ashnod&#x27;s Altar</div></div></div>
 <div class="result"><strong>Produit</strong> :  ·  ·  ·  · </div>
 <div class="step"><strong>Exécution</strong> : Cast Sun Titan.
 Sun Titan enters the battlefield, returning Animate Dead from your graveyard to the battlefield.
-With the Animate Dead trigger on the stack, Activate Ashnod&#x27;s Altar, sacrificing Sun Titan to add <img src="https://svgs.scryfall.io/card-symbols/C.svg" alt="C" title="C" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/C.svg" alt="C" title="C" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
+With the Animate Dead trigger on the stack, Activate Ashnod&#x27;s Altar, sacrificing Sun Titan to add <img src="https://svgs.scryfall.io/card-symbols/C.svg" alt="C" title="C" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/C.svg" alt="C" title="C" class="ms"/>.
 Resolve the Animate Dead trigger, causing it to become an Aura with &quot;enchant creature put onto the battlefield with Animate Dead&quot; and returning Karmic Guide from your graveyard to the battlefield.
 Animate Dead is put into your graveyard due to state based actions, as it cannot attach to a creature with protection from black.
 Animate Dead triggers, causing you to sacrifice Karmic Guide.
@@ -761,7 +724,7 @@ Repeat from step 2.</div>
 <div class="combo">
 <h3>🔗 Sun Titan + Karmic Guide + Animate Dead + Phyrexian Altar <button class="copy-btn" data-copy="Sun Titan, Karmic Guide, Animate Dead, Phyrexian Altar" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
 <div class="meta">Identité WB · Popularité : 1714 decks</div>
-<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-large="https://cards.scryfall.io/large/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-name="Sun Titan" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Sun Titan</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-large="https://cards.scryfall.io/large/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-name="Karmic Guide" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Karmic Guide</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-large="https://cards.scryfall.io/large/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-name="Animate Dead" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Animate Dead</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789" data-large="https://cards.scryfall.io/large/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789" data-name="Phyrexian Altar" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Phyrexian Altar</div></div></div>
+<div class="center"><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-large="https://cards.scryfall.io/large/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-name="Sun Titan" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Sun Titan</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-large="https://cards.scryfall.io/large/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-name="Karmic Guide" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Karmic Guide</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-large="https://cards.scryfall.io/large/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-name="Animate Dead" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Animate Dead</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789" data-large="https://cards.scryfall.io/large/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789" data-name="Phyrexian Altar" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Phyrexian Altar</div></div></div>
 <div class="result"><strong>Produit</strong> :  ·  ·  ·  · </div>
 <div class="step"><strong>Exécution</strong> : Cast Sun Titan.
 Sun Titan enters the battlefield, returning Animate Dead from your graveyard to the battlefield.
@@ -776,9 +739,9 @@ Repeat from step 2.</div>
 <div class="combo">
 <h3>🔗 Animate Dead + Sun Titan + Dance of the Dead + Viscera Seer <button class="copy-btn" data-copy="Animate Dead, Sun Titan, Dance of the Dead, Viscera Seer" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
 <div class="meta">Identité WB · Popularité : 1346 decks</div>
-<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-large="https://cards.scryfall.io/large/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-name="Animate Dead" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Animate Dead</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-large="https://cards.scryfall.io/large/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-name="Sun Titan" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Sun Titan</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/4/4/44de44be-db14-4932-968b-a5bc8b575716.jpg?1783942625" data-large="https://cards.scryfall.io/large/front/4/4/44de44be-db14-4932-968b-a5bc8b575716.jpg?1783942625" data-name="Dance of the Dead" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Dance of the Dead</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/f/5/f511830b-1c1f-4d30-aa5d-4314726d142e.jpg?1783903780" data-large="https://cards.scryfall.io/large/front/f/5/f511830b-1c1f-4d30-aa5d-4314726d142e.jpg?1783903780" data-name="Viscera Seer" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Viscera Seer</div></div></div>
+<div class="center"><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-large="https://cards.scryfall.io/large/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-name="Animate Dead" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Animate Dead</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-large="https://cards.scryfall.io/large/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-name="Sun Titan" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Sun Titan</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/4/4/44de44be-db14-4932-968b-a5bc8b575716.jpg?1783942625" data-large="https://cards.scryfall.io/large/front/4/4/44de44be-db14-4932-968b-a5bc8b575716.jpg?1783942625" data-name="Dance of the Dead" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Dance of the Dead</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/f/5/f511830b-1c1f-4d30-aa5d-4314726d142e.jpg?1783903780" data-large="https://cards.scryfall.io/large/front/f/5/f511830b-1c1f-4d30-aa5d-4314726d142e.jpg?1783903780" data-name="Viscera Seer" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Viscera Seer</div></div></div>
 <div class="result"><strong>Produit</strong> :  ·  ·  ·  · </div>
-<div class="step"><strong>Exécution</strong> : Cast Animate Dead by paying <img src="https://svgs.scryfall.io/card-symbols/1.svg" alt="1" title="1" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/B.svg" alt="B" title="B" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
+<div class="step"><strong>Exécution</strong> : Cast Animate Dead by paying <img src="https://svgs.scryfall.io/card-symbols/1.svg" alt="1" title="1" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/B.svg" alt="B" title="B" class="ms"/>.
 When Animate Dead enters, it trigger, returning Sun Titan from your graveyard to the battlefield and attaching Animate Dead to it.
 When Sun Titan enters, it triggers, targeting Dance of the Dead.
 Holding priority, activate Viscera Seer by sacrificing Sun Titan.
@@ -792,7 +755,7 @@ Repeat from step 2.</div>
 <div class="combo">
 <h3>🔗 Sun Titan + Karmic Guide + Animate Dead + Goblin Bombardment <button class="copy-btn" data-copy="Sun Titan, Karmic Guide, Animate Dead, Goblin Bombardment" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
 <div class="meta">Identité RWB · Popularité : 1076 decks</div>
-<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-large="https://cards.scryfall.io/large/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-name="Sun Titan" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Sun Titan</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-large="https://cards.scryfall.io/large/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-name="Karmic Guide" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Karmic Guide</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-large="https://cards.scryfall.io/large/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-name="Animate Dead" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Animate Dead</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/e/2/e262f55e-9239-4a97-a19e-9b08fb34502e.jpg?1783926784" data-large="https://cards.scryfall.io/large/front/e/2/e262f55e-9239-4a97-a19e-9b08fb34502e.jpg?1783926784" data-name="Goblin Bombardment" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Goblin Bombardment</div></div></div>
+<div class="center"><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-large="https://cards.scryfall.io/large/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797" data-name="Sun Titan" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Sun Titan</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-large="https://cards.scryfall.io/large/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811" data-name="Karmic Guide" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Karmic Guide</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-large="https://cards.scryfall.io/large/front/c/c/cc0c2bab-4392-4e7b-9d14-2901f4ffbae8.jpg?1783903787" data-name="Animate Dead" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Animate Dead</div></div><div class="big-card" style="width:150px;"><img src="https://cards.scryfall.io/normal/front/e/2/e262f55e-9239-4a97-a19e-9b08fb34502e.jpg?1783926784" data-large="https://cards.scryfall.io/large/front/e/2/e262f55e-9239-4a97-a19e-9b08fb34502e.jpg?1783926784" data-name="Goblin Bombardment" loading="lazy"  onclick="openModal(this)"/><div class="big-label">Goblin Bombardment</div></div></div>
 <div class="result"><strong>Produit</strong> :  ·  ·  ·  · </div>
 <div class="step"><strong>Exécution</strong> : Cast Sun Titan.
 Sun Titan enters the battlefield, returning Animate Dead from your graveyard to the battlefield.
@@ -805,7 +768,7 @@ Resolve Karmic Guide&#x27;s enter the battlefield trigger returning Sun Titan fr
 Repeat from step 2.</div>
 </div>
 <div class="warning"><strong>⚠️ Note</strong> : 110 combos Mardu écartés (chevauchement insuffisant, 5+ cartes, ou popularité trop faible) et 163 hors-couleurs.</div>
-<p style="color:#666;font-size:12px;margin-top:30px;border-top:1px solid #2d2d44;padding-top:12px;">
+<p class="report-footer">
 Rapport v2 généré le 06/08/2026 à 08:46 · Sources : Scryfall API (noms, textes Oracle, images, symboles officiels) · EDHREC (données, scores de synergie) · Commander Spellbook (combos) · EDHREC Articles (guides)<br>
 Toutes les images et symboles proviennent des serveurs officiels Scryfall. Les explications sont vérifiées contre les textes Oracle.</p>
 <div id="modal" onclick="closeModal()">
