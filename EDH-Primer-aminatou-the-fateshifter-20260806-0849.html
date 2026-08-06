@@ -1,0 +1,1022 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aminatou, the Fateshifter — Rapport Final Commander EDH (v2)</title>
+<style>
+body{background:linear-gradient(160deg,#10101c,#1a1a2e 60%,#16213e);color:#e8e8f0;font-family:"Segoe UI",Arial,sans-serif;padding:28px;max-width:1200px;margin:0 auto;line-height:1.55;}
+h1{color:#7ee787;font-size:30px;border-bottom:3px solid #2d6a4f;padding-bottom:12px;}
+h2{color:#79c0ff;font-size:22px;margin-top:38px;border-bottom:1px solid #2d2d44;padding-bottom:8px;}
+h3{color:#ffd77a;font-size:17px;margin-top:22px;}
+table{border-collapse:collapse;margin:14px 0;width:auto;}
+td,th{border:1px solid #33335a;padding:8px 14px;font-size:14px;}
+th{background:#1f1f3a;color:#79c0ff;text-align:left;}
+.oracle{background:#0d0d18;border-left:4px solid #7ee787;padding:14px 18px;border-radius:8px;font-style:italic;color:#c8d6e5;margin:14px 0;}
+.plan{background:#151528;border-radius:12px;padding:18px 22px;margin:16px 0;border:1px solid #2d2d44;}
+.plan.chosen{border:2px solid #7ee787;background:#14211a;}
+.badge{display:inline-block;background:#2d6a4f;color:#fff;border-radius:20px;padding:3px 12px;font-size:13px;font-weight:700;margin-left:8px;}
+.combo{background:#131a2b;border:1px solid #2d4a5a;border-radius:12px;padding:16px 20px;margin:14px 0;}
+.combo h3{color:#7ee787;font-size:15px;}
+.combo .meta{color:#8a93b8;font-size:12px;margin-bottom:8px;}
+.step{background:#0d0d18;border-radius:8px;padding:8px 14px;margin:6px 0;border-left:3px solid #79c0ff;font-size:13px;}
+.result{background:#14211a;border-left:4px solid #7ee787;padding:8px 12px;border-radius:6px;margin:8px 0;font-size:13px;}
+.warning{background:#2a1f12;border-left:4px solid #ffd77a;padding:10px 14px;border-radius:6px;font-size:14px;color:#e8d5b0;margin:10px 0;}
+.source{background:#121a2e;border-left:4px solid #79c0ff;padding:10px 14px;border-radius:6px;font-size:13px;color:#b8c8e8;margin:10px 0;}
+.category{background:#12122a;border-radius:12px;padding:16px 20px;margin:14px 0;border:1px solid #2d2d44;}
+.category .summary{color:#c8d0e8;font-size:14px;margin-bottom:12px;padding-bottom:12px;border-bottom:1px dashed #2d2d44;}
+.category h3{margin-top:6px;}
+ul{margin:6px 0 6px 20px;}
+li{margin:3px 0;}
+strong{color:#fff;}
+.card-block{transition:transform .15s;}
+.card-block:hover{transform:translateY(-2px);border-color:#3d3d6a !important;}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:10px;margin-top:6px;}
+@media (max-width:700px){.card-grid{grid-template-columns:1fr;}}
+.toc{background:#151528;border-radius:12px;padding:16px 24px;border:1px solid #2d2d44;}
+.toc a{color:#79c0ff;text-decoration:none;}
+#modal{display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,.92);z-index:9999;align-items:center;justify-content:center;cursor:zoom-out;}
+#modal.open{display:flex;}
+#modal img{max-width:92vw;max-height:92vh;border-radius:14px;box-shadow:0 8px 40px rgba(0,0,0,.8);}
+#modal .caption{position:absolute;bottom:18px;left:0;right:0;text-align:center;color:#ddd;font-size:15px;font-weight:600;text-shadow:0 2px 6px #000;pointer-events:none;}
+#modal .hint{position:absolute;top:14px;right:20px;color:#888;font-size:13px;}
+.copy-btn{background:none;border:1px solid #2d2d44;border-radius:6px;cursor:pointer;margin-left:8px;font-size:13px;padding:2px 8px;vertical-align:middle;transition:all .15s;}
+.copy-btn:hover{border-color:#79c0ff;background:#1f1f3a;transform:scale(1.1);}
+.copied{background:#2d6a4f !important;border-color:#7ee787 !important;}
+</style></head><body>
+<h1>Aminatou, the Fateshifter — Rapport Final Commander EDH</h1>
+<p style="color:#999;">Rapport v2 généré par <strong>MTG Commander Builder</strong> · Sources : Scryfall (cartes, images, symboles, textes Oracle) · EDHREC (catégories, scores de synergie) · Commander Spellbook (combos) · EDHREC Articles (guide)<br>💡 <em>Chaque explication est vérifiée contre le texte Oracle officiel. Le badge « synergie 0.xx » = score EDHREC. Cliquez sur 📋 pour copier, sur une carte pour zoomer.</em></p>
+<div class="toc"><h3 style="margin-top:6px;">📑 Sommaire</h3><ol>
+<li><a href="#s1">Fiche du Commander</a></li>
+<li><a href="#s2">Plan de jeu retenu : BLINK / FLICKER</a></li>
+<li><a href="#s3">Cartes par catégories EDHREC</a></li>
+<li><a href="#s4">Combos pertinents (19)</a></li>
+</ol></div>
+<h2 id="s1">1. Fiche du Commander <button class="copy-btn" data-copy="Aminatou, the Fateshifter" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h2>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:260px;"><img src="https://cards.scryfall.io/normal/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857" data-large="https://cards.scryfall.io/large/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857" data-name="Aminatou, the Fateshifter" loading="lazy" style="width:260px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Aminatou, the Fateshifter</div></div></div>
+<table>
+<tr><th>Attribut</th><th>Valeur</th></tr>
+<tr><td><strong>Nom officiel</strong></td><td>Aminatou, the Fateshifter</td></tr>
+<tr><td><strong>Coût</strong></td><td><img src="https://svgs.scryfall.io/card-symbols/W.svg" alt="W" title="W" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/B.svg" alt="B" title="B" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/> (3 mana)</td></tr>
+<tr><td><strong>Type</strong></td><td>Planeswalker légendaire — Aminatou</td></tr>
+<tr><td><strong>Identité de couleur</strong></td><td>⚪🔵⚫ Esper (W/U/B)</td></tr>
+<tr><td><strong>Loyauté</strong></td><td>3</td></tr>
+<tr><td><strong>Rareté</strong></td><td>Mythique (Commander 2018 / Double Masters 2022)</td></tr>
+<tr><td><strong>Légalité Commander</strong></td><td>✅ Légale (can be your commander)</td></tr>
+</table>
+<h3>Texte Oracle exact</h3>
+<div class="oracle"><strong>+1</strong> : Piochez une carte, puis mettez une carte de votre main au-dessus de votre bibliothèque.<br><br><strong>−1</strong> : Exilez un autre permanent ciblé que vous possédez, puis renvoyez-le sur le champ de bataille sous votre contrôle.<br><br><strong>−6</strong> : Choisissez gauche ou droite. Chaque joueur gagne le contrôle de tous les permanents non-terrain autres qu'Aminatou contrôlés par le joueur suivant dans la direction choisie.<br><br>Aminatou, the Fateshifter peut être votre commandant.</div>
+<h3>Lecture rapide</h3>
+<p>La <strong>reine du flicker Esper</strong>. Son −1 exile un permanent que tu possèdes et le fait revenir — des déclenchements ETB en cascade. Son +1 contrôle le top-deck (synergy miracles) et l'ulti vole littéralement le board adverse. Un deck de valeur infinie : chaque blink = pioche, removal ou mana.</p>
+<h2 id="s2">2. Plan de jeu retenu : BLINK / FLICKER <button class="copy-btn" data-copy="Felidar Guardian, Soulherder, Ephemerate, Displacer Kitten" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h2>
+<div class="plan chosen">
+
+    <h3>🌀 BLINK / FLICKER <span class="badge">PLAN RETENU</span></h3>
+    <p>Le plan dominant d'Aminatou (771 decks sur EDHREC).</p>
+    <ul>
+    <li><strong>Fonctionnement</strong> : Le −1 d'Aminatou exile un permanent que vous possédez et le fait revenir — les créatures avec des effets d'arrivée (ETB) se déclenchent en boucle. Chaque tour, vous rejouez vos Mulldrifter, Baleful Strix et autres pour piocher et contrôler.</li>
+    <li><strong>Mécanique centrale</strong> : Les blinkers multiples — Felidar Guardian et Displacer Kitten blinquent à leur tour, créant des chaînes infinies. Ephemerate (rebond) et Soulherder (blink passif) amplifient. Panharmonicon double tous les ETB.</li>
+    <li><strong>Condition de victoire</strong> : L'avantage cartes massif (chaque blink = pioche/removal) + les combos de mana infinis avec Peregrine Drake/Archaeomancer qui se blinquent mutuellement → X-spell ou drain.</li>
+    </ul>
+<div class="source"><strong>📰 Source secondaire</strong> : <em>« Archetypes of Imagination - Making a Flicker Deck »</em> (EDHREC Articles) : le guide décompose un deck flicker en <strong>courtes catégories de créatures ETB</strong> — les <strong>fetchs de terrains</strong> (Loyal Warhound, Knight of the White Orchid pour suivre le ramp), les <strong>creatures de removal</strong> (Loran of the Third Path, Fiend Hunter, Riptide Gearhulk « qui interagit avec chaque adversaire à chaque arrivée ») et les <strong>finishers</strong> (Moonshaker Cavalry, un Craterhoof Behemoth répétable une fois blinqué). Notre liste suit ce squelette : fetchs ramp (Solemn Simulacrum), removal ETB (Baleful Strix, Venser) et finishers de blink (Peregrine Drake en mana infini).</div>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:185px;"><img src="https://cards.scryfall.io/normal/front/4/4/44bdbed8-5d21-4bf5-8a32-9623b1139c85.jpg?1783936780" data-large="https://cards.scryfall.io/large/front/4/4/44bdbed8-5d21-4bf5-8a32-9623b1139c85.jpg?1783936780" data-name="Felidar Guardian" loading="lazy" style="width:185px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Felidar Guardian</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:185px;"><img src="https://cards.scryfall.io/normal/front/5/0/50bc0f5b-7421-45b9-af85-86dd9821b7d8.jpg?1783928301" data-large="https://cards.scryfall.io/large/front/5/0/50bc0f5b-7421-45b9-af85-86dd9821b7d8.jpg?1783928301" data-name="Soulherder" loading="lazy" style="width:185px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Soulherder</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:185px;"><img src="https://cards.scryfall.io/normal/front/2/d/2da5f3f8-5eef-498f-ba2c-2f3fbc3745aa.jpg?1783933164" data-large="https://cards.scryfall.io/large/front/2/d/2da5f3f8-5eef-498f-ba2c-2f3fbc3745aa.jpg?1783933164" data-name="Ephemerate" loading="lazy" style="width:185px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Ephemerate</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:185px;"><img src="https://cards.scryfall.io/normal/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795" data-large="https://cards.scryfall.io/large/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795" data-name="Displacer Kitten" loading="lazy" style="width:185px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Displacer Kitten</div></div></div>
+</div>
+<h2 id="s3">3. Cartes en synergie par catégories EDHREC</h2>
+<p style="color:#999;">Chaque explication est vérifiée contre le texte Oracle officiel (Scryfall). Le badge « synergie 0.xx » est le score EDHREC : proportion de decks jouant cette carte. 📋 copie la liste des cartes de la catégorie.</p>
+<div class="category"><h3>🌟 High Synergy Cards <button class="copy-btn" data-copy="Oath of Teferi, Felidar Guardian, Soulherder, Ephemerate, Peregrine Drake, Panharmonicon" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="summary">Le cœur du moteur blink : les blinkers, les ETB et les multiplicateurs.</div>
+<div class="card-grid">
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/f/7/f7474f9e-a994-4ed7-83df-22edd8219e24.jpg?1783915413" data-large="https://cards.scryfall.io/large/front/f/7/f7474f9e-a994-4ed7-83df-22edd8219e24.jpg?1783915413" data-name="Oath of Teferi" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Oath of Teferi<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.59</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À l'arrivée, exilez un autre permanent que vous contrôlez et renvoyez-le à la prochaine fin (Oracle). Vos planeswalkers peuvent être activés deux fois par tour — le moteur PW qui double Aminatou.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/4/4/44bdbed8-5d21-4bf5-8a32-9623b1139c85.jpg?1783936780" data-large="https://cards.scryfall.io/large/front/4/4/44bdbed8-5d21-4bf5-8a32-9623b1139c85.jpg?1783936780" data-name="Felidar Guardian" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Felidar Guardian<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.55</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À l'arrivée, exilez un autre permanent que vous contrôlez puis renvoyez-le (Oracle) — le blink à volonté, et la pièce des boucles infinies de blink.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/5/0/50bc0f5b-7421-45b9-af85-86dd9821b7d8.jpg?1783928301" data-large="https://cards.scryfall.io/large/front/5/0/50bc0f5b-7421-45b9-af85-86dd9821b7d8.jpg?1783928301" data-name="Soulherder" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Soulherder<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.48</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À chaque créature exilée du champ de bataille, marqueur +1/+1 (Oracle). À votre fin, exilez une autre créature puis renvoyez-la — le blink passif qui s'amplifie.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/2/d/2da5f3f8-5eef-498f-ba2c-2f3fbc3745aa.jpg?1783933164" data-large="https://cards.scryfall.io/large/front/2/d/2da5f3f8-5eef-498f-ba2c-2f3fbc3745aa.jpg?1783933164" data-name="Ephemerate" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Ephemerate<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.47</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Exilez une créature que vous contrôlez puis renvoyez-la (Oracle). Rebond : relancé gratuitement au tour suivant — deux ETB pour 1 mana.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/6/1/611c8fa2-b53f-483b-9efa-759ac59dc30f.jpg?1783918487" data-large="https://cards.scryfall.io/large/front/6/1/611c8fa2-b53f-483b-9efa-759ac59dc30f.jpg?1783918487" data-name="Peregrine Drake" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Peregrine Drake<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.47</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Vol (Oracle). À l'arrivée, dégagez jusqu'à cinq terrains — le mana engine qui, blinké en boucle, produit du mana infini.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/9/9/998d0cc8-ca2a-41c3-ab65-d05c26ab8278.jpg?1783921789" data-large="https://cards.scryfall.io/large/front/9/9/998d0cc8-ca2a-41c3-ab65-d05c26ab8278.jpg?1783921789" data-name="Panharmonicon" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Panharmonicon<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.44</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Si l'arrivée d'un artefact ou d'une créature déclenche une capacité d'un permanent que vous contrôlez, elle se déclenche une fois de plus (Oracle) — double tous vos ETB.</div>
+      </div>
+    </div>
+</div></div>
+<div class="category"><h3>🔥 Top Cards <button class="copy-btn" data-copy="Swords to Plowshares, Counterspell, Solemn Simulacrum, Brainstorm, Terminus, Displacer Kitten" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="summary">Les cartes les plus jouées : removal, pioche et engines de blink.</div>
+<div class="card-grid">
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/b/4/b4e9c870-23c0-413a-ae39-265f09da16d1.jpg?1783903243" data-large="https://cards.scryfall.io/large/front/b/4/b4e9c870-23c0-413a-ae39-265f09da16d1.jpg?1783903243" data-name="Swords to Plowshares" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Swords to Plowshares<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.07</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Exile une créature ciblée (Oracle), son contrôleur gagne de la vie égale à sa force — le meilleur removal blanc.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/4/f/4f616706-ec97-4923-bb1e-11a69fbaa1f8.jpg?1783909630" data-large="https://cards.scryfall.io/large/front/4/f/4f616706-ec97-4923-bb1e-11a69fbaa1f8.jpg?1783909630" data-name="Counterspell" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Counterspell<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.05</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Contrez un sort ciblé (Oracle) — la protection de base.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/d/a/daafd816-f7c1-4630-9e5c-a1e5db570a35.jpg?1783903212" data-large="https://cards.scryfall.io/large/front/d/a/daafd816-f7c1-4630-9e5c-a1e5db570a35.jpg?1783903212" data-name="Solemn Simulacrum" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Solemn Simulacrum<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.33</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À l'arrivée, cherchez un terrain de base engagé (Oracle) ; à sa mort, piochez — ramp + draw, parfait à blinker.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/b/5/b5545882-6963-4729-b2c6-fb4bdc75ffcc.jpg?1783904806" data-large="https://cards.scryfall.io/large/front/b/5/b5545882-6963-4729-b2c6-fb4bdc75ffcc.jpg?1783904806" data-name="Brainstorm" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Brainstorm<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.26</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Piochez trois cartes puis remettez-en deux au-dessus (Oracle) — le contrôle de top-deck pour le +1 d'Aminatou.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/4/c/4c53c684-37f9-4b95-88be-a42b9600c47c.jpg?1783909643" data-large="https://cards.scryfall.io/large/front/4/c/4c53c684-37f9-4b95-88be-a42b9600c47c.jpg?1783909643" data-name="Terminus" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Terminus<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.38</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Mettez toutes les créatures au fond des bibliothèques de leurs propriétaires (Oracle). Miracle {1}{W} : le wipe à 1 mana quand pioché.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795" data-large="https://cards.scryfall.io/large/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795" data-name="Displacer Kitten" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Displacer Kitten<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.33</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À chaque sort non-créature, exilez jusqu'à un permanent non-terrain que vous contrôlez puis renvoyez-le (Oracle) — l'engine de blink passif.</div>
+      </div>
+    </div>
+</div></div>
+<div class="category"><h3>🧝 Creatures <button class="copy-btn" data-copy="Mulldrifter, Baleful Strix, Archaeomancer, Venser, Shaper Savant, Restoration Angel, Brago, King Eternal" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="summary">Les créatures à blinker : valeur ETB et pièces de combos.</div>
+<div class="card-grid">
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/3/d/3de308cc-14ac-407e-99e7-568572ecd0e7.jpg?1783904564" data-large="https://cards.scryfall.io/large/front/3/d/3de308cc-14ac-407e-99e7-568572ecd0e7.jpg?1783904564" data-name="Mulldrifter" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Mulldrifter<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.42</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Vol (Oracle). À l'arrivée, piochez deux cartes. Evoke {2}{U} — la valeur blinkée classique.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/b/e/be8439e6-f779-49f0-806a-b04995697a6a.jpg?1783911902" data-large="https://cards.scryfall.io/large/front/b/e/be8439e6-f779-49f0-806a-b04995697a6a.jpg?1783911902" data-name="Baleful Strix" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Baleful Strix<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.42</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Vol, contact mortel (Oracle). À l'arrivée, piochez une carte — le blink 2-mana parfait.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1783933855" data-large="https://cards.scryfall.io/large/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1783933855" data-name="Archaeomancer" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Archaeomancer<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.40</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À l'arrivée, renvoyez un instantané ou rituel de votre cimetière à votre main (Oracle) — la pièce des boucles infinies de blink.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/7/7/77e19416-aa6c-46f1-b247-a94da5d1a13a.jpg?1783921909" data-large="https://cards.scryfall.io/large/front/7/7/77e19416-aa6c-46f1-b247-a94da5d1a13a.jpg?1783921909" data-name="Venser, Shaper Savant" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Venser, Shaper Savant<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.18</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À l'arrivée, renvoyez un permanent à la main de son propriétaire (Oracle) — bounce + blink.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/f/1/f17f85d3-58e5-4128-90c5-98b524256af8.jpg?1783908175" data-large="https://cards.scryfall.io/large/front/f/1/f17f85d3-58e5-4128-90c5-98b524256af8.jpg?1783908175" data-name="Restoration Angel" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Restoration Angel<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.26</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Vol (Oracle). À l'arrivée, exilez une autre créature que vous contrôlez puis renvoyez-la — le Felidar Guardian bis.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/0/a/0ac3fb08-741a-49e5-9fae-b26819677d24.jpg?1783928307" data-large="https://cards.scryfall.io/large/front/0/a/0ac3fb08-741a-49e5-9fae-b26819677d24.jpg?1783928307" data-name="Brago, King Eternal" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Brago, King Eternal<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.34</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Vol (Oracle). À chaque dégât de combat à un joueur, exilez n'importe quel nombre de permanents non-terrain puis renvoyez-les — le blink de combat massif.</div>
+      </div>
+    </div>
+</div></div>
+<div class="category"><h3>⚡ Instants <button class="copy-btn" data-copy="Ephemerate, Ghostly Flicker, Displace, Counterspell, Cyclonic Rift, Path to Exile" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="summary">Les sorts de blink instantanés et la protection.</div>
+<div class="card-grid">
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/2/d/2da5f3f8-5eef-498f-ba2c-2f3fbc3745aa.jpg?1783933164" data-large="https://cards.scryfall.io/large/front/2/d/2da5f3f8-5eef-498f-ba2c-2f3fbc3745aa.jpg?1783933164" data-name="Ephemerate" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Ephemerate<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.47</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Exilez une créature puis renvoyez-la, avec rebond (Oracle) — le blink 1-mana le plus rentable.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/d/c/dc143ba3-2a58-4980-9fa0-a05a9e9ed082.jpg?1783915697" data-large="https://cards.scryfall.io/large/front/d/c/dc143ba3-2a58-4980-9fa0-a05a9e9ed082.jpg?1783915697" data-name="Ghostly Flicker" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Ghostly Flicker<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.32</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Exilez deux artefacts, créatures et/ou terrains que vous contrôlez puis renvoyez-les (Oracle) — la pièce des combos de mana infini.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/8/a/8ab850c5-6f5e-41b7-ab52-094579caca12.jpg?1783937502" data-large="https://cards.scryfall.io/large/front/8/a/8ab850c5-6f5e-41b7-ab52-094579caca12.jpg?1783937502" data-name="Displace" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Displace<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.05</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Exilez jusqu'à deux créatures que vous contrôlez puis renvoyez-les (Oracle) — le blink double à l'instant.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/4/f/4f616706-ec97-4923-bb1e-11a69fbaa1f8.jpg?1783909630" data-large="https://cards.scryfall.io/large/front/4/f/4f616706-ec97-4923-bb1e-11a69fbaa1f8.jpg?1783909630" data-name="Counterspell" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Counterspell<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.05</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Contrez un sort ciblé (Oracle).</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/d/f/dfb7c4b9-f2f4-4d4e-baf2-86551c8150fe.jpg?1783913339" data-large="https://cards.scryfall.io/large/front/d/f/dfb7c4b9-f2f4-4d4e-baf2-86551c8150fe.jpg?1783913339" data-name="Cyclonic Rift" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Cyclonic Rift<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.06</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Renvoyez un permanent non-terrain adverse à la main (Oracle). Overload {6}{U} : tous — le bounce massif.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/9/5/95ca89ea-1200-4bb4-ae4b-af35d3ccd35b.jpg?1783903242" data-large="https://cards.scryfall.io/large/front/9/5/95ca89ea-1200-4bb4-ae4b-af35d3ccd35b.jpg?1783903242" data-name="Path to Exile" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Path to Exile<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.04</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Exile une créature ciblée (Oracle), son contrôleur cherche un terrain de base — le second removal blanc.</div>
+      </div>
+    </div>
+</div></div>
+<div class="category"><h3>📜 Sorceries <button class="copy-btn" data-copy="Time Warp, Temporal Mastery, Terminus, Farewell, Wrath of God, Supreme Verdict" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="summary">Tours supplémentaires et wipes — le contrôle de fin de partie.</div>
+<div class="card-grid">
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/7/c/7c46dd99-8af8-4cf2-9f98-734f73d9c456.jpg?1783903014" data-large="https://cards.scryfall.io/large/front/7/c/7c46dd99-8af8-4cf2-9f98-734f73d9c456.jpg?1783903014" data-name="Time Warp" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Time Warp</div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Le joueur ciblé prend un tour supplémentaire (Oracle) — avec blink d'Archaeomancer, tours infinis.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/0/f/0f46a800-b443-461d-87e0-5587249a42d8.jpg?1783908154" data-large="https://cards.scryfall.io/large/front/0/f/0f46a800-b443-461d-87e0-5587249a42d8.jpg?1783908154" data-name="Temporal Mastery" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Temporal Mastery<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.26</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Tour supplémentaire, exilé (Oracle). Miracle {1}{U} — à 1 mana quand pioché.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/4/c/4c53c684-37f9-4b95-88be-a42b9600c47c.jpg?1783909643" data-large="https://cards.scryfall.io/large/front/4/c/4c53c684-37f9-4b95-88be-a42b9600c47c.jpg?1783909643" data-name="Terminus" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Terminus<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.38</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Mettez toutes les créatures au fond des bibliothèques (Oracle). Miracle {1}{W} — le wipe à 1 mana.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/1/1/114d2180-093b-4838-97ad-badbc8ee50b0.jpg?1783913032" data-large="https://cards.scryfall.io/large/front/1/1/114d2180-093b-4838-97ad-badbc8ee50b0.jpg?1783913032" data-name="Farewell" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Farewell<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.09</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Choisissez une ou plusieurs options : exilez tous les artefacts, toutes les créatures, tous les enchantements, tous les cimetières (Oracle) — le wipe modulaire ultime.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/5/3/537d2b05-3f52-45d6-8fe3-26282085d0c6.jpg?1783915706" data-large="https://cards.scryfall.io/large/front/5/3/537d2b05-3f52-45d6-8fe3-26282085d0c6.jpg?1783915706" data-name="Wrath of God" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Wrath of God<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.03</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Détruisez toutes les créatures (Oracle) — le wipe classique.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/3/8/3892f1c5-937e-4ef4-b6f9-e0c0ded070d0.jpg?1783912514" data-large="https://cards.scryfall.io/large/front/3/8/3892f1c5-937e-4ef4-b6f9-e0c0ded070d0.jpg?1783912514" data-name="Supreme Verdict" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Supreme Verdict<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.15</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Ce sort ne peut pas être contrecarré. Détruisez toutes les créatures (Oracle) — le wipe incounterable.</div>
+      </div>
+    </div>
+</div></div>
+<div class="category"><h3>⚔️ Artifacts <button class="copy-btn" data-copy="Sol Ring, Sensei&#x27;s Divining Top, Conjurer&#x27;s Closet, Altar of the Brood, The One Ring, Gilded Lotus" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="summary">Blink automatique, top-deck et finishers mill.</div>
+<div class="card-grid">
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/9/1/91fdb56b-54d5-4272-8319-505ff987fe9b.jpg?1783903215" data-large="https://cards.scryfall.io/large/front/9/1/91fdb56b-54d5-4272-8319-505ff987fe9b.jpg?1783903215" data-name="Sol Ring" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Sol Ring<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.03</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{T}: ajoute {C}{C} (Oracle) — le ramp universel.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Sensei&#x27;s Divining Top<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.15</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{1}: regardez trois cartes, {T}: piochez puis remettez Top au-dessus (Oracle) — contrôle de top-deck pour le +1 d'Aminatou.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/a/f/af2115e4-009e-4432-99bb-05e844bc18b6.jpg?1783908066" data-large="https://cards.scryfall.io/large/front/a/f/af2115e4-009e-4432-99bb-05e844bc18b6.jpg?1783908066" data-name="Conjurer&#x27;s Closet" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Conjurer&#x27;s Closet<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.18</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À votre fin, exilez une créature que vous contrôlez puis renvoyez-la (Oracle) — le blink automatique.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/8/d/8d59d264-87ee-4305-bffb-110549331a82.jpg?1783939050" data-large="https://cards.scryfall.io/large/front/8/d/8d59d264-87ee-4305-bffb-110549331a82.jpg?1783939050" data-name="Altar of the Brood" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Altar of the Brood<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.29</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À chaque autre permanent qui entre sous votre contrôle, chaque adversaire mill une carte (Oracle) — le finisher mill avec blink infini.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/d/5/d5806e68-1054-458e-866d-1f2470f682b2.jpg?1783916239" data-large="https://cards.scryfall.io/large/front/d/5/d5806e68-1054-458e-866d-1f2470f682b2.jpg?1783916239" data-name="The One Ring" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">The One Ring<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.01</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Au début de votre entretien, gagnez un marqueur lourdeur, puis piochez une carte par marqueur et perdez 1 PV par marqueur (Oracle). Protection contre tout tant qu'il est là.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/2/8/28e619e6-ecc1-49c3-8fa9-ce42becdb9ba.jpg?1783903220" data-large="https://cards.scryfall.io/large/front/2/8/28e619e6-ecc1-49c3-8fa9-ce42becdb9ba.jpg?1783903220" data-name="Gilded Lotus" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Gilded Lotus<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.03</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{T}: ajoute trois manas de n'importe quelle couleur (Oracle) — la pièce des combos de mana infini.</div>
+      </div>
+    </div>
+</div></div>
+<div class="category"><h3>🌿 Enchantments <button class="copy-btn" data-copy="Oath of Teferi, Panharmonicon, Rhystic Study, Teleportation Circle, Mystic Remora, Reality Acid" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="summary">Moteurs de blink passifs et contrôle de table.</div>
+<div class="card-grid">
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/f/7/f7474f9e-a994-4ed7-83df-22edd8219e24.jpg?1783915413" data-large="https://cards.scryfall.io/large/front/f/7/f7474f9e-a994-4ed7-83df-22edd8219e24.jpg?1783915413" data-name="Oath of Teferi" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Oath of Teferi<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.59</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Blink à l'arrivée + double activation de vos planeswalkers (Oracle) — le moteur du deck.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/9/9/998d0cc8-ca2a-41c3-ab65-d05c26ab8278.jpg?1783921789" data-large="https://cards.scryfall.io/large/front/9/9/998d0cc8-ca2a-41c3-ab65-d05c26ab8278.jpg?1783921789" data-name="Panharmonicon" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Panharmonicon<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.44</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Double les capacités déclenchées à l'arrivée d'artefacts et créatures (Oracle) — chaque blink devient double.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/9/f/9f37c5b6-a59c-45cd-9a99-e9357fe9ea1b.jpg?1783919146" data-large="https://cards.scryfall.io/large/front/9/f/9f37c5b6-a59c-45cd-9a99-e9357fe9ea1b.jpg?1783919146" data-name="Rhystic Study" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Rhystic Study<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.03</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À chaque sort adverse, vous pouvez piocher sauf si le joueur paie {1} (Oracle) — « Payez 1 ? ».</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/9/0/90140bc0-4a9c-4422-b07c-3400c7ccde56.jpg?1783926523" data-large="https://cards.scryfall.io/large/front/9/0/90140bc0-4a9c-4422-b07c-3400c7ccde56.jpg?1783926523" data-name="Teleportation Circle" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Teleportation Circle<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.26</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À votre fin, exilez jusqu'à un artefact ou une créature puis renvoyez-le (Oracle) — le blink passif.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/4/0/40140991-cffa-4b52-9a25-37e9a8aa9ddd.jpg?1783918491" data-large="https://cards.scryfall.io/large/front/4/0/40140991-cffa-4b52-9a25-37e9a8aa9ddd.jpg?1783918491" data-name="Mystic Remora" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Mystic Remora<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.07</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">À chaque sort non-créature adverse, piochez sauf si le joueur paie {4} (Oracle) — le taxeur.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/a/8/a8510381-e05c-4cc4-98aa-c9327e18ec02.jpg?1783927840" data-large="https://cards.scryfall.io/large/front/a/8/a8510381-e05c-4cc4-98aa-c9327e18ec02.jpg?1783927840" data-name="Reality Acid" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Reality Acid<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.20</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Vanishing 3 (Oracle). À la disparition du dernier marqueur, sacrifiez-le — à chaque blink de l'Aura, détruisez un permanent adverse : removal répétable.</div>
+      </div>
+    </div>
+</div></div>
+<div class="category"><h3>🔮 Planeswalkers <button class="copy-btn" data-copy="Spark Double, Narset, Parter of Veils, Teferi, Time Raveler, Jace, the Mind Sculptor, Teferi, Master of Time, Teferi, Temporal Archmage" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="summary">La cohorte Esper : doubles, verrous et contrôle.</div>
+<div class="card-grid">
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/c/4/c41b9ba2-0006-4d8e-b600-efe81ff5e0cc.jpg?1783913330" data-large="https://cards.scryfall.io/large/front/c/4/c41b9ba2-0006-4d8e-b600-efe81ff5e0cc.jpg?1783913330" data-name="Spark Double" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Spark Double<span class="syn" style="color:#ffd77a;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #ffd77a;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.40</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Entre comme copie d'une créature ou d'un planeswalker que vous contrôlez, avec un marqueur +1/+1 ou +1 loyauté (Oracle) — double Aminatou et ses activations.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/4/e/4e6e5c63-b6e5-4756-bf23-6c6f8669442d.jpg?1783915440" data-large="https://cards.scryfall.io/large/front/4/e/4e6e5c63-b6e5-4756-bf23-6c6f8669442d.jpg?1783915440" data-name="Narset, Parter of Veils" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Narset, Parter of Veils<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.17</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Chaque adversaire ne peut pas piocher plus d'une carte par tour (Oracle). −2 : regardez quatre cartes, révélez un non-créature non-terrain — verrou + tutor.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/6/6/662fe50f-d75c-422c-8c6c-1f9b5c4ba21f.jpg?1783913271" data-large="https://cards.scryfall.io/large/front/6/6/662fe50f-d75c-422c-8c6c-1f9b5c4ba21f.jpg?1783913271" data-name="Teferi, Time Raveler" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Teferi, Time Raveler<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.22</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Pendant votre tour, vos adversaires ne peuvent pas lancer de sorts à vitesse éclair (Oracle). +1 : piochez puis remettez au-dessus. −3 : renvoyez un permanent à la main — le contrôle ultime.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/c/8/c8817585-0d32-4d56-9142-0d29512e86a9.jpg?1783930196" data-large="https://cards.scryfall.io/large/front/c/8/c8817585-0d32-4d56-9142-0d29512e86a9.jpg?1783930196" data-name="Jace, the Mind Sculptor" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Jace, the Mind Sculptor<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.08</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">+2 : regardez le top, +0 : Brainstorm, −1 : renvoyez une créature à la main, −12 : piochez 20 (Oracle) — le PW classique.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/9/c/9c0c61e3-9f3d-4e7f-9046-0ea336dd8a2d.jpg?1783930718" data-large="https://cards.scryfall.io/large/front/9/c/9c0c61e3-9f3d-4e7f-9046-0ea336dd8a2d.jpg?1783930718" data-name="Teferi, Master of Time" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Teferi, Master of Time<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.08</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Vous pouvez activer ses capacités comme à vitesse éclair (Oracle). +1 : piochez, défaussez sauf si vous avez lancé un sort. −3 : renvoyez un permanent à la main.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/3/6/368c6e60-804c-447c-bc2b-ac9dc4cab5e7.jpg?1783915687" data-large="https://cards.scryfall.io/large/front/3/6/368c6e60-804c-447c-bc2b-ac9dc4cab5e7.jpg?1783915687" data-name="Teferi, Temporal Archmage" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Teferi, Temporal Archmage<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.08</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">+1 : regardez le top deux cartes, mettez-en une en main (Oracle). −1 : dégagez jusqu'à quatre permanents. −10 : emblème qui dégage deux permanents à chaque entretien.</div>
+      </div>
+    </div>
+</div></div>
+<div class="category"><h3>🏰 Utility Lands <button class="copy-btn" data-copy="Bojuka Bog, Reliquary Tower, Mystic Sanctuary, Halimar Depths, Otawara, Soaring City, Mortuary Mire" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="summary">Terrains utilitaires : anti-cimetière, top-deck et récupération.</div>
+<div class="card-grid">
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/5/5/55b5b094-9d2d-4d96-b90c-78fecdae725a.jpg?1783903734" data-large="https://cards.scryfall.io/large/front/5/5/55b5b094-9d2d-4d96-b90c-78fecdae725a.jpg?1783903734" data-name="Bojuka Bog" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Bojuka Bog<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.10</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Entre engagé, exile le cimetière d'un joueur ciblé (Oracle) — anti-récursion.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/e/2/e2a27742-08c1-4153-af7f-25a7a98f585e.jpg?1783903721" data-large="https://cards.scryfall.io/large/front/e/2/e2a27742-08c1-4153-af7f-25a7a98f585e.jpg?1783903721" data-name="Reliquary Tower" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Reliquary Tower<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.00</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Pas de limite de main (Oracle) — gardez votre pioche massive.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/4/c/4cd86997-d7b9-4b5b-9488-11f5c679e4d3.jpg?1783903726" data-large="https://cards.scryfall.io/large/front/4/c/4cd86997-d7b9-4b5b-9488-11f5c679e4d3.jpg?1783903726" data-name="Mystic Sanctuary" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Mystic Sanctuary<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.15</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Entre dégagée si vous contrôlez 3+ Îles (Oracle). À l'arrivée dégagée, remettez un instantané ou rituel du cimetière au-dessus — combo avec les tours supplémentaires.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/6/3/63eb18e0-c723-4de4-8498-c5362c75b2b4.jpg?1783909574" data-large="https://cards.scryfall.io/large/front/6/3/63eb18e0-c723-4de4-8498-c5362c75b2b4.jpg?1783909574" data-name="Halimar Depths" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Halimar Depths<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.16</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Scry 3 à l'arrivée (Oracle) — triez le top-deck pour le +1 d'Aminatou.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/4/8/486d7edc-d983-41f0-8b78-c99aecd72996.jpg?1783923816" data-large="https://cards.scryfall.io/large/front/4/8/486d7edc-d983-41f0-8b78-c99aecd72996.jpg?1783923816" data-name="Otawara, Soaring City" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Otawara, Soaring City<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.00</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Channel {3}{U}, défaussez : renvoyez un artefact, créature, enchantement ou planeswalker à la main (Oracle), coût réduit par vos légendaires — le bounce intégré.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/0/5/058f30e5-64a9-4d6b-b7a6-0fd95d460cae.jpg?1783922373" data-large="https://cards.scryfall.io/large/front/0/5/058f30e5-64a9-4d6b-b7a6-0fd95d460cae.jpg?1783922373" data-name="Mortuary Mire" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Mortuary Mire<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.14</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Entre engagé (Oracle). À l'arrivée, mettez une créature de votre cimetière au-dessus de votre bibliothèque — récupération.</div>
+      </div>
+    </div>
+</div></div>
+<div class="category"><h3>🌲 Lands / Mana Base <button class="copy-btn" data-copy="Command Tower, Hallowed Fountain, Watery Grave, Godless Shrine, Polluted Delta, Flooded Strand" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="summary">La base Esper : shocks, fetches et terrains doubles.</div>
+<div class="card-grid">
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/0/5/0548fb60-c843-4f8f-a029-6f10efc63a41.jpg?1783903206" data-large="https://cards.scryfall.io/large/front/0/5/0548fb60-c843-4f8f-a029-6f10efc63a41.jpg?1783903206" data-name="Command Tower" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Command Tower<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie -0.00</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{T}: ajoute un mana de n'importe quelle couleur de votre identité (Oracle).</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/b/7/b7285986-7e08-4969-86ef-452dc5bfdd9f.jpg?1784036830" data-large="https://cards.scryfall.io/large/front/b/7/b7285986-7e08-4969-86ef-452dc5bfdd9f.jpg?1784036830" data-name="Hallowed Fountain" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Hallowed Fountain<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.08</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{T}: ajoute {W} ou {U} (Oracle) — shockland blanc/bleu.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/5/5/5525d6a6-e532-4047-9da4-bfae7927fecc.jpg?1784036860" data-large="https://cards.scryfall.io/large/front/5/5/5525d6a6-e532-4047-9da4-bfae7927fecc.jpg?1784036860" data-name="Watery Grave" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Watery Grave<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.08</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{T}: ajoute {U} ou {B} (Oracle) — shockland bleu/noir.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/8/f/8fbd1ae0-3d4c-492a-a1ea-85a95fa3d7b6.jpg?1784036826" data-large="https://cards.scryfall.io/large/front/8/f/8fbd1ae0-3d4c-492a-a1ea-85a95fa3d7b6.jpg?1784036826" data-name="Godless Shrine" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Godless Shrine<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.08</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">{T}: ajoute {W} ou {B} (Oracle) — shockland blanc/noir.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/6/e/6e288374-2b71-4ace-b1d2-a19fee6cb4af.jpg?1783911240" data-large="https://cards.scryfall.io/large/front/6/e/6e288374-2b71-4ace-b1d2-a19fee6cb4af.jpg?1783911240" data-name="Polluted Delta" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Polluted Delta<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.08</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Payez 1 PV, sacrifiez : cherchez une Île ou un Marais (Oracle) — fetch bleu/noir.</div>
+      </div>
+    </div>
+
+    <div class="card-block" style="display:flex;align-items:flex-start;gap:14px;margin:10px 0;background:#0d0d18;border:1px solid #232342;border-radius:12px;padding:10px;text-align:left;">
+      <img src="https://cards.scryfall.io/normal/front/8/f/8f85e12c-196b-4459-b81f-0c9c854e9f57.jpg?1783911240" data-large="https://cards.scryfall.io/large/front/8/f/8f85e12c-196b-4459-b81f-0c9c854e9f57.jpg?1783911240" data-name="Flooded Strand" loading="lazy"
+           style="width:150px;min-width:150px;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,.4);cursor:zoom-in;"
+           onclick="openModal(this)"/>
+      <div style="flex:1;">
+        <div style="font-size:13px;font-weight:700;color:#ffd77a;">Flooded Strand<span class="syn" style="color:#8a93b8;font-size:11px;font-weight:700;margin-left:8px;border:1px solid #8a93b8;border-radius:10px;padding:1px 8px;" title="Score de synergie EDHREC (proportion de decks du commandant jouant cette carte)">synergie 0.09</span></div>
+        <div style="font-size:12px;color:#c8d0e8;margin-top:6px;line-height:1.5;">Payez 1 PV, sacrifiez : cherchez une Île ou une Plaine (Oracle) — fetch blanc/bleu.</div>
+      </div>
+    </div>
+</div></div>
+<h2 id="s4">4. Combos pertinents (19)</h2>
+<p style="color:#999;">Filtre : identité compatible + chevauchement avec les cartes EDHREC + 2-4 cartes + popularité ≥ 100. 📋 copie la liste des cartes du combo.</p>
+<div class="combo">
+<h3>🔗 Restoration Angel + Felidar Guardian <button class="copy-btn" data-copy="Restoration Angel, Felidar Guardian" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="meta">Identité W · Popularité : 49859 decks</div>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/f/1/f17f85d3-58e5-4128-90c5-98b524256af8.jpg?1783908175" data-large="https://cards.scryfall.io/large/front/f/1/f17f85d3-58e5-4128-90c5-98b524256af8.jpg?1783908175" data-name="Restoration Angel" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Restoration Angel</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/4/4/44bdbed8-5d21-4bf5-8a32-9623b1139c85.jpg?1783936780" data-large="https://cards.scryfall.io/large/front/4/4/44bdbed8-5d21-4bf5-8a32-9623b1139c85.jpg?1783936780" data-name="Felidar Guardian" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Felidar Guardian</div></div></div>
+<div class="result"><strong>Produit</strong> :  · </div>
+<div class="step"><strong>Exécution</strong> : Cast Felidar Guardian by paying its mana cost.
+When Felidar Guardian enters, it triggers, blinking Restoration Angel.
+When Restoration Angel enters, it triggers, blinking Felidar Guardian.
+Repeat from step 2.</div>
+</div>
+<div class="combo">
+<h3>🔗 Peregrine Drake + Deadeye Navigator <button class="copy-btn" data-copy="Peregrine Drake, Deadeye Navigator" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="meta">Identité U · Popularité : 44687 decks</div>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/6/1/611c8fa2-b53f-483b-9efa-759ac59dc30f.jpg?1783918487" data-large="https://cards.scryfall.io/large/front/6/1/611c8fa2-b53f-483b-9efa-759ac59dc30f.jpg?1783918487" data-name="Peregrine Drake" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Peregrine Drake</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/4/f/4f0791b5-fdb4-4378-8fd3-7e7367ffc05c.jpg?1783908166" data-large="https://cards.scryfall.io/large/front/4/f/4f0791b5-fdb4-4378-8fd3-7e7367ffc05c.jpg?1783908166" data-name="Deadeye Navigator" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Deadeye Navigator</div></div></div>
+<div class="result"><strong>Produit</strong> :  ·  ·  · </div>
+<div class="step"><strong>Prérequis</strong> : Deadeye Navigator is paired with Peregrine Drake.
+You control up to five lands that can tap to produce {2}{U}.</div>
+<div class="step"><strong>Exécution</strong> : Activate Peregrine Drake by paying <img src="https://svgs.scryfall.io/card-symbols/1.svg" alt="1" title="1" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>, blinking itself.
+Peregrine Drake enters the battlefield, triggering itself and Deadeye Navigator.
+Resolve the Peregrine Drake trigger, untapping up to five lands you control.
+Resolve the Deadeye Navigator trigger, repairing Deadeye Navigator and Peregrine Drake.
+Activate up to five lands you control by tapping them, adding at least <img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
+Repeat.
+Once you have infinite mana, you may use Deadeye Navigator&#x27;s abilities to blink any number of creatures you control any number of times.</div>
+</div>
+<div class="combo">
+<h3>🔗 Teferi, Time Raveler + Displacer Kitten + Sol Ring <button class="copy-btn" data-copy="Teferi, Time Raveler, Displacer Kitten, Sol Ring" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="meta">Identité WU · Popularité : 44349 decks</div>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/6/6/662fe50f-d75c-422c-8c6c-1f9b5c4ba21f.jpg?1783913271" data-large="https://cards.scryfall.io/large/front/6/6/662fe50f-d75c-422c-8c6c-1f9b5c4ba21f.jpg?1783913271" data-name="Teferi, Time Raveler" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Teferi, Time Raveler</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795" data-large="https://cards.scryfall.io/large/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795" data-name="Displacer Kitten" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Displacer Kitten</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/9/1/91fdb56b-54d5-4272-8319-505ff987fe9b.jpg?1783903215" data-large="https://cards.scryfall.io/large/front/9/1/91fdb56b-54d5-4272-8319-505ff987fe9b.jpg?1783903215" data-name="Sol Ring" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Sol Ring</div></div></div>
+<div class="result"><strong>Produit</strong> :  ·  ·  · </div>
+<div class="step"><strong>Exécution</strong> : Cast Sol Ring by paying <img src="https://svgs.scryfall.io/card-symbols/1.svg" alt="1" title="1" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
+Displacer Kitten triggers, blinking Teferi.
+Activate Sol Ring by tapping it, adding <img src="https://svgs.scryfall.io/card-symbols/C.svg" alt="C" title="C" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/C.svg" alt="C" title="C" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
+Activate Teferi&#x27;s second loyalty ability by removing three loyalty counters from it, returning Sol Ring from the battlefield to your hand and drawing a card.
+Repeat.</div>
+</div>
+<div class="combo">
+<h3>🔗 Ghostly Flicker + Peregrine Drake + Archaeomancer <button class="copy-btn" data-copy="Ghostly Flicker, Peregrine Drake, Archaeomancer" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="meta">Identité U · Popularité : 35469 decks</div>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/d/c/dc143ba3-2a58-4980-9fa0-a05a9e9ed082.jpg?1783915697" data-large="https://cards.scryfall.io/large/front/d/c/dc143ba3-2a58-4980-9fa0-a05a9e9ed082.jpg?1783915697" data-name="Ghostly Flicker" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Ghostly Flicker</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/6/1/611c8fa2-b53f-483b-9efa-759ac59dc30f.jpg?1783918487" data-large="https://cards.scryfall.io/large/front/6/1/611c8fa2-b53f-483b-9efa-759ac59dc30f.jpg?1783918487" data-name="Peregrine Drake" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Peregrine Drake</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1783933855" data-large="https://cards.scryfall.io/large/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1783933855" data-name="Archaeomancer" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Archaeomancer</div></div></div>
+<div class="result"><strong>Produit</strong> :  ·  ·  ·  ·  · </div>
+<div class="step"><strong>Prérequis</strong> : You control up to five lands that can tap to produce at least {2}{U}.</div>
+<div class="step"><strong>Exécution</strong> : Activate up to five lands by tapping them, adding at least <img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
+Cast Ghostly Flicker by paying <img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>, blinking Archaeomancer and Peregrine Drake.
+When Archaeomancer and Peregrine Drake enter the battlefield, their abilities trigger.
+Resolve the Archaeomancer trigger, returning Ghostly Flicker to your hand from your graveyard.
+Resolve the Peregrine Drake trigger, untapping up to five lands.
+Repeat.
+If you control five lands that can tap to produce at least <img src="https://svgs.scryfall.io/card-symbols/3.svg" alt="3" title="3" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>, this combo nets infinite mana, and you may blink any other permanent besides Peregrine Drake.</div>
+</div>
+<div class="combo">
+<h3>🔗 Preston, the Vanisher + Felidar Guardian + Ephemerate <button class="copy-btn" data-copy="Preston, the Vanisher, Felidar Guardian, Ephemerate" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="meta">Identité W · Popularité : 18863 decks</div>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/9/5/952cb0b3-a6b7-4279-8833-3d8890b2d005.jpg?1783919194" data-large="https://cards.scryfall.io/large/front/9/5/952cb0b3-a6b7-4279-8833-3d8890b2d005.jpg?1783919194" data-name="Preston, the Vanisher" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Preston, the Vanisher</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/4/4/44bdbed8-5d21-4bf5-8a32-9623b1139c85.jpg?1783936780" data-large="https://cards.scryfall.io/large/front/4/4/44bdbed8-5d21-4bf5-8a32-9623b1139c85.jpg?1783936780" data-name="Felidar Guardian" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Felidar Guardian</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/2/d/2da5f3f8-5eef-498f-ba2c-2f3fbc3745aa.jpg?1783933164" data-large="https://cards.scryfall.io/large/front/2/d/2da5f3f8-5eef-498f-ba2c-2f3fbc3745aa.jpg?1783933164" data-name="Ephemerate" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Ephemerate</div></div></div>
+<div class="result"><strong>Produit</strong> :  ·  ·  ·  ·  · </div>
+<div class="step"><strong>Prérequis</strong> : You have enough mana to cast Ephemerate.</div>
+<div class="step"><strong>Exécution</strong> : Cast Ephemerate by paying its mana cost, blinking Felidar Guardian.
+Felidar Guardian and Preston trigger.
+Resolve the Felidar Guardian trigger, blinking another permanent you control.
+Resolve the Preston trigger, creating a token copy of Felidar Guardian that is a 0/1 Illusion.
+When the Felidar Guardian token enters the battlefield, it triggers, blinking the nontoken Felidar Guardian.
+Repeat from step 2.</div>
+</div>
+<div class="combo">
+<h3>🔗 Abdel Adrian, Gorion's Ward + Restoration Angel + Ephemerate <button class="copy-btn" data-copy="Abdel Adrian, Gorion&#x27;s Ward, Restoration Angel, Ephemerate" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="meta">Identité W · Popularité : 16287 decks</div>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/3/9/396f9198-67b6-45d8-91b4-dc853bff9623.jpg?1783922823" data-large="https://cards.scryfall.io/large/front/3/9/396f9198-67b6-45d8-91b4-dc853bff9623.jpg?1783922823" data-name="Abdel Adrian, Gorion&#x27;s Ward" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Abdel Adrian, Gorion&#x27;s Ward</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/f/1/f17f85d3-58e5-4128-90c5-98b524256af8.jpg?1783908175" data-large="https://cards.scryfall.io/large/front/f/1/f17f85d3-58e5-4128-90c5-98b524256af8.jpg?1783908175" data-name="Restoration Angel" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Restoration Angel</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/2/d/2da5f3f8-5eef-498f-ba2c-2f3fbc3745aa.jpg?1783933164" data-large="https://cards.scryfall.io/large/front/2/d/2da5f3f8-5eef-498f-ba2c-2f3fbc3745aa.jpg?1783933164" data-name="Ephemerate" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Ephemerate</div></div></div>
+<div class="result"><strong>Produit</strong> :  ·  ·  · </div>
+<div class="step"><strong>Exécution</strong> : Cast Abdel Adrian from the command zone by paying <img src="https://svgs.scryfall.io/card-symbols/4.svg" alt="4" title="4" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/W.svg" alt="W" title="W" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/> and command tax, if applicable.
+Abdel Adrian enters the battlefield, exiling Restoration Angel and creating a 1/1 Soldier creature token.
+Cast Ephemerate by paying <img src="https://svgs.scryfall.io/card-symbols/W.svg" alt="W" title="W" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>, blinking Abdel Adrian.
+Abdel Adrian leaves and enters the battlefield, causing Restoration Angel to return to the battlefield from exile, and triggering Abdel Adrian and Restoration Angel&#x27;s enters-the-battlefield ability.
+Resolve the Abdel Adrian trigger, exiling Restoration Angel and creating a 1/1 Soldier creature token.
+Resolve the Restoration Angel trigger, blinking Abdel Adrian.
+Repeat from step 4.</div>
+</div>
+<div class="combo">
+<h3>🔗 Displacer Kitten + Sensei's Divining Top + The Reality Chip <button class="copy-btn" data-copy="Displacer Kitten, Sensei&#x27;s Divining Top, The Reality Chip" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="meta">Identité U · Popularité : 9256 decks</div>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795" data-large="https://cards.scryfall.io/large/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795" data-name="Displacer Kitten" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Displacer Kitten</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Sensei&#x27;s Divining Top</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/d/8/d859de3a-0be1-4e66-b438-1c3d4ee756cd.jpg?1783923896" data-large="https://cards.scryfall.io/large/front/d/8/d859de3a-0be1-4e66-b438-1c3d4ee756cd.jpg?1783923896" data-name="The Reality Chip" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">The Reality Chip</div></div></div>
+<div class="result"><strong>Produit</strong> :  ·  · </div>
+<div class="step"><strong>Prérequis</strong> : The Reality Chip attached to a creature you control.</div>
+<div class="step"><strong>Exécution</strong> : Activate Sensei&#x27;s Divining Top&#x27;s second ability by tapping it, causing you to draw a card and put Sensei&#x27;s Divining Top from the battlefield on top of your library.
+Activate the mana-producing artifact or creature by tapping it, adding at least <img src="https://svgs.scryfall.io/card-symbols/1.svg" alt="1" title="1" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
+Cast Sensei&#x27;s Divining Top from the top of your library by paying <img src="https://svgs.scryfall.io/card-symbols/1.svg" alt="1" title="1" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
+Displacer Kitten triggers, blinking the mana-producing artifact or creature.
+Repeat.</div>
+</div>
+<div class="combo">
+<h3>🔗 Felidar Guardian + Spark Double <button class="copy-btn" data-copy="Felidar Guardian, Spark Double" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="meta">Identité WU · Popularité : 8142 decks</div>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/4/4/44bdbed8-5d21-4bf5-8a32-9623b1139c85.jpg?1783936780" data-large="https://cards.scryfall.io/large/front/4/4/44bdbed8-5d21-4bf5-8a32-9623b1139c85.jpg?1783936780" data-name="Felidar Guardian" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Felidar Guardian</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/c/4/c41b9ba2-0006-4d8e-b600-efe81ff5e0cc.jpg?1783913330" data-large="https://cards.scryfall.io/large/front/c/4/c41b9ba2-0006-4d8e-b600-efe81ff5e0cc.jpg?1783913330" data-name="Spark Double" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Spark Double</div></div></div>
+<div class="result"><strong>Produit</strong> :  · </div>
+<div class="step"><strong>Prérequis</strong> : You have enough mana to cast Spark Double.</div>
+<div class="step"><strong>Exécution</strong> : Cast Spark Double by paying its mana cost, choosing to have it enter the battlefield as a copy of Felidar Guardian
+When Spark Double enters the battlefield, it triggers, blinking Felidar Guardian.
+When Felidar Guardian enters the battlefield, it triggers, blinking Spark Double. Choose to have Spark Double enter the battlefield as a copy of Felidar Guardian.
+Repeat from step 2.</div>
+</div>
+<div class="combo">
+<h3>🔗 Ghostly Flicker + Archaeomancer + Gilded Lotus <button class="copy-btn" data-copy="Ghostly Flicker, Archaeomancer, Gilded Lotus" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="meta">Identité U · Popularité : 6310 decks</div>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/d/c/dc143ba3-2a58-4980-9fa0-a05a9e9ed082.jpg?1783915697" data-large="https://cards.scryfall.io/large/front/d/c/dc143ba3-2a58-4980-9fa0-a05a9e9ed082.jpg?1783915697" data-name="Ghostly Flicker" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Ghostly Flicker</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1783933855" data-large="https://cards.scryfall.io/large/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1783933855" data-name="Archaeomancer" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Archaeomancer</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/2/8/28e619e6-ecc1-49c3-8fa9-ce42becdb9ba.jpg?1783903220" data-large="https://cards.scryfall.io/large/front/2/8/28e619e6-ecc1-49c3-8fa9-ce42becdb9ba.jpg?1783903220" data-name="Gilded Lotus" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Gilded Lotus</div></div></div>
+<div class="result"><strong>Produit</strong> :  ·  ·  · </div>
+<div class="step"><strong>Exécution</strong> : Activate Gilded Lotus by tapping it, adding <img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
+Cast Ghostly Flicker by paying <img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>, blinking Archaeomancer and Gilded Lotus.
+Archaeomancer enters the battlefield, returning Ghostly Flicker from your graveyard to your hand.
+Repeat.</div>
+</div>
+<div class="combo">
+<h3>🔗 Aminatou, the Fateshifter + Felidar Guardian <button class="copy-btn" data-copy="Aminatou, the Fateshifter, Felidar Guardian" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="meta">Identité WUB · Popularité : 6239 decks</div>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857" data-large="https://cards.scryfall.io/large/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857" data-name="Aminatou, the Fateshifter" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Aminatou, the Fateshifter</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/4/4/44bdbed8-5d21-4bf5-8a32-9623b1139c85.jpg?1783936780" data-large="https://cards.scryfall.io/large/front/4/4/44bdbed8-5d21-4bf5-8a32-9623b1139c85.jpg?1783936780" data-name="Felidar Guardian" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Felidar Guardian</div></div></div>
+<div class="result"><strong>Produit</strong> :  · </div>
+<div class="step"><strong>Prérequis</strong> : Aminatou has at least two loyalty counters.</div>
+<div class="step"><strong>Exécution</strong> : Activate Aminatou&#x27;s second loyalty ability by removing a loyalty counter from it, blinking Felidar Guardian.
+Felidar Guardian enters the battlefield, blinking Aminatou.
+Repeat.</div>
+</div>
+<div class="combo">
+<h3>🔗 Brago, King Eternal + Cyclonic Rift + Archaeomancer <button class="copy-btn" data-copy="Brago, King Eternal, Cyclonic Rift, Archaeomancer" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="meta">Identité WU · Popularité : 5099 decks</div>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/0/a/0ac3fb08-741a-49e5-9fae-b26819677d24.jpg?1783928307" data-large="https://cards.scryfall.io/large/front/0/a/0ac3fb08-741a-49e5-9fae-b26819677d24.jpg?1783928307" data-name="Brago, King Eternal" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Brago, King Eternal</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/d/f/dfb7c4b9-f2f4-4d4e-baf2-86551c8150fe.jpg?1783913339" data-large="https://cards.scryfall.io/large/front/d/f/dfb7c4b9-f2f4-4d4e-baf2-86551c8150fe.jpg?1783913339" data-name="Cyclonic Rift" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Cyclonic Rift</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1783933855" data-large="https://cards.scryfall.io/large/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1783933855" data-name="Archaeomancer" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Archaeomancer</div></div></div>
+<div class="result"><strong>Produit</strong> :  · </div>
+<div class="step"><strong>Prérequis</strong> : An opponent cannot block Brago.</div>
+<div class="step"><strong>Exécution</strong> : Cast Cyclonic Rift for its overload cost by paying <img src="https://svgs.scryfall.io/card-symbols/6.svg" alt="6" title="6" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>, returning all nonland permanents you don&#x27;t control to their owners&#x27; hands.
+Deal combat damage using Brago, triggering its ability, blinking Archaeomancer.
+When Archaeomancer enters, it triggers, returning Cyclonic Rift from your graveyard to your hand.
+Repeat each turn.</div>
+</div>
+<div class="combo">
+<h3>🔗 Aminatou, the Fateshifter + Spark Double + Oath of Teferi <button class="copy-btn" data-copy="Aminatou, the Fateshifter, Spark Double, Oath of Teferi" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="meta">Identité WUB · Popularité : 4060 decks</div>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857" data-large="https://cards.scryfall.io/large/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857" data-name="Aminatou, the Fateshifter" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Aminatou, the Fateshifter</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/c/4/c41b9ba2-0006-4d8e-b600-efe81ff5e0cc.jpg?1783913330" data-large="https://cards.scryfall.io/large/front/c/4/c41b9ba2-0006-4d8e-b600-efe81ff5e0cc.jpg?1783913330" data-name="Spark Double" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Spark Double</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/f/7/f7474f9e-a994-4ed7-83df-22edd8219e24.jpg?1783915413" data-large="https://cards.scryfall.io/large/front/f/7/f7474f9e-a994-4ed7-83df-22edd8219e24.jpg?1783915413" data-name="Oath of Teferi" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Oath of Teferi</div></div></div>
+<div class="result"><strong>Produit</strong> :  ·  ·  · </div>
+<div class="step"><strong>Exécution</strong> : Activate Aminatou&#x27;s second loyalty ability by removing a loyalty counter from them, blinking a permanent you own.
+Activate Aminatou&#x27;s second loyalty ability by removing a loyalty counter from them, blinking Spark Double and choosing to have it enter as a non-legendary copy of Aminatou.
+Activate Spark Double&#x27;s second loyalty ability by removing a loyalty counter from it, blinking a permanent you own.
+Activate Spark Double&#x27;s second loyalty ability by removing a loyalty counter from it, blinking Aminatou.
+Repeat.</div>
+</div>
+<div class="combo">
+<h3>🔗 Ghostly Flicker + Mystic Sanctuary + Archaeomancer + Time Warp <button class="copy-btn" data-copy="Ghostly Flicker, Mystic Sanctuary, Archaeomancer, Time Warp" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="meta">Identité U · Popularité : 2784 decks</div>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/d/c/dc143ba3-2a58-4980-9fa0-a05a9e9ed082.jpg?1783915697" data-large="https://cards.scryfall.io/large/front/d/c/dc143ba3-2a58-4980-9fa0-a05a9e9ed082.jpg?1783915697" data-name="Ghostly Flicker" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Ghostly Flicker</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/4/c/4cd86997-d7b9-4b5b-9488-11f5c679e4d3.jpg?1783903726" data-large="https://cards.scryfall.io/large/front/4/c/4cd86997-d7b9-4b5b-9488-11f5c679e4d3.jpg?1783903726" data-name="Mystic Sanctuary" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Mystic Sanctuary</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1783933855" data-large="https://cards.scryfall.io/large/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1783933855" data-name="Archaeomancer" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Archaeomancer</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/7/c/7c46dd99-8af8-4cf2-9f98-734f73d9c456.jpg?1783903014" data-large="https://cards.scryfall.io/large/front/7/c/7c46dd99-8af8-4cf2-9f98-734f73d9c456.jpg?1783903014" data-name="Time Warp" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Time Warp</div></div></div>
+<div class="result"><strong>Produit</strong> :  ·  · </div>
+<div class="step"><strong>Prérequis</strong> : You control at least four Islands.</div>
+<div class="step"><strong>Exécution</strong> : Activate Mystic Sanctuary by tapping it, adding <img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
+Cast Time Warp by paying its mana cost, causing you to take an extra turn after this one.
+Cast Ghostly Flicker by paying <img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>, blinking Mystic Sanctuary and Archaeomancer.
+When Archaeomancer and Mystic Sanctuary enter the battlefield, they trigger.
+Resolve the Archaeomancer trigger, returning Ghostly Flicker from your graveyard to your hand.
+Resolve the Mystic Sanctuary trigger, putting Time Warp from your graveyard onto the top of your library.
+Move to your next turn, drawing Time Warp during your draw step.
+Repeat.</div>
+</div>
+<div class="combo">
+<h3>🔗 Aminatou, the Fateshifter + Teferi, Master of Time + Ichormoon Gauntlet <button class="copy-btn" data-copy="Aminatou, the Fateshifter, Teferi, Master of Time, Ichormoon Gauntlet" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="meta">Identité WUB · Popularité : 1943 decks</div>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857" data-large="https://cards.scryfall.io/large/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857" data-name="Aminatou, the Fateshifter" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Aminatou, the Fateshifter</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/9/c/9c0c61e3-9f3d-4e7f-9046-0ea336dd8a2d.jpg?1783930718" data-large="https://cards.scryfall.io/large/front/9/c/9c0c61e3-9f3d-4e7f-9046-0ea336dd8a2d.jpg?1783930718" data-name="Teferi, Master of Time" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Teferi, Master of Time</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/2/c/2c093ce0-2561-4847-ab58-f6f1650d743e.jpg?1783918062" data-large="https://cards.scryfall.io/large/front/2/c/2c093ce0-2561-4847-ab58-f6f1650d743e.jpg?1783918062" data-name="Ichormoon Gauntlet" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Ichormoon Gauntlet</div></div></div>
+<div class="result"><strong>Produit</strong> :  · </div>
+<div class="step"><strong>Prérequis</strong> : Teferi has at least eight loyalty counters on it.
+You control at least three additional planeswalkers.</div>
+<div class="step"><strong>Exécution</strong> : Activate a planeswalker you control by putting zero loyalty counters on it, putting a loyalty counter on each planeswalker you control.
+Repeat step 1 two additional times.
+Activate Teferi&#x27;s third loyalty ability by removing ten loyalty counters from it, causing you to take two extra turns after this one.
+Activate Aminatou&#x27;s second loyalty ability by removing a loyalty counter from it, blinking Teferi.
+Activate Teferi&#x27;s first loyalty ability by putting a loyalty counter on it, causing you to loot.
+Move to your first extra turn.
+Activate Teferi&#x27;s first loyalty ability by putting a loyalty counter on it, causing you to loot.
+Repeat step 1 three additional times.
+Move to your second extra turn.
+Repeat.</div>
+</div>
+<div class="combo">
+<h3>🔗 Felidar Guardian + Altar of the Brood + Phyrexian Metamorph <button class="copy-btn" data-copy="Felidar Guardian, Altar of the Brood, Phyrexian Metamorph" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="meta">Identité WU · Popularité : 1899 decks</div>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/4/4/44bdbed8-5d21-4bf5-8a32-9623b1139c85.jpg?1783936780" data-large="https://cards.scryfall.io/large/front/4/4/44bdbed8-5d21-4bf5-8a32-9623b1139c85.jpg?1783936780" data-name="Felidar Guardian" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Felidar Guardian</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/8/d/8d59d264-87ee-4305-bffb-110549331a82.jpg?1783939050" data-large="https://cards.scryfall.io/large/front/8/d/8d59d264-87ee-4305-bffb-110549331a82.jpg?1783939050" data-name="Altar of the Brood" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Altar of the Brood</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/a/5/a564c2e8-f49f-4ed7-850f-7c8bc92e4926.jpg?1783906041" data-large="https://cards.scryfall.io/large/front/a/5/a564c2e8-f49f-4ed7-850f-7c8bc92e4926.jpg?1783906041" data-name="Phyrexian Metamorph" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Phyrexian Metamorph</div></div></div>
+<div class="result"><strong>Produit</strong> :  ·  · </div>
+<div class="step"><strong>Exécution</strong> : Cast Phyrexian Metamorph by paying <img src="https://svgs.scryfall.io/card-symbols/3.svg" alt="3" title="3" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/UP.svg" alt="U/P" title="U/P" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
+Phyrexian Metamorph enters the battlefield as a copy of Felidar Guardian, triggering Altar of the Brood and itself.
+Resolve the Altar of the Brood trigger, causing each opponent to mill a card.
+Resolve the Phyrexian Metamorph&#x27;s trigger, blinking Felidar Guardian.
+Felidar Guardian enters the battlefield, triggering Altar of the Brood and itself.
+Resolve the Altar of the Brood trigger, causing each opponent to mill a card.
+Resolve the Felidar Guardian&#x27;s trigger, blinking Phyrexian Metamorph.
+Repeat from step 2.</div>
+</div>
+<div class="combo">
+<h3>🔗 Lumbering Battlement + Restoration Angel + Ephemerate <button class="copy-btn" data-copy="Lumbering Battlement, Restoration Angel, Ephemerate" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="meta">Identité W · Popularité : 1660 decks</div>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/2/4/2469bc93-57ca-4077-bda2-160b4160adad.jpg?1783933721" data-large="https://cards.scryfall.io/large/front/2/4/2469bc93-57ca-4077-bda2-160b4160adad.jpg?1783933721" data-name="Lumbering Battlement" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Lumbering Battlement</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/f/1/f17f85d3-58e5-4128-90c5-98b524256af8.jpg?1783908175" data-large="https://cards.scryfall.io/large/front/f/1/f17f85d3-58e5-4128-90c5-98b524256af8.jpg?1783908175" data-name="Restoration Angel" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Restoration Angel</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/2/d/2da5f3f8-5eef-498f-ba2c-2f3fbc3745aa.jpg?1783933164" data-large="https://cards.scryfall.io/large/front/2/d/2da5f3f8-5eef-498f-ba2c-2f3fbc3745aa.jpg?1783933164" data-name="Ephemerate" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Ephemerate</div></div></div>
+<div class="result"><strong>Produit</strong> :  ·  · </div>
+<div class="step"><strong>Exécution</strong> : Cast Ephemerate by paying <img src="https://svgs.scryfall.io/card-symbols/W.svg" alt="W" title="W" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>, blinking Lumbering Battlement.
+Lumbering Battlement leaves the battlefield, causing Restoration Angel to return to the battlefield.
+Restoration Angel and Lumbering Battlement enter the battlefield, triggering their abilities.
+Resolve the Lumbering Battlement trigger, exiling Restoration Angel until Lumbering Battlement leaves the battlefield.
+Resolve the Restoration Angel trigger, blinking Lumbering Battlement.
+Repeat from step 2.</div>
+</div>
+<div class="combo">
+<h3>🔗 Aminatou, the Fateshifter + Spark Double + Altar of the Brood <button class="copy-btn" data-copy="Aminatou, the Fateshifter, Spark Double, Altar of the Brood" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="meta">Identité WUB · Popularité : 1594 decks</div>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857" data-large="https://cards.scryfall.io/large/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857" data-name="Aminatou, the Fateshifter" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Aminatou, the Fateshifter</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/c/4/c41b9ba2-0006-4d8e-b600-efe81ff5e0cc.jpg?1783913330" data-large="https://cards.scryfall.io/large/front/c/4/c41b9ba2-0006-4d8e-b600-efe81ff5e0cc.jpg?1783913330" data-name="Spark Double" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Spark Double</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/8/d/8d59d264-87ee-4305-bffb-110549331a82.jpg?1783939050" data-large="https://cards.scryfall.io/large/front/8/d/8d59d264-87ee-4305-bffb-110549331a82.jpg?1783939050" data-name="Altar of the Brood" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Altar of the Brood</div></div></div>
+<div class="result"><strong>Produit</strong> :  ·  · </div>
+<div class="step"><strong>Exécution</strong> : Activate Aminatou&#x27;s second loyalty ability by removing a loyalty counter from it, blinking Spark Double.
+Spark Double enters the battlefield as a non-legendary copy of Aminatou.
+Altar of the Brood triggers, causing each opponent to mill one card.
+Activate Spark Double&#x27;s second loyalty ability by removing a loyalty counter from it, blinking Aminatou.
+Aminatou enters the battlefield, triggering Altar of the Brood, causing each opponent to mill one card.
+Repeat.</div>
+</div>
+<div class="combo">
+<h3>🔗 Aminatou, the Fateshifter + Spark Double + Rings of Brighthearth + Teferi, Temporal Archmage <button class="copy-btn" data-copy="Aminatou, the Fateshifter, Spark Double, Rings of Brighthearth, Teferi, Temporal Archmage" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="meta">Identité WUB · Popularité : 386 decks</div>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857" data-large="https://cards.scryfall.io/large/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857" data-name="Aminatou, the Fateshifter" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Aminatou, the Fateshifter</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/c/4/c41b9ba2-0006-4d8e-b600-efe81ff5e0cc.jpg?1783913330" data-large="https://cards.scryfall.io/large/front/c/4/c41b9ba2-0006-4d8e-b600-efe81ff5e0cc.jpg?1783913330" data-name="Spark Double" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Spark Double</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/8/3/838ffc87-517a-4d94-8ce0-bc9ed01ecc52.jpg?1783928748" data-large="https://cards.scryfall.io/large/front/8/3/838ffc87-517a-4d94-8ce0-bc9ed01ecc52.jpg?1783928748" data-name="Rings of Brighthearth" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Rings of Brighthearth</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/3/6/368c6e60-804c-447c-bc2b-ac9dc4cab5e7.jpg?1783915687" data-large="https://cards.scryfall.io/large/front/3/6/368c6e60-804c-447c-bc2b-ac9dc4cab5e7.jpg?1783915687" data-name="Teferi, Temporal Archmage" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Teferi, Temporal Archmage</div></div></div>
+<div class="result"><strong>Produit</strong> :  ·  · </div>
+<div class="step"><strong>Prérequis</strong> : You control up to four permanents that can tap to produce at least {2}.
+Aminatou has at least two loyalty counters.</div>
+<div class="step"><strong>Exécution</strong> : Activate up to four permanents by tapping them, adding at least <img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
+Activate Aminatou&#x27;s second loyalty ability by removing a loyalty counter from it, targeting Teferi.
+Rings of Brighthearth triggers, causing you to pay <img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/> to copy Aminatou&#x27;s ability, targeting Spark Double.
+Resolve both Aminatou abilities, blinking Teferi and Spark Double, choosing to have Spark Double enter the battlefield as a copy of Aminatou.
+Activate Teferi&#x27;s second loyalty ability by removing a loyalty counter from it, targeting up to four permanents.
+Rings of Brighthearth triggers, choose not to pay for the trigger.
+Resolve the Teferi ability, untapping up to four permanents you control.
+Activate up to four permanents by tapping them, adding at least <img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
+Activate Spark Double&#x27;s second loyalty ability by removing a loyalty counter from it, targeting Teferi.
+Rings of Brighthearth triggers, causing you to pay <img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/> to copy Spark Double&#x27;s ability, targeting Aminatou.
+Resolve both Spark Double abilities, blinking Teferi and Aminatou.
+Activate Teferi&#x27;s second loyalty ability by removing a loyalty counter from it, targeting up to four permanents.
+Rings of Brighthearth triggers, choose not to pay for the trigger.
+Resolve the Teferi ability, untapping up to four permanents you control.
+Repeat.
+If the four permanents can produce at least <img src="https://svgs.scryfall.io/card-symbols/3.svg" alt="3" title="3" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>, you may instead use Teferi&#x27;s first loyalty ability once you have infinite mana to put your library into your hand, or you may instead blink any other desired permanent.</div>
+</div>
+<div class="combo">
+<h3>🔗 Aminatou, the Fateshifter + The Chain Veil + Peregrine Drake <button class="copy-btn" data-copy="Aminatou, the Fateshifter, The Chain Veil, Peregrine Drake" onclick="copyText(this.getAttribute('data-copy'))" title="Copier la liste des cartes">📋</button></h3>
+<div class="meta">Identité WUB · Popularité : 290 decks</div>
+<div style="text-align:center;"><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857" data-large="https://cards.scryfall.io/large/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857" data-name="Aminatou, the Fateshifter" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Aminatou, the Fateshifter</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/1/c/1ca66955-d900-45b6-9a40-38467689a68d.jpg?1783915410" data-large="https://cards.scryfall.io/large/front/1/c/1ca66955-d900-45b6-9a40-38467689a68d.jpg?1783915410" data-name="The Chain Veil" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">The Chain Veil</div></div><div style="display:inline-block;text-align:center;margin:8px;vertical-align:top;width:150px;"><img src="https://cards.scryfall.io/normal/front/6/1/611c8fa2-b53f-483b-9efa-759ac59dc30f.jpg?1783918487" data-large="https://cards.scryfall.io/large/front/6/1/611c8fa2-b53f-483b-9efa-759ac59dc30f.jpg?1783918487" data-name="Peregrine Drake" loading="lazy" style="width:150px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,.5);cursor:zoom-in;" onclick="openModal(this)"/><div style="font-size:12px;font-weight:600;margin-top:5px;color:#ddd;">Peregrine Drake</div></div></div>
+<div class="result"><strong>Produit</strong> :  ·  ·  ·  ·  · </div>
+<div class="step"><strong>Prérequis</strong> : You control up to five lands that can tap to produce at least {2}{W}{U}{B}.</div>
+<div class="step"><strong>Exécution</strong> : Activate up to five lands by tapping them, adding at least <img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/W.svg" alt="W" title="W" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/B.svg" alt="B" title="B" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
+Activate The Chain Veil by paying <img src="https://svgs.scryfall.io/card-symbols/4.svg" alt="4" title="4" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/> and tapping it, allowing an additional activation of planeswalkers&#x27; loyalty abilities until end of turn.
+Activate Aminatou&#x27;s second loyalty ability by removing a loyalty counter from it, blinking The Chain Veil.
+Activate Aminatou&#x27;s second loyalty ability by removing a loyalty counter from it, blinking Peregrine Drake.
+When Peregrine Drake enters the battlefield, it triggers, untapping up to five lands.
+Activate the lands by tapping them, adding at least <img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/W.svg" alt="W" title="W" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/B.svg" alt="B" title="B" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
+Activate The Chain Veil by paying <img src="https://svgs.scryfall.io/card-symbols/4.svg" alt="4" title="4" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/> and tapping it, allowing an additional activation of planeswalkers&#x27; loyalty abilities until end of turn.
+Activate Aminatou&#x27;s second loyalty ability by removing a loyalty counter from it, blinking Peregrine Drake and killing Aminatou due to it having zero loyalty, causing it to be returned to the command zone from your graveyard.
+When Peregrine Drake enters the battlefield, it triggers, untapping up to five lands.
+Activate the lands by tapping them, adding at least <img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/W.svg" alt="W" title="W" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/B.svg" alt="B" title="B" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/>.
+Cast Aminatou from the command zone by paying <img src="https://svgs.scryfall.io/card-symbols/W.svg" alt="W" title="W" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/><img src="https://svgs.scryfall.io/card-symbols/B.svg" alt="B" title="B" style="height:1.1em;vertical-align:-0.18em;display:inline-block;margin:0 1px;"/> plus commander tax.
+Repeat steps 2 through 7 one additional time.
+Activate Aminatou&#x27;s first loyalty ability by putting a loyalty counter on it, causing you to draw a card and then put a card on top of your library.
+Repeat step 13 until the number of loyalty counters on Aminatou is equal to the number of activations of Aminatou&#x27;s abilities you have remaining this turn.
+Repeat steps 4 through 6 until Aminatou dies due to it having zero loyalty and is returned to the command zone from your graveyard.
+Repeat from step 11.</div>
+</div>
+<div class="warning"><strong>⚠️ Note</strong> : 180 combos Esper écartés (chevauchement insuffisant, 5+ cartes, popularité faible, ou variantes de la même famille) et 169 hors-couleurs.</div>
+<p style="color:#666;font-size:12px;margin-top:30px;border-top:1px solid #2d2d44;padding-top:12px;">
+Rapport v2 généré le 06/08/2026 à 08:49 · Sources : Scryfall API (noms, textes Oracle, images, symboles officiels) · EDHREC (données, scores de synergie) · Commander Spellbook (combos) · EDHREC Articles (guides)<br>
+Toutes les images et symboles proviennent des serveurs officiels Scryfall. Les explications sont vérifiées contre les textes Oracle.</p>
+<div id="modal" onclick="closeModal()">
+<span class="hint">✕ cliquer pour fermer</span>
+<img id="modalImg" src="" alt="Carte en plein écran" onclick="closeModal()"/>
+<div class="caption" id="modalCaption"></div>
+</div>
+<script>
+function openModal(img){
+  var large = img.getAttribute("data-large") || img.src;
+  document.getElementById("modalImg").src = large;
+  document.getElementById("modalCaption").textContent = img.getAttribute("data-name") || "";
+  var m = document.getElementById("modal");
+  m.classList.add("open");
+  document.body.style.overflow = "hidden";
+}
+function closeModal(){
+  var m = document.getElementById("modal");
+  m.classList.remove("open");
+  document.body.style.overflow = "";
+}
+document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeModal(); });
+function copyText(text){
+  function done(btn){ if(btn){ btn.classList.add("copied"); btn.textContent="✅"; setTimeout(function(){ btn.classList.remove("copied"); btn.textContent="📋"; }, 1500); } }
+  function fallback(){
+    var ta=document.createElement("textarea"); ta.value=text;
+    ta.style.position="fixed"; ta.style.opacity="0";
+    document.body.appendChild(ta); ta.select();
+    try{ document.execCommand("copy"); }catch(e){}
+    document.body.removeChild(ta); done(btn);
+  }
+  var btn = event && event.currentTarget ? event.currentTarget : null;
+  if(navigator.clipboard && window.isSecureContext){ navigator.clipboard.writeText(text).then(function(){ done(btn); }, fallback); }
+  else{ fallback(); }
+}
+</script>
+</body></html>
