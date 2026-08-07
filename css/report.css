@@ -242,12 +242,23 @@ strong { color: var(--text-strong); }
   padding: 10px;
   text-align: left;
 }
-.card-block img {
+.card-block > img {
   width: 150px;
   min-width: 150px;
   border-radius: 10px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, .4);
   cursor: zoom-in;
+}
+/* Mana symbols inside card explanations stay inline, small — never stretched */
+.cb-expl img.ms {
+  width: auto;
+  min-width: 0;
+  height: 1.1em;
+  display: inline-block;
+  vertical-align: -0.18em;
+  box-shadow: none;
+  border-radius: 0;
+  cursor: default;
 }
 .cb-body { flex: 1; }
 .cb-name {
