@@ -65,6 +65,8 @@ h1 .accent { color: var(--accent-blue); }
 .card-art {
   flex: 0 0 130px;
   width: 130px;
+  align-self: flex-start;
+  aspect-ratio: 63 / 88;
   background: #000;
   border-radius: var(--radius) 0 0 var(--radius);
   overflow: hidden;
