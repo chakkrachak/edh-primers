@@ -1,0 +1,1821 @@
+{
+ "deck_slug": "isshin-two-heavens-as-one",
+ "commander_name": "Isshin, Two Heavens as One",
+ "imgs": {
+  "Adeline, Resplendent Cathar": "https://cards.scryfall.io/normal/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+  "Adriana, Captain of the Guard": "https://cards.scryfall.io/normal/front/0/1/01c2337d-1c3c-4c5e-8b06-dc8a8c56164e.jpg?1783921419",
+  "Aggravated Assault": "https://cards.scryfall.io/normal/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+  "Ainok Strike Leader": "https://cards.scryfall.io/normal/front/c/a/cabd77a6-0913-4522-891d-c8a412a536c2.jpg?1783907186",
+  "Akroma's Will": "https://cards.scryfall.io/normal/front/6/0/608cdbdb-6f7e-438a-bab0-0e7782435f0f.jpg?1783913897",
+  "Alesha, Who Laughs at Fate": "https://cards.scryfall.io/normal/front/a/9/a93e3406-4e29-4bc0-ae52-cbd2ac1f99a4.jpg?1783909093",
+  "All-Out Assault": "https://cards.scryfall.io/normal/front/b/7/b74876d8-f6a6-4b47-b960-b01a331bab01.jpg?1783907330",
+  "Andúril, Flame of the West": "https://cards.scryfall.io/normal/front/0/f/0f2a60c5-09ca-49e4-90bd-9dadc56dddf2.jpg?1784734551",
+  "Andúril, Narsil Reforged": "https://cards.scryfall.io/normal/front/5/c/5c495189-451e-46ca-9a71-825dab50a0e7.jpg?1784626910",
+  "Angelic Exaltation": "https://cards.scryfall.io/normal/front/e/0/e03dac86-63a0-4957-95bb-1b228003bc13.jpg?1783913352",
+  "Anguished Unmaking": "https://cards.scryfall.io/normal/front/4/0/407183c6-c962-4f8c-867e-abc309b6c573.jpg?1783903759",
+  "Anim Pakal, Thousandth Moon": "https://cards.scryfall.io/normal/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+  "Ankle Shanker": "https://cards.scryfall.io/normal/front/5/4/544a06f8-75fe-41b6-81dc-c9a0358f03c5.jpg?1783937054",
+  "Anointed Procession": "https://cards.scryfall.io/normal/front/9/a/9a52c265-6920-4929-ba0a-70da08df01f1.jpg?1783936544",
+  "Arabella, Abandoned Doll": "https://cards.scryfall.io/normal/front/f/6/f683d5a1-b8bf-446f-9fe3-88a4398bf3cf.jpg?1783909446",
+  "Arcane Signet": "https://cards.scryfall.io/normal/front/1/c/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd.jpg?1783903222",
+  "Arena of Glory": "https://cards.scryfall.io/normal/front/d/d/dd148edc-9e43-41aa-bb50-f912115d3e72.jpg?1783911241",
+  "Arid Mesa": "https://cards.scryfall.io/normal/front/2/5/25ac5405-df7b-4097-914a-022cb18e20d4.jpg?1783926797",
+  "Audacious Thief": "https://cards.scryfall.io/normal/front/e/1/e1ff5e66-4718-43c3-8a58-1a0a8e788f83.jpg?1783933000",
+  "Aurelia, the Law Above": "https://cards.scryfall.io/normal/front/8/f/8f80c6e7-e9f9-4ca6-87f7-a52c96079e4a.jpg?1783912856",
+  "Aurelia, the Warleader": "https://cards.scryfall.io/normal/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+  "Austere Command": "https://cards.scryfall.io/normal/front/a/8/a8bc7912-e201-468a-b251-140205cb741c.jpg?1783903253",
+  "Banishing Slash": "https://cards.scryfall.io/normal/front/e/4/e4b8946b-6604-49ca-98db-18a540b1b4e5.jpg?1783923927",
+  "Bastion of Remembrance": "https://cards.scryfall.io/normal/front/6/f/6fe6ccad-e303-48f9-9dfa-0db7c1878031.jpg?1783904806",
+  "Battle Angels of Tyr": "https://cards.scryfall.io/normal/front/4/c/4c91dbf4-94fa-45d0-b8ed-a778b11d789b.jpg?1783922818",
+  "Battlefield Forge": "https://cards.scryfall.io/normal/front/c/4/c47c1bf5-f11e-4f86-b20b-5d899a11dc56.jpg?1783903735",
+  "Bitterthorn, Nissa's Animus": "https://cards.scryfall.io/normal/front/9/2/926cbd68-3b66-4ccc-a7c9-fb20e38a3126.jpg?1783903741",
+  "Black Market Connections": "https://cards.scryfall.io/normal/front/9/d/9d9ca869-e68a-4f53-9f52-85c714dac6f3.jpg?1783903238",
+  "Blade of Selves": "https://cards.scryfall.io/normal/front/d/0/d0ca6a34-724f-47bb-b12d-c4998ffc3bf7.jpg?1783907016",
+  "Blasphemous Act": "https://cards.scryfall.io/normal/front/7/d/7d4b1d44-126e-4987-9a9f-f0f9627a09cb.jpg?1783903234",
+  "Blazemire Verge": "https://cards.scryfall.io/normal/front/d/1/d151c8e2-d715-470d-868a-f45191db9fa0.jpg?1783909431",
+  "Blood Crypt": "https://cards.scryfall.io/normal/front/1/b/1b7eb998-3ec0-4cbc-a416-5a1e3e5a7316.jpg?1784036817",
+  "Bloodfell Caves": "https://cards.scryfall.io/normal/front/1/d/1dde3c68-6f29-4c00-b668-c25ac9e3e13b.jpg?1783907281",
+  "Bloodstained Mire": "https://cards.scryfall.io/normal/front/5/7/579743fe-f71e-4cb2-8629-d6b02ed1591d.jpg?1783911241",
+  "Bojuka Bog": "https://cards.scryfall.io/normal/front/5/5/55b5b094-9d2d-4d96-b90c-78fecdae725a.jpg?1783903734",
+  "Bone-Cairn Butcher": "https://cards.scryfall.io/normal/front/7/8/78bf36bc-6702-4c5d-b52d-ab7217cc8787.jpg?1783907326",
+  "Boros Charm": "https://cards.scryfall.io/normal/front/e/0/e0d8c9f6-cbbd-4694-b100-01cfb81036cc.jpg?1783908890",
+  "Boros Garrison": "https://cards.scryfall.io/normal/front/7/6/76ec3366-98f3-4903-8f7b-cfcdd60e3be1.jpg?1783912508",
+  "Boros Signet": "https://cards.scryfall.io/normal/front/4/9/49c37c0e-d363-4033-a069-710241cd9923.jpg?1783907016",
+  "Brave the Sands": "https://cards.scryfall.io/normal/front/0/9/09ab8b60-cdb1-43a8-b180-b562bb89b5a1.jpg?1783934775",
+  "Breena, the Demagogue": "https://cards.scryfall.io/normal/front/5/9/599f87c8-643e-4224-93a5-853c0bd4e497.jpg?1783903756",
+  "Brutal Hordechief": "https://cards.scryfall.io/normal/front/d/f/dfa94402-1613-4e65-8470-a05bf4bbb8a8.jpg?1783937068",
+  "Caesar, Legion's Emperor": "https://cards.scryfall.io/normal/front/2/4/246a7176-98bc-4f54-aa61-38747420f178.jpg?1783912422",
+  "Campaign of Vengeance": "https://cards.scryfall.io/normal/front/c/2/c284997a-cfc3-4ffc-bc25-00c130fb1eb0.jpg?1783937432",
+  "Captain Lannery Storm": "https://cards.scryfall.io/normal/front/6/0/60a457e2-6cc7-47f0-9a24-df5459395358.jpg?1783911922",
+  "Cathars' Crusade": "https://cards.scryfall.io/normal/front/5/2/5296e353-2efc-4d72-a877-7957eff630b9.jpg?1783908185",
+  "Cathedral of War": "https://cards.scryfall.io/normal/front/d/d/dd222c07-0b28-41cb-9237-ad7991ab078f.jpg?1783940455",
+  "Caustic Bronco": "https://cards.scryfall.io/normal/front/e/9/e9a268ba-c442-4fe4-90b4-2810c8474f4e.jpg?1783911835",
+  "Caves of Koilos": "https://cards.scryfall.io/normal/front/a/8/a8a57915-5226-4d3c-ae8e-a55c50f3c131.jpg?1783903734",
+  "Chaos Warp": "https://cards.scryfall.io/normal/front/f/b/fb8d8106-b9bd-405c-886e-72fc301c65e1.jpg?1785759418",
+  "Chivalric Alliance": "https://cards.scryfall.io/normal/front/f/9/f96d4b03-e3b0-4b24-869d-4270b813b518.jpg?1783917292",
+  "Chromatic Lantern": "https://cards.scryfall.io/normal/front/9/b/9b29492a-8bdd-4806-8d1b-3058ed277cc1.jpg?1785759423",
+  "Clever Concealment": "https://cards.scryfall.io/normal/front/4/1/41d45a8a-ea1d-4fbc-86d2-5d6340f3b639.jpg?1783903251",
+  "Clifftop Retreat": "https://cards.scryfall.io/normal/front/4/a/4a7f7767-1959-4812-8654-0a22634096b1.jpg?1783903206",
+  "Combat Celebrant": "https://cards.scryfall.io/normal/front/2/8/28b63c3d-2e55-4343-b49a-11fa602ec473.jpg?1783936491",
+  "Command Tower": "https://cards.scryfall.io/normal/front/0/5/0548fb60-c843-4f8f-a029-6f10efc63a41.jpg?1783903206",
+  "Commander's Sphere": "https://cards.scryfall.io/normal/front/a/0/a0d50603-e31f-4cd7-b4b6-49847d99eb2e.jpg?1783904531",
+  "Commissar Severina Raine": "https://cards.scryfall.io/normal/front/9/4/94ba8b76-8de7-46da-b641-2503903f0f8a.jpg?1783920859",
+  "Crackling Doom": "https://cards.scryfall.io/normal/front/a/6/a66e5673-e34b-46e8-a0e4-55f3ee20f99a.jpg?1783921847",
+  "Cunning Rhetoric": "https://cards.scryfall.io/normal/front/4/a/4a163794-db93-4cf6-a2ea-1af288109dc1.jpg?1783911932",
+  "Curse of Opulence": "https://cards.scryfall.io/normal/front/4/9/494a6f50-9cd3-4bfc-9382-dce4f7047a81.jpg?1783907072",
+  "Dalkovan Encampment": "https://cards.scryfall.io/normal/front/9/8/98ad5f0c-8775-4e89-8e92-84a6ade93e35.jpg?1783907281",
+  "Damn": "https://cards.scryfall.io/normal/front/8/4/84056124-1a6f-4274-bee2-74cf0debddb5.jpg?1783913875",
+  "Dark Ritual": "https://cards.scryfall.io/normal/front/1/1/11e12a84-e7be-4afc-a230-c2e644743fa8.jpg?1783903013",
+  "Dawn's Truce": "https://cards.scryfall.io/normal/front/8/f/8f72bfa0-efef-48ce-aff8-d5818ed71ba6.jpg?1783910863",
+  "Deadly Dispute": "https://cards.scryfall.io/normal/front/d/8/d86fa72c-25c1-43ef-9cb0-fe76f7568ed3.jpg?1783903013",
+  "Deadly Rollick": "https://cards.scryfall.io/normal/front/0/e/0e13f735-54fa-42b6-aea4-ced33811d7d4.jpg?1783915679",
+  "Deflecting Palm": "https://cards.scryfall.io/normal/front/c/5/c5bda1a7-537f-4a80-95a0-c45eb127969b.jpg?1783912980",
+  "Deflecting Swat": "https://cards.scryfall.io/normal/front/b/4/b4b36435-55b3-4615-8812-af41d4fc64d9.jpg?1783915656",
+  "Delina, Wild Mage": "https://cards.scryfall.io/normal/front/e/8/e87459aa-af8f-4bd2-a310-151353083a2e.jpg?1783926480",
+  "Den of the Bugbear": "https://cards.scryfall.io/normal/front/f/2/f231caf8-56c0-4719-a90d-5e5efbee3148.jpg?1783926435",
+  "Despark": "https://cards.scryfall.io/normal/front/f/3/f37a4bc1-3702-44d7-8b29-dca99b563c6b.jpg?1783907033",
+  "Diamond Pick-Axe": "https://cards.scryfall.io/normal/front/4/a/4ae30fa7-3d1d-417f-80d7-a668236cb2c1.jpg?1783913764",
+  "Dolmen Gate": "https://cards.scryfall.io/normal/front/f/d/fdcbf10e-32f2-41c5-a7a2-5f24662892d2.jpg?1783942851",
+  "Dragonskull Summit": "https://cards.scryfall.io/normal/front/d/2/d20e433a-eb62-4301-bc20-bfe27468b033.jpg?1783903203",
+  "Drakuseth, Maw of Flames": "https://cards.scryfall.io/normal/front/9/e/9e9b40f5-3dd0-4607-a78d-b004d57fa4ea.jpg?1783903947",
+  "Duelist's Heritage": "https://cards.scryfall.io/normal/front/4/5/45834bc6-be8d-4064-930d-efc73cf3c64d.jpg?1783904807",
+  "Eiganjo, Seat of the Empire": "https://cards.scryfall.io/normal/front/c/3/c375a022-5b57-496d-a802-e4ea8376e9e4.jpg?1783923818",
+  "Elspeth, Storm Slayer": "https://cards.scryfall.io/normal/front/7/3/73a065e3-b530-4e62-ab3c-4f6f908184ec.jpg?1783907414",
+  "Emberwilde Captain": "https://cards.scryfall.io/normal/front/3/6/362850cd-d33c-4f61-9b3a-5de748adee7c.jpg?1783928816",
+  "Endless Foot Assault": "https://cards.scryfall.io/normal/front/3/8/387f6f60-69da-4965-9ab9-57bdb763a013.jpg?1783904172",
+  "Enduring Courage": "https://cards.scryfall.io/normal/front/f/4/f46ac55f-d68e-4d5d-af0a-3879f97f705e.jpg?1783909470",
+  "Esper Sentinel": "https://cards.scryfall.io/normal/front/f/3/f3537373-ef54-4578-9d05-6216420ee349.jpg?1783926893",
+  "Etali, Primal Storm": "https://cards.scryfall.io/normal/front/b/6/b6af9894-95b5-4c8e-902f-a9ba70f02e4a.jpg?1783909067",
+  "Evolving Wilds": "https://cards.scryfall.io/normal/front/c/0/c0318a48-30e4-4ef7-be3d-5e561c5ce428.jpg?1783903203",
+  "Exotic Orchard": "https://cards.scryfall.io/normal/front/d/1/d11c5fe0-1528-4c94-a8cc-42bcab9d7487.jpg?1785759427",
+  "Explorer's Scope": "https://cards.scryfall.io/normal/front/b/e/be120499-fe2f-4c21-982c-566d0dbbddff.jpg?1783915601",
+  "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki": "https://cards.scryfall.io/normal/front/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+  "Fabled Passage": "https://cards.scryfall.io/normal/front/6/2/62ef854d-ec9e-443d-a4ba-4b2875ed3fe7.jpg?1783903202",
+  "Faithless Looting": "https://cards.scryfall.io/normal/front/f/c/fc019ffa-4461-4f3d-ab8d-e4d20e77ca0c.jpg?1783903774",
+  "Fell the Profane // Fell Mire": "https://cards.scryfall.io/normal/front/a/3/a3cb782d-c459-468d-9779-9b5669abc337.jpg?1783911234",
+  "Fellwar Stone": "https://cards.scryfall.io/normal/front/3/e/3ef87948-0ad9-4757-a692-2262c8e24367.jpg?1785759354",
+  "Fervent Charge": "https://cards.scryfall.io/normal/front/d/6/d610a9d5-c650-45ad-a9b0-b55113701e05.jpg?1783945335",
+  "Fervor": "https://cards.scryfall.io/normal/front/a/8/a88515c2-4b4f-4d16-9f50-149ef012e961.jpg?1783940484",
+  "Fetid Heath": "https://cards.scryfall.io/normal/front/f/4/f465ded8-0d38-42ac-bafc-a12185013c5d.jpg?1783903732",
+  "Fire Nation Palace": "https://cards.scryfall.io/normal/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+  "Firebender Ascension": "https://cards.scryfall.io/normal/front/2/9/2929b702-03c6-4cf0-a3f7-61b27f4803be.jpg?1783904958",
+  "Firemane Commando": "https://cards.scryfall.io/normal/front/c/8/c86269cc-bf4d-44b4-ad4b-8356857c532f.jpg?1783903808",
+  "Flare of Fortitude": "https://cards.scryfall.io/normal/front/3/7/37b41b59-0296-443b-8a62-8d5c4641ef66.jpg?1783911302",
+  "Flawless Maneuver": "https://cards.scryfall.io/normal/front/a/b/ab12f69e-1491-47a8-8c46-d85bbf637ff6.jpg?1783915723",
+  "Foreboding Ruins": "https://cards.scryfall.io/normal/front/7/6/76fdf6be-e13b-49ee-9d50-8625edb49951.jpg?1783903200",
+  "Fracture": "https://cards.scryfall.io/normal/front/c/b/cba33bf7-0919-408c-8eb0-0bb9fe920c81.jpg?1783903753",
+  "Full Throttle": "https://cards.scryfall.io/normal/front/d/9/d91f7cad-89e8-45cb-a78e-b35b0ee64783.jpg?1783907882",
+  "Furycalm Snarl": "https://cards.scryfall.io/normal/front/a/f/afc12892-4978-4442-ace5-c4dea5c0ee00.jpg?1783903200",
+  "Generous Gift": "https://cards.scryfall.io/normal/front/c/3/c3f9b454-97e9-4c77-b37a-e974221ae385.jpg?1783903247",
+  "Genji Glove": "https://cards.scryfall.io/normal/front/f/7/f724dde1-84b0-4e3b-a9b8-44cd22bb9f79.jpg?1783906558",
+  "Gleam of Battle": "https://cards.scryfall.io/normal/front/e/5/e5f0feef-1a71-4c8c-9fd1-f5cbe718a988.jpg?1783940028",
+  "Glimmer Lens": "https://cards.scryfall.io/normal/front/c/9/c9262000-e6f3-4da1-ad1c-038f65d3bef6.jpg?1783918163",
+  "Godless Shrine": "https://cards.scryfall.io/normal/front/8/f/8fbd1ae0-3d4c-492a-a1ea-85a95fa3d7b6.jpg?1784036826",
+  "Godo, Bandit Warlord": "https://cards.scryfall.io/normal/front/0/1/01d566cf-cb32-461d-8afe-b0f3f4c24160.jpg?1783915653",
+  "Goldspan Dragon": "https://cards.scryfall.io/normal/front/8/4/848c1951-90fa-4f01-9aed-76f1afcd9995.jpg?1783903774",
+  "Goro-Goro, Disciple of Ryusei": "https://cards.scryfall.io/normal/front/1/c/1ca736c7-35a9-48c7-b5a9-69b2a6e33ad0.jpg?1783923865",
+  "Great Train Heist": "https://cards.scryfall.io/normal/front/3/5/357dd9b2-5d2d-49f6-86f0-f5c4d63474dd.jpg?1783911821",
+  "Greatsword of Tyr": "https://cards.scryfall.io/normal/front/5/0/50088a60-642b-47ed-a289-ef0b617b688f.jpg?1783922813",
+  "Hammers of Moradin": "https://cards.scryfall.io/normal/front/e/7/e7429a5b-5579-4c4e-89ff-ee7f43db37e4.jpg?1783922811",
+  "Hanweir Battlements": "https://cards.scryfall.io/normal/front/8/c/8c0acb91-edfc-43a5-af77-6614327fce43.jpg?1783908057",
+  "Hanweir Garrison": "https://cards.scryfall.io/normal/front/1/8/1811b4fa-fed6-46ea-a6de-bb7624a5b1de.jpg?1783908121",
+  "Haunted Ridge": "https://cards.scryfall.io/normal/front/3/2/32f1e668-89b8-4f82-afc1-6c3efb1fef3b.jpg?1783908057",
+  "Hellrider": "https://cards.scryfall.io/normal/front/7/b/7bbfd905-8c71-4389-9174-6e84bcbcf05c.jpg?1783930388",
+  "Helm of the Host": "https://cards.scryfall.io/normal/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218",
+  "Hero of Bladehold": "https://cards.scryfall.io/normal/front/8/c/8ca58965-1dfa-40ac-b6c8-f957167ff066.jpg?1783907125",
+  "Hoarding Ogre": "https://cards.scryfall.io/normal/front/7/4/746fec80-5ddb-42b8-bc54-728bcd3863b3.jpg?1783922736",
+  "Horn of the Mark": "https://cards.scryfall.io/normal/front/d/d/dd86b71f-d736-426f-bf15-013bc8da1a08.jpg?1783916240",
+  "Impact Tremors": "https://cards.scryfall.io/normal/front/d/0/d0b7cecf-b51b-4d30-b7e9-cd7976271e07.jpg?1783908891",
+  "Inevitable Defeat": "https://cards.scryfall.io/normal/front/9/d/9d677980-b608-407e-9f17-790a81263f15.jpg?1783907309",
+  "Infantry Shield": "https://cards.scryfall.io/normal/front/3/7/37332798-462e-49d3-b197-72411ccf67e5.jpg?1783907173",
+  "Inkshield": "https://cards.scryfall.io/normal/front/3/3/3362ade8-d585-40be-8486-382cad6efaf8.jpg?1783903751",
+  "Inquisitorial Rosette": "https://cards.scryfall.io/normal/front/d/4/d44935ea-e8f4-45b1-8bce-e8665317d801.jpg?1783920818",
+  "Iroas, God of Victory": "https://cards.scryfall.io/normal/front/b/4/b4036bb7-835d-4690-aca1-1ab566776e9a.jpg?1783937048",
+  "Isolated Chapel": "https://cards.scryfall.io/normal/front/7/8/78814c92-b52c-462a-866f-3e7da9db9f70.jpg?1783903727",
+  "Karazikar, the Eye Tyrant": "https://cards.scryfall.io/normal/front/d/a/da46b47b-0156-4a01-b4b1-28526a6826f4.jpg?1783926239",
+  "Karlach, Fury of Avernus": "https://cards.scryfall.io/normal/front/7/7/775480ed-f574-40cb-bd9b-21102eaaff63.jpg?1783922734",
+  "Kazuul, Tyrant of the Cliffs": "https://cards.scryfall.io/normal/front/7/2/721df547-d777-4247-b130-a4e247445b04.jpg?1783912996",
+  "Kellogg, Dangerous Mind": "https://cards.scryfall.io/normal/front/f/2/f2b22b32-be24-48e3-aa81-9256190df02c.jpg?1783912387",
+  "Kinscaer Sentry": "https://cards.scryfall.io/normal/front/3/3/333bf101-14e8-4753-99bc-9174f42c4122.jpg?1783904507",
+  "Krenko, Tin Street Kingpin": "https://cards.scryfall.io/normal/front/2/f/2f5689e2-d8a2-442b-8027-f89686adcb67.jpg?1783917146",
+  "Laelia, the Blade Reforged": "https://cards.scryfall.io/normal/front/2/c/2cb16354-1211-4230-90e2-4858ba68f348.jpg?1783903774",
+  "Land Tax": "https://cards.scryfall.io/normal/front/c/7/c70d3706-9d28-49ac-8718-4a516413e727.jpg?1783903809",
+  "Legion Leadership // Legion Stronghold": "https://cards.scryfall.io/normal/front/7/6/7676abd9-0a3d-4721-b17b-778d2e3c2e25.jpg?1783911225",
+  "Legion Loyalty": "https://cards.scryfall.io/normal/front/1/1/11681eae-f5bd-4e78-a980-5ab58db0d9f3.jpg?1783907122",
+  "Leonin Warleader": "https://cards.scryfall.io/normal/front/b/3/b31b2e5e-6572-462a-9fa0-1b2e660099e3.jpg?1783934603",
+  "Lightning Greaves": "https://cards.scryfall.io/normal/front/b/6/b61634ae-05be-4b56-8ebb-9d4ade902e42.jpg?1783903217",
+  "Long-Range Sensor": "https://cards.scryfall.io/normal/front/7/b/7bc56147-9920-401d-8e4e-93d497e8b67a.jpg?1783906066",
+  "Luxury Suite": "https://cards.scryfall.io/normal/front/3/c/3c409d1e-f634-44a2-8fcf-dcdcb0babc3f.jpg?1783903199",
+  "Malakir Rebirth // Malakir Mire": "https://cards.scryfall.io/normal/front/6/0/609d3ecf-f88d-4268-a8d3-4bf2bcf5df60.jpg?1783929378",
+  "Marchesa's Decree": "https://cards.scryfall.io/normal/front/4/1/413bec4e-e2ce-46f1-b038-6e359cd78b53.jpg?1783937352",
+  "Mardu Ascendancy": "https://cards.scryfall.io/normal/front/0/2/02bc2415-b1d1-467a-9578-3948dda166cf.jpg?1783939056",
+  "Mardu Siegebreaker": "https://cards.scryfall.io/normal/front/3/0/3044b232-edf4-4000-9273-cc4653ad653a.jpg?1783907307",
+  "Marsh Flats": "https://cards.scryfall.io/normal/front/9/d/9db3ba6d-eb7f-4f5b-9a3b-c6239c3baa42.jpg?1783926796",
+  "Minas Tirith": "https://cards.scryfall.io/normal/front/6/3/638c45e2-91d0-4ced-8bf7-64b2817b281a.jpg?1784895078",
+  "Mind Stone": "https://cards.scryfall.io/normal/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.jpg?1785759375",
+  "Mishra, Claimed by Gix": "https://cards.scryfall.io/normal/front/a/4/a469d7ec-42de-45de-9d8f-469bb979de58.jpg?1783920028",
+  "Mortify": "https://cards.scryfall.io/normal/front/8/8/88e85619-3a7d-48c2-b9b0-20718c913696.jpg?1783908910",
+  "Mountain": "https://cards.scryfall.io/normal/front/2/a/2a844b96-6616-4c39-8f4f-5d14a3b2bd55.jpg?1785981666",
+  "Myrel, Shield of Argive": "https://cards.scryfall.io/normal/front/e/6/e632ed57-bb00-4493-adef-7b4805edd7ea.jpg?1783920129",
+  "Myriad Landscape": "https://cards.scryfall.io/normal/front/a/0/a0e2098f-1d94-491a-a7e9-a45a9f69e3a8.jpg?1783906009",
+  "Needleverge Pathway // Pillarverge Pathway": "https://cards.scryfall.io/normal/front/6/5/6559047e-6ede-4815-a3a0-389062094f9d.jpg?1783929311",
+  "Night's Whisper": "https://cards.scryfall.io/normal/front/e/8/e8399c2e-ecc8-41c9-a690-a0eeafb27f77.jpg?1785497515",
+  "Nomad Outpost": "https://cards.scryfall.io/normal/front/a/6/a68fbeaa-941f-4d53-becd-f93ed22b9a54.jpg?1783907273",
+  "Orzhov Basilica": "https://cards.scryfall.io/normal/front/9/c/9c7c08fc-b6ee-498c-8ab6-fd6be27c9d97.jpg?1783909569",
+  "Orzhov Signet": "https://cards.scryfall.io/normal/front/9/0/90894726-1940-4291-a05c-b85cefbfa344.jpg?1783907008",
+  "Otharri, Suns' Glory": "https://cards.scryfall.io/normal/front/8/0/80c72839-0fa6-4b5f-83b7-6553ebf09bef.jpg?1783918163",
+  "Painful Truths": "https://cards.scryfall.io/normal/front/f/a/faa82f09-0693-4cc6-8770-8c6a35aa627b.jpg?1783904558",
+  "Path of Ancestry": "https://cards.scryfall.io/normal/front/b/1/b1aaa7b0-1cac-4a92-b880-7ef1ac00618f.jpg?1785759407",
+  "Path to Exile": "https://cards.scryfall.io/normal/front/9/5/95ca89ea-1200-4bb4-ae4b-af35d3ccd35b.jpg?1783903242",
+  "Phyrexian Arena": "https://cards.scryfall.io/normal/front/0/7/0784b6f0-9ebf-43d2-ba0f-a6bc93ba0c48.jpg?1783909072",
+  "Pip-Boy 3000": "https://cards.scryfall.io/normal/front/c/2/c2248694-aab0-47a8-ae8b-8d5283075e10.jpg?1783912377",
+  "Plains": "https://cards.scryfall.io/normal/front/8/a/8ab0f4c0-b331-4c57-b68f-2e24bb5ba06c.jpg?1785981632",
+  "Rabble Rousing": "https://cards.scryfall.io/normal/front/2/0/206c8529-56df-4ed9-97bc-6c9b5e2a04c4.jpg?1783923156",
+  "Raiyuu, Storm's Edge": "https://cards.scryfall.io/normal/front/3/7/37748b74-0eda-4b20-a08f-faa418adb9ff.jpg?1783923831",
+  "Rakdos Carnarium": "https://cards.scryfall.io/normal/front/2/0/20c799a9-ab94-46e6-9111-00505e071c41.jpg?1783904522",
+  "Rakdos Charm": "https://cards.scryfall.io/normal/front/6/4/64b67170-1602-4050-80c0-ade2a6cac211.jpg?1783906024",
+  "Rakdos Signet": "https://cards.scryfall.io/normal/front/0/1/01cc9536-f710-4c47-9e3f-d7e83cc888f2.jpg?1783909583",
+  "Read the Bones": "https://cards.scryfall.io/normal/front/b/3/b3198f96-f9d8-494f-a556-24ce3ad3895d.jpg?1783909615",
+  "Reconnaissance": "https://cards.scryfall.io/normal/front/a/1/a16012d8-703c-4385-8769-13e3caba3fc6.jpg?1783946529",
+  "Redoubled Stormsinger": "https://cards.scryfall.io/normal/front/f/c/fc5fcb5e-091e-4f47-9c74-9e187a9e0e5d.jpg?1783903772",
+  "Relentless Assault": "https://cards.scryfall.io/normal/front/9/7/97622209-9357-4347-8961-f77f8d2389d8.jpg?1783928712",
+  "Reliquary Tower": "https://cards.scryfall.io/normal/front/e/2/e2a27742-08c1-4153-af7f-25a7a98f585e.jpg?1783903721",
+  "Restless Bivouac": "https://cards.scryfall.io/normal/front/b/8/b85e0aed-bfb2-4aa8-a754-849c4d9a6a58.jpg?1783915056",
+  "Restless Fortress": "https://cards.scryfall.io/normal/front/6/7/675213bb-28d7-460c-a4f3-950f5b9090af.jpg?1783915055",
+  "Restless Vents": "https://cards.scryfall.io/normal/front/e/6/e628e89b-bee9-408d-bb05-1784fda6b8a1.jpg?1783913713",
+  "Revenge of Ravens": "https://cards.scryfall.io/normal/front/3/4/3474289a-193e-452d-b248-e53ee99e22c0.jpg?1783932635",
+  "Rising of the Day": "https://cards.scryfall.io/normal/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+  "Rogue's Passage": "https://cards.scryfall.io/normal/front/4/4/4493b62b-f354-47ff-9dcf-cc6e29de77c6.jpg?1785497634",
+  "Rugged Prairie": "https://cards.scryfall.io/normal/front/6/b/6bd21c9e-de16-4ee9-ae16-6e82b490109d.jpg?1783903721",
+  "Ruinous Ultimatum": "https://cards.scryfall.io/normal/front/5/0/50c1d6ca-7789-46b5-bc89-85cc3915cb85.jpg?1783931018",
+  "Sacred Foundry": "https://cards.scryfall.io/normal/front/a/7/a7758cc6-4e18-48a5-8720-5f42b5cd9d31.jpg?1784036842",
+  "Savai Triome": "https://cards.scryfall.io/normal/front/7/4/748e6a61-9c1f-4225-9f04-e54002f63ac3.jpg?1783931000",
+  "Scoured Barrens": "https://cards.scryfall.io/normal/front/b/4/b4b47b80-69ed-44b0-afa0-ca90206dc16d.jpg?1783907273",
+  "Shadowblood Ridge": "https://cards.scryfall.io/normal/front/d/7/d7af1d6b-ff13-4886-a212-4a6e09153475.jpg?1783909568",
+  "Shattered Landscape": "https://cards.scryfall.io/normal/front/f/8/f8373e5a-94bb-4aa0-bd09-13a01e0cb02a.jpg?1783906970",
+  "Shattered Sanctum": "https://cards.scryfall.io/normal/front/5/a/5aa0c810-3b7d-4661-979e-e84fb327742d.jpg?1783903618",
+  "Shineshadow Snarl": "https://cards.scryfall.io/normal/front/7/a/7a198106-4d31-4e10-884a-bdf2316f8088.jpg?1783903721",
+  "Shinka, the Bloodsoaked Keep": "https://cards.scryfall.io/normal/front/d/2/d2d5f30e-cc3a-46c1-82a9-2cd73705b2f5.jpg?1783944272",
+  "Shiny Impetus": "https://cards.scryfall.io/normal/front/c/c/cc36705f-9b1a-42fe-bebd-f23c7af8a368.jpg?1783907061",
+  "Shizo, Death's Storehouse": "https://cards.scryfall.io/normal/front/0/9/099352e2-38c8-4fb4-a25f-6d928aa20f9e.jpg?1783921377",
+  "Sigil of Valor": "https://cards.scryfall.io/normal/front/f/1/f134f242-cbb5-4a3d-bfd4-46e8b8669b4b.jpg?1783938307",
+  "Sign in Blood": "https://cards.scryfall.io/normal/front/b/8/b89d9372-8682-4a61-a003-8bccfbb6cbb4.jpg?1783909613",
+  "Skullclamp": "https://cards.scryfall.io/normal/front/1/d/1d8b007b-3169-4ee3-80c7-781fc096fc7a.jpg?1783903215",
+  "Skyhunter Strike Force": "https://cards.scryfall.io/normal/front/d/7/d77b0ae2-e26a-4536-8f19-ed15328c039c.jpg?1783913120",
+  "Skyknight Vanguard": "https://cards.scryfall.io/normal/front/5/4/549634d8-1c33-401b-841d-a79ef4374dd1.jpg?1783932947",
+  "Slayers' Stronghold": "https://cards.scryfall.io/normal/front/3/b/3b2c82ea-6793-407c-ac9f-5fc14d4d09ea.jpg?1783912951",
+  "Smoldering Marsh": "https://cards.scryfall.io/normal/front/d/7/d707c477-440f-417c-970a-0e7426a58045.jpg?1783903193",
+  "Sokenzan, Crucible of Defiance": "https://cards.scryfall.io/normal/front/a/a/aa548dcd-c1dd-492d-a69f-c65dfeef0633.jpg?1783923814",
+  "Sol Ring": "https://cards.scryfall.io/normal/front/9/1/91fdb56b-54d5-4272-8319-505ff987fe9b.jpg?1783903215",
+  "Spectator Seating": "https://cards.scryfall.io/normal/front/4/c/4c62dcfc-4bc8-4551-b3c7-9eec26be3362.jpg?1783903192",
+  "Star Athlete": "https://cards.scryfall.io/normal/front/5/c/5c7c23a6-53ff-4588-838c-7936cb9eb86b.jpg?1783909656",
+  "Stroke of Midnight": "https://cards.scryfall.io/normal/front/b/0/b000f605-177f-459d-a197-fcf54efec2fb.jpg?1783907118",
+  "Sulfurous Springs": "https://cards.scryfall.io/normal/front/e/e/eedb9df2-20d3-4cfd-8aed-336edc37d5a9.jpg?1783906003",
+  "Sun Titan": "https://cards.scryfall.io/normal/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797",
+  "Sunbillow Verge": "https://cards.scryfall.io/normal/front/9/4/94ed132f-b818-4dbf-9b4a-e5acb067e0a4.jpg?1783907839",
+  "Sundering Eruption // Volcanic Fissure": "https://cards.scryfall.io/normal/front/5/0/50686ac7-346c-43d1-bdaa-28d46a12ad93.jpg?1783911228",
+  "Sundown Pass": "https://cards.scryfall.io/normal/front/b/3/b34000e9-ff20-4fb4-9d0b-03a172a92457.jpg?1783903618",
+  "Swamp": "https://cards.scryfall.io/normal/front/b/7/b7387103-1df1-4fd0-9e91-1544509792c7.jpg?1785981659",
+  "Swiftfoot Boots": "https://cards.scryfall.io/normal/front/0/3/03f7e9fc-8e59-45c1-90fc-1d04d929b292.jpg?1785759388",
+  "Sword of the Animist": "https://cards.scryfall.io/normal/front/6/4/64401acc-d080-4763-b67a-95164c11c69e.jpg?1783915589",
+  "Swords to Plowshares": "https://cards.scryfall.io/normal/front/b/4/b4e9c870-23c0-413a-ae39-265f09da16d1.jpg?1783903243",
+  "Takenuma, Abandoned Mire": "https://cards.scryfall.io/normal/front/4/9/499037cc-a577-41cb-8ca2-5e117945634f.jpg?1783923812",
+  "Talisman of Conviction": "https://cards.scryfall.io/normal/front/a/3/a365885c-f7d9-4ea1-9125-5265055e5570.jpg?1783903211",
+  "Talisman of Hierarchy": "https://cards.scryfall.io/normal/front/0/c/0c959368-2f58-48de-b7a5-2bab408652b5.jpg?1783903737",
+  "Talisman of Indulgence": "https://cards.scryfall.io/normal/front/c/c/ccacf88d-407d-465d-958a-1389b7d700e6.jpg?1783903211",
+  "Taunt from the Rampart": "https://cards.scryfall.io/normal/front/a/d/ad79ee29-dd86-484f-bd70-8ecd9d90ef75.jpg?1783903223",
+  "Tectonic Giant": "https://cards.scryfall.io/normal/front/4/1/4134a2aa-623c-49fc-bd87-26b861860ad5.jpg?1783909612",
+  "Tempered in Solitude": "https://cards.scryfall.io/normal/front/2/c/2cfd0693-6dba-4c0d-8c42-859d7bf38c40.jpg?1783923858",
+  "Temple of Malice": "https://cards.scryfall.io/normal/front/d/7/d78eccc4-1500-43f1-94f5-b39c160b6381.jpg?1783908896",
+  "Temple of Silence": "https://cards.scryfall.io/normal/front/f/7/f7d3770f-cde6-4e29-8cbf-fe841634a5d7.jpg?1783903716",
+  "Temple of Triumph": "https://cards.scryfall.io/normal/front/d/0/d0e763f7-25b8-444f-8722-614297d0663f.jpg?1783903716",
+  "Terminate": "https://cards.scryfall.io/normal/front/3/7/379ffc67-4142-4ead-a871-0f851523745e.jpg?1783903230",
+  "Terramorphic Expanse": "https://cards.scryfall.io/normal/front/a/8/a81f924b-0527-4311-8120-9bfff71524f6.jpg?1783903191",
+  "The Eternal Wanderer": "https://cards.scryfall.io/normal/front/9/0/905f0dd4-0197-45f8-8e7f-396d6dcef600.jpg?1783918081",
+  "The Fire Crystal": "https://cards.scryfall.io/normal/front/e/a/ea430b17-2014-4b8e-b53f-43bcfc06f7cd.jpg?1783906605",
+  "The Regalia": "https://cards.scryfall.io/normal/front/d/c/dc420e79-c483-474f-97cd-e9c6a636c306.jpg?1783906553",
+  "Thrill of Possibility": "https://cards.scryfall.io/normal/front/8/8/882b348c-076b-41d8-b505-063480636669.jpg?1783909062",
+  "Thundering Raiju": "https://cards.scryfall.io/normal/front/e/c/ec1a2920-6d39-4276-921c-65cc16a45f17.jpg?1783923858",
+  "Tocasia's Welcome": "https://cards.scryfall.io/normal/front/9/0/90e38661-292a-45e7-bda9-51af53cf0f68.jpg?1783903797",
+  "Tori D'Avenant, Fury Rider": "https://cards.scryfall.io/normal/front/9/c/9c873c5b-61f6-49b9-8993-2d5e9823de62.jpg?1783921274",
+  "Trouble in Pairs": "https://cards.scryfall.io/normal/front/0/f/0f61e93f-5f97-4c7d-b3d5-0e05242faeb3.jpg?1783913050",
+  "Two-Handed Axe // Sweeping Cleave": "https://cards.scryfall.io/normal/front/2/1/21e34888-f57c-4f5d-bb5c-b82be980d145.jpg?1783922727",
+  "Unbreakable Formation": "https://cards.scryfall.io/normal/front/0/6/06e1cc7b-9319-4f6f-88ee-2e6b6d2efbc6.jpg?1783913340",
+  "Unquenchable Fury": "https://cards.scryfall.io/normal/front/d/b/db6b3f71-d833-4548-8d66-1d51da08d8b9.jpg?1783923990",
+  "Urborg, Tomb of Yawgmoth": "https://cards.scryfall.io/normal/front/9/e/9e1a9e38-6ffc-490f-b0be-23ba4e8204c6.jpg?1783927747",
+  "Vandalblast": "https://cards.scryfall.io/normal/front/7/1/71067239-d46f-4201-a91c-6aa4c41fa8b1.jpg?1783903232",
+  "Vault of Champions": "https://cards.scryfall.io/normal/front/c/a/cafd7db6-b04e-4fa2-bccd-981211132a93.jpg?1783915582",
+  "Vault of the Archangel": "https://cards.scryfall.io/normal/front/8/f/8f203f04-bd73-4d88-bb5e-aab63507dbd1.jpg?1783906959",
+  "Vindicate": "https://cards.scryfall.io/normal/front/6/8/683c4e13-525c-45c9-8832-bfe67965c34e.jpg?1783926778",
+  "Voice of Victory": "https://cards.scryfall.io/normal/front/e/c/ec3de5f4-bb55-4ab9-995f-f3e0dc22c1bb.jpg?1783907401",
+  "Warleader's Call": "https://cards.scryfall.io/normal/front/b/3/b3e8f8bd-1c8b-4a7c-96c4-57a247ce9ccc.jpg?1783912831",
+  "Wayfarer's Bauble": "https://cards.scryfall.io/normal/front/b/2/b279f268-c37e-4a2d-8195-74f4881226fc.jpg?1785497631",
+  "Will of the Mardu": "https://cards.scryfall.io/normal/front/2/6/26f6b519-20ff-4255-926d-5caee6c572d8.jpg?1783907183",
+  "Wind-Scarred Crag": "https://cards.scryfall.io/normal/front/4/9/4912e4d0-b16a-4aa6-a583-3430d26bd591.jpg?1783907269",
+  "Windbrisk Heights": "https://cards.scryfall.io/normal/front/d/f/df441bae-3b9c-46a9-8287-870c00d58a64.jpg?1783906957",
+  "Windcrag Siege": "https://cards.scryfall.io/normal/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+  "Winota, Joiner of Forces": "https://cards.scryfall.io/normal/front/5/d/5dd13a6c-23d3-44ce-a628-cb1c19d777c4.jpg?1783931014",
+  "Within Range": "https://cards.scryfall.io/normal/front/5/1/51188edb-9705-4960-854b-170744f40a88.jpg?1783907174",
+  "You Are Already Dead": "https://cards.scryfall.io/normal/front/7/6/768727ce-4f84-4527-8d69-3c9b7877b748.jpg?1783923872",
+  "Zurgo Stormrender": "https://cards.scryfall.io/normal/front/d/c/dc8eb325-75c9-4331-830d-3f7d62d77290.jpg?1783907186",
+  "Zurgo, Thunder's Decree": "https://cards.scryfall.io/normal/front/b/d/bd93fb95-4268-45dc-8f0d-590c481a526d.jpg?1783907290",
+  "Dollmaker's Shop // Porcelain Gallery": "https://cards.scryfall.io/normal/front/c/5/c5ee6651-9946-4bae-b21e-6cf28fa77b13.jpg?1783909512",
+  "Fable of the Mirror-Breaker": "https://cards.scryfall.io/normal/front/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+  "Fell the Profane": "https://cards.scryfall.io/normal/front/a/3/a3cb782d-c459-468d-9779-9b5669abc337.jpg?1783911234",
+  "Legion Leadership": "https://cards.scryfall.io/normal/front/7/6/7676abd9-0a3d-4721-b17b-778d2e3c2e25.jpg?1783911225",
+  "Malakir Rebirth": "https://cards.scryfall.io/normal/front/6/0/609d3ecf-f88d-4268-a8d3-4bf2bcf5df60.jpg?1783929378",
+  "Needleverge Pathway": "https://cards.scryfall.io/normal/front/6/5/6559047e-6ede-4815-a3a0-389062094f9d.jpg?1783929311",
+  "Response // Resurgence": "https://cards.scryfall.io/normal/front/2/5/2502d3bf-1956-4294-b4d5-38eee79eeda1.jpg?1783913266",
+  "Sundering Eruption": "https://cards.scryfall.io/normal/front/5/0/50686ac7-346c-43d1-bdaa-28d46a12ad93.jpg?1783911228",
+  "Two-Handed Axe": "https://cards.scryfall.io/normal/front/2/1/21e34888-f57c-4f5d-bb5c-b82be980d145.jpg?1783922727",
+  "Wear // Tear": "https://cards.scryfall.io/normal/front/e/0/e01cc65a-0e38-4f41-b9ed-796ef0355d0b.jpg?1783917123",
+  "Isshin, Two Heavens as One": "https://cards.scryfall.io/normal/front/a/0/a062a004-984e-4b62-960c-af7288f7a3e9.jpg?1783923833",
+  "Hellkite Charger": "https://cards.scryfall.io/normal/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+  "Burakos, Party Leader": "https://cards.scryfall.io/normal/front/8/9/899e278d-5d4e-461a-9878-2b85de16b38d.jpg?1783922517",
+  "Breath of Fury": "https://cards.scryfall.io/normal/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+  "Phyrexian Altar": "https://cards.scryfall.io/normal/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789"
+ },
+ "oracle": {
+  "Adeline, Resplendent Cathar": "Vigilance\nAdeline's power is equal to the number of creatures you control.\nWhenever you attack, for each opponent, create a 1/1 white Human creature token that's tapped and attacking that player or a planeswalker they control.",
+  "Adriana, Captain of the Guard": "Melee (Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)\nOther creatures you control have melee. (If a creature has multiple instances of melee, each triggers separately.)",
+  "Aggravated Assault": "{3}{R}{R}: Untap all creatures you control. After this main phase, there is an additional combat phase followed by an additional main phase. Activate only as a sorcery.",
+  "Ainok Strike Leader": "Whenever you attack with this creature and/or your commander, for each opponent, create a 1/1 red Goblin creature token that's tapped and attacking that player.\nSacrifice this creature: Creature tokens you control gain indestructible until end of turn.",
+  "Akroma's Will": "Choose one. If you control a commander as you cast this spell, you may choose both instead.\n• Creatures you control gain flying, vigilance, and double strike until end of turn.\n• Creatures you control gain lifelink, indestructible, and protection from each color until end of turn.",
+  "Alesha, Who Laughs at Fate": "First strike\nWhenever Alesha attacks, put a +1/+1 counter on it.\nRaid — At the beginning of your end step, if you attacked this turn, return target creature card with mana value less than or equal to Alesha's power from your graveyard to the battlefield.",
+  "All-Out Assault": "Creatures you control get +1/+1 and have deathtouch.\nWhen this enchantment enters, if it's your main phase, there is an additional combat phase after this phase followed by an additional main phase. When you next attack this turn, untap each creature you control.",
+  "Andúril, Flame of the West": "Equipped creature gets +3/+1.\nWhenever equipped creature attacks, create two tapped 1/1 white Spirit creature tokens with flying. If that creature is legendary, instead create two of those tokens that are tapped and attacking.\nEquip {2}",
+  "Andúril, Narsil Reforged": "Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\nWhenever equipped creature attacks, put a +1/+1 counter on each creature you control. If you have the city's blessing, put two +1/+1 counters on each creature you control instead.\nEquip {3}",
+  "Angelic Exaltation": "Whenever a creature you control attacks alone, it gets +X/+X until end of turn, where X is the number of creatures you control.",
+  "Anguished Unmaking": "Exile target nonland permanent. You lose 3 life.",
+  "Anim Pakal, Thousandth Moon": "Whenever you attack with one or more non-Gnome creatures, put a +1/+1 counter on Anim Pakal, then create X 1/1 colorless Gnome artifact creature tokens that are tapped and attacking, where X is the number of +1/+1 counters on Anim Pakal.",
+  "Ankle Shanker": "Haste\nWhenever this creature attacks, creatures you control gain first strike and deathtouch until end of turn.",
+  "Anointed Procession": "If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.",
+  "Arabella, Abandoned Doll": "Whenever Arabella attacks, it deals X damage to each opponent and you gain X life, where X is the number of creatures you control with power 2 or less.",
+  "Arcane Signet": "{T}: Add one mana of any color in your commander's color identity.",
+  "Arena of Glory": "This land enters tapped unless you control a Mountain.\n{T}: Add {R}.\n{R}, {T}, Exert this land: Add {R}{R}. If that mana is spent on a creature spell, it gains haste until end of turn. (An exerted permanent won't untap during your next untap step.)",
+  "Arid Mesa": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle.",
+  "Audacious Thief": "Whenever this creature attacks, you draw a card and you lose 1 life.",
+  "Aurelia, the Law Above": "Flying, vigilance, haste\nWhenever a player attacks with three or more creatures, you draw a card.\nWhenever a player attacks with five or more creatures, Aurelia deals 3 damage to each of your opponents and you gain 3 life.",
+  "Aurelia, the Warleader": "Flying, vigilance, haste\nWhenever Aurelia attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase.",
+  "Austere Command": "Choose two —\n• Destroy all artifacts.\n• Destroy all enchantments.\n• Destroy all creatures with mana value 3 or less.\n• Destroy all creatures with mana value 4 or greater.",
+  "Banishing Slash": "Destroy up to one target artifact, enchantment, or tapped creature. Then if you control an artifact and an enchantment, create a 2/2 white Samurai creature token with vigilance.",
+  "Bastion of Remembrance": "When this enchantment enters, create a 1/1 white Human Soldier creature token.\nWhenever a creature you control dies, each opponent loses 1 life and you gain 1 life.",
+  "Battle Angels of Tyr": "Flying, myriad\nWhenever this creature deals combat damage to a player, draw a card if that player has more cards in hand than each other player. Then you create a Treasure token if that player controls more lands than each other player. Then you gain 3 life if that player has more life than each other player.",
+  "Battlefield Forge": "{T}: Add {C}.\n{T}: Add {R} or {W}. This land deals 1 damage to you.",
+  "Bitterthorn, Nissa's Animus": "Living weapon (When this Equipment enters, create a 0/0 black Phyrexian Germ creature token, then attach this to it.)\nEquipped creature gets +1/+1.\nWhenever equipped creature attacks, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\nEquip {3}",
+  "Black Market Connections": "At the beginning of your first main phase, choose one or more —\n• Sell Contraband — Create a Treasure token. You lose 1 life.\n• Buy Information — Draw a card. You lose 2 life.\n• Hire a Mercenary — Create a 3/2 colorless Shapeshifter creature token with changeling. You lose 3 life. (It is every creature type.)",
+  "Blade of Selves": "Equipped creature has myriad. (Whenever it attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)\nEquip {4}",
+  "Blasphemous Act": "This spell costs {1} less to cast for each creature on the battlefield.\nBlasphemous Act deals 13 damage to each creature.",
+  "Blazemire Verge": "{T}: Add {B}.\n{T}: Add {R}. Activate only if you control a Swamp or a Mountain.",
+  "Blood Crypt": "({T}: Add {B} or {R}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+  "Bloodfell Caves": "This land enters tapped.\nWhen this land enters, you gain 1 life.\n{T}: Add {B} or {R}.",
+  "Bloodstained Mire": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle.",
+  "Bojuka Bog": "This land enters tapped.\nWhen this land enters, exile target player's graveyard.\n{T}: Add {B}.",
+  "Bone-Cairn Butcher": "Mobilize 2 (Whenever this creature attacks, create two tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)\nAttacking tokens you control have deathtouch.",
+  "Boros Charm": "Choose one —\n• Boros Charm deals 4 damage to target player or planeswalker.\n• Permanents you control gain indestructible until end of turn.\n• Target creature gains double strike until end of turn.",
+  "Boros Garrison": "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {R}{W}.",
+  "Boros Signet": "{1}, {T}: Add {R}{W}.",
+  "Brave the Sands": "Creatures you control have vigilance.\nEach creature you control can block an additional creature each combat.",
+  "Breena, the Demagogue": "Flying\nWhenever a player attacks one of your opponents, if that opponent has more life than another of your opponents, that attacking player draws a card and you put two +1/+1 counters on a creature you control.",
+  "Brutal Hordechief": "Whenever a creature you control attacks, defending player loses 1 life and you gain 1 life.\n{3}{R/W}{R/W}: Creatures your opponents control block this turn if able, and you choose how those creatures block.",
+  "Caesar, Legion's Emperor": "Whenever you attack, you may sacrifice another creature. When you do, choose two —\n• Create two 1/1 red and white Soldier creature tokens with haste that are tapped and attacking.\n• You draw a card and you lose 1 life.\n• Caesar deals damage equal to the number of creature tokens you control to target opponent.",
+  "Campaign of Vengeance": "Whenever a creature you control attacks, defending player loses 1 life and you gain 1 life.",
+  "Captain Lannery Storm": "Haste\nWhenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nWhenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn.",
+  "Cathars' Crusade": "Whenever a creature you control enters, put a +1/+1 counter on each creature you control.",
+  "Cathedral of War": "This land enters tapped.\nExalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)\n{T}: Add {C}.",
+  "Caustic Bronco": "Whenever this creature attacks, reveal the top card of your library and put it into your hand. You lose life equal to that card's mana value if this creature isn't saddled. Otherwise, each opponent loses that much life.\nSaddle 3 (Tap any number of other creatures you control with total power 3 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)",
+  "Caves of Koilos": "{T}: Add {C}.\n{T}: Add {W} or {B}. This land deals 1 damage to you.",
+  "Chaos Warp": "The owner of target permanent shuffles it into their library, then reveals the top card of their library. If it's a permanent card, they put it onto the battlefield.",
+  "Chivalric Alliance": "Whenever you attack with two or more creatures, draw a card.\n{2}, Discard a card: Create a 2/2 white and blue Knight creature token with vigilance.",
+  "Chromatic Lantern": "Lands you control have \"{T}: Add one mana of any color.\"\n{T}: Add one mana of any color.",
+  "Clever Concealment": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nAny number of target nonland permanents you control phase out. (Treat them and anything attached to them as though they don't exist until your next turn.)",
+  "Clifftop Retreat": "This land enters tapped unless you control a Mountain or a Plains.\n{T}: Add {R} or {W}.",
+  "Combat Celebrant": "If this creature hasn't been exerted this turn, you may exert it as it attacks. When you do, untap all other creatures you control and after this phase, there is an additional combat phase. (An exerted creature won't untap during your next untap step.)",
+  "Command Tower": "{T}: Add one mana of any color in your commander's color identity.",
+  "Commander's Sphere": "{T}: Add one mana of any color in your commander's color identity.\nSacrifice this artifact: Draw a card.",
+  "Commissar Severina Raine": "Leading from the Front — Whenever Commissar Severina Raine attacks, each opponent loses X life, where X is the number of other attacking creatures.\nSummary Execution — {2}, Sacrifice another creature: You gain 2 life and draw a card.",
+  "Crackling Doom": "Crackling Doom deals 2 damage to each opponent. Each opponent sacrifices a creature with the greatest power among creatures that player controls.",
+  "Cunning Rhetoric": "Whenever an opponent attacks you and/or one or more planeswalkers you control, exile the top card of that player's library. You may play that card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast it.",
+  "Curse of Opulence": "Enchant player\nWhenever enchanted player is attacked, create a Gold token. Each opponent attacking that player does the same. (A Gold token is an artifact with \"Sacrifice this token: Add one mana of any color.\")",
+  "Dalkovan Encampment": "This land enters tapped unless you control a Swamp or a Mountain.\n{T}: Add {W}.\n{2}{W}, {T}: Whenever you attack this turn, create two 1/1 red Warrior creature tokens that are tapped and attacking. Sacrifice them at the beginning of the next end step.",
+  "Damn": "Destroy target creature. A creature destroyed this way can't be regenerated.\nOverload {2}{W}{W} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
+  "Dark Ritual": "Add {B}{B}{B}.",
+  "Dawn's Truce": "Gift a card (You may promise an opponent a gift as you cast this spell. If you do, they draw a card before its other effects.)\nYou and permanents you control gain hexproof until end of turn. If the gift was promised, permanents you control also gain indestructible until end of turn.",
+  "Deadly Dispute": "As an additional cost to cast this spell, sacrifice an artifact or creature.\nDraw two cards and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+  "Deadly Rollick": "If you control a commander, you may cast this spell without paying its mana cost.\nExile target creature.",
+  "Deflecting Palm": "The next time a source of your choice would deal damage to you this turn, prevent that damage. If damage is prevented this way, Deflecting Palm deals that much damage to that source's controller.",
+  "Deflecting Swat": "If you control a commander, you may cast this spell without paying its mana cost.\nYou may choose new targets for target spell or ability.",
+  "Delina, Wild Mage": "Whenever Delina attacks, choose target creature you control, then roll a d20.\n1—14 | Create a tapped and attacking token that's a copy of that creature, except it's not legendary and it has \"At end of combat, exile this token.\"\n15—20 | Create one of those tokens. You may roll again.",
+  "Den of the Bugbear": "If you control two or more other lands, this land enters tapped.\n{T}: Add {R}.\n{3}{R}: Until end of turn, this land becomes a 3/2 red Goblin creature with \"Whenever this creature attacks, create a 1/1 red Goblin creature token that's tapped and attacking.\" It's still a land.",
+  "Despark": "Exile target permanent with mana value 4 or greater.",
+  "Diamond Pick-Axe": "Indestructible (Effects that say \"destroy\" don't destroy this Equipment.)\nEquipped creature gets +1/+1 and has \"Whenever this creature attacks, create a Treasure token.\" (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nEquip {2}",
+  "Dolmen Gate": "Prevent all combat damage that would be dealt to attacking creatures you control.",
+  "Dragonskull Summit": "This land enters tapped unless you control a Swamp or a Mountain.\n{T}: Add {B} or {R}.",
+  "Drakuseth, Maw of Flames": "Flying\nWhenever Drakuseth attacks, it deals 4 damage to any target and 3 damage to each of up to two other targets.",
+  "Duelist's Heritage": "Whenever one or more creatures attack, you may have target attacking creature gain double strike until end of turn.",
+  "Eiganjo, Seat of the Empire": "{T}: Add {W}.\nChannel — {2}{W}, Discard this card: It deals 4 damage to target attacking or blocking creature. This ability costs {1} less to activate for each legendary creature you control.",
+  "Elspeth, Storm Slayer": "If one or more tokens would be created under your control, twice that many of those tokens are created instead.\n+1: Create a 1/1 white Soldier creature token.\n0: Put a +1/+1 counter on each creature you control. Those creatures gain flying until your next turn.\n−3: Destroy target creature an opponent controls with mana value 3 or greater.",
+  "Emberwilde Captain": "When this creature enters, you become the monarch.\nWhenever an opponent attacks you while you're the monarch, this creature deals damage to that player equal to the number of cards in their hand.",
+  "Endless Foot Assault": "Squad {1}{W} (As an additional cost to cast this spell, you may pay {1}{W} any number of times. When this enchantment enters, create that many tokens that are copies of it.)\nWhenever you attack, for each opponent, create a 1/1 black Ninja creature token that's tapped and attacking that player.",
+  "Enduring Courage": "Whenever another creature you control enters, it gets +2/+0 and gains haste until end of turn.\nWhen Enduring Courage dies, if it was a creature, return it to the battlefield under its owner's control. It's an enchantment. (It's not a creature.)",
+  "Esper Sentinel": "Whenever an opponent casts their first noncreature spell each turn, draw a card unless that player pays {X}, where X is this creature's power.",
+  "Etali, Primal Storm": "Whenever Etali attacks, exile the top card of each player's library, then you may cast any number of spells from among those cards without paying their mana costs.",
+  "Evolving Wilds": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+  "Exotic Orchard": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+  "Explorer's Scope": "Whenever equipped creature attacks, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki": "",
+  "Fabled Passage": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control four or more lands, untap that land.",
+  "Faithless Looting": "Draw two cards, then discard two cards.\nFlashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+  "Fell the Profane // Fell Mire": "",
+  "Fellwar Stone": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+  "Fervent Charge": "Whenever a creature you control attacks, it gets +2/+2 until end of turn.",
+  "Fervor": "Creatures you control have haste. (They can attack and {T} as soon as they come under your control.)",
+  "Fetid Heath": "{T}: Add {C}.\n{W/B}, {T}: Add {W}{W}, {W}{B}, or {B}{B}.",
+  "Fire Nation Palace": "This land enters tapped unless you control a basic land.\n{T}: Add {R}.\n{1}{R}, {T}: Target creature you control gains firebending 4 until end of turn. (Whenever it attacks, add {R}{R}{R}{R}. This mana lasts until end of combat.)",
+  "Firebender Ascension": "When this enchantment enters, create a 2/2 red Soldier creature token with firebending 1.\nWhenever a creature you control attacking causes a triggered ability of that creature to trigger, put a quest counter on this enchantment. Then if it has four or more quest counters on it, you may copy that ability. You may choose new targets for the copy.",
+  "Firemane Commando": "Flying\nWhenever you attack with two or more creatures, draw a card.\nWhenever another player attacks with two or more creatures, they draw a card if none of those creatures attacked you.",
+  "Flare of Fortitude": "You may sacrifice a nontoken white creature rather than pay this spell's mana cost.\nUntil end of turn, your life total can't change, and permanents you control gain hexproof and indestructible.",
+  "Flawless Maneuver": "If you control a commander, you may cast this spell without paying its mana cost.\nCreatures you control gain indestructible until end of turn.",
+  "Foreboding Ruins": "As this land enters, you may reveal a Swamp or Mountain card from your hand. If you don't, this land enters tapped.\n{T}: Add {B} or {R}.",
+  "Fracture": "Destroy target artifact, enchantment, or planeswalker.",
+  "Full Throttle": "After this main phase, there are two additional combat phases.\nAt the beginning of each combat this turn, untap all creatures that attacked this turn.",
+  "Furycalm Snarl": "As this land enters, you may reveal a Mountain or Plains card from your hand. If you don't, this land enters tapped.\n{T}: Add {R} or {W}.",
+  "Generous Gift": "Destroy target permanent. Its controller creates a 3/3 green Elephant creature token.",
+  "Genji Glove": "Equipped creature has double strike.\nWhenever equipped creature attacks, if it's the first combat phase of the turn, untap it. After this phase, there is an additional combat phase.\nEquip {3}",
+  "Gleam of Battle": "Whenever a creature you control attacks, put a +1/+1 counter on it.",
+  "Glimmer Lens": "For Mirrodin! (When this Equipment enters, create a 2/2 red Rebel creature token, then attach this to it.)\nWhenever equipped creature and at least one other creature attack, draw a card.\nEquip {1}{W}",
+  "Godless Shrine": "({T}: Add {W} or {B}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+  "Godo, Bandit Warlord": "When Godo enters, you may search your library for an Equipment card, put it onto the battlefield, then shuffle.\nWhenever Godo attacks for the first time each turn, untap it and all Samurai you control. After this phase, there is an additional combat phase.",
+  "Goldspan Dragon": "Flying, haste\nWhenever this creature attacks or becomes the target of a spell, create a Treasure token.\nTreasures you control have \"{T}, Sacrifice this artifact: Add two mana of any one color.\"",
+  "Goro-Goro, Disciple of Ryusei": "{R}: Creatures you control gain haste until end of turn.\n{3}{R}{R}: Create a 5/5 red Dragon Spirit creature token with flying. Activate only if you control an attacking modified creature. (Equipment, Auras you control, and counters are modifications.)",
+  "Great Train Heist": "Spree (Choose one or more additional costs.)\n+ {2}{R} — Untap all creatures you control. If it's your combat phase, there is an additional combat phase after this phase.\n+ {2} — Creatures you control get +1/+0 and gain first strike until end of turn.\n+ {R} — Choose target opponent. Whenever a creature you control deals combat damage to that player this turn, create a tapped Treasure token.",
+  "Greatsword of Tyr": "Whenever equipped creature attacks, put a +1/+1 counter on it and tap up to one target creature defending player controls.\nEquip {W} ({W}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Hammers of Moradin": "Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)\nWhenever this creature attacks, for each opponent, tap up to one target creature that player controls.",
+  "Hanweir Battlements": "{T}: Add {C}.\n{R}, {T}: Target creature gains haste until end of turn.\n{3}{R}{R}, {T}: If you both own and control this land and a creature named Hanweir Garrison, exile them, then meld them into Hanweir, the Writhing Township.",
+  "Hanweir Garrison": "Whenever this creature attacks, create two 1/1 red Human creature tokens that are tapped and attacking.\n(Melds with Hanweir Battlements.)",
+  "Haunted Ridge": "This land enters tapped unless you control two or more other lands.\n{T}: Add {B} or {R}.",
+  "Hellrider": "Haste\nWhenever a creature you control attacks, this creature deals 1 damage to the player or planeswalker it's attacking.",
+  "Helm of the Host": "At the beginning of combat on your turn, create a token that's a copy of equipped creature, except the token isn't legendary. That token gains haste.\nEquip {5}",
+  "Hero of Bladehold": "Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)\nWhenever this creature attacks, create two 1/1 white Soldier creature tokens that are tapped and attacking.",
+  "Hoarding Ogre": "Whenever this creature attacks, roll a d20.\n1—9 | Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\n10—19 | Create two Treasure tokens.\n20 | Create three Treasure tokens.",
+  "Horn of the Mark": "Whenever two or more creatures you control attack a player, look at the top five cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+  "Impact Tremors": "Whenever a creature you control enters, this enchantment deals 1 damage to each opponent.",
+  "Inevitable Defeat": "This spell can't be countered.\nExile target nonland permanent. Its controller loses 3 life and you gain 3 life.",
+  "Infantry Shield": "Equipped creature has menace and mobilize X, where X is its power. (Whenever it attacks, create X tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)\nEquip {2}",
+  "Inkshield": "Prevent all combat damage that would be dealt to you this turn. For each 1 damage prevented this way, create a 2/1 white and black Inkling creature token with flying.",
+  "Inquisitorial Rosette": "Inquisition Agents — Whenever equipped creature attacks, create a 2/2 white Astartes Warrior creature token with vigilance that's attacking. Then attacking creatures gain menace until end of turn.\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Iroas, God of Victory": "Indestructible\nAs long as your devotion to red and white is less than seven, Iroas isn't a creature.\nCreatures you control have menace.\nPrevent all damage that would be dealt to attacking creatures you control.",
+  "Isolated Chapel": "This land enters tapped unless you control a Plains or a Swamp.\n{T}: Add {W} or {B}.",
+  "Karazikar, the Eye Tyrant": "Whenever you attack a player, tap target creature that player controls and goad it. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)\nWhenever an opponent attacks another one of your opponents, you and the attacking player each draw a card and lose 1 life.",
+  "Karlach, Fury of Avernus": "Whenever you attack, if it's the first combat phase of the turn, untap all attacking creatures. They gain first strike until end of turn. After this phase, there is an additional combat phase.\nChoose a Background (You can have a Background as a second commander.)",
+  "Kazuul, Tyrant of the Cliffs": "Whenever a creature an opponent controls attacks, if you're the defending player, create a 3/3 red Ogre creature token unless that creature's controller pays {3}.",
+  "Kellogg, Dangerous Mind": "First strike, haste\nWhenever Kellogg attacks, create a Treasure token.\nSacrifice five Treasures: Gain control of target creature for as long as you control Kellogg. Activate only as a sorcery.",
+  "Kinscaer Sentry": "First strike, lifelink\nWhenever this creature attacks, you may put a creature card with mana value X or less from your hand onto the battlefield tapped and attacking, where X is the number of attacking creatures you control.",
+  "Krenko, Tin Street Kingpin": "Whenever Krenko attacks, put a +1/+1 counter on it, then create a number of 1/1 red Goblin creature tokens equal to Krenko's power.",
+  "Laelia, the Blade Reforged": "Haste\nWhenever Laelia attacks, exile the top card of your library. You may play that card this turn.\nWhenever one or more cards are put into exile from your library and/or your graveyard, put a +1/+1 counter on Laelia.",
+  "Land Tax": "At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for up to three basic land cards, reveal them, put them into your hand, then shuffle.",
+  "Legion Leadership // Legion Stronghold": "",
+  "Legion Loyalty": "Creatures you control have myriad. (Whenever a creature with myriad attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)",
+  "Leonin Warleader": "Whenever this creature attacks, create two 1/1 white Cat creature tokens with lifelink that are tapped and attacking.",
+  "Lightning Greaves": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)\nEquip {0}",
+  "Long-Range Sensor": "Whenever you attack a player, put a charge counter on this artifact.\n{1}, Remove two charge counters from this artifact: Discover 4. Activate only as a sorcery. (Exile cards from the top of your library until you exile a nonland card with mana value 4 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)",
+  "Luxury Suite": "This land enters tapped unless you have two or more opponents.\n{T}: Add {B} or {R}.",
+  "Malakir Rebirth // Malakir Mire": "",
+  "Marchesa's Decree": "When this enchantment enters, you become the monarch.\nWhenever a creature attacks you or a planeswalker you control, that creature's controller loses 1 life.",
+  "Mardu Ascendancy": "Whenever a nontoken creature you control attacks, create a 1/1 red Goblin creature token that's tapped and attacking.\nSacrifice this enchantment: Creatures you control get +0/+3 until end of turn.",
+  "Mardu Siegebreaker": "Deathtouch, haste\nWhen this creature enters, exile up to one other target creature you control until this creature leaves the battlefield.\nWhenever this creature attacks, for each opponent, create a tapped token that's a copy of the exiled card attacking that opponent. At the beginning of your next end step, sacrifice those tokens.",
+  "Marsh Flats": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle.",
+  "Minas Tirith": "Minas Tirith enters tapped unless you control a legendary creature.\n{T}: Add {W}.\n{1}{W}, {T}: Draw a card. Activate only if you attacked with two or more creatures this turn.",
+  "Mind Stone": "{T}: Add {C}.\n{1}, {T}, Sacrifice this artifact: Draw a card.",
+  "Mishra, Claimed by Gix": "Whenever you attack, each opponent loses X life and you gain X life, where X is the number of attacking creatures. If Mishra, Claimed by Gix and a creature named Phyrexian Dragon Engine are attacking, and you both own and control them, exile them, then meld them into Mishra, Lost to Phyrexia. It enters tapped and attacking.",
+  "Mortify": "Destroy target creature or enchantment.",
+  "Mountain": "({T}: Add {R}.)",
+  "Myrel, Shield of Argive": "During your turn, your opponents can't cast spells or activate abilities of artifacts, creatures, or enchantments.\nWhenever Myrel attacks, create X 1/1 colorless Soldier artifact creature tokens, where X is the number of Soldiers you control.",
+  "Myriad Landscape": "This land enters tapped.\n{T}: Add {C}.\n{2}, {T}, Sacrifice this land: Search your library for up to two basic land cards that share a land type, put them onto the battlefield tapped, then shuffle.",
+  "Needleverge Pathway // Pillarverge Pathway": "",
+  "Night's Whisper": "You draw two cards and lose 2 life.",
+  "Nomad Outpost": "This land enters tapped.\n{T}: Add {R}, {W}, or {B}.",
+  "Orzhov Basilica": "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {W}{B}.",
+  "Orzhov Signet": "{1}, {T}: Add {W}{B}.",
+  "Otharri, Suns' Glory": "Flying, lifelink, haste\nWhenever Otharri attacks, you get an experience counter. Then create a 2/2 red Rebel creature token that's tapped and attacking for each experience counter you have.\n{2}{R}{W}, Tap an untapped Rebel you control: Return this card from your graveyard to the battlefield tapped.",
+  "Painful Truths": "Converge — You draw X cards and lose X life, where X is the number of colors of mana spent to cast this spell.",
+  "Path of Ancestry": "This land enters tapped.\n{T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+  "Path to Exile": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+  "Phyrexian Arena": "At the beginning of your upkeep, you draw a card and you lose 1 life.",
+  "Pip-Boy 3000": "Whenever equipped creature attacks, choose one —\n• Sort Inventory — Draw a card, then discard a card.\n• Pick a Perk — Put a +1/+1 counter on that creature.\n• Check Map — Untap up to two target lands.\nEquip {2}",
+  "Plains": "({T}: Add {W}.)",
+  "Rabble Rousing": "Hideaway 5 (When this enchantment enters, look at the top five cards of your library, exile one face down, then put the rest on the bottom in a random order.)\nWhenever you attack with one or more creatures, create that many 1/1 green and white Citizen creature tokens. Then if you control ten or more creatures, you may play the exiled card without paying its mana cost.",
+  "Raiyuu, Storm's Edge": "First strike\nWhenever a Samurai or Warrior you control attacks alone, untap it. If it's the first combat phase of the turn, there is an additional combat phase after this phase.",
+  "Rakdos Carnarium": "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {B}{R}.",
+  "Rakdos Charm": "Choose one —\n• Exile target player's graveyard.\n• Destroy target artifact.\n• Each creature deals 1 damage to its controller.",
+  "Rakdos Signet": "{1}, {T}: Add {B}{R}.",
+  "Read the Bones": "Scry 2, then draw two cards. You lose 2 life. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)",
+  "Reconnaissance": "{0}: Remove target attacking creature you control from combat and untap it. (If you activate during end of combat, the creature will untap after it deals combat damage.)",
+  "Redoubled Stormsinger": "First strike\nWhenever this creature attacks, for each creature token you control that entered this turn, create a tapped and attacking token that's a copy of that token. At the beginning of the next end step, sacrifice those tokens.",
+  "Relentless Assault": "Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.",
+  "Reliquary Tower": "You have no maximum hand size.\n{T}: Add {C}.",
+  "Restless Bivouac": "This land enters tapped.\n{T}: Add {R} or {W}.\n{1}{R}{W}: This land becomes a 2/2 red and white Ox creature until end of turn. It's still a land.\nWhenever this land attacks, put a +1/+1 counter on target creature you control.",
+  "Restless Fortress": "This land enters tapped.\n{T}: Add {W} or {B}.\n{2}{W}{B}: This land becomes a 1/4 white and black Nightmare creature until end of turn. It's still a land.\nWhenever this land attacks, defending player loses 2 life and you gain 2 life.",
+  "Restless Vents": "This land enters tapped.\n{T}: Add {B} or {R}.\n{1}{B}{R}: Until end of turn, this land becomes a 2/3 black and red Insect creature with menace. It's still a land.\nWhenever this land attacks, you may discard a card. If you do, draw a card.",
+  "Revenge of Ravens": "Whenever a creature attacks you or a planeswalker you control, that creature's controller loses 1 life and you gain 1 life.",
+  "Rising of the Day": "Creatures you control have haste.\nLegendary creatures you control get +1/+0.",
+  "Rogue's Passage": "{T}: Add {C}.\n{4}, {T}: Target creature can't be blocked this turn.",
+  "Rugged Prairie": "{T}: Add {C}.\n{R/W}, {T}: Add {R}{R}, {R}{W}, or {W}{W}.",
+  "Ruinous Ultimatum": "Destroy all nonland permanents your opponents control.",
+  "Sacred Foundry": "({T}: Add {R} or {W}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+  "Savai Triome": "({T}: Add {R}, {W}, or {B}.)\nThis land enters tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+  "Scoured Barrens": "This land enters tapped.\nWhen this land enters, you gain 1 life.\n{T}: Add {W} or {B}.",
+  "Shadowblood Ridge": "{1}, {T}: Add {B}{R}.",
+  "Shattered Landscape": "{T}: Add {C}.\n{T}, Sacrifice this land: Search your library for a basic Mountain, Plains, or Swamp card, put it onto the battlefield tapped, then shuffle.\nCycling {R}{W}{B} ({R}{W}{B}, Discard this card: Draw a card.)",
+  "Shattered Sanctum": "This land enters tapped unless you control two or more other lands.\n{T}: Add {W} or {B}.",
+  "Shineshadow Snarl": "As this land enters, you may reveal a Plains or Swamp card from your hand. If you don't, this land enters tapped.\n{T}: Add {W} or {B}.",
+  "Shinka, the Bloodsoaked Keep": "{T}: Add {R}.\n{R}, {T}: Target legendary creature gains first strike until end of turn.",
+  "Shiny Impetus": "Enchant creature\nEnchanted creature gets +2/+2 and is goaded. (It attacks each combat if able and attacks a player other than you if able.)\nWhenever enchanted creature attacks, you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+  "Shizo, Death's Storehouse": "{T}: Add {B}.\n{B}, {T}: Target legendary creature gains fear until end of turn. (It can't be blocked except by artifact creatures and/or black creatures.)",
+  "Sigil of Valor": "Whenever equipped creature attacks alone, it gets +1/+1 until end of turn for each other creature you control.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Sign in Blood": "Target player draws two cards and loses 2 life.",
+  "Skullclamp": "Equipped creature gets +1/-1.\nWhenever equipped creature dies, draw two cards.\nEquip {1}",
+  "Skyhunter Strike Force": "Flying\nMelee (Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)\nLieutenant — As long as you control your commander, other creatures you control have melee.",
+  "Skyknight Vanguard": "Flying\nWhenever this creature attacks, create a 1/1 white Soldier creature token that's tapped and attacking.",
+  "Slayers' Stronghold": "{T}: Add {C}.\n{R}{W}, {T}: Target creature gets +2/+0 and gains vigilance and haste until end of turn.",
+  "Smoldering Marsh": "({T}: Add {B} or {R}.)\nThis land enters tapped unless you control two or more basic lands.",
+  "Sokenzan, Crucible of Defiance": "{T}: Add {R}.\nChannel — {3}{R}, Discard this card: Create two 1/1 colorless Spirit creature tokens. They gain haste until end of turn. This ability costs {1} less to activate for each legendary creature you control.",
+  "Sol Ring": "{T}: Add {C}{C}.",
+  "Spectator Seating": "This land enters tapped unless you have two or more opponents.\n{T}: Add {R} or {W}.",
+  "Star Athlete": "Menace\nWhenever this creature attacks, choose up to one target nonland permanent. Its controller may sacrifice it. If they don't, this creature deals 5 damage to that player.\nBlitz {3}{R} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)",
+  "Stroke of Midnight": "Destroy target nonland permanent. Its controller creates a 1/1 white Human creature token.",
+  "Sulfurous Springs": "{T}: Add {C}.\n{T}: Add {B} or {R}. This land deals 1 damage to you.",
+  "Sun Titan": "Vigilance\nWhenever this creature enters or attacks, you may return target permanent card with mana value 3 or less from your graveyard to the battlefield.",
+  "Sunbillow Verge": "{T}: Add {W}.\n{T}: Add {R}. Activate only if you control a Mountain or a Plains.",
+  "Sundering Eruption // Volcanic Fissure": "",
+  "Sundown Pass": "This land enters tapped unless you control two or more other lands.\n{T}: Add {R} or {W}.",
+  "Swamp": "({T}: Add {B}.)",
+  "Swiftfoot Boots": "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control.)\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Sword of the Animist": "Equipped creature gets +1/+1.\nWhenever equipped creature attacks, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\nEquip {2}",
+  "Swords to Plowshares": "Exile target creature. Its controller gains life equal to its power.",
+  "Takenuma, Abandoned Mire": "{T}: Add {B}.\nChannel — {3}{B}, Discard this card: Mill three cards, then return a creature or planeswalker card from your graveyard to your hand. This ability costs {1} less to activate for each legendary creature you control.",
+  "Talisman of Conviction": "{T}: Add {C}.\n{T}: Add {R} or {W}. This artifact deals 1 damage to you.",
+  "Talisman of Hierarchy": "{T}: Add {C}.\n{T}: Add {W} or {B}. This artifact deals 1 damage to you.",
+  "Talisman of Indulgence": "{T}: Add {C}.\n{T}: Add {B} or {R}. This artifact deals 1 damage to you.",
+  "Taunt from the Rampart": "Goad all creatures your opponents control. Until your next turn, those creatures can't block. (Until your next turn, those creatures attack each combat if able and attack a player other than you if able.)",
+  "Tectonic Giant": "Whenever this creature attacks or becomes the target of a spell an opponent controls, choose one —\n• This creature deals 3 damage to each opponent.\n• Exile the top two cards of your library. Choose one of them. Until the end of your next turn, you may play that card.",
+  "Tempered in Solitude": "Whenever a creature you control attacks alone, exile the top card of your library. You may play that card this turn.",
+  "Temple of Malice": "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {B} or {R}.",
+  "Temple of Silence": "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {W} or {B}.",
+  "Temple of Triumph": "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {R} or {W}.",
+  "Terminate": "Destroy target creature. It can't be regenerated.",
+  "Terramorphic Expanse": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+  "The Eternal Wanderer": "No more than one creature can attack The Eternal Wanderer each combat.\n+1: Exile up to one target artifact or creature. Return that card to the battlefield under its owner's control at the beginning of that player's next end step.\n0: Create a 2/2 white Samurai creature token with double strike.\n−4: For each player, choose a creature that player controls. Each player sacrifices all creatures they control not chosen this way.",
+  "The Fire Crystal": "Red spells you cast cost {1} less to cast.\nCreatures you control have haste.\n{4}{R}{R}, {T}: Create a token that's a copy of target creature you control. Sacrifice it at the beginning of the next end step.",
+  "The Regalia": "Haste\nWhenever The Regalia attacks, reveal cards from the top of your library until you reveal a land card. Put that card onto the battlefield tapped and the rest on the bottom of your library in a random order.\nCrew 1",
+  "Thrill of Possibility": "As an additional cost to cast this spell, discard a card.\nDraw two cards.",
+  "Thundering Raiju": "Haste\nWhenever this creature attacks, put a +1/+1 counter on target creature you control. Then this creature deals X damage to each opponent, where X is the number of modified creatures you control other than this creature. (Equipment, Auras you control, and counters are modifications.)",
+  "Tocasia's Welcome": "Whenever one or more creatures you control with mana value 3 or less enter, draw a card. This ability triggers only once each turn.",
+  "Tori D'Avenant, Fury Rider": "Vigilance, trample\nWhenever Tori D'Avenant attacks, all other attacking creatures you control get +1/+1 until end of turn. Other red attacking creatures you control gain trample until end of turn. Untap each other white attacking creature you control.",
+  "Trouble in Pairs": "If an opponent would begin an extra turn, that player skips that turn instead.\nWhenever an opponent attacks you with two or more creatures, draws their second card each turn, or casts their second spell each turn, you draw a card.",
+  "Two-Handed Axe // Sweeping Cleave": "",
+  "Unbreakable Formation": "Creatures you control gain indestructible until end of turn.\nAddendum — If you cast this spell during your main phase, put a +1/+1 counter on each of those creatures and they gain vigilance until end of turn.",
+  "Unquenchable Fury": "Enchant creature\nEnchanted creature has \"Whenever this creature attacks, it deals X damage to defending player, where X is the number of cards in their hand.\"\nWhen this Aura is put into your graveyard from the battlefield, return it to your hand.",
+  "Urborg, Tomb of Yawgmoth": "Each land is a Swamp in addition to its other land types.",
+  "Vandalblast": "Destroy target artifact you don't control.\nOverload {4}{R} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
+  "Vault of Champions": "This land enters tapped unless you have two or more opponents.\n{T}: Add {W} or {B}.",
+  "Vault of the Archangel": "{T}: Add {C}.\n{2}{W}{B}, {T}: Creatures you control gain deathtouch and lifelink until end of turn.",
+  "Vindicate": "Destroy target permanent.",
+  "Voice of Victory": "Mobilize 2 (Whenever this creature attacks, create two tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)\nYour opponents can't cast spells during your turn.",
+  "Warleader's Call": "Creatures you control get +1/+1.\nWhenever a creature you control enters, this enchantment deals 1 damage to each opponent.",
+  "Wayfarer's Bauble": "{2}, {T}, Sacrifice this artifact: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+  "Will of the Mardu": "Choose one. If you control a commander as you cast this spell, you may choose both instead.\n• Create a number of 1/1 red Warrior creature tokens equal to the number of creatures target player controls.\n• Will of the Mardu deals damage to target creature equal to the number of creatures you control.",
+  "Wind-Scarred Crag": "This land enters tapped.\nWhen this land enters, you gain 1 life.\n{T}: Add {R} or {W}.",
+  "Windbrisk Heights": "Hideaway 4 (When this land enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)\nThis land enters tapped.\n{T}: Add {W}.\n{W}, {T}: You may play the exiled card without paying its mana cost if you attacked with three or more creatures this turn.",
+  "Windcrag Siege": "As this enchantment enters, choose Mardu or Jeskai.\n• Mardu — If a creature attacking causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.\n• Jeskai — At the beginning of your upkeep, create a 1/1 red Goblin creature token. It gains lifelink and haste until end of turn.",
+  "Winota, Joiner of Forces": "Whenever a non-Human creature you control attacks, look at the top six cards of your library. You may put a Human creature card from among them onto the battlefield tapped and attacking. It gains indestructible until end of turn. Put the rest of the cards on the bottom of your library in a random order.",
+  "Within Range": "When this enchantment enters, create two 1/1 red Warrior creature tokens.\nWhenever you attack, each opponent loses life equal to the number of creatures attacking them.",
+  "You Are Already Dead": "Destroy target creature that was dealt damage this turn.\nDraw a card.",
+  "Zurgo Stormrender": "Mobilize 1 (Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)\nWhenever a creature token you control leaves the battlefield, draw a card if it was attacking. Otherwise, each opponent loses 1 life.",
+  "Zurgo, Thunder's Decree": "Mobilize 2 (Whenever this creature attacks, create two tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)\nDuring your end step, Warrior tokens you control have \"This token can't be sacrificed.\"",
+  "Dollmaker's Shop // Porcelain Gallery": "",
+  "Fable of the Mirror-Breaker": "",
+  "Fell the Profane": "",
+  "Legion Leadership": "",
+  "Malakir Rebirth": "",
+  "Needleverge Pathway": "",
+  "Response // Resurgence": "",
+  "Sundering Eruption": "",
+  "Two-Handed Axe": "",
+  "Wear // Tear": "",
+  "Isshin, Two Heavens as One": "If a creature attacking causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+  "Hellkite Charger": "Flying, haste\nWhenever this creature attacks, you may pay {5}{R}{R}. If you do, untap all attacking creatures and after this phase, there is an additional combat phase.",
+  "Burakos, Party Leader": "Burakos is also a Cleric, Rogue, Warrior, and Wizard.\nWhenever Burakos attacks, defending player loses X life and you create X Treasure tokens, where X is the number of creatures in your party.\nChoose a Background (You can have a Background as a second commander.)",
+  "Breath of Fury": "Enchant creature you control\nWhen enchanted creature deals combat damage to a player, sacrifice it and attach this Aura to a creature you control. If you do, untap all creatures you control and after this phase, there is an additional combat phase.",
+  "Phyrexian Altar": "Sacrifice a creature: Add one mana of any color."
+ },
+ "synergy": {
+  "Adeline, Resplendent Cathar": {
+   "synergy": 0.4536830836511162
+  },
+  "Krenko, Tin Street Kingpin": {
+   "synergy": 0.5372950588246392
+  },
+  "Windcrag Siege": {
+   "synergy": 0.4523521157497459
+  },
+  "Sword of the Animist": {
+   "synergy": 0.4728234656403866
+  },
+  "Anim Pakal, Thousandth Moon": {
+   "synergy": 0.423230726580034
+  },
+  "Fervent Charge": {
+   "synergy": 0.4243599291518074
+  },
+  "Swords to Plowshares": {
+   "synergy": 0.05676670594379696
+  },
+  "Path to Exile": {
+   "synergy": 0.07688683186061929
+  },
+  "Ruinous Ultimatum": {
+   "synergy": 0.1189366761852676
+  },
+  "Lightning Greaves": {
+   "synergy": 0.16255462219297756
+  },
+  "Aurelia, the Warleader": {
+   "synergy": 0.3054144836313677
+  },
+  "Aurelia, the Law Above": {
+   "synergy": 0.37614557410824095
+  },
+  "Caesar, Legion's Emperor": {
+   "synergy": 0.322720399748921
+  },
+  "Brutal Hordechief": {
+   "synergy": 0.34517990304207274
+  },
+  "Otharri, Suns' Glory": {
+   "synergy": 0.32976223266574733
+  },
+  "Iroas, God of Victory": {
+   "synergy": 0.30626832558497646
+  },
+  "Commissar Severina Raine": {
+   "synergy": 0.3006377223870427
+  },
+  "Sun Titan": {
+   "synergy": 0.250910253060391
+  },
+  "Anguished Unmaking": {
+   "synergy": 0.020535247814293445
+  },
+  "Akroma's Will": {
+   "synergy": 0.12870450148578655
+  },
+  "Flawless Maneuver": {
+   "synergy": 0.11752641380090717
+  },
+  "Despark": {
+   "synergy": 0.12416607138107813
+  },
+  "Chaos Warp": {
+   "synergy": 0.06250104539821058
+  },
+  "Blasphemous Act": {
+   "synergy": 0.04303178058599336
+  },
+  "Damn": {
+   "synergy": 0.04218699620267699
+  },
+  "Vandalblast": {
+   "synergy": 0.07118902839129035
+  },
+  "Night's Whisper": {
+   "synergy": 0.0017761812366535734
+  },
+  "Painful Truths": {
+   "synergy": 0.034375044900262566
+  },
+  "Skullclamp": {
+   "synergy": 0.019139945269391334
+  },
+  "Dolmen Gate": {
+   "synergy": 0.2554559283478935
+  },
+  "Diamond Pick-Axe": {
+   "synergy": 0.22190070928985722
+  },
+  "Infantry Shield": {
+   "synergy": 0.10119669491382813
+  },
+  "Helm of the Host": {
+   "synergy": 0.10436019598765359
+  },
+  "Reconnaissance": {
+   "synergy": 0.30226510005929347
+  },
+  "Rising of the Day": {
+   "synergy": 0.23736983836953607
+  },
+  "Curse of Opulence": {
+   "synergy": 0.20749374628051137
+  },
+  "Within Range": {
+   "synergy": 0.15018621382805097
+  },
+  "Chivalric Alliance": {
+   "synergy": 0.1908008101852509
+  },
+  "Elspeth, Storm Slayer": {
+   "synergy": 0.015115308531240282
+  },
+  "The Eternal Wanderer": {
+   "synergy": 0.03503472774642541
+  },
+  "Rogue's Passage": {
+   "synergy": 0.057946255766831406
+  },
+  "Bojuka Bog": {
+   "synergy": -0.047580137333553485
+  },
+  "Hanweir Battlements": {
+   "synergy": 0.2267596328286351
+  },
+  "Vault of the Archangel": {
+   "synergy": 0.022321106763467657
+  },
+  "Minas Tirith": {
+   "synergy": 0.11869130730479942
+  },
+  "Plains": {
+   "synergy": 0.037232839343464996
+  },
+  "Mountain": {
+   "synergy": 0.04776788976037305
+  },
+  "Swamp": {
+   "synergy": 0.018566056043475943
+  },
+  "Command Tower": {
+   "synergy": 0.0197617382988442
+  },
+  "Sol Ring": {
+   "synergy": -0.02515966806319503
+  },
+  "Arcane Signet": {
+   "synergy": -0.006959629133984846
+  }
+ },
+ "combos": [
+  {
+   "uses": [
+    {
+     "card": {
+      "id": 3398,
+      "name": "Hellkite Charger",
+      "oracleId": "d4f28a4b-d821-4132-bdec-4c528318f8e2",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Dragon",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.png?1783915650",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 7121,
+      "name": "Fire Nation Palace",
+      "oracleId": "f2000fb8-39c6-4ad6-a020-5245faaa1eba",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Land",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.png?1783904912",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 3975,
+      "name": "Isshin, Two Heavens as One",
+      "oracleId": "65114758-9a75-43a7-96e8-0aa68faa6b24",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Human Samurai",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/0/a062a004-984e-4b62-960c-af7288f7a3e9.png?1783923833",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/0/a062a004-984e-4b62-960c-af7288f7a3e9.jpg?1783923833",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/0/a062a004-984e-4b62-960c-af7288f7a3e9.jpg?1783923833",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/0/a062a004-984e-4b62-960c-af7288f7a3e9.jpg?1783923833",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/0/a062a004-984e-4b62-960c-af7288f7a3e9.jpg?1783923833",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "identity": "RWB",
+   "popularity": 1683,
+   "produces": [
+    {
+     "name": "Infinite combat phases"
+    },
+    {
+     "name": "Infinite red mana"
+    }
+   ],
+   "notablePrerequisites": "An opponent cannot block and kill Hellkite Charger",
+   "easyPrerequisites": "",
+   "description": "Activate Fire Nation Palace's second ability by paying {1}{R} and tapping it, giving Hellkite Charger firebending 4 until end of turn.\nDeclare Hellkite Charger as an attacker, triggering it and its firebending ability twice.\nResolve both Hellkite Charger firebending triggers, adding eight {R}.\nResolve the first Hellkite Charger trigger, choosing not to pay.\nResolve the second Hellkite Charger trigger, causing you to pay {5}{R}{R} to untap all attacking creatures and to get an additional combat phase after this one.\nRepeat from step 2."
+  },
+  {
+   "uses": [
+    {
+     "card": {
+      "id": 3975,
+      "name": "Isshin, Two Heavens as One",
+      "oracleId": "65114758-9a75-43a7-96e8-0aa68faa6b24",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Human Samurai",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/0/a062a004-984e-4b62-960c-af7288f7a3e9.png?1783923833",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/0/a062a004-984e-4b62-960c-af7288f7a3e9.jpg?1783923833",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/0/a062a004-984e-4b62-960c-af7288f7a3e9.jpg?1783923833",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/0/a062a004-984e-4b62-960c-af7288f7a3e9.jpg?1783923833",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/0/a062a004-984e-4b62-960c-af7288f7a3e9.jpg?1783923833",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 4076,
+      "name": "Burakos, Party Leader",
+      "oracleId": "883ad210-917b-40e6-8682-31d6eb3ed12a",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Orc",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/8/9/899e278d-5d4e-461a-9878-2b85de16b38d.png?1783922517",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/8/9/899e278d-5d4e-461a-9878-2b85de16b38d.jpg?1783922517",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/8/9/899e278d-5d4e-461a-9878-2b85de16b38d.jpg?1783922517",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/8/9/899e278d-5d4e-461a-9878-2b85de16b38d.jpg?1783922517",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/8/9/899e278d-5d4e-461a-9878-2b85de16b38d.jpg?1783922517",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 3750,
+      "name": "Aggravated Assault",
+      "oracleId": "20129459-a386-41eb-899d-1aede3427300",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Enchantment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.png?1783945060",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "identity": "RWB",
+   "popularity": 122,
+   "produces": [
+    {
+     "name": "Infinite colored mana"
+    },
+    {
+     "name": "Infinite combat phases"
+    },
+    {
+     "name": "Infinite lifeloss"
+    },
+    {
+     "name": "Infinite mana creatures you control can produce"
+    },
+    {
+     "name": "Infinite Treasure tokens"
+    },
+    {
+     "name": "Infinite untap of creatures you control"
+    }
+   ],
+   "notablePrerequisites": "You have at least three creatures in your party.\nBurakos does not have summoning sickness.\nAn opponent is unable to block and kill Burakos.",
+   "easyPrerequisites": "",
+   "description": "Declare Burakos as an attacker.\nBurakos triggers twice, creating at least six Treasure artifact tokens and causing the defending opponent to lose 6 life.\nMove to your postcombat main phase.\nActivate five Treasure tokens by tapping and sacrificing them, adding {3}{R}{R}.\nActivate Aggravated Assault by paying {3}{R}{R}, untapping all creatures you control and causing you to get an additional combat phase and main phase after this one.\nRepeat."
+  },
+  {
+   "uses": [
+    {
+     "card": {
+      "id": 4364,
+      "name": "Aurelia, the Warleader",
+      "oracleId": "0f5a3a09-2f07-4774-9e0f-e99d9a444166",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Angel",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.png?1783908915",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 1692,
+      "name": "Helm of the Host",
+      "oracleId": "83b43aba-bf9c-4da2-967d-9daa632e97d2",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Artifact — Equipment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.png?1783903218",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "identity": "RW",
+   "popularity": 30431,
+   "produces": [
+    {
+     "name": "Infinite combat phases"
+    },
+    {
+     "name": "Infinite creature tokens with haste"
+    },
+    {
+     "name": "Infinite creature ETB"
+    },
+    {
+     "name": "Infinite mana creatures you control can produce"
+    },
+    {
+     "name": "Infinite untap of creatures you control"
+    }
+   ],
+   "notablePrerequisites": "Helm attached to Aurelia.",
+   "easyPrerequisites": "",
+   "description": "At the beginning of your combat phase, Helm of the Host triggers, creating a nonlegendary token copy of Aurelia.\nDeclare the token Aurelia as an attacker.\nThe token Aurelia triggers, causing you to untap all creatures you control and get an additional combat phase after this one.\nRepeat each combat phase."
+  },
+  {
+   "uses": [
+    {
+     "card": {
+      "id": 3337,
+      "name": "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+      "oracleId": "c0957e5e-c71b-439c-931c-9f55d2f76ace",
+      "spoiler": false,
+      "faces": 2,
+      "typeLine": "Enchantment — Saga // Enchantment Creature — Goblin Shaman",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.png?1783923875",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+      "layoutRotationFront": null,
+      "imageUriBackPng": "https://cards.scryfall.io/png/back/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.png?1783923875",
+      "imageUriBackLarge": "https://cards.scryfall.io/large/back/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+      "imageUriBackNormal": "https://cards.scryfall.io/normal/back/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+      "imageUriBackSmall": "https://cards.scryfall.io/small/back/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+      "imageUriBackArtCrop": "https://cards.scryfall.io/art_crop/back/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875"
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 2105,
+      "name": "Combat Celebrant",
+      "oracleId": "5e15ff93-99a0-4000-918e-4bd2c257188d",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Human Warrior",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/2/8/28b63c3d-2e55-4343-b49a-11fa602ec473.png?1783936491",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/2/8/28b63c3d-2e55-4343-b49a-11fa602ec473.jpg?1783936491",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/2/8/28b63c3d-2e55-4343-b49a-11fa602ec473.jpg?1783936491",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/2/8/28b63c3d-2e55-4343-b49a-11fa602ec473.jpg?1783936491",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/2/8/28b63c3d-2e55-4343-b49a-11fa602ec473.jpg?1783936491",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 4737,
+      "name": "Captain Lannery Storm",
+      "oracleId": "235bf0ba-658c-463f-b112-7478ba27bd7b",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Human Pirate",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/0/60a457e2-6cc7-47f0-9a24-df5459395358.png?1783911922",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/0/60a457e2-6cc7-47f0-9a24-df5459395358.jpg?1783911922",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/0/60a457e2-6cc7-47f0-9a24-df5459395358.jpg?1783911922",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/0/60a457e2-6cc7-47f0-9a24-df5459395358.jpg?1783911922",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/0/60a457e2-6cc7-47f0-9a24-df5459395358.jpg?1783911922",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "identity": "R",
+   "popularity": 895,
+   "produces": [
+    {
+     "name": "Infinite combat phases"
+    },
+    {
+     "name": "Infinite creature tokens with haste"
+    },
+    {
+     "name": "Infinite death triggers"
+    },
+    {
+     "name": "Infinite creature ETB"
+    },
+    {
+     "name": "Infinite creature LTB"
+    },
+    {
+     "name": "Infinite creature sacrifice triggers"
+    }
+   ],
+   "notablePrerequisites": "Reflection of Kiki-Jiki and Captain Lannery Storm do not have summoning sickness.\nCaptain Lannery Storm cannot be blocked and killed by an opponent.",
+   "easyPrerequisites": "",
+   "description": "Activate Reflection of KIki-Jiki by paying {1} and tapping it, creating a token copy of Combat Celebrant with haste.\nDeclare Captain Lannery Storm and Combat Celebrant token as an attackers, choosing to exert Combat Celebbrant as it attacks.\nThe token triggers, untapping all other creatures you control and causing you to get an additional combat phase after this one.\nCaptain Lannery Storm deals combat damage to a player, causing you to create a Treasure token.\nActivate a Treasure token by tapping and sacrificing it, adding {R}.\nRepeat."
+  },
+  {
+   "uses": [
+    {
+     "card": {
+      "id": 3398,
+      "name": "Hellkite Charger",
+      "oracleId": "d4f28a4b-d821-4132-bdec-4c528318f8e2",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Dragon",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.png?1783915650",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 7121,
+      "name": "Fire Nation Palace",
+      "oracleId": "f2000fb8-39c6-4ad6-a020-5245faaa1eba",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Land",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.png?1783904912",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 7122,
+      "name": "Windcrag Siege",
+      "oracleId": "64df560a-905f-45d1-bc70-14d99e3112d3",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Enchantment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.png?1783907290",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "with \"Mardu\" chosen",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "identity": "RW",
+   "popularity": 872,
+   "produces": [
+    {
+     "name": "Infinite combat phases"
+    },
+    {
+     "name": "Infinite red mana"
+    }
+   ],
+   "notablePrerequisites": "An opponent cannot block and kill Hellkite Charger",
+   "easyPrerequisites": "",
+   "description": "Activate Fire Nation Palace's second ability by paying {1}{R} and tapping it, giving Hellkite Charger firebending 4 until end of turn.\nDeclare Hellkite Charger as an attacker, triggering it and its firebending ability twice.\nResolve both Hellkite Charger firebending triggers, adding eight {R}.\nResolve the first Hellkite Charger trigger, choosing not to pay.\nResolve the second Hellkite Charger trigger, causing you to pay {5}{R}{R} to untap all attacking creatures and to get an additional combat phase after this one.\nRepeat from step 2."
+  },
+  {
+   "uses": [
+    {
+     "card": {
+      "id": 3259,
+      "name": "Breath of Fury",
+      "oracleId": "fdaa0faf-e7ee-48b3-9330-de0fc3792ad3",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Enchantment — Aura",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.png?1783937066",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "attached to another creature you control ",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 178,
+      "name": "Adeline, Resplendent Cathar",
+      "oracleId": "38515f89-348b-4cf3-b7bd-1f6fe4ce2fba",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Human Knight",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.png?1783907131",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 1879,
+      "name": "Rising of the Day",
+      "oracleId": "434a20f8-3f87-4004-9155-0f196fc2257e",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Enchantment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.png?1783916282",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "identity": "RW",
+   "popularity": 595,
+   "produces": [
+    {
+     "name": "Infinite combat damage"
+    },
+    {
+     "name": "Infinite combat phases"
+    },
+    {
+     "name": "Infinite death triggers"
+    },
+    {
+     "name": "Infinite creature ETB"
+    },
+    {
+     "name": "Infinite creature LTB"
+    },
+    {
+     "name": "Infinite mana creatures you control can produce"
+    },
+    {
+     "name": "Infinite creature sacrifice triggers"
+    },
+    {
+     "name": "Infinite untap of creatures you control"
+    },
+    {
+     "name": "Infinite creature tokens with haste"
+    },
+    {
+     "name": "Infinitely powerful creature"
+    }
+   ],
+   "notablePrerequisites": "An opponent cannot block creatures you control.",
+   "easyPrerequisites": "",
+   "description": "Declare the creature with Breath of Fury attached and Adeline as attackers.\nAdeline triggers, creating a creature token.\nDeal combat damage using the creature that has Breath of Fury attached. \nBreath of Fury triggers, causing you to sacrifice the creature it is attached to, then attach Breath of Fury to the creature token, then causing you to untap all creatures you control and to get an additional combat phase after this one.\nRepeat each combat phase."
+  },
+  {
+   "uses": [
+    {
+     "card": {
+      "id": 5324,
+      "name": "Anim Pakal, Thousandth Moon",
+      "oracleId": "05551d91-50c6-46d1-86a4-cd3d177d0923",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Human Soldier",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.png?1783913734",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 4050,
+      "name": "Phyrexian Altar",
+      "oracleId": "8d02b297-97c4-4379-9862-0a462400f66f",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Artifact",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.png?1783921789",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 3750,
+      "name": "Aggravated Assault",
+      "oracleId": "20129459-a386-41eb-899d-1aede3427300",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Enchantment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.png?1783945060",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "identity": "RW",
+   "popularity": 514,
+   "produces": [
+    {
+     "name": "Infinite colored mana"
+    },
+    {
+     "name": "Infinite combat phases"
+    },
+    {
+     "name": "Infinite death triggers"
+    },
+    {
+     "name": "Infinite creature ETB"
+    },
+    {
+     "name": "Infinite creature LTB"
+    },
+    {
+     "name": "Infinite creature sacrifice triggers"
+    },
+    {
+     "name": "Infinite untap of creatures you control"
+    },
+    {
+     "name": "Infinite mana creatures you control can produce"
+    }
+   ],
+   "notablePrerequisites": "You control a non-Gnome creature that does not have summoning sickness. Anim Pakal has at least four +1/+1 counters on it. An opponent cannot block and kill creatures you control.",
+   "easyPrerequisites": "",
+   "description": "Declare any non-Gnome creature you control as an attacker.\r\nAnim Pakal triggers, putting a +1/+1 counter on itself, then creating at least five 1/1 Gnome artifact creature tokens that are tapped and attacking.\r\nMove to your postcombat main phase.\r\nActivate Phyrexian Altar five times by saacrificing five Gnomes, adding {R}{R}{R}{R}{R}.\r\nActivate Aggravated Assault by paying {3}{R}{R}, causing you to untap all creatures you control and to get an additional combat and main phase after this one.\r\nRepeat."
+  }
+ ],
+ "explanations": {
+  "HighSynergy": [
+   [
+    "Adeline, Resplendent Cathar",
+    "Vigilance, power equal to your creature count, and <strong>whenever you attack, create a 1/1 Human token per opponent</strong> — tapped and attacking. Isshin doubles the trigger: two tokens per opponent, every combat. The deck's #1 engine. <em>(Oracle: Vigilance Adeline's power is equal to the number of creatures you control. Whenever you attack,…)</em>"
+   ],
+   [
+    "Krenko, Tin Street Kingpin",
+    "<strong>Whenever Krenko attacks, it gets +1/+1, then creates Goblin tokens equal to its power</strong>. Isshin doubles it: two counters and double the tokens. A one-man go-wide army. <em>(Oracle: Whenever Krenko attacks, put a +1/+1 counter on it, then create a number of 1/1 red Goblin crea…)</em>"
+   ],
+   [
+    "Windcrag Siege",
+    "A second Isshin: in <strong>Mardu mode, attack-triggered abilities of your permanents trigger an additional time</strong>. Stack it with Isshin for quadruple triggers on your best attackers. <em>(Oracle: As this enchantment enters, choose Mardu or Jeskai. • Mardu — If a creature attacking causes a …)</em>"
+   ],
+   [
+    "Sword of the Animist",
+    "Equipped creature gets +1/+1 and <strong>whenever it attacks, search for a basic land</strong>. Isshin doubles the trigger: ramp 2 lands per combat on a 3-mana commander. <em>(Oracle: Equipped creature gets +1/+1. Whenever equipped creature attacks, you may search your library f…)</em>"
+   ],
+   [
+    "Anim Pakal, Thousandth Moon",
+    "<strong>Whenever you attack with non-Gnome creatures, it gets +1/+1, then creates X Gnome tokens</strong> (X = counters), tapped and attacking. Doubled by Isshin: exponential token growth. <em>(Oracle: Whenever you attack with one or more non-Gnome creatures, put a +1/+1 counter on Anim Pakal, th…)</em>"
+   ],
+   [
+    "Fervent Charge",
+    "<strong>Whenever a creature you control attacks, it gets +2/+2 until end of turn</strong> — doubled by Isshin into +4/+4. The pump engine that makes every attack lethal. <em>(Oracle: Whenever a creature you control attacks, it gets +2/+2 until end of turn.…)</em>"
+   ]
+  ],
+  "TopCards": [
+   [
+    "Swords to Plowshares",
+    "Exile target creature; its controller gains life equal to its power. The white removal benchmark — clean answer to anything. <em>(Oracle: Exile target creature. Its controller gains life equal to its power.…)</em>"
+   ],
+   [
+    "Path to Exile",
+    "Exile target creature; its controller may search for a basic land. Second white removal, nearly free. <em>(Oracle: Exile target creature. Its controller may search their library for a basic land card, put that …)</em>"
+   ],
+   [
+    "Ruinous Ultimatum",
+    "<strong>Destroy all nonland permanents your opponents control</strong> — the asymmetrical board wipe that keeps your attackers. <em>(Oracle: Destroy all nonland permanents your opponents control.…)</em>"
+   ],
+   [
+    "Lightning Greaves",
+    "Haste + shroud — deploy and swing immediately, and opponents can't target your attacker. Equip 0 re-attaches free. <em>(Oracle: Equipped creature has haste and shroud. (It can't be the target of spells or abilities.) Equip …)</em>"
+   ],
+   [
+    "Aurelia, the Warleader",
+    "Flying, vigilance, haste; <strong>first attack each turn gives an additional combat phase</strong>. With Isshin, every attacker's triggers fire twice per extra combat. <em>(Oracle: Flying, vigilance, haste Whenever Aurelia attacks for the first time each turn, untap all creat…)</em>"
+   ],
+   [
+    "Aurelia, the Law Above",
+    "Flying, vigilance, haste; <strong>draw a card when any player attacks with 3+ creatures</strong>, and deal 3 to each opponent at 5+. Isshin doesn't double it (player-triggered) but it loves your go-wide board. <em>(Oracle: Flying, vigilance, haste Whenever a player attacks with three or more creatures, you draw a car…)</em>"
+   ]
+  ],
+  "Creatures": [
+   [
+    "Caesar, Legion's Emperor",
+    "<strong>Whenever you attack, you may sacrifice another creature</strong>: create two hasted Soldier tokens attacking, or draw and lose life, or drain 3. Isshin doubles the trigger — two sacrifices per combat. <em>(Oracle: Whenever you attack, you may sacrifice another creature. When you do, choose two — • Create two…)</em>"
+   ],
+   [
+    "Brutal Hordechief",
+    "<strong>Whenever a creature you control attacks, defending player loses 1 life and you gain 1</strong> — doubled by Isshin into 2 per attacker. The activated ability also forces blocks your way. <em>(Oracle: Whenever a creature you control attacks, defending player loses 1 life and you gain 1 life. {3}…)</em>"
+   ],
+   [
+    "Otharri, Suns' Glory",
+    "Flying, lifelink, haste; <strong>whenever it attacks, get an experience counter and create that many Rebel tokens</strong> — doubled by Isshin. Snowballing token army with lifelink. <em>(Oracle: Flying, lifelink, haste Whenever Otharri attacks, you get an experience counter. Then create a …)</em>"
+   ],
+   [
+    "Iroas, God of Victory",
+    "Indestructible god: <strong>your creatures have menace</strong> and all combat damage to your attackers is prevented — the combat unlosable engine. <em>(Oracle: Indestructible As long as your devotion to red and white is less than seven, Iroas isn't a crea…)</em>"
+   ],
+   [
+    "Commissar Severina Raine",
+    "<strong>Whenever it attacks, each opponent loses X life (X = other attackers)</strong> — doubled by Isshin. In a go-wide board, that's massive drain every combat. <em>(Oracle: Leading from the Front — Whenever Commissar Severina Raine attacks, each opponent loses X life,…)</em>"
+   ],
+   [
+    "Sun Titan",
+    "Vigilance; <strong>whenever it enters or attacks, return a permanent with mana value 3 or less from your graveyard</strong> — Isshin doubles the attack trigger, giving two recursions per combat. <em>(Oracle: Vigilance Whenever this creature enters or attacks, you may return target permanent card with m…)</em>"
+   ]
+  ],
+  "Instants": [
+   [
+    "Anguished Unmaking",
+    "Exile target nonland permanent for 3 life — the catch-all answer to anything (planeswalkers, enchantments, artifacts). <em>(Oracle: Exile target nonland permanent. You lose 3 life.…)</em>"
+   ],
+   [
+    "Akroma's Will",
+    "<strong>If you control a commander, choose both</strong>: flying+vigilance+double strike OR lifelink+indestructible+protection. The all-in finisher for your attack. <em>(Oracle: Choose one. If you control a commander as you cast this spell, you may choose both instead. • C…)</em>"
+   ],
+   [
+    "Flawless Maneuver",
+    "<strong>Free if you control a commander</strong>: your creatures gain indestructible until end of turn. The protection spell that saves your board from a wipe. <em>(Oracle: If you control a commander, you may cast this spell without paying its mana cost. Creatures you…)</em>"
+   ],
+   [
+    "Despark",
+    "Exile target permanent with mana value 4 or greater — clean removal for commanders and bombs at 2 mana. <em>(Oracle: Exile target permanent with mana value 4 or greater.…)</em>"
+   ],
+   [
+    "Chaos Warp",
+    "Shuffle target permanent into its owner's library, then they reveal the top card and may put it onto the battlefield — the red answer to anything. <em>(Oracle: The owner of target permanent shuffles it into their library, then reveals the top card of thei…)</em>"
+   ]
+  ],
+  "Sorceries": [
+   [
+    "Blasphemous Act",
+    "<strong>Costs {1} less per creature on the battlefield</strong> — in a go-wide game it's nearly {R}. Deals 13 damage to each creature: the wipe that clears everyone else. <em>(Oracle: This spell costs {1} less to cast for each creature on the battlefield. Blasphemous Act deals 1…)</em>"
+   ],
+   [
+    "Damn",
+    "Destroy target creature (can't be regenerated), with an overload to destroy ALL creatures. Flexible single-target or wipe. <em>(Oracle: Destroy target creature. A creature destroyed this way can't be regenerated. Overload {2}{W}{W}…)</em>"
+   ],
+   [
+    "Vandalblast",
+    "Destroy target artifact, or overload to destroy all artifacts your opponents control — the artifact wipe. <em>(Oracle: Destroy target artifact you don't control. Overload {4}{R} (You may cast this spell for its ove…)</em>"
+   ],
+   [
+    "Night's Whisper",
+    "Draw two cards for 2 life — the efficient black draw. <em>(Oracle: You draw two cards and lose 2 life.…)</em>"
+   ],
+   [
+    "Painful Truths",
+    "Converge: <strong>draw X and lose X life where X = colors spent</strong> — in Mardu that's 3 cards for 3 life. <em>(Oracle: Converge — You draw X cards and lose X life, where X is the number of colors of mana spent to c…)</em>"
+   ]
+  ],
+  "Artifacts": [
+   [
+    "Skullclamp",
+    "Equipped creature gets +1/-1; <strong>whenever it dies, draw two cards</strong>. Equip {1}. Sacrifice your 1/1 tokens to Skullclamp for massive card advantage. <em>(Oracle: Equipped creature gets +1/-1. Whenever equipped creature dies, draw two cards. Equip {1}…)</em>"
+   ],
+   [
+    "Dolmen Gate",
+    "<strong>Prevent all combat damage that would be dealt to attacking creatures you control</strong> — swing freely, your attackers survive every block. <em>(Oracle: Prevent all combat damage that would be dealt to attacking creatures you control.…)</em>"
+   ],
+   [
+    "Diamond Pick-Axe",
+    "Indestructible Equipment: equipped creature gets +1/+1 and <strong>\"Whenever this creature attacks, create a Treasure\"</strong> — Isshin doubles the Treasure per combat. <em>(Oracle: Indestructible (Effects that say \"destroy\" don't destroy this Equipment.) Equipped creature get…)</em>"
+   ],
+   [
+    "Infantry Shield",
+    "Equipped creature has menace and <strong>mobilize X (X = its power): create X hasted Warrior tokens on attack</strong> — Isshin doubles the tokens. <em>(Oracle: Equipped creature has menace and mobilize X, where X is its power. (Whenever it attacks, create…)</em>"
+   ],
+   [
+    "Helm of the Host",
+    "<strong>At the beginning of combat, create a nonlegendary copy of the equipped creature with haste</strong> — a second Isshin that doubles your triggers. <em>(Oracle: At the beginning of combat on your turn, create a token that's a copy of equipped creature, exc…)</em>"
+   ]
+  ],
+  "Enchantments": [
+   [
+    "Reconnaissance",
+    "{0}: remove target attacking creature from combat and untap it — <strong>save your attackers after damage while keeping triggers</strong>. The classic combat trick. <em>(Oracle: {0}: Remove target attacking creature you control from combat and untap it. (If you activate du…)</em>"
+   ],
+   [
+    "Rising of the Day",
+    "<strong>Creatures you control have haste</strong> and legendary creatures get +1/+0 — everything swings the turn it lands. <em>(Oracle: Creatures you control have haste. Legendary creatures you control get +1/+0.…)</em>"
+   ],
+   [
+    "Curse of Opulence",
+    "Enchant player: <strong>whenever enchanted player is attacked, create a Gold token</strong> — Isshin doubles the Gold per attacker. Ramp from your own attacks. <em>(Oracle: Enchant player Whenever enchanted player is attacked, create a Gold token. Each opponent attack…)</em>"
+   ],
+   [
+    "Within Range",
+    "Create two Warrior tokens on entry, and <strong>whenever you attack, each opponent loses life equal to creatures attacking them</strong> — go-wide drain. <em>(Oracle: When this enchantment enters, create two 1/1 red Warrior creature tokens. Whenever you attack, …)</em>"
+   ],
+   [
+    "Chivalric Alliance",
+    "<strong>Whenever you attack with 2+ creatures, draw a card</strong> — your go-wide attacks become card advantage. <em>(Oracle: Whenever you attack with two or more creatures, draw a card. {2}, Discard a card: Create a 2/2 …)</em>"
+   ]
+  ],
+  "Planeswalkers": [
+   [
+    "Elspeth, Storm Slayer",
+    "<strong>Doubles tokens created under your control</strong>; +1 makes a Soldier, 0 puts +1/+1 on each creature, −7 is a mass anthem emblem. Token engine on legs. <em>(Oracle: If one or more tokens would be created under your control, twice that many of those tokens are …)</em>"
+   ],
+   [
+    "The Eternal Wanderer",
+    "+1: exile an artifact/creature and return it under its owner's control at your next end step; −2: each player attacks with one creature. Flexible control walker. <em>(Oracle: No more than one creature can attack The Eternal Wanderer each combat. +1: Exile up to one targ…)</em>"
+   ]
+  ],
+  "UtilityLands": [
+   [
+    "Rogue's Passage",
+    "{4}, {T}: target creature can't be blocked this turn — guarantee your best attacker's trigger connects. <em>(Oracle: {T}: Add {C}. {4}, {T}: Target creature can't be blocked this turn.…)</em>"
+   ],
+   [
+    "Bojuka Bog",
+    "Enters tapped; <strong>on entry, exile target player's graveyard</strong> — the free graveyard hate. <em>(Oracle: This land enters tapped. When this land enters, exile target player's graveyard. {T}: Add {B}.…)</em>"
+   ],
+   [
+    "Hanweir Battlements",
+    "{R}, {T}: target creature gains haste; {3}{R}{R}, {T}: meld with Hanweir Garrison. Speed for your attackers. <em>(Oracle: {T}: Add {C}. {R}, {T}: Target creature gains haste until end of turn. {3}{R}{R}, {T}: If you b…)</em>"
+   ],
+   [
+    "Vault of the Archangel",
+    "{2}{W}{B}, {T}: <strong>your creatures gain deathtouch and lifelink until end of turn</strong> — the combat blowout activation. <em>(Oracle: {T}: Add {C}. {2}{W}{B}, {T}: Creatures you control gain deathtouch and lifelink until end of t…)</em>"
+   ],
+   [
+    "Minas Tirith",
+    "Enters untapped if you control a legendary; {1}{W}, {T}: <strong>draw a card if you attacked with 2+ creatures</strong> — with Isshin's go-wide plan, nearly always on. <em>(Oracle: Minas Tirith enters tapped unless you control a legendary creature. {T}: Add {W}. {1}{W}, {T}: …)</em>"
+   ]
+  ],
+  "ManaBase": [
+   [
+    "Plains",
+    "({T}: add {W}.) The basic white source. <em>(Oracle: ({T}: Add {W}.)…)</em>"
+   ],
+   [
+    "Mountain",
+    "({T}: add {R}.) The basic red source. <em>(Oracle: ({T}: Add {R}.)…)</em>"
+   ],
+   [
+    "Swamp",
+    "({T}: add {B}.) The basic black source. <em>(Oracle: ({T}: Add {B}.)…)</em>"
+   ],
+   [
+    "Command Tower",
+    "{T}: add one mana of any color in your commander's color identity — the format's best land. <em>(Oracle: {T}: Add one mana of any color in your commander's color identity.…)</em>"
+   ],
+   [
+    "Sol Ring",
+    "{T}: add {C}{C} — the format's best ramp, in every deck. <em>(Oracle: {T}: Add {C}{C}.…)</em>"
+   ],
+   [
+    "Arcane Signet",
+    "{T}: add one mana of any color in your commander's color identity — the best mana rock. <em>(Oracle: {T}: Add one mana of any color in your commander's color identity.…)</em>"
+   ]
+  ]
+ },
+ "cat_synopsis": {
+  "HighSynergy": [
+   "🌟 High Synergy Cards",
+   "The heart of the deck: attackers and engines whose triggers Isshin doubles — token makers, land ramp and a second Isshin (Windcrag Siege)."
+  ],
+  "TopCards": [
+   "🔥 Top Cards",
+   "The most played cards: removal, haste boots and the extra-combat Warleaders."
+  ],
+  "Creatures": [
+   "🧝 Creatures",
+   "The attackers: token generators, drains and recursion — every attack trigger doubled."
+  ],
+  "Instants": [
+   "⚡ Instants",
+   "Removal and protection that keep the go-wide board alive."
+  ],
+  "Sorceries": [
+   "📜 Sorceries",
+   "Board wipes that clear opponents while your attackers survive, plus draw."
+  ],
+  "Artifacts": [
+   "⚔️ Artifacts",
+   "Equipment that turns attacks into cards (Skullclamp), Treasures (Diamond Pick-Axe) and tokens (Infantry Shield)."
+  ],
+  "Enchantments": [
+   "🌿 Enchantments",
+   "Combat tricks, haste and attack-trigger draw — the value engines."
+  ],
+  "Planeswalkers": [
+   "🔮 Planeswalkers",
+   "Token doubling (Elspeth) and flexible control (Eternal Wanderer)."
+  ],
+  "UtilityLands": [
+   "🏰 Utility Lands",
+   "Unblockable, graveyard hate, haste and combat blowouts on lands."
+  ],
+  "ManaBase": [
+   "🌲 Lands / Mana Base",
+   "Mardu fixing: basics, Command Tower, Sol Ring and Arcane Signet."
+  ]
+ },
+ "cat_order": [
+  "HighSynergy",
+  "TopCards",
+  "Creatures",
+  "Instants",
+  "Sorceries",
+  "Artifacts",
+  "Enchantments",
+  "Planeswalkers",
+  "UtilityLands",
+  "ManaBase"
+ ],
+ "plan_title": "⚔️ ATTACK TRIGGERS — The signature plan (1,204 decks)",
+ "plan_html": "<h3>⚔️ ATTACK TRIGGERS <span class=\"badge\">CHOSEN PLAN</span></h3>\n    <p>The dominant plan for Isshin (1,204 Attack Triggers decks, 1,389 Aggro, 1,316 Tokens on EDHREC).</p>\n    <ul>\n    <li><strong>How it plays</strong>: Isshin doubles every attack-triggered ability — attack with token-makers (Adeline, Krenko, Anim Pakal, Caesar), each trigger fires twice and the board explodes. Attack triggers also draw (Chivalric Alliance, Aurelia, the Law Above), ramp (Sword of the Animist, Curse of Opulence, Diamond Pick-Axe) and drain (Commissar Severina Raine, Brutal Hordechief).</li>\n    <li><strong>Core loop</strong>: attack → doubled triggers → more tokens/draw/ramp → attack again. Windcrag Siege in Mardu mode is a second Isshin (quadruple triggers on your best attackers); Aurelia, the Warleader adds extra combat phases so the loop runs twice per turn.</li>\n    <li><strong>Win conditions</strong>: the go-wide board pumped by Fervent Charge / Akroma's Will; the drain of Brutal Hordechief and Commissar Severina Raine; or the infinite-combat combos (Hellkite Charger + Fire Nation Palace, Aggravated Assault lines).</li>\n    </ul>",
+ "plan_cards": [
+  "Adeline, Resplendent Cathar",
+  "Krenko, Tin Street Kingpin",
+  "Windcrag Siege",
+  "Sword of the Animist"
+ ],
+ "source_html": "<em>“Breaking Down Tradition: Isshin, Two Heavens as One”</em> (Evan Moss, EDHREC Articles — guest deck tech on Isshin): the guide frames Isshin as “a value engine that wants you to attack” and notes that “Isshin decks tend to run pretty similarly — attack, create tokens, ramp, attack some more.” His key insight for our plan: keep the aggressive core but stack <strong>repeatable attack triggers</strong> (card advantage on attack, Treasure ramp on attack, protection to keep the attackers alive) so every combat step generates value. The guide’s emphasis on protecting your attacking engine maps onto our protection suite (Flawless Maneuver, Akroma’s Will) and its ramp advice onto the attack-ramp package (Sword of the Animist, Captain Lannery Storm).",
+ "combos_note": "125 raw combos found (search across 21 key pieces) → 61 Mardu-compatible → 9 with overlap ≥ 2/3 with the EDHREC pool → 7 relevant (2-4 cards, popularity ≥ 100). The signature loops: Hellkite Charger + Fire Nation Palace (infinite combats), Aggravated Assault + Burakos or Anim Pakal + altar. Produces/Prerequisites/Execution reproduce Commander Spellbook content verbatim.",
+ "mana_cost_html": "<img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/W.svg\" alt=\"W\" title=\"W\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> (3 mana)",
+ "type_line": "Legendary Creature — Human Samurai",
+ "color_id": "🔴⚪⚫ Mardu (R/W/B)",
+ "rarity": "Rare (Kamigawa: Neon Dynasty)",
+ "legality": "Legal",
+ "oracle_text": "If a creature attacking causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+ "quick_read": "The <strong>attack-trigger doubler</strong>: every \"whenever X attacks\" trigger on your permanents fires twice. Go wide with token-makers (Adeline, Krenko, Anim Pakal), draw from attack triggers (Chivalric Alliance, Aurelia), ramp with Sword of the Animist and Curse of Opulence — then finish with Fervent Charge pumps, extra combats (Aurelia, Aggravated Assault) or the infinite-combat combos.",
+ "extra_table_rows": "<tr><td><strong>Power / Toughness</strong></td><td>3 / 4</td></tr>"
+}

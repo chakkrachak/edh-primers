@@ -50,6 +50,7 @@ The site is **100% static**: no inline CSS — the index loads `css/theme.css` +
 | 🫠 Slogurk, the Overslime | Simic (G/U) | Lands Matter / Loam | `content/EDH-Primer-slogurk-the-overslime-*.html` |
 | ⚡ Saheeli, Radiant Creator | Temur (G/U/R) | Energy | `content/EDH-Primer-saheeli-radiant-creator-*.html` |
 | 🧟 Gisa and Geralf | Dimir (U/B) | Zombie Tribal | `content/EDH-Primer-gisa-and-geralf-*.html` |
+| ⚔️ Isshin, Two Heavens as One | Mardu (R/W/B) | Attack Triggers | `content/EDH-Primer-isshin-two-heavens-as-one-*.html` |
 
 ## Usage
 

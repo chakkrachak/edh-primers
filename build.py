@@ -180,6 +180,7 @@ DECK_SLUGS = {
     'Aminatou, the Fateshifter': 'aminatou-the-fateshifter',
     'Cloud, Ex-SOLDIER': 'cloud-ex-soldier',
     'Gisa and Geralf': 'gisa-and-geralf',
+    'Isshin, Two Heavens as One': 'isshin-two-heavens-as-one',
     'Lathril, Blade of the Elves': 'lathril-blade-of-the-elves',
     'Saheeli, Radiant Creator': 'saheeli-radiant-creator',
     'Slogurk, the Overslime': 'slogurk-the-overslime',
