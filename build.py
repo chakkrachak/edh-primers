@@ -128,9 +128,17 @@ def build_index():
     template = open(f'{BASE}/templates/index.html', encoding='utf-8').read()
 
     cards = []
+    # Le mapping nom→slug vient des JSON eux-mêmes (deck_slug + commander_name) —
+    # plus de DECK_SLUGS à maintenir dans le code.
+    slug_by_name = {}
+    for dpath in sorted(glob.glob(f'{DATA_DIR}/*.json')):
+        with open(dpath, encoding='utf-8') as f:
+            d = json.load(f)
+        slug_by_name[d.get('commander_name', '')] = d.get('deck_slug', '')
     for name in idx['decks_order']:
-        slug = DECK_SLUGS.get(name)
+        slug = slug_by_name.get(name)
         if not slug:
+            print(f"⚠️ index: pas de deck JSON pour {name}")
             continue
         # newest report for this slug
         files = sorted(glob.glob(f'{OUT_DIR}/EDH-Primer-{slug}-*.html'))
@@ -175,19 +183,6 @@ def build_index():
     with open(f'{BASE}/index.html', 'w', encoding='utf-8') as f:
         f.write(html_out)
     print(f"✓ index.html régénéré ({len(cards)} cards)")
-
-DECK_SLUGS = {
-    'Aminatou, the Fateshifter': 'aminatou-the-fateshifter',
-    'Cloud, Ex-SOLDIER': 'cloud-ex-soldier',
-    'Gisa and Geralf': 'gisa-and-geralf',
-    'Isshin, Two Heavens as One': 'isshin-two-heavens-as-one',
-    'Lathril, Blade of the Elves': 'lathril-blade-of-the-elves',
-    'Saheeli, Radiant Creator': 'saheeli-radiant-creator',
-    'Sisay, Weatherlight Captain': 'sisay-weatherlight-captain',
-    'Slogurk, the Overslime': 'slogurk-the-overslime',
-    'Terra, Herald of Hope': 'terra-herald-of-hope',
-    "Yuriko, the Tiger's Shadow": 'yuriko-the-tigers-shadow',
-}
 
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
