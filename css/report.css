@@ -266,6 +266,10 @@ strong { color: var(--text-strong); }
   font-weight: 700;
   color: var(--accent-gold);
 }
+.cb-syn {
+  margin-top: 4px;
+  line-height: 1;
+}
 .cb-expl {
   font-size: 12px;
   color: #c8d0e8;
@@ -275,9 +279,9 @@ strong { color: var(--text-strong); }
 
 /* Badge de synergie EDHREC */
 .syn {
+  display: inline-block;
   font-size: 11px;
   font-weight: 700;
-  margin-left: 8px;
   border: 1px solid;
   border-radius: 10px;
   padding: 1px 8px;
