@@ -1,10 +1,10 @@
 {
   "page_title": "EDH Primers — Commander Deck Reports",
   "meta_description": "Complete Commander EDH deck reports: Scryfall, EDHREC, Commander Spellbook.",
-  "og_description": "9 Commander deck reports",
+  "og_description": "10 Commander deck reports",
   "header_title": "EDH <span class=\"accent\">Primers</span>",
   "header_sub": "Complete Commander deck reports — Scryfall · EDHREC · Commander Spellbook",
-  "count_label": "9 decks analyzed",
+  "count_label": "10 decks analyzed",
   "footer": "Data: <a href=\"https://scryfall.com\">Scryfall</a> · <a href=\"https://edhrec.com\">EDHREC</a> · <a href=\"https://commanderspellbook.com\">Commander Spellbook</a>",
   "decks_order": [
     "Aminatou, the Fateshifter",
@@ -13,6 +13,7 @@
     "Isshin, Two Heavens as One",
     "Lathril, Blade of the Elves",
     "Saheeli, Radiant Creator",
+    "Sisay, Weatherlight Captain",
     "Slogurk, the Overslime",
     "Terra, Herald of Hope",
     "Yuriko, the Tiger's Shadow"
@@ -24,6 +25,7 @@
     "Isshin, Two Heavens as One": "⚔️ ATTACK TRIGGERS — The signature plan (1,204 decks)",
     "Lathril, Blade of the Elves": "ELFBALL (ELF TRIBAL)",
     "Saheeli, Radiant Creator": "⚡ ENERGY — The signature plan (1,209 decks)",
+    "Sisay, Weatherlight Captain": "🏛️ LEGENDS / TOOLBOX — The signature plan (1,419 decks)",
     "Slogurk, the Overslime": "LANDS MATTER / LOAM",
     "Terra, Herald of Hope": "REANIMATOR (AGGRO REANIMATION)",
     "Yuriko, the Tiger's Shadow": "NINJUTSU TRIBAL"
@@ -35,6 +37,7 @@
     "Isshin, Two Heavens as One": "The attack-trigger doubler: every \"whenever X attacks\" trigger fires twice. Go wide with token-makers (Adeline, Krenko), draw, ramp and drain on every combat.",
     "Lathril, Blade of the Elves": "A Golgari Elf tribal commander who builds an army of tokens on contact, then drains 10 life per activation — elfball at its finest.",
     "Saheeli, Radiant Creator": "The energy queen: every artifact/Artificer spell gives an energy counter, and 3 energy at combat = a hasty 5/5 copy. Energy value engine.",
+    "Sisay, Weatherlight Captain": "The legendary toolbox tutor: grows +1/+1 per color among your legends, then {W}{U}{B}{R}{G} fetches any legendary permanent onto the battlefield — answer anything with the right legend.",
     "Slogurk, the Overslime": "A unique Simic lands-matter commander: every land that dies or is milled makes it grow (+1/+1). Sacrifice and replay your lands for value.",
     "Terra, Herald of Hope": "A Mardu reanimation commander who fills her own graveyard (Trance: mill 2 + flying at combat) then reanimates threats for free.",
     "Yuriko, the Tiger's Shadow": "A Dimir aggro/control ninjutsu commander who returns from the command zone at will for ~2 mana, flipping high-cost cards to drain the table."

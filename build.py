@@ -183,6 +183,7 @@ DECK_SLUGS = {
     'Isshin, Two Heavens as One': 'isshin-two-heavens-as-one',
     'Lathril, Blade of the Elves': 'lathril-blade-of-the-elves',
     'Saheeli, Radiant Creator': 'saheeli-radiant-creator',
+    'Sisay, Weatherlight Captain': 'sisay-weatherlight-captain',
     'Slogurk, the Overslime': 'slogurk-the-overslime',
     'Terra, Herald of Hope': 'terra-herald-of-hope',
     "Yuriko, the Tiger's Shadow": 'yuriko-the-tigers-shadow',
