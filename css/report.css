@@ -42,6 +42,21 @@ th {
   text-align: left;
 }
 
+/* Fiche commander : image à gauche, identité à droite sur PC ; empilée sur mobile */
+.sheet {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+}
+.sheet-img { flex: 0 0 auto; }
+.sheet-info { flex: 1; min-width: 0; }
+@media (max-width: 700px) {
+  .sheet { flex-direction: column; align-items: center; }
+  .sheet-img { text-align: center; }
+  .sheet-info { width: 100%; }
+}
+
 .oracle {
   background: var(--bg-inset);
   border-left: 4px solid var(--accent-green);
