@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ page_title|escape }}</title>
+<meta name="description" content="{{ meta_description|escape }}">
+<meta property="og:title" content="EDH Primers">
+<meta property="og:description" content="{{ og_description|escape }}">
+
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/index.css"></head><body>
+<header>
+  <h1>{{ header_title|safe }}</h1>
+  <div class="sub">{{ header_sub|safe }}</div>
+  <span class="count">{{ count_label|escape }}</span>
+</header>
+<div class="grid">
+{% for card in cards %}
+    <a class="card" href="{{ card.href }}">
+      <div class="card-art"><img loading="lazy" src="{{ card.img }}" alt="{{ card.name }}" data-name="{{ card.name }}"></div>
+      <div class="card-body">
+        <div class="card-name">{{ card.name|escape }}</div>
+        <div class="card-pips">{% for pip in card.pips %}<span class="pip {{ pip.cls }}" title="{{ pip.title }}"></span>{% endfor %}</div>
+        <div class="card-plan">{{ card.plan|safe }}</div>
+        <p class="card-desc">{{ card.desc|safe }}</p>
+        <div class="card-hs">
+          <div class="hs-label">High Synergy</div>
+          <div class="hs-row">{% for t in card.thumbs %}<span class="thumb" title="{{ t.name }}"><img loading="lazy" src="{{ t.img }}" alt="{{ t.name }}"></span>{% endfor %}</div>
+        </div>
+      </div>
+    </a>
+{% endfor %}
+</div>
+<footer>{{ footer|safe }}</footer>
+</body></html>
