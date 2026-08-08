@@ -320,7 +320,6 @@ def build_precon(slug):
             'tag': p['tag'], 'decks': p['decks'], 'tag_cls': tag_cls, 'tag_slug': tag_slug,
             'description': bold_list(p.get('description', '') if isinstance(p.get('description'), list) else [p.get('description', '')]),
             'win': bold_list(p.get('win', '') if isinstance(p.get('win'), list) else [p.get('win', '')]),
-            'quick_read': p.get('quick_read', ''),
             'high_synergy': p.get('high_synergy', []),
             'deck_matches': p.get('deck_matches', []),
             'match_cards': match_cards,

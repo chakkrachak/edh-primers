@@ -135,11 +135,6 @@
 <h2 id="s5">5. Verdict</h2>
 <div class="verdict">
 <h3>🎯 {{ verdict.favored|escape }}</h3>
-<div class="plan-reads">
-{% for p in plans %}
-<div class="plan-read"><span class="read-tag">{{ p.tag }}</span> <em>{{ p.quick_read|safe }}</em></div>
-{% endfor %}
-</div>
 <div class="verdict-scores">
 {% for p in plans %}
 <div class="score-row"><span class="score-name">{{ p.tag }}</span><div class="score-bar"><div class="score-fill" style="width: {{ p.pct }}%"></div></div><span class="score-val">{{ p.deck_matches|length }}/{{ p.high_synergy|length }}</span></div>
