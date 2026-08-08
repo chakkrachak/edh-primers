@@ -405,16 +405,23 @@ def build_index():
         pip_map = {'W': ('pip-w', 'White'), 'U': ('pip-u', 'Blue'), 'B': ('pip-b', 'Black'),
                    'R': ('pip-r', 'Red'), 'G': ('pip-g', 'Green')}
         pips = [{'cls': cls, 'title': title} for letter, (cls, title) in pip_map.items() if letter in ci]
-        # high synergy thumbs — the FIRST role section (the plan core per the display order,
-        # Engines when present, otherwise the first role that exists, e.g. Wincons for Slogurk).
-        # NOTE: "Engines" also appears in the game-plan text; anchor on the role-section h3 + take
-        # until the NEXT role section (not the first card-grid after any mention).
-        m = re.search(r'<h2 id="s3">.*?</h2>.*?<div class="category"><h3>(?:<[^>]*>|[^<])*?(?:Engines|Wincons|Flex|Card Advantage|Ramp|Wipes|Interaction|Lands).*?</h3>(.*?)(?:<div class="category">|<h2 )', html, re.S)
+        # high synergy thumbs — the commander's EDHREC High Synergy pool, sorted by synergy
+        # score descending (most synergistic first). Read from the deck JSON, not the HTML.
         thumbs = []
-        if m:
-            imgs = re.findall(r'<img src="(https://cards\.scryfall\.io/[^"]+)"[^>]*data-name="([^"]*)"', m.group(1))
-            for u, nm in imgs[:6]:
-                thumbs.append({'name': nm, 'img': u})
+        dpath = f'{DATA_DIR}/{slug}.json'
+        if os.path.exists(dpath):
+            with open(dpath, encoding='utf-8') as f:
+                deck = json.load(f)
+            hs_pool = dict(deck.get('explanations', {}).get('HighSynergy', []))
+            syn = deck.get('synergy', {})
+            scored = []
+            for nm in hs_pool:
+                s = syn.get(nm, {})
+                score = s.get('synergy') if isinstance(s, dict) else s
+                scored.append((nm, score if isinstance(score, (int, float)) else -1))
+            scored.sort(key=lambda x: x[1], reverse=True)
+            for nm, _ in scored[:6]:
+                thumbs.append({'name': nm, 'img': deck.get('imgs', {}).get(nm, '')})
         cards.append({
             'href': path.replace(f'{OUT_DIR}/', 'content/'),
             'name': name,

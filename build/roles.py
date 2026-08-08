@@ -117,7 +117,10 @@ def assign_role(name, meta=None, oracle_text='', is_engine_hint=False, is_combo_
     #    un combo reste ENGINE — le combo est documenté dans la section combos, pas son rôle.
     if is_combo_piece and not is_engine_hint:
         return 'Wincons'
-    if is_engine_hint and re.search(r'whenever|at the beginning of your upkeep', oracle_text, re.I):
+    # Une carte du pool High Synergy du commandant EST une engine du plan par définition
+    # (EDHREC calcule le score de synergie pour ça) — pas besoin de « whenever ».
+    # Les signaux durs (Lands, Ramp produced_mana) ont déjà été évalués au-dessus.
+    if is_engine_hint:
         return 'Engines'
 
     # 4. Patterns Oracle dans l'ordre de priorité
