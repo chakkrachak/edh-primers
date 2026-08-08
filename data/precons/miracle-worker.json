@@ -700,7 +700,10 @@
     "Shark Typhoon",
     "Sigil of the Empty Throne",
     "Sphere of Safety"
-   ]
+   ],
+   "description": "The signature Esper enchantress engine: play enchantments to draw cards (Mesa Enchantress, Ondu Spiritdancer, Starfield Mystic discounts), snowball value, and control the board. Aminatou's miracle −{4} makes every enchantment in hand a potential cheap blowout, and surveil 2 each upkeep feeds both the enchantment count and the miracle trigger.",
+   "win": "Overwhelming board: Sigil of the Empty Throne turns every enchantment into a 4/4 Angel, Extravagant Replication doubles your best permanent each upkeep, One with the Multiverse plays from the top of your library. Close with Redress Fate recursion or a giant Entreat the Angels (miracle for {W}{W}{W}{W}).",
+   "combos": []
   },
   {
    "tag": "Topdeck",
@@ -758,6 +761,268 @@
     "Shark Typhoon",
     "Sigil of the Empty Throne",
     "Sphere of Safety"
+   ],
+   "description": "Aminatou's second identity: topdeck manipulation + miracle. Surveil 2 at upkeep, then cantrips (Brainstorm, Ponder, Portent, Telling Time), Halimar Depths and Brainstone set up the top of the library so your miracle draws hit. One with the Multiverse turns the top of the library into an extra hand.",
+   "win": "Aminatou's Augury casts your whole top 8 for free; Terminus becomes a one-mana wipe via miracle; Entreat the Angels and Shark Typhoon finish from the top. Infinite turns via Timestream Navigator + Extravagant Replication (see combos).",
+   "combos": [
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 1061,
+        "name": "Timestream Navigator",
+        "oracleId": "d0896996-ee31-402e-b642-4e7cca4929fe",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Human Pirate Wizard",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.png?1783913879",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2061,
+        "name": "Extravagant Replication",
+        "oracleId": "3a646245-b8b7-4f91-a312-d5eea9a9e49a",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.png?1783909081",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Timestream Navigator + Extravagant Replication",
+     "popularity": 927,
+     "produces": [
+      {
+       "name": "Infinite turns"
+      },
+      {
+       "name": "Lock"
+      }
+     ],
+     "description": "During your upkeep, Extravagant Replication triggers, creating a token copy of Timestream Navigator.\nDuring your next upkeep, Extravagant Replication triggers, creating a token copy of Timestream Navigator.\nActivate the ability of a Timestream Navigator token that did not enter the battlefield this turn by paying {2}{U}{U}, tapping it, and putting it on the bottom of your library, taking an extra turn.\nRepeat from 2.",
+     "notablePrerequisites": "You have the city's blessing.",
+     "easyPrerequisites": "",
+     "plans": [
+      "Topdeck",
+      "Combo"
+     ],
+     "in_deck": [
+      "Extravagant Replication"
+     ]
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 2120,
+        "name": "Wanderwine Prophets",
+        "oracleId": "9ab36915-b600-4970-961a-403f5da0dba1",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Merfolk Wizard",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.png?1783942895",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2061,
+        "name": "Extravagant Replication",
+        "oracleId": "3a646245-b8b7-4f91-a312-d5eea9a9e49a",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.png?1783909081",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Wanderwine Prophets + Extravagant Replication",
+     "popularity": 109,
+     "produces": [
+      {
+       "name": "Infinite turns"
+      },
+      {
+       "name": "Lock"
+      }
+     ],
+     "description": "Declare Wanderwine Prophets as an attacker.\nDeal combat damage to an opponent using Wanderwine Prophets.\nWanderwine Prophets triggers, causing you to sacrifice the Merfolk token and take an extra turn after this one.\nAt the begining of your upkeep Extravagant Replication triggers creating a copy of a merfolk you control.\nRepeat each turn.",
+     "notablePrerequisites": "Wanderwine Prophets cannot be blocked by opponents.",
+     "easyPrerequisites": "Wanderwine Prophets does not have summoning sickness.\nYou control at least one other merfolk.",
+     "plans": [
+      "Topdeck",
+      "Combo"
+     ],
+     "in_deck": [
+      "Extravagant Replication"
+     ]
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 1530,
+        "name": "Second Chance",
+        "oracleId": "aa19bbf0-7de3-4ec3-a98b-2ac7533c6b0b",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.png?1783946245",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2061,
+        "name": "Extravagant Replication",
+        "oracleId": "3a646245-b8b7-4f91-a312-d5eea9a9e49a",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.png?1783909081",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Second Chance + Extravagant Replication",
+     "popularity": 106,
+     "produces": [
+      {
+       "name": "Infinite turns"
+      },
+      {
+       "name": "Lock"
+      }
+     ],
+     "description": "At the beginning of your upkeep, Second Chance and Extravagant Replication trigger.\nResolve the Extravagant Replication trigger, creating a token copy of Second Chance.\nResolve the Second Chance trigger, causing you to sacrifice it and take an extra turn after this one.\nRepeat each turn.",
+     "notablePrerequisites": "You have 5 or less life.",
+     "easyPrerequisites": "",
+     "plans": [
+      "Topdeck",
+      "Combo"
+     ],
+     "in_deck": [
+      "Extravagant Replication"
+     ]
+    }
    ]
   },
   {
@@ -816,6 +1081,183 @@
     "Shark Typhoon",
     "Sigil of the Empty Throne",
     "Sphere of Safety"
+   ],
+   "description": "Esper control with enchantment-based answers: Swords to Plowshares, Path to Exile, Utter End, Cast Out, Return to Dust, Arcane Denial and counterspells keep the table in check while the enchantress engine refills your hand. Doomwake Giant is a recurring wipe via constellation.",
+   "win": "Out-value and out-last: Terminus/Time Wipe reset the board, then win with the enchantress card advantage — Angel tokens, Dream Eater beats, or a copied engine via Mirrormade/Extravagant Replication. Sharuum + Mirrormade loops are infinite ETB (see combos).",
+   "combos": [
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 4112,
+        "name": "Sharuum the Hegemon",
+        "oracleId": "037e7fc9-3aa6-484c-a2c8-43009e45f1d8",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Legendary Artifact Creature — Sphinx",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.png?1783930126",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2210,
+        "name": "Mirrormade",
+        "oracleId": "79a71fe5-38ce-4bb5-aea0-c9b9a856d397",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.png?1783909627",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "H"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Sharuum the Hegemon + Mirrormade",
+     "popularity": 673,
+     "produces": [
+      {
+       "name": "Infinite creature ETB"
+      },
+      {
+       "name": "Infinite creature LTB"
+      }
+     ],
+     "description": "Cast Mirrormade by paying {1}{U}{U}.\nMirrormade enters as a copy of Sharuum.\nPut Sharuum into the graveyard due to the legend rule.\nMirrormade triggers, returning Sharuum from your graveyard to the battlefield.\nPut Sharuum into the graveyard due to the legend rule.\nSharuum enters the battlefield triggers, returning itself from your graveyard to the battlefield.\nRepeat from step 5.",
+     "notablePrerequisites": "",
+     "easyPrerequisites": "",
+     "plans": [
+      "Pillow Fort",
+      "Combo",
+      "Control"
+     ],
+     "in_deck": [
+      "Mirrormade"
+     ]
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 3790,
+        "name": "Mystic Barrier",
+        "oracleId": "0caf42f5-abff-48aa-9bbf-df6cba169ef3",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.png?1783939689",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2210,
+        "name": "Mirrormade",
+        "oracleId": "79a71fe5-38ce-4bb5-aea0-c9b9a856d397",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.png?1783909627",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "as a copy of Mystic Barrier",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Mystic Barrier + Mirrormade",
+     "popularity": 468,
+     "produces": [
+      {
+       "name": "Creatures can't attack"
+      },
+      {
+       "name": "Lock"
+      }
+     ],
+     "description": "At the beginning of each of your upkeeps, Mystic Barrier and Mirrormade trigger, choosing \"left\" for Mystic Barrier and \"right\" for Mirrormade.\nAs long as there are three or more players in the game, creatures cannot attack.",
+     "notablePrerequisites": "You have at least two opponents.",
+     "easyPrerequisites": "",
+     "plans": [
+      "Pillow Fort",
+      "Control"
+     ],
+     "in_deck": [
+      "Mirrormade"
+     ]
+    }
    ]
   },
   {
@@ -874,6 +1316,183 @@
     "Shark Typhoon",
     "Sigil of the Empty Throne",
     "Sphere of Safety"
+   ],
+   "description": "Defensive enchantments that make attacking you expensive or impossible: Sphere of Safety (attackers pay {1} per enchantment), Archangel of Tithes, Prophetic Fields — combined with the enchantress draw engine and Aminatou's surveil, you build an impenetrable fort while assembling the finisher.",
+   "win": "Lock the table out and win at leisure: Mystic Barrier + Mirrormade prevents all attacks (see combos); Sigil of the Empty Throne + Extravagant Replication builds an unbeatable Angel army while opponents can't profitably attack.",
+   "combos": [
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 4112,
+        "name": "Sharuum the Hegemon",
+        "oracleId": "037e7fc9-3aa6-484c-a2c8-43009e45f1d8",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Legendary Artifact Creature — Sphinx",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.png?1783930126",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2210,
+        "name": "Mirrormade",
+        "oracleId": "79a71fe5-38ce-4bb5-aea0-c9b9a856d397",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.png?1783909627",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "H"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Sharuum the Hegemon + Mirrormade",
+     "popularity": 673,
+     "produces": [
+      {
+       "name": "Infinite creature ETB"
+      },
+      {
+       "name": "Infinite creature LTB"
+      }
+     ],
+     "description": "Cast Mirrormade by paying {1}{U}{U}.\nMirrormade enters as a copy of Sharuum.\nPut Sharuum into the graveyard due to the legend rule.\nMirrormade triggers, returning Sharuum from your graveyard to the battlefield.\nPut Sharuum into the graveyard due to the legend rule.\nSharuum enters the battlefield triggers, returning itself from your graveyard to the battlefield.\nRepeat from step 5.",
+     "notablePrerequisites": "",
+     "easyPrerequisites": "",
+     "plans": [
+      "Pillow Fort",
+      "Combo",
+      "Control"
+     ],
+     "in_deck": [
+      "Mirrormade"
+     ]
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 3790,
+        "name": "Mystic Barrier",
+        "oracleId": "0caf42f5-abff-48aa-9bbf-df6cba169ef3",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.png?1783939689",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2210,
+        "name": "Mirrormade",
+        "oracleId": "79a71fe5-38ce-4bb5-aea0-c9b9a856d397",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.png?1783909627",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "as a copy of Mystic Barrier",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Mystic Barrier + Mirrormade",
+     "popularity": 468,
+     "produces": [
+      {
+       "name": "Creatures can't attack"
+      },
+      {
+       "name": "Lock"
+      }
+     ],
+     "description": "At the beginning of each of your upkeeps, Mystic Barrier and Mirrormade trigger, choosing \"left\" for Mystic Barrier and \"right\" for Mirrormade.\nAs long as there are three or more players in the game, creatures cannot attack.",
+     "notablePrerequisites": "You have at least two opponents.",
+     "easyPrerequisites": "",
+     "plans": [
+      "Pillow Fort",
+      "Control"
+     ],
+     "in_deck": [
+      "Mirrormade"
+     ]
+    }
    ]
   },
   {
@@ -932,7 +1551,10 @@
     "Shark Typhoon",
     "Sigil of the Empty Throne",
     "Sphere of Safety"
-   ]
+   ],
+   "description": "Enchantments that create tokens: Sigil of the Empty Throne (Angels), Shark Typhoon (Sharks on every noncreature spell), Extravagant Replication (copies), Life Insurance (token on death). Aminatou's miracle discount lets you chain enchantments and flood the board.",
+   "win": "Go wide: Angel tokens from Sigil + Angels from Entreat, Shark Typhoon flips into a huge Shark whenever you cast a spell, Extravagant Replication doubles your best token maker each upkeep. Inkshield turns a lost combat into 8+ 2/1 flying tokens.",
+   "combos": []
   },
   {
    "tag": "Combo",
@@ -989,6 +1611,355 @@
     "Redress Fate",
     "Shark Typhoon",
     "Sphere of Safety"
+   ],
+   "description": "The combo finish the precon's engines enable: Extravagant Replication and Mirrormade are copy engines that go infinite with the right piece. Aminatou's topdeck control digs to the combo pieces; the enchantress draw finds them.",
+   "win": "Infinite turns: Timestream Navigator / Wanderwine Prophets / Second Chance + Extravagant Replication (see combos). Infinite ETB: Sharuum the Hegemon + Mirrormade. Lock: Mystic Barrier + Mirrormade. Note: the combo pieces are NOT in the precon — these are upgrade paths.",
+   "combos": [
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 1061,
+        "name": "Timestream Navigator",
+        "oracleId": "d0896996-ee31-402e-b642-4e7cca4929fe",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Human Pirate Wizard",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.png?1783913879",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2061,
+        "name": "Extravagant Replication",
+        "oracleId": "3a646245-b8b7-4f91-a312-d5eea9a9e49a",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.png?1783909081",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Timestream Navigator + Extravagant Replication",
+     "popularity": 927,
+     "produces": [
+      {
+       "name": "Infinite turns"
+      },
+      {
+       "name": "Lock"
+      }
+     ],
+     "description": "During your upkeep, Extravagant Replication triggers, creating a token copy of Timestream Navigator.\nDuring your next upkeep, Extravagant Replication triggers, creating a token copy of Timestream Navigator.\nActivate the ability of a Timestream Navigator token that did not enter the battlefield this turn by paying {2}{U}{U}, tapping it, and putting it on the bottom of your library, taking an extra turn.\nRepeat from 2.",
+     "notablePrerequisites": "You have the city's blessing.",
+     "easyPrerequisites": "",
+     "plans": [
+      "Topdeck",
+      "Combo"
+     ],
+     "in_deck": [
+      "Extravagant Replication"
+     ]
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 4112,
+        "name": "Sharuum the Hegemon",
+        "oracleId": "037e7fc9-3aa6-484c-a2c8-43009e45f1d8",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Legendary Artifact Creature — Sphinx",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.png?1783930126",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2210,
+        "name": "Mirrormade",
+        "oracleId": "79a71fe5-38ce-4bb5-aea0-c9b9a856d397",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.png?1783909627",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "H"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Sharuum the Hegemon + Mirrormade",
+     "popularity": 673,
+     "produces": [
+      {
+       "name": "Infinite creature ETB"
+      },
+      {
+       "name": "Infinite creature LTB"
+      }
+     ],
+     "description": "Cast Mirrormade by paying {1}{U}{U}.\nMirrormade enters as a copy of Sharuum.\nPut Sharuum into the graveyard due to the legend rule.\nMirrormade triggers, returning Sharuum from your graveyard to the battlefield.\nPut Sharuum into the graveyard due to the legend rule.\nSharuum enters the battlefield triggers, returning itself from your graveyard to the battlefield.\nRepeat from step 5.",
+     "notablePrerequisites": "",
+     "easyPrerequisites": "",
+     "plans": [
+      "Pillow Fort",
+      "Combo",
+      "Control"
+     ],
+     "in_deck": [
+      "Mirrormade"
+     ]
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 2120,
+        "name": "Wanderwine Prophets",
+        "oracleId": "9ab36915-b600-4970-961a-403f5da0dba1",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Merfolk Wizard",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.png?1783942895",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2061,
+        "name": "Extravagant Replication",
+        "oracleId": "3a646245-b8b7-4f91-a312-d5eea9a9e49a",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.png?1783909081",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Wanderwine Prophets + Extravagant Replication",
+     "popularity": 109,
+     "produces": [
+      {
+       "name": "Infinite turns"
+      },
+      {
+       "name": "Lock"
+      }
+     ],
+     "description": "Declare Wanderwine Prophets as an attacker.\nDeal combat damage to an opponent using Wanderwine Prophets.\nWanderwine Prophets triggers, causing you to sacrifice the Merfolk token and take an extra turn after this one.\nAt the begining of your upkeep Extravagant Replication triggers creating a copy of a merfolk you control.\nRepeat each turn.",
+     "notablePrerequisites": "Wanderwine Prophets cannot be blocked by opponents.",
+     "easyPrerequisites": "Wanderwine Prophets does not have summoning sickness.\nYou control at least one other merfolk.",
+     "plans": [
+      "Topdeck",
+      "Combo"
+     ],
+     "in_deck": [
+      "Extravagant Replication"
+     ]
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 1530,
+        "name": "Second Chance",
+        "oracleId": "aa19bbf0-7de3-4ec3-a98b-2ac7533c6b0b",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.png?1783946245",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2061,
+        "name": "Extravagant Replication",
+        "oracleId": "3a646245-b8b7-4f91-a312-d5eea9a9e49a",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.png?1783909081",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Second Chance + Extravagant Replication",
+     "popularity": 106,
+     "produces": [
+      {
+       "name": "Infinite turns"
+      },
+      {
+       "name": "Lock"
+      }
+     ],
+     "description": "At the beginning of your upkeep, Second Chance and Extravagant Replication trigger.\nResolve the Extravagant Replication trigger, creating a token copy of Second Chance.\nResolve the Second Chance trigger, causing you to sacrifice it and take an extra turn after this one.\nRepeat each turn.",
+     "notablePrerequisites": "You have 5 or less life.",
+     "easyPrerequisites": "",
+     "plans": [
+      "Topdeck",
+      "Combo"
+     ],
+     "in_deck": [
+      "Extravagant Replication"
+     ]
+    }
    ]
   }
  ],

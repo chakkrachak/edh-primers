@@ -386,3 +386,20 @@ strong { color: var(--text-strong); }
 .score-bar { flex: 1; height: 10px; background: #1f1f3a; border-radius: 5px; overflow: hidden; }
 .score-fill { height: 100%; background: linear-gradient(90deg, var(--accent-green), #79c0ff); border-radius: 5px; }
 .score-val { flex: 0 0 70px; text-align: right; color: #8a93b8; font-variant-numeric: tabular-nums; }
+
+/* Precon eval v3: plan description / win conditions / combos */
+.plan-desc { margin: 8px 0 10px; padding: 10px 12px; background: #14142a; border-left: 3px solid var(--accent-blue);
+  border-radius: 0 var(--radius) var(--radius) 0; font-size: 13px; line-height: 1.6; }
+.plan-desc p { margin: 4px 0; }
+.plan-desc strong { color: var(--accent-green); }
+.plan-combos { margin: 12px 0 6px; padding-top: 10px; border-top: 1px dashed #2d2d44; }
+.plan-combos > strong { color: var(--accent-green); }
+.plan-combos .combo { background: var(--bg-inset); border: 1px solid #232342; border-radius: var(--radius);
+  padding: 10px 12px; margin: 8px 0; }
+.plan-combos .combo h4 { margin: 0 0 6px; color: #ffd77a; font-size: 14px; }
+.plan-combos .combo .center { margin: 6px 0; }
+.plan-combos .combo .center img { width: 110px !important; }
+.combo-meta { font-size: 12px; color: #8a93b8; margin-bottom: 6px; }
+.combo-meta .badge { display: inline-block; background: #1f1f3a; border: 1px solid var(--accent-green);
+  color: var(--accent-green); border-radius: 6px; padding: 0 6px; font-size: 11px; margin-right: 4px; }
+.combo-desc { font-size: 12px; color: #c8d0e8; margin: 6px 0 0; line-height: 1.55; }

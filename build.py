@@ -147,6 +147,15 @@ def build_precon(slug):
         d = json.load(f)
 
     cmdr = d['commander']
+    # images globales : cartes du deck + cartes de combos (pour les blocs combo)
+    imgs_global = {}
+    for cat in d['cards'].values():
+        for c in cat:
+            imgs_global[c['name']] = c.get('img', '')
+    for p in d['plans']:
+        for c in p.get('combos', []):
+            for u in c.get('uses', []):
+                imgs_global.setdefault(u['card']['name'], u.get('card', {}).get('imageUriFrontNormal', ''))
     ctx = {
         'precon_name': d['precon_name'],
         'commander_name': cmdr['name'],
@@ -212,11 +221,28 @@ def build_precon(slug):
         tag_decks = p['decks']
         tag_cls = 'hi' if tag_decks > 500 else ('mid' if tag_decks > 100 else 'lo')
         tag_slug = re.sub(r'[^a-z0-9]+', '-', p['tag'].lower()).strip('-')
+        # combos for this plan (with images)
+        plan_combos = []
+        for c in p.get('combos', []):
+            names = [u['card']['name'] for u in c.get('uses', [])]
+            produces = [f.get('name', '') for f in c.get('produces', []) if isinstance(f, dict)][:6]
+            plan_combos.append({
+                'title': c.get('title', ' + '.join(names)),
+                'copy_btn': copy_btn(names),
+                'bigs': ''.join(big_card(imgs_global.get(n, ''), n, 110) for n in names),
+                'produces': produces,
+                'popularity': c.get('popularity', 0),
+                'in_deck': c.get('in_deck', []),
+                'desc': ' '.join((c.get('description') or '').split())[:220],
+            })
         plans.append({
             'tag': p['tag'], 'decks': p['decks'], 'tag_cls': tag_cls, 'tag_slug': tag_slug,
+            'description': p.get('description', ''),
+            'win': p.get('win', ''),
             'high_synergy': p.get('high_synergy', []),
             'deck_matches': p.get('deck_matches', []),
             'match_cards': match_cards,
+            'combos': plan_combos,
             'pct': pct,
         })
     ctx['plans'] = plans

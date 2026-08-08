@@ -45,6 +45,22 @@
 
 {% for p in plans %}
 <div class="category" id="plan-{{ p.tag_slug }}"><h3>{% if p.decks > 500 %}👑{% else %}🎯{% endif %} {{ p.tag }} — {{ p.decks }} decks</h3>
+<div class="plan-desc">
+<p><strong>📖 Game plan</strong>: {{ p.description|safe }}</p>
+<p><strong>🏆 Win conditions</strong>: {{ p.win|safe }}</p>
+</div>
+{% if p.combos %}
+<div class="plan-combos"><strong>🔗 Combos (Commander Spellbook)</strong>
+{% for c in p.combos %}
+<div class="combo">
+<h4>{{ c.title }} {{ c.copy_btn }}</h4>
+<div class="combo-meta"><span class="badge">pop {{ c.popularity }}</span> → <em>{{ c.produces|join(', ') }}</em>{% if c.in_deck %} · in the precon: {{ c.in_deck|join(', ') }}{% else %} · upgrade cards{% endif %}</div>
+<div class="center">{{ c.bigs|safe }}</div>
+<p class="combo-desc">{{ c.desc|safe }}…</p>
+</div>
+{% endfor %}
+</div>
+{% endif %}
 <div class="summary">EDHREC High Synergy pool: {{ p.high_synergy|length }} cards · <strong>{{ p.deck_matches|length }} of the deck's cards match this plan</strong>{% if p.deck_matches %}: {{ p.deck_matches|join(', ') }}{% else %} — no direct high-synergy overlap{% endif %}.</div>
 <div class="card-grid">
 {% for m in p.match_cards %}
