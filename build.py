@@ -367,12 +367,23 @@ def build_precon(slug):
     print(f"✓ Eval {d['precon_name']}: {ctx['n_cards']} cartes, {len(plans)} plans → {filename}")
     return path
 
+def _color_letters(ci_text):
+    """Extrait les lettres W/U/B/R/G depuis un texte d'identité (ex. '🔵⚫ Dimir (U/B)' → 'UB')."""
+    return ''.join(c for c in 'WUBRG' if c in (ci_text or ''))
+
 def build_index():
     """Régénère index.html : data/index.json + extraction depuis les rapports générés."""
     with open(f'{BASE}/data/index.json', encoding='utf-8') as f:
         idx = json.load(f)
     template = open(f'{BASE}/templates/index.html', encoding='utf-8').read()
 
+    pip_map = {'W': ('pip-w', 'White'), 'U': ('pip-u', 'Blue'), 'B': ('pip-b', 'Black'),
+               'R': ('pip-r', 'Red'), 'G': ('pip-g', 'Green')}
+
+    def pips_for(letters):
+        return [{'cls': cls, 'title': title} for letter, (cls, title) in pip_map.items() if letter in letters]
+
+    # --- primers ---
     cards = []
     # Le mapping nom→slug vient des JSON eux-mêmes (deck_slug + commander_name) —
     # plus de DECK_SLUGS à maintenir dans le code.
@@ -399,12 +410,10 @@ def build_index():
         if not img:
             m = re.search(r'<img src="(https://cards\.scryfall\.io/[^"]+)"[^>]*data-name="[^"]*"[^>]*/>', html)
             img = m.group(1) if m else ''
-        # pips from color identity
+        # pips + colors from color identity
         m = re.search(r'<strong>Color identity</strong></td><td>([^<]+)</td>', html)
         ci = m.group(1) if m else ''
-        pip_map = {'W': ('pip-w', 'White'), 'U': ('pip-u', 'Blue'), 'B': ('pip-b', 'Black'),
-                   'R': ('pip-r', 'Red'), 'G': ('pip-g', 'Green')}
-        pips = [{'cls': cls, 'title': title} for letter, (cls, title) in pip_map.items() if letter in ci]
+        letters = _color_letters(ci)
         # high synergy thumbs — the commander's EDHREC High Synergy pool, sorted by synergy
         # score descending (most synergistic first). Read from the deck JSON, not the HTML.
         thumbs = []
@@ -426,19 +435,71 @@ def build_index():
             'href': path.replace(f'{OUT_DIR}/', 'content/'),
             'name': name,
             'img': img,
-            'pips': pips,
+            'pips': pips_for(letters),
+            'colors': letters,
+            'kind': 'primer',
             'plan': idx['plans'].get(name, ''),
             'desc': idx['descriptions'].get(name, ''),
             'thumbs': thumbs,
         })
-        print(f"✓ index: {name} (pips={len(pips)}, thumbs={len(thumbs)})")
+        print(f"✓ index: {name} (pips={len(pips_for(letters))}, thumbs={len(thumbs)})")
+
+    # --- evaluations (precons) ---
+    evals = []
+    eval_slug_by_name = {}
+    for dpath in sorted(glob.glob(f'{PRECON_DIR}/*.json')):
+        with open(dpath, encoding='utf-8') as f:
+            d = json.load(f)
+        eval_slug_by_name[d.get('commander', {}).get('name', '')] = d.get('precon_slug', '')
+    for name in idx.get('evals_order', []):
+        slug = eval_slug_by_name.get(name)
+        if not slug:
+            print(f"⚠️ index: pas de JSON éval pour {name}")
+            continue
+        files = sorted(glob.glob(f'{OUT_DIR}/EDH-Eval-{slug}-*.html'))
+        if not files:
+            print(f"⚠️ index: pas d'éval pour {name}")
+            continue
+        path = files[-1]
+        with open(f'{PRECON_DIR}/{slug}.json', encoding='utf-8') as f:
+            deck = json.load(f)
+        cmdr = deck.get('commander', {})
+        img = cmdr.get('img', '')
+        # colors from mana cost letters
+        mc = cmdr.get('mana_cost', '')
+        letters = ''.join(c for c in 'WUBRG' if c in mc)
+        # thumbs: cards in the commander's HS pool (in_main_hs), sorted by synergy
+        hs = []
+        for cat in deck.get('cards', {}).values():
+            for c in cat:
+                if c.get('in_main_hs'):
+                    hs.append((c['name'], c.get('synergy') or -1))
+        hs.sort(key=lambda x: x[1], reverse=True)
+        thumbs = [{'name': nm, 'img': next((c.get('img', '') for cat in deck.get('cards', {}).values()
+                                            for c in cat if c['name'] == nm), '')} for nm, _ in hs[:6]]
+        evals.append({
+            'href': path.replace(f'{OUT_DIR}/', 'content/'),
+            'name': name,
+            'img': img,
+            'pips': pips_for(letters),
+            'colors': letters,
+            'kind': 'eval',
+            'plan': idx.get('eval_plans', {}).get(name, ''),
+            'desc': idx.get('eval_descriptions', {}).get(name, ''),
+            'thumbs': thumbs,
+        })
+        print(f"✓ index eval: {name} (pips={len(pips_for(letters))}, thumbs={len(thumbs)})")
 
     ctx = dict(idx)
     ctx['cards'] = cards
+    ctx['evals'] = evals
+    ctx['n_primers'] = len(cards)
+    ctx['n_evals'] = len(evals)
+    ctx['n_total'] = len(cards) + len(evals)
     html_out = render(template, ctx)
     with open(f'{BASE}/index.html', 'w', encoding='utf-8') as f:
         f.write(html_out)
-    print(f"✓ index.html régénéré ({len(cards)} cards)")
+    print(f"✓ index.html régénéré ({len(cards)} primers + {len(evals)} evals)")
 
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)

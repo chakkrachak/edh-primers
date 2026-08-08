@@ -10,14 +10,35 @@
 <header>
   <h1>{{ header_title|safe }}</h1>
   <div class="sub">{{ header_sub|safe }}</div>
-  <span class="count">{{ count_label|escape }}</span>
+  <span class="count">{{ n_total }} documents · {{ n_primers }} primers · {{ n_evals }} evaluations</span>
 </header>
-<div class="grid">
+
+<nav class="filters" id="filters">
+  <div class="filter-group">
+    <span class="filter-label">Type</span>
+    <button class="fbtn active" data-filter="type" data-value="all">All</button>
+    <button class="fbtn" data-filter="type" data-value="primer">📋 Primers ({{ n_primers }})</button>
+    <button class="fbtn" data-filter="type" data-value="eval">🎴 Evaluations ({{ n_evals }})</button>
+  </div>
+  <div class="filter-group">
+    <span class="filter-label">Colors</span>
+    <button class="fbtn active" data-filter="color" data-value="all">All</button>
+    <button class="fbtn fbtn-w" data-filter="color" data-value="W">W</button>
+    <button class="fbtn fbtn-u" data-filter="color" data-value="U">U</button>
+    <button class="fbtn fbtn-b" data-filter="color" data-value="B">B</button>
+    <button class="fbtn fbtn-r" data-filter="color" data-value="R">R</button>
+    <button class="fbtn fbtn-g" data-filter="color" data-value="G">G</button>
+  </div>
+</nav>
+
+<section id="primers">
+  <h2 class="section-title"><a href="#primers">📋 Primers <span class="section-count">{{ n_primers }}</span></a></h2>
+  <div class="grid">
 {% for card in cards %}
-    <a class="card" href="{{ card.href }}">
+    <a class="card" href="{{ card.href }}" data-kind="{{ card.kind }}" data-colors="{{ card.colors }}">
       <div class="card-art"><img loading="lazy" src="{{ card.img }}" alt="{{ card.name }}" data-name="{{ card.name }}"></div>
       <div class="card-body">
-        <div class="card-name">{{ card.name|escape }}</div>
+        <div class="card-name">{{ card.name|escape }} <span class="card-badge badge-primer">Primer</span></div>
         <div class="card-pips">{% for pip in card.pips %}<span class="pip {{ pip.cls }}" title="{{ pip.title }}"></span>{% endfor %}</div>
         <div class="card-plan">{{ card.plan|safe }}</div>
         <p class="card-desc">{{ card.desc|safe }}</p>
@@ -28,6 +49,77 @@
       </div>
     </a>
 {% endfor %}
-</div>
+  </div>
+</section>
+
+<section id="evals">
+  <h2 class="section-title"><a href="#evals">🎴 Evaluations <span class="section-count">{{ n_evals }}</span></a></h2>
+  <div class="grid">
+{% for card in evals %}
+    <a class="card" href="{{ card.href }}" data-kind="{{ card.kind }}" data-colors="{{ card.colors }}">
+      <div class="card-art"><img loading="lazy" src="{{ card.img }}" alt="{{ card.name }}" data-name="{{ card.name }}"></div>
+      <div class="card-body">
+        <div class="card-name">{{ card.name|escape }} <span class="card-badge badge-eval">Evaluation</span></div>
+        <div class="card-pips">{% for pip in card.pips %}<span class="pip {{ pip.cls }}" title="{{ pip.title }}"></span>{% endfor %}</div>
+        <div class="card-plan">{{ card.plan|safe }}</div>
+        <p class="card-desc">{{ card.desc|safe }}</p>
+        <div class="card-hs">
+          <div class="hs-label">High Synergy</div>
+          <div class="hs-row">{% for t in card.thumbs %}<span class="thumb" title="{{ t.name }}"><img loading="lazy" src="{{ t.img }}" alt="{{ t.name }}"></span>{% endfor %}</div>
+        </div>
+      </div>
+    </a>
+{% endfor %}
+  </div>
+</section>
+
 <footer>{{ footer|safe }}</footer>
+<script>
+(function(){
+  var fType = 'all', fColor = 'all';
+  var btns = document.querySelectorAll('.fbtn');
+  btns.forEach(function(b){
+    b.addEventListener('click', function(){
+      var f = b.getAttribute('data-filter'), v = b.getAttribute('data-value');
+      if (f === 'type') fType = v; else fColor = v;
+      btns.forEach(function(x){
+        if (x.getAttribute('data-filter') === f) x.classList.toggle('active', x === b);
+      });
+      apply();
+    });
+  });
+  function apply(){
+    var cards = document.querySelectorAll('.grid .card');
+    var visible = 0;
+    cards.forEach(function(c){
+      var okType = (fType === 'all' || c.getAttribute('data-kind') === fType);
+      var cols = c.getAttribute('data-colors') || '';
+      var okColor = (fColor === 'all' || cols.indexOf(fColor) !== -1);
+      var show = okType && okColor;
+      c.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    var sPrim = document.getElementById('primers'), sEval = document.getElementById('evals');
+    var nP = countVisible('primer'), nE = countVisible('eval');
+    sPrim.style.display = (fType === 'all' || fType === 'primer') && (fColor === 'all' || anyColor(sPrim)) ? '' : 'none';
+    sEval.style.display = (fType === 'all' || fType === 'eval') && (fColor === 'all' || anyColor(sEval)) ? '' : 'none';
+    document.querySelectorAll('.section-count')[0].textContent = nP;
+    document.querySelectorAll('.section-count')[1].textContent = nE;
+  }
+  function countVisible(kind){
+    var n = 0;
+    document.querySelectorAll('.grid .card').forEach(function(c){
+      if (c.getAttribute('data-kind') === kind && c.style.display !== 'none') n++;
+    });
+    return n;
+  }
+  function anyColor(sec){
+    var found = false;
+    sec.querySelectorAll('.card').forEach(function(c){
+      if (c.style.display !== 'none') found = true;
+    });
+    return found;
+  }
+})();
+</script>
 </body></html>

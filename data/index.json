@@ -1,10 +1,10 @@
 {
   "page_title": "EDH Primers — Commander Deck Reports",
   "meta_description": "Complete Commander EDH deck reports: Scryfall, EDHREC, Commander Spellbook.",
-  "og_description": "11 Commander deck reports",
+  "og_description": "11 Commander deck reports + 1 precon evaluation",
   "header_title": "EDH <span class=\"accent\">Primers</span>",
   "header_sub": "Complete Commander deck reports — Scryfall · EDHREC · Commander Spellbook",
-  "count_label": "11 decks analyzed",
+  "count_label": "12 documents analyzed",
   "footer": "Data: <a href=\"https://scryfall.com\">Scryfall</a> · <a href=\"https://edhrec.com\">EDHREC</a> · <a href=\"https://commanderspellbook.com\">Commander Spellbook</a>",
   "decks_order": [
     "Aminatou, the Fateshifter",
@@ -44,5 +44,14 @@
     "Slogurk, the Overslime": "A unique Simic lands-matter commander: every land that dies or is milled makes it grow (+1/+1). Sacrifice and replay your lands for value.",
     "Terra, Herald of Hope": "A Mardu reanimation commander who fills her own graveyard (Trance: mill 2 + flying at combat) then reanimates threats for free.",
     "Yuriko, the Tiger's Shadow": "A Dimir aggro/control ninjutsu commander who returns from the command zone at will for ~2 mana, flipping high-cost cards to drain the table."
+  },
+  "evals_order": [
+    "Aminatou, Veil Piercer"
+  ],
+  "eval_plans": {
+    "Aminatou, Veil Piercer": "MIRACLE WORKER — Enchantress & Topdeck (co-favorites)"
+  },
+  "eval_descriptions": {
+    "Aminatou, Veil Piercer": "Precon evaluation: the Duskmourn Miracle Worker list analyzed against EDHREC game plans — 88 unique cards, 6 archetypes ranked, high-synergy overlap per plan, combos and build-structure verdict."
   }
 }
