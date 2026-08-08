@@ -5206,5 +5206,975 @@
  "legality": "Legal",
  "oracle_text": "Menace (This creature can't be blocked except by two or more creatures.)<br><br>Whenever Lathril deals combat damage to a player, create that many 1/1 green Elf Warrior creature tokens.<br><img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, Tap ten untapped Elves you control: Each opponent loses 10 life and you gain 10 life.",
  "quick_read": "The <strong>Golgari Elf-tribal commander</strong> that creates a token army with every hit, then uses it through her activation to <strong>drain 10 life per opponent</strong> — a token machine that turns into a drain gun. Her elf mana engine also makes her naturally combo-oriented (Staff of Domination / Umbral Mantle).",
- "extra_table_rows": ""
+ "extra_table_rows": "",
+ "card_meta": {
+  "Abomination of Llanowar": {
+   "type_line": "Legendary Creature — Elf Horror",
+   "produced_mana": [],
+   "keywords": [
+    "Vigilance",
+    "Menace"
+   ]
+  },
+  "Abrupt Decay": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Allosaurus Shepherd": {
+   "type_line": "Creature — Elf Shaman",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Arbor Elf": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Arcane Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Argothian Elder": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Assassin's Trophy": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Banner of Kinship": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Beast Whisperer": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Beast Within": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Beastmaster Ascension": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Bloodline Bidding": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Convoke"
+   ]
+  },
+  "Bojuka Bog": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Boseiju, Who Endures": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": [
+    "Channel"
+   ]
+  },
+  "Bounty of Skemfar": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Breath of Fury": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Canopy Tactician": {
+   "type_line": "Creature — Elf Warrior",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Castle Garenbrig": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Cavern of Souls": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Chord of Calling": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Convoke"
+   ]
+  },
+  "Circle of Dreams Druid": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Coat of Arms": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Command Tower": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Commander's Sphere": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Concordant Crossroads": {
+   "type_line": "World Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Craterhoof Behemoth": {
+   "type_line": "Creature — Beast",
+   "produced_mana": [],
+   "keywords": [
+    "Haste"
+   ]
+  },
+  "Crippling Fear": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Crown of Skemfar": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Cultivate": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Darkbore Pathway // Slitherbore Pathway": {
+   "type_line": "Land // Land",
+   "produced_mana": [
+    "B",
+    "G"
+   ],
+   "keywords": []
+  },
+  "Deathcap Glade": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G"
+   ],
+   "keywords": []
+  },
+  "Devoted Druid": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Door of Destinies": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Doubling Season": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Dwynen, Gilt-Leaf Daen": {
+   "type_line": "Legendary Creature — Elf Warrior",
+   "produced_mana": [],
+   "keywords": [
+    "Reach"
+   ]
+  },
+  "Elderfang Venom": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Eldrazi Monument": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Elven Ambush": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Elven Chorus": {
+   "type_line": "Enchantment",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Elvish Archdruid": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Elvish Champion": {
+   "type_line": "Creature — Elf",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Elvish Guidance": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Elvish Harbinger": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Elvish Mystic": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Elvish Promenade": {
+   "type_line": "Kindred Sorcery — Elf",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Elvish Warmaster": {
+   "type_line": "Creature — Elf Warrior",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Emerald Medallion": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Exsanguinate": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Ezuri, Renegade Leader": {
+   "type_line": "Legendary Creature — Elf Warrior",
+   "produced_mana": [],
+   "keywords": [
+    "Regenerate"
+   ]
+  },
+  "Finale of Devastation": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Formidable Speaker": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Freyalise, Llanowar's Fury": {
+   "type_line": "Legendary Planeswalker — Freyalise",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Fyndhorn Elves": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Gaea's Cradle": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Genesis Wave": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Gilt-Leaf Palace": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G"
+   ],
+   "keywords": []
+  },
+  "Golgari Charm": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Regenerate"
+   ]
+  },
+  "Golgari Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G"
+   ],
+   "keywords": []
+  },
+  "Green Sun's Zenith": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun": {
+   "type_line": "Legendary Enchantment // Legendary Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": [
+    "Transform"
+   ]
+  },
+  "Guardian Project": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Gwenna, Eyes of Gaea": {
+   "type_line": "Legendary Creature — Elf Druid Scout",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Harald Unites the Elves": {
+   "type_line": "Enchantment — Saga",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Harvest Season": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Herald's Horn": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Heroic Intervention": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Hollowhenge Overlord": {
+   "type_line": "Creature — Wolf",
+   "produced_mana": [],
+   "keywords": [
+    "Flash"
+   ]
+  },
+  "Immaculate Magistrate": {
+   "type_line": "Creature — Elf Shaman",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Imperious Perfect": {
+   "type_line": "Creature — Elf Warrior",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Incubation Druid": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Adapt"
+   ]
+  },
+  "Kindred Dominance": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Lathril, Blade of the Elves": {
+   "type_line": "Legendary Creature — Elf Noble",
+   "produced_mana": [],
+   "keywords": [
+    "Menace"
+   ]
+  },
+  "Leaf-Crowned Visionary": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Leyline of Abundance": {
+   "type_line": "Enchantment",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Lightning Greaves": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Llanowar Elves": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Llanowar Tribe": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Lys Alana Huntmaster": {
+   "type_line": "Creature — Elf Warrior",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Magus of the Candelabra": {
+   "type_line": "Creature — Human Wizard",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Marwyn, the Nurturer": {
+   "type_line": "Legendary Creature — Elf Druid",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Mass Hysteria": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Moldervine Reclamation": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Myr Welder": {
+   "type_line": "Artifact Creature — Myr",
+   "produced_mana": [],
+   "keywords": [
+    "Imprint"
+   ]
+  },
+  "Najeela, the Blade-Blossom": {
+   "type_line": "Legendary Creature — Human Warrior",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Nature's Claim": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Necroblossom Snarl": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G"
+   ],
+   "keywords": []
+  },
+  "Nykthos, Shrine to Nyx": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Oran-Rief, the Vastwood": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Overgrown Tomb": {
+   "type_line": "Land — Swamp Forest",
+   "produced_mana": [
+    "B",
+    "G"
+   ],
+   "keywords": []
+  },
+  "Overrun": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Overwhelming Stampede": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Pact of the Serpent": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Parallel Lives": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Patchwork Banner": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Path of Ancestry": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Phyrexian Altar": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Poison-Tip Archer": {
+   "type_line": "Creature — Elf Archer",
+   "produced_mana": [],
+   "keywords": [
+    "Reach",
+    "Deathtouch"
+   ]
+  },
+  "Priest of Titania": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Prowess of the Fair": {
+   "type_line": "Kindred Enchantment — Elf",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Realmwalker": {
+   "type_line": "Creature — Shapeshifter",
+   "produced_mana": [],
+   "keywords": [
+    "Changeling"
+   ]
+  },
+  "Reclamation Sage": {
+   "type_line": "Creature — Elf Shaman",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Reliquary Tower": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Return of the Wildspeaker": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Rogue's Passage": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Secluded Courtyard": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Second Harvest": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Seedborn Muse": {
+   "type_line": "Creature — Spirit",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Shaman of the Pack": {
+   "type_line": "Creature — Elf Shaman",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Shamanic Revelation": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Ferocious"
+   ]
+  },
+  "Skemfar Shadowsage": {
+   "type_line": "Creature — Elf Cleric",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Skullclamp": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sol Ring": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Staff of Domination": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Swiftfoot Boots": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sylvan Anthem": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Sylvan Library": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Talisman of Resilience": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "C",
+    "G"
+   ],
+   "keywords": []
+  },
+  "Tear Asunder": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Kicker"
+   ]
+  },
+  "Temple of Malady": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G"
+   ],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Temur Sabertooth": {
+   "type_line": "Creature — Cat",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "The Great Henge": {
+   "type_line": "Legendary Artifact",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Thousand-Year Elixir": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Three Tree City": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Timberwatch Elf": {
+   "type_line": "Creature — Elf",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Trazyn the Infinite": {
+   "type_line": "Legendary Artifact Creature — Necron",
+   "produced_mana": [],
+   "keywords": [
+    "Prismatic Gallery",
+    "Deathtouch"
+   ]
+  },
+  "Triumph of the Hordes": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Twilight Mire": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "G"
+   ],
+   "keywords": []
+  },
+  "Tyvar Kell": {
+   "type_line": "Legendary Planeswalker — Tyvar",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Tyvar, Jubilant Brawler": {
+   "type_line": "Legendary Planeswalker — Tyvar",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Umbral Mantle": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Undergrowth Stadium": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G"
+   ],
+   "keywords": []
+  },
+  "Urborg, Tomb of Yawgmoth": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Vanquisher's Banner": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Verdant Catacombs": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Vitalize": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Voyaging Satyr": {
+   "type_line": "Creature — Satyr Druid",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Wirewood Channeler": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Wirewood Lodge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Wood Elves": {
+   "type_line": "Creature — Elf Scout",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Woodland Cemetery": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G"
+   ],
+   "keywords": []
+  },
+  "Yavimaya, Cradle of Growth": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Darkbore Pathway": {
+   "type_line": "Land // Land",
+   "produced_mana": [
+    "B",
+    "G"
+   ],
+   "keywords": []
+  },
+  "Growing Rites of Itlimoc": {
+   "type_line": "Legendary Enchantment // Legendary Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": [
+    "Transform"
+   ]
+  }
+ }
 }

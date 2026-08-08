@@ -2816,5 +2816,2220 @@
  "legality": "Legal",
  "oracle_text": "Trance — At the beginning of combat on your turn, mill two cards. Terra gains flying until end of turn.<br><br>Whenever Terra deals combat damage to a player, you may pay <img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/>. When you do, return target creature card with power 3 or less from your graveyard to the battlefield tapped.",
  "quick_read": "The <strong>Mardu reanimation commander</strong> who fills her own graveyard (Trance: mill two + flying at each combat start) and then reanimates a creature with power 3 or less for free on each hit for {2}. The deck combines cheap reanimation spells (Reanimate, Animate Dead) with massive finishers (Rise of the Dark Realms, Living Death).",
- "extra_table_rows": "<tr><td><strong>Power / Toughness</strong></td><td>3/3</td></tr>"
+ "extra_table_rows": "<tr><td><strong>Power / Toughness</strong></td><td>3/3</td></tr>",
+ "card_meta": {
+  "Abdel Adrian, Gorion's Ward": {
+   "type_line": "Legendary Creature — Human Warrior",
+   "produced_mana": [],
+   "keywords": [
+    "Choose a background"
+   ]
+  },
+  "Abhorrent Overlord": {
+   "type_line": "Creature — Demon",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Access Tunnel": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Accursed Marauder": {
+   "type_line": "Creature — Zombie Warrior",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Activated Sleeper": {
+   "type_line": "Creature — Phyrexian Shapeshifter",
+   "produced_mana": [],
+   "keywords": [
+    "Flash"
+   ]
+  },
+  "Aetherflux Reservoir": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Akroma's Will": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Alesha, Who Laughs at Fate": {
+   "type_line": "Legendary Creature — Human Warrior",
+   "produced_mana": [],
+   "keywords": [
+    "First strike",
+    "Raid"
+   ]
+  },
+  "Altar of Dementia": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Amulet of Vigor": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Angelic Chorus": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Angelic Renewal": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Anger": {
+   "type_line": "Creature — Incarnation",
+   "produced_mana": [],
+   "keywords": [
+    "Haste"
+   ]
+  },
+  "Anguished Unmaking": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Animate Dead": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Arcane Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Archfiend of Depravity": {
+   "type_line": "Creature — Demon",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Ardent Elementalist": {
+   "type_line": "Creature — Human Shaman",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Arena of Glory": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": [
+    "Exert"
+   ]
+  },
+  "Arid Mesa": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Ark of Hunger": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Ash Barrens": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": [
+    "Landcycling",
+    "Basic landcycling",
+    "Typecycling",
+    "Cycling"
+   ]
+  },
+  "Ashnod's Altar": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Aurelia, the Warleader": {
+   "type_line": "Legendary Creature — Angel",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Vigilance",
+    "Haste"
+   ]
+  },
+  "Banon, the Returners' Leader": {
+   "type_line": "Legendary Creature — Human Cleric Rebel",
+   "produced_mana": [],
+   "keywords": [
+    "Pray"
+   ]
+  },
+  "Bartolomé del Presidio": {
+   "type_line": "Legendary Creature — Vampire Knight",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Battlefield Forge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Bedevil": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Biblioplex Tomekeeper": {
+   "type_line": "Artifact Creature — Construct",
+   "produced_mana": [],
+   "keywords": [
+    "Prepared"
+   ]
+  },
+  "Big Score": {
+   "type_line": "Instant",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Treasure"
+   ]
+  },
+  "Bishop of Wings": {
+   "type_line": "Creature — Human Cleric",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Black Market Connections": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Hire a Mercenary",
+    "Treasure",
+    "Sell Contraband",
+    "Buy Information"
+   ]
+  },
+  "Black Panther, Most Dangerous": {
+   "type_line": "Legendary Creature — Human Warrior Hero",
+   "produced_mana": [],
+   "keywords": [
+    "Power-up"
+   ]
+  },
+  "Black Widow, Agile Avenger": {
+   "type_line": "Legendary Creature — Human Spy Hero",
+   "produced_mana": [],
+   "keywords": [
+    "Menace"
+   ]
+  },
+  "Black Widow, Daring Operative": {
+   "type_line": "Legendary Creature — Human Spy Hero",
+   "produced_mana": [],
+   "keywords": [
+    "Menace",
+    "Mill"
+   ]
+  },
+  "Blade Historian": {
+   "type_line": "Creature — Human Cleric",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Blasphemous Act": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Blasting Station": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Blazemire Verge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Bleachbone Verge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Blood Crypt": {
+   "type_line": "Land — Swamp Mountain",
+   "produced_mana": [
+    "B",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Blood Pet": {
+   "type_line": "Creature — Thrull",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Bloodstained Mire": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Body Launderer": {
+   "type_line": "Creature — Ogre Rogue",
+   "produced_mana": [],
+   "keywords": [
+    "Connive",
+    "Deathtouch"
+   ]
+  },
+  "Bojuka Bog": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Boromir, Warden of the Tower": {
+   "type_line": "Legendary Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": [
+    "Vigilance"
+   ]
+  },
+  "Boros Charm": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Boros Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Braids, Arisen Nightmare": {
+   "type_line": "Legendary Creature — Nightmare",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Brass's Tunnel-Grinder // Tecutlan, the Searing Rift": {
+   "type_line": "Legendary Artifact // Legendary Land — Cave",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": [
+    "Transform",
+    "Discover"
+   ]
+  },
+  "Breath of Fury": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Brotherhood Regalia": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Buried Alive": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Carrion Feeder": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cathartic Reunion": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Caves of Koilos": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Celes, Rune Knight": {
+   "type_line": "Legendary Creature — Human Wizard Knight",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Chainer, Dementia Master": {
+   "type_line": "Legendary Creature — Human Minion",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Chainer, Nightmare Adept": {
+   "type_line": "Legendary Creature — Human Minion",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Chaos Warp": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Children of Korlis": {
+   "type_line": "Creature — Human Rebel Cleric",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Clifftop Retreat": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Cloudshift": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Coin of Fate": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": [
+    "Surveil"
+   ]
+  },
+  "Colossus Hammer": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Combat Celebrant": {
+   "type_line": "Creature — Human Warrior",
+   "produced_mana": [],
+   "keywords": [
+    "Exert"
+   ]
+  },
+  "Command Tower": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Commander's Sphere": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Conspiracy": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Crackling Doom": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Crucible of Worlds": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cyan, Vengeful Samurai": {
+   "type_line": "Legendary Creature — Human Samurai",
+   "produced_mana": [],
+   "keywords": [
+    "Double strike"
+   ]
+  },
+  "Damn": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Overload"
+   ]
+  },
+  "Dance of the Dead": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Dark Fortress": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Dark Ritual": {
+   "type_line": "Instant",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Dauthi Voidwalker": {
+   "type_line": "Creature — Dauthi Rogue",
+   "produced_mana": [],
+   "keywords": [
+    "Shadow"
+   ]
+  },
+  "Dawnsire, Sunstar Dreadnought": {
+   "type_line": "Legendary Artifact — Spacecraft",
+   "produced_mana": [],
+   "keywords": [
+    "Station"
+   ]
+  },
+  "Deadly Dispute": {
+   "type_line": "Instant",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Treasure"
+   ]
+  },
+  "Deadly Rollick": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Deflecting Swat": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Demand Answers": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Demolition Field": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Demonic Tutor": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Desolate Mire": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Diabolic Intent": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Dihada, Binder of Wills": {
+   "type_line": "Legendary Planeswalker — Dihada",
+   "produced_mana": [],
+   "keywords": [
+    "Treasure"
+   ]
+  },
+  "Dragonskull Summit": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Dread Return": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Dualcaster Mage": {
+   "type_line": "Creature — Human Wizard",
+   "produced_mana": [],
+   "keywords": [
+    "Flash"
+   ]
+  },
+  "Edgar, Master Machinist": {
+   "type_line": "Legendary Creature — Human Artificer Noble",
+   "produced_mana": [],
+   "keywords": [
+    "Tools"
+   ]
+  },
+  "Elegant Parlor": {
+   "type_line": "Land — Mountain Plains",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": [
+    "Surveil"
+   ]
+  },
+  "Entomb": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Ephemerate": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Rebound"
+   ]
+  },
+  "Esper Sentinel": {
+   "type_line": "Artifact Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Espers to Magicite": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Evolving Wilds": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Exotic Orchard": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Faithless Looting": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Fanatical Devotion": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Regenerate"
+   ]
+  },
+  "Fear of Missing Out": {
+   "type_line": "Enchantment Creature — Nightmare",
+   "produced_mana": [],
+   "keywords": [
+    "Delirium"
+   ]
+  },
+  "Feign Death": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Felidar Guardian": {
+   "type_line": "Creature — Cat Beast",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Felisa, Fang of Silverquill": {
+   "type_line": "Legendary Creature — Vampire Wizard",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Mentor"
+   ]
+  },
+  "Fell the Profane // Fell Mire": {
+   "type_line": "Instant // Land",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Fellwar Stone": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Fetid Heath": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Fiend Hunter": {
+   "type_line": "Creature — Human Cleric",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Flare of Fortitude": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Flawless Maneuver": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Flayer of the Hatebound": {
+   "type_line": "Creature — Devil",
+   "produced_mana": [],
+   "keywords": [
+    "Undying"
+   ]
+  },
+  "Foreboding Ruins": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Fury": {
+   "type_line": "Creature — Elemental Incarnation",
+   "produced_mana": [],
+   "keywords": [
+    "Evoke",
+    "Double strike"
+   ]
+  },
+  "Furycalm Snarl": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Gaius van Baelsar": {
+   "type_line": "Legendary Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Gamble": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Gau, Feral Youth": {
+   "type_line": "Legendary Creature — Human Berserker",
+   "produced_mana": [],
+   "keywords": [
+    "Rage"
+   ]
+  },
+  "General Leo Cristophe": {
+   "type_line": "Legendary Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Generous Gift": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Geothermal Bog": {
+   "type_line": "Land — Swamp Mountain",
+   "produced_mana": [
+    "B",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Gleaming Barrier": {
+   "type_line": "Artifact Creature — Wall",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Treasure",
+    "Defender"
+   ]
+  },
+  "Goblin Bombardment": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Godless Shrine": {
+   "type_line": "Land — Plains Swamp",
+   "produced_mana": [
+    "B",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Godo, Bandit Warlord": {
+   "type_line": "Legendary Creature — Human Barbarian",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Gogo, Mysterious Mime": {
+   "type_line": "Legendary Creature — Wizard",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Grave Researcher // Reanimate": {
+   "type_line": "Creature — Troll Warlock // Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Surveil",
+    "Prepared"
+   ]
+  },
+  "Graven Cairns": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Gravity Sphere": {
+   "type_line": "World Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Gray Merchant of Asphodel": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Haunted Ridge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Havoc Eater": {
+   "type_line": "Creature — Elemental",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Goad"
+   ]
+  },
+  "Heartstone": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "High Market": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Infernal Vessel": {
+   "type_line": "Creature — Human Cleric",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Interceptor, Shadow's Hound": {
+   "type_line": "Legendary Creature — Dog",
+   "produced_mana": [],
+   "keywords": [
+    "Menace"
+   ]
+  },
+  "Isolated Chapel": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Joshua, Phoenix's Dominant // Phoenix, Warden of Fire": {
+   "type_line": "Legendary Creature — Human Noble Wizard // Legendary Enchantment Creature — Saga Phoenix",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Lifelink",
+    "Transform"
+   ]
+  },
+  "Junji, the Midnight Sky": {
+   "type_line": "Legendary Creature — Dragon Spirit",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Menace"
+   ]
+  },
+  "K'rrik, Son of Yawgmoth": {
+   "type_line": "Legendary Creature — Phyrexian Horror Minion",
+   "produced_mana": [],
+   "keywords": [
+    "Lifelink"
+   ]
+  },
+  "Karmic Guide": {
+   "type_line": "Creature — Angel Spirit",
+   "produced_mana": [],
+   "keywords": [
+    "Echo",
+    "Flying",
+    "Protection"
+   ]
+  },
+  "Kaya's Ghostform": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Kefka, Dancing Mad": {
+   "type_line": "Legendary Creature — Human Wizard",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Key to the City": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Kheru Bloodsucker": {
+   "type_line": "Creature — Vampire",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Kiki-Jiki, Mirror Breaker": {
+   "type_line": "Legendary Creature — Goblin Shaman",
+   "produced_mana": [],
+   "keywords": [
+    "Haste"
+   ]
+  },
+  "Kokusho, the Evening Star": {
+   "type_line": "Legendary Creature — Dragon Spirit",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Krenko, Mob Boss": {
+   "type_line": "Legendary Creature — Goblin Warrior",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Kroxa, Titan of Death's Hunger": {
+   "type_line": "Legendary Creature — Elder Giant",
+   "produced_mana": [],
+   "keywords": [
+    "Escape"
+   ]
+  },
+  "Laughing Mad": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Legions to Ashes": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Lesser Masticore": {
+   "type_line": "Artifact Creature — Masticore",
+   "produced_mana": [],
+   "keywords": [
+    "Persist"
+   ]
+  },
+  "Lightning Greaves": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Lively Dirge": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Spree"
+   ]
+  },
+  "Living Death": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Living Lightning": {
+   "type_line": "Creature — Elemental Shaman",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Locke, Treasure Hunter": {
+   "type_line": "Legendary Creature — Human Rogue",
+   "produced_mana": [],
+   "keywords": [
+    "Treasure",
+    "Mill",
+    "Mug"
+   ]
+  },
+  "Loran of the Third Path": {
+   "type_line": "Legendary Creature — Human Artificer",
+   "produced_mana": [],
+   "keywords": [
+    "Vigilance"
+   ]
+  },
+  "Luminous Broodmoth": {
+   "type_line": "Creature — Insect",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Luxury Suite": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "R"
+   ],
+   "keywords": []
+  },
+  "M.O.D.O.K.": {
+   "type_line": "Legendary Artifact Creature — Villain",
+   "produced_mana": [],
+   "keywords": [
+    "Mental Organism",
+    "Flying",
+    "Lifelink",
+    "Connive"
+   ]
+  },
+  "Magebane Armor": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Malakir Rebirth // Malakir Mire": {
+   "type_line": "Instant // Land",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Marsh Flats": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Maskwood Nexus": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Metamorphosis Fanatic": {
+   "type_line": "Creature — Human Cleric",
+   "produced_mana": [],
+   "keywords": [
+    "Lifelink",
+    "Miracle"
+   ]
+  },
+  "Meteor Golem": {
+   "type_line": "Artifact Creature — Golem",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Midgar, City of Mako // Reactor Raid": {
+   "type_line": "Land — Town // Sorcery — Adventure",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Mikaeus, the Lunarch": {
+   "type_line": "Legendary Creature — Human Cleric",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Mikaeus, the Unhallowed": {
+   "type_line": "Legendary Creature — Zombie Cleric",
+   "produced_mana": [],
+   "keywords": [
+    "Intimidate"
+   ]
+  },
+  "Millikin": {
+   "type_line": "Artifact Creature — Construct",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Mind Stone": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Mirror Entity": {
+   "type_line": "Creature — Shapeshifter",
+   "produced_mana": [],
+   "keywords": [
+    "Changeling"
+   ]
+  },
+  "Mog, Moogle Warrior": {
+   "type_line": "Legendary Creature — Moogle Warrior",
+   "produced_mana": [],
+   "keywords": [
+    "Lifelink",
+    "Dance"
+   ]
+  },
+  "Moonlit Lamenter": {
+   "type_line": "Creature — Treefolk Cleric",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Morbid Opportunist": {
+   "type_line": "Creature — Human Rogue",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Mortify": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Mountain": {
+   "type_line": "Basic Land — Mountain",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": []
+  },
+  "Necromancy": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Necrotic Ooze": {
+   "type_line": "Creature — Ooze",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Nether Traitor": {
+   "type_line": "Creature — Spirit",
+   "produced_mana": [],
+   "keywords": [
+    "Shadow",
+    "Haste"
+   ]
+  },
+  "Night's Whisper": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Nomad Outpost": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Orcish Bowmasters": {
+   "type_line": "Creature — Orc Archer",
+   "produced_mana": [],
+   "keywords": [
+    "Amass",
+    "Flash"
+   ]
+  },
+  "Orzhov Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Palace Jailer": {
+   "type_line": "Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Path of Ancestry": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Path to Exile": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Phlage, Titan of Fire's Fury": {
+   "type_line": "Legendary Creature — Elder Giant",
+   "produced_mana": [],
+   "keywords": [
+    "Escape"
+   ]
+  },
+  "Phoenix Down": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Phyrexian Altar": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Phyrexian Arena": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Phyrexian Tower": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "B",
+    "C"
+   ],
+   "keywords": []
+  },
+  "Pinnacle Monk // Mystic Peak": {
+   "type_line": "Creature — Djinn Monk // Land",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": [
+    "Prowess"
+   ]
+  },
+  "Pitiless Plunderer": {
+   "type_line": "Creature — Human Pirate",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Treasure"
+   ]
+  },
+  "Plaguecrafter": {
+   "type_line": "Creature — Human Shaman",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Plains": {
+   "type_line": "Basic Land — Plains",
+   "produced_mana": [
+    "W"
+   ],
+   "keywords": []
+  },
+  "Preston, the Vanisher": {
+   "type_line": "Legendary Creature — Rabbit Wizard",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Priest of Fell Rites": {
+   "type_line": "Creature — Human Warlock",
+   "produced_mana": [],
+   "keywords": [
+    "Unearth"
+   ]
+  },
+  "Professional Face-Breaker": {
+   "type_line": "Creature — Human Warrior",
+   "produced_mana": [],
+   "keywords": [
+    "Treasure",
+    "Menace"
+   ]
+  },
+  "Prowling Geistcatcher": {
+   "type_line": "Creature — Human Rogue",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Puresteel Paladin": {
+   "type_line": "Creature — Human Knight",
+   "produced_mana": [],
+   "keywords": [
+    "Metalcraft"
+   ]
+  },
+  "Pursue the Past": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Rakdos Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Rattleblaze Scarecrow": {
+   "type_line": "Artifact Creature — Scarecrow",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Raucous Theater": {
+   "type_line": "Land — Swamp Mountain",
+   "produced_mana": [
+    "B",
+    "R"
+   ],
+   "keywords": [
+    "Surveil"
+   ]
+  },
+  "Ravenous Chupacabra": {
+   "type_line": "Creature — Beast Horror",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Reanimate": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Reassembling Skeleton": {
+   "type_line": "Creature — Skeleton Warrior",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Rejoin the Fight": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Resentful Revelation": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Restoration Magic": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Curaga",
+    "Cura",
+    "Tiered",
+    "Cure"
+   ]
+  },
+  "Reveillark": {
+   "type_line": "Creature — Elemental",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Evoke"
+   ]
+  },
+  "Righteous Valkyrie": {
+   "type_line": "Creature — Angel Cleric",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Ripples of Undeath": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Rise of the Dark Realms": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Rogue's Passage": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Rugged Prairie": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Ruinous Ultimatum": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Sabin, Master Monk": {
+   "type_line": "Legendary Creature — Human Noble Monk",
+   "produced_mana": [],
+   "keywords": [
+    "Blitz",
+    "Double strike"
+   ]
+  },
+  "Sacred Foundry": {
+   "type_line": "Land — Mountain Plains",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Sacred Peaks": {
+   "type_line": "Land — Mountain Plains",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Savai Triome": {
+   "type_line": "Land — Mountain Plains Swamp",
+   "produced_mana": [
+    "B",
+    "R",
+    "W"
+   ],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Scorched Rusalka": {
+   "type_line": "Creature — Spirit",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Seething Anger": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Buyback"
+   ]
+  },
+  "Selfless Spirit": {
+   "type_line": "Creature — Spirit Cleric",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel": {
+   "type_line": "Legendary Creature — Human Avatar Soldier // Legendary Creature — Angel Nightmare Avatar",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Transform",
+    "Super Nova"
+   ]
+  },
+  "Sepulchral Primordial": {
+   "type_line": "Creature — Avatar",
+   "produced_mana": [],
+   "keywords": [
+    "Intimidate"
+   ]
+  },
+  "Setzer, Wandering Gambler": {
+   "type_line": "Legendary Creature — Human Rogue Pilot",
+   "produced_mana": [],
+   "keywords": [
+    "Treasure"
+   ]
+  },
+  "Sevinne's Reclamation": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Shadow, Mysterious Assassin": {
+   "type_line": "Legendary Creature — Human Assassin",
+   "produced_mana": [],
+   "keywords": [
+    "Deathtouch"
+   ]
+  },
+  "Shadowblood Ridge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Shadowy Backstreet": {
+   "type_line": "Land — Plains Swamp",
+   "produced_mana": [
+    "B",
+    "W"
+   ],
+   "keywords": [
+    "Surveil"
+   ]
+  },
+  "Shambling Ghast": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Treasure"
+   ]
+  },
+  "Shattered Sanctum": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Shineshadow Snarl": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Shizo, Death's Storehouse": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Siegfried, Famed Swordsman": {
+   "type_line": "Legendary Creature — Human Warrior Rogue",
+   "produced_mana": [],
+   "keywords": [
+    "Menace",
+    "Mill"
+   ]
+  },
+  "Sister Hospitaller": {
+   "type_line": "Creature — Human Cleric",
+   "produced_mana": [],
+   "keywords": [
+    "Medicus Ministorum"
+   ]
+  },
+  "Skirk Prospector": {
+   "type_line": "Creature — Goblin",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": []
+  },
+  "Skullclamp": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Smile at Death": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Smoldering Marsh": {
+   "type_line": "Land — Swamp Mountain",
+   "produced_mana": [
+    "B",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Smothering Tithe": {
+   "type_line": "Enchantment",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Treasure"
+   ]
+  },
+  "Snort": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Sol Ring": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Solemn Simulacrum": {
+   "type_line": "Artifact Creature — Golem",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Solemnity": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Solitude": {
+   "type_line": "Creature — Elemental Incarnation",
+   "produced_mana": [],
+   "keywords": [
+    "Lifelink",
+    "Evoke",
+    "Flash"
+   ]
+  },
+  "South Wind Avatar": {
+   "type_line": "Creature — Snake Spirit Avatar",
+   "produced_mana": [],
+   "keywords": [
+    "Deathtouch"
+   ]
+  },
+  "Spectator Seating": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Spellweaver Helix": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": [
+    "Imprint"
+   ]
+  },
+  "Squall, SeeD Mercenary": {
+   "type_line": "Legendary Creature — Human Knight Mercenary",
+   "produced_mana": [],
+   "keywords": [
+    "Rough Divide"
+   ]
+  },
+  "Stitch Together": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Threshold"
+   ]
+  },
+  "Stitcher's Supplier": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Storm-Kiln Artist": {
+   "type_line": "Creature — Dwarf Shaman",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Treasure",
+    "Magecraft"
+   ]
+  },
+  "Strago and Relm": {
+   "type_line": "Legendary Creature — Human Wizard",
+   "produced_mana": [],
+   "keywords": [
+    "Sketch and Lore"
+   ]
+  },
+  "Stroke of Midnight": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Sulfurous Springs": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Summon: Esper Valigarmanda": {
+   "type_line": "Enchantment Creature — Saga Drake",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": [
+    "Flying",
+    "Haste"
+   ]
+  },
+  "Summon: Knights of Round": {
+   "type_line": "Enchantment Creature — Saga Knight",
+   "produced_mana": [],
+   "keywords": [
+    "Indestructible"
+   ]
+  },
+  "Sun Titan": {
+   "type_line": "Creature — Giant",
+   "produced_mana": [],
+   "keywords": [
+    "Vigilance"
+   ]
+  },
+  "Sunbillow Verge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Suncleanser": {
+   "type_line": "Creature — Human Cleric",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Sundown Pass": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Sunlit Marsh": {
+   "type_line": "Land — Plains Swamp",
+   "produced_mana": [
+    "B",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Sunscorched Divide": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Swamp": {
+   "type_line": "Basic Land — Swamp",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Swiftfoot Boots": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sword of Hearth and Home": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Swords to Plowshares": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Takenuma, Abandoned Mire": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": [
+    "Mill",
+    "Channel"
+   ]
+  },
+  "Talisman of Conviction": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C",
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Talisman of Hierarchy": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "C",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Talisman of Indulgence": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "C",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Teferi's Protection": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Terra, Herald of Hope": {
+   "type_line": "Legendary Creature — Human Wizard Warrior",
+   "produced_mana": [],
+   "keywords": [
+    "Mill",
+    "Trance"
+   ]
+  },
+  "Teval's Judgment": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Treasure"
+   ]
+  },
+  "The Falcon, Airship Restored": {
+   "type_line": "Legendary Artifact — Vehicle",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Crew"
+   ]
+  },
+  "The Queen of Dale": {
+   "type_line": "Legendary Creature — Human Noble",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "The Soul Stone": {
+   "type_line": "Legendary Artifact — Infinity Stone",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": [
+    "Indestructible"
+   ]
+  },
+  "The Warring Triad": {
+   "type_line": "Legendary Artifact Creature — God",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Flying",
+    "Haste",
+    "Trample",
+    "Mill"
+   ]
+  },
+  "Thermopod": {
+   "type_line": "Snow Creature — Slug",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": []
+  },
+  "Thrill of Possibility": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Toxic Deluge": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Tragic Arrogance": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Twilight Diviner": {
+   "type_line": "Creature — Elf Cleric",
+   "produced_mana": [],
+   "keywords": [
+    "Surveil"
+   ]
+  },
+  "Unearth": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Unmarked Grave": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Untimely Malfunction": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Urborg, Tomb of Yawgmoth": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Vampiric Tutor": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Vandalblast": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Overload"
+   ]
+  },
+  "Vault of Champions": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Vault of the Archangel": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Victimize": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Vile Entomber": {
+   "type_line": "Creature — Zombie Warlock",
+   "produced_mana": [],
+   "keywords": [
+    "Deathtouch"
+   ]
+  },
+  "Viscera Seer": {
+   "type_line": "Creature — Vampire Wizard",
+   "produced_mana": [],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Walking Ballista": {
+   "type_line": "Artifact Creature — Construct",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Wayfarer's Bauble": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Whispersilk Cloak": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Wingrattle Scarecrow": {
+   "type_line": "Artifact Creature — Scarecrow",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Witch Enchanter // Witch-Blessed Meadow": {
+   "type_line": "Creature — Human Warlock // Land",
+   "produced_mana": [
+    "W"
+   ],
+   "keywords": []
+  },
+  "Xiahou Dun, the One-Eyed": {
+   "type_line": "Legendary Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": [
+    "Horsemanship"
+   ]
+  },
+  "Zada, Hedron Grinder": {
+   "type_line": "Legendary Creature — Goblin Ally",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Zulaport Cutthroat": {
+   "type_line": "Creature — Human Rogue Ally",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Brass's Tunnel-Grinder": {
+   "type_line": "Legendary Artifact // Legendary Land — Cave",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": [
+    "Transform",
+    "Discover"
+   ]
+  },
+  "Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight": {
+   "type_line": "Legendary Creature — Elemental God // Legendary Creature — Elemental God",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Lifelink",
+    "Transform"
+   ]
+  },
+  "Fell the Profane": {
+   "type_line": "Instant // Land",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Grave Researcher": {
+   "type_line": "Creature — Troll Warlock // Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Surveil",
+    "Prepared"
+   ]
+  },
+  "Joshua, Phoenix's Dominant": {
+   "type_line": "Legendary Creature — Human Noble Wizard // Legendary Enchantment Creature — Saga Phoenix",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Lifelink",
+    "Transform"
+   ]
+  },
+  "Malakir Rebirth": {
+   "type_line": "Instant // Land",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Midgar, City of Mako": {
+   "type_line": "Land — Town // Sorcery — Adventure",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Pinnacle Monk": {
+   "type_line": "Creature — Djinn Monk // Land",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": [
+    "Prowess"
+   ]
+  },
+  "Sephiroth, Fabled SOLDIER": {
+   "type_line": "Legendary Creature — Human Avatar Soldier // Legendary Creature — Angel Nightmare Avatar",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Transform",
+    "Super Nova"
+   ]
+  },
+  "Witch Enchanter": {
+   "type_line": "Creature — Human Warlock // Land",
+   "produced_mana": [
+    "W"
+   ],
+   "keywords": []
+  }
+ }
 }

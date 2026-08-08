@@ -2788,5 +2788,1775 @@
  "legality": "Legal",
  "oracle_text": "Whenever you cast an Artificer or artifact spell, you get <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> (an energy counter).<br><br>At the beginning of combat on your turn, you may pay <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>. When you do, create a token that's a copy of target permanent you control, except it's a 5/5 artifact creature in addition to its other types and has haste. Sacrifice it at the beginning of the next end step.",
  "quick_read": "The <strong>energy queen</strong>: every Artificer or artifact spell you cast gives you an energy counter, and 3 <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> at the beginning of combat = a hasty 5/5 copy of any permanent you control. The deck stockpiles energy (Decoction Module, Gonti's Aether Heart, Nissa) to spend on massive outlets: infinite combats with Lightning Runner, extra turns with Aether Heart recurred by Academy Ruins, free spells with Aetherworks Marvel.",
- "extra_table_rows": "<tr><td><strong>Power / Toughness</strong></td><td>4/4</td></tr>"
+ "extra_table_rows": "<tr><td><strong>Power / Toughness</strong></td><td>4/4</td></tr>",
+ "card_meta": {
+  "Academy Ruins": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Adaptive Omnitool": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Adrix and Nev, Twincasters": {
+   "type_line": "Legendary Creature — Merfolk Wizard",
+   "produced_mana": [],
+   "keywords": [
+    "Ward"
+   ]
+  },
+  "Aether Hub": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Aether Refinery": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Aether Revolt": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Revolt"
+   ]
+  },
+  "Aether Spike": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Aetherflux Conduit": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Aetheric Amplifier": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Double"
+   ]
+  },
+  "Aethersquall Ancient": {
+   "type_line": "Creature — Leviathan",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Aethertide Whale": {
+   "type_line": "Creature — Whale",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Aetherwind Basker": {
+   "type_line": "Creature — Lizard",
+   "produced_mana": [],
+   "keywords": [
+    "Trample"
+   ]
+  },
+  "Aetherworks Marvel": {
+   "type_line": "Legendary Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "All Will Be One": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Amped Raptor": {
+   "type_line": "Creature — Dinosaur",
+   "produced_mana": [],
+   "keywords": [
+    "First strike"
+   ]
+  },
+  "An Offer You Can't Refuse": {
+   "type_line": "Instant",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Treasure"
+   ]
+  },
+  "Arcane Denial": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Arcane Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Architect of the Untamed": {
+   "type_line": "Creature — Elf Artificer Druid",
+   "produced_mana": [],
+   "keywords": [
+    "Landfall"
+   ]
+  },
+  "Archway of Innovation": {
+   "type_line": "Land",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Assaultron Dominator": {
+   "type_line": "Artifact Creature — Robot",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Astral Dragon": {
+   "type_line": "Creature — Dragon",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Project Image"
+   ]
+  },
+  "Attune with Aether": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Aurora Shifter": {
+   "type_line": "Creature — Shapeshifter",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Beast Within": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Behemoth of Vault 0": {
+   "type_line": "Artifact Creature — Robot",
+   "produced_mana": [],
+   "keywords": [
+    "Trample"
+   ]
+  },
+  "Bespoke Battlewagon": {
+   "type_line": "Artifact — Vehicle",
+   "produced_mana": [],
+   "keywords": [
+    "Crew"
+   ]
+  },
+  "Birds of Paradise": {
+   "type_line": "Creature — Bird",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Blasphemous Act": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Blaster Hulk": {
+   "type_line": "Artifact Creature — Pirate",
+   "produced_mana": [],
+   "keywords": [
+    "Haste"
+   ]
+  },
+  "Bootleggers' Stash": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": [
+    "Treasure"
+   ]
+  },
+  "Boseiju, Who Endures": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": [
+    "Channel"
+   ]
+  },
+  "Bountiful Landscape": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Breeding Pool": {
+   "type_line": "Land — Forest Island",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Brudiclad, Telchor Engineer": {
+   "type_line": "Legendary Artifact Creature — Phyrexian Artificer",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Buried Ruin": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Chain Reaction": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Chaos Warp": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Chromatic Lantern": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Cinder Glade": {
+   "type_line": "Land — Mountain Forest",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Clock of Omens": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Combustible Gearhulk": {
+   "type_line": "Artifact Creature — Construct",
+   "produced_mana": [],
+   "keywords": [
+    "First strike",
+    "Mill"
+   ]
+  },
+  "Command Tower": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Commander's Sphere": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Commercial District": {
+   "type_line": "Land — Mountain Forest",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": [
+    "Surveil"
+   ]
+  },
+  "Confiscation Coup": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Conjurer's Closet": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Conversion Apparatus": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Cosmic Cube": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": [
+    "Ward"
+   ]
+  },
+  "Counterspell": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cryogen Relic": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cultivate": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cultivator's Caravan": {
+   "type_line": "Artifact — Vehicle",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Crew"
+   ]
+  },
+  "Cursed Mirror": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": []
+  },
+  "Cybermen Squadron": {
+   "type_line": "Artifact Creature — Cyberman",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cyclonic Rift": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Overload"
+   ]
+  },
+  "Cyclops Superconductor": {
+   "type_line": "Creature — Cyclops Wizard",
+   "produced_mana": [],
+   "keywords": [
+    "Prowess"
+   ]
+  },
+  "Darksteel Citadel": {
+   "type_line": "Artifact Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": [
+    "Indestructible"
+   ]
+  },
+  "Deadeye Navigator": {
+   "type_line": "Creature — Spirit",
+   "produced_mana": [],
+   "keywords": [
+    "Soulbond"
+   ]
+  },
+  "Decoction Module": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Deflecting Swat": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Desynchronization": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Determined Iteration": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Populate"
+   ]
+  },
+  "Disallow": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Doubling Season": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Drafna, Founder of Lat-Nam": {
+   "type_line": "Legendary Creature — Human Artificer Advisor",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Dreamroot Cascade": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Druid of Purification": {
+   "type_line": "Creature — Human Druid",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Duplicant": {
+   "type_line": "Artifact Creature — Shapeshifter",
+   "produced_mana": [],
+   "keywords": [
+    "Imprint"
+   ]
+  },
+  "Elder Gargaroth": {
+   "type_line": "Creature — Beast",
+   "produced_mana": [],
+   "keywords": [
+    "Reach",
+    "Vigilance",
+    "Trample"
+   ]
+  },
+  "Electrosiphon": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Electrostatic Pummeler": {
+   "type_line": "Artifact Creature — Construct",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Empyreal Voyager": {
+   "type_line": "Creature — Vedalken Scout",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Trample"
+   ]
+  },
+  "Encroaching Mycosynth": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Enthusiastic Mechanaut": {
+   "type_line": "Artifact Creature — Goblin Artificer",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Era of Innovation": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Esika's Chariot": {
+   "type_line": "Legendary Artifact — Vehicle",
+   "produced_mana": [],
+   "keywords": [
+    "Crew"
+   ]
+  },
+  "Esoteric Duplicator": {
+   "type_line": "Artifact — Clue",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Eternal Witness": {
+   "type_line": "Creature — Human Shaman",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Etherium Sculptor": {
+   "type_line": "Artifact Creature — Vedalken Artificer",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Evolving Wilds": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Exotic Orchard": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Explosive Vegetation": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Fabled Passage": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Fabricate": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Fabrication Module": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Farseek": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Fellwar Stone": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Fierce Guardianship": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Filigree Racer": {
+   "type_line": "Artifact — Vehicle",
+   "produced_mana": [],
+   "keywords": [
+    "Crew"
+   ]
+  },
+  "Forest": {
+   "type_line": "Basic Land — Forest",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Foundry Inspector": {
+   "type_line": "Artifact Creature — Construct",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Frontier Bivouac": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Frostboil Snarl": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Galvanic Discharge": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Garruk's Uprising": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Glimmer of Genius": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Gonti's Aether Heart": {
+   "type_line": "Legendary Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Great Furnace": {
+   "type_line": "Artifact Land",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": []
+  },
+  "Gruul Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "HELIOS One": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Harnessed Lightning": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Heaped Harvest": {
+   "type_line": "Artifact — Food",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Hedge Maze": {
+   "type_line": "Land — Forest Island",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": [
+    "Surveil"
+   ]
+  },
+  "Herd Heirloom": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Heroic Intervention": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Hinterland Harbor": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Ichor Wellspring": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Idol of Oblivion": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Inventors' Fair": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Iron Man, Bleeding Edge": {
+   "type_line": "Legendary Artifact Creature — Human Hero",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Island": {
+   "type_line": "Basic Land — Island",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Izzet Generatorium": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Izzet Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Jhoira, Weatherlight Captain": {
+   "type_line": "Legendary Creature — Human Artificer",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Kappa Cannoneer": {
+   "type_line": "Artifact Creature — Turtle Warrior",
+   "produced_mana": [],
+   "keywords": [
+    "Improvise",
+    "Ward"
+   ]
+  },
+  "Karplusan Forest": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Ketria Triome": {
+   "type_line": "Land — Forest Island Mountain",
+   "produced_mana": [
+    "G",
+    "R",
+    "U"
+   ],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Kodama's Reach": {
+   "type_line": "Sorcery — Arcane",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Lightning Greaves": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Lightning Runner": {
+   "type_line": "Creature — Human Warrior",
+   "produced_mana": [],
+   "keywords": [
+    "Haste",
+    "Double strike"
+   ]
+  },
+  "Loyal Apprentice": {
+   "type_line": "Creature — Human Artificer",
+   "produced_mana": [],
+   "keywords": [
+    "Haste",
+    "Lieutenant"
+   ]
+  },
+  "Lumbering Worldwagon": {
+   "type_line": "Artifact — Vehicle",
+   "produced_mana": [],
+   "keywords": [
+    "Crew"
+   ]
+  },
+  "Mana Drain": {
+   "type_line": "Instant",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Mechanized Production": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Midnight Clock": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Mistrise Village": {
+   "type_line": "Land",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Misty Rainforest": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Mountain": {
+   "type_line": "Basic Land — Mountain",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": []
+  },
+  "Mystic Forge": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Nature's Lore": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Negate": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Nissa, Worldsoul Speaker": {
+   "type_line": "Legendary Creature — Elf Druid",
+   "produced_mana": [],
+   "keywords": [
+    "Landfall"
+   ]
+  },
+  "Octomancer": {
+   "type_line": "Creature — Frog Druid",
+   "produced_mana": [],
+   "keywords": [
+    "Gift"
+   ]
+  },
+  "One with the Machine": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Ornithopter of Paradise": {
+   "type_line": "Artifact Creature — Thopter",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Otawara, Soaring City": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": [
+    "Channel"
+   ]
+  },
+  "Overclocked Electromancer": {
+   "type_line": "Creature — Lizard Wizard",
+   "produced_mana": [],
+   "keywords": [
+    "Double"
+   ]
+  },
+  "Overflowing Basin": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Padeem, Consul of Innovation": {
+   "type_line": "Legendary Creature — Vedalken Artificer",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Panharmonicon": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Parallel Lives": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Path of Ancestry": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Peema Aether-Seer": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Peema Trailblazer": {
+   "type_line": "Creature — Elephant Warrior",
+   "produced_mana": [],
+   "keywords": [
+    "Trample",
+    "Exhaust"
+   ]
+  },
+  "Phyrexian Ironworks": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Phyrexian Metamorph": {
+   "type_line": "Artifact Creature — Phyrexian Shapeshifter",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Pia Nalaar, Chief Mechanic": {
+   "type_line": "Legendary Creature — Human Artificer",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Pia and Kiran Nalaar": {
+   "type_line": "Legendary Creature — Human Artificer",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Plasma Caster": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Pongify": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Portal to Phyrexia": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Primal Prayers": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Pyrewood Gearhulk": {
+   "type_line": "Artifact Creature — Construct",
+   "produced_mana": [],
+   "keywords": [
+    "Vigilance",
+    "Menace"
+   ]
+  },
+  "Rampaging Aetherhood": {
+   "type_line": "Creature — Snake Hydra",
+   "produced_mana": [],
+   "keywords": [
+    "Trample",
+    "Ward"
+   ]
+  },
+  "Rampant Growth": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Reality Shift": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Manifest"
+   ]
+  },
+  "Reckless Fireweaver": {
+   "type_line": "Creature — Human Artificer",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Rejuvenating Springs": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Reliquary Tower": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Repurposing Bay": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Retrofitter Foundry": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Rhystic Study": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Riverpyre Verge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Rockfall Vale": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Rogue Refiner": {
+   "type_line": "Creature — Human Rogue",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Roil Cartographer": {
+   "type_line": "Creature — Merfolk Rogue",
+   "produced_mana": [],
+   "keywords": [
+    "Landfall"
+   ]
+  },
+  "Rootbound Crag": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Rush of Inspiration // Crackling Falls": {
+   "type_line": "Instant // Land",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Saheeli, Filigree Master": {
+   "type_line": "Legendary Planeswalker — Saheeli",
+   "produced_mana": [],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Saheeli, Radiant Creator": {
+   "type_line": "Legendary Creature — Human Artificer",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Saheeli, Sublime Artificer": {
+   "type_line": "Legendary Planeswalker — Saheeli",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Saheeli, the Sun's Brilliance": {
+   "type_line": "Legendary Creature — Human Artificer",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Sai, Master Thopterist": {
+   "type_line": "Legendary Creature — Human Artificer",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Scalding Tarn": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Seat of the Synod": {
+   "type_line": "Artifact Land",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Servant of the Conduit": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Sheltered Thicket": {
+   "type_line": "Land — Mountain Forest",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Shivan Reef": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Shrieking Drake": {
+   "type_line": "Creature — Drake",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Shuri, Wakandan Inventor": {
+   "type_line": "Legendary Creature — Human Artificer Hero",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Silverbluff Bridge": {
+   "type_line": "Artifact Land",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": [
+    "Indestructible"
+   ]
+  },
+  "Simic Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Simulacrum Synthesizer": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Sink into Stupor // Soporific Springs": {
+   "type_line": "Instant // Land",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Skullclamp": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Slagwoods Bridge": {
+   "type_line": "Artifact Land",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": [
+    "Indestructible"
+   ]
+  },
+  "Sol Ring": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Solar Transformer": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Solemn Simulacrum": {
+   "type_line": "Artifact Creature — Golem",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Soul-Guide Lantern": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Spire Garden": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Spire of Industry": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Steam Vents": {
+   "type_line": "Land — Island Mountain",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Stomping Ground": {
+   "type_line": "Land — Mountain Forest",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Stone Idol Generator": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Storm the Vault // Vault of Catlacan": {
+   "type_line": "Legendary Enchantment // Legendary Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Transform",
+    "Treasure"
+   ]
+  },
+  "Stormcarved Coast": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Stridehangar Automaton": {
+   "type_line": "Artifact Creature — Construct",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Strionic Resonator": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Sulfur Falls": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Sundial of the Infinite": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Swan Song": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Swiftfoot Boots": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Taiga": {
+   "type_line": "Land — Mountain Forest",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Talisman of Creativity": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C",
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Talisman of Curiosity": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C",
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Talisman of Impulse": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C",
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Tanglepool Bridge": {
+   "type_line": "Artifact Land",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": [
+    "Indestructible"
+   ]
+  },
+  "Temple of Epiphany": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Temur Ascendancy": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Territorial Aetherkite": {
+   "type_line": "Creature — Cat Dragon",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Haste"
+   ]
+  },
+  "The Motherlode, Excavator": {
+   "type_line": "Legendary Artifact Creature — Robot",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Thopter Spy Network": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Thornspire Verge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Thought Monitor": {
+   "type_line": "Artifact Creature — Construct",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Affinity"
+   ]
+  },
+  "Thought Vessel": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Thoughtcast": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Affinity"
+   ]
+  },
+  "Three Visits": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Threefold Thunderhulk": {
+   "type_line": "Artifact Creature — Gnome",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Thundering Falls": {
+   "type_line": "Land — Island Mountain",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": [
+    "Surveil"
+   ]
+  },
+  "Tony Stark // The Invincible Iron Man": {
+   "type_line": "Legendary Creature — Human Artificer Hero // Legendary Artifact Creature — Human Hero",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Transform",
+    "Haste"
+   ]
+  },
+  "Training Center": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Treasure Vault": {
+   "type_line": "Artifact Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": [
+    "Treasure"
+   ]
+  },
+  "Tree of Tales": {
+   "type_line": "Artifact Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Triplicate Titan": {
+   "type_line": "Artifact Creature — Golem",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Vigilance",
+    "Trample"
+   ]
+  },
+  "Tropical Island": {
+   "type_line": "Land — Forest Island",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Tune the Narrative": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Ultron, Artificial Malevolence": {
+   "type_line": "Legendary Artifact Creature — Robot Villain",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Unstable Amulet": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Unwinding Clock": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Urza's Saga": {
+   "type_line": "Enchantment Land — Urza's Saga",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Urza, Lord High Artificer": {
+   "type_line": "Legendary Creature — Human Artificer",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Uthros Research Craft": {
+   "type_line": "Artifact — Spacecraft",
+   "produced_mana": [],
+   "keywords": [
+    "Station"
+   ]
+  },
+  "Uthros, Titanic Godcore": {
+   "type_line": "Land — Planet",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": [
+    "Station"
+   ]
+  },
+  "Vault 112: Sadistic Simulation": {
+   "type_line": "Enchantment — Saga",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Vineglimmer Snarl": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Volatile Stormdrake": {
+   "type_line": "Creature — Drake",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Hexproof from",
+    "Hexproof"
+   ]
+  },
+  "Volcanic Island": {
+   "type_line": "Land — Island Mountain",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Wheel of Potential": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Whirler Rogue": {
+   "type_line": "Creature — Human Rogue Artificer",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Whirler Virtuoso": {
+   "type_line": "Creature — Vedalken Artificer",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Willowrush Verge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Wooded Foothills": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Woodweaver's Puzzleknot": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Worldwalker Helm": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": [
+    "Explore"
+   ]
+  },
+  "Wurmcoil Engine": {
+   "type_line": "Artifact Creature — Phyrexian Wurm",
+   "produced_mana": [],
+   "keywords": [
+    "Lifelink",
+    "Deathtouch"
+   ]
+  },
+  "Yavimaya Coast": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Yavimaya, Cradle of Growth": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Rush of Inspiration": {
+   "type_line": "Instant // Land",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Sink into Stupor": {
+   "type_line": "Instant // Land",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Storm the Vault": {
+   "type_line": "Legendary Enchantment // Legendary Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Transform",
+    "Treasure"
+   ]
+  },
+  "Tony Stark": {
+   "type_line": "Legendary Creature — Human Artificer Hero // Legendary Artifact Creature — Human Hero",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Transform",
+    "Haste"
+   ]
+  }
+ }
 }

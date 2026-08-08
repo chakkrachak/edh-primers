@@ -3462,5 +3462,2276 @@
  "legality": "Legal",
  "oracle_text": "Trample<br><br>Whenever a land card is put into your graveyard from anywhere, put a +1/+1 counter on Slogurk.<br><br>Remove three +1/+1 counters from Slogurk: Return it to its owner's hand.<br><br>When Slogurk leaves the battlefield, return up to three target land cards from your graveyard to your hand.",
  "quick_read": "The unique <strong>Simic Lands Matter commander</strong>: every land that dies or is milled makes him bigger (+1/+1). You sacrifice and replay your lands in a loop (Loam, fetchlands, Zuran Orb): Slogurk becomes enormous, and when he leaves the battlefield he returns up to three lands to your hand. The perfect commander for decks that weaponize their land graveyard.",
- "extra_table_rows": ""
+ "extra_table_rows": "",
+ "card_meta": {
+  "Abundance": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Acidic Slime": {
+   "type_line": "Creature — Ooze",
+   "produced_mana": [],
+   "keywords": [
+    "Deathtouch"
+   ]
+  },
+  "Aesi, Tyrant of Gyre Strait": {
+   "type_line": "Legendary Creature — Serpent",
+   "produced_mana": [],
+   "keywords": [
+    "Landfall"
+   ]
+  },
+  "Aftermath Analyst": {
+   "type_line": "Creature — Elf Detective",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Alchemist's Refuge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Amulet of Vigor": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "An Offer You Can't Refuse": {
+   "type_line": "Instant",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Treasure"
+   ]
+  },
+  "Ancient Greenwarden": {
+   "type_line": "Creature — Elemental",
+   "produced_mana": [],
+   "keywords": [
+    "Reach"
+   ]
+  },
+  "Arcane Denial": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Arcane Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Archdruid's Charm": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Argoth, Sanctum of Nature": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Ash Barrens": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": [
+    "Landcycling",
+    "Basic landcycling",
+    "Typecycling",
+    "Cycling"
+   ]
+  },
+  "Ashaya, Soul of the Wild": {
+   "type_line": "Legendary Creature — Elemental",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Auroral Procession": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Avenger of Zendikar": {
+   "type_line": "Creature — Elemental",
+   "produced_mana": [],
+   "keywords": [
+    "Landfall"
+   ]
+  },
+  "Ayula's Influence": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Azusa, Lost but Seeking": {
+   "type_line": "Legendary Creature — Human Monk",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Bala Ged Recovery // Bala Ged Sanctuary": {
+   "type_line": "Sorcery // Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Baloth Prime": {
+   "type_line": "Creature — Beast",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Barkchannel Pathway // Tidechannel Pathway": {
+   "type_line": "Land // Land",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Beast Within": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Birds of Paradise": {
+   "type_line": "Creature — Bird",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Blackblade Reforged": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Blast Zone": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Blasted Landscape": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Blighted Woodland": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Blossoming Tortoise": {
+   "type_line": "Creature — Turtle",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Bonny Pall, Clearcutter": {
+   "type_line": "Legendary Creature — Giant Scout",
+   "produced_mana": [],
+   "keywords": [
+    "Reach"
+   ]
+  },
+  "Boseiju, Who Endures": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": [
+    "Channel"
+   ]
+  },
+  "Brainstorm": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Branching Evolution": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Breeding Pool": {
+   "type_line": "Land — Forest Island",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Bristly Bill, Spine Sower": {
+   "type_line": "Legendary Creature — Plant Druid",
+   "produced_mana": [],
+   "keywords": [
+    "Double",
+    "Landfall"
+   ]
+  },
+  "Broken Bond": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Brokers Hideout": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Burgeoning": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Buried Ruin": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Cabaretti Courtyard": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Candlekeep Sage": {
+   "type_line": "Legendary Enchantment — Background",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Careful Study": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Case of the Locked Hothouse": {
+   "type_line": "Enchantment — Case",
+   "produced_mana": [],
+   "keywords": [
+    "Solved"
+   ]
+  },
+  "Centaur Vinecrasher": {
+   "type_line": "Creature — Plant Centaur",
+   "produced_mana": [],
+   "keywords": [
+    "Trample"
+   ]
+  },
+  "Cephalid Coliseum": {
+   "type_line": "Land",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": [
+    "Threshold"
+   ]
+  },
+  "Chain of Vapor": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Claim the Kingdom": {
+   "type_line": "Enchantment — Plan",
+   "produced_mana": [],
+   "keywords": [
+    "Landfall"
+   ]
+  },
+  "Coiling Oracle": {
+   "type_line": "Creature — Snake Elf Druid",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Collective Resistance": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Escalate"
+   ]
+  },
+  "Command Beacon": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Command Tower": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Compulsive Research": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Conduit of Worlds": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Consider": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Surveil"
+   ]
+  },
+  "Constant Mists": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Buyback"
+   ]
+  },
+  "Consuming Tide": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Counterspell": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Courser of Kruphix": {
+   "type_line": "Enchantment Creature — Centaur",
+   "produced_mana": [],
+   "keywords": [
+    "Landfall"
+   ]
+  },
+  "Crawling Sensation": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Creeping Renaissance": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Crop Rotation": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Crucible of Worlds": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cryptic Caves": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Crystal Vein": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Cultivate": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cultivator Colossus": {
+   "type_line": "Creature — Plant Beast",
+   "produced_mana": [],
+   "keywords": [
+    "Trample"
+   ]
+  },
+  "Curse of the Swine": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cut Your Losses": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Casualty",
+    "Mill"
+   ]
+  },
+  "Cycle of Renewal": {
+   "type_line": "Instant — Lesson",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cyclonic Rift": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Overload"
+   ]
+  },
+  "Dark Depths": {
+   "type_line": "Legendary Snow Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Decisive Denial": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Fight"
+   ]
+  },
+  "Demolition Field": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Desert of the Indomitable": {
+   "type_line": "Land — Desert",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Desert of the Mindful": {
+   "type_line": "Land — Desert",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Doppelgang": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Dreamroot Cascade": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Dreamscape Artist": {
+   "type_line": "Creature — Human Spellshaper",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Drownyard Temple": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Druid Class": {
+   "type_line": "Enchantment — Class",
+   "produced_mana": [],
+   "keywords": [
+    "Landfall"
+   ]
+  },
+  "Dryad Arbor": {
+   "type_line": "Land Creature — Forest Dryad",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Dryad of the Ilysian Grove": {
+   "type_line": "Enchantment Creature — Nymph Dryad",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Dryad's Revival": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Dust Bowl": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Echoing Deeps": {
+   "type_line": "Land — Cave",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Edge of Autumn": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Elemental Teachings": {
+   "type_line": "Instant — Lesson",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Elixir of Immortality": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Elvish Reclaimer": {
+   "type_line": "Creature — Elf Warrior",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Emergence Zone": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Entish Restoration": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Escape Tunnel": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Eternal Witness": {
+   "type_line": "Creature — Human Shaman",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Eureka Moment": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Evolution Sage": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [],
+   "keywords": [
+    "Proliferate",
+    "Landfall"
+   ]
+  },
+  "Evolving Wilds": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Excavation": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Exotic Orchard": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Expedition Map": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Exploration": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Exploration Broodship": {
+   "type_line": "Artifact — Spacecraft",
+   "produced_mana": [],
+   "keywords": [
+    "Station"
+   ]
+  },
+  "Explore": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Fabled Passage": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Fact or Fiction": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Famished Worldsire": {
+   "type_line": "Creature — Leviathan",
+   "produced_mana": [],
+   "keywords": [
+    "Ward",
+    "Devour"
+   ]
+  },
+  "Farseek": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Field of Ruin": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Field of the Dead": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Fierce Guardianship": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Finale of Devastation": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Flooded Grove": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Flooded Strand": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Foil": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Forbid": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Buyback"
+   ]
+  },
+  "Force of Vigor": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Force of Will": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Forest": {
+   "type_line": "Basic Land — Forest",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Formless Genesis": {
+   "type_line": "Kindred Sorcery — Shapeshifter",
+   "produced_mana": [],
+   "keywords": [
+    "Retrace",
+    "Changeling"
+   ]
+  },
+  "Frantic Search": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Gaea's Blessing": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Geier Reach Sanitarium": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Ghost Quarter": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Glacial Chasm": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": [
+    "Cumulative upkeep"
+   ]
+  },
+  "Glacierwood Siege": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Glamdring, Foe-hammer // Gleam of Death": {
+   "type_line": "Legendary Artifact — Equipment // Sorcery — Adventure",
+   "produced_mana": [],
+   "keywords": [
+    "Equip",
+    "Mill"
+   ]
+  },
+  "Grapple with the Past": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Green Sun's Zenith": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Growth Spiral": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Hadana's Climb // Winged Temple of Orazca": {
+   "type_line": "Legendary Enchantment // Legendary Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Transform"
+   ]
+  },
+  "Hardened Scales": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Harrow": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Hedge Maze": {
+   "type_line": "Land — Forest Island",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": [
+    "Surveil"
+   ]
+  },
+  "Hedge Shredder": {
+   "type_line": "Artifact — Vehicle",
+   "produced_mana": [],
+   "keywords": [
+    "Crew",
+    "Mill"
+   ]
+  },
+  "Hedron Crab": {
+   "type_line": "Creature — Crab",
+   "produced_mana": [],
+   "keywords": [
+    "Mill",
+    "Landfall"
+   ]
+  },
+  "Hermit Druid": {
+   "type_line": "Creature — Human Druid",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Heroic Intervention": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Hidden Cataract": {
+   "type_line": "Land — Cave",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": [
+    "Discover"
+   ]
+  },
+  "Hidden Nursery": {
+   "type_line": "Land — Cave",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": [
+    "Discover"
+   ]
+  },
+  "Hinterland Harbor": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Horizon of Progress": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Horn of Greed": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Icetill Explorer": {
+   "type_line": "Creature — Insect Scout",
+   "produced_mana": [],
+   "keywords": [
+    "Mill",
+    "Landfall"
+   ]
+  },
+  "Ipnu Rivulet": {
+   "type_line": "Land — Desert",
+   "produced_mana": [
+    "C",
+    "U"
+   ],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Island": {
+   "type_line": "Basic Land — Island",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Kenrith's Transformation": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Key to the City": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Kodama of the East Tree": {
+   "type_line": "Legendary Creature — Spirit",
+   "produced_mana": [],
+   "keywords": [
+    "Reach",
+    "Partner"
+   ]
+  },
+  "Kodama's Reach": {
+   "type_line": "Sorcery — Arcane",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Krosan Grip": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Split second"
+   ]
+  },
+  "Lasyd Prowler": {
+   "type_line": "Creature — Snake Ranger",
+   "produced_mana": [],
+   "keywords": [
+    "Renew",
+    "Mill"
+   ]
+  },
+  "Life from the Loam": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Dredge",
+    "Mill"
+   ]
+  },
+  "Lightning Greaves": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Lion's Eye Diamond": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Llanowar Elves": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Loamcrafter Faun": {
+   "type_line": "Creature — Satyr Druid",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Lonely Sandbar": {
+   "type_line": "Land",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Loot, Exuberant Explorer": {
+   "type_line": "Legendary Creature — Beast Noble",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Lotus Cobra": {
+   "type_line": "Creature — Snake",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Landfall"
+   ]
+  },
+  "Lotus Field": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Hexproof"
+   ]
+  },
+  "Lotus Petal": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Lotus Vale": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Lumra, Bellow of the Woods": {
+   "type_line": "Legendary Creature — Elemental Bear",
+   "produced_mana": [],
+   "keywords": [
+    "Reach",
+    "Vigilance",
+    "Mill"
+   ]
+  },
+  "Malevolent Rumble": {
+   "type_line": "Sorcery",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Mana Drain": {
+   "type_line": "Instant",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Maze of Ith": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Mesmeric Orb": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Midnight Tilling": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Mirrorpool": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Mistrise Village": {
+   "type_line": "Land",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Misty Rainforest": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Mole Man, Moloid Master": {
+   "type_line": "Legendary Creature — Human Villain",
+   "produced_mana": [],
+   "keywords": [
+    "Mill",
+    "Landfall"
+   ]
+  },
+  "Mossborn Hydra": {
+   "type_line": "Creature — Elemental Hydra",
+   "produced_mana": [],
+   "keywords": [
+    "Trample",
+    "Double",
+    "Landfall"
+   ]
+  },
+  "Muddle the Mixture": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Transmute"
+   ]
+  },
+  "Multani, Yavimaya's Avatar": {
+   "type_line": "Legendary Creature — Elemental Avatar",
+   "produced_mana": [],
+   "keywords": [
+    "Reach",
+    "Trample"
+   ]
+  },
+  "Myriad Landscape": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Mystic Remora": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Cumulative upkeep"
+   ]
+  },
+  "Mystic Sanctuary": {
+   "type_line": "Land — Island",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Mystical Tutor": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Nature's Claim": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Nature's Lore": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Negate": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Noxious Revival": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Nylea's Intervention": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Oko, Thief of Crowns": {
+   "type_line": "Legendary Planeswalker — Oko",
+   "produced_mana": [],
+   "keywords": [
+    "Food"
+   ]
+  },
+  "Oracle of Mul Daya": {
+   "type_line": "Creature — Elf Shaman",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Otawara, Soaring City": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": [
+    "Channel"
+   ]
+  },
+  "Otherworldly Gaze": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Surveil",
+    "Flashback"
+   ]
+  },
+  "Overflowing Basin": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Overlaid Terrain": {
+   "type_line": "Enchantment",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Ozolith, the Shattered Spire": {
+   "type_line": "Legendary Artifact",
+   "produced_mana": [],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Pedantic Learning": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Perennial Behemoth": {
+   "type_line": "Artifact Creature — Beast",
+   "produced_mana": [],
+   "keywords": [
+    "Unearth"
+   ]
+  },
+  "Perilous Forays": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Perpetual Timepiece": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Petrified Field": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Pit of Offerings": {
+   "type_line": "Land — Cave",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Planar Engineering": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Planar Genesis": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Polluted Delta": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Pongify": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Prismatic Vista": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Psychic Spiral": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Rain-Slicked Copse": {
+   "type_line": "Land — Forest Island",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Ram Through": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Rampaging Baloths": {
+   "type_line": "Creature — Beast",
+   "produced_mana": [],
+   "keywords": [
+    "Trample",
+    "Landfall"
+   ]
+  },
+  "Rampant Growth": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Ramunap Excavator": {
+   "type_line": "Creature — Snake Cleric",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Rapid Hybridization": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Reality Shift": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Manifest"
+   ]
+  },
+  "Realms Uncharted": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Regrowth": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Rejuvenating Springs": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Reliquary Tower": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Remote Isle": {
+   "type_line": "Land",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Repulsive Mutation": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Resculpt": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Restless Vinestalk": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Retreat to Coralhelm": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Landfall",
+    "Scry"
+   ]
+  },
+  "Retreat to Kazandu": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Landfall"
+   ]
+  },
+  "Return of the Mole Man": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Mill",
+    "Landfall"
+   ]
+  },
+  "Return of the Wildspeaker": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Return to Nature": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Rhystic Study": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Ride the Shoopuf": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Landfall"
+   ]
+  },
+  "Rimewood Falls": {
+   "type_line": "Snow Land — Forest Island",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Rishkar's Expertise": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Riveteers Overlook": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Roaring Earth": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Channel",
+    "Landfall"
+   ]
+  },
+  "Rogue's Passage": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Roiling Regrowth": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Sakura-Tribe Elder": {
+   "type_line": "Creature — Snake Shaman",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Sakura-Tribe Scout": {
+   "type_line": "Creature — Snake Shaman Scout",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Satyr Wayfinder": {
+   "type_line": "Creature — Satyr",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Scalding Tarn": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Scapeshift": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Scavenger Grounds": {
+   "type_line": "Land — Desert",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Scavenging Ooze": {
+   "type_line": "Creature — Ooze",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Scute Swarm": {
+   "type_line": "Creature — Insect",
+   "produced_mana": [],
+   "keywords": [
+    "Landfall"
+   ]
+  },
+  "Shifting Woodland": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": [
+    "Delirium"
+   ]
+  },
+  "Shigeki, Jukai Visionary": {
+   "type_line": "Legendary Enchantment Creature — Snake Druid",
+   "produced_mana": [],
+   "keywords": [
+    "Channel"
+   ]
+  },
+  "Silvan Reveler": {
+   "type_line": "Creature — Elf Citizen",
+   "produced_mana": [],
+   "keywords": [
+    "Landfall"
+   ]
+  },
+  "Simic Ascendancy": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Simic Growth Chamber": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Simic Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Sink into Stupor // Soporific Springs": {
+   "type_line": "Instant // Land",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Six": {
+   "type_line": "Legendary Creature — Treefolk",
+   "produced_mana": [],
+   "keywords": [
+    "Reach",
+    "Mill"
+   ]
+  },
+  "Skyshroud Ranger": {
+   "type_line": "Creature — Elf Ranger",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Slime Against Humanity": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Slippery Karst": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Slogurk, the Overslime": {
+   "type_line": "Legendary Creature — Ooze",
+   "produced_mana": [],
+   "keywords": [
+    "Trample"
+   ]
+  },
+  "Smuggler's Surprise": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Spree",
+    "Mill"
+   ]
+  },
+  "Snakeskin Veil": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Snow-Covered Forest": {
+   "type_line": "Basic Snow Land — Forest",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Snow-Covered Island": {
+   "type_line": "Basic Snow Land — Island",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Sodden Verdure": {
+   "type_line": "Land — Forest Island",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Sol Ring": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Spelunking": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Spitting Image": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Retrace"
+   ]
+  },
+  "Splendid Reclamation": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Springbloom Druid": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Springheart Nantuko": {
+   "type_line": "Enchantment Creature — Insect Monk",
+   "produced_mana": [],
+   "keywords": [
+    "Bestow",
+    "Landfall"
+   ]
+  },
+  "Stillness in Motion": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Strip Mine": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Stubborn Denial": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Ferocious"
+   ]
+  },
+  "Summer Bloom": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Summon: Titan": {
+   "type_line": "Enchantment Creature — Saga Giant",
+   "produced_mana": [],
+   "keywords": [
+    "Reach",
+    "Trample",
+    "Mill"
+   ]
+  },
+  "Swan Song": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Swiftfoot Boots": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sylvan Library": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Sylvan Safekeeper": {
+   "type_line": "Creature — Human Wizard",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Sylvan Scrying": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Talisman of Curiosity": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C",
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Talon Gates of Madara": {
+   "type_line": "Land — Gate",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Tamiyo, Collector of Tales": {
+   "type_line": "Legendary Planeswalker — Tamiyo",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Tangled Islet": {
+   "type_line": "Land — Forest Island",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Tatyova, Benthic Druid": {
+   "type_line": "Legendary Creature — Merfolk Druid",
+   "produced_mana": [],
+   "keywords": [
+    "Landfall"
+   ]
+  },
+  "Tectonic Edge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Tectonic Split": {
+   "type_line": "Enchantment",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Hexproof"
+   ]
+  },
+  "Temple of Mystery": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Terramorphic Expanse": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Terrasymbiosis": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "The Hunter Maze": {
+   "type_line": "Land — Sphere",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "The Mending of Dominaria": {
+   "type_line": "Enchantment — Saga",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "The Ozolith": {
+   "type_line": "Legendary Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Thespian's Stage": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Thirst for Discovery": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Thought Scour": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Three Visits": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Timeless Witness": {
+   "type_line": "Creature — Human Shaman",
+   "produced_mana": [],
+   "keywords": [
+    "Eternalize"
+   ]
+  },
+  "Tireless Provisioner": {
+   "type_line": "Creature — Elf Scout",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Treasure",
+    "Food",
+    "Landfall"
+   ]
+  },
+  "Tireless Tracker": {
+   "type_line": "Creature — Human Scout",
+   "produced_mana": [],
+   "keywords": [
+    "Investigate",
+    "Landfall"
+   ]
+  },
+  "Titania, Protector of Argoth": {
+   "type_line": "Legendary Creature — Elemental",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Titania, Voice of Gaea": {
+   "type_line": "Legendary Creature — Elemental",
+   "produced_mana": [],
+   "keywords": [
+    "Reach",
+    "Meld"
+   ]
+  },
+  "Tolaria West": {
+   "type_line": "Land",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": [
+    "Transmute"
+   ]
+  },
+  "Trade Routes": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Tranquil Thicket": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Traumatize": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Treasure Cruise": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Delve"
+   ]
+  },
+  "Tropical Island": {
+   "type_line": "Land — Forest Island",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Turbulent Wilderness": {
+   "type_line": "Land — Forest Island",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Turntimber Sower": {
+   "type_line": "Creature — Elf Druid",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Undergrowth Recon": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Urban Evolution": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Uro, Titan of Nature's Wrath": {
+   "type_line": "Legendary Creature — Elder Giant",
+   "produced_mana": [],
+   "keywords": [
+    "Escape"
+   ]
+  },
+  "Urza's Cave": {
+   "type_line": "Land — Urza's Cave",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Urza's Saga": {
+   "type_line": "Enchantment Land — Urza's Saga",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Verdant Catacombs": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Vesuva": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Vineglimmer Snarl": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Voidslime": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Walk the Aeons": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Buyback"
+   ]
+  },
+  "Walking Atlas": {
+   "type_line": "Artifact Creature — Construct",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Wasteland": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Waterlogged Grove": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Wave Goodbye": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Wayward Swordtooth": {
+   "type_line": "Creature — Dinosaur",
+   "produced_mana": [],
+   "keywords": [
+    "Ascend"
+   ]
+  },
+  "Will of the Sultai": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Willowrush Verge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Windfall": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Windswept Heath": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Wonder": {
+   "type_line": "Creature — Incarnation",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Wooded Foothills": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "World Shaper": {
+   "type_line": "Creature — Merfolk Shaman",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Worldly Tutor": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Wrenn and Realmbreaker": {
+   "type_line": "Legendary Planeswalker — Wrenn",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Wrenn and Seven": {
+   "type_line": "Legendary Planeswalker — Wrenn",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Yavimaya Coast": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Yavimaya, Cradle of Growth": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Zendikar's Roil": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Landfall"
+   ]
+  },
+  "Zuran Orb": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Bala Ged Recovery": {
+   "type_line": "Sorcery // Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Barkchannel Pathway": {
+   "type_line": "Land // Land",
+   "produced_mana": [
+    "G",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Glamdring, Foe-hammer": {
+   "type_line": "Legendary Artifact — Equipment // Sorcery — Adventure",
+   "produced_mana": [],
+   "keywords": [
+    "Equip",
+    "Mill"
+   ]
+  },
+  "Hadana's Climb": {
+   "type_line": "Legendary Enchantment // Legendary Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Transform"
+   ]
+  },
+  "Sink into Stupor": {
+   "type_line": "Instant // Land",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Walk-In Closet // Forgotten Cellar": {
+   "type_line": "Enchantment — Room // Enchantment — Room",
+   "produced_mana": [],
+   "keywords": []
+  }
+ }
 }

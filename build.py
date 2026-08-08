@@ -43,6 +43,13 @@ def build_one(slug):
             return None
         return s['synergy']
 
+    def oracle_of(name):
+        """Oracle text d'une carte — gère les 2 formats : str direct ou dict {oracle_text, ...}."""
+        o = d.get('oracle', {}).get(name, '')
+        if isinstance(o, dict):
+            return o.get('oracle_text', '')
+        return o or ''
+
     # --- commander sheet ---
     commander_img = d['imgs'].get(d['commander_name'], '')
     ctx = {
@@ -91,7 +98,7 @@ def build_one(slug):
     cards_by_role = {r: [] for r in ROLE_ORDER}
     for name, info in flat.items():
         meta = d.get('card_meta', {}).get(name, {})
-        oracle_txt = d.get('oracle', {}).get(name, '')
+        oracle_txt = oracle_of(name)
         role = assign_role(name, meta, oracle_txt,
                            is_engine_hint=name in hs_pool,
                            is_combo_piece=name in combo_pieces)
@@ -398,8 +405,11 @@ def build_index():
         pip_map = {'W': ('pip-w', 'White'), 'U': ('pip-u', 'Blue'), 'B': ('pip-b', 'Black'),
                    'R': ('pip-r', 'Red'), 'G': ('pip-g', 'Green')}
         pips = [{'cls': cls, 'title': title} for letter, (cls, title) in pip_map.items() if letter in ci]
-        # high synergy thumbs
-        m = re.search(r'<div class="category"><h3>🌟 High Synergy Cards.*?<div class="card-grid">(.*?)</div></div>', html, re.S)
+        # high synergy thumbs — the FIRST role section (the plan core per the display order,
+        # Engines when present, otherwise the first role that exists, e.g. Wincons for Slogurk).
+        # NOTE: "Engines" also appears in the game-plan text; anchor on the role-section h3 + take
+        # until the NEXT role section (not the first card-grid after any mention).
+        m = re.search(r'<h2 id="s3">.*?</h2>.*?<div class="category"><h3>(?:<[^>]*>|[^<])*?(?:Engines|Wincons|Flex|Card Advantage|Ramp|Wipes|Interaction|Lands).*?</h3>(.*?)(?:<div class="category">|<h2 )', html, re.S)
         thumbs = []
         if m:
             imgs = re.findall(r'<img src="(https://cards\.scryfall\.io/[^"]+)"[^>]*data-name="([^"]*)"', m.group(1))

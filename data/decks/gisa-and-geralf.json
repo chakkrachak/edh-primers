@@ -3233,5 +3233,1734 @@
  "legality": "Legal",
  "oracle_text": "When Gisa and Geralf enters, mill four cards.<br><br>Once during each of your turns, you may cast a Zombie creature spell from your graveyard.",
  "quick_read": "The <strong>Zombie tribal / reanimator commander</strong>: it mills four cards on entry and lets you cast <strong>a Zombie from the graveyard each turn</strong>. The horde never dies — every sacrifice or board wipe is temporary. The lords (Diregraf Captain, Lord of the Accursed), the Rooftop Storm engine and the sacrifice altars turn the graveyard into a war machine: an overrunning army, a looped Gray Merchant drain, infinite combos.",
- "extra_table_rows": ""
+ "extra_table_rows": "",
+ "card_meta": {
+  "A.I.M. Labs": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Accursed Duneyard": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": [
+    "Heal",
+    "Regenerate"
+   ]
+  },
+  "Accursed Marauder": {
+   "type_line": "Creature — Zombie Warrior",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Altar of Dementia": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "An Offer You Can't Refuse": {
+   "type_line": "Instant",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Treasure"
+   ]
+  },
+  "Animate Dead": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Arcane Denial": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Arcane Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Archghoul of Thraben": {
+   "type_line": "Creature — Zombie Cleric",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Army of the Damned": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Ashnod's Altar": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Black Market": {
+   "type_line": "Enchantment",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Bladestitched Skaab": {
+   "type_line": "Creature — Zombie Soldier",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Blasphemous Edict": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Bloodline Bidding": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Convoke"
+   ]
+  },
+  "Bojuka Bog": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Bontu's Monument": {
+   "type_line": "Legendary Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Buried Alive": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cabal Coffers": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Carrion Feeder": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cavern of Souls": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Cemetery Reaper": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cemetery Recruitment": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Champion of the Perished": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Charcoal Diamond": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Choked Estuary": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Clearwater Pathway // Murkwater Pathway": {
+   "type_line": "Land // Land",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Cleaver Skaab": {
+   "type_line": "Creature — Zombie Horror",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Command Tower": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Commander's Sphere": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Compelling Deterrence": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Consider": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Surveil"
+   ]
+  },
+  "Contaminated Aquifer": {
+   "type_line": "Land — Island Swamp",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Corrupted Conviction": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Counterspell": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Crawl from the Cellar": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Crippling Fear": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Crowded Crypt": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Crucible of Worlds": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cruel Revival": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Crypt of Agadeem": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Cryptbreaker": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Curse of Disturbance": {
+   "type_line": "Enchantment — Aura Curse",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Cursecloth Wrappings": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cyclonic Rift": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Overload"
+   ]
+  },
+  "Damnation": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Dark Ritual": {
+   "type_line": "Instant",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Dark Salvation": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Darkslick Shores": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Darkwater Catacombs": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Deadly Dispute": {
+   "type_line": "Instant",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Treasure"
+   ]
+  },
+  "Deadly Plot": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Death Baron": {
+   "type_line": "Creature — Zombie Wizard",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Deep Analysis": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Demonic Tutor": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Diabolic Intent": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Diabolic Tutor": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Dictate of Erebos": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Flash"
+   ]
+  },
+  "Dimir Aqueduct": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Dimir Guildgate": {
+   "type_line": "Land — Gate",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Dimir Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Diregraf Captain": {
+   "type_line": "Creature — Zombie Soldier",
+   "produced_mana": [],
+   "keywords": [
+    "Deathtouch"
+   ]
+  },
+  "Diregraf Colossus": {
+   "type_line": "Creature — Zombie Giant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Dismal Backwater": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Distant Melody": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Dread Return": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Dread Summons": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Dreadhorde Invasion": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Amass"
+   ]
+  },
+  "Drowned Catacomb": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Eaten Alive": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Empty the Laboratory": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Endless Ranks of the Dead": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Enter the God-Eternals": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Amass",
+    "Mill"
+   ]
+  },
+  "Entomb": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Essence Anchor": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": [
+    "Surveil"
+   ]
+  },
+  "Eternal Skylord": {
+   "type_line": "Creature — Zombie Wizard",
+   "produced_mana": [],
+   "keywords": [
+    "Amass"
+   ]
+  },
+  "Evolving Wilds": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Exotic Orchard": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Fact or Fiction": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Feed the Swarm": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Fell the Profane // Fell Mire": {
+   "type_line": "Instant // Land",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Fellwar Stone": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Fetid Pools": {
+   "type_line": "Land — Island Swamp",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Field of the Dead": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Fleshbag Marauder": {
+   "type_line": "Creature — Zombie Warrior",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Flip the Switch": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Forbidden Alchemy": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Forgotten Creation": {
+   "type_line": "Creature — Zombie Horror",
+   "produced_mana": [],
+   "keywords": [
+    "Skulk"
+   ]
+  },
+  "Frantic Search": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Geralf's Mindcrusher": {
+   "type_line": "Creature — Zombie Horror",
+   "produced_mana": [],
+   "keywords": [
+    "Undying",
+    "Mill"
+   ]
+  },
+  "Geralf, Visionary Stitcher": {
+   "type_line": "Legendary Creature — Human Wizard",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Ghoulcaller Gisa": {
+   "type_line": "Legendary Creature — Human Wizard",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Ghoulish Procession": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Ghouls' Night Out": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Gisa and Geralf": {
+   "type_line": "Legendary Creature — Human Wizard",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Gleaming Overseer": {
+   "type_line": "Creature — Zombie Wizard",
+   "produced_mana": [],
+   "keywords": [
+    "Amass"
+   ]
+  },
+  "Gloomlake Verge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Go for the Throat": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Graf Harvest": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Grave Pact": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Grave Titan": {
+   "type_line": "Creature — Giant",
+   "produced_mana": [],
+   "keywords": [
+    "Deathtouch"
+   ]
+  },
+  "Gravecrawler": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Gravespawn Sovereign": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Gray Merchant of Asphodel": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Grim Reaper's Scythe": {
+   "type_line": "Legendary Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Grimgrin, Corpse-Born": {
+   "type_line": "Legendary Creature — Zombie Warrior",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Grimoire of the Dead": {
+   "type_line": "Legendary Artifact — Book",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Havengul Lich": {
+   "type_line": "Creature — Zombie Wizard",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Headless Rider": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Herald's Horn": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Heraldic Banner": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Hero's Downfall": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Hidden Lair": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Hordewing Skaab": {
+   "type_line": "Creature — Zombie Horror",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Ice Tunnel": {
+   "type_line": "Snow Land — Island Swamp",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Infernal Grasp": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Island": {
+   "type_line": "Basic Land — Island",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Jet Medallion": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Josu Vess, Lich Knight": {
+   "type_line": "Legendary Creature — Zombie Knight",
+   "produced_mana": [],
+   "keywords": [
+    "Menace",
+    "Kicker"
+   ]
+  },
+  "Jwar Isle Refuge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Kindred Discovery": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Kindred Dominance": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Laboratory Drudge": {
+   "type_line": "Creature — Zombie Horror",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Lazotep Plating": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Amass"
+   ]
+  },
+  "Lazotep Reaver": {
+   "type_line": "Creature — Zombie Beast",
+   "produced_mana": [],
+   "keywords": [
+    "Amass"
+   ]
+  },
+  "Liliana's Devotee": {
+   "type_line": "Creature — Human Warlock",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Liliana's Mastery": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Liliana's Standard Bearer": {
+   "type_line": "Creature — Zombie Knight",
+   "produced_mana": [],
+   "keywords": [
+    "Flash"
+   ]
+  },
+  "Liliana, Death's Majesty": {
+   "type_line": "Legendary Planeswalker — Liliana",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Liliana, Dreadhorde General": {
+   "type_line": "Legendary Planeswalker — Liliana",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Liliana, Untouched by Death": {
+   "type_line": "Legendary Planeswalker — Liliana",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Liliana, the Last Hope": {
+   "type_line": "Legendary Planeswalker — Liliana",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Lively Dirge": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Spree"
+   ]
+  },
+  "Living Death": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Lord of the Accursed": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Lord of the Undead": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Lotleth Giant": {
+   "type_line": "Creature — Zombie Giant",
+   "produced_mana": [],
+   "keywords": [
+    "Undergrowth"
+   ]
+  },
+  "Loyal Subordinate": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": [
+    "Menace",
+    "Lieutenant"
+   ]
+  },
+  "Midnight Reaper": {
+   "type_line": "Creature — Zombie Knight",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Mikaeus, the Unhallowed": {
+   "type_line": "Legendary Creature — Zombie Cleric",
+   "produced_mana": [],
+   "keywords": [
+    "Intimidate"
+   ]
+  },
+  "Mind Stone": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Mire Triton": {
+   "type_line": "Creature — Zombie Merfolk",
+   "produced_mana": [],
+   "keywords": [
+    "Mill",
+    "Deathtouch"
+   ]
+  },
+  "Morphic Pool": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Mortuary Mire": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Murder": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Myriad Landscape": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Necroduality": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Necromancer's Stockpile": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Necromantic Selection": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Necrotic Hex": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Negate": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Nephalia Drownyard": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Noxious Ghoul": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Open the Graves": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Overcharged Amalgam": {
+   "type_line": "Creature — Zombie Horror",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Flash",
+    "Exploit"
+   ]
+  },
+  "Overseer of the Damned": {
+   "type_line": "Creature — Demon",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Oversold Cemetery": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Patchwork Banner": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Path of Ancestry": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Patriarch's Bidding": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Phyrexian Altar": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Phyrexian Arena": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Phyrexian Tower": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "B",
+    "C"
+   ],
+   "keywords": []
+  },
+  "Pilfered Plans": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Plague Belcher": {
+   "type_line": "Creature — Zombie Beast",
+   "produced_mana": [],
+   "keywords": [
+    "Menace"
+   ]
+  },
+  "Polluted Delta": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Port of Karfell": {
+   "type_line": "Land",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Prized Amalgam": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Putrid Goblin": {
+   "type_line": "Creature — Zombie Goblin",
+   "produced_mana": [],
+   "keywords": [
+    "Persist"
+   ]
+  },
+  "Pyre of Heroes": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Ravenous Rotbelly": {
+   "type_line": "Creature — Zombie Horror",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Reanimate": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Reflections of Littjara": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Relentless Dead": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": [
+    "Menace"
+   ]
+  },
+  "Reliquary Tower": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Repository Skaab": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": [
+    "Exploit"
+   ]
+  },
+  "Rhystic Study": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Ripples of Undeath": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Rise of the Dark Realms": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Rise of the Dread Marn": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Foretell"
+   ]
+  },
+  "River of Tears": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Rooftop Storm": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Rot Hulk": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": [
+    "Menace"
+   ]
+  },
+  "Salt Marsh": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Scourge of Nel Toth": {
+   "type_line": "Creature — Zombie Dragon",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Secluded Courtyard": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Secrets of the Dead": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Shipwreck Marsh": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Sidisi, Undead Vizier": {
+   "type_line": "Legendary Creature — Zombie Snake",
+   "produced_mana": [],
+   "keywords": [
+    "Exploit",
+    "Deathtouch"
+   ]
+  },
+  "Singularity Rupture": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Sinister Sabotage": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Surveil"
+   ]
+  },
+  "Skirge Familiar": {
+   "type_line": "Creature — Phyrexian Imp",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Skullclamp": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sky Diamond": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Snow-Covered Island": {
+   "type_line": "Basic Snow Land — Island",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Snow-Covered Swamp": {
+   "type_line": "Basic Snow Land — Swamp",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Sol Ring": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Stitcher's Supplier": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Submerged Boneyard": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Sunken Hollow": {
+   "type_line": "Land — Island Swamp",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Sunken Ruins": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Swamp": {
+   "type_line": "Basic Land — Swamp",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Swiftfoot Boots": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Syphon Flesh": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Tainted Isle": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Takenuma, Abandoned Mire": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": [
+    "Mill",
+    "Channel"
+   ]
+  },
+  "Talisman of Dominance": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "C",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Temple of Deceit": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Temple of the False God": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Terramorphic Expanse": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "The Ghoul, Gunslinger": {
+   "type_line": "Legendary Creature — Zombie Mutant Rogue",
+   "produced_mana": [],
+   "keywords": [
+    "First strike",
+    "Treasure"
+   ]
+  },
+  "The Meathook Massacre": {
+   "type_line": "Legendary Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "The Scarab God": {
+   "type_line": "Legendary Creature — God",
+   "produced_mana": [],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Thomil, the Destroyer": {
+   "type_line": "Legendary Planeswalker — Thomil",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Thought Scour": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Thought Vessel": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Three Tree City": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Tomb Tyrant": {
+   "type_line": "Creature — Zombie Noble",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Tormod, the Desecrator": {
+   "type_line": "Legendary Creature — Zombie Wizard",
+   "produced_mana": [],
+   "keywords": [
+    "Partner"
+   ]
+  },
+  "Toxic Deluge": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Tragic Slip": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Morbid"
+   ]
+  },
+  "Unbreathing Horde": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Unclaimed Territory": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Undead Augur": {
+   "type_line": "Creature — Zombie Wizard",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Undead Butler": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Undead Hand Ninja": {
+   "type_line": "Creature — Zombie Ninja Villain",
+   "produced_mana": [],
+   "keywords": [
+    "Deathtouch"
+   ]
+  },
+  "Undead Warchief": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Undercity Sewers": {
+   "type_line": "Land — Island Swamp",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": [
+    "Surveil"
+   ]
+  },
+  "Underground River": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Undermine": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Unholy Grotto": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Unstable Obelisk": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Urborg, Tomb of Yawgmoth": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Vampiric Rites": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Vampiric Tutor": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Vanquisher's Banner": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Vela the Night-Clad": {
+   "type_line": "Legendary Creature — Human Wizard",
+   "produced_mana": [],
+   "keywords": [
+    "Intimidate"
+   ]
+  },
+  "Vengeful Dead": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Victimize": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Vile Entomber": {
+   "type_line": "Creature — Zombie Warlock",
+   "produced_mana": [],
+   "keywords": [
+    "Deathtouch"
+   ]
+  },
+  "Village Rites": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Vizier of the Scorpion": {
+   "type_line": "Creature — Zombie Wizard",
+   "produced_mana": [],
+   "keywords": [
+    "Amass"
+   ]
+  },
+  "Wand of Orcus": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Warren Soultrader": {
+   "type_line": "Creature — Zombie Goblin Wizard",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Treasure"
+   ]
+  },
+  "Waterfront District": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Watery Grave": {
+   "type_line": "Land — Island Swamp",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Wayfarer's Bauble": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Wilhelt, the Rotcleaver": {
+   "type_line": "Legendary Creature — Zombie Warrior",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Windfall": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Witch's Cottage": {
+   "type_line": "Land — Swamp",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Withered Wretch": {
+   "type_line": "Creature — Zombie Cleric",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Withering Torment": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Yawgmoth, Thran Physician": {
+   "type_line": "Legendary Creature — Human Cleric",
+   "produced_mana": [],
+   "keywords": [
+    "Protection",
+    "Proliferate"
+   ]
+  },
+  "Zombie Apocalypse": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Zombie Master": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": [],
+   "keywords": [
+    "Regenerate"
+   ]
+  },
+  "Zul Ashur, Lich Lord": {
+   "type_line": "Legendary Creature — Zombie Warlock",
+   "produced_mana": [],
+   "keywords": [
+    "Ward"
+   ]
+  },
+  "Clearwater Pathway": {
+   "type_line": "Land // Land",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Fell the Profane": {
+   "type_line": "Instant // Land",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  }
+ }
 }

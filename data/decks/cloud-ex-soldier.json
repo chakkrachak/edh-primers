@@ -1432,5 +1432,1833 @@
  "legality": "Legal",
  "oracle_text": "Haste<br><br>When Cloud enters, attach up to one target Equipment you control to it.<br><br>Whenever Cloud attacks, draw a card for each equipped attacking creature you control. Then if Cloud has power 7 or greater, create two Treasure tokens.",
  "quick_read": "The <strong>ultimate equipment-voltron general</strong>: it equips for free on entry, draws massively on attack (1 card per equipped creature), and generates Treasures past 7 power. Naya gives access to the best Equipment tutors and free-equip engines (Puresteel Paladin, Sigarda's Aid, Forge Anew) — turn Cloud into a 14/14 hasty monster and win through commander damage or infinite combats.",
- "extra_table_rows": ""
+ "extra_table_rows": "",
+ "card_meta": {
+  "Adaptive Omnitool": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Adelbert Steiner": {
+   "type_line": "Legendary Creature — Human Knight",
+   "produced_mana": [],
+   "keywords": [
+    "Lifelink"
+   ]
+  },
+  "Aerith, Last Ancient": {
+   "type_line": "Legendary Creature — Human Cleric Druid",
+   "produced_mana": [],
+   "keywords": [
+    "Lifelink",
+    "Raise"
+   ]
+  },
+  "Aettir and Priwen": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Aggravated Assault": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Akiri, Fearless Voyager": {
+   "type_line": "Legendary Creature — Kor Warrior",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Akroma's Will": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Amy Rose": {
+   "type_line": "Legendary Creature — Hedgehog Warrior",
+   "produced_mana": [],
+   "keywords": [
+    "Haste"
+   ]
+  },
+  "Ancient Tomb": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Annie Joins Up": {
+   "type_line": "Legendary Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Arcane Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Ardenn, Intrepid Archaeologist": {
+   "type_line": "Legendary Creature — Kor Scout",
+   "produced_mana": [],
+   "keywords": [
+    "Partner"
+   ]
+  },
+  "Arid Mesa": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Armored Skyhunter": {
+   "type_line": "Creature — Cat Knight",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Armory Automaton": {
+   "type_line": "Artifact Creature — Construct",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Ash Barrens": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": [
+    "Landcycling",
+    "Basic landcycling",
+    "Typecycling",
+    "Cycling"
+   ]
+  },
+  "Aurelia, the Warleader": {
+   "type_line": "Legendary Creature — Angel",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Vigilance",
+    "Haste"
+   ]
+  },
+  "Austere Command": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Avalanche of Sector 7": {
+   "type_line": "Legendary Creature — Human Rebel",
+   "produced_mana": [],
+   "keywords": [
+    "Menace"
+   ]
+  },
+  "Axgard Armory": {
+   "type_line": "Land",
+   "produced_mana": [
+    "W"
+   ],
+   "keywords": []
+  },
+  "Barret Wallace": {
+   "type_line": "Legendary Creature — Human Rebel",
+   "produced_mana": [],
+   "keywords": [
+    "Reach"
+   ]
+  },
+  "Barret, Avalanche Leader": {
+   "type_line": "Legendary Creature — Human Rebel",
+   "produced_mana": [],
+   "keywords": [
+    "Reach",
+    "Avalanche!"
+   ]
+  },
+  "Basilisk Collar": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Bastion Protector": {
+   "type_line": "Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Battlefield Forge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Beast Within": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Beatrix, Loyal General": {
+   "type_line": "Legendary Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": [
+    "Vigilance"
+   ]
+  },
+  "Behemoth Sledge": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Birds of Paradise": {
+   "type_line": "Creature — Bird",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Bitterthorn, Nissa's Animus": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip",
+    "Living weapon"
+   ]
+  },
+  "Blackblade Reforged": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Bladehold War-Whip": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "For Mirrodin!",
+    "Equip"
+   ]
+  },
+  "Blasphemous Act": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Bloodforged Battle-Axe": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Bonders' Enclave": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Boros Charm": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Boseiju, Who Endures": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": [
+    "Channel"
+   ]
+  },
+  "Bountiful Promenade": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Bronze Guardian": {
+   "type_line": "Artifact Creature — Golem",
+   "produced_mana": [],
+   "keywords": [
+    "Ward",
+    "Double strike"
+   ]
+  },
+  "Brotherhood Regalia": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Bruenor Battlehammer": {
+   "type_line": "Legendary Creature — Dwarf Warrior",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Brushland": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Bugenhagen, Wise Elder": {
+   "type_line": "Legendary Creature — Human Shaman",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Reach"
+   ]
+  },
+  "Bureau Headmaster": {
+   "type_line": "Creature — Human Assassin",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Buried Ruin": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Buster Sword": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Caduceus, Staff of Hermes": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Cait Sith, Fortune Teller": {
+   "type_line": "Legendary Artifact Creature — Cat Moogle",
+   "produced_mana": [],
+   "keywords": [
+    "Lucky Slots",
+    "Scry"
+   ]
+  },
+  "Canopy Vista": {
+   "type_line": "Land — Forest Plains",
+   "produced_mana": [
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Captain America's Shield": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Indestructible",
+    "Equip"
+   ]
+  },
+  "Champion's Helm": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Chandra's Ignition": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Chaos Warp": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Chishiro, the Shattered Blade": {
+   "type_line": "Legendary Creature — Snake Samurai",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cid, Freeflier Pilot": {
+   "type_line": "Legendary Creature — Human Warrior Pilot",
+   "produced_mana": [],
+   "keywords": [
+    "Jump"
+   ]
+  },
+  "Cinder Glade": {
+   "type_line": "Land — Mountain Forest",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Clever Concealment": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Convoke"
+   ]
+  },
+  "Clifftop Retreat": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Cloud's Limit Break": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Omnislash",
+    "Blade Beam",
+    "Tiered",
+    "Cross-Slash"
+   ]
+  },
+  "Cloud, Ex-SOLDIER": {
+   "type_line": "Legendary Creature — Human Soldier Mercenary",
+   "produced_mana": [],
+   "keywords": [
+    "Treasure",
+    "Haste"
+   ]
+  },
+  "Cloud, Midgar Mercenary": {
+   "type_line": "Legendary Creature — Human Soldier Mercenary",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cloud, Planet's Champion": {
+   "type_line": "Legendary Creature — Human Soldier Mercenary",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Codsworth, Handy Helper": {
+   "type_line": "Legendary Artifact Creature — Robot",
+   "produced_mana": [
+    "W"
+   ],
+   "keywords": []
+  },
+  "Colossus Hammer": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Command Beacon": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Command Tower": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Commander's Plate": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Conformer Shuriken": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Conqueror's Flail": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Crackdown Construct": {
+   "type_line": "Artifact Creature — Construct",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cultivate": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Dancer's Chakrams": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Job select",
+    "Equip",
+    "Krishna"
+   ]
+  },
+  "Danitha Capashen, Paragon": {
+   "type_line": "Legendary Creature — Human Knight",
+   "produced_mana": [],
+   "keywords": [
+    "Lifelink",
+    "Vigilance",
+    "First strike"
+   ]
+  },
+  "Danitha, New Benalia's Light": {
+   "type_line": "Legendary Creature — Human Knight",
+   "produced_mana": [],
+   "keywords": [
+    "Lifelink",
+    "Vigilance",
+    "Trample"
+   ]
+  },
+  "Darksteel Plate": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Indestructible",
+    "Equip"
+   ]
+  },
+  "Decimate": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Deflecting Swat": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Delighted Halfling": {
+   "type_line": "Creature — Halfling Citizen",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Dispatch": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Metalcraft"
+   ]
+  },
+  "Dogmeat, Ever Loyal": {
+   "type_line": "Legendary Creature — Dog",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Dragonfire Blade": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Elena, Turk Recruit": {
+   "type_line": "Legendary Creature — Human Assassin",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Embercleave": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip",
+    "Flash"
+   ]
+  },
+  "Enlightened Tutor": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Esper Sentinel": {
+   "type_line": "Artifact Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Evolving Wilds": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Excalibur, Sword of Eden": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Exotic Orchard": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Explorer's Scope": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Farewell": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Farseek": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Fellwar Stone": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Fighter Class": {
+   "type_line": "Enchantment — Class",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Fire-Lit Thicket": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Firion, Wild Rose Warrior": {
+   "type_line": "Legendary Creature — Human Rebel Warrior",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Flawless Maneuver": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Forest": {
+   "type_line": "Basic Land — Forest",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Forge Anew": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Fortified Village": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Freya Crescent": {
+   "type_line": "Legendary Creature — Rat Knight",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": [
+    "Jump"
+   ]
+  },
+  "Full Throttle": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Furious Rise": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Furycalm Snarl": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Game Trail": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Generous Gift": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Genji Glove": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Gilgamesh, Master-at-Arms": {
+   "type_line": "Legendary Creature — Human Samurai",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Godo, Bandit Warlord": {
+   "type_line": "Legendary Creature — Human Barbarian",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Halvar, God of Battle // Sword of the Realms": {
+   "type_line": "Legendary Creature — God // Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Hammer of Nazahn": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Harmonize": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Heidegger, Shinra Executive": {
+   "type_line": "Legendary Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Helitrooper": {
+   "type_line": "Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Hellkite Tyrant": {
+   "type_line": "Creature — Dragon",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Trample"
+   ]
+  },
+  "Helm of the Host": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Hero's Blade": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Hero's Heirloom": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Heroic Intervention": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Hexplate Wallbreaker": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "For Mirrodin!",
+    "Equip"
+   ]
+  },
+  "Hushwood Verge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Inspiring Statuary": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Inventors' Fair": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Inventory Management": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Split second"
+   ]
+  },
+  "Iron Man Armor": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Ishgard, the Holy See // Faith & Grief": {
+   "type_line": "Land — Town // Sorcery — Adventure",
+   "produced_mana": [
+    "W"
+   ],
+   "keywords": []
+  },
+  "Jeska's Will": {
+   "type_line": "Sorcery",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": []
+  },
+  "Jetmir's Garden": {
+   "type_line": "Land — Mountain Forest Plains",
+   "produced_mana": [
+    "G",
+    "R",
+    "W"
+   ],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Jungle Shrine": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Kaldra Compleat": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Indestructible",
+    "Equip",
+    "Living weapon"
+   ]
+  },
+  "Karplusan Forest": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Kellan, the Fae-Blooded // Birthright Boon": {
+   "type_line": "Legendary Creature — Human Faerie // Sorcery — Adventure",
+   "produced_mana": [],
+   "keywords": [
+    "Double strike"
+   ]
+  },
+  "Kessig Wolf Run": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Kodama of the West Tree": {
+   "type_line": "Legendary Creature — Spirit",
+   "produced_mana": [],
+   "keywords": [
+    "Reach"
+   ]
+  },
+  "Kodama's Reach": {
+   "type_line": "Sorcery — Arcane",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Kutzil, Malamet Exemplar": {
+   "type_line": "Legendary Creature — Cat Warrior",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Legion Leadership // Legion Stronghold": {
+   "type_line": "Instant // Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": [
+    "Double"
+   ]
+  },
+  "Leyline Axe": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Lifestream's Blessing": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Foretell"
+   ]
+  },
+  "Lightning Greaves": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Lightning, Army of One": {
+   "type_line": "Legendary Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": [
+    "Lifelink",
+    "Stagger",
+    "First strike",
+    "Trample",
+    "Double"
+   ]
+  },
+  "Loxodon Warhammer": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Machinist's Arsenal": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Machina",
+    "Job select",
+    "Equip"
+   ]
+  },
+  "Mantle of the Ancients": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Mask of Memory": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Masterwork of Ingenuity": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Mithril Coat": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Indestructible",
+    "Equip",
+    "Flash"
+   ]
+  },
+  "Mjölnir, Hammer of Thor": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Double"
+   ]
+  },
+  "Mossfire Valley": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Mountain": {
+   "type_line": "Basic Land — Mountain",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": []
+  },
+  "Nahiri, Forged in Fury": {
+   "type_line": "Legendary Creature — Kor Artificer",
+   "produced_mana": [],
+   "keywords": [
+    "Affinity"
+   ]
+  },
+  "Nature's Lore": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Nettlecyst": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip",
+    "Living weapon"
+   ]
+  },
+  "Nibelheim Aflame": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Open the Armory": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Overgrown Farmland": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Path of Ancestry": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Path to Exile": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Pip-Boy 3000": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Check Map",
+    "Pick a Perk",
+    "Equip",
+    "Sort Inventory"
+   ]
+  },
+  "Plains": {
+   "type_line": "Basic Land — Plains",
+   "produced_mana": [
+    "W"
+   ],
+   "keywords": []
+  },
+  "Plateau": {
+   "type_line": "Land — Mountain Plains",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Power Fist": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Professional Face-Breaker": {
+   "type_line": "Creature — Human Warrior",
+   "produced_mana": [],
+   "keywords": [
+    "Treasure",
+    "Menace"
+   ]
+  },
+  "Professor Hojo": {
+   "type_line": "Legendary Creature — Human Scientist",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Puresteel Paladin": {
+   "type_line": "Creature — Human Knight",
+   "produced_mana": [],
+   "keywords": [
+    "Metalcraft"
+   ]
+  },
+  "Radiant Grove": {
+   "type_line": "Land — Forest Plains",
+   "produced_mana": [
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Rampant Growth": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Raubahn, Bull of Ala Mhigo": {
+   "type_line": "Legendary Creature — Human Warrior",
+   "produced_mana": [],
+   "keywords": [
+    "Ward"
+   ]
+  },
+  "Red XIII, Proud Warrior": {
+   "type_line": "Legendary Creature — Beast Warrior",
+   "produced_mana": [],
+   "keywords": [
+    "Vigilance",
+    "Trample",
+    "Cosmo Memory"
+   ]
+  },
+  "Reliquary Tower": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Restoration Magic": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Curaga",
+    "Cura",
+    "Tiered",
+    "Cure"
+   ]
+  },
+  "Reyav, Master Smith": {
+   "type_line": "Legendary Creature — Dwarf Artificer",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Rockfall Vale": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Rogue's Passage": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Rootbound Crag": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Rugged Prairie": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "SOLDIER Military Program": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Sacred Foundry": {
+   "type_line": "Land — Mountain Plains",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Sacred Peaks": {
+   "type_line": "Land — Mountain Plains",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Samurai's Katana": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Murasame",
+    "Job select",
+    "Equip"
+   ]
+  },
+  "Savannah": {
+   "type_line": "Land — Forest Plains",
+   "produced_mana": [
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Scavenger Grounds": {
+   "type_line": "Land — Desert",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Secret Rendezvous": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Sephiroth, Fallen Hero": {
+   "type_line": "Legendary Creature — Human Avatar Soldier",
+   "produced_mana": [],
+   "keywords": [
+    "Jenova Cells",
+    "The Reunion"
+   ]
+  },
+  "Shadowspear": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sigarda's Aid": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Skullclamp": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Slayers' Stronghold": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Smothering Tithe": {
+   "type_line": "Enchantment",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Treasure"
+   ]
+  },
+  "Sol Ring": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Spectator Seating": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Spire Garden": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Spire of Industry": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Sram, Senior Edificer": {
+   "type_line": "Legendary Creature — Dwarf Advisor",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Starting Town": {
+   "type_line": "Land — Town",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Steelshaper's Gift": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Stomping Ground": {
+   "type_line": "Land — Mountain Forest",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Stoneforge Mystic": {
+   "type_line": "Creature — Kor Artificer",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Stroke of Midnight": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Strong Back": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Summon: Kujata": {
+   "type_line": "Enchantment Creature — Saga Ox",
+   "produced_mana": [],
+   "keywords": [
+    "Haste",
+    "Trample"
+   ]
+  },
+  "Summoning Materia": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sunbillow Verge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Sundown Pass": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Sunforger": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sungrass Prairie": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Sunpetal Grove": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Sunscorched Divide": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Super State": {
+   "type_line": "Legendary Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "First strike",
+    "Trample",
+    "Enchant"
+   ]
+  },
+  "Super-Soldier Serum": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Swiftfoot Boots": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sword of Feast and Famine": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sword of Fire and Ice": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sword of Forge and Frontier": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sword of Hearth and Home": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sword of Light and Shadow": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sword of Wealth and Power": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Treasure",
+    "Equip"
+   ]
+  },
+  "Sword of the Animist": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Swords to Plowshares": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Swordsman's Steel": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Taiga": {
+   "type_line": "Land — Mountain Forest",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Talisman of Conviction": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C",
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Talisman of Impulse": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C",
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Talisman of Unity": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C",
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Teferi's Protection": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Temple Garden": {
+   "type_line": "Land — Forest Plains",
+   "produced_mana": [
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "The Aetherspark": {
+   "type_line": "Legendary Artifact Planeswalker — Equipment",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "The Reaver Cleaver": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Treasure",
+    "Equip"
+   ]
+  },
+  "Thornspire Verge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Three Visits": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Tifa's Limit Break": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Triple",
+    "Final Heaven",
+    "Meteor Strikes",
+    "Somersault",
+    "Tiered",
+    "Double"
+   ]
+  },
+  "Tifa, Martial Artist": {
+   "type_line": "Legendary Creature — Human Monk",
+   "produced_mana": [],
+   "keywords": [
+    "Melee"
+   ]
+  },
+  "Trailblazer's Boots": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Ultima Weapon": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Ultimate Magic: Holy": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Foretell"
+   ]
+  },
+  "Ultimate Magic: Meteor": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Foretell"
+   ]
+  },
+  "Umezawa's Jitte": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Unfinished Business": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Urza's Saga": {
+   "type_line": "Enchantment Land — Urza's Saga",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Vandalblast": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Overload"
+   ]
+  },
+  "Vanquish the Horde": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Vincent, Vengeful Atoner": {
+   "type_line": "Legendary Creature — Assassin",
+   "produced_mana": [],
+   "keywords": [
+    "Chaos",
+    "Menace"
+   ]
+  },
+  "Weapons Vendor": {
+   "type_line": "Creature — Human Artificer",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Windswept Heath": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Wooded Foothills": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Wooded Ridgeline": {
+   "type_line": "Land — Mountain Forest",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Worldly Tutor": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Wrecking Ball Arm": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Yavimaya, Cradle of Growth": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Yuffie, Materia Hunter": {
+   "type_line": "Legendary Creature — Human Ninja",
+   "produced_mana": [],
+   "keywords": [
+    "Ninjutsu"
+   ]
+  },
+  "Zack Fair": {
+   "type_line": "Legendary Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Halvar, God of Battle": {
+   "type_line": "Legendary Creature — God // Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Ishgard, the Holy See": {
+   "type_line": "Land — Town // Sorcery — Adventure",
+   "produced_mana": [
+    "W"
+   ],
+   "keywords": []
+  },
+  "Kellan, the Fae-Blooded": {
+   "type_line": "Legendary Creature — Human Faerie // Sorcery — Adventure",
+   "produced_mana": [],
+   "keywords": [
+    "Double strike"
+   ]
+  },
+  "Legion Leadership": {
+   "type_line": "Instant // Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": [
+    "Double"
+   ]
+  }
+ }
 }
