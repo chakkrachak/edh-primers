@@ -10,7 +10,7 @@
 <div class="toc"><h3 class="toc-h3">📑 Table of Contents</h3><ol>
 <li><a href="#s1">Commander Sheet</a></li>
 <li><a href="#s2">Chosen Game Plan: {{ plan_title|escape }}</a></li>
-<li><a href="#s3">Cards by EDHREC Categories</a></li>
+<li><a href="#s3">Cards by Role ({{ n_categories }})</a></li>
 <li><a href="#s4">Relevant Combos ({{ n_combos }})</a></li>
 </ol></div>
 
@@ -42,8 +42,8 @@
 <div class="center">{{ plan_bigs|safe }}</div>
 </div>
 
-<h2 id="s3">3. Synergy Cards by EDHREC Categories</h2>
-<p class="report-sub">Each explanation is verified against the official Oracle text (Scryfall). The "synergy 0.xx" badge is the EDHREC score: share of decks playing this card. 📋 copies the category's card list.</p>
+<h2 id="s3">3. Cards by Role ({{ n_categories }})</h2>
+<p class="report-sub">Each explanation is verified against the official Oracle text (Scryfall). The "synergy 0.xx" badge is the EDHREC score: share of decks playing this card. Cards are grouped by ROLE/FUNCTION (Engines → Wincons → Flex → Card Advantage → Ramp → Wipes → Interaction → Lands), not by card type. 📋 copies the category's card list.</p>
 
 {% for cat in categories %}
 <div class="category"><h3>{{ cat.title }} {{ cat.copy_btn }}</h3>

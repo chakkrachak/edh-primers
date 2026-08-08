@@ -67,25 +67,60 @@ def build_one(slug):
         'gen_date': datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
     }
 
-    # --- categories ---
-    categories = []
+    # --- categories (regroupées par RÔLE — reference: role-grouping.md) ---
+    # Aplatir les explications par carte (HighSynergy prime en cas de doublon)
+    flat = {}
+    hs_pool = set()
+    if 'HighSynergy' in d.get('explanations', {}):
+        hs_pool = {n for n, _ in d['explanations']['HighSynergy']}
     for key in d['cat_order']:
-        title, synopsis = d['cat_synopsis'][key]
-        cards = []
         for name, expl in d['explanations'][key]:
-            img = d['imgs'].get(name, '')
-            score = syn_of(name)
-            cards.append({
-                'name': name,
-                'img': img,
-                'img_large': img.replace('/normal/', '/large/'),
-                'explanation': expl,
-                'synergy': f'{score:.2f}' if score is not None else None,
-                'syn_cls': syn_cls(score) if score is not None else '',
-            })
+            if name not in flat:
+                flat[name] = {'name': name, 'explanation': expl, 'source_cat': key}
+            # HighSynergy explication prime
+            if key == 'HighSynergy':
+                flat[name]['explanation'] = expl
+                flat[name]['source_cat'] = key
+    # Combo pieces
+    combo_pieces = set()
+    for c in d.get('combos', []):
+        for u in c.get('uses', []):
+            combo_pieces.add(u['card']['name'])
+    # Assignation par rôle
+    from roles import assign_role, ROLE_ORDER, ROLE_TITLES, ROLE_SYNOPSES
+    cards_by_role = {r: [] for r in ROLE_ORDER}
+    for name, info in flat.items():
+        meta = d.get('card_meta', {}).get(name, {})
+        oracle_txt = d.get('oracle', {}).get(name, '')
+        role = assign_role(name, meta, oracle_txt,
+                           is_engine_hint=name in hs_pool,
+                           is_combo_piece=name in combo_pieces)
+        img = d['imgs'].get(name, '')
+        score = syn_of(name)
+        cards_by_role[role].append({
+            'name': name,
+            'img': img,
+            'img_large': img.replace('/normal/', '/large/'),
+            'explanation': info['explanation'],
+            'synergy': f'{score:.2f}' if score is not None else None,
+            'syn_cls': syn_cls(score) if score is not None else '',
+        })
+    # Ordre d'affichage : Engines → Wincons → Flex → CardAdvantage → Ramp → Wipes → Interaction → Lands
+    categories = []
+    for role in ROLE_ORDER:
+        cards = cards_by_role[role]
+        if not cards:
+            continue
         cat_names = [c['name'] for c in cards]
-        categories.append({'title': title, 'synopsis': synopsis, 'copy_btn': copy_btn(cat_names), 'cards': cards})
+        categories.append({
+            'title': ROLE_TITLES[role],
+            'synopsis': ROLE_SYNOPSES[role],
+            'copy_btn': copy_btn(cat_names),
+            'cards': cards,
+            'n': len(cards),
+        })
     ctx['categories'] = categories
+    ctx['n_categories'] = len(categories)
 
     # --- combos ---
     combos = []
@@ -177,30 +212,52 @@ def build_precon(slug):
         'commander_big': big_card(cmdr.get('img', ''), cmdr['name'], 260),
     }
 
-    # --- categories ---
-    categories = []
+    # --- categories (regroupées par RÔLE — même moteur que les rapports) ---
+    from roles import assign_role, ROLE_ORDER, ROLE_TITLES, ROLE_SYNOPSES
+    # combo pieces (toutes les cartes des combos de tous les plans)
+    combo_pieces = set()
+    for p in d['plans']:
+        for cb in p.get('combos', []):
+            for u in cb.get('uses', []):
+                combo_pieces.add(u['card']['name'])
+    # hint engine : cartes du deck dans le pool High Synergy du commander
+    hs_names = set()
+    for cat in d['cards'].values():
+        for c in cat:
+            if c.get('in_main_hs'):
+                hs_names.add(c['name'])
+    cards_by_role = {r: [] for r in ROLE_ORDER}
     n_total = 0
-    for key in ['Creatures', 'Instants', 'Sorceries', 'Artifacts', 'Enchantments', 'UtilityLands', 'ManaBase']:
-        cards_in = d['cards'].get(key, [])
-        cards = []
-        for c in cards_in:
+    for cat in d['cards'].values():
+        for c in cat:
+            meta = d.get('card_meta', {}).get(c['name'], {})
+            oracle_txt = d.get('oracle', {}).get(c['name'], '')
+            role = assign_role(c['name'], meta, oracle_txt,
+                               is_engine_hint=c['name'] in hs_names,
+                               is_combo_piece=c['name'] in combo_pieces)
             score = c.get('synergy')
-            cards.append({
+            cards_by_role[role].append({
                 'name': c['name'], 'img': c['img'],
                 'explanation': c.get('explanation', ''),
                 'synergy': f'{score:.2f}' if score is not None else None,
                 'syn_cls': syn_cls(score),
             })
             n_total += 1
+    categories = []
+    for role in ROLE_ORDER:
+        cards = cards_by_role[role]
+        if not cards:
+            continue
         names = [c['name'] for c in cards]
         categories.append({
-            'title': PRECON_TITLES[key], 'synopsis': PRECON_SYNOPSES[key],
+            'title': ROLE_TITLES[role], 'synopsis': ROLE_SYNOPSES[role],
             'copy_btn': copy_btn(names), 'cards': cards,
             'n': len(cards),
         })
     ctx['categories'] = categories
     ctx['n_cards'] = sum(c['n'] for c in categories)
     ctx['n_total'] = n_total
+    ctx['n_categories'] = len(categories)
 
     # --- plans ---
     plans = []

@@ -10,7 +10,7 @@
 <div class="toc"><h3 class="toc-h3">📑 Table of Contents</h3><ol>
 <li><a href="#s1">Commander &amp; Deck Facts</a></li>
 <li><a href="#s2">Game Plans &amp; High Synergy ({{ plans|length }})</a></li>
-<li><a href="#s3">Deck Cards by Category ({{ n_cards }} unique)</a></li>
+<li><a href="#s3">Deck Cards by Role ({{ n_cards }} unique)</a></li>
 <li><a href="#s4">Structure Analysis</a></li>
 <li><a href="#s5">Verdict</a></li>
 </ol></div>
@@ -86,8 +86,8 @@
 </div>
 {% endfor %}
 
-<h2 id="s3">3. Deck Cards by Category ({{ n_cards }} unique)</h2>
-<p class="report-sub">The full precon list, classified into the same EDHREC categories as the primers. Cards in the commander's EDHREC High Synergy / Top Cards pool carry the synergy badge. 📋 copies a category's card names.</p>
+<h2 id="s3">3. Deck Cards by Role ({{ n_cards }} unique)</h2>
+<p class="report-sub">Every card of the list, grouped by ROLE/FUNCTION (Engines → Wincons → Flex → Card Advantage → Ramp → Wipes → Interaction → Lands) — not by card type. Cards in the commander's EDHREC High Synergy / Top Cards pool carry the synergy badge. 📋 copies a role's card names.</p>
 
 {% for cat in categories %}
 <div class="category"><h3>{{ cat.title }} {{ cat.copy_btn }}</h3>
