@@ -76,33 +76,47 @@
 <footer>{{ footer|safe }}</footer>
 <script>
 (function(){
-  var fType = 'all', fColor = 'all';
+  var fType = 'all';
+  var fColors = []; // sélection multiple (intersection) : la carte doit contenir TOUTES ces couleurs
   var btns = document.querySelectorAll('.fbtn');
   btns.forEach(function(b){
     b.addEventListener('click', function(){
       var f = b.getAttribute('data-filter'), v = b.getAttribute('data-value');
-      if (f === 'type') fType = v; else fColor = v;
-      btns.forEach(function(x){
-        if (x.getAttribute('data-filter') === f) x.classList.toggle('active', x === b);
-      });
+      if (f === 'type') {
+        fType = v;
+        btns.forEach(function(x){
+          if (x.getAttribute('data-filter') === f) x.classList.toggle('active', x === b);
+        });
+      } else { // color : toggle multi-sélection
+        if (v === 'all') {
+          fColors = [];
+        } else {
+          var i = fColors.indexOf(v);
+          if (i !== -1) fColors.splice(i, 1); else fColors.push(v);
+        }
+        btns.forEach(function(x){
+          if (x.getAttribute('data-filter') !== 'color') return;
+          if (x.getAttribute('data-value') === 'all') {
+            x.classList.toggle('active', fColors.length === 0);
+          } else {
+            x.classList.toggle('active', fColors.indexOf(x.getAttribute('data-value')) !== -1);
+          }
+        });
+      }
       apply();
     });
   });
   function apply(){
     var cards = document.querySelectorAll('.grid .card');
-    var visible = 0;
     cards.forEach(function(c){
       var okType = (fType === 'all' || c.getAttribute('data-kind') === fType);
       var cols = c.getAttribute('data-colors') || '';
-      var okColor = (fColor === 'all' || cols.indexOf(fColor) !== -1);
-      var show = okType && okColor;
-      c.style.display = show ? '' : 'none';
-      if (show) visible++;
+      var okColor = fColors.length === 0 || fColors.every(function(cr){ return cols.indexOf(cr) !== -1; });
+      c.style.display = (okType && okColor) ? '' : 'none';
     });
-    var sPrim = document.getElementById('primers'), sEval = document.getElementById('evals');
     var nP = countVisible('primer'), nE = countVisible('eval');
-    sPrim.style.display = (fType === 'all' || fType === 'primer') && (fColor === 'all' || anyColor(sPrim)) ? '' : 'none';
-    sEval.style.display = (fType === 'all' || fType === 'eval') && (fColor === 'all' || anyColor(sEval)) ? '' : 'none';
+    document.getElementById('primers').style.display = (fType === 'all' || fType === 'primer') && nP > 0 ? '' : 'none';
+    document.getElementById('evals').style.display = (fType === 'all' || fType === 'eval') && nE > 0 ? '' : 'none';
     document.querySelectorAll('.section-count')[0].textContent = nP;
     document.querySelectorAll('.section-count')[1].textContent = nE;
   }
@@ -112,13 +126,6 @@
       if (c.getAttribute('data-kind') === kind && c.style.display !== 'none') n++;
     });
     return n;
-  }
-  function anyColor(sec){
-    var found = false;
-    sec.querySelectorAll('.card').forEach(function(c){
-      if (c.style.display !== 'none') found = true;
-    });
-    return found;
   }
 })();
 </script>
