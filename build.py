@@ -251,6 +251,25 @@ def build_precon(slug):
     # --- verdict ---
     ctx['verdict'] = d['verdict']
 
+    # --- structure analysis (build principles) ---
+    structure = d.get('structure', {})
+    roles = []
+    for r in structure.get('roles', []):
+        lo, hi = r['ideal'].split('-')
+        lo, hi = int(lo), int(hi)
+        span = max(hi - lo, 1)
+        roles.append({
+            'role': r['role'], 'slots': r['slots'], 'ideal': r['ideal'], 'status': r['status'],
+            'pct': max(0, min(100, int(round(r['slots'] / (hi * 1.4) * 100)))),
+            'fill_cls': 'fill-under' if r['status'] == 'under' else ('fill-over' if r['status'] == 'over' else ''),
+        })
+    ctx['structure'] = {
+        'roles': roles,
+        'avg_cmc': f"{structure.get('avg_cmc_nonland', 0):.2f}",
+        'avg_cmc_num': structure.get('avg_cmc_nonland', 0),
+        'summary': structure.get('summary', ''),
+    }
+
     template = open(PRECON_TEMPLATE, encoding='utf-8').read()
     html_out = render(template, ctx)
 

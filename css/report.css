@@ -403,3 +403,7 @@ strong { color: var(--text-strong); }
 .combo-meta .badge { display: inline-block; background: #1f1f3a; border: 1px solid var(--accent-green);
   color: var(--accent-green); border-radius: 6px; padding: 0 6px; font-size: 11px; margin-right: 4px; }
 .combo-desc { font-size: 12px; color: #c8d0e8; margin: 6px 0 0; line-height: 1.55; }
+
+/* Structure analysis: under/over-filled role bars */
+.fill-under { background: linear-gradient(90deg, #ffd77a, #ff9d5c) !important; }
+.fill-over { background: linear-gradient(90deg, #79c0ff, #8a93b8) !important; }

@@ -11,7 +11,8 @@
 <li><a href="#s1">Commander &amp; Deck Facts</a></li>
 <li><a href="#s2">Game Plans &amp; High Synergy ({{ plans|length }})</a></li>
 <li><a href="#s3">Deck Cards by Category ({{ n_cards }} unique)</a></li>
-<li><a href="#s4">Verdict</a></li>
+<li><a href="#s4">Structure Analysis</a></li>
+<li><a href="#s5">Verdict</a></li>
 </ol></div>
 
 <h2 id="s1">1. Commander &amp; Deck Facts</h2>
@@ -102,7 +103,19 @@
 </div>
 {% endfor %}
 
-<h2 id="s4">4. Verdict</h2>
+<h2 id="s4">4. Structure Analysis (build principles)</h2>
+<p class="report-sub">The list assessed against the ideal 100-card Commander build: 36-38 lands · 10-12 ramp · 10-12 draw · 10-12 interaction · 2-3 wipes · 30-35 synergies/wincons · 3-5 flex · avg CMC ≤ 3.2.</p>
+<div class="verdict">
+<div class="verdict-scores">
+{% for r in structure.roles %}
+<div class="score-row"><span class="score-name">{{ r.role }}</span><div class="score-bar"><div class="score-fill {{ r.fill_cls }}" style="width: {{ r.pct }}%"></div></div><span class="score-val">{{ r.slots }} / {{ r.ideal }}</span></div>
+{% endfor %}
+</div>
+<p><strong>Average CMC (non-land): {{ structure.avg_cmc|safe }} — {% if structure.avg_cmc_num > 3.2 %}⚠️ above the ≤ 3.2 golden rule{% else %}✅ within the ≤ 3.2 golden rule{% endif %}</strong></p>
+<p>{{ structure.summary|safe }}</p>
+</div>
+
+<h2 id="s5">5. Verdict</h2>
 <div class="verdict">
 <h3>🎯 {{ verdict.favored|escape }}</h3>
 <div class="verdict-scores">

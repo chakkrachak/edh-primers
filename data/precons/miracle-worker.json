@@ -1968,5 +1968,53 @@
   "score_enchantress": 10,
   "score_topdeck": 10,
   "text": "The Miracle Worker list is built AROUND Aminatou's enchantment-miracles ability: 15 enchantments + 8 enchantress-style payoffs (Mesa Enchantress, Ondu Spiritdancer, Sigil of the Empty Throne, One with the Multiverse, Sphere of Safety...). 10 of the deck's cards sit in the EDHREC High Synergy pool of BOTH the Enchantress (2,872 decks) and Topdeck (2,108) plans — the two dominant archetypes. Control (282) and Pillow Fort (154) are supported by the same cards (Sphere of Safety, Shark Typhoon, removal suite). Tokens/Combo are incidental: Sigil of the Empty Throne and Extravagant Replication make tokens but the list has no token payoffs beyond them. Verdict: the list is a classic Enchantress/Miracles control deck — Enchantress and Topdeck are co-favored, with Pillow Fort as the natural secondary plan."
+ },
+ "structure": {
+  "avg_cmc_nonland": 4.03,
+  "roles": [
+   {
+    "role": "Lands",
+    "slots": 36,
+    "ideal": "36-38",
+    "status": "ok"
+   },
+   {
+    "role": "Ramp",
+    "slots": 10,
+    "ideal": "10-12",
+    "status": "ok"
+   },
+   {
+    "role": "Draw",
+    "slots": 13,
+    "ideal": "10-12",
+    "status": "over"
+   },
+   {
+    "role": "Interaction",
+    "slots": 12,
+    "ideal": "10-12",
+    "status": "ok"
+   },
+   {
+    "role": "Board wipes",
+    "slots": 2,
+    "ideal": "2-3",
+    "status": "ok"
+   },
+   {
+    "role": "Synergies/Wincons",
+    "slots": 25,
+    "ideal": "30-35",
+    "status": "under"
+   },
+   {
+    "role": "Flex",
+    "slots": 1,
+    "ideal": "3-5",
+    "status": "under"
+   }
+  ],
+  "summary": "The list is structurally sound on the fundamentals: 36 lands and 10 ramp (rocks mostly CMC ≤ 2) match the ideal 100-card build, and interaction (12) plus wipes (2) are in range. The weaknesses are the classic precon issues: average CMC 4.03 is well above the ≤ 3.2 golden rule (the top end is loaded with 5-8 mana enchantments: One with the Multiverse, Extravagant Replication, Aminatou's Augury), synergies/wincons fill only 25 of the ideal 30-35 slots (several 5-6 mana creatures are value engines rather than finishers), and the deck has just 1 flex slot. Upgrade path: cut the weakest 5-6 mana engine for 2-3 more 2-3 CMC rocks/draw (Thirst for Meaning-class cantrips) and 2-3 dedicated finishers to pull the curve under 3.5 while keeping the enchantress core."
  }
 }
