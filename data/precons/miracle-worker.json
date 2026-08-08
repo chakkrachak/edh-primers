@@ -712,7 +712,8 @@
     "**Top-of-library** : One with the Multiverse plays from the top of your library.",
     "**Finisher** : Redress Fate recursion or a giant Entreat the Angels (miracle for {W}{W}{W}{W})."
    ],
-   "combos": []
+   "combos": [],
+   "quick_read": "Play enchantments to draw cards (Mesa Enchantress, Ondu Spiritdancer, Starfield Mystic), snowball with constellation, and finish with Sigil of the Empty Throne angels or a giant miracle Entreat."
   },
   {
    "tag": "Topdeck",
@@ -1041,7 +1042,8 @@
       "Extravagant Replication"
      ]
     }
-   ]
+   ],
+   "quick_read": "Surveil 2 at upkeep + cantrips stack the top of the library, then miracle −{4} makes every enchantment a cheap blowout; One with the Multiverse turns the top into an extra hand and Aminatou's Augury casts it all for free."
   },
   {
    "tag": "Control",
@@ -1284,7 +1286,8 @@
       "Mirrormade"
      ]
     }
-   ]
+   ],
+   "quick_read": "Answer the table with Swords/Path/Utter End/Cast Out/Arcane Denial, refill through the enchantress engine, reset with Terminus/Time Wipe, then win on card advantage or copied engines."
   },
   {
    "tag": "Pillow Fort",
@@ -1525,7 +1528,8 @@
       "Mirrormade"
      ]
     }
-   ]
+   ],
+   "quick_read": "Sphere of Safety taxes every attack, the enchantress engine keeps assembling value behind the wall, and Sigil + Extravagant Replication builds an army nobody can profitably attack into."
   },
   {
    "tag": "Tokens",
@@ -1593,7 +1597,8 @@
     "**Doubling** : Extravagant Replication doubles your best token maker each upkeep.",
     "**Blowout** : Inkshield turns a lost combat into 8+ 2/1 flying tokens."
    ],
-   "combos": []
+   "combos": [],
+   "quick_read": "Go wide with Sigil of the Empty Throne angels, Shark Typhoon sharks and Extravagant Replication copies; Inkshield turns a lost combat into a swarm of 2/1 flying Inklings."
   },
   {
    "tag": "Combo",
@@ -2007,7 +2012,8 @@
       "Extravagant Replication"
      ]
     }
-   ]
+   ],
+   "quick_read": "Dig with Aminatou's topdeck control and the enchantress draw, then go infinite: Extravagant Replication + Timestream Navigator/Wanderwine Prophets/Second Chance for infinite turns, Mirrormade + Sharuum/Mystic Barrier for ETB loops or a lock."
   }
  ],
  "verdict": {
