@@ -47,7 +47,7 @@
 
 {% for cat in categories %}
 <div class="category"><h3>{{ cat.title }} {{ cat.copy_btn }}</h3>
-<div class="summary">{{ cat.synopsis|safe }}</div>
+<div class="summary">🎯 Build target: {{ cat.target }} — {{ cat.synopsis }}</div>
 <div class="card-grid">
 {% for card in cat.cards %}
     <div class="card-block">

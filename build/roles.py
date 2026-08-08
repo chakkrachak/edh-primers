@@ -11,13 +11,26 @@ ROLE_ORDER = ['Engines', 'Wincons', 'Flex', 'CardAdvantage', 'Ramp', 'Wipes', 'I
 
 ROLE_TITLES = {
     'Engines': '⚙️ Engines / Synergies',
-    'Wincons': '🏆 Wincons / Finisseurs',
-    'Flex': '🎯 Flex / Slots personnels',
-    'CardAdvantage': '🔍 Card Advantage / Pioche',
-    'Ramp': '⚡ Ramp / Accélération',
+    'Wincons': '🏆 Wincons / Finishers',
+    'Flex': '🎯 Flex / Personal Slots',
+    'CardAdvantage': '🔍 Card Advantage / Draw',
+    'Ramp': '⚡ Ramp / Acceleration',
     'Wipes': '💥 Board Wipes',
     'Interaction': '🛡️ Interaction / Removal',
     'Lands': '🌲 Lands / Mana Base',
+}
+
+# Build target per role (deck-building principles: ideal 100-card distribution).
+# Engines+Wincons share the 30-35 synergies & wincons bucket.
+ROLE_TARGETS = {
+    'Engines': '30-35 (Engines + Wincons combined)',
+    'Wincons': '30-35 (Engines + Wincons combined)',
+    'Flex': '3-5',
+    'CardAdvantage': '10-12',
+    'Ramp': '10-12',
+    'Wipes': '2-3',
+    'Interaction': '10-12',
+    'Lands': '36-38',
 }
 
 ROLE_SYNOPSES = {

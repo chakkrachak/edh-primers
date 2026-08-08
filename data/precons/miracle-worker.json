@@ -2011,15 +2011,15 @@
   }
  ],
  "verdict": {
-  "favored": "Enchantress / Topdeck (Miracles)",
+  "favored": "Enchantress & Topdeck (Miracles) — co-favorites",
   "score_enchantress": 10,
   "score_topdeck": 10,
   "text": [
-   "**Enchantress (2,872 decks) et Topdeck (2,108) sont co-favoris** : 10 des cartes du deck sont dans le pool High Synergy EDHREC des deux plans — les deux archétypes dominants.",
-   "**Le deck est construit autour de la capacité miracle d'Aminatou** : 15 enchantements + 8 payoffs enchantress (Mesa Enchantress, Ondu Spiritdancer, Sigil of the Empty Throne, One with the Multiverse, Sphere of Safety).",
-   "**Control (282) et Pillow Fort (154) sont soutenus par les mêmes cartes** : Sphere of Safety, Shark Typhoon, la suite de removal.",
-   "**Tokens/Combo sont accessoires** : Sigil of the Empty Throne et Extravagant Replication font des jetons, mais la liste n'a pas d'autres payoffs jetons.",
-   "**Conclusion** : une classique Enchantress/Miracles control — Enchantress et Topdeck co-favoris, avec Pillow Fort comme plan secondaire naturel."
+   "**Enchantress (2,872 decks) and Topdeck (2,108) are co-favorites**: 10 of the deck's cards sit in both plans' EDHREC High Synergy pools — the two dominant archetypes.",
+   "**The list is built around Aminatou's miracle ability**: 15 enchantments + 8 enchantress payoffs (Mesa Enchantress, Ondu Spiritdancer, Sigil of the Empty Throne, One with the Multiverse, Sphere of Safety).",
+   "**Control (282) and Pillow Fort (154) are supported by the same cards**: Sphere of Safety, Shark Typhoon, the removal suite.",
+   "**Tokens/Combo are accessory plans**: Sigil of the Empty Throne and Extravagant Replication make tokens, but the list has no other token payoffs.",
+   "**Conclusion**: a classic Enchantress/Miracles control deck — Enchantress and Topdeck co-favorites, with Pillow Fort as the natural secondary plan."
   ]
  },
  "structure": {
@@ -2069,11 +2069,11 @@
    }
   ],
   "summary": [
-   "**Base saine** : 36 terrains, 10 ramp (rocs CMC ≤ 2), 12 interactions, 2 wipes — dans les fourchettes idéales.",
-   "**CMC moyen 4.03** : ⚠️ au-dessus de la règle d'or ≤ 3.2 — le haut de courbe est chargé en enchantements 5-8 manas (One with the Multiverse, Extravagant Replication, Aminatou's Augury).",
-   "**Synergies/wincons à 25/30-35** : plusieurs créatures 5-6 manas sont des engines de valeur plutôt que des finisseurs.",
-   "**1 seul slot flex** (idéal 3-5).",
-   "**Piste d'upgrade** : couper les engines 5-6 manas les plus faibles pour 2-3 rocs/cantrips à 2-3 manas et 2-3 finisseurs dédiés — ramener la courbe sous 3.5 en gardant le cœur enchantress."
+   "**Solid base**: 36 lands, 10 ramp (rocks CMC ≤ 2), 12 interaction, 2 wipes — all within the ideal ranges.",
+   "**Average CMC 4.03**: ⚠️ above the ≤ 3.2 golden rule — the top of the curve is loaded with 5-8 mana enchantments (One with the Multiverse, Extravagant Replication, Aminatou's Augury).",
+   "**Synergies/wincons at 25/30-35**: several 5-6 mana creatures are value engines rather than dedicated finishers.",
+   "**Only 1 flex slot** (ideal 3-5).",
+   "**Upgrade path**: cut the weakest 5-6 mana engines for 2-3 rocks/cantrips at 2-3 mana and 2-3 dedicated finishers — bring the curve under 3.5 while keeping the enchantress core."
   ]
  },
  "card_meta": {

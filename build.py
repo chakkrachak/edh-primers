@@ -87,7 +87,7 @@ def build_one(slug):
         for u in c.get('uses', []):
             combo_pieces.add(u['card']['name'])
     # Assignation par rôle
-    from roles import assign_role, ROLE_ORDER, ROLE_TITLES, ROLE_SYNOPSES
+    from roles import assign_role, ROLE_ORDER, ROLE_TITLES, ROLE_SYNOPSES, ROLE_TARGETS
     cards_by_role = {r: [] for r in ROLE_ORDER}
     for name, info in flat.items():
         meta = d.get('card_meta', {}).get(name, {})
@@ -115,6 +115,7 @@ def build_one(slug):
         categories.append({
             'title': ROLE_TITLES[role],
             'synopsis': ROLE_SYNOPSES[role],
+            'target': ROLE_TARGETS[role],
             'copy_btn': copy_btn(cat_names),
             'cards': cards,
             'n': len(cards),
@@ -213,7 +214,7 @@ def build_precon(slug):
     }
 
     # --- categories (regroupées par RÔLE — même moteur que les rapports) ---
-    from roles import assign_role, ROLE_ORDER, ROLE_TITLES, ROLE_SYNOPSES
+    from roles import assign_role, ROLE_ORDER, ROLE_TITLES, ROLE_SYNOPSES, ROLE_TARGETS
     # combo pieces (toutes les cartes des combos de tous les plans)
     combo_pieces = set()
     for p in d['plans']:
@@ -251,6 +252,7 @@ def build_precon(slug):
         names = [c['name'] for c in cards]
         categories.append({
             'title': ROLE_TITLES[role], 'synopsis': ROLE_SYNOPSES[role],
+            'target': ROLE_TARGETS[role],
             'copy_btn': copy_btn(names), 'cards': cards,
             'n': len(cards),
         })
@@ -287,19 +289,25 @@ def build_precon(slug):
         tag_decks = p['decks']
         tag_cls = 'hi' if tag_decks > 500 else ('mid' if tag_decks > 100 else 'lo')
         tag_slug = re.sub(r'[^a-z0-9]+', '-', p['tag'].lower()).strip('-')
-        # combos for this plan (with images)
+        # combos for this plan (same presentation as primers: Produces/Prerequisites/Execution bullets)
         plan_combos = []
         for c in p.get('combos', []):
             names = [u['card']['name'] for u in c.get('uses', [])]
             produces = [f.get('name', '') for f in c.get('produces', []) if isinstance(f, dict)][:6]
+            desc = c.get('description') or ''
+            prereq = c.get('notablePrerequisites') or c.get('easyPrerequisites') or ''
+            prereq_bullets = [s.strip() for s in re.split(r'[.;]\s*|\n', prereq) if s.strip()]
+            exec_steps = [s.strip() for s in re.split(r'\.\s*|\n', desc) if s.strip()]
             plan_combos.append({
                 'title': c.get('title', ' + '.join(names)),
                 'copy_btn': copy_btn(names),
                 'bigs': ''.join(big_card(imgs_global.get(n, ''), n, 110) for n in names),
+                'identity': c.get('identity', ''),
                 'produces': produces,
+                'prereq_bullets': prereq_bullets,
+                'exec_steps': exec_steps,
                 'popularity': c.get('popularity', 0),
                 'in_deck': c.get('in_deck', []),
-                'desc': ' '.join((c.get('description') or '').split())[:220],
             })
         plans.append({
             'tag': p['tag'], 'decks': p['decks'], 'tag_cls': tag_cls, 'tag_slug': tag_slug,
