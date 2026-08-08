@@ -358,3 +358,28 @@ strong { color: var(--text-strong); }
   border-top: 1px solid var(--border-strong);
   padding-top: 12px;
 }
+
+/* ============================================================
+   Precon evaluation (mtg-precon-evaluation) — mutualized layout
+   ============================================================ */
+.tag-cloud { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
+.tag { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 12px;
+  border: 1px solid #232342; background: var(--bg-inset); }
+.tag em { font-style: normal; font-weight: 700; margin-left: 4px; }
+.tag-hi { border-color: var(--accent-green); color: var(--accent-green); }
+.tag-mid { border-color: #ffd77a; color: #ffd77a; }
+.tag-lo { color: #8a93b8; }
+.qty { display: inline-block; background: #1f1f3a; border: 1px solid #2d2d44; border-radius: 6px;
+  font-size: 11px; padding: 0 5px; margin-left: 4px; vertical-align: 2px; }
+.plan-tag { display: inline-block; background: #1f1f3a; border: 1px solid var(--accent-green);
+  color: var(--accent-green); border-radius: 6px; font-size: 10px; padding: 0 5px; margin-left: 4px;
+  vertical-align: 2px; text-transform: uppercase; letter-spacing: .4px; }
+.verdict { background: var(--bg-inset); border: 1px solid var(--accent-green); border-radius: var(--radius);
+  padding: 16px; }
+.verdict h3 { color: var(--accent-green); margin-top: 0; }
+.verdict-scores { display: flex; flex-direction: column; gap: 6px; margin: 12px 0; }
+.score-row { display: flex; align-items: center; gap: 10px; font-size: 13px; }
+.score-name { flex: 0 0 130px; font-weight: 600; color: #c8d0e8; }
+.score-bar { flex: 1; height: 10px; background: #1f1f3a; border-radius: 5px; overflow: hidden; }
+.score-fill { height: 100%; background: linear-gradient(90deg, var(--accent-green), #79c0ff); border-radius: 5px; }
+.score-val { flex: 0 0 70px; text-align: right; color: #8a93b8; font-variant-numeric: tabular-nums; }

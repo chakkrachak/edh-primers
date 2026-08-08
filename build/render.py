@@ -32,6 +32,11 @@ def _eval_expr(expr, ctx):
                 pass
             elif f == 'mana':
                 val = mana_symbols(str(val))
+            elif f == 'length':
+                val = len(val) if isinstance(val, (list, tuple, dict, str)) else 0
+            elif f.startswith('join(') and f.endswith(')'):
+                sep = f[5:-1].strip().strip("'").strip('"')
+                val = sep.join(str(x) for x in (val if isinstance(val, (list, tuple)) else [val]))
             else:
                 raise ValueError(f"filtre inconnu: {f}")
         return val

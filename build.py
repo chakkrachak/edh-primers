@@ -26,6 +26,8 @@ def big_card(url, name, size=190):
             f'<div class="big-label">{H.escape(name)}</div></div>')
 
 def syn_cls(score):
+    if score is None:
+        return ""
     return "syn-hi" if score >= 0.7 else ("syn-mid" if score >= 0.4 else "syn-lo")
 
 def build_one(slug):
@@ -121,6 +123,119 @@ def build_one(slug):
     print(f"✓ {d['commander_name']}: {n_cards} cartes, {len(combos)} combos → {filename}")
     return path
 
+# ------------------------------------------------------------
+# Precon / deck-list evaluation (mtg-precon-evaluation skill)
+# ------------------------------------------------------------
+PRECON_TEMPLATE = f'{BASE}/templates/precon.html'
+PRECON_DIR = f'{BASE}/data/precons'
+
+PRECON_TITLES = {
+    'Creatures': '🧝 Creatures', 'Instants': '⚡ Instants', 'Sorceries': '📜 Sorceries',
+    'Artifacts': '⚔️ Artifacts', 'Enchantments': '🌿 Enchantments',
+    'UtilityLands': '🏰 Utility Lands', 'ManaBase': '🌲 Lands / Mana Base',
+}
+PRECON_SYNOPSES = {
+    'Creatures': 'Creatures of the list', 'Instants': 'Instants of the list',
+    'Sorceries': 'Sorceries of the list', 'Artifacts': 'Artifacts of the list',
+    'Enchantments': 'Enchantments of the list',
+    'UtilityLands': 'Utility lands', 'ManaBase': 'Mana base (lands + rocks)',
+}
+
+def build_precon(slug):
+    """Rend une évaluation de deck (precon) : data/precons/<slug>.json + templates/precon.html."""
+    with open(f'{PRECON_DIR}/{slug}.json', encoding='utf-8') as f:
+        d = json.load(f)
+
+    cmdr = d['commander']
+    ctx = {
+        'precon_name': d['precon_name'],
+        'commander_name': cmdr['name'],
+        'mana_cost_html': mana_symbols(cmdr.get('mana_cost', '')),
+        'type_line': cmdr.get('type_line', ''),
+        'color_id': '🌈 Esper (W/U/B)',
+        'power': cmdr.get('power', ''),
+        'toughness': cmdr.get('toughness', ''),
+        'oracle_text': mana_symbols(cmdr.get('oracle', '')),
+        'commander_big': big_card(cmdr.get('img', ''), cmdr['name'], 260),
+    }
+
+    # --- categories ---
+    categories = []
+    n_total = 0
+    for key in ['Creatures', 'Instants', 'Sorceries', 'Artifacts', 'Enchantments', 'UtilityLands', 'ManaBase']:
+        cards_in = d['cards'].get(key, [])
+        cards = []
+        for c in cards_in:
+            score = c.get('synergy')
+            expl = f"×{c['qty']} in the list. {c['oracle'][:140]}{'…' if len(c['oracle']) > 140 else ''}"
+            cards.append({
+                'name': c['name'], 'qty': c['qty'], 'img': c['img'],
+                'explanation': expl,
+                'synergy': f'{score:.2f}' if score is not None else None,
+                'syn_cls': syn_cls(score),
+            })
+            n_total += c['qty']
+        names = [c['name'] for c in cards]
+        categories.append({
+            'title': PRECON_TITLES[key], 'synopsis': PRECON_SYNOPSES[key],
+            'copy_btn': copy_btn(names), 'cards': cards,
+            'n': len(cards), 'qty': sum(c['qty'] for c in cards),
+        })
+    ctx['categories'] = categories
+    ctx['n_cards'] = sum(c['n'] for c in categories)
+    ctx['n_total'] = n_total
+
+    # --- plans ---
+    plans = []
+    for p in d['plans']:
+        match_cards = []
+        for mname in p.get('deck_matches', []):
+            # find card info in cards dicts
+            card_info = None
+            for cat in d['cards'].values():
+                for c in cat:
+                    if c['name'] == mname:
+                        card_info = c
+                        break
+                if card_info:
+                    break
+            score = (card_info or {}).get('synergy')
+            oracle_txt = (card_info or {}).get('oracle', '')
+            match_cards.append({
+                'name': mname,
+                'img': (card_info or {}).get('img', ''),
+                'synergy': f'{score:.2f}' if score is not None else None,
+                'syn_cls': syn_cls(score),
+                'explanation': f"×{(card_info or {}).get('qty', 1)} in the list — matches the {p['tag']} plan. {oracle_txt[:120]}{'…' if len(oracle_txt) > 120 else ''}",
+            })
+        hs_len = max(len(p.get('high_synergy', [])), 1)
+        pct = int(round(len(p.get('deck_matches', [])) / hs_len * 100))
+        tag_decks = p['decks']
+        tag_cls = 'hi' if tag_decks > 500 else ('mid' if tag_decks > 100 else 'lo')
+        plans.append({
+            'tag': p['tag'], 'decks': p['decks'], 'tag_cls': tag_cls,
+            'high_synergy': p.get('high_synergy', []),
+            'deck_matches': p.get('deck_matches', []),
+            'match_cards': match_cards,
+            'pct': pct,
+        })
+    ctx['plans'] = plans
+    ctx['top_n'] = 6
+
+    # --- verdict ---
+    ctx['verdict'] = d['verdict']
+
+    template = open(PRECON_TEMPLATE, encoding='utf-8').read()
+    html_out = render(template, ctx)
+
+    now = datetime.datetime.now()
+    filename = f"EDH-Eval-{slug}-{now.strftime('%Y%m%d-%H%M')}.html"
+    path = f'{OUT_DIR}/{filename}'
+    with open(path, 'w', encoding='utf-8') as f:
+        f.write(html_out)
+    print(f"✓ Eval {d['precon_name']}: {ctx['n_cards']} cartes, {len(plans)} plans → {filename}")
+    return path
+
 def build_index():
     """Régénère index.html : data/index.json + extraction depuis les rapports générés."""
     with open(f'{BASE}/data/index.json', encoding='utf-8') as f:
@@ -189,6 +304,10 @@ def main():
     args = sys.argv[1:]
     if args and args[0] == '--index':
         build_index()
+        return
+    if args and args[0] == '--precon':
+        for slug in args[1:]:
+            build_precon(slug)
         return
     slugs = args or [f[:-5] for f in sorted(os.listdir(DATA_DIR)) if f.endswith('.json')]
     for slug in slugs:

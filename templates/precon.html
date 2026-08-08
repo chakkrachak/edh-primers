@@ -1,0 +1,117 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ precon_name|escape }} — Precon Deck Evaluation</title>
+<link rel="stylesheet" href="../css/theme.css">
+<link rel="stylesheet" href="../css/report.css">
+</head><body>
+<h1>{{ precon_name|escape }} — Precon Deck Evaluation</h1>
+<p class="report-sub">Deck-list evaluation by <strong>MTG Precon Evaluator</strong> · Sources: EDHREC (precon list, game plans, synergy scores) · Scryfall (cards, images, Oracle texts)<br>💡 <em>Every card of the list is classified into EDHREC categories. The "synergy 0.xx" badge is the EDHREC score. Click a card to zoom.</em></p>
+
+<div class="toc"><h3 class="toc-h3">📑 Table of Contents</h3><ol>
+<li><a href="#s1">Commander &amp; Deck Facts</a></li>
+<li><a href="#s2">Game Plans ({{ plans|length }})</a></li>
+<li><a href="#s3">Deck Cards by Category ({{ n_cards }} unique)</a></li>
+<li><a href="#s4">High Synergy per Plan</a></li>
+<li><a href="#s5">Verdict</a></li>
+</ol></div>
+
+<h2 id="s1">1. Commander &amp; Deck Facts</h2>
+<div class="sheet">
+<div class="sheet-img">{{ commander_big }}</div>
+<div class="sheet-info">
+<table>
+<tr><th>Attribute</th><th>Value</th></tr>
+<tr><td><strong>Commander</strong></td><td>{{ commander_name|escape }}</td></tr>
+<tr><td><strong>Mana cost</strong></td><td>{{ mana_cost_html|safe }}</td></tr>
+<tr><td><strong>Type</strong></td><td>{{ type_line|escape }}</td></tr>
+<tr><td><strong>Color identity</strong></td><td>{{ color_id|escape }}</td></tr>
+<tr><td><strong>Power / Toughness</strong></td><td>{{ power }} / {{ toughness }}</td></tr>
+<tr><td><strong>Precon</strong></td><td>{{ precon_name|escape }} (Duskmourn: House of Horror Commander)</td></tr>
+</table>
+<h3>Exact Oracle text</h3>
+<div class="oracle">{{ oracle_text|safe }}</div>
+</div>
+</div>
+
+<h2 id="s2">2. Game Plans</h2>
+<p class="report-sub">All EDHREC archetypes for {{ commander_name|escape }}, ranked by deck count. The plans analyzed in depth below are the top {{ top_n }}.</p>
+<div class="category"><h3>🏷️ Full EDHREC tag list</h3>
+<div class="summary">Every archetype registered for this commander on EDHREC, with the number of decks built around it. Enchantress and Topdeck dominate by an order of magnitude.</div>
+<div class="tag-cloud">
+{% for p in plans %}
+<span class="tag tag-{{ p.tag_cls }}">{{ p.tag }} <em>{{ p.decks }}</em></span>
+{% endfor %}
+</div>
+</div>
+
+<h2 id="s3">3. Deck Cards by Category ({{ n_cards }} unique, {{ n_total }} total)</h2>
+<p class="report-sub">The full precon list, classified into the same EDHREC categories as the primers. Cards in the commander's EDHREC High Synergy / Top Cards pool carry the synergy badge. 📋 copies a category's card names. The ×N marker is the card's count in the list.</p>
+
+{% for cat in categories %}
+<div class="category"><h3>{{ cat.title }} {{ cat.copy_btn }}</h3>
+<div class="summary">{{ cat.synopsis|safe }} — <strong>{{ cat.n }} cards</strong>{% if cat.qty %} ({{ cat.qty }} slots){% endif %}.</div>
+<div class="card-grid">
+{% for card in cat.cards %}
+    <div class="card-block">
+      <img src="{{ card.img }}" data-large="{{ card.img }}" data-name="{{ card.name|escape }}" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">{{ card.name|escape }} {% if card.qty > 1 %}<span class="qty">×{{ card.qty }}</span>{% endif %}</div>
+        {% if card.synergy %}
+        <div class="cb-syn"><span class="syn {{ card.syn_cls }}" title="EDHREC synergy score (share of this commander's decks playing the card)">synergy {{ card.synergy }}</span></div>
+        {% endif %}
+        <div class="cb-expl">{{ card.explanation|safe }}</div>
+      </div>
+    </div>
+{% endfor %}
+</div>
+</div>
+{% endfor %}
+
+<h2 id="s4">4. High Synergy per Plan</h2>
+<p class="report-sub">For each major plan, the deck's cards that appear in that plan's EDHREC High Synergy pool — the cards of THIS list that actually answer the plan.</p>
+
+{% for p in plans %}
+<div class="category"><h3>{% if p.decks > 500 %}👑{% else %}🎯{% endif %} {{ p.tag }} — {{ p.decks }} decks</h3>
+<div class="summary">EDHREC High Synergy pool size: {{ p.high_synergy|length }} · <strong>{{ p.deck_matches|length }} of the deck's cards match this plan</strong>{% if p.deck_matches %}: {{ p.deck_matches|join(', ') }}{% else %} — no direct high-synergy overlap{% endif %}.</div>
+<div class="card-grid">
+{% for m in p.match_cards %}
+    <div class="card-block">
+      <img src="{{ m.img }}" data-large="{{ m.img }}" data-name="{{ m.name|escape }}" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">{{ m.name|escape }} <span class="plan-tag">{{ p.tag }}</span></div>
+        {% if m.synergy %}
+        <div class="cb-syn"><span class="syn {{ m.syn_cls }}">synergy {{ m.synergy }}</span></div>
+        {% endif %}
+        <div class="cb-expl">{{ m.explanation|safe }}</div>
+      </div>
+    </div>
+{% endfor %}
+</div>
+</div>
+{% endfor %}
+
+<h2 id="s5">5. Verdict</h2>
+<div class="verdict">
+<h3>🎯 {{ verdict.favored|escape }}</h3>
+<div class="verdict-scores">
+{% for p in plans %}
+<div class="score-row"><span class="score-name">{{ p.tag }}</span><div class="score-bar"><div class="score-fill" style="width: {{ p.pct }}%"></div></div><span class="score-val">{{ p.deck_matches|length }}/{{ p.high_synergy|length }}</span></div>
+{% endfor %}
+</div>
+<p>{{ verdict.text|safe }}</p>
+</div>
+
+<div id="modal" onclick="closeModal()"><img id="modalImg" src="" onclick="closeModal()"/><div id="modalCaption"></div></div>
+<script>
+function openModal(img){ document.getElementById('modalImg').src = img.getAttribute('data-large')||img.src;
+  document.getElementById('modalCaption').textContent = img.getAttribute('data-name')||'';
+  document.getElementById('modal').classList.add('open'); document.body.style.overflow='hidden'; }
+function closeModal(){ document.getElementById('modal').classList.remove('open'); document.body.style.overflow=''; }
+document.addEventListener('keydown', e => { if(e.key==='Escape') closeModal(); });
+function copyText(text){
+  function fallback(){ var ta=document.createElement('textarea'); ta.value=text; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); }
+  if(navigator.clipboard && window.isSecureContext){ navigator.clipboard.writeText(text).then(()=>{}, fallback); } else { fallback(); }
+}
+</script>
+</body></html>
