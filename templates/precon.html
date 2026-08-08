@@ -9,10 +9,9 @@
 
 <div class="toc"><h3 class="toc-h3">📑 Table of Contents</h3><ol>
 <li><a href="#s1">Commander &amp; Deck Facts</a></li>
-<li><a href="#s2">Game Plans ({{ plans|length }})</a></li>
+<li><a href="#s2">Game Plans &amp; High Synergy ({{ plans|length }})</a></li>
 <li><a href="#s3">Deck Cards by Category ({{ n_cards }} unique)</a></li>
-<li><a href="#s4">High Synergy per Plan</a></li>
-<li><a href="#s5">Verdict</a></li>
+<li><a href="#s4">Verdict</a></li>
 </ol></div>
 
 <h2 id="s1">1. Commander &amp; Deck Facts</h2>
@@ -33,9 +32,9 @@
 </div>
 </div>
 
-<h2 id="s2">2. Game Plans</h2>
-<p class="report-sub">All EDHREC archetypes for {{ commander_name|escape }}, ranked by deck count. The plans analyzed in depth below are the top {{ top_n }}.</p>
-<div class="category"><h3>🏷️ Full EDHREC tag list</h3>
+<h2 id="s2">2. Game Plans &amp; High Synergy</h2>
+<p class="report-sub">All EDHREC archetypes for {{ commander_name|escape }}, ranked by deck count. For each major plan: the deck's cards that sit in that plan's EDHREC High Synergy pool — the cards of THIS list that actually answer the plan.</p>
+<div class="category"><h3>🏷️ All EDHREC game plans</h3>
 <div class="summary">Every archetype registered for this commander on EDHREC, with the number of decks built around it. Enchantress and Topdeck dominate by an order of magnitude.</div>
 <div class="tag-cloud">
 {% for p in plans %}
@@ -44,35 +43,9 @@
 </div>
 </div>
 
-<h2 id="s3">3. Deck Cards by Category ({{ n_cards }} unique, {{ n_total }} total)</h2>
-<p class="report-sub">The full precon list, classified into the same EDHREC categories as the primers. Cards in the commander's EDHREC High Synergy / Top Cards pool carry the synergy badge. 📋 copies a category's card names. The ×N marker is the card's count in the list.</p>
-
-{% for cat in categories %}
-<div class="category"><h3>{{ cat.title }} {{ cat.copy_btn }}</h3>
-<div class="summary">{{ cat.synopsis|safe }} — <strong>{{ cat.n }} cards</strong>{% if cat.qty %} ({{ cat.qty }} slots){% endif %}.</div>
-<div class="card-grid">
-{% for card in cat.cards %}
-    <div class="card-block">
-      <img src="{{ card.img }}" data-large="{{ card.img }}" data-name="{{ card.name|escape }}" loading="lazy" onclick="openModal(this)"/>
-      <div class="cb-body">
-        <div class="cb-name">{{ card.name|escape }} {% if card.qty > 1 %}<span class="qty">×{{ card.qty }}</span>{% endif %}</div>
-        {% if card.synergy %}
-        <div class="cb-syn"><span class="syn {{ card.syn_cls }}" title="EDHREC synergy score (share of this commander's decks playing the card)">synergy {{ card.synergy }}</span></div>
-        {% endif %}
-        <div class="cb-expl">{{ card.explanation|safe }}</div>
-      </div>
-    </div>
-{% endfor %}
-</div>
-</div>
-{% endfor %}
-
-<h2 id="s4">4. High Synergy per Plan</h2>
-<p class="report-sub">For each major plan, the deck's cards that appear in that plan's EDHREC High Synergy pool — the cards of THIS list that actually answer the plan.</p>
-
 {% for p in plans %}
 <div class="category"><h3>{% if p.decks > 500 %}👑{% else %}🎯{% endif %} {{ p.tag }} — {{ p.decks }} decks</h3>
-<div class="summary">EDHREC High Synergy pool size: {{ p.high_synergy|length }} · <strong>{{ p.deck_matches|length }} of the deck's cards match this plan</strong>{% if p.deck_matches %}: {{ p.deck_matches|join(', ') }}{% else %} — no direct high-synergy overlap{% endif %}.</div>
+<div class="summary">EDHREC High Synergy pool: {{ p.high_synergy|length }} cards · <strong>{{ p.deck_matches|length }} of the deck's cards match this plan</strong>{% if p.deck_matches %}: {{ p.deck_matches|join(', ') }}{% else %} — no direct high-synergy overlap{% endif %}.</div>
 <div class="card-grid">
 {% for m in p.match_cards %}
     <div class="card-block">
@@ -90,7 +63,30 @@
 </div>
 {% endfor %}
 
-<h2 id="s5">5. Verdict</h2>
+<h2 id="s3">3. Deck Cards by Category ({{ n_cards }} unique)</h2>
+<p class="report-sub">The full precon list, classified into the same EDHREC categories as the primers. Cards in the commander's EDHREC High Synergy / Top Cards pool carry the synergy badge. 📋 copies a category's card names.</p>
+
+{% for cat in categories %}
+<div class="category"><h3>{{ cat.title }} {{ cat.copy_btn }}</h3>
+<div class="summary">{{ cat.synopsis|safe }} — <strong>{{ cat.n }} cards</strong>.</div>
+<div class="card-grid">
+{% for card in cat.cards %}
+    <div class="card-block">
+      <img src="{{ card.img }}" data-large="{{ card.img }}" data-name="{{ card.name|escape }}" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">{{ card.name|escape }}</div>
+        {% if card.synergy %}
+        <div class="cb-syn"><span class="syn {{ card.syn_cls }}" title="EDHREC synergy score (share of this commander's decks playing the card)">synergy {{ card.synergy }}</span></div>
+        {% endif %}
+        <div class="cb-expl">{{ card.explanation|safe }}</div>
+      </div>
+    </div>
+{% endfor %}
+</div>
+</div>
+{% endfor %}
+
+<h2 id="s4">4. Verdict</h2>
 <div class="verdict">
 <h3>🎯 {{ verdict.favored|escape }}</h3>
 <div class="verdict-scores">
@@ -101,7 +97,7 @@
 <p>{{ verdict.text|safe }}</p>
 </div>
 
-<div id="modal" onclick="closeModal()"><img id="modalImg" src="" onclick="closeModal()"/><div id="modalCaption"></div></div>
+<div id="modal" onclick="closeModal()"><img id="modalImg" src="" onclick="closeModal()"/><div id="modalCaption" class="caption"></div></div>
 <script>
 function openModal(img){ document.getElementById('modalImg').src = img.getAttribute('data-large')||img.src;
   document.getElementById('modalCaption').textContent = img.getAttribute('data-name')||'';

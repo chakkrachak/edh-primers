@@ -167,19 +167,18 @@ def build_precon(slug):
         cards = []
         for c in cards_in:
             score = c.get('synergy')
-            expl = f"×{c['qty']} in the list. {c['oracle'][:140]}{'…' if len(c['oracle']) > 140 else ''}"
             cards.append({
-                'name': c['name'], 'qty': c['qty'], 'img': c['img'],
-                'explanation': expl,
+                'name': c['name'], 'img': c['img'],
+                'explanation': c.get('explanation', ''),
                 'synergy': f'{score:.2f}' if score is not None else None,
                 'syn_cls': syn_cls(score),
             })
-            n_total += c['qty']
+            n_total += 1
         names = [c['name'] for c in cards]
         categories.append({
             'title': PRECON_TITLES[key], 'synopsis': PRECON_SYNOPSES[key],
             'copy_btn': copy_btn(names), 'cards': cards,
-            'n': len(cards), 'qty': sum(c['qty'] for c in cards),
+            'n': len(cards),
         })
     ctx['categories'] = categories
     ctx['n_cards'] = sum(c['n'] for c in categories)
@@ -200,13 +199,13 @@ def build_precon(slug):
                 if card_info:
                     break
             score = (card_info or {}).get('synergy')
-            oracle_txt = (card_info or {}).get('oracle', '')
+            expl = (card_info or {}).get('explanation', '')
             match_cards.append({
                 'name': mname,
                 'img': (card_info or {}).get('img', ''),
                 'synergy': f'{score:.2f}' if score is not None else None,
                 'syn_cls': syn_cls(score),
-                'explanation': f"×{(card_info or {}).get('qty', 1)} in the list — matches the {p['tag']} plan. {oracle_txt[:120]}{'…' if len(oracle_txt) > 120 else ''}",
+                'explanation': expl,
             })
         hs_len = max(len(p.get('high_synergy', [])), 1)
         pct = int(round(len(p.get('deck_matches', [])) / hs_len * 100))
