@@ -407,3 +407,8 @@ strong { color: var(--text-strong); }
 /* Structure analysis: under/over-filled role bars */
 .fill-under { background: linear-gradient(90deg, #ffd77a, #ff9d5c) !important; }
 .fill-over { background: linear-gradient(90deg, #79c0ff, #8a93b8) !important; }
+
+/* Pedagogical bullets in explanation blocks */
+.plan-desc ul, .verdict ul { margin: 4px 0 10px; padding-left: 20px; }
+.plan-desc li, .verdict li { font-size: 13px; line-height: 1.6; margin: 3px 0; color: #c8d0e8; }
+.plan-desc li strong, .verdict li strong { color: var(--accent-green); }

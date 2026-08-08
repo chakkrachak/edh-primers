@@ -146,6 +146,15 @@ def build_precon(slug):
     with open(f'{PRECON_DIR}/{slug}.json', encoding='utf-8') as f:
         d = json.load(f)
 
+    def bold(text):
+        """Convertit **bold** markdown en <strong> (pour les bullets pédagogiques)."""
+        if not isinstance(text, str):
+            return text
+        return re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
+
+    def bold_list(items):
+        return [bold(x) for x in (items or [])]
+
     cmdr = d['commander']
     # images globales : cartes du deck + cartes de combos (pour les blocs combo)
     imgs_global = {}
@@ -237,8 +246,8 @@ def build_precon(slug):
             })
         plans.append({
             'tag': p['tag'], 'decks': p['decks'], 'tag_cls': tag_cls, 'tag_slug': tag_slug,
-            'description': p.get('description', ''),
-            'win': p.get('win', ''),
+            'description': bold_list(p.get('description', '') if isinstance(p.get('description'), list) else [p.get('description', '')]),
+            'win': bold_list(p.get('win', '') if isinstance(p.get('win'), list) else [p.get('win', '')]),
             'high_synergy': p.get('high_synergy', []),
             'deck_matches': p.get('deck_matches', []),
             'match_cards': match_cards,
@@ -249,7 +258,12 @@ def build_precon(slug):
     ctx['top_n'] = 6
 
     # --- verdict ---
-    ctx['verdict'] = d['verdict']
+    verdict = d['verdict']
+    vtext = verdict.get('text', '')
+    ctx['verdict'] = {
+        'favored': verdict.get('favored', ''),
+        'text': bold_list(vtext if isinstance(vtext, list) else [vtext]),
+    }
 
     # --- structure analysis (build principles) ---
     structure = d.get('structure', {})
@@ -267,7 +281,7 @@ def build_precon(slug):
         'roles': roles,
         'avg_cmc': f"{structure.get('avg_cmc_nonland', 0):.2f}",
         'avg_cmc_num': structure.get('avg_cmc_nonland', 0),
-        'summary': structure.get('summary', ''),
+        'summary': bold_list(structure.get('summary', []) if isinstance(structure.get('summary'), list) else [structure.get('summary', '')]),
     }
 
     template = open(PRECON_TEMPLATE, encoding='utf-8').read()

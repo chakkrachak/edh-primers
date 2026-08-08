@@ -701,8 +701,17 @@
     "Sigil of the Empty Throne",
     "Sphere of Safety"
    ],
-   "description": "The signature Esper enchantress engine: play enchantments to draw cards (Mesa Enchantress, Ondu Spiritdancer, Starfield Mystic discounts), snowball value, and control the board. Aminatou's miracle −{4} makes every enchantment in hand a potential cheap blowout, and surveil 2 each upkeep feeds both the enchantment count and the miracle trigger.",
-   "win": "Overwhelming board: Sigil of the Empty Throne turns every enchantment into a 4/4 Angel, Extravagant Replication doubles your best permanent each upkeep, One with the Multiverse plays from the top of your library. Close with Redress Fate recursion or a giant Entreat the Angels (miracle for {W}{W}{W}{W}).",
+   "description": [
+    "**Engine** : play enchantments to draw cards — Mesa Enchantress, Ondu Spiritdancer (doubles auras), Starfield Mystic (discount).",
+    "**Miracle synergy** : Aminatou's miracle −{4} makes every enchantment in hand a cheap blowout; surveil 2 each upkeep feeds both the enchantment count and the miracle trigger.",
+    "**Snowball** : each enchantment cantrips, the board grows, and control pieces (Doomwake Giant constellation) keep the table in check."
+   ],
+   "win": [
+    "**Angel army** : Sigil of the Empty Throne turns every enchantment into a 4/4 Angel.",
+    "**Copy engine** : Extravagant Replication doubles your best permanent each upkeep.",
+    "**Top-of-library** : One with the Multiverse plays from the top of your library.",
+    "**Finisher** : Redress Fate recursion or a giant Entreat the Angels (miracle for {W}{W}{W}{W})."
+   ],
    "combos": []
   },
   {
@@ -762,8 +771,17 @@
     "Sigil of the Empty Throne",
     "Sphere of Safety"
    ],
-   "description": "Aminatou's second identity: topdeck manipulation + miracle. Surveil 2 at upkeep, then cantrips (Brainstorm, Ponder, Portent, Telling Time), Halimar Depths and Brainstone set up the top of the library so your miracle draws hit. One with the Multiverse turns the top of the library into an extra hand.",
-   "win": "Aminatou's Augury casts your whole top 8 for free; Terminus becomes a one-mana wipe via miracle; Entreat the Angels and Shark Typhoon finish from the top. Infinite turns via Timestream Navigator + Extravagant Replication (see combos).",
+   "description": [
+    "**Setup** : surveil 2 at upkeep + cantrips (Brainstorm, Ponder, Portent, Telling Time), Halimar Depths and Brainstone stack the top of the library.",
+    "**Payoff** : miracle draws always hit — Aminatou's discount turns any enchantment into a cheap answer.",
+    "**Engine** : One with the Multiverse turns the top of the library into an extra hand."
+   ],
+   "win": [
+    "**Free spells** : Aminatou's Augury casts your whole top 8 for free.",
+    "**Cheap wipe** : Terminus becomes a one-mana wipe via miracle.",
+    "**Beatdown** : Entreat the Angels and Shark Typhoon finish from the top.",
+    "**Infinite turns** : Timestream Navigator + Extravagant Replication (see combos)."
+   ],
    "combos": [
     {
      "uses": [
@@ -1082,8 +1100,16 @@
     "Sigil of the Empty Throne",
     "Sphere of Safety"
    ],
-   "description": "Esper control with enchantment-based answers: Swords to Plowshares, Path to Exile, Utter End, Cast Out, Return to Dust, Arcane Denial and counterspells keep the table in check while the enchantress engine refills your hand. Doomwake Giant is a recurring wipe via constellation.",
-   "win": "Out-value and out-last: Terminus/Time Wipe reset the board, then win with the enchantress card advantage — Angel tokens, Dream Eater beats, or a copied engine via Mirrormade/Extravagant Replication. Sharuum + Mirrormade loops are infinite ETB (see combos).",
+   "description": [
+    "**Answers** : Swords to Plowshares, Path to Exile, Utter End, Cast Out, Return to Dust, Arcane Denial + counterspells.",
+    "**Refill** : the enchantress engine draws cards back between answers.",
+    "**Recurring wipe** : Doomwake Giant's constellation clears small boards repeatedly."
+   ],
+   "win": [
+    "**Reset then win** : Terminus / Time Wipe clear the board, then the enchantress card advantage takes over.",
+    "**Beats** : Angel tokens, Dream Eater, or a copied engine via Mirrormade / Extravagant Replication.",
+    "**Infinite ETB** : Sharuum the Hegemon + Mirrormade loops (see combos)."
+   ],
    "combos": [
     {
      "uses": [
@@ -1317,8 +1343,14 @@
     "Sigil of the Empty Throne",
     "Sphere of Safety"
    ],
-   "description": "Defensive enchantments that make attacking you expensive or impossible: Sphere of Safety (attackers pay {1} per enchantment), Archangel of Tithes, Prophetic Fields — combined with the enchantress draw engine and Aminatou's surveil, you build an impenetrable fort while assembling the finisher.",
-   "win": "Lock the table out and win at leisure: Mystic Barrier + Mirrormade prevents all attacks (see combos); Sigil of the Empty Throne + Extravagant Replication builds an unbeatable Angel army while opponents can't profitably attack.",
+   "description": [
+    "**Fort** : Sphere of Safety (attackers pay {1} per enchantment) + defensive enchantments make attacking you expensive.",
+    "**Value behind the wall** : the enchantress draw engine and Aminatou's surveil keep assembling pieces."
+   ],
+   "win": [
+    "**Lock** : Mystic Barrier + Mirrormade prevents all attacks (see combos).",
+    "**Unbeatable board** : Sigil of the Empty Throne + Extravagant Replication builds an Angel army opponents can't profitably attack into."
+   ],
    "combos": [
     {
      "uses": [
@@ -1552,8 +1584,15 @@
     "Sigil of the Empty Throne",
     "Sphere of Safety"
    ],
-   "description": "Enchantments that create tokens: Sigil of the Empty Throne (Angels), Shark Typhoon (Sharks on every noncreature spell), Extravagant Replication (copies), Life Insurance (token on death). Aminatou's miracle discount lets you chain enchantments and flood the board.",
-   "win": "Go wide: Angel tokens from Sigil + Angels from Entreat, Shark Typhoon flips into a huge Shark whenever you cast a spell, Extravagant Replication doubles your best token maker each upkeep. Inkshield turns a lost combat into 8+ 2/1 flying tokens.",
+   "description": [
+    "**Token makers** : Sigil of the Empty Throne (Angels), Shark Typhoon (Sharks on every noncreature spell), Extravagant Replication (copies), Life Insurance (token on death).",
+    "**Chain** : Aminatou's miracle discount lets you chain enchantments and flood the board."
+   ],
+   "win": [
+    "**Go wide** : Angel tokens from Sigil + Entreat, Shark Typhoon flips huge whenever you cast a spell.",
+    "**Doubling** : Extravagant Replication doubles your best token maker each upkeep.",
+    "**Blowout** : Inkshield turns a lost combat into 8+ 2/1 flying tokens."
+   ],
    "combos": []
   },
   {
@@ -1612,8 +1651,16 @@
     "Shark Typhoon",
     "Sphere of Safety"
    ],
-   "description": "The combo finish the precon's engines enable: Extravagant Replication and Mirrormade are copy engines that go infinite with the right piece. Aminatou's topdeck control digs to the combo pieces; the enchantress draw finds them.",
-   "win": "Infinite turns: Timestream Navigator / Wanderwine Prophets / Second Chance + Extravagant Replication (see combos). Infinite ETB: Sharuum the Hegemon + Mirrormade. Lock: Mystic Barrier + Mirrormade. Note: the combo pieces are NOT in the precon — these are upgrade paths.",
+   "description": [
+    "**Copy engines** : Extravagant Replication and Mirrormade go infinite with the right piece.",
+    "**Digging** : Aminatou's topdeck control and the enchantress draw find the combo pieces.",
+    "**Note** : the combo pieces are NOT in the precon — these are upgrade paths."
+   ],
+   "win": [
+    "**Infinite turns** : Timestream Navigator / Wanderwine Prophets / Second Chance + Extravagant Replication.",
+    "**Infinite ETB** : Sharuum the Hegemon + Mirrormade.",
+    "**Lock** : Mystic Barrier + Mirrormade prevents all attacks."
+   ],
    "combos": [
     {
      "uses": [
@@ -1967,7 +2014,13 @@
   "favored": "Enchantress / Topdeck (Miracles)",
   "score_enchantress": 10,
   "score_topdeck": 10,
-  "text": "The Miracle Worker list is built AROUND Aminatou's enchantment-miracles ability: 15 enchantments + 8 enchantress-style payoffs (Mesa Enchantress, Ondu Spiritdancer, Sigil of the Empty Throne, One with the Multiverse, Sphere of Safety...). 10 of the deck's cards sit in the EDHREC High Synergy pool of BOTH the Enchantress (2,872 decks) and Topdeck (2,108) plans — the two dominant archetypes. Control (282) and Pillow Fort (154) are supported by the same cards (Sphere of Safety, Shark Typhoon, removal suite). Tokens/Combo are incidental: Sigil of the Empty Throne and Extravagant Replication make tokens but the list has no token payoffs beyond them. Verdict: the list is a classic Enchantress/Miracles control deck — Enchantress and Topdeck are co-favored, with Pillow Fort as the natural secondary plan."
+  "text": [
+   "**Enchantress (2,872 decks) et Topdeck (2,108) sont co-favoris** : 10 des cartes du deck sont dans le pool High Synergy EDHREC des deux plans — les deux archétypes dominants.",
+   "**Le deck est construit autour de la capacité miracle d'Aminatou** : 15 enchantements + 8 payoffs enchantress (Mesa Enchantress, Ondu Spiritdancer, Sigil of the Empty Throne, One with the Multiverse, Sphere of Safety).",
+   "**Control (282) et Pillow Fort (154) sont soutenus par les mêmes cartes** : Sphere of Safety, Shark Typhoon, la suite de removal.",
+   "**Tokens/Combo sont accessoires** : Sigil of the Empty Throne et Extravagant Replication font des jetons, mais la liste n'a pas d'autres payoffs jetons.",
+   "**Conclusion** : une classique Enchantress/Miracles control — Enchantress et Topdeck co-favoris, avec Pillow Fort comme plan secondaire naturel."
+  ]
  },
  "structure": {
   "avg_cmc_nonland": 4.03,
@@ -2015,6 +2068,12 @@
     "status": "under"
    }
   ],
-  "summary": "The list is structurally sound on the fundamentals: 36 lands and 10 ramp (rocks mostly CMC ≤ 2) match the ideal 100-card build, and interaction (12) plus wipes (2) are in range. The weaknesses are the classic precon issues: average CMC 4.03 is well above the ≤ 3.2 golden rule (the top end is loaded with 5-8 mana enchantments: One with the Multiverse, Extravagant Replication, Aminatou's Augury), synergies/wincons fill only 25 of the ideal 30-35 slots (several 5-6 mana creatures are value engines rather than finishers), and the deck has just 1 flex slot. Upgrade path: cut the weakest 5-6 mana engine for 2-3 more 2-3 CMC rocks/draw (Thirst for Meaning-class cantrips) and 2-3 dedicated finishers to pull the curve under 3.5 while keeping the enchantress core."
+  "summary": [
+   "**Base saine** : 36 terrains, 10 ramp (rocs CMC ≤ 2), 12 interactions, 2 wipes — dans les fourchettes idéales.",
+   "**CMC moyen 4.03** : ⚠️ au-dessus de la règle d'or ≤ 3.2 — le haut de courbe est chargé en enchantements 5-8 manas (One with the Multiverse, Extravagant Replication, Aminatou's Augury).",
+   "**Synergies/wincons à 25/30-35** : plusieurs créatures 5-6 manas sont des engines de valeur plutôt que des finisseurs.",
+   "**1 seul slot flex** (idéal 3-5).",
+   "**Piste d'upgrade** : couper les engines 5-6 manas les plus faibles pour 2-3 rocs/cantrips à 2-3 manas et 2-3 finisseurs dédiés — ramener la courbe sous 3.5 en gardant le cœur enchantress."
+  ]
  }
 }

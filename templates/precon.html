@@ -47,8 +47,14 @@
 {% for p in plans %}
 <div class="category" id="plan-{{ p.tag_slug }}"><h3>{% if p.decks > 500 %}👑{% else %}🎯{% endif %} {{ p.tag }} — {{ p.decks }} decks</h3>
 <div class="plan-desc">
-<p><strong>📖 Game plan</strong>: {{ p.description|safe }}</p>
-<p><strong>🏆 Win conditions</strong>: {{ p.win|safe }}</p>
+<p><strong>📖 Game plan</strong></p>
+<ul>
+{% for b in p.description %}<li>{{ b|safe }}</li>{% endfor %}
+</ul>
+<p><strong>🏆 Win conditions</strong></p>
+<ul>
+{% for b in p.win %}<li>{{ b|safe }}</li>{% endfor %}
+</ul>
 </div>
 {% if p.combos %}
 <div class="plan-combos"><strong>🔗 Combos (Commander Spellbook)</strong>
@@ -112,7 +118,9 @@
 {% endfor %}
 </div>
 <p><strong>Average CMC (non-land): {{ structure.avg_cmc|safe }} — {% if structure.avg_cmc_num > 3.2 %}⚠️ above the ≤ 3.2 golden rule{% else %}✅ within the ≤ 3.2 golden rule{% endif %}</strong></p>
-<p>{{ structure.summary|safe }}</p>
+<ul>
+{% for b in structure.summary %}<li>{{ b|safe }}</li>{% endfor %}
+</ul>
 </div>
 
 <h2 id="s5">5. Verdict</h2>
@@ -123,7 +131,9 @@
 <div class="score-row"><span class="score-name">{{ p.tag }}</span><div class="score-bar"><div class="score-fill" style="width: {{ p.pct }}%"></div></div><span class="score-val">{{ p.deck_matches|length }}/{{ p.high_synergy|length }}</span></div>
 {% endfor %}
 </div>
-<p>{{ verdict.text|safe }}</p>
+<ul>
+{% for b in verdict.text %}<li>{{ b|safe }}</li>{% endfor %}
+</ul>
 </div>
 
 <div id="modal" onclick="closeModal()"><img id="modalImg" src="" onclick="closeModal()"/><div id="modalCaption" class="caption"></div></div>
