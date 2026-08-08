@@ -364,11 +364,14 @@ strong { color: var(--text-strong); }
    ============================================================ */
 .tag-cloud { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
 .tag { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 12px;
-  border: 1px solid #232342; background: var(--bg-inset); }
+  border: 1px solid #232342; background: var(--bg-inset); text-decoration: none; cursor: pointer;
+  transition: border-color .15s, transform .15s; }
+.tag:hover { border-color: var(--accent-blue); transform: translateY(-1px); }
 .tag em { font-style: normal; font-weight: 700; margin-left: 4px; }
 .tag-hi { border-color: var(--accent-green); color: var(--accent-green); }
 .tag-mid { border-color: #ffd77a; color: #ffd77a; }
 .tag-lo { color: #8a93b8; }
+#s2 .category { scroll-margin-top: 16px; }
 .qty { display: inline-block; background: #1f1f3a; border: 1px solid #2d2d44; border-radius: 6px;
   font-size: 11px; padding: 0 5px; margin-left: 4px; vertical-align: 2px; }
 .plan-tag { display: inline-block; background: #1f1f3a; border: 1px solid var(--accent-green);

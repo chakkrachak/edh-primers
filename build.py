@@ -211,8 +211,9 @@ def build_precon(slug):
         pct = int(round(len(p.get('deck_matches', [])) / hs_len * 100))
         tag_decks = p['decks']
         tag_cls = 'hi' if tag_decks > 500 else ('mid' if tag_decks > 100 else 'lo')
+        tag_slug = re.sub(r'[^a-z0-9]+', '-', p['tag'].lower()).strip('-')
         plans.append({
-            'tag': p['tag'], 'decks': p['decks'], 'tag_cls': tag_cls,
+            'tag': p['tag'], 'decks': p['decks'], 'tag_cls': tag_cls, 'tag_slug': tag_slug,
             'high_synergy': p.get('high_synergy', []),
             'deck_matches': p.get('deck_matches', []),
             'match_cards': match_cards,

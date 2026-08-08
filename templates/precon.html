@@ -38,13 +38,13 @@
 <div class="summary">Every archetype registered for this commander on EDHREC, with the number of decks built around it. Enchantress and Topdeck dominate by an order of magnitude.</div>
 <div class="tag-cloud">
 {% for p in plans %}
-<span class="tag tag-{{ p.tag_cls }}">{{ p.tag }} <em>{{ p.decks }}</em></span>
+<a class="tag tag-{{ p.tag_cls }}" href="#plan-{{ p.tag_slug }}">{{ p.tag }} <em>{{ p.decks }}</em></a>
 {% endfor %}
 </div>
 </div>
 
 {% for p in plans %}
-<div class="category"><h3>{% if p.decks > 500 %}👑{% else %}🎯{% endif %} {{ p.tag }} — {{ p.decks }} decks</h3>
+<div class="category" id="plan-{{ p.tag_slug }}"><h3>{% if p.decks > 500 %}👑{% else %}🎯{% endif %} {{ p.tag }} — {{ p.decks }} decks</h3>
 <div class="summary">EDHREC High Synergy pool: {{ p.high_synergy|length }} cards · <strong>{{ p.deck_matches|length }} of the deck's cards match this plan</strong>{% if p.deck_matches %}: {{ p.deck_matches|join(', ') }}{% else %} — no direct high-synergy overlap{% endif %}.</div>
 <div class="card-grid">
 {% for m in p.match_cards %}
