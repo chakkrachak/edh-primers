@@ -13,7 +13,8 @@
 <li><a href="#s2">Game Plans &amp; High Synergy ({{ plans|length }})</a></li>
 <li><a href="#s3">Deck Cards by Role ({{ n_cards }} unique)</a></li>
 <li><a href="#s4">Structure Analysis</a></li>
-<li><a href="#s5">Verdict</a></li>
+<li><a href="#s5">Filler Cards ({{ n_fillers }})</a></li>
+<li><a href="#s6">Verdict</a></li>
 </ol></div>
 
 <h2 id="s1">1. Commander Sheet {{ copy_btn_cmd }}</h2>
@@ -125,7 +126,26 @@
 </ul>
 </div>
 
-<h2 id="s5">5. Verdict</h2>
+<h2 id="s5">5. Filler Cards ({{ n_fillers }})</h2>
+<p class="report-sub">Cards that do NOT serve any major game plan and dilute it. Dilution score: +1 no High-Synergy match in any major plan · +1 unclear role (Flex, no ramp/draw/removal in Oracle) · +1 EDHREC synergy &lt; 0.30. Score ≥ 2 = filler. Lands are never fillers. For each filler: why it dilutes + a replacement from the favored plan's High-Synergy pool missing from the deck.</p>
+{% if fillers %}
+{% for f in fillers %}
+<div class="filler-row">
+<div class="filler-img"><img src="{{ f.img }}" data-large="{{ f.img }}" data-name="{{ f.name|escape }}" loading="lazy" onclick="openModal(this)"/></div>
+<div class="filler-info">
+<div class="cb-name">{{ f.name|escape }} {% if f.synergy %}<span class="cb-syn {{ f.syn_cls }}">synergy {{ f.synergy }}</span>{% endif %}</div>
+<ul class="filler-reasons">
+{% for r in f.reasons %}<li>{{ r|safe }}</li>{% endfor %}
+</ul>
+{% if f.replacement %}<div class="filler-swap">🔄 <strong>Replace with</strong> : {{ f.replacement|safe }} ({{ f.top_plan|escape }} High-Synergy card missing from this deck)</div>{% endif %}
+</div>
+</div>
+{% endfor %}
+{% else %}
+<p>✅ No filler cards detected — every non-land card serves a structural role or a major game plan.</p>
+{% endif %}
+
+<h2 id="s6">6. Verdict</h2>
 <div class="verdict">
 <h3>🎯 {{ verdict.favored|escape }}</h3>
 <div class="verdict-scores">

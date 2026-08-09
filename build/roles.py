@@ -55,10 +55,16 @@ PATTERNS = [
     ('overrun', r'creatures you control get \+X/\+X|get \+X/\+X until end of turn', 'Wincons'),
     ('mass_drain', r'each opponent loses (?!1 life)(?:\d*|x|life equal to)', 'Wincons'),
     ('big_token_army', r'create a number of .* tokens? equal to|create x .* tokens?', 'Wincons'),
+    ('x_spell', r'deal[s]? x damage to each of up to|damage to each of up to (?:x|three|four|five)|draw cards equal to the number of targets', 'Wincons'),
+    ('strive_tokens', r'strive[\s\S]*(?:choose|any number of) target creatures[\s\S]*create a 1/1', 'Wincons'),
+    ('x_aura', r'for each of up to x target creatures, create a', 'Wincons'),
     ('free_cast', r'without paying their mana costs|without paying its mana cost|may cast spells from among them', 'Wincons'),
     # --- Engines (avant CardAdvantage — conflit règle 4) ---
     ('upkeep_engine', r'at the beginning of your upkeep', 'Engines'),
     ('mechanic_engine', r'constellation|magecraft|prowess|landfall|historic', 'Engines'),
+    # Engine de spellslinger : token/damage/draw à chaque sort non-creature (Young Pyromancer,
+    # Talrand, Guttersnipe, Murmuring Mystic, Deekah, Zaffai…) — « whenever you cast » + effet répété.
+    ('cast_engine', r'whenever you cast (?:an?|another) (?:instant|sorcery|noncreature|instant or sorcery)', 'Engines'),
     # --- Wipes (avant Interaction — conflit règle 2) ---
     ('wipe_all', r'destroy all|exile all|put all .* on the bottom|return all .* to their owners\' hands', 'Wipes'),
     ('wipe_each', r'each (?:creature|nonland|noncreature) .* (?:deals|gets|-\d)|(?:deals|gets) .* to each (?:creature|nonland|noncreature)', 'Wipes'),
@@ -68,13 +74,20 @@ PATTERNS = [
     ('doubling', r'twice that many|double the number of tokens|two of those tokens', 'Engines'),
     # --- Interaction ---
     ('destroy_target', r'destroy target', 'Interaction'),
-    ('exile_target', r'exile target', 'Interaction'),
+    ('exile_target', r'exile (?:x |any number of )?target', 'Interaction'),
     ('counter_target', r'counter target', 'Interaction'),
     ('bounce_target', r'return target .* to (?:its|their) owner', 'Interaction'),
+    # Bounce massif (2+ permanents) → Wipes (Aether Gale : « six target nonland permanents »)
+    ('mass_bounce', r'return (?:two|three|four|five|six|all|any number of) .* to (?:their|its) owner', 'Wipes'),
+    # Blink de protection (Semester's End : exile les tiens + retour) → Interaction
+    ('blink_protect', r'exile any number of target .* you control.*return (?:each|them).* to the battlefield', 'Interaction'),
+    # Récursion de sorts depuis le cimetière (Mystic Retrieval, Shreds of Sanity, Pull from the Deep,
+    # Reconstruct History, Said // Done) → CardAdvantage
+    ('recursion', r'return (?:up to one )?(?:target )?(?:instant|sorcery|artifact|enchantment).* from your graveyard', 'CardAdvantage'),
     ('redirect', r'change the target of target spell', 'Interaction'),
     ('protection', r'protection from|hexproof and indestructible until end of turn|haste and shroud', 'Interaction'),
     ('control_theft', r'gain control of target', 'Interaction'),
-    ('tap_down', r'tap target|can\'t be blocked this turn', 'Interaction'),
+    ('tap_down', r"tap (?:x |any number of )?target|can't be blocked this turn", 'Interaction'),
     # --- Ramp ---
     ('ramp_search', r'search your library for a (?:basic land|land card|forest|island|swamp|mountain|plains)',
      'Ramp', lambda m, kw: True),
@@ -82,7 +95,7 @@ PATTERNS = [
     ('ramp_cost', r'costs? \{.*\} less to cast', 'Ramp'),
     ('ramp_add', r'\{t\}: add|add an amount of', 'Ramp'),
     # --- Card Advantage (fallback pioche) ---
-    ('draw', r'draw a card|draw two cards|draw three cards|draw x cards|you may draw|whenever .* draw a card', 'CardAdvantage'),
+    ('draw', r'draws? (?:a|two|three|four|five|six|seven|eight|x) cards?|draw cards equal|you may draw|whenever .* draw a card', 'CardAdvantage'),
     ('scry_top', r'scry|look at the top|investigat', 'CardAdvantage'),
     # --- Engines de doublage (fin de liste — avant fallback) ---
     ('doubling', r'twice that many|double the number of tokens|two of those tokens', 'Engines'),

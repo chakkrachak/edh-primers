@@ -298,6 +298,90 @@ def verdict_quick_read(d):
         out.append(wins[0])
     return out
 
+# Patterns Oracle pour détecter ramp/draw/removal (critère 2 des fillers)
+_FILLER_RAMP = re.compile(r'add \{|search your library for .* land|treasure', re.I)
+_FILLER_DRAW = re.compile(r'draw a card|draw two|draw x|draw three|draw four|investigate|look at the top', re.I)
+_FILLER_REMOVAL = re.compile(r'destroy target|exile target|counter target|return target|damage to any target|fight target|gain control', re.I)
+
+def filler_reasons(card, oracle_txt, role, in_any_hs, synergy):
+    """Pourquoi une carte est un filler (score de dilution 3 critères).
+    Seules les cartes Flex sont candidates : un rôle structurel (Engine/Ramp/Draw/
+    Interaction/Wincon/Lands) n'est JAMAIS un filler — la carte sert une fonction.
+    Retourne (score, [raisons]) — score ≥ 2 = filler probable."""
+    if role != 'Flex':
+        return 0, []
+    reasons = []
+    score = 0
+    if not in_any_hs:
+        score += 1
+        reasons.append("**No High-Synergy match** : absent from every major plan's EDHREC High Synergy pool — it answers none of the commander's main game plans.")
+    if not (_FILLER_RAMP.search(oracle_txt) or _FILLER_DRAW.search(oracle_txt) or _FILLER_REMOVAL.search(oracle_txt)):
+        score += 1
+        reasons.append("**Unclear role** : classified Flex (no engine/wincon/ramp/draw/removal signal in its Oracle) — it does not serve any structural role.")
+    if synergy is not None and synergy < 0.30:
+        score += 1
+        reasons.append(f"**Low synergy score** : EDHREC synergy {synergy:.2f} (< 0.30) — very few decks of this commander play it.")
+    return score, reasons
+
+def detect_fillers(d, role_of, oracle_get):
+    """Détecte les cartes filler d'un deck évalué : cartes qui ne servent aucun plan majeur
+    et diluent le plan de jeu. Score de dilution = 3 critères (HS match / rôle / synergie).
+    Pour chaque filler : les raisons + une carte de remplacement (HS du plan favori absente
+    du deck). Les lands ne sont jamais des fillers."""
+    # Pools HS de tous les plans (tolère str OU dict {name})
+    all_hs = set()
+    for p in d.get('plans', []):
+        for h in p.get('high_synergy', []):
+            all_hs.add(h if isinstance(h, str) else h.get('name', ''))
+    # Plan dominant (le plus de decks) → pool pour les remplacements.
+    # Le swap cherche dans TOUS les plans majeurs (du plus grand au plus petit) : si le plan
+    # dominant n'a aucune HS absente du deck (precon très rempli), on prend la 1ère HS
+    # manquante d'un autre plan majeur.
+    plans = d.get('plans', [])
+    plans_sorted = sorted(plans, key=lambda p: -p.get('decks', 0)) if plans else []
+    top = plans_sorted[0] if plans_sorted else None
+    top_hs = []
+    for p in plans_sorted:
+        for h in p.get('high_synergy', []):
+            top_hs.append(h if isinstance(h, str) else h.get('name', ''))
+    deck_names = set()
+    for cat in d['cards'].values():
+        for c in cat:
+            deck_names.add(c['name'])
+
+    fillers = []
+    for cat in d['cards'].values():
+        for c in cat:
+            name = c['name']
+            meta = d.get('card_meta', {}).get(name, {})
+            if 'Land' in (meta.get('type_line', '') or ''):
+                continue  # les lands ne sont jamais des fillers
+            oracle_txt = oracle_get(name)
+            role = role_of.get(name, 'Flex')
+            score, reasons = filler_reasons(c, oracle_txt, role, name in all_hs, c.get('synergy'))
+            if score < 2:
+                continue
+            # carte de remplacement : 1ère carte du pool HS du plan dominant absente du deck
+            replacement = ''
+            for cand in top_hs:
+                if cand not in deck_names:
+                    replacement = cand
+                    break
+            fillers.append({
+                'name': name,
+                'img': c.get('img', ''),
+                'synergy': f'{c.get("synergy"):.2f}' if c.get('synergy') is not None else None,
+                'syn_cls': syn_cls(c.get('synergy')),
+                'role': role,
+                'score': score,
+                'reasons': reasons,
+                'replacement': replacement,
+                'top_plan': top['tag'] if top else '',
+            })
+    # tri : score décroissant, puis nom
+    fillers.sort(key=lambda f: (-f['score'], f['name']))
+    return fillers
+
 def build_precon(slug):
     """Rend une évaluation de deck (precon) : data/precons/<slug>.json + templates/precon.html."""
     with open(f'{PRECON_DIR}/{slug}.json', encoding='utf-8') as f:
@@ -360,6 +444,7 @@ def build_precon(slug):
             if c.get('in_main_hs'):
                 hs_names.add(c['name'])
     cards_by_role = {r: [] for r in ROLE_ORDER}
+    role_of = {}
     n_total = 0
     for cat in d['cards'].values():
         for c in cat:
@@ -368,6 +453,7 @@ def build_precon(slug):
             role = assign_role(c['name'], meta, oracle_txt,
                                is_engine_hint=c['name'] in hs_names,
                                is_combo_piece=c['name'] in combo_pieces)
+            role_of[c['name']] = role
             score = c.get('synergy')
             cards_by_role[role].append({
                 'name': c['name'], 'img': c['img'],
@@ -392,6 +478,11 @@ def build_precon(slug):
     ctx['n_cards'] = sum(c['n'] for c in categories)
     ctx['n_total'] = n_total
     ctx['n_categories'] = len(categories)
+
+    # --- cartes filler (diluent le plan — section dédiée, évals uniquement) ---
+    fillers = detect_fillers(d, role_of, lambda n: d.get('oracle', {}).get(n, ''))
+    ctx['fillers'] = fillers
+    ctx['n_fillers'] = len(fillers)
 
     # --- plans ---
     plans = []
