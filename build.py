@@ -62,7 +62,10 @@ def build_one(slug):
         'mana_cost_html': d['mana_cost_html'],
         'type_line': d['type_line'],
         'color_id': d['color_id'],
-        'extra_table_rows': d.get('extra_table_rows', ''),
+        'power': d.get('power', ''),
+        'toughness': d.get('toughness', ''),
+        # enlever P/T de extra_table_rows (maintenant un champ dédié) — garder Loyalty etc.
+        'extra_table_rows': re.sub(r'<tr><td><strong>Power / Toughness</strong></td><td>[^<]*</td></tr>', '', d.get('extra_table_rows', '')),
         'rarity': d['rarity'],
         'legality': d['legality'],
         'oracle_text': d['oracle_text'],
@@ -193,6 +196,18 @@ def bold(text):
 def bold_list(items):
     return [bold(x) for x in (items or [])]
 
+def verdict_quick_read(d):
+    """Résumé du verdict en bullets pédagogiques (pour la commander sheet de l'évaluation)."""
+    v = d.get('verdict', {})
+    favored = v.get('favored', '')
+    texts = v.get('text', [])
+    out = []
+    if favored:
+        out.append(f"**Favored plan** : {favored}.")
+    for t in (texts or [])[:2]:
+        out.append(t)
+    return out
+
 def build_precon(slug):
     """Rend une évaluation de deck (precon) : data/precons/<slug>.json + templates/precon.html."""
     with open(f'{PRECON_DIR}/{slug}.json', encoding='utf-8') as f:
@@ -210,14 +225,20 @@ def build_precon(slug):
                 imgs_global.setdefault(u['card']['name'], u.get('card', {}).get('imageUriFrontNormal', ''))
     ctx = {
         'precon_name': d['precon_name'],
+        'precon_set': cmdr.get('set_name', cmdr.get('set', '')),
         'commander_name': cmdr['name'],
         'mana_cost_html': mana_symbols(cmdr.get('mana_cost', '')),
         'type_line': cmdr.get('type_line', ''),
         'color_id': '🌈 Esper (W/U/B)',
         'power': cmdr.get('power', ''),
         'toughness': cmdr.get('toughness', ''),
+        'rarity': cmdr.get('rarity', ''),
+        'legality': cmdr.get('legality', 'legal'),
         'oracle_text': mana_symbols(cmdr.get('oracle', '')),
         'commander_big': big_card(cmdr.get('img', ''), cmdr['name'], 260),
+        'copy_btn_cmd': copy_btn([cmdr['name']]),
+        # quick read = résumé du verdict (bullets pédagogiques)
+        'quick_read': bold_list(verdict_quick_read(d)),
     }
 
     # --- categories (regroupées par RÔLE — même moteur que les rapports) ---

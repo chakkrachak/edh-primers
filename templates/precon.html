@@ -9,14 +9,14 @@
 <p class="report-sub">Deck-list evaluation by <strong>MTG Precon Evaluator</strong> · Sources: EDHREC (precon list, game plans, synergy scores) · Scryfall (cards, images, Oracle texts)<br>💡 <em>Every card of the list is classified into EDHREC categories. The "synergy 0.xx" badge is the EDHREC score. Click a card to zoom.</em></p>
 
 <div class="toc"><h3 class="toc-h3">📑 Table of Contents</h3><ol>
-<li><a href="#s1">Commander &amp; Deck Facts</a></li>
+<li><a href="#s1">Commander Sheet</a></li>
 <li><a href="#s2">Game Plans &amp; High Synergy ({{ plans|length }})</a></li>
 <li><a href="#s3">Deck Cards by Role ({{ n_cards }} unique)</a></li>
 <li><a href="#s4">Structure Analysis</a></li>
 <li><a href="#s5">Verdict</a></li>
 </ol></div>
 
-<h2 id="s1">1. Commander &amp; Deck Facts</h2>
+<h2 id="s1">1. Commander Sheet {{ copy_btn_cmd }}</h2>
 <div class="sheet">
 <div class="sheet-img">{{ commander_big }}</div>
 <div class="sheet-info">
@@ -26,11 +26,17 @@
 <tr><td><strong>Mana cost</strong></td><td>{{ mana_cost_html|safe }}</td></tr>
 <tr><td><strong>Type</strong></td><td>{{ type_line|escape }}</td></tr>
 <tr><td><strong>Color identity</strong></td><td>{{ color_id|escape }}</td></tr>
-<tr><td><strong>Power / Toughness</strong></td><td>{{ power }} / {{ toughness }}</td></tr>
-<tr><td><strong>Precon</strong></td><td>{{ precon_name|escape }} (Duskmourn: House of Horror Commander)</td></tr>
+{% if power %}<tr><td><strong>Power / Toughness</strong></td><td>{{ power }} / {{ toughness }}</td></tr>{% endif %}
+<tr><td><strong>Rarity</strong></td><td>{{ rarity|escape }}</td></tr>
+<tr><td><strong>Commander legality</strong></td><td>✅ {{ legality|escape }}</td></tr>
+<tr><td><strong>Precon</strong></td><td>{{ precon_name|escape }} ({{ precon_set|escape }})</td></tr>
 </table>
 <h3>Exact Oracle text</h3>
 <div class="oracle">{{ oracle_text|safe }}</div>
+<h3>Quick read</h3>
+<ul class="quick-read">
+{% for b in quick_read %}<li>{{ b|safe }}</li>{% endfor %}
+</ul>
 </div>
 </div>
 

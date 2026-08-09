@@ -5737,5 +5737,7 @@
    "produced_mana": [],
    "keywords": []
   }
- }
+ },
+ "power": "3",
+ "toughness": "3"
 }

@@ -4899,5 +4899,7 @@
     "Transform"
    ]
   }
- }
+ },
+ "power": "2",
+ "toughness": "2"
 }

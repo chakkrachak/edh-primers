@@ -21,10 +21,11 @@
 <div class="sheet-info">
 <table>
 <tr><th>Attribute</th><th>Value</th></tr>
-<tr><td><strong>Official name</strong></td><td>{{ commander_name|escape }}</td></tr>
+<tr><td><strong>Commander</strong></td><td>{{ commander_name|escape }}</td></tr>
 <tr><td><strong>Mana cost</strong></td><td>{{ mana_cost_html|safe }}</td></tr>
 <tr><td><strong>Type</strong></td><td>{{ type_line|escape }}</td></tr>
 <tr><td><strong>Color identity</strong></td><td>{{ color_id|escape }}</td></tr>
+{% if power %}<tr><td><strong>Power / Toughness</strong></td><td>{{ power }} / {{ toughness }}</td></tr>{% endif %}
 {{ extra_table_rows|safe }}
 <tr><td><strong>Rarity</strong></td><td>{{ rarity|escape }}</td></tr>
 <tr><td><strong>Commander legality</strong></td><td>✅ {{ legality|escape }}</td></tr>
