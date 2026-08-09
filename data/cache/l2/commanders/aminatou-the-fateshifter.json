@@ -2810,7 +2810,341 @@
    "synergy": 0.09
   }
  },
- "plans": [],
+ "plans": [
+  {
+   "tag": "Blink",
+   "decks": 763,
+   "description": [
+    "**Core mechanic** : Aminatou's −1 exiles a permanent you own and returns it — cascading ETB triggers.",
+    "**Engine** : Felidar Guardian, Soulherder and Ephemerate blink your best permanents every turn.",
+    "**Payoff** : double ETB value — draw, ramp and removal stapled to every blink."
+   ],
+   "win": [
+    "**Combo** : Felidar Guardian + Aminatou = infinite blink loops.",
+    "**Value** : Oath of Teferi blinks twice per turn.",
+    "**Beats** : a board of re-triggered ETB threats."
+   ],
+   "high_synergy": [
+    {
+     "name": "Felidar Guardian",
+     "synergy": null
+    },
+    {
+     "name": "Oath of Teferi",
+     "synergy": null
+    },
+    {
+     "name": "Ephemerate",
+     "synergy": null
+    },
+    {
+     "name": "Soulherder",
+     "synergy": null
+    },
+    {
+     "name": "Peregrine Drake",
+     "synergy": null
+    },
+    {
+     "name": "Panharmonicon",
+     "synergy": null
+    },
+    {
+     "name": "Baleful Strix",
+     "synergy": null
+    },
+    {
+     "name": "Spark Double",
+     "synergy": null
+    },
+    {
+     "name": "Archaeomancer",
+     "synergy": null
+    },
+    {
+     "name": "Mulldrifter",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Felidar Guardian",
+    "Oath of Teferi",
+    "Ephemerate",
+    "Soulherder",
+    "Peregrine Drake",
+    "Panharmonicon",
+    "Baleful Strix",
+    "Spark Double",
+    "Archaeomancer",
+    "Mulldrifter"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Control",
+   "decks": 283,
+   "description": [
+    "**Core mechanic** : Esper control — removal, counters and card advantage.",
+    "**Engine** : Aminatou blinks your control pieces (Oath of Teferi, Venser) for extra value.",
+    "**Payoff** : grind out the table with repeated ETB answers."
+   ],
+   "win": [
+    "**Combo** : Felidar Guardian loops.",
+    "**Ult** : Aminatou's −6 resets the table in your favor.",
+    "**Beats** : control into a finisher."
+   ],
+   "high_synergy": [
+    {
+     "name": "Oath of Teferi",
+     "synergy": null
+    },
+    {
+     "name": "Felidar Guardian",
+     "synergy": null
+    },
+    {
+     "name": "Spark Double",
+     "synergy": null
+    },
+    {
+     "name": "Ephemerate",
+     "synergy": null
+    },
+    {
+     "name": "Baleful Strix",
+     "synergy": null
+    },
+    {
+     "name": "Peregrine Drake",
+     "synergy": null
+    },
+    {
+     "name": "Soulherder",
+     "synergy": null
+    },
+    {
+     "name": "Archaeomancer",
+     "synergy": null
+    },
+    {
+     "name": "Displacer Kitten",
+     "synergy": null
+    },
+    {
+     "name": "Wishclaw Talisman",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Oath of Teferi",
+    "Felidar Guardian",
+    "Spark Double",
+    "Ephemerate",
+    "Baleful Strix",
+    "Peregrine Drake",
+    "Soulherder",
+    "Archaeomancer",
+    "Displacer Kitten"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Combo",
+   "decks": 246,
+   "description": [
+    "**Core mechanic** : the deck is built around compact blink combos.",
+    "**Engine** : Felidar Guardian + Aminatou / Spark Double + Peregrine Drake lines.",
+    "**Payoff** : infinite blinks = infinite ETB value or infinite mana."
+   ],
+   "win": [
+    "**Infinite blink** : Felidar Guardian + Aminatou.",
+    "**Infinite mana** : Peregrine Drake + blink.",
+    "**Backup** : value beats."
+   ],
+   "high_synergy": [
+    {
+     "name": "Felidar Guardian",
+     "synergy": null
+    },
+    {
+     "name": "Spark Double",
+     "synergy": null
+    },
+    {
+     "name": "Peregrine Drake",
+     "synergy": null
+    },
+    {
+     "name": "Oath of Teferi",
+     "synergy": null
+    },
+    {
+     "name": "Altar of the Brood",
+     "synergy": null
+    },
+    {
+     "name": "Ephemerate",
+     "synergy": null
+    },
+    {
+     "name": "Wishclaw Talisman",
+     "synergy": null
+    },
+    {
+     "name": "Panharmonicon",
+     "synergy": null
+    },
+    {
+     "name": "Archaeomancer",
+     "synergy": null
+    },
+    {
+     "name": "Displacer Kitten",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Felidar Guardian",
+    "Spark Double",
+    "Peregrine Drake",
+    "Oath of Teferi",
+    "Altar of the Brood",
+    "Ephemerate",
+    "Panharmonicon",
+    "Archaeomancer",
+    "Displacer Kitten"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Planeswalkers",
+   "decks": 200,
+   "description": [
+    "**Core mechanic** : superfriends — Aminatou blinks walkers for repeat activations.",
+    "**Engine** : Oath of Teferi, Spark Double and Teferi, Time Raveler chain walker activations.",
+    "**Payoff** : walkers ult fast with multiple activations per turn."
+   ],
+   "win": [
+    "**Walker ults** : Aminatou's −6 / Teferi ults.",
+    "**Lock** : Teferi + knowledge pool.",
+    "**Value** : walker card advantage."
+   ],
+   "high_synergy": [
+    {
+     "name": "Oath of Teferi",
+     "synergy": null
+    },
+    {
+     "name": "Spark Double",
+     "synergy": null
+    },
+    {
+     "name": "Teferi, Time Raveler",
+     "synergy": null
+    },
+    {
+     "name": "The Eternal Wanderer",
+     "synergy": null
+    },
+    {
+     "name": "Deepglow Skate",
+     "synergy": null
+    },
+    {
+     "name": "Ichormoon Gauntlet",
+     "synergy": null
+    },
+    {
+     "name": "Vraska, Betrayal's Sting",
+     "synergy": null
+    },
+    {
+     "name": "Teferi, Temporal Archmage",
+     "synergy": null
+    },
+    {
+     "name": "Teferi, Master of Time",
+     "synergy": null
+    },
+    {
+     "name": "Dakkon, Shadow Slayer",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Oath of Teferi",
+    "Spark Double",
+    "Teferi, Time Raveler",
+    "Teferi, Temporal Archmage",
+    "Teferi, Master of Time"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Topdeck",
+   "decks": 179,
+   "description": [
+    "**Core mechanic** : Aminatou's +1 controls the top of libraries — miracles and topdeck payoff.",
+    "**Engine** : Brainstorm, Terminus and Temporal Mastery set up the top.",
+    "**Payoff** : miracle spells and topdeck tutors hit every time."
+   ],
+   "win": [
+    "**Miracle** : Temporal Mastery free turns / Terminus board wipes.",
+    "**Topdeck combo** : Aminatou puts the combo piece on top.",
+    "**Value** : repeatable topdeck control."
+   ],
+   "high_synergy": [
+    {
+     "name": "Terminus",
+     "synergy": null
+    },
+    {
+     "name": "Devastation Tide",
+     "synergy": null
+    },
+    {
+     "name": "Entreat the Angels",
+     "synergy": null
+    },
+    {
+     "name": "Temporal Mastery",
+     "synergy": null
+    },
+    {
+     "name": "Brainstorm",
+     "synergy": null
+    },
+    {
+     "name": "Entreat the Dead",
+     "synergy": null
+    },
+    {
+     "name": "Halimar Depths",
+     "synergy": null
+    },
+    {
+     "name": "Oath of Teferi",
+     "synergy": null
+    },
+    {
+     "name": "Banishing Stroke",
+     "synergy": null
+    },
+    {
+     "name": "Ponder",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Terminus",
+    "Temporal Mastery",
+    "Brainstorm",
+    "Halimar Depths",
+    "Oath of Teferi"
+   ],
+   "combos": []
+  }
+ ],
  "combos": [
   {
    "id": "1090-2781",
@@ -5903,7 +6237,57 @@
  ],
  "hs_imgs": {},
  "type_recs": {},
- "card_plan_texts": {},
+ "card_plan_texts": {
+  "Felidar Guardian": {
+   "Blink": "**Blink loop** : blinks another permanent on entry — the blink engine's key piece.",
+   "Combo": "**Combo piece** : with Aminatou it's infinite blinks — the deck's signature win.",
+   "Control": "**Control value** : blink your answers for reuse."
+  },
+  "Oath of Teferi": {
+   "Blink": "**Double blink** : your walkers activate twice AND blinks on entry — the blink engine.",
+   "Combo": "**Combo engine** : double activations enable the loops.",
+   "Planeswalkers": "**Walker core** : double activations for superfriends.",
+   "Control": "**Control engine** : extra value from every walker.",
+   "Topdeck": "**Topdeck support** : extra walker activations with Aminatou's +1."
+  },
+  "Spark Double": {
+   "Blink": "**Blink copy** : copies your best walker or creature — the blink value bomb.",
+   "Combo": "**Combo piece** : copies combo pieces for the loop.",
+   "Planeswalkers": "**Walker copy** : a second copy of your best walker.",
+   "Control": "**Control copy** : duplicate your best answer."
+  },
+  "Ephemerate": {
+   "Blink": "**One-mana blink** : blink twice (rebound) for 1 mana — the efficiency engine.",
+   "Combo": "**Combo enabler** : cheap blink for the loops.",
+   "Control": "**Control trick** : save a creature or reuse an ETB."
+  },
+  "Peregrine Drake": {
+   "Blink": "**Blink ramp** : untap 5 lands on blink — mana loops.",
+   "Combo": "**Combo piece** : infinite mana with blink loops.",
+   "Control": "**Control ramp** : blink for explosive mana."
+  },
+  "Soulherder": {
+   "Blink": "**Blink engine** : exiles a creature each turn and returns it — repeatable blinking.",
+   "Control": "**Control value** : a permanent blink engine that grows."
+  },
+  "Baleful Strix": {
+   "Blink": "**Blink value** : draw + deathtouch on every blink.",
+   "Control": "**Control blocker** : the perfect defensive ETB."
+  },
+  "Archaeomancer": {
+   "Blink": "**Blink recursion** : returns an instant/sorcery on blink — infinite spell loops.",
+   "Combo": "**Combo piece** : recur the combo spell each loop.",
+   "Control": "**Control recursion** : reuse your best answer."
+  },
+  "Displacer Kitten": {
+   "Combo": "**Combo engine** : blink your permanents on noncreature casts — the value machine.",
+   "Control": "**Control engine** : every spell re-triggers your ETBs."
+  },
+  "Panharmonicon": {
+   "Blink": "**Blink doubler** : doubles ALL ETB triggers — the blink payoff.",
+   "Combo": "**Combo amplifier** : doubles the loop triggers."
+  }
+ },
  "content": {
   "primer": {
    "quick_read": [

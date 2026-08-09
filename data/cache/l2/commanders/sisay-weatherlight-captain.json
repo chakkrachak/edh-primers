@@ -2556,7 +2556,336 @@
    "synergy": -0.2065612024235376
   }
  },
- "plans": [],
+ "plans": [
+  {
+   "tag": "Legends",
+   "decks": 1413,
+   "description": [
+    "**Core mechanic** : Sisay grows with legendary permanents and tutors any legend with {W}{U}{B}{R}{G}.",
+    "**Engine** : a toolbox of legends — answer anything with the right legend (Derevi, Selvala, Bloom Tender).",
+    "**Payoff** : the legendary value engine — ramp, draw, removal and threats on demand."
+   ],
+   "win": [
+    "**Combo** : assemble a legendary combo (e.g. Jodah + big spells).",
+    "**Beats** : legendary army pumped by Sisay.",
+    "**Lock** : legendary stax pieces."
+   ],
+   "high_synergy": [
+    {
+     "name": "Derevi, Empyrial Tactician",
+     "synergy": null
+    },
+    {
+     "name": "Selvala, Heart of the Wilds",
+     "synergy": null
+    },
+    {
+     "name": "Lotho, Corrupt Shirriff",
+     "synergy": null
+    },
+    {
+     "name": "Bloom Tender",
+     "synergy": null
+    },
+    {
+     "name": "Faeburrow Elder",
+     "synergy": null
+    },
+    {
+     "name": "Esika, God of the Tree",
+     "synergy": null
+    },
+    {
+     "name": "Tyvar, Jubilant Brawler",
+     "synergy": null
+    },
+    {
+     "name": "Kutzil, Malamet Exemplar",
+     "synergy": null
+    },
+    {
+     "name": "Tam, Mindful First-Year",
+     "synergy": null
+    },
+    {
+     "name": "Jodah, the Unifier",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Derevi, Empyrial Tactician",
+    "Selvala, Heart of the Wilds",
+    "Lotho, Corrupt Shirriff",
+    "Bloom Tender",
+    "Faeburrow Elder",
+    "Esika, God of the Tree",
+    "Jodah, the Unifier"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Historic",
+   "decks": 1087,
+   "description": [
+    "**Core mechanic** : historic spells (legendary, artifact, saga) trigger historic synergies.",
+    "**Engine** : Jhoira, Weatherlight Captain and historic payoff cards.",
+    "**Payoff** : cast legendary/historic spells to draw and storm."
+   ],
+   "win": [
+    "**Historic storm** : chain historic spells into a big finish.",
+    "**Combo** : historic loops.",
+    "**Beats** : legendary army."
+   ],
+   "high_synergy": [
+    {
+     "name": "Tyvar, Jubilant Brawler",
+     "synergy": null
+    },
+    {
+     "name": "Derevi, Empyrial Tactician",
+     "synergy": null
+    },
+    {
+     "name": "Oath of Teferi",
+     "synergy": null
+    },
+    {
+     "name": "Selvala, Heart of the Wilds",
+     "synergy": null
+    },
+    {
+     "name": "Kinnan, Bonder Prodigy",
+     "synergy": null
+    },
+    {
+     "name": "Teferi, Time Raveler",
+     "synergy": null
+    },
+    {
+     "name": "Emiel the Blessed",
+     "synergy": null
+    },
+    {
+     "name": "Agatha's Soul Cauldron",
+     "synergy": null
+    },
+    {
+     "name": "Lotho, Corrupt Shirriff",
+     "synergy": null
+    },
+    {
+     "name": "Nicol Bolas, Dragon-God",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Derevi, Empyrial Tactician",
+    "Oath of Teferi",
+    "Selvala, Heart of the Wilds",
+    "Teferi, Time Raveler",
+    "Agatha's Soul Cauldron",
+    "Lotho, Corrupt Shirriff",
+    "Nicol Bolas, Dragon-God"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "cEDH",
+   "decks": 839,
+   "description": [
+    "**Core mechanic** : the competitive shell — fast mana, tutors and compact combos.",
+    "**Engine** : Sisay's ability as a repeatable legend tutor for combo pieces.",
+    "**Payoff** : assemble a win fast through disruption."
+   ],
+   "win": [
+    "**Combo** : compact legendary combos (e.g. Derevi + untap loops).",
+    "**Lock** : stax pieces that stop the table.",
+    "**Beats** : fast beatdown backup."
+   ],
+   "high_synergy": [
+    {
+     "name": "Kinnan, Bonder Prodigy",
+     "synergy": null
+    },
+    {
+     "name": "Agatha's Soul Cauldron",
+     "synergy": null
+    },
+    {
+     "name": "Lotho, Corrupt Shirriff",
+     "synergy": null
+    },
+    {
+     "name": "Derevi, Empyrial Tactician",
+     "synergy": null
+    },
+    {
+     "name": "Ragavan, Nimble Pilferer",
+     "synergy": null
+    },
+    {
+     "name": "Teferi, Time Raveler",
+     "synergy": null
+    },
+    {
+     "name": "Silence",
+     "synergy": null
+    },
+    {
+     "name": "Emiel the Blessed",
+     "synergy": null
+    },
+    {
+     "name": "Tyvar, Jubilant Brawler",
+     "synergy": null
+    },
+    {
+     "name": "Mystic Remora",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Agatha's Soul Cauldron",
+    "Lotho, Corrupt Shirriff",
+    "Derevi, Empyrial Tactician",
+    "Ragavan, Nimble Pilferer",
+    "Teferi, Time Raveler",
+    "Silence",
+    "Mystic Remora"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Combo",
+   "decks": 776,
+   "description": [
+    "**Core mechanic** : Sisay finds the combo pieces — the deck is a tutor-dense combo machine.",
+    "**Engine** : legends that untap, draw or generate mana to chain into the win.",
+    "**Payoff** : assemble an infinite loop through Sisay's tutoring."
+   ],
+   "win": [
+    "**Infinite combos** : legend-based loops (e.g. Derevi + untap, Jodah + omniscience-ish).",
+    "**Backup beats** : legendary army.",
+    "**Lock** : control pieces."
+   ],
+   "high_synergy": [
+    {
+     "name": "Derevi, Empyrial Tactician",
+     "synergy": null
+    },
+    {
+     "name": "Kinnan, Bonder Prodigy",
+     "synergy": null
+    },
+    {
+     "name": "Lotho, Corrupt Shirriff",
+     "synergy": null
+    },
+    {
+     "name": "Emiel the Blessed",
+     "synergy": null
+    },
+    {
+     "name": "Tyvar, Jubilant Brawler",
+     "synergy": null
+    },
+    {
+     "name": "Teferi, Time Raveler",
+     "synergy": null
+    },
+    {
+     "name": "Agatha's Soul Cauldron",
+     "synergy": null
+    },
+    {
+     "name": "Selvala, Heart of the Wilds",
+     "synergy": null
+    },
+    {
+     "name": "Ragavan, Nimble Pilferer",
+     "synergy": null
+    },
+    {
+     "name": "Noble Hierarch",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Derevi, Empyrial Tactician",
+    "Lotho, Corrupt Shirriff",
+    "Teferi, Time Raveler",
+    "Agatha's Soul Cauldron",
+    "Selvala, Heart of the Wilds",
+    "Ragavan, Nimble Pilferer",
+    "Noble Hierarch"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Planeswalkers",
+   "decks": 528,
+   "description": [
+    "**Core mechanic** : superfriends — Sisay tutors planeswalkers and they ult fast.",
+    "**Engine** : Oath of Teferi and Teferi, Time Raveler chain walker activations.",
+    "**Payoff** : ulting walkers end the game."
+   ],
+   "win": [
+    "**Walker ults** : Nicol Bolas, Dragon-God / Teferi ults.",
+    "**Lock** : Teferi + knowledge pool style locks.",
+    "**Beats** : walker emblems."
+   ],
+   "high_synergy": [
+    {
+     "name": "Oath of Teferi",
+     "synergy": null
+    },
+    {
+     "name": "Nicol Bolas, Dragon-God",
+     "synergy": null
+    },
+    {
+     "name": "Teferi, Time Raveler",
+     "synergy": null
+    },
+    {
+     "name": "Oath of Nissa",
+     "synergy": null
+    },
+    {
+     "name": "Aminatou, the Fateshifter",
+     "synergy": null
+    },
+    {
+     "name": "Carth the Lion",
+     "synergy": null
+    },
+    {
+     "name": "The Chain Veil",
+     "synergy": null
+    },
+    {
+     "name": "Ichormoon Gauntlet",
+     "synergy": null
+    },
+    {
+     "name": "Tamiyo, Field Researcher",
+     "synergy": null
+    },
+    {
+     "name": "Dihada, Binder of Wills",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Oath of Teferi",
+    "Nicol Bolas, Dragon-God",
+    "Teferi, Time Raveler",
+    "Aminatou, the Fateshifter",
+    "Dihada, Binder of Wills"
+   ],
+   "combos": []
+  }
+ ],
  "combos": [
   {
    "uses": [
@@ -4608,7 +4937,49 @@
  ],
  "hs_imgs": {},
  "type_recs": {},
- "card_plan_texts": {},
+ "card_plan_texts": {
+  "Derevi, Empyrial Tactician": {
+   "Legends": "**Legend engine** : untap permanents on combat — Sisay's mana engine and a legend itself.",
+   "Historic": "**Historic value** : a legend that untaps your historic permanents.",
+   "cEDH": "**cEDH enabler** : untap loops for fast wins.",
+   "Combo": "**Combo piece** : infinite untaps with the right pieces."
+  },
+  "Selvala, Heart of the Wilds": {
+   "Legends": "**Legend ramp** : adds X mana where X = the biggest creature's power — the toolbox ramp.",
+   "Historic": "**Historic ramp** : a legend that ramps off big creatures.",
+   "cEDH": "**cEDH ramp** : explosive mana for fast lines.",
+   "Combo": "**Combo fuel** : infinite mana with a big legend."
+  },
+  "Lotho, Corrupt Shirriff": {
+   "Legends": "**Legend value** : treasure per legendary spell — the toolbox pays for itself.",
+   "Historic": "**Historic value** : treasure per historic cast.",
+   "cEDH": "**cEDH ramp** : early treasures for fast mana.",
+   "Combo": "**Combo fuel** : treasures for the win lines."
+  },
+  "Teferi, Time Raveler": {
+   "Legends": "**Legend control** : the legend that protects your turn — flash and no instants.",
+   "Historic": "**Historic control** : a walker that locks the stack.",
+   "Planeswalkers": "**Walker core** : the superfriends linchpin — untap, flash, lock.",
+   "Combo": "**Combo shield** : protects the win from instant-speed interaction."
+  },
+  "Agatha's Soul Cauldron": {
+   "Historic": "**Historic engine** : exile creatures for their abilities — the value engine.",
+   "cEDH": "**cEDH engine** : ability theft for compact wins.",
+   "Combo": "**Combo piece** : steal the winning activated ability."
+  },
+  "Oath of Teferi": {
+   "Historic": "**Historic value** : blink a walker and double its activations.",
+   "Planeswalkers": "**Walker engine** : double activations every turn — the superfriends core."
+  },
+  "Nicol Bolas, Dragon-God": {
+   "Historic": "**Historic bomb** : a walker that does everything.",
+   "Planeswalkers": "**Walker finisher** : ult him to dominate — the superfriends closer."
+  },
+  "Ragavan, Nimble Pilferer": {
+   "cEDH": "**cEDH ramp** : the one-drop that ramps and steals.",
+   "Combo": "**Combo fuel** : treasures and card theft for lines."
+  }
+ },
  "content": {
   "primer": {
    "quick_read": [

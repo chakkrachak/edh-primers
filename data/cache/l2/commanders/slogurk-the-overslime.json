@@ -3086,7 +3086,298 @@
    "synergy": 0.08
   }
  },
- "plans": [],
+ "plans": [
+  {
+   "tag": "Lands Matter",
+   "decks": 335,
+   "description": [
+    "**Core mechanic** : every land that dies or is milled makes Slogurk grow (+1/+1).",
+    "**Engine** : sacrifice and replay lands — Zuran Orb, Life from the Loam, Splendid Reclamation.",
+    "**Payoff** : a huge Slogurk plus land recursion value."
+   ],
+   "win": [
+    "**Voltron** : a giant Slogurk tramples over.",
+    "**Value** : land recursion loops.",
+    "**Combo** : infinite land plays."
+   ],
+   "high_synergy": [
+    {
+     "name": "Zuran Orb",
+     "synergy": null
+    },
+    {
+     "name": "Life from the Loam",
+     "synergy": null
+    },
+    {
+     "name": "Tranquil Thicket",
+     "synergy": null
+    },
+    {
+     "name": "Lonely Sandbar",
+     "synergy": null
+    },
+    {
+     "name": "Sylvan Safekeeper",
+     "synergy": null
+    },
+    {
+     "name": "Azusa, Lost but Seeking",
+     "synergy": null
+    },
+    {
+     "name": "Ramunap Excavator",
+     "synergy": null
+    },
+    {
+     "name": "Splendid Reclamation",
+     "synergy": null
+    },
+    {
+     "name": "Trade Routes",
+     "synergy": null
+    },
+    {
+     "name": "Lotus Field",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Zuran Orb",
+    "Life from the Loam",
+    "Tranquil Thicket",
+    "Lonely Sandbar",
+    "Sylvan Safekeeper",
+    "Azusa, Lost but Seeking",
+    "Ramunap Excavator",
+    "Splendid Reclamation",
+    "Trade Routes",
+    "Lotus Field"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "+1/+1 Counters",
+   "decks": 97,
+   "description": [
+    "**Core mechanic** : counters on Slogurk and the board from landfall and mill.",
+    "**Engine** : landfall and counter payoffs.",
+    "**Payoff** : a counter-stacked Slogurk."
+   ],
+   "win": [
+    "**Trample over** : huge Slogurk.",
+    "**Backup** : counter creatures.",
+    "**Value** : land recursion."
+   ],
+   "high_synergy": [],
+   "deck_matches": [],
+   "combos": []
+  },
+  {
+   "tag": "Mill",
+   "decks": 71,
+   "description": [
+    "**Core mechanic** : self-mill fuels Slogurk's growth.",
+    "**Engine** : mill lands (Tranquil Thicket, Lonely Sandbar) and self-mill spells.",
+    "**Payoff** : a big Slogurk and a full graveyard."
+   ],
+   "win": [
+    "**Big Slogurk** : trample kill.",
+    "**Reclamation** : Splendid Reclamation brings back all lands.",
+    "**Value** : Loam loops."
+   ],
+   "high_synergy": [
+    {
+     "name": "Aftermath Analyst",
+     "synergy": null
+    },
+    {
+     "name": "Life from the Loam",
+     "synergy": null
+    },
+    {
+     "name": "Zuran Orb",
+     "synergy": null
+    },
+    {
+     "name": "Tranquil Thicket",
+     "synergy": null
+    },
+    {
+     "name": "Splendid Reclamation",
+     "synergy": null
+    },
+    {
+     "name": "Lonely Sandbar",
+     "synergy": null
+    },
+    {
+     "name": "Six",
+     "synergy": null
+    },
+    {
+     "name": "Hedron Crab",
+     "synergy": null
+    },
+    {
+     "name": "Sylvan Safekeeper",
+     "synergy": null
+    },
+    {
+     "name": "Icetill Explorer",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Aftermath Analyst",
+    "Life from the Loam",
+    "Zuran Orb",
+    "Tranquil Thicket",
+    "Splendid Reclamation",
+    "Lonely Sandbar",
+    "Six",
+    "Sylvan Safekeeper"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Self-Mill",
+   "decks": 56,
+   "description": [
+    "**Core mechanic** : self-mill the library to grow Slogurk and fill the yard.",
+    "**Engine** : Hedron Crab-style mills and cycling lands.",
+    "**Payoff** : huge Slogurk + recursion."
+   ],
+   "win": [
+    "**Slogurk voltron** : 20/20+ trample.",
+    "**Reclamation** : mass land return.",
+    "**Value** : Loam engine."
+   ],
+   "high_synergy": [
+    {
+     "name": "Tranquil Thicket",
+     "synergy": null
+    },
+    {
+     "name": "Lonely Sandbar",
+     "synergy": null
+    },
+    {
+     "name": "Zuran Orb",
+     "synergy": null
+    },
+    {
+     "name": "Harrow",
+     "synergy": null
+    },
+    {
+     "name": "Life from the Loam",
+     "synergy": null
+    },
+    {
+     "name": "Splendid Reclamation",
+     "synergy": null
+    },
+    {
+     "name": "Aftermath Analyst",
+     "synergy": null
+    },
+    {
+     "name": "Six",
+     "synergy": null
+    },
+    {
+     "name": "Trade Routes",
+     "synergy": null
+    },
+    {
+     "name": "Roiling Regrowth",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Tranquil Thicket",
+    "Lonely Sandbar",
+    "Zuran Orb",
+    "Harrow",
+    "Life from the Loam",
+    "Splendid Reclamation",
+    "Aftermath Analyst",
+    "Six",
+    "Trade Routes"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Voltron",
+   "decks": 38,
+   "description": [
+    "**Core mechanic** : Slogurk as the voltron — grow him through lands and swing.",
+    "**Engine** : land sacrifice/replay to pump him.",
+    "**Payoff** : commander damage kills."
+   ],
+   "win": [
+    "**One-shot** : huge trampling Slogurk.",
+    "**Protection** : Sylvan Safekeeper.",
+    "**Value** : recursion backup."
+   ],
+   "high_synergy": [
+    {
+     "name": "Life from the Loam",
+     "synergy": null
+    },
+    {
+     "name": "Splendid Reclamation",
+     "synergy": null
+    },
+    {
+     "name": "Lonely Sandbar",
+     "synergy": null
+    },
+    {
+     "name": "Zuran Orb",
+     "synergy": null
+    },
+    {
+     "name": "Sylvan Safekeeper",
+     "synergy": null
+    },
+    {
+     "name": "Tranquil Thicket",
+     "synergy": null
+    },
+    {
+     "name": "Harrow",
+     "synergy": null
+    },
+    {
+     "name": "Lotus Field",
+     "synergy": null
+    },
+    {
+     "name": "Aftermath Analyst",
+     "synergy": null
+    },
+    {
+     "name": "Trade Routes",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Life from the Loam",
+    "Splendid Reclamation",
+    "Lonely Sandbar",
+    "Zuran Orb",
+    "Sylvan Safekeeper",
+    "Tranquil Thicket",
+    "Harrow",
+    "Lotus Field",
+    "Aftermath Analyst",
+    "Trade Routes"
+   ],
+   "combos": []
+  }
+ ],
  "combos": [
   {
    "id": "3470-5702--131",
@@ -5434,7 +5725,64 @@
  ],
  "hs_imgs": {},
  "type_recs": {},
- "card_plan_texts": {},
+ "card_plan_texts": {
+  "Life from the Loam": {
+   "Lands Matter": "**Land engine** : return 3 lands every turn — the lands-matter recursion core.",
+   "Mill": "**Mill engine** : dredge fuels Slogurk's growth.",
+   "Self-Mill": "**Self-mill core** : dredge 3 fills the yard and the hand.",
+   "Voltron": "**Voltron fuel** : keeps the lands coming for Slogurk's size."
+  },
+  "Zuran Orb": {
+   "Lands Matter": "**Land sacrifice** : crack lands for life — then return them.",
+   "Mill": "**Mill synergy** : sacrifice lands, mill, repeat.",
+   "Self-Mill": "**Self-mill fuel** : free land deaths to grow Slogurk.",
+   "Voltron": "**Voltron enabler** : sac lands to pump and protect Slogurk."
+  },
+  "Splendid Reclamation": {
+   "Lands Matter": "**Land bomb** : return ALL lands from the yard — the lands-matter finisher.",
+   "Mill": "**Mill payoff** : the milled pile becomes your mana.",
+   "Self-Mill": "**Self-mill payoff** : every milled land comes back.",
+   "Voltron": "**Voltron boost** : all lands back = huge Slogurk + full mana."
+  },
+  "Tranquil Thicket": {
+   "Lands Matter": "**Cycling land** : a land that mills and draws — the engine's fuel.",
+   "Mill": "**Mill land** : cycles to fill the yard.",
+   "Self-Mill": "**Self-mill land** : a land that feeds itself to the yard.",
+   "Voltron": "**Voltron fuel** : another land for Slogurk's growth."
+  },
+  "Lonely Sandbar": {
+   "Lands Matter": "**Cycling land** : draw + mill with a land — engine fuel.",
+   "Mill": "**Mill land** : cycles into the yard.",
+   "Self-Mill": "**Self-mill land** : a land that fills the yard.",
+   "Voltron": "**Voltron fuel** : one more land for the size."
+  },
+  "Aftermath Analyst": {
+   "Mill": "**Mill payoff** : return lands from the yard when it dies — mill value.",
+   "Self-Mill": "**Self-mill payoff** : the yard becomes your mana base.",
+   "Voltron": "**Voltron enabler** : sac it to return lands and grow Slogurk."
+  },
+  "Sylvan Safekeeper": {
+   "Lands Matter": "**Land sac outlet** : sac lands for hexproof — protection for your key pieces.",
+   "Voltron": "**Voltron shield** : hexproof for Slogurk — the kill is protected."
+  },
+  "Harrow": {
+   "Self-Mill": "**Self-mill ramp** : sac a land, ramp 2, fill the yard.",
+   "Voltron": "**Voltron ramp** : more lands for the giant Slogurk."
+  },
+  "Six": {
+   "Mill": "**Mill recursion** : return lands from the yard as creatures.",
+   "Self-Mill": "**Self-mill engine** : the yard becomes blockers and value."
+  },
+  "Trade Routes": {
+   "Lands Matter": "**Land engine** : bounce lands to hand for replay — the recursion loop.",
+   "Self-Mill": "**Self-mill support** : cycle lands for draw and yard.",
+   "Voltron": "**Voltron engine** : replay lands to keep Slogurk growing."
+  },
+  "Lotus Field": {
+   "Lands Matter": "**Land payoff** : 3 mana from one land — the lands-matter bomb.",
+   "Voltron": "**Voltron boost** : a huge mana land for the kill turn."
+  }
+ },
  "content": {
   "primer": {
    "quick_read": [

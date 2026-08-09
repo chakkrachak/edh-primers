@@ -2460,7 +2460,337 @@
    "synergy": 0.34
   }
  },
- "plans": [],
+ "plans": [
+  {
+   "tag": "Energy",
+   "decks": 1209,
+   "description": [
+    "**Core mechanic** : every artifact/Artificer spell gives an energy counter — the deck runs on energy.",
+    "**Engine** : Aetherworks Marvel, Decoction Module and Izzet Generatorium turn spells into energy and value.",
+    "**Payoff** : 3 energy at combat = a hasty 5/5 copy of Saheeli — free beaters every turn."
+   ],
+   "win": [
+    "**Saheeli beats** : hasty 5/5 copies every combat.",
+    "**Aetherflux Reservoir** : life totals melt with enough spells.",
+    "**Combo** : infinite energy loops (Decoction Module + Saheeli)."
+   ],
+   "high_synergy": [
+    {
+     "name": "Aetherworks Marvel",
+     "synergy": null
+    },
+    {
+     "name": "Decoction Module",
+     "synergy": null
+    },
+    {
+     "name": "Nissa, Worldsoul Speaker",
+     "synergy": null
+    },
+    {
+     "name": "Aetherflux Conduit",
+     "synergy": null
+    },
+    {
+     "name": "Izzet Generatorium",
+     "synergy": null
+    },
+    {
+     "name": "Lightning Runner",
+     "synergy": null
+    },
+    {
+     "name": "Whirler Virtuoso",
+     "synergy": null
+    },
+    {
+     "name": "Attune with Aether",
+     "synergy": null
+    },
+    {
+     "name": "Academy Ruins",
+     "synergy": null
+    },
+    {
+     "name": "Peema Trailblazer",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Aetherworks Marvel",
+    "Decoction Module",
+    "Nissa, Worldsoul Speaker",
+    "Aetherflux Conduit",
+    "Izzet Generatorium",
+    "Lightning Runner"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Artifacts",
+   "decks": 745,
+   "description": [
+    "**Core mechanic** : artifact synergies — every artifact spell fuels Saheeli and the energy engines.",
+    "**Engine** : Aetherworks Marvel, Unwinding Clock and artifact payoffs.",
+    "**Payoff** : a board of artifact threats and copied artifacts."
+   ],
+   "win": [
+    "**Aetherflux Reservoir** : the artifact storm finisher.",
+    "**Copy bombs** : replicate a big artifact threat.",
+    "**Combo** : infinite artifact loops."
+   ],
+   "high_synergy": [
+    {
+     "name": "Aetherworks Marvel",
+     "synergy": null
+    },
+    {
+     "name": "Decoction Module",
+     "synergy": null
+    },
+    {
+     "name": "Aetherflux Conduit",
+     "synergy": null
+    },
+    {
+     "name": "Nissa, Worldsoul Speaker",
+     "synergy": null
+    },
+    {
+     "name": "Izzet Generatorium",
+     "synergy": null
+    },
+    {
+     "name": "Academy Ruins",
+     "synergy": null
+    },
+    {
+     "name": "Lightning Runner",
+     "synergy": null
+    },
+    {
+     "name": "Whirler Virtuoso",
+     "synergy": null
+    },
+    {
+     "name": "Attune with Aether",
+     "synergy": null
+    },
+    {
+     "name": "Aether Refinery",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Aetherworks Marvel",
+    "Decoction Module",
+    "Aetherflux Conduit",
+    "Nissa, Worldsoul Speaker",
+    "Izzet Generatorium",
+    "Lightning Runner",
+    "Aether Refinery"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Tokens",
+   "decks": 288,
+   "description": [
+    "**Core mechanic** : token copy generation — Saheeli's 5/5s plus token doublers.",
+    "**Engine** : Decoction Module and token payoff cards.",
+    "**Payoff** : a swarm of hasty 5/5 copies overwhelming blockers."
+   ],
+   "win": [
+    "**Alpha strike** : a board of 5/5 copies.",
+    "**Drain** : Reckless Fireweaver / Aetherflux Reservoir.",
+    "**Combo** : infinite copies."
+   ],
+   "high_synergy": [
+    {
+     "name": "Decoction Module",
+     "synergy": null
+    },
+    {
+     "name": "Aetherworks Marvel",
+     "synergy": null
+    },
+    {
+     "name": "Izzet Generatorium",
+     "synergy": null
+    },
+    {
+     "name": "Nissa, Worldsoul Speaker",
+     "synergy": null
+    },
+    {
+     "name": "Academy Ruins",
+     "synergy": null
+    },
+    {
+     "name": "Aetherflux Conduit",
+     "synergy": null
+    },
+    {
+     "name": "Whirler Virtuoso",
+     "synergy": null
+    },
+    {
+     "name": "Lightning Runner",
+     "synergy": null
+    },
+    {
+     "name": "Gonti's Aether Heart",
+     "synergy": null
+    },
+    {
+     "name": "Peema Trailblazer",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Decoction Module",
+    "Aetherworks Marvel",
+    "Izzet Generatorium",
+    "Nissa, Worldsoul Speaker",
+    "Aetherflux Conduit",
+    "Lightning Runner"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Clones",
+   "decks": 225,
+   "description": [
+    "**Core mechanic** : copy effects multiply the best permanent on the board.",
+    "**Engine** : clone spells and Saheeli's ability copy your best artifact or creature.",
+    "**Payoff** : multiple copies of the scariest thing on the table."
+   ],
+   "win": [
+    "**Copy the best** : multiple Aetherflux / Marvel copies.",
+    "**Combo** : copy effects into infinite loops.",
+    "**Beats** : copied beaters."
+   ],
+   "high_synergy": [
+    {
+     "name": "Decoction Module",
+     "synergy": null
+    },
+    {
+     "name": "Aetherworks Marvel",
+     "synergy": null
+    },
+    {
+     "name": "Nissa, Worldsoul Speaker",
+     "synergy": null
+    },
+    {
+     "name": "Izzet Generatorium",
+     "synergy": null
+    },
+    {
+     "name": "Aetherflux Conduit",
+     "synergy": null
+    },
+    {
+     "name": "Lightning Runner",
+     "synergy": null
+    },
+    {
+     "name": "Roil Cartographer",
+     "synergy": null
+    },
+    {
+     "name": "Academy Ruins",
+     "synergy": null
+    },
+    {
+     "name": "Peema Trailblazer",
+     "synergy": null
+    },
+    {
+     "name": "Rogue Refiner",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Decoction Module",
+    "Aetherworks Marvel",
+    "Nissa, Worldsoul Speaker",
+    "Izzet Generatorium",
+    "Aetherflux Conduit",
+    "Lightning Runner",
+    "Roil Cartographer",
+    "Rogue Refiner"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Artificers",
+   "decks": 133,
+   "description": [
+    "**Core mechanic** : Artificer tribal — every Artificer spell generates energy and synergy.",
+    "**Engine** : Artificer payoffs and energy producers.",
+    "**Payoff** : a board of synergizing artifact creatures."
+   ],
+   "win": [
+    "**Aetherflux Reservoir** : the Artificer storm finish.",
+    "**Beats** : artifact creatures pumped by synergy.",
+    "**Combo** : Artificer loops."
+   ],
+   "high_synergy": [
+    {
+     "name": "Aetherworks Marvel",
+     "synergy": null
+    },
+    {
+     "name": "Decoction Module",
+     "synergy": null
+    },
+    {
+     "name": "Nissa, Worldsoul Speaker",
+     "synergy": null
+    },
+    {
+     "name": "Whirler Virtuoso",
+     "synergy": null
+    },
+    {
+     "name": "Aetherflux Conduit",
+     "synergy": null
+    },
+    {
+     "name": "Academy Ruins",
+     "synergy": null
+    },
+    {
+     "name": "Izzet Generatorium",
+     "synergy": null
+    },
+    {
+     "name": "Attune with Aether",
+     "synergy": null
+    },
+    {
+     "name": "Lightning Runner",
+     "synergy": null
+    },
+    {
+     "name": "Architect of the Untamed",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Aetherworks Marvel",
+    "Decoction Module",
+    "Nissa, Worldsoul Speaker",
+    "Aetherflux Conduit",
+    "Izzet Generatorium",
+    "Lightning Runner",
+    "Architect of the Untamed"
+   ],
+   "combos": []
+  }
+ ],
  "combos": [
   {
    "id": "1384-4636-6320",
@@ -4259,7 +4589,50 @@
  ],
  "hs_imgs": {},
  "type_recs": {},
- "card_plan_texts": {},
+ "card_plan_texts": {
+  "Aetherworks Marvel": {
+   "Energy": "**Energy payoff** : spend energy to cast from the top — the energy engine's big payoff.",
+   "Artifacts": "**Artifact engine** : a free spell from the top every few turns.",
+   "Tokens": "**Token fuel** : the topdeck casts into your 5/5 swarm.",
+   "Clones": "**Clone enabler** : cast the best permanent from the top and copy it.",
+   "Artificers": "**Artificer payoff** : energy + free casts for the artificer engine."
+  },
+  "Decoction Module": {
+   "Energy": "**Energy engine** : +1 energy per artifact/creature entering — the battery of the deck.",
+   "Artifacts": "**Artifact synergy** : every artifact entering charges it.",
+   "Tokens": "**Token charger** : each 5/5 token entering adds energy.",
+   "Clones": "**Clone battery** : every copy entering fuels the next one.",
+   "Artificers": "**Artificer fuel** : each Artificer entering adds energy."
+  },
+  "Izzet Generatorium": {
+   "Energy": "**Energy battery** : a land that charges energy — the engine's mana source.",
+   "Artifacts": "**Artifact land** : the land that fuels artifact synergies.",
+   "Tokens": "**Token fuel** : land-based energy for the swarm.",
+   "Clones": "**Clone fuel** : energy for the copy engine.",
+   "Artificers": "**Artificer land** : charges the artificer plan."
+  },
+  "Aetherflux Conduit": {
+   "Energy": "**Energy payoff** : pay energy to draw — the engine's card advantage.",
+   "Artifacts": "**Artifact draw** : an artifact that turns energy into cards.",
+   "Tokens": "**Token draw** : the swarm's energy becomes cards.",
+   "Clones": "**Clone draw** : copies fuel card advantage.",
+   "Artificers": "**Artificer draw** : energy from Artificers becomes cards."
+  },
+  "Lightning Runner": {
+   "Energy": "**Energy finisher** : spend 3 energy for extra combat — the energy plan's closer.",
+   "Artifacts": "**Artifact closer** : an artifact creature that wins combats.",
+   "Tokens": "**Token finisher** : extra combats with the 5/5 swarm.",
+   "Clones": "**Clone combo** : copy it for endless extra combats.",
+   "Artificers": "**Artificer beater** : an Artificer that closes games."
+  },
+  "Nissa, Worldsoul Speaker": {
+   "Energy": "**Energy walker** : an emblem-maker that fuels the energy plan.",
+   "Artifacts": "**Artifact walker** : produces artifact creatures and draw.",
+   "Tokens": "**Token walker** : the token army's walker payoff.",
+   "Clones": "**Clone target** : the best permanent to copy.",
+   "Artificers": "**Artificer walker** : supports the creature plan."
+  }
+ },
  "content": {
   "primer": {
    "quick_read": [

@@ -2991,7 +2991,338 @@
    "synergy": 0.49
   }
  },
- "plans": [],
+ "plans": [
+  {
+   "tag": "Reanimator",
+   "decks": 1996,
+   "description": [
+    "**Core mechanic** : Terra fills her own graveyard (Trance: mill 2 + flying at combat) then reanimates threats for free.",
+    "**Engine** : Celes, Stitcher's Supplier and Priest of Fell Rites mill; Reanimate and Karmic Guide bring back the board.",
+    "**Payoff** : free reanimation of big threats every turn."
+   ],
+   "win": [
+    "**Reanimate** : a threat reanimated each turn.",
+    "**Drain** : ETB drain reanimated.",
+    "**Beats** : flying trample beaters."
+   ],
+   "high_synergy": [
+    {
+     "name": "Celes, Rune Knight",
+     "synergy": null
+    },
+    {
+     "name": "Stitcher's Supplier",
+     "synergy": null
+    },
+    {
+     "name": "Reanimate",
+     "synergy": null
+    },
+    {
+     "name": "Priest of Fell Rites",
+     "synergy": null
+    },
+    {
+     "name": "Karmic Guide",
+     "synergy": null
+    },
+    {
+     "name": "Anger",
+     "synergy": null
+    },
+    {
+     "name": "Stitch Together",
+     "synergy": null
+    },
+    {
+     "name": "Meteor Golem",
+     "synergy": null
+    },
+    {
+     "name": "Locke, Treasure Hunter",
+     "synergy": null
+    },
+    {
+     "name": "Siegfried, Famed Swordsman",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Celes, Rune Knight",
+    "Stitcher's Supplier",
+    "Reanimate",
+    "Priest of Fell Rites",
+    "Karmic Guide",
+    "Anger",
+    "Stitch Together"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Graveyard",
+   "decks": 585,
+   "description": [
+    "**Core mechanic** : graveyard value — mill, reanimation and flashback.",
+    "**Engine** : self-mill into graveyard payoff.",
+    "**Payoff** : value from the yard."
+   ],
+   "win": [
+    "**Reanimate** : big threats back.",
+    "**Drain** : Gray Merchant-style.",
+    "**Beats** : reanimated army."
+   ],
+   "high_synergy": [
+    {
+     "name": "Celes, Rune Knight",
+     "synergy": null
+    },
+    {
+     "name": "Stitcher's Supplier",
+     "synergy": null
+    },
+    {
+     "name": "Reanimate",
+     "synergy": null
+    },
+    {
+     "name": "Priest of Fell Rites",
+     "synergy": null
+    },
+    {
+     "name": "Anger",
+     "synergy": null
+    },
+    {
+     "name": "Siegfried, Famed Swordsman",
+     "synergy": null
+    },
+    {
+     "name": "Stitch Together",
+     "synergy": null
+    },
+    {
+     "name": "Karmic Guide",
+     "synergy": null
+    },
+    {
+     "name": "Locke, Treasure Hunter",
+     "synergy": null
+    },
+    {
+     "name": "Meteor Golem",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Celes, Rune Knight",
+    "Stitcher's Supplier",
+    "Reanimate",
+    "Priest of Fell Rites",
+    "Anger",
+    "Stitch Together",
+    "Karmic Guide"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Self-Mill",
+   "decks": 567,
+   "description": [
+    "**Core mechanic** : self-mill to fuel reanimation and Terra's Trance.",
+    "**Engine** : Stitcher's Supplier, Celes and mill spells.",
+    "**Payoff** : a full graveyard of threats."
+   ],
+   "win": [
+    "**Mass reanimate** : Karmic Guide / Priest of Fell Rites.",
+    "**Beats** : flying army.",
+    "**Drain** : ETB drains."
+   ],
+   "high_synergy": [
+    {
+     "name": "Celes, Rune Knight",
+     "synergy": null
+    },
+    {
+     "name": "Stitcher's Supplier",
+     "synergy": null
+    },
+    {
+     "name": "Reanimate",
+     "synergy": null
+    },
+    {
+     "name": "Priest of Fell Rites",
+     "synergy": null
+    },
+    {
+     "name": "Siegfried, Famed Swordsman",
+     "synergy": null
+    },
+    {
+     "name": "Stitch Together",
+     "synergy": null
+    },
+    {
+     "name": "Anger",
+     "synergy": null
+    },
+    {
+     "name": "Locke, Treasure Hunter",
+     "synergy": null
+    },
+    {
+     "name": "Meteor Golem",
+     "synergy": null
+    },
+    {
+     "name": "Rise of the Dark Realms",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Celes, Rune Knight",
+    "Stitcher's Supplier",
+    "Reanimate",
+    "Priest of Fell Rites",
+    "Stitch Together",
+    "Anger",
+    "Rise of the Dark Realms"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Aggro",
+   "decks": 348,
+   "description": [
+    "**Core mechanic** : aggressive reanimation — Trance flying + reanimated threats.",
+    "**Engine** : early mill into early reanimation.",
+    "**Payoff** : a fast flying beatdown."
+   ],
+   "win": [
+    "**Early beats** : reanimated threat turn 3-4.",
+    "**Flying** : Terra's Trance evasion.",
+    "**Drain** : ETB value."
+   ],
+   "high_synergy": [
+    {
+     "name": "Celes, Rune Knight",
+     "synergy": null
+    },
+    {
+     "name": "Stitcher's Supplier",
+     "synergy": null
+    },
+    {
+     "name": "Karmic Guide",
+     "synergy": null
+    },
+    {
+     "name": "Reanimate",
+     "synergy": null
+    },
+    {
+     "name": "Alesha, Who Laughs at Fate",
+     "synergy": null
+    },
+    {
+     "name": "Priest of Fell Rites",
+     "synergy": null
+    },
+    {
+     "name": "Anger",
+     "synergy": null
+    },
+    {
+     "name": "Ripples of Undeath",
+     "synergy": null
+    },
+    {
+     "name": "Locke, Treasure Hunter",
+     "synergy": null
+    },
+    {
+     "name": "Meteor Golem",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Celes, Rune Knight",
+    "Stitcher's Supplier",
+    "Karmic Guide",
+    "Reanimate",
+    "Alesha, Who Laughs at Fate",
+    "Priest of Fell Rites",
+    "Anger"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Mill",
+   "decks": 331,
+   "description": [
+    "**Core mechanic** : mill the table while filling your own yard.",
+    "**Engine** : mill spells and Terra's self-mill.",
+    "**Payoff** : opponents deck out while you reanimate."
+   ],
+   "win": [
+    "**Deck-out** : mill the table.",
+    "**Reanimate** : your milled threats.",
+    "**Beats** : flying army."
+   ],
+   "high_synergy": [
+    {
+     "name": "Celes, Rune Knight",
+     "synergy": null
+    },
+    {
+     "name": "Stitcher's Supplier",
+     "synergy": null
+    },
+    {
+     "name": "Reanimate",
+     "synergy": null
+    },
+    {
+     "name": "Priest of Fell Rites",
+     "synergy": null
+    },
+    {
+     "name": "Stitch Together",
+     "synergy": null
+    },
+    {
+     "name": "Anger",
+     "synergy": null
+    },
+    {
+     "name": "Locke, Treasure Hunter",
+     "synergy": null
+    },
+    {
+     "name": "Siegfried, Famed Swordsman",
+     "synergy": null
+    },
+    {
+     "name": "General Leo Cristophe",
+     "synergy": null
+    },
+    {
+     "name": "Rise of the Dark Realms",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Celes, Rune Knight",
+    "Stitcher's Supplier",
+    "Reanimate",
+    "Priest of Fell Rites",
+    "Stitch Together",
+    "Anger",
+    "Rise of the Dark Realms"
+   ],
+   "combos": []
+  }
+ ],
  "combos": [
   {
    "id": "2034-4364-4681-6332",
@@ -4736,7 +5067,58 @@
  ],
  "hs_imgs": {},
  "type_recs": {},
- "card_plan_texts": {},
+ "card_plan_texts": {
+  "Celes, Rune Knight": {
+   "Reanimator": "**Reanimator engine** : mills on entry and grows from your yard — the plan's workhorse.",
+   "Graveyard": "**Yard engine** : a body that fills and rewards the graveyard.",
+   "Self-Mill": "**Self-mill engine** : mills 2+ each turn to feed Terra.",
+   "Aggro": "**Aggro beater** : a flying-ish knight that scales with the yard.",
+   "Mill": "**Mill engine** : incidental milling that fills your yard."
+  },
+  "Stitcher's Supplier": {
+   "Reanimator": "**Mill dork** : mills 3 on entry — the reanimator fuel.",
+   "Graveyard": "**Yard fuel** : cheap self-mill to stock the graveyard.",
+   "Self-Mill": "**Self-mill core** : the classic one-drop miller.",
+   "Aggro": "**Aggro fuel** : mills to enable early reanimation.",
+   "Mill": "**Mill starter** : 3 cards in the yard for 1 mana."
+  },
+  "Reanimate": {
+   "Reanimator": "**Reanimation spell** : the classic — 1 life for a big threat from any yard.",
+   "Graveyard": "**Yard payoff** : the spell that turns the yard into the board.",
+   "Self-Mill": "**Self-mill payoff** : milled threats come back cheap.",
+   "Aggro": "**Aggro enabler** : a big beater on turn 2-3.",
+   "Mill": "**Mill payoff** : steal or recur the milled pile."
+  },
+  "Priest of Fell Rites": {
+   "Reanimator": "**Reanimation engine** : unearth a creature from the yard — repeatable.",
+   "Graveyard": "**Yard engine** : the repeatable reanimation piece.",
+   "Self-Mill": "**Self-mill payoff** : unearth your milled threats.",
+   "Aggro": "**Aggro engine** : recursion keeps pressure on.",
+   "Mill": "**Mill recursion** : the milled pile becomes your board."
+  },
+  "Karmic Guide": {
+   "Reanimator": "**Reanimation lord** : bring back a creature on entry — the recursion bomb.",
+   "Graveyard": "**Yard value** : every ETB recurs the best card in your yard.",
+   "Aggro": "**Aggro value** : a 2/2 flyer that recurs a threat."
+  },
+  "Anger": {
+   "Reanimator": "**Haste enabler** : your creatures have haste while it's in the yard — reanimated threats swing now.",
+   "Graveyard": "**Yard anthem** : a yard-based haste effect.",
+   "Self-Mill": "**Self-mill payoff** : mill it for free haste.",
+   "Aggro": "**Aggro engine** : everything has haste — fast clocks.",
+   "Mill": "**Mill payoff** : milled haste for the board."
+  },
+  "Stitch Together": {
+   "Reanimator": "**Reanimation spell** : threshold-based recursion — a cheap Reanimate.",
+   "Graveyard": "**Yard payoff** : the yard is 7+ cards easily.",
+   "Self-Mill": "**Self-mill payoff** : threshold is trivial with the engine.",
+   "Mill": "**Mill payoff** : recur the best milled card."
+  },
+  "Rise of the Dark Realms": {
+   "Mill": "**Mill finisher** : reanimate EVERY creature from every yard — the ultimate payoff.",
+   "Self-Mill": "**Self-mill finisher** : your whole yard hits the board."
+  }
+ },
  "content": {
   "primer": {
    "quick_read": [

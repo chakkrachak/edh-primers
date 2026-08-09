@@ -2730,7 +2730,330 @@
    "synergy": 0.07
   }
  },
- "plans": [],
+ "plans": [
+  {
+   "tag": "Ninjutsu",
+   "decks": 5291,
+   "description": [
+    "**Core mechanic** : ninjutsu — Yuriko returns from the command zone for ~2 mana and flips big spells.",
+    "**Engine** : unblockable 1-drops (Changeling Outcast, Ornithopter) enable ninjutsu every turn.",
+    "**Payoff** : Yuriko's trigger flips high-cost cards to drain the table."
+   ],
+   "win": [
+    "**Drain** : flip Temporal Trespass / Dig Through Time for big table damage.",
+    "**Extra turns** : Temporal Trespass gives free turns.",
+    "**Tempo beats** : ninjas + unblockable damage."
+   ],
+   "high_synergy": [
+    {
+     "name": "Ingenious Infiltrator",
+     "synergy": null
+    },
+    {
+     "name": "Prosperous Thief",
+     "synergy": null
+    },
+    {
+     "name": "Thousand-Faced Shadow",
+     "synergy": null
+    },
+    {
+     "name": "Silver-Fur Master",
+     "synergy": null
+    },
+    {
+     "name": "Mistblade Shinobi",
+     "synergy": null
+    },
+    {
+     "name": "Tetsuko Umezawa, Fugitive",
+     "synergy": null
+    },
+    {
+     "name": "Ninja of the Deep Hours",
+     "synergy": null
+    },
+    {
+     "name": "Changeling Outcast",
+     "synergy": null
+    },
+    {
+     "name": "Moon-Circuit Hacker",
+     "synergy": null
+    },
+    {
+     "name": "Ornithopter",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Ingenious Infiltrator",
+    "Thousand-Faced Shadow",
+    "Silver-Fur Master",
+    "Tetsuko Umezawa, Fugitive",
+    "Ninja of the Deep Hours",
+    "Changeling Outcast"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Ninjas",
+   "decks": 1951,
+   "description": [
+    "**Core mechanic** : ninja tribal — Silver-Fur Master pumps the team, Fallen Shinobi mills and steals.",
+    "**Engine** : ninjutsu chain — multiple ninjas per combat.",
+    "**Payoff** : value on every ninjutsu activation."
+   ],
+   "win": [
+    "**Drain** : Yuriko flips with a ninja-heavy board.",
+    "**Combat** : Silver-Fur Master / Tetsuko unblockable beats.",
+    "**Mill/steal** : Fallen Shinobi value."
+   ],
+   "high_synergy": [
+    {
+     "name": "Silver-Fur Master",
+     "synergy": null
+    },
+    {
+     "name": "Ingenious Infiltrator",
+     "synergy": null
+    },
+    {
+     "name": "Prosperous Thief",
+     "synergy": null
+    },
+    {
+     "name": "Thousand-Faced Shadow",
+     "synergy": null
+    },
+    {
+     "name": "Mistblade Shinobi",
+     "synergy": null
+    },
+    {
+     "name": "Fallen Shinobi",
+     "synergy": null
+    },
+    {
+     "name": "Ninja of the Deep Hours",
+     "synergy": null
+    },
+    {
+     "name": "Silent-Blade Oni",
+     "synergy": null
+    },
+    {
+     "name": "Moon-Circuit Hacker",
+     "synergy": null
+    },
+    {
+     "name": "Changeling Outcast",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Silver-Fur Master",
+    "Ingenious Infiltrator",
+    "Thousand-Faced Shadow",
+    "Fallen Shinobi",
+    "Ninja of the Deep Hours",
+    "Changeling Outcast"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "cEDH",
+   "decks": 662,
+   "description": [
+    "**Core mechanic** : the competitive Yuriko shell — cheap interaction and fast tempo.",
+    "**Engine** : Yuriko's repeatable drain + countermagic.",
+    "**Payoff** : out-tempo the table and flip big spells."
+   ],
+   "win": [
+    "**Drain** : repeated Yuriko flips.",
+    "**Lock** : counters and tempo.",
+    "**Extra turns** : Temporal Trespass."
+   ],
+   "high_synergy": [
+    {
+     "name": "Ornithopter",
+     "synergy": null
+    },
+    {
+     "name": "Demonic Consultation",
+     "synergy": null
+    },
+    {
+     "name": "Ingenious Infiltrator",
+     "synergy": null
+    },
+    {
+     "name": "Temporal Trespass",
+     "synergy": null
+    },
+    {
+     "name": "Thousand-Faced Shadow",
+     "synergy": null
+    },
+    {
+     "name": "Mothdust Changeling",
+     "synergy": null
+    },
+    {
+     "name": "Changeling Outcast",
+     "synergy": null
+    },
+    {
+     "name": "Commandeer",
+     "synergy": null
+    },
+    {
+     "name": "Sakashima's Student",
+     "synergy": null
+    },
+    {
+     "name": "Force of Negation",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Ingenious Infiltrator",
+    "Temporal Trespass",
+    "Thousand-Faced Shadow",
+    "Changeling Outcast",
+    "Sakashima's Student"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Tempo",
+   "decks": 618,
+   "description": [
+    "**Core mechanic** : tempo — unblockable damage plus disruption.",
+    "**Engine** : cheap evasive creatures and bounce/counters.",
+    "**Payoff** : Yuriko flips big spells while opponents stumble."
+   ],
+   "win": [
+    "**Drain** : flip big spells.",
+    "**Tempo beats** : evasive damage adds up.",
+    "**Extra turns** : Temporal Trespass."
+   ],
+   "high_synergy": [
+    {
+     "name": "Ingenious Infiltrator",
+     "synergy": null
+    },
+    {
+     "name": "Thousand-Faced Shadow",
+     "synergy": null
+    },
+    {
+     "name": "Ornithopter",
+     "synergy": null
+    },
+    {
+     "name": "Prosperous Thief",
+     "synergy": null
+    },
+    {
+     "name": "Changeling Outcast",
+     "synergy": null
+    },
+    {
+     "name": "Temporal Trespass",
+     "synergy": null
+    },
+    {
+     "name": "Mistblade Shinobi",
+     "synergy": null
+    },
+    {
+     "name": "Faerie Seer",
+     "synergy": null
+    },
+    {
+     "name": "Moon-Circuit Hacker",
+     "synergy": null
+    },
+    {
+     "name": "Tetsuko Umezawa, Fugitive",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Ingenious Infiltrator",
+    "Thousand-Faced Shadow",
+    "Changeling Outcast",
+    "Temporal Trespass",
+    "Tetsuko Umezawa, Fugitive"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Aggro",
+   "decks": 603,
+   "description": [
+    "**Core mechanic** : aggressive Dimir — early unblockable attackers.",
+    "**Engine** : cheap evasive creatures + ninjutsu.",
+    "**Payoff** : Yuriko's flip drain + combat damage."
+   ],
+   "win": [
+    "**Drain** : flip high-CMC spells.",
+    "**Beats** : unblockable damage.",
+    "**Extra turns** : free turns to finish."
+   ],
+   "high_synergy": [
+    {
+     "name": "Thousand-Faced Shadow",
+     "synergy": null
+    },
+    {
+     "name": "Ingenious Infiltrator",
+     "synergy": null
+    },
+    {
+     "name": "Changeling Outcast",
+     "synergy": null
+    },
+    {
+     "name": "Prosperous Thief",
+     "synergy": null
+    },
+    {
+     "name": "Ornithopter",
+     "synergy": null
+    },
+    {
+     "name": "Mistblade Shinobi",
+     "synergy": null
+    },
+    {
+     "name": "Tetsuko Umezawa, Fugitive",
+     "synergy": null
+    },
+    {
+     "name": "Faerie Seer",
+     "synergy": null
+    },
+    {
+     "name": "Moon-Circuit Hacker",
+     "synergy": null
+    },
+    {
+     "name": "Shadow of Mortality",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Thousand-Faced Shadow",
+    "Ingenious Infiltrator",
+    "Changeling Outcast",
+    "Tetsuko Umezawa, Fugitive",
+    "Shadow of Mortality"
+   ],
+   "combos": []
+  }
+ ],
  "combos": [
   {
    "id": "2792-3489-4307",
@@ -6978,7 +7301,47 @@
  ],
  "hs_imgs": {},
  "type_recs": {},
- "card_plan_texts": {},
+ "card_plan_texts": {
+  "Changeling Outcast": {
+   "Ninjutsu": "**Ninjutsu enabler** : unblockable for 1 — the perfect Yuriko swap-in every turn.",
+   "Ninjas": "**Ninja enabler** : a changeling that's always unblockable — ninjutsu fuel.",
+   "cEDH": "**cEDH enabler** : guaranteed Yuriko trigger turn 2.",
+   "Tempo": "**Tempo piece** : unblockable damage + trigger — the tempo engine.",
+   "Aggro": "**Aggro enabler** : a cheap unblockable for early damage."
+  },
+  "Ingenious Infiltrator": {
+   "Ninjutsu": "**Ninja value** : ninjutsu it in for card draw — the value ninja.",
+   "Ninjas": "**Ninja draw** : draws on ninjutsu — tribal card advantage.",
+   "cEDH": "**cEDH draw** : cheap repeatable card advantage.",
+   "Tempo": "**Tempo draw** : refills while dealing damage.",
+   "Aggro": "**Aggro value** : draws while attacking."
+  },
+  "Thousand-Faced Shadow": {
+   "Ninjutsu": "**Double ninjutsu** : a copy of Yuriko via ninjutsu — two triggers!",
+   "Ninjas": "**Ninja bomb** : copies a ninja for double value.",
+   "cEDH": "**cEDH combo** : copy Yuriko for double drain.",
+   "Tempo": "**Tempo bomb** : double triggers every combat.",
+   "Aggro": "**Aggro copy** : double the unblockable damage."
+  },
+  "Silver-Fur Master": {
+   "Ninjutsu": "**Ninjutsu pump** : makes ninjutsu cheaper and ninjas bigger — the enabler lord.",
+   "Ninjas": "**Ninja lord** : +1/+1 and ninjutsu discount for the tribe."
+  },
+  "Tetsuko Umezawa, Fugitive": {
+   "Ninjutsu": "**Unblockable engine** : all 1-power creatures unblockable — ninjutsu fuel for the whole team.",
+   "Ninjas": "**Ninja enabler** : makes every ninja connect.",
+   "Tempo": "**Tempo core** : your whole board is unblockable — guaranteed triggers.",
+   "Aggro": "**Aggro engine** : the board swings freely."
+  },
+  "Ninja of the Deep Hours": {
+   "Ninjutsu": "**Ninjutsu draw** : ninjutsu in for a card — the classic value ninja.",
+   "Ninjas": "**Ninja draw** : draw on ninjutsu — tribal gas."
+  },
+  "Temporal Trespass": {
+   "cEDH": "**cEDH finisher** : delve extra turn — the competitive closer.",
+   "Tempo": "**Tempo finisher** : a free turn to win."
+  }
+ },
  "content": {
   "primer": {
    "quick_read": [

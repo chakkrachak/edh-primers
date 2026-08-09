@@ -2463,7 +2463,339 @@
    "synergy": 0.07
   }
  },
- "plans": [],
+ "plans": [
+  {
+   "tag": "Equipment",
+   "decks": 2783,
+   "description": [
+    "**Core mechanic** : Cloud equips for free on entry and draws a card per equipped attacker.",
+    "**Engine** : Puresteel Paladin, Sigarda's Aid and free-equip synergies.",
+    "**Payoff** : every equipped attacker draws — the board feeds itself."
+   ],
+   "win": [
+    "**Voltron** : a stacked Cloud (Colossus Hammer) one-shots.",
+    "**Value** : draw per equipped attacker.",
+    "**Combat** : trample + lifelink equipment."
+   ],
+   "high_synergy": [
+    {
+     "name": "Puresteel Paladin",
+     "synergy": null
+    },
+    {
+     "name": "Colossus Hammer",
+     "synergy": null
+    },
+    {
+     "name": "Conqueror's Flail",
+     "synergy": null
+    },
+    {
+     "name": "Red XIII, Proud Warrior",
+     "synergy": null
+    },
+    {
+     "name": "Tifa, Martial Artist",
+     "synergy": null
+    },
+    {
+     "name": "Cid, Freeflier Pilot",
+     "synergy": null
+    },
+    {
+     "name": "Sword of the Animist",
+     "synergy": null
+    },
+    {
+     "name": "Buster Sword",
+     "synergy": null
+    },
+    {
+     "name": "Cloud, Midgar Mercenary",
+     "synergy": null
+    },
+    {
+     "name": "Professor Hojo",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Puresteel Paladin",
+    "Colossus Hammer",
+    "Conqueror's Flail",
+    "Red XIII, Proud Warrior",
+    "Tifa, Martial Artist",
+    "Sword of the Animist",
+    "Cloud, Midgar Mercenary"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Voltron",
+   "decks": 1584,
+   "description": [
+    "**Core mechanic** : Cloud becomes the ultimate equipment-voltron general — free equips, card draw, Treasures past 7 power.",
+    "**Engine** : Colossus Hammer, Tifa and Red XIII pump him.",
+    "**Payoff** : a giant Cloud with trample, double strike and protection."
+   ],
+   "win": [
+    "**One-shot** : commander damage with Colossus Hammer.",
+    "**Treasures** : past 7 power, every hit makes Treasure.",
+    "**Protection** : hexproof/indestructible equipment."
+   ],
+   "high_synergy": [
+    {
+     "name": "Puresteel Paladin",
+     "synergy": null
+    },
+    {
+     "name": "Colossus Hammer",
+     "synergy": null
+    },
+    {
+     "name": "Conqueror's Flail",
+     "synergy": null
+    },
+    {
+     "name": "Tifa, Martial Artist",
+     "synergy": null
+    },
+    {
+     "name": "Red XIII, Proud Warrior",
+     "synergy": null
+    },
+    {
+     "name": "Sword of the Animist",
+     "synergy": null
+    },
+    {
+     "name": "Buster Sword",
+     "synergy": null
+    },
+    {
+     "name": "Cloud, Midgar Mercenary",
+     "synergy": null
+    },
+    {
+     "name": "Cid, Freeflier Pilot",
+     "synergy": null
+    },
+    {
+     "name": "Forge Anew",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Puresteel Paladin",
+    "Colossus Hammer",
+    "Conqueror's Flail",
+    "Tifa, Martial Artist",
+    "Red XIII, Proud Warrior",
+    "Sword of the Animist",
+    "Cloud, Midgar Mercenary",
+    "Forge Anew"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Artifacts",
+   "decks": 595,
+   "description": [
+    "**Core mechanic** : artifact synergies — equipment and artifact payoffs.",
+    "**Engine** : artifact count matters cards and free-equip engines.",
+    "**Payoff** : a board of artifact threats."
+   ],
+   "win": [
+    "**Combat** : equipped army.",
+    "**Combo** : artifact loops (Hammer + free equip).",
+    "**Value** : draw per equipped attacker."
+   ],
+   "high_synergy": [
+    {
+     "name": "Puresteel Paladin",
+     "synergy": null
+    },
+    {
+     "name": "Colossus Hammer",
+     "synergy": null
+    },
+    {
+     "name": "Conqueror's Flail",
+     "synergy": null
+    },
+    {
+     "name": "Tifa, Martial Artist",
+     "synergy": null
+    },
+    {
+     "name": "Red XIII, Proud Warrior",
+     "synergy": null
+    },
+    {
+     "name": "Cloud, Midgar Mercenary",
+     "synergy": null
+    },
+    {
+     "name": "Buster Sword",
+     "synergy": null
+    },
+    {
+     "name": "Sword of the Animist",
+     "synergy": null
+    },
+    {
+     "name": "Cid, Freeflier Pilot",
+     "synergy": null
+    },
+    {
+     "name": "Sram, Senior Edificer",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Puresteel Paladin",
+    "Colossus Hammer",
+    "Conqueror's Flail",
+    "Tifa, Martial Artist",
+    "Red XIII, Proud Warrior",
+    "Cloud, Midgar Mercenary",
+    "Sword of the Animist"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Aggro",
+   "decks": 542,
+   "description": [
+    "**Core mechanic** : fast equipment aggro — early equipped attackers.",
+    "**Engine** : cheap equipment and free equips.",
+    "**Payoff** : a fast clock with card draw."
+   ],
+   "win": [
+    "**Early beats** : equipped Cloud turn 3-4.",
+    "**Value** : draw per attack.",
+    "**Combat** : trample over."
+   ],
+   "high_synergy": [
+    {
+     "name": "Puresteel Paladin",
+     "synergy": null
+    },
+    {
+     "name": "Colossus Hammer",
+     "synergy": null
+    },
+    {
+     "name": "Conqueror's Flail",
+     "synergy": null
+    },
+    {
+     "name": "Tifa, Martial Artist",
+     "synergy": null
+    },
+    {
+     "name": "Buster Sword",
+     "synergy": null
+    },
+    {
+     "name": "Red XIII, Proud Warrior",
+     "synergy": null
+    },
+    {
+     "name": "Cloud, Midgar Mercenary",
+     "synergy": null
+    },
+    {
+     "name": "Sword of the Animist",
+     "synergy": null
+    },
+    {
+     "name": "Cid, Freeflier Pilot",
+     "synergy": null
+    },
+    {
+     "name": "Sram, Senior Edificer",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Puresteel Paladin",
+    "Colossus Hammer",
+    "Conqueror's Flail",
+    "Tifa, Martial Artist",
+    "Red XIII, Proud Warrior",
+    "Cloud, Midgar Mercenary",
+    "Sword of the Animist"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Modified Creatures",
+   "decks": 495,
+   "description": [
+    "**Core mechanic** : modified creatures (equipped/enchanted/countered) synergies.",
+    "**Engine** : modified creature payoffs and equipment.",
+    "**Payoff** : the whole board counts as modified."
+   ],
+   "win": [
+    "**Combat** : modified army.",
+    "**Value** : modified triggers.",
+    "**Voltron** : the modified Cloud."
+   ],
+   "high_synergy": [
+    {
+     "name": "Puresteel Paladin",
+     "synergy": null
+    },
+    {
+     "name": "Colossus Hammer",
+     "synergy": null
+    },
+    {
+     "name": "Red XIII, Proud Warrior",
+     "synergy": null
+    },
+    {
+     "name": "Conqueror's Flail",
+     "synergy": null
+    },
+    {
+     "name": "Tifa, Martial Artist",
+     "synergy": null
+    },
+    {
+     "name": "Sword of the Animist",
+     "synergy": null
+    },
+    {
+     "name": "Cid, Freeflier Pilot",
+     "synergy": null
+    },
+    {
+     "name": "Champion's Helm",
+     "synergy": null
+    },
+    {
+     "name": "Professor Hojo",
+     "synergy": null
+    },
+    {
+     "name": "Buster Sword",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Puresteel Paladin",
+    "Colossus Hammer",
+    "Red XIII, Proud Warrior",
+    "Conqueror's Flail",
+    "Tifa, Martial Artist",
+    "Sword of the Animist",
+    "Champion's Helm"
+   ],
+   "combos": []
+  }
+ ],
  "combos": [
   {
    "id": "900-3750",
@@ -2976,7 +3308,57 @@
  ],
  "hs_imgs": {},
  "type_recs": {},
- "card_plan_texts": {},
+ "card_plan_texts": {
+  "Puresteel Paladin": {
+   "Equipment": "**Free equips** : with Metalcraft all equipment costs {0} — the free-equip engine that makes Cloud's package explosive.",
+   "Voltron": "**Voltron enabler** : equip {0} keeps Cloud stacked with every piece for free.",
+   "Artifacts": "**Artifact draw** : draw a card per Equipment entering — the artifact value engine.",
+   "Aggro": "**Aggro accelerator** : free equips + card draw push the clock faster.",
+   "Modified Creatures": "**Modified support** : every equipped creature is modified — the tribal glue."
+  },
+  "Colossus Hammer": {
+   "Equipment": "**The equipment payoff** : +10/+10 on a free-equip commander — the biggest stick in the deck.",
+   "Voltron": "**Voltron finisher** : +10/+10 makes Cloud a one-shot commander-damage kill.",
+   "Artifacts": "**Artifact bomb** : the artifact that wins the game when equipped.",
+   "Aggro": "**Aggro closer** : +10/+10 trample-ish beats end games fast.",
+   "Modified Creatures": "**Modified enabler** : equipping it modifies a creature instantly."
+  },
+  "Conqueror's Flail": {
+   "Equipment": "**Protection equip** : opponents can't cast spells during combat — equip it and swing freely.",
+   "Voltron": "**Voltron shield** : +1/+1 per color and combat protection for the kill turn.",
+   "Artifacts": "**Combat lock** : the artifact that shuts down instant-speed answers.",
+   "Aggro": "**Aggro lockdown** : combat becomes uninterruptible — attack with impunity.",
+   "Modified Creatures": "**Modified piece** : equips to make any creature modified while protecting combat."
+  },
+  "Red XIII, Proud Warrior": {
+   "Equipment": "**Equipment recursion** : returns an Equipment on entry and gives modified creatures vigilance+trample.",
+   "Voltron": "**Voltron buffer** : vigilance + trample for Cloud — the kill becomes unstoppable.",
+   "Artifacts": "**Artifact value** : an Equipment that comes back from the yard.",
+   "Aggro": "**Aggro support** : vigilance lets you swing with the whole board.",
+   "Modified Creatures": "**Modified lord** : grants vigilance+trample to all modified creatures — the tribal payoff."
+  },
+  "Tifa, Martial Artist": {
+   "Equipment": "**Combat extender** : a 7+ power attacker untaps everything and grants an extra combat — the equipment plan's finisher.",
+   "Voltron": "**Voltron combo** : equipped Cloud deals 7+ → untap + extra combat → kill.",
+   "Artifacts": "**Artifact win** : the artifact that closes games with extra combats.",
+   "Aggro": "**Aggro bomb** : extra combat per hit with a 7+ power attacker.",
+   "Modified Creatures": "**Modified payoff** : a modified creature that wins the combat phase."
+  },
+  "Sword of the Animist": {
+   "Equipment": "**Ramp equip** : ramp a basic per attack — the equipment plan's mana engine.",
+   "Voltron": "**Voltron ramp** : +1/+1 and ramp — Cloud hits harder and faster.",
+   "Artifacts": "**Artifact ramp** : search a land per attack — artifact-based acceleration.",
+   "Aggro": "**Aggro ramp** : ramp while swinging — aggro with a mana curve.",
+   "Modified Creatures": "**Modified trigger** : a modified creature that ramps on attack."
+  },
+  "Cloud, Midgar Mercenary": {
+   "Equipment": "**The general** : searches an Equipment on entry and double-triggers his equipment — the deck's core engine.",
+   "Voltron": "**Voltron core** : free equips + double triggers make the stacked Cloud unstoppable.",
+   "Artifacts": "**Artifact tutor** : an Equipment tutor stapled to the commander.",
+   "Aggro": "**Aggro engine** : draw per equipped attacker and double triggers push the clock.",
+   "Modified Creatures": "**Modified general** : equipped Cloud and his equipment trigger twice — the ultimate modified creature."
+  }
+ },
  "content": {
   "primer": {
    "quick_read": [

@@ -2438,7 +2438,337 @@
    "synergy": 0.31
   }
  },
- "plans": [],
+ "plans": [
+  {
+   "tag": "Zombies",
+   "decks": 1162,
+   "description": [
+    "**Core mechanic** : Gisa and Geralf mill four on entry and re-cast a Zombie from the graveyard each turn.",
+    "**Engine** : Zombie tribal — Diregraf Captain, Lord of the Accursed and Rooftop Storm.",
+    "**Payoff** : the horde never dies — every Zombie can come back."
+   ],
+   "win": [
+    "**Drain** : Gray Merchant of Asphodel / Diregraf Captain.",
+    "**Combo** : Rooftop Storm + Gravecrawler loops.",
+    "**Beats** : the endless Zombie horde."
+   ],
+   "high_synergy": [
+    {
+     "name": "Diregraf Captain",
+     "synergy": null
+    },
+    {
+     "name": "Gray Merchant of Asphodel",
+     "synergy": null
+    },
+    {
+     "name": "Lord of the Accursed",
+     "synergy": null
+    },
+    {
+     "name": "Rooftop Storm",
+     "synergy": null
+    },
+    {
+     "name": "Champion of the Perished",
+     "synergy": null
+    },
+    {
+     "name": "Zombie Apocalypse",
+     "synergy": null
+    },
+    {
+     "name": "Undead Augur",
+     "synergy": null
+    },
+    {
+     "name": "Cemetery Reaper",
+     "synergy": null
+    },
+    {
+     "name": "Fleshbag Marauder",
+     "synergy": null
+    },
+    {
+     "name": "Diregraf Colossus",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Diregraf Captain",
+    "Gray Merchant of Asphodel",
+    "Lord of the Accursed",
+    "Rooftop Storm",
+    "Champion of the Perished",
+    "Zombie Apocalypse"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Reanimator",
+   "decks": 491,
+   "description": [
+    "**Core mechanic** : fill the graveyard and reanimate big Zombies.",
+    "**Engine** : Gisa mills 4, Reanimate and Zombie Apocalypse bring back the board.",
+    "**Payoff** : reanimate threats every turn."
+   ],
+   "win": [
+    "**Reanimate** : a big Zombie army from the yard.",
+    "**Drain** : Gray Merchant.",
+    "**Combo** : Rooftop Storm loops."
+   ],
+   "high_synergy": [
+    {
+     "name": "Diregraf Captain",
+     "synergy": null
+    },
+    {
+     "name": "Rooftop Storm",
+     "synergy": null
+    },
+    {
+     "name": "Gray Merchant of Asphodel",
+     "synergy": null
+    },
+    {
+     "name": "Lord of the Accursed",
+     "synergy": null
+    },
+    {
+     "name": "Undead Augur",
+     "synergy": null
+    },
+    {
+     "name": "Champion of the Perished",
+     "synergy": null
+    },
+    {
+     "name": "Zombie Apocalypse",
+     "synergy": null
+    },
+    {
+     "name": "Gravecrawler",
+     "synergy": null
+    },
+    {
+     "name": "Cemetery Reaper",
+     "synergy": null
+    },
+    {
+     "name": "Fleshbag Marauder",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Diregraf Captain",
+    "Rooftop Storm",
+    "Gray Merchant of Asphodel",
+    "Lord of the Accursed",
+    "Champion of the Perished",
+    "Zombie Apocalypse",
+    "Gravecrawler"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Graveyard",
+   "decks": 261,
+   "description": [
+    "**Core mechanic** : graveyard synergies — mill, flashback and reanimation.",
+    "**Engine** : self-mill into graveyard payoff cards.",
+    "**Payoff** : value from the graveyard every turn."
+   ],
+   "win": [
+    "**Drain** : Gray Merchant scaled by the yard.",
+    "**Reanimate** : bring back threats.",
+    "**Combo** : graveyard loops."
+   ],
+   "high_synergy": [
+    {
+     "name": "Diregraf Captain",
+     "synergy": null
+    },
+    {
+     "name": "Rooftop Storm",
+     "synergy": null
+    },
+    {
+     "name": "Gray Merchant of Asphodel",
+     "synergy": null
+    },
+    {
+     "name": "Zombie Apocalypse",
+     "synergy": null
+    },
+    {
+     "name": "Lord of the Accursed",
+     "synergy": null
+    },
+    {
+     "name": "Champion of the Perished",
+     "synergy": null
+    },
+    {
+     "name": "Undead Augur",
+     "synergy": null
+    },
+    {
+     "name": "Cemetery Reaper",
+     "synergy": null
+    },
+    {
+     "name": "Fleshbag Marauder",
+     "synergy": null
+    },
+    {
+     "name": "Havengul Lich",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Diregraf Captain",
+    "Rooftop Storm",
+    "Gray Merchant of Asphodel",
+    "Zombie Apocalypse",
+    "Lord of the Accursed",
+    "Champion of the Perished",
+    "Havengul Lich"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Tokens",
+   "decks": 202,
+   "description": [
+    "**Core mechanic** : Zombie token generation — from Ghoulcaller Gisa, Endless Ranks and lords.",
+    "**Engine** : token makers + tribal pumps.",
+    "**Payoff** : a wide Zombie horde."
+   ],
+   "win": [
+    "**Wide beats** : token army.",
+    "**Drain** : Diregraf Captain / Gray Merchant.",
+    "**Combo** : Rooftop Storm + Gravecrawler."
+   ],
+   "high_synergy": [
+    {
+     "name": "Diregraf Captain",
+     "synergy": null
+    },
+    {
+     "name": "Lord of the Accursed",
+     "synergy": null
+    },
+    {
+     "name": "Rooftop Storm",
+     "synergy": null
+    },
+    {
+     "name": "Champion of the Perished",
+     "synergy": null
+    },
+    {
+     "name": "Cemetery Reaper",
+     "synergy": null
+    },
+    {
+     "name": "Gray Merchant of Asphodel",
+     "synergy": null
+    },
+    {
+     "name": "Zombie Apocalypse",
+     "synergy": null
+    },
+    {
+     "name": "Army of the Damned",
+     "synergy": null
+    },
+    {
+     "name": "Death Baron",
+     "synergy": null
+    },
+    {
+     "name": "Unbreathing Horde",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Diregraf Captain",
+    "Lord of the Accursed",
+    "Rooftop Storm",
+    "Champion of the Perished",
+    "Gray Merchant of Asphodel",
+    "Zombie Apocalypse",
+    "Death Baron",
+    "Unbreathing Horde"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Mill",
+   "decks": 185,
+   "description": [
+    "**Core mechanic** : mill the opponent AND yourself — Gisa mills on entry.",
+    "**Engine** : mill spells and graveyard value.",
+    "**Payoff** : opponent decks out while your yard fuels reanimation."
+   ],
+   "win": [
+    "**Deck-out** : mill the table.",
+    "**Reanimate** : your own milled threats.",
+    "**Drain** : Gray Merchant."
+   ],
+   "high_synergy": [
+    {
+     "name": "Diregraf Captain",
+     "synergy": null
+    },
+    {
+     "name": "Gray Merchant of Asphodel",
+     "synergy": null
+    },
+    {
+     "name": "Rooftop Storm",
+     "synergy": null
+    },
+    {
+     "name": "Zombie Apocalypse",
+     "synergy": null
+    },
+    {
+     "name": "Undead Augur",
+     "synergy": null
+    },
+    {
+     "name": "Liliana, Untouched by Death",
+     "synergy": null
+    },
+    {
+     "name": "Mire Triton",
+     "synergy": null
+    },
+    {
+     "name": "Lord of the Accursed",
+     "synergy": null
+    },
+    {
+     "name": "Stitcher's Supplier",
+     "synergy": null
+    },
+    {
+     "name": "Diregraf Colossus",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Diregraf Captain",
+    "Gray Merchant of Asphodel",
+    "Rooftop Storm",
+    "Zombie Apocalypse",
+    "Liliana, Untouched by Death",
+    "Lord of the Accursed"
+   ],
+   "combos": []
+  }
+ ],
  "combos": [
   {
    "id": "2577-4050",
@@ -4659,7 +4989,49 @@
  ],
  "hs_imgs": {},
  "type_recs": {},
- "card_plan_texts": {},
+ "card_plan_texts": {
+  "Champion of the Perished": {
+   "Zombies": "**Zombie payoff** : grows with each Zombie entering (doubled by Gisa's re-cast) — a scaling tribal beater.",
+   "Reanimator": "**Reanimator value** : every reanimated Zombie pumps him — the yard fuels his size.",
+   "Graveyard": "**Graveyard growth** : Zombies returning from the yard make him huge.",
+   "Tokens": "**Token synergy** : each token Zombie entering makes him bigger."
+  },
+  "Diregraf Captain": {
+   "Zombies": "**Tribal lord** : +1/+1 for your Zombies and drain on their death — the tribal anthem.",
+   "Reanimator": "**Reanimator drain** : reanimated Zombies that die still drain — death value.",
+   "Graveyard": "**Yard drain** : every Zombie from the graveyard drains on death.",
+   "Mill": "**Mill payoff** : milled Zombies that enter then die drain the table.",
+   "Tokens": "**Token drain** : token Zombies dying drain opponents — the board-wide anthem."
+  },
+  "Gray Merchant of Asphodel": {
+   "Zombies": "**Drain finisher** : devotion-based drain — with a full Zombie board it's a one-shot.",
+   "Reanimator": "**Reanimator bomb** : reanimate Gary to drain and repeat — the classic.",
+   "Graveyard": "**Yard finisher** : bring him back turn after turn for 2× drain.",
+   "Mill": "**Mill drain** : milled then reanimated — a 10+ life swing.",
+   "Tokens": "**Token payoff** : devotion counts every token — the board-wide drain."
+  },
+  "Lord of the Accursed": {
+   "Zombies": "**Tribal lord** : +1/+1 and menace for your Zombies — the beatdown anthem.",
+   "Reanimator": "**Reanimator anthem** : a lord that can be reanimated to pump the board.",
+   "Graveyard": "**Yard lord** : comes back from the yard to re-apply the anthem.",
+   "Mill": "**Mill lord** : milled then reanimated — the board gets menace.",
+   "Tokens": "**Token anthem** : +1/+1 for the token swarm with menace."
+  },
+  "Rooftop Storm": {
+   "Zombies": "**Free casts** : cast Zombie spells for free — the tribal engine that wins.",
+   "Reanimator": "**Combo piece** : free Zombie casts enable infinite loops (Gravecrawler lines).",
+   "Graveyard": "**Yard engine** : cast Zombies straight from the graveyard.",
+   "Mill": "**Mill engine** : milled Zombies castable for free.",
+   "Tokens": "**Token engine** : free token-makers every turn."
+  },
+  "Zombie Apocalypse": {
+   "Zombies": "**Board rebuild** : return ALL Zombies from every graveyard — the tribal wipe-proof finisher.",
+   "Reanimator": "**Mass reanimate** : the ultimate reanimation spell — the whole yard hits the board.",
+   "Graveyard": "**Yard bomb** : every graveyard's Zombies enter under your control.",
+   "Mill": "**Mill payoff** : the milled pile becomes your board.",
+   "Tokens": "**Token army** : every Zombie ever milled or died comes back."
+  }
+ },
  "content": {
   "primer": {
    "quick_read": [

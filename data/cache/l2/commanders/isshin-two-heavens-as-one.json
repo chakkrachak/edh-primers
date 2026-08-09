@@ -2635,7 +2635,331 @@
    "synergy": -0.006959629133984846
   }
  },
- "plans": [],
+ "plans": [
+  {
+   "tag": "Aggro",
+   "decks": 1389,
+   "description": [
+    "**Core mechanic** : Isshin doubles every \"whenever a creature attacks\" trigger — attack-driven value on every combat.",
+    "**Go wide fast** : cheap attackers (Adeline, Krenko, Anim Pakal) build a board that outpaces removal.",
+    "**Payoff** : attack triggers draw (Chivalric Alliance), ramp (Sword of the Animist, Curse of Opulence) and drain (Commissar Severina Raine)."
+   ],
+   "win": [
+    "**Pump** : the wide board boosted by Fervent Charge / Akroma's Will.",
+    "**Drain** : Brutal Hordechief and Commissar Severina Raine.",
+    "**Infinite combats** : Hellkite Charger + Fire Nation Palace, Aggravated Assault lines."
+   ],
+   "high_synergy": [
+    {
+     "name": "Krenko, Tin Street Kingpin",
+     "synergy": null
+    },
+    {
+     "name": "Adeline, Resplendent Cathar",
+     "synergy": null
+    },
+    {
+     "name": "Anim Pakal, Thousandth Moon",
+     "synergy": null
+    },
+    {
+     "name": "Windcrag Siege",
+     "synergy": null
+    },
+    {
+     "name": "Hero of Bladehold",
+     "synergy": null
+    },
+    {
+     "name": "Fervent Charge",
+     "synergy": null
+    },
+    {
+     "name": "Skyknight Vanguard",
+     "synergy": null
+    },
+    {
+     "name": "Sword of the Animist",
+     "synergy": null
+    },
+    {
+     "name": "Captain Lannery Storm",
+     "synergy": null
+    },
+    {
+     "name": "Mardu Ascendancy",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Krenko, Tin Street Kingpin",
+    "Adeline, Resplendent Cathar",
+    "Anim Pakal, Thousandth Moon",
+    "Windcrag Siege",
+    "Fervent Charge",
+    "Sword of the Animist"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Tokens",
+   "decks": 1320,
+   "description": [
+    "**Core mechanic** : every token-maker attack trigger fires twice — two tokens per opponent per combat.",
+    "**Engine** : Adeline, Krenko and Anim Pakal explode the board; Anointed Procession doubles the output.",
+    "**Payoff** : the token army fuels Craterhoof-style pumps, drains and convoke/convoke-adjacent effects."
+   ],
+   "win": [
+    "**Alpha strike** : a critical mass of tokens boosted by Fervent Charge / Akroma's Will.",
+    "**Drain** : Brutal Hordechief and Commissar Severina Raine scale with the board.",
+    "**Infinite combats** : the token horde through Hellkite Charger + Fire Nation Palace."
+   ],
+   "high_synergy": [
+    {
+     "name": "Krenko, Tin Street Kingpin",
+     "synergy": null
+    },
+    {
+     "name": "Adeline, Resplendent Cathar",
+     "synergy": null
+    },
+    {
+     "name": "Anim Pakal, Thousandth Moon",
+     "synergy": null
+    },
+    {
+     "name": "Hero of Bladehold",
+     "synergy": null
+    },
+    {
+     "name": "Windcrag Siege",
+     "synergy": null
+    },
+    {
+     "name": "Caesar, Legion's Emperor",
+     "synergy": null
+    },
+    {
+     "name": "Skyknight Vanguard",
+     "synergy": null
+    },
+    {
+     "name": "Commissar Severina Raine",
+     "synergy": null
+    },
+    {
+     "name": "Zurgo Stormrender",
+     "synergy": null
+    },
+    {
+     "name": "Otharri, Suns' Glory",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Krenko, Tin Street Kingpin",
+    "Adeline, Resplendent Cathar",
+    "Anim Pakal, Thousandth Moon",
+    "Windcrag Siege",
+    "Caesar, Legion's Emperor",
+    "Commissar Severina Raine",
+    "Otharri, Suns' Glory"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Attack Triggers",
+   "decks": 1208,
+   "description": [
+    "**Core mechanic** : Isshin doubles every \"whenever X attacks\" trigger — each trigger fires twice.",
+    "**Engine** : attack with token-makers (Adeline, Krenko, Anim Pakal, Caesar) and the board explodes.",
+    "**Payoff** : attack triggers also draw (Chivalric Alliance), ramp (Sword of the Animist, Curse of Opulence) and drain (Commissar Severina Raine)."
+   ],
+   "win": [
+    "**Pump** : the go-wide board boosted by Fervent Charge / Akroma's Will.",
+    "**Drain** : Brutal Hordechief and Commissar Severina Raine.",
+    "**Infinite combats** : Hellkite Charger + Fire Nation Palace, Aggravated Assault lines."
+   ],
+   "high_synergy": [
+    {
+     "name": "Krenko, Tin Street Kingpin",
+     "synergy": null
+    },
+    {
+     "name": "Sword of the Animist",
+     "synergy": null
+    },
+    {
+     "name": "Adeline, Resplendent Cathar",
+     "synergy": null
+    },
+    {
+     "name": "Windcrag Siege",
+     "synergy": null
+    },
+    {
+     "name": "Fervent Charge",
+     "synergy": null
+    },
+    {
+     "name": "Anim Pakal, Thousandth Moon",
+     "synergy": null
+    },
+    {
+     "name": "Etali, Primal Storm",
+     "synergy": null
+    },
+    {
+     "name": "Captain Lannery Storm",
+     "synergy": null
+    },
+    {
+     "name": "Mardu Ascendancy",
+     "synergy": null
+    },
+    {
+     "name": "Hero of Bladehold",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Krenko, Tin Street Kingpin",
+    "Sword of the Animist",
+    "Adeline, Resplendent Cathar",
+    "Windcrag Siege",
+    "Fervent Charge",
+    "Anim Pakal, Thousandth Moon"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Extra Combats",
+   "decks": 838,
+   "description": [
+    "**Core mechanic** : extra combat phases stack with Isshin — each extra combat doubles all attack triggers again.",
+    "**Engine** : Aurelia, the Warleader, Hellkite Charger and Aggravated Assault chain extra combats.",
+    "**Payoff** : every extra combat re-fires the draw/ramp/drain triggers of the board."
+   ],
+   "win": [
+    "**Infinite combats** : Hellkite Charger + Fire Nation Palace / Aggravated Assault loops.",
+    "**Pump** : each combat re-triggers Fervent Charge — the board outgrows blockers.",
+    "**Drain** : Brutal Hordechief chips life per combat."
+   ],
+   "high_synergy": [
+    {
+     "name": "Krenko, Tin Street Kingpin",
+     "synergy": null
+    },
+    {
+     "name": "Karlach, Fury of Avernus",
+     "synergy": null
+    },
+    {
+     "name": "Aurelia, the Warleader",
+     "synergy": null
+    },
+    {
+     "name": "Etali, Primal Storm",
+     "synergy": null
+    },
+    {
+     "name": "Sword of the Animist",
+     "synergy": null
+    },
+    {
+     "name": "Adeline, Resplendent Cathar",
+     "synergy": null
+    },
+    {
+     "name": "Windcrag Siege",
+     "synergy": null
+    },
+    {
+     "name": "Anim Pakal, Thousandth Moon",
+     "synergy": null
+    },
+    {
+     "name": "Fervent Charge",
+     "synergy": null
+    },
+    {
+     "name": "Iroas, God of Victory",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Krenko, Tin Street Kingpin",
+    "Aurelia, the Warleader",
+    "Sword of the Animist",
+    "Adeline, Resplendent Cathar",
+    "Windcrag Siege",
+    "Anim Pakal, Thousandth Moon",
+    "Fervent Charge",
+    "Iroas, God of Victory"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Equipment",
+   "decks": 542,
+   "description": [
+    "**Core mechanic** : equipment synergizes with attack triggers — equipped attackers double their payoffs.",
+    "**Engine** : Sword of the Animist ramps on attack; Conqueror's Flail protects the board; Kemba's Outfitter equips for free.",
+    "**Payoff** : a well-equipped go-wide board — double strike, protection and ramp per combat."
+   ],
+   "win": [
+    "**Voltron-ish** : a pumped equipped attacker (Colossus Hammer) one-shots.",
+    "**Wide** : equip the token army and attack through Isshin.",
+    "**Value** : Sword of the Animist turns every combat into ramp."
+   ],
+   "high_synergy": [
+    {
+     "name": "Raiyuu, Storm's Edge",
+     "synergy": null
+    },
+    {
+     "name": "Selfless Samurai",
+     "synergy": null
+    },
+    {
+     "name": "Heiko Yamazaki, the General",
+     "synergy": null
+    },
+    {
+     "name": "Peerless Samurai",
+     "synergy": null
+    },
+    {
+     "name": "Sword of the Animist",
+     "synergy": null
+    },
+    {
+     "name": "Imperial Subduer",
+     "synergy": null
+    },
+    {
+     "name": "Asari Captain",
+     "synergy": null
+    },
+    {
+     "name": "Norika Yamazaki, the Poet",
+     "synergy": null
+    },
+    {
+     "name": "Akki Ronin",
+     "synergy": null
+    },
+    {
+     "name": "Lizard Blades",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Sword of the Animist"
+   ],
+   "combos": []
+  }
+ ],
  "combos": [
   {
    "uses": [
@@ -3454,7 +3778,43 @@
  ],
  "hs_imgs": {},
  "type_recs": {},
- "card_plan_texts": {},
+ "card_plan_texts": {
+  "Krenko, Tin Street Kingpin": {
+   "Aggro": "**Early swarm** : Krenko doubles his own counters and makes 2× power in Goblins each combat — an aggressive clock that grows.",
+   "Attack Triggers": "**Double trigger** : Isshin makes him +2/+2 and twice as many Goblins per attack — the attack-trigger engine par excellence.",
+   "Extra Combats": "**Multiplier** : each extra combat re-fires Krenko's trigger — the Goblin count explodes every phase.",
+   "Tokens": "**Token factory** : power-based token generation doubled — the widest token producer of the deck."
+  },
+  "Adeline, Resplendent Cathar": {
+   "Aggro": "**Aggro engine** : power equals your creature count and every attack makes 2 tokens per opponent — the board grows while you swing.",
+   "Attack Triggers": "**Core attacker** : two tokens per opponent per attack, tapped and attacking — she fuels every attack trigger of the deck.",
+   "Extra Combats": "**Extra-combat star** : every extra combat = another wave of tokens, tapped and attacking.",
+   "Tokens": "**Token leader** : the #1 token engine — two Humans per opponent per combat, plus her own scaling power."
+  },
+  "Anim Pakal, Thousandth Moon": {
+   "Aggro": "**Scaling beater** : grows +1/+1 per attack (doubled) and makes X Gnomes — a self-pumping aggro threat.",
+   "Attack Triggers": "**Double growth** : Isshin doubles her counters AND her Gnome output — she snowballs every combat.",
+   "Extra Combats": "**Snowball** : each extra combat doubles her growth again — X climbs fast.",
+   "Tokens": "**Token engine** : X Gnomes per attack where X = her counters, doubled — a token army that feeds itself."
+  },
+  "Windcrag Siege": {
+   "Aggro": "**Double aggression** : Mardu mode doubles all your attack triggers — a second Isshin for the aggro plan.",
+   "Attack Triggers": "**Second Isshin** : attack-triggered abilities trigger an additional time — stack it with Isshin for quadruple triggers.",
+   "Extra Combats": "**Combat amplifier** : every extra combat multiplies through this — the trigger engine doubles again.",
+   "Tokens": "**Token doubler** : all your token-makers trigger twice per attack — the board doubles every combat."
+  },
+  "Fervent Charge": {
+   "Aggro": "**Pump aura** : +2/+2 per attacker (doubled to +4/+4) — the aggro finisher that breaks through.",
+   "Attack Triggers": "**Trigger payoff** : every attack trigger also pumps the attacker — attack value plus power.",
+   "Extra Combats": "**Combat pump** : +4/+4 each combat, re-applied every extra phase — the horde outgrows blockers."
+  },
+  "Sword of the Animist": {
+   "Aggro": "**Ramp on attack** : search a basic per attack (doubled) — aggro that ramps 2 lands each combat.",
+   "Attack Triggers": "**Trigger ramp** : the attack trigger that ramps — doubled by Isshin into 2 lands per swing.",
+   "Extra Combats": "**Extra ramp** : each extra combat = 2 more basics — the mana base snowballs.",
+   "Equipment": "**Equipment value** : the equipment payoff — +1/+1 and ramp 2 per combat on any equipped attacker."
+  }
+ },
  "content": {
   "primer": {
    "quick_read": [

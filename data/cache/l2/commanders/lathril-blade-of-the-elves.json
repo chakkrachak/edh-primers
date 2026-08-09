@@ -2089,7 +2089,297 @@
    "synergy": 0.14
   }
  },
- "plans": [],
+ "plans": [
+  {
+   "tag": "Elves",
+   "decks": 5180,
+   "description": [
+    "**Core mechanic** : Lathril makes 2 Elf tokens per combat damage and drains 10 life per tap.",
+    "**Engine** : Elvish Archdruid, Priest of Titania and Marwyn ramp into a critical mass; Imperious Perfect makes more Elves.",
+    "**Payoff** : the Elf-ball — dozens of tokens fueling lords, drains and Craterhoof finishers."
+   ],
+   "win": [
+    "**Drain** : Lathril's activated ability — 10 life per tap with 10+ Elves.",
+    "**Overrun** : Craterhoof Behemoth / Ezuri, Renegade Leader trample over.",
+    "**Combo** : staff of domination + infinite mana lines."
+   ],
+   "high_synergy": [
+    {
+     "name": "Elvish Archdruid",
+     "synergy": null
+    },
+    {
+     "name": "Marwyn, the Nurturer",
+     "synergy": null
+    },
+    {
+     "name": "Priest of Titania",
+     "synergy": null
+    },
+    {
+     "name": "Imperious Perfect",
+     "synergy": null
+    },
+    {
+     "name": "Beast Whisperer",
+     "synergy": null
+    },
+    {
+     "name": "Elvish Warmaster",
+     "synergy": null
+    },
+    {
+     "name": "Elven Ambush",
+     "synergy": null
+    },
+    {
+     "name": "Dwynen, Gilt-Leaf Daen",
+     "synergy": null
+    },
+    {
+     "name": "Canopy Tactician",
+     "synergy": null
+    },
+    {
+     "name": "Lys Alana Huntmaster",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Elvish Archdruid",
+    "Marwyn, the Nurturer",
+    "Priest of Titania",
+    "Imperious Perfect",
+    "Beast Whisperer",
+    "Elvish Warmaster",
+    "Lys Alana Huntmaster"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Tokens",
+   "decks": 1705,
+   "description": [
+    "**Core mechanic** : token generation everywhere — Lathril makes 2 per combat, Imperious Perfect and Elvish Warmaster add more.",
+    "**Engine** : token doublers (Parallel Lives) and token payoff lords.",
+    "**Payoff** : a huge Elf army that swings, drains and convokes."
+   ],
+   "win": [
+    "**Alpha strike** : wide board with Craterhoof Behemoth.",
+    "**Drain** : Lathril's tap for 10 life.",
+    "**Combat value** : Beast Whisperer draws per Elf cast."
+   ],
+   "high_synergy": [
+    {
+     "name": "Elvish Archdruid",
+     "synergy": null
+    },
+    {
+     "name": "Marwyn, the Nurturer",
+     "synergy": null
+    },
+    {
+     "name": "Priest of Titania",
+     "synergy": null
+    },
+    {
+     "name": "Imperious Perfect",
+     "synergy": null
+    },
+    {
+     "name": "Elvish Warmaster",
+     "synergy": null
+    },
+    {
+     "name": "Beast Whisperer",
+     "synergy": null
+    },
+    {
+     "name": "Leaf-Crowned Visionary",
+     "synergy": null
+    },
+    {
+     "name": "Elven Ambush",
+     "synergy": null
+    },
+    {
+     "name": "Ezuri, Renegade Leader",
+     "synergy": null
+    },
+    {
+     "name": "Elvish Mystic",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Elvish Archdruid",
+    "Marwyn, the Nurturer",
+    "Priest of Titania",
+    "Imperious Perfect",
+    "Elvish Warmaster",
+    "Beast Whisperer",
+    "Leaf-Crowned Visionary",
+    "Ezuri, Renegade Leader",
+    "Elvish Mystic"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Aggro",
+   "decks": 548,
+   "description": [
+    "**Core mechanic** : fast Elf aggression — cheap dorks into an early wide board.",
+    "**Engine** : turn-2 Lathril, turn-3 swing, token army by turn 5.",
+    "**Payoff** : combat drains and lord pumps end the game before opponents stabilize."
+   ],
+   "win": [
+    "**Early drain** : Lathril's 10-life tap as soon as the board is wide.",
+    "**Overrun** : Craterhoof/Ezuri.",
+    "**Combat** : unblockable-ish Elves with lords."
+   ],
+   "high_synergy": [
+    {
+     "name": "Elvish Archdruid",
+     "synergy": null
+    },
+    {
+     "name": "Marwyn, the Nurturer",
+     "synergy": null
+    },
+    {
+     "name": "Priest of Titania",
+     "synergy": null
+    },
+    {
+     "name": "Elvish Warmaster",
+     "synergy": null
+    },
+    {
+     "name": "Beast Whisperer",
+     "synergy": null
+    },
+    {
+     "name": "Ezuri, Renegade Leader",
+     "synergy": null
+    },
+    {
+     "name": "Leaf-Crowned Visionary",
+     "synergy": null
+    },
+    {
+     "name": "Imperious Perfect",
+     "synergy": null
+    },
+    {
+     "name": "Elvish Champion",
+     "synergy": null
+    },
+    {
+     "name": "Elvish Mystic",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Elvish Archdruid",
+    "Marwyn, the Nurturer",
+    "Priest of Titania",
+    "Elvish Warmaster",
+    "Beast Whisperer",
+    "Ezuri, Renegade Leader",
+    "Leaf-Crowned Visionary",
+    "Imperious Perfect",
+    "Elvish Champion",
+    "Elvish Mystic"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "+1/+1 Counters",
+   "decks": 518,
+   "description": [
+    "**Core mechanic** : counters stack on the Elf-ball — lords and counter engines grow the team.",
+    "**Engine** : Marwyn, Elvish Warmaster and Ezuri scale with counters.",
+    "**Payoff** : a huge trampling board that one-shots."
+   ],
+   "win": [
+    "**Trample over** : Craterhoof Behemoth with a counter-stacked board.",
+    "**Big Ezuri** : regenerate + trample on the whole team.",
+    "**Drain** : Lathril still taps for 10."
+   ],
+   "high_synergy": [],
+   "deck_matches": [],
+   "combos": []
+  },
+  {
+   "tag": "Ramp",
+   "decks": 494,
+   "description": [
+    "**Core mechanic** : the classic Elf-ball ramp — dorks and lords make 10+ mana by turn 4.",
+    "**Engine** : Priest of Titania, Elvish Archdruid, Marwyn and Wirewood Channeler.",
+    "**Payoff** : huge X-spells, early commanders and massive combat turns."
+   ],
+   "win": [
+    "**Big mana** : Torment of Hailfire / Finale of Devastation.",
+    "**Overrun** : Finale of Devastation X=10 wins.",
+    "**Combo** : Staff of Domination loops."
+   ],
+   "high_synergy": [
+    {
+     "name": "Elvish Archdruid",
+     "synergy": null
+    },
+    {
+     "name": "Marwyn, the Nurturer",
+     "synergy": null
+    },
+    {
+     "name": "Priest of Titania",
+     "synergy": null
+    },
+    {
+     "name": "Elvish Warmaster",
+     "synergy": null
+    },
+    {
+     "name": "Leaf-Crowned Visionary",
+     "synergy": null
+    },
+    {
+     "name": "Beast Whisperer",
+     "synergy": null
+    },
+    {
+     "name": "Imperious Perfect",
+     "synergy": null
+    },
+    {
+     "name": "Ezuri, Renegade Leader",
+     "synergy": null
+    },
+    {
+     "name": "Elvish Mystic",
+     "synergy": null
+    },
+    {
+     "name": "Elvish Champion",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Elvish Archdruid",
+    "Marwyn, the Nurturer",
+    "Priest of Titania",
+    "Elvish Warmaster",
+    "Leaf-Crowned Visionary",
+    "Beast Whisperer",
+    "Imperious Perfect",
+    "Ezuri, Renegade Leader",
+    "Elvish Mystic",
+    "Elvish Champion"
+   ],
+   "combos": []
+  }
+ ],
  "combos": [
   {
    "id": "1376-2645",
@@ -5873,7 +6163,67 @@
  ],
  "hs_imgs": {},
  "type_recs": {},
- "card_plan_texts": {},
+ "card_plan_texts": {
+  "Elvish Archdruid": {
+   "Elves": "**Elf mana** : adds {G} per Elf — the tribal ramp engine that powers the ball.",
+   "Ramp": "**Ramp core** : scales with the Elf count — 10+ mana by mid-game.",
+   "Aggro": "**Aggro ramp** : the early dork that turns into a mana monster.",
+   "Tokens": "**Token fuel** : more Elves = more mana = more tokens."
+  },
+  "Priest of Titania": {
+   "Elves": "**Elf mana** : adds {G} per Elf — the original Elf-ball dork.",
+   "Ramp": "**Ramp core** : the biggest mana producer per Elf on the board.",
+   "Aggro": "**Aggro ramp** : turn-2 acceleration into the wide board.",
+   "Tokens": "**Token fuel** : the token swarm doubles her output."
+  },
+  "Marwyn, the Nurturer": {
+   "Elves": "**Self-scaling dork** : grows with each Elf entering and taps for her power — an Elf that ramps itself.",
+   "Ramp": "**Ramp monster** : quickly 5-10 mana per tap as the board grows.",
+   "Aggro": "**Aggro dork** : a beater that doubles as the mana engine.",
+   "Tokens": "**Token payoff** : every token makes her bigger and better."
+  },
+  "Imperious Perfect": {
+   "Elves": "**Tribal lord** : +1/+1 for Elves and a token-maker on demand — the anthem engine.",
+   "Aggro": "**Aggro anthem** : the board-wide pump that wins combat.",
+   "Ramp": "**Ramp support** : makes Elves (fuel for dorks) at instant speed.",
+   "Tokens": "**Token maker** : 1/1 Elf token every turn — the token engine."
+  },
+  "Elvish Warmaster": {
+   "Elves": "**Elf payoff** : makes a token per Elf cast and pumps the team — the tribal snowball.",
+   "Aggro": "**Aggro engine** : cast Elves, get tokens, pump — combat dominance.",
+   "Ramp": "**Ramp fuel** : each Elf cast adds a body for dorks.",
+   "Tokens": "**Token maker** : an Elf token per Elf cast — the army grows itself."
+  },
+  "Beast Whisperer": {
+   "Elves": "**Elf draw** : draw a card per creature cast — the tribal card engine.",
+   "Aggro": "**Aggro gas** : every Elf played replaces itself.",
+   "Ramp": "**Ramp draw** : the big-mana turns refill the hand.",
+   "Tokens": "**Token draw** : each token-maker draw keeps the engine going."
+  },
+  "Ezuri, Renegade Leader": {
+   "Elves": "**Overrun lord** : {G}: +3/+3 trample for all Elves — the tribal finisher.",
+   "Aggro": "**Aggro finisher** : the overrun that ends the game.",
+   "Ramp": "**Mana sink** : big mana turns into a lethal pump.",
+   "Tokens": "**Token payoff** : the token swarm becomes trampling lethal."
+  },
+  "Elvish Champion": {
+   "Elves": "**Tribal lord** : +1/+1 and forestwalk for Elves — the unblockable anthem.",
+   "Aggro": "**Aggro anthem** : forestwalk makes attacks unblockable.",
+   "Ramp": "**Ramp lord** : another lord stacking the pump.",
+   "Tokens": "**Token lord** : the token swarm gets +1/+1 and evasion."
+  },
+  "Elvish Mystic": {
+   "Aggro": "**Aggro dork** : turn-1 ramp into the early army.",
+   "Ramp": "**Ramp starter** : the classic one-drop mana dork.",
+   "Tokens": "**Token fuel** : one more Elf for the swarm and dorks."
+  },
+  "Leaf-Crowned Visionary": {
+   "Elves": "**Elf engine** : draw on Elf cast and pump the team — the modern tribal glue.",
+   "Aggro": "**Aggro draw** : every Elf replaces itself while pumping.",
+   "Ramp": "**Ramp draw** : refill during the big turns.",
+   "Tokens": "**Token draw** : tokens count as Elf casts — draw and grow."
+  }
+ },
  "content": {
   "primer": {
    "quick_read": [

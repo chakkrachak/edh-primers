@@ -167,6 +167,10 @@ def _merge_fiche(d, slug, kind):
                 d['synergy'] = fiche['synergy']
             if fiche.get('combos') is not None:
                 d['combos'] = fiche['combos']
+            if fiche.get('plans'):
+                d['plans'] = fiche['plans']
+            if fiche.get('card_plan_texts'):
+                d['card_plan_texts'] = fiche['card_plan_texts']
             # --- contenu IA spécifique primer (si présent dans la fiche) ---
             pc = fiche.get('content', {}).get('primer', {})
             for k in ('quick_read', 'plan_title', 'plan_html', 'plan_cards',
@@ -192,10 +196,80 @@ def _merge_fiche(d, slug, kind):
     except Exception as e:
         print(f'  ⚠️ _merge_fiche({slug}, {kind}) : {e} (fallback ancien format)')
 
-def build_one(slug):
+PLAN_EMOJIS = {
+    'Aggro': '⚔️', 'Attack Triggers': '⚔️', 'Extra Combats': '⚔️', 'Voltron': '⚔️',
+    'Equipment': '🛡️', 'Artifacts': '⚙️', 'Modified Creatures': '🛠️',
+    'Tokens': '👥', 'Elves': '🧝', 'Zombies': '🧟', 'Reanimator': '💀', 'Mill': '🌀',
+    'Graveyard': '🪦', 'Self-Mill': '🌀', 'Energy': '⚡', 'Clones': '🪞', 'Artificers': '🔧',
+    'Legends': '🏛️', 'Historic': '📜', 'cEDH': '💎', 'Combo': '🔗', 'Planeswalkers': '🃏',
+    'Blink': '🌀', 'Control': '🎯', 'Topdeck': '🔮', 'Lands Matter': '🌍', 'Ramp': '⛰️',
+    'Ninjutsu': '🗡️', 'Ninjas': '🗡️', 'Tempo': '⏱️', 'Prowess': '🔥', 'Spellslinger': '✨',
+    'Sunforger': '🔨', '+1/+1 Counters': '📈',
+}
+
+def _plan_html_from(plan, commander_name, imgs=None, plan_texts=None, all_names=None, img_of=None):
+    """Génère la section Chosen Game Plan depuis un plan structuré (fiche L2) —
+    même format que le plan signature : h3 + badge + contexte + blocs + grille HS."""
+    tag = plan['tag']
+    decks = plan.get('decks', 0)
+    # contexte chiffré : ce plan + les 2 rivaux les plus joués
+    rivals = sorted(plan.get('_rivals', []), key=lambda x: -x[1])[:2]
+    ctx_txt = f'The {tag} plan for {commander_name} ({decks:,} decks on EDHREC)'
+    if rivals:
+        ctx_txt += ', vs ' + ', '.join(f'{r[0]} ({r[1]:,})' for r in rivals)
+    ctx_txt += '.'
+    desc = plan.get('description', []) or []
+    wins = plan.get('win', []) or []
+    emoji = PLAN_EMOJIS.get(tag, '🎯')
+    h = [f'<h3>{emoji} {tag} <span class="badge">CHOSEN PLAN</span></h3>',
+         f'<p>{ctx_txt}</p>']
+    if desc:
+        h.append('<div class="plan-block"><span class="plan-badge">How it plays</span>')
+        h.append('<ul>' + ''.join(f'<li>{bold(b)}</li>' for b in desc) + '</ul></div>')
+    if wins:
+        h.append('<div class="plan-block"><span class="plan-badge">Win conditions</span>')
+        h.append('<ul>' + ''.join(f'<li>{bold(b)}</li>' for b in wins) + '</ul></div>')
+    # grille High Synergy matches (cartes du deck dans le pool HS du plan)
+    if plan_texts and imgs:
+        h.append('<div class="plan-block"><span class="plan-badge">High Synergy matches</span>')
+        h.append('<div class="card-grid">')
+        for mname in plan.get('deck_matches', []):
+            expl = (plan_texts.get(mname) or {}).get(tag) or ''
+            if not expl:
+                continue
+            img = (imgs or {}).get(mname, '')
+            exp_html = cardify(bold(expl), all_names or [], img_of) if all_names else bold(expl)
+            h.append('<div class="card-block">')
+            if img:
+                h.append(f'<img src="{img}" data-large="{img}" data-name="{mname}" '
+                         f'loading="lazy" onclick="openModal(this)"/>')
+            h.append('<div class="cb-body">')
+            h.append(f'<div class="cb-name">{H.escape(mname)} <span class="plan-tag">{H.escape(tag)}</span></div>')
+            h.append(f'<div class="cb-expl">{exp_html}</div>')
+            h.append('</div></div>')
+        h.append('</div></div>')
+    return '\n'.join(h)
+
+def build_one(slug, plan_tag=None):
     with open(f'{DATA_DIR}/{slug}.json', encoding='utf-8') as f:
         d = json.load(f)
     _merge_fiche(d, slug, 'primer')
+    # --- plan alternatif (--plan <tag>) : générer depuis les plans structurés de la fiche ---
+    if plan_tag and d.get('plans'):
+        # ajouter les rivaux (tous les autres plans) pour le contexte chiffré
+        for p in d['plans']:
+            p['_rivals'] = [(q['tag'], q['decks']) for q in d['plans'] if q['tag'] != p['tag']]
+        chosen = next((p for p in d['plans'] if p['tag'].lower() == plan_tag.lower()), None)
+        if chosen:
+            d['plan_title'] = f"{chosen['tag'].upper()} — The chosen plan ({chosen['decks']:,} decks)"
+            d['plan_html'] = _plan_html_from(chosen, d['commander_name'],
+                                             imgs=d.get('imgs'), plan_texts=d.get('card_plan_texts'),
+                                             all_names=None, img_of=None)
+            d['plan_cards'] = chosen.get('deck_matches', [])[:6]
+            d['combos_note'] = f"Combos for the {chosen['tag']} plan — {len(chosen.get('combos', []))} from Commander Spellbook."
+        else:
+            print(f'  ⚠️ plan « {plan_tag} » introuvable — plans dispo : '
+                  f'{", ".join(p["tag"] for p in d["plans"])}')
 
     # --- normalize synergy keys (HTML entities) ---
     synergy = {H.unescape(str(k)): v for k, v in (d['synergy'] or {}).items()}
@@ -331,7 +405,8 @@ def build_one(slug):
     html_out = render(template, ctx)
 
     now = datetime.datetime.now()
-    filename = f"EDH-Primer-{d['deck_slug']}-{now.strftime('%Y%m%d-%H%M')}.html"
+    plan_suffix = f"-{re.sub(r'[^a-z0-9]+', '-', (plan_tag or '').lower()).strip('-')}" if plan_tag else ''
+    filename = f"EDH-Primer-{d['deck_slug']}{plan_suffix}-{now.strftime('%Y%m%d-%H%M')}.html"
     path = f'{OUT_DIR}/{filename}'
     with open(path, 'w', encoding='utf-8') as f:
         f.write(html_out)
@@ -769,8 +844,8 @@ def build_index():
         if not slug:
             print(f"⚠️ index: pas de deck JSON pour {name}")
             continue
-        # newest report for this slug
-        files = sorted(glob.glob(f'{OUT_DIR}/EDH-Primer-{slug}-*.html'))
+        # newest report for this slug (seulement le plan signature — pas les variantes --plan)
+        files = sorted(glob.glob(f'{OUT_DIR}/EDH-Primer-{slug}-20*.html'))
         if not files:
             print(f"⚠️ index: pas de rapport pour {name}")
             continue
@@ -900,10 +975,16 @@ def main():
         for slug in args[1:]:
             build_precon(slug)
         return
+    # --plan <tag> : génère les primers sur un plan alternatif (défaut : plan signature)
+    plan_tag = None
+    if '--plan' in args:
+        i = args.index('--plan')
+        plan_tag = args[i + 1] if i + 1 < len(args) else None
+        args = args[:i] + args[i + 2:]
     slugs = args or [f[:-5] for f in sorted(os.listdir(DATA_DIR)) if f.endswith('.json')]
     for slug in slugs:
         try:
-            build_one(slug)
+            build_one(slug, plan_tag)
         except Exception as e:
             print(f"⚠️ {slug}: {e}")
     build_index()
