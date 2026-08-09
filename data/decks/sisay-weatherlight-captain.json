@@ -2731,233 +2731,233 @@
   "HighSynergy": [
    [
     "Faeburrow Elder",
-    "Vigilance, reach; <strong>taps for one mana of each color among other permanents you control</strong> — with a 5-color board that's WUBRG, enough to activate Sisay immediately. <em>(Oracle: Vigilance This creature gets +1/+1 for each color among permanents you control. {T}: For each c…)</em>"
+    "Vigilance, reach; <strong>taps for one mana of each color among other permanents you control</strong> — with a 5-color board that's WUBRG, enough to activate Sisay immediately."
    ],
    [
     "Bloom Tender",
-    "<strong>Taps for one mana of each color among other permanents you control</strong> — the classic 5-color dork; tap it and activate Sisay the same turn. <em>(Oracle: Vivid — {T}: For each color among permanents you control, add one mana of that color.…)</em>"
+    "<strong>Taps for one mana of each color among other permanents you control</strong> — the classic 5-color dork; tap it and activate Sisay the same turn."
    ],
    [
     "Selvala, Heart of the Wilds",
-    "<strong>Adds X green mana where X = your greatest creature's power</strong> — with Sisay buffed by legend colors, that's 5+ mana per tap, fueling the tutor every turn. <em>(Oracle: Whenever another creature enters, its controller may draw a card if its power is greater than e…)</em>"
+    "<strong>Adds X green mana where X = your greatest creature's power</strong> — with Sisay buffed by legend colors, that's 5+ mana per tap, fueling the tutor every turn."
    ],
    [
     "Lotho, Corrupt Shirriff",
-    "<strong>Whenever a creature an opponent controls dies, create a Treasure</strong> — passive ramp in a removal-heavy game, and a legendary to buff Sisay. <em>(Oracle: Whenever a player casts their second spell each turn, you lose 1 life and create a Treasure tok…)</em>"
+    "<strong>Whenever a creature an opponent controls dies, create a Treasure</strong> — passive ramp in a removal-heavy game, and a legendary to buff Sisay."
    ],
    [
     "Derevi, Empyrial Tactician",
-    "<strong>Untaps your creatures whenever it enters or attacks</strong> — untap your dorks after tapping them for Sisay's ability, doubling your activations per turn. <em>(Oracle: Flying When Derevi enters and whenever a creature you control deals combat damage to a player, …)</em>"
+    "<strong>Untaps your creatures whenever it enters or attacks</strong> — untap your dorks after tapping them for Sisay's ability, doubling your activations per turn."
    ],
    [
     "Esika, God of the Tree",
-    "Vigilance; <strong>taps for one mana of any color</strong> and grants other legends vigilance + tap-for-mana — a 5-color dork that's also a legend for Sisay's pump. <em>(Oracle: Vigilance {T}: Add one mana of any color. Other legendary creatures you control have vigilance …)</em>"
+    "Vigilance; <strong>taps for one mana of any color</strong> and grants other legends vigilance + tap-for-mana — a 5-color dork that's also a legend for Sisay's pump."
    ]
   ],
   "TopCards": [
    [
     "Birds of Paradise",
-    "Flying 0/1 that <strong>taps for one mana of any color</strong> — the format's best 1-mana dork, fixing WUBRG from turn 1. <em>(Oracle: Flying {T}: Add one mana of any color.…)</em>"
+    "Flying 0/1 that <strong>taps for one mana of any color</strong> — the format's best 1-mana dork, fixing WUBRG from turn 1."
    ],
    [
     "Swords to Plowshares",
-    "Exile target creature; its controller gains life equal to its power — the white removal benchmark. <em>(Oracle: Exile target creature. Its controller gains life equal to its power.…)</em>"
+    "Exile target creature; its controller gains life equal to its power — the white removal benchmark."
    ],
    [
     "Delighted Halfling",
-    "<strong>Taps for one mana of any color, can't be countered as a legend, and can't be blocked</strong> — the perfect dork for a legend deck. <em>(Oracle: {T}: Add {C}. {T}: Add one mana of any color. Spend this mana only to cast a legendary spell, a…)</em>"
+    "<strong>Taps for one mana of any color, can't be countered as a legend, and can't be blocked</strong> — the perfect dork for a legend deck."
    ],
    [
     "Ignoble Hierarch",
-    "Exalted; <strong>taps for one mana of any color</strong> — a Noble Hierarch variant with black instead of blue. <em>(Oracle: Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of t…)</em>"
+    "Exalted; <strong>taps for one mana of any color</strong> — a Noble Hierarch variant with black instead of blue."
    ],
    [
     "Noble Hierarch",
-    "Exalted; <strong>taps for one mana of any color</strong> — the classic 1-mana dork with a combat bonus. <em>(Oracle: Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of t…)</em>"
+    "Exalted; <strong>taps for one mana of any color</strong> — the classic 1-mana dork with a combat bonus."
    ],
    [
     "Jodah, the Unifier",
-    "<strong>Legendary spells you cast cost 1 less</strong>; other legends get +1/+1; whenever a legendary enters, you may cast a historic card from your deck — the legends payoff. <em>(Oracle: Legendary creatures you control get +X/+X, where X is the number of legendary creatures you con…)</em>"
+    "<strong>Legendary spells you cast cost 1 less</strong>; other legends get +1/+1; whenever a legendary enters, you may cast a historic card from your deck — the legends payoff."
    ]
   ],
   "Creatures": [
    [
     "Ragavan, Nimble Pilferer",
-    "<strong>Whenever Ragavan deals combat damage, create a Treasure and exile the top card</strong> — you may cast it. Aggro ramp + theft on a 2/1. <em>(Oracle: Whenever Ragavan deals combat damage to a player, create a Treasure token and exile the top car…)</em>"
+    "<strong>Whenever Ragavan deals combat damage, create a Treasure and exile the top card</strong> — you may cast it. Aggro ramp + theft on a 2/1."
    ],
    [
     "Lavinia, Azorius Renegade",
-    "<strong>Noncreature spells cost {1} more; players can't cast spells with mana value greater than their lands</strong> — the tax/prison legend. <em>(Oracle: Each opponent can't cast noncreature spells with mana value greater than the number of lands th…)</em>"
+    "<strong>Noncreature spells cost {1} more; players can't cast spells with mana value greater than their lands</strong> — the tax/prison legend."
    ],
    [
     "Esper Sentinel",
-    "<strong>Whenever an opponent casts their first spell each turn, they pay {X} or you draw</strong> (X = creatures you control) — draw engine disguised as a 1-drop. <em>(Oracle: Whenever an opponent casts their first noncreature spell each turn, draw a card unless that pla…)</em>"
+    "<strong>Whenever an opponent casts their first spell each turn, they pay {X} or you draw</strong> (X = creatures you control) — draw engine disguised as a 1-drop."
    ],
    [
     "Ioreth of the Healing House",
-    "<strong>Untap up to two target legendary creatures or lands</strong> whenever it enters or attacks — untap Sisay and a dork after activating. <em>(Oracle: {T}: Untap another target permanent. {T}: Untap two other target legendary creatures.…)</em>"
+    "<strong>Untap up to two target legendary creatures or lands</strong> whenever it enters or attacks — untap Sisay and a dork after activating."
    ],
    [
     "Jhoira, Weatherlight Captain",
-    "<strong>Draw a card whenever you cast a historic spell</strong> — legends, artifacts and sagas all cantrip in this deck. <em>(Oracle: Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are histori…)</em>"
+    "<strong>Draw a card whenever you cast a historic spell</strong> — legends, artifacts and sagas all cantrip in this deck."
    ],
    [
     "Marvin, Murderous Mimic",
-    "<strong>Has all activated abilities of other creatures you control</strong> — a second copy of every dork's tap ability, doubling your mana engines. <em>(Oracle: Marvin has all activated abilities of creatures you control that don't have the same name as th…)</em>"
+    "<strong>Has all activated abilities of other creatures you control</strong> — a second copy of every dork's tap ability, doubling your mana engines."
    ]
   ],
   "Instants": [
    [
     "Deflecting Swat",
-    "<strong>Free if you control a commander</strong>: change the target of target spell or ability — the best protection for Sisay. <em>(Oracle: If you control a commander, you may cast this spell without paying its mana cost. You may choos…)</em>"
+    "<strong>Free if you control a commander</strong>: change the target of target spell or ability — the best protection for Sisay."
    ],
    [
     "Swan Song",
-    "Counter target enchantment, instant or sorcery; its controller creates a 2/2 Bird — 1-mana counterspell. <em>(Oracle: Counter target enchantment, instant, or sorcery spell. Its controller creates a 2/2 blue Bird c…)</em>"
+    "Counter target enchantment, instant or sorcery; its controller creates a 2/2 Bird — 1-mana counterspell."
    ],
    [
     "Silence",
-    "<strong>Opponents can't cast spells this turn</strong> — the white protection that makes your combo turn safe. <em>(Oracle: Your opponents can't cast spells this turn.…)</em>"
+    "<strong>Opponents can't cast spells this turn</strong> — the white protection that makes your combo turn safe."
    ],
    [
     "Path to Exile",
-    "Exile target creature; its controller may search for a basic land — second white removal, nearly free. <em>(Oracle: Exile target creature. Its controller may search their library for a basic land card, put that …)</em>"
+    "Exile target creature; its controller may search for a basic land — second white removal, nearly free."
    ],
    [
     "Abrupt Decay",
-    "<strong>Destroy target nonland permanent with mana value 3 or less; can't be countered</strong> — clean early removal. <em>(Oracle: This spell can't be countered. Destroy target nonland permanent with mana value 3 or less.…)</em>"
+    "<strong>Destroy target nonland permanent with mana value 3 or less; can't be countered</strong> — clean early removal."
    ]
   ],
   "Sorceries": [
    [
     "Farseek",
-    "Search for a Plains, Island, Swamp or Mountain — 2-mana fixing for the 5-color manabase. <em>(Oracle: Search your library for a Plains, Island, Swamp, or Mountain card, put it onto the battlefield …)</em>"
+    "Search for a Plains, Island, Swamp or Mountain — 2-mana fixing for the 5-color manabase."
    ],
    [
     "Primevals' Glorious Rebirth",
-    "<strong>Return all legendary permanent cards from your graveyard to the battlefield</strong> — the mass reanimation bomb for a legend deck. <em>(Oracle: (You may cast a legendary sorcery only if you control a legendary creature or planeswalker.) Re…)</em>"
+    "<strong>Return all legendary permanent cards from your graveyard to the battlefield</strong> — the mass reanimation bomb for a legend deck."
    ],
    [
     "Cultivate",
-    "Search for up to two basic lands: one tapped, one to hand — the ramp staple. <em>(Oracle: Search your library for up to two basic land cards, reveal those cards, put one onto the battle…)</em>"
+    "Search for up to two basic lands: one tapped, one to hand — the ramp staple."
    ],
    [
     "Nature's Lore",
-    "Search for a Forest and put it onto the battlefield (untapped) — 2-mana ramp. <em>(Oracle: Search your library for a Forest card, put that card onto the battlefield, then shuffle.…)</em>"
+    "Search for a Forest and put it onto the battlefield (untapped) — 2-mana ramp."
    ],
    [
     "Three Visits",
-    "Search for a Forest and put it onto the battlefield (untapped) — the upgraded Nature's Lore. <em>(Oracle: Search your library for a Forest card, put it onto the battlefield, then shuffle.…)</em>"
+    "Search for a Forest and put it onto the battlefield (untapped) — the upgraded Nature's Lore."
    ]
   ],
   "Artifacts": [
    [
     "Agatha's Soul Cauldron",
-    "<strong>Exile a creature card: creatures you control gain its activated abilities</strong>; also removes +1/+1 counters as mana. Turns every creature into a dork. <em>(Oracle: You may spend mana as though it were mana of any color to activate abilities of creatures you c…)</em>"
+    "<strong>Exile a creature card: creatures you control gain its activated abilities</strong>; also removes +1/+1 counters as mana. Turns every creature into a dork."
    ],
    [
     "Heroes' Podium",
-    "<strong>Legendary creatures you control get +1/+1 for each legendary creature you control</strong>, and {5}, {T}: tutor a legend — anthem + Sisay backup. <em>(Oracle: Each legendary creature you control gets +1/+1 for each other legendary creature you control. {…)</em>"
+    "<strong>Legendary creatures you control get +1/+1 for each legendary creature you control</strong>, and {5}, {T}: tutor a legend — anthem + Sisay backup."
    ],
    [
     "The One Ring",
-    "<strong>Indestructible; draw a card and gain protection until your next turn</strong> — the format's best card-advantage engine. <em>(Oracle: Indestructible When The One Ring enters, if you cast it, you gain protection from everything un…)</em>"
+    "<strong>Indestructible; draw a card and gain protection until your next turn</strong> — the format's best card-advantage engine."
    ],
    [
     "Blackblade Reforged",
-    "<strong>Equipped legendary creature gets +1/+1 for each legendary creature you control</strong> — Sisay becomes huge, tutoring bigger legends. <em>(Oracle: Equipped creature gets +1/+1 for each land you control. Equip legendary creature {3} Equip {7}…)</em>"
+    "<strong>Equipped legendary creature gets +1/+1 for each legendary creature you control</strong> — Sisay becomes huge, tutoring bigger legends."
    ],
    [
     "Lightning Greaves",
-    "Haste + shroud — deploy and swing immediately, protect Sisay from targeting. Equip {0}. <em>(Oracle: Equipped creature has haste and shroud. (It can't be the target of spells or abilities.) Equip …)</em>"
+    "Haste + shroud — deploy and swing immediately, protect Sisay from targeting. Equip {0}."
    ]
   ],
   "Enchantments": [
    [
     "Mystic Remora",
-    "<strong>Whenever an opponent casts a noncreature spell, they pay {4} or you draw</strong> — the table taxer (cumulative upkeep {1}). <em>(Oracle: Cumulative upkeep {1} (At the beginning of your upkeep, put an age counter on this permanent, t…)</em>"
+    "<strong>Whenever an opponent casts a noncreature spell, they pay {4} or you draw</strong> — the table taxer (cumulative upkeep {1})."
    ],
    [
     "Flowering of the White Tree",
-    "<strong>Legendary creatures get +2/+1 and ward {1}</strong>; nonlegendary creatures get -1/-1 — the legend anthem. <em>(Oracle: Legendary creatures you control get +2/+1 and have ward {1}. Nonlegendary creatures you control…)</em>"
+    "<strong>Legendary creatures get +2/+1 and ward {1}</strong>; nonlegendary creatures get -1/-1 — the legend anthem."
    ],
    [
     "Oath of Teferi",
-    "<strong>Planeswalker abilities you activate trigger an additional time</strong>; on entry, blink a planeswalker — doubles your walker value. <em>(Oracle: When Oath of Teferi enters, exile another target permanent you control. Return it to the battle…)</em>"
+    "<strong>Planeswalker abilities you activate trigger an additional time</strong>; on entry, blink a planeswalker — doubles your walker value."
    ],
    [
     "Vraska Joins Up",
-    "On entry: 5 damage to a creature/planeswalker; <strong>legendary creatures get deathtouch</strong> and your legends' triggers trigger an additional time. <em>(Oracle: When Vraska Joins Up enters, put a deathtouch counter on each creature you control. Whenever a …)</em>"
+    "On entry: 5 damage to a creature/planeswalker; <strong>legendary creatures get deathtouch</strong> and your legends' triggers trigger an additional time."
    ],
    [
     "Annie Joins Up",
-    "On entry: 5 damage; <strong>your legendary creatures' triggered abilities trigger an additional time</strong> — doubles Derevi, Ioreth, etc. <em>(Oracle: When Annie Joins Up enters, it deals 5 damage to target creature or planeswalker an opponent co…)</em>"
+    "On entry: 5 damage; <strong>your legendary creatures' triggered abilities trigger an additional time</strong> — doubles Derevi, Ioreth, etc."
    ]
   ],
   "Planeswalkers": [
    [
     "Teferi, Time Raveler",
-    "<strong>Flash; spells can only be cast when their controller could cast a sorcery</strong>; +1 draw, −3 bounce and draw — the tempo lock walker. <em>(Oracle: Each opponent can cast spells only any time they could cast a sorcery. +1: Until your next turn…)</em>"
+    "<strong>Flash; spells can only be cast when their controller could cast a sorcery</strong>; +1 draw, −3 bounce and draw — the tempo lock walker."
    ],
    [
     "Dihada, Binder of Wills",
-    "+2: draw two, lose 2, or mill 4 with treasure; −3: reanimate a legend with indestructible; −7: legendary emblem. The legend-engine walker. <em>(Oracle: +2: Up to one target legendary creature gains vigilance, lifelink, and indestructible until you…)</em>"
+    "+2: draw two, lose 2, or mill 4 with treasure; −3: reanimate a legend with indestructible; −7: legendary emblem. The legend-engine walker."
    ],
    [
     "Nicol Bolas, Dragon-God",
-    "Loyalty abilities as your colors allow; +1: draw or discard; −3: destroy creature/planeswalker; −8: ultimate — the 5-color payoff. <em>(Oracle: Nicol Bolas has all loyalty abilities of all other planeswalkers on the battlefield. +1: You dr…)</em>"
+    "Loyalty abilities as your colors allow; +1: draw or discard; −3: destroy creature/planeswalker; −8: ultimate — the 5-color payoff."
    ],
    [
     "Aminatou, the Fateshifter",
-    "−1: flicker a permanent you own (ETB value); +1: topdeck control; −6: reset the table — utility blink walker. <em>(Oracle: +1: Draw a card, then put a card from your hand on top of your library. −1: Exile another targe…)</em>"
+    "−1: flicker a permanent you own (ETB value); +1: topdeck control; −6: reset the table — utility blink walker."
    ]
   ],
   "UtilityLands": [
    [
     "Boseiju, Who Endures",
-    "<strong>Channel: destroy target artifact/enchantment/legendary</strong> — uncounterable removal on a land. <em>(Oracle: {T}: Add {G}. Channel — {1}{G}, Discard this card: Destroy target artifact, enchantment, or non…)</em>"
+    "<strong>Channel: destroy target artifact/enchantment/legendary</strong> — uncounterable removal on a land."
    ],
    [
     "Otawara, Soaring City",
-    "<strong>Channel: bounce target artifact/creature/planeswalker</strong> — instant-speed interaction on a land. <em>(Oracle: {T}: Add {U}. Channel — {3}{U}, Discard this card: Return target artifact, creature, enchantmen…)</em>"
+    "<strong>Channel: bounce target artifact/creature/planeswalker</strong> — instant-speed interaction on a land."
    ],
    [
     "Great Hall of the Citadel",
-    "{T}: add one mana of any color; {2}, {T}: <strong>untap target legendary creature</strong> — colors + a second Sisay activation. <em>(Oracle: {T}: Add {C}. {1}, {T}: Add two mana in any combination of colors. Spend this mana only to cast…)</em>"
+    "{T}: add one mana of any color; {2}, {T}: <strong>untap target legendary creature</strong> — colors + a second Sisay activation."
    ],
    [
     "Cascading Cataracts",
-    "{T}: add {C}; {5}: <strong>add one mana of each color</strong> — 5-color fixing on a land. <em>(Oracle: Indestructible {T}: Add {C}. {5}, {T}: Add five mana in any combination of colors.…)</em>"
+    "{T}: add {C}; {5}: <strong>add one mana of each color</strong> — 5-color fixing on a land."
    ],
    [
     "Minamo, School at Water's Edge",
-    "{T}: add {U}; <strong>{U}, {T}: untap target legendary permanent</strong> — untap Sisay for a second tutor. <em>(Oracle: {T}: Add {U}. {U}, {T}: Untap target legendary permanent.…)</em>"
+    "{T}: add {U}; <strong>{U}, {T}: untap target legendary permanent</strong> — untap Sisay for a second tutor."
    ]
   ],
   "ManaBase": [
    [
     "Command Tower",
-    "{T}: add one mana of any color in your commander's color identity — the best land in a 5-color deck. <em>(Oracle: {T}: Add one mana of any color in your commander's color identity.…)</em>"
+    "{T}: add one mana of any color in your commander's color identity — the best land in a 5-color deck."
    ],
    [
     "Arcane Signet",
-    "{T}: add one mana of any color in your commander's color identity — the best mana rock. <em>(Oracle: {T}: Add one mana of any color in your commander's color identity.…)</em>"
+    "{T}: add one mana of any color in your commander's color identity — the best mana rock."
    ],
    [
     "Sol Ring",
-    "{T}: add {C}{C} — the format's best ramp. <em>(Oracle: {T}: Add {C}{C}.…)</em>"
+    "{T}: add {C}{C} — the format's best ramp."
    ],
    [
     "Exotic Orchard",
-    "{T}: add one mana of any color that a land an opponent controls could produce — 5-color fixing in multiplayer. <em>(Oracle: {T}: Add one mana of any color that a land an opponent controls could produce.…)</em>"
+    "{T}: add one mana of any color that a land an opponent controls could produce — 5-color fixing in multiplayer."
    ],
    [
     "Relic of Legends",
-    "{T}: add one mana of any color; {T}: <strong>tap target legendary creature to add mana of each color among legends you control</strong> — the legend-mana rock. <em>(Oracle: {T}: Add one mana of any color. Tap an untapped legendary creature you control: Add one mana of…)</em>"
+    "{T}: add one mana of any color; {T}: <strong>tap target legendary creature to add mana of each color among legends you control</strong> — the legend-mana rock."
    ],
    [
     "Forest",
-    "({T}: add {G}.) The basic green source. <em>(Oracle: ({T}: Add {G}.)…)</em>"
+    "({T}: add {G}.) The basic green source."
    ]
   ]
  },

@@ -1194,237 +1194,237 @@
   "HighSynergy": [
    [
     "Slip Through Space",
-    "<strong>Target creature can't be blocked this turn. Draw a card.</strong> Devoid — the #1 Shu Yun cantrip: unblockable + replace itself, and prowess boosts Shu Yun. <em>(Oracle: Devoid (This card has no color.) Target creature can't be blocked this turn. Draw a card.…)</em>"
+    "<strong>Target creature can't be blocked this turn. Draw a card.</strong> Devoid — the #1 Shu Yun cantrip: unblockable + replace itself, and prowess boosts Shu Yun."
    ],
    [
     "Distortion Strike",
-    "+1/+0, <strong>can't be blocked, and rebound</strong> — cast it twice (now + rebound next upkeep) for two prowess triggers and two unblockable turns. <em>(Oracle: Target creature gets +1/+0 until end of turn and can't be blocked this turn. Rebound (If you ca…)</em>"
+    "+1/+0, <strong>can't be blocked, and rebound</strong> — cast it twice (now + rebound next upkeep) for two prowess triggers and two unblockable turns."
    ],
    [
     "Emerge Unscathed",
-    "<strong>Protection from a color of your choice + rebound</strong> — dodge removal twice while triggering prowess both times. <em>(Oracle: Target creature you control gains protection from the color of your choice until end of turn. R…)</em>"
+    "<strong>Protection from a color of your choice + rebound</strong> — dodge removal twice while triggering prowess both times."
    ],
    [
     "Unleash Fury",
-    "<strong>Double the power of target creature</strong> — on a prowess-buffed Shu Yun with double strike, that's lethal commander damage in one swing. <em>(Oracle: Double the power of target creature until end of turn.…)</em>"
+    "<strong>Double the power of target creature</strong> — on a prowess-buffed Shu Yun with double strike, that's lethal commander damage in one swing."
    ],
    [
     "Aqueous Form",
-    "<strong>Can't be blocked</strong> and scry 1 on every attack — the repeatable unblockable engine for Shu Yun. <em>(Oracle: Enchant creature Enchanted creature can't be blocked. Whenever enchanted creature attacks, scry…)</em>"
+    "<strong>Can't be blocked</strong> and scry 1 on every attack — the repeatable unblockable engine for Shu Yun."
    ],
    [
     "Artful Dodge",
-    "<strong>Can't be blocked this turn, flashback {U}</strong> — two unblockable uses for two prowess triggers. <em>(Oracle: Target creature can't be blocked this turn. Flashback {U} (You may cast this card from your gra…)</em>"
+    "<strong>Can't be blocked this turn, flashback {U}</strong> — two unblockable uses for two prowess triggers."
    ]
   ],
   "TopCards": [
    [
     "Whirlwind of Thought",
-    "<strong>Whenever you cast a noncreature spell, draw a card</strong> — every cantrip now draws twice; the deck's card engine. <em>(Oracle: Whenever you cast a noncreature spell, draw a card.…)</em>"
+    "<strong>Whenever you cast a noncreature spell, draw a card</strong> — every cantrip now draws twice; the deck's card engine."
    ],
    [
     "Swiftfoot Boots",
-    "<strong>Hexproof and haste</strong> — deploy Shu Yun and swing the same turn, safe from targeted removal. Equip {1}. <em>(Oracle: Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your o…)</em>"
+    "<strong>Hexproof and haste</strong> — deploy Shu Yun and swing the same turn, safe from targeted removal. Equip {1}."
    ],
    [
     "Swords to Plowshares",
-    "Exile target creature; its controller gains life equal to its power — the white removal benchmark. <em>(Oracle: Exile target creature. Its controller gains life equal to its power.…)</em>"
+    "Exile target creature; its controller gains life equal to its power — the white removal benchmark."
    ],
    [
     "Jeskai Ascendancy",
-    "<strong>Whenever you cast a noncreature spell: creatures you control get +1/+1 and untap; you may draw then discard</strong> — the engine that pumps the team and digs to the combo. <em>(Oracle: Whenever you cast a noncreature spell, creatures you control get +1/+1 until end of turn. Untap…)</em>"
+    "<strong>Whenever you cast a noncreature spell: creatures you control get +1/+1 and untap; you may draw then discard</strong> — the engine that pumps the team and digs to the combo."
    ],
    [
     "Expedite",
-    "<strong>Haste + draw a card</strong> — a cantrip that lets Shu Yun swing immediately. <em>(Oracle: Target creature gains haste until end of turn. Draw a card.…)</em>"
+    "<strong>Haste + draw a card</strong> — a cantrip that lets Shu Yun swing immediately."
    ],
    [
     "Path to Exile",
-    "Exile target creature; its controller may search for a basic land — second white removal. <em>(Oracle: Exile target creature. Its controller may search their library for a basic land card, put that …)</em>"
+    "Exile target creature; its controller may search for a basic land — second white removal."
    ]
   ],
   "Creatures": [
    [
     "Monastery Mentor",
-    "Prowess; <strong>whenever you cast a noncreature spell, create a 1/1 Monk token with prowess</strong> — the go-wide engine that also swings for commander damage. <em>(Oracle: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) Wh…)</em>"
+    "Prowess; <strong>whenever you cast a noncreature spell, create a 1/1 Monk token with prowess</strong> — the go-wide engine that also swings for commander damage."
    ],
    [
     "Feather, the Redeemed",
-    "Flying; <strong>instants/sorceries that target your creature return to hand instead of the graveyard</strong> — recast your cantrips every turn, Shu Yun's best friend. <em>(Oracle: Flying Whenever you cast an instant or sorcery spell that targets a creature you control, exile…)</em>"
+    "Flying; <strong>instants/sorceries that target your creature return to hand instead of the graveyard</strong> — recast your cantrips every turn, Shu Yun's best friend."
    ],
    [
     "Storm-Kiln Artist",
-    "<strong>+1/+0 per artifact; magecraft: create a Treasure</strong> — every cantrip ramps you while the creature grows. <em>(Oracle: This creature gets +1/+0 for each artifact you control. Magecraft — Whenever you cast or copy a…)</em>"
+    "<strong>+1/+0 per artifact; magecraft: create a Treasure</strong> — every cantrip ramps you while the creature grows."
    ],
    [
     "Kykar, Wind's Fury",
-    "Flying; <strong>noncreature spell → Spirit token; sacrifice a Spirit: add {R}</strong> — token + ramp engine in one. <em>(Oracle: Flying Whenever you cast a noncreature spell, create a 1/1 white Spirit creature token with fly…)</em>"
+    "Flying; <strong>noncreature spell → Spirit token; sacrifice a Spirit: add {R}</strong> — token + ramp engine in one."
    ],
    [
     "Archmage Emeritus",
-    "<strong>Magecraft: whenever you cast or copy an instant or sorcery, draw a card</strong> — a cantrip chain draws the whole deck. <em>(Oracle: Magecraft — Whenever you cast or copy an instant or sorcery spell, draw a card.…)</em>"
+    "<strong>Magecraft: whenever you cast or copy an instant or sorcery, draw a card</strong> — a cantrip chain draws the whole deck."
    ],
    [
     "Young Pyromancer",
-    "<strong>Whenever you cast an instant or sorcery, create a 1/1 Elemental</strong> — the classic token engine. <em>(Oracle: Whenever you cast an instant or sorcery spell, create a 1/1 red Elemental creature token.…)</em>"
+    "<strong>Whenever you cast an instant or sorcery, create a 1/1 Elemental</strong> — the classic token engine."
    ]
   ],
   "Instants": [
    [
     "Brute Force",
-    "<strong>+3/+3 until end of turn</strong> — a one-mana pump that pushes Shu Yun past the 21 commander-damage line. <em>(Oracle: Target creature gets +3/+3 until end of turn.…)</em>"
+    "<strong>+3/+3 until end of turn</strong> — a one-mana pump that pushes Shu Yun past the 21 commander-damage line."
    ],
    [
     "Fists of Flame",
-    "Draw a card; <strong>trample and +1/+0 for each card drawn this turn</strong> — the finisher that scales with your cantrip count. <em>(Oracle: Draw a card. Until end of turn, target creature gains trample and gets +1/+0 for each card you'…)</em>"
+    "Draw a card; <strong>trample and +1/+0 for each card drawn this turn</strong> — the finisher that scales with your cantrip count."
    ],
    [
     "Counterspell",
-    "Counter target spell — the blue safety net for your Voltron turn. <em>(Oracle: Counter target spell.…)</em>"
+    "Counter target spell — the blue safety net for your Voltron turn."
    ],
    [
     "Leap",
-    "<strong>Flying until end of turn, draw a card</strong> — a cantrip that also dodges ground blockers. <em>(Oracle: Target creature gains flying until end of turn. Draw a card.…)</em>"
+    "<strong>Flying until end of turn, draw a card</strong> — a cantrip that also dodges ground blockers."
    ],
    [
     "Legion Leadership",
-    "<strong>Double target creature's power and give it first strike</strong> (or MDFC land) — an extra double-power effect for Shu Yun. <em>(Oracle: Until end of turn, double target creature's power and it gains first strike. // This land enter…)</em>"
+    "<strong>Double target creature's power and give it first strike</strong> (or MDFC land) — an extra double-power effect for Shu Yun."
    ],
    [
     "Loran's Escape",
-    "<strong>Hexproof + indestructible until end of turn, scry 1</strong> — the protection cantrip. <em>(Oracle: Target artifact or creature gains hexproof and indestructible until end of turn. Scry 1.…)</em>"
+    "<strong>Hexproof + indestructible until end of turn, scry 1</strong> — the protection cantrip."
    ]
   ],
   "Sorceries": [
    [
     "Crash Through",
-    "<strong>Creatures you control gain trample; draw a card</strong> — the cantrip that pushes damage through blockers. <em>(Oracle: Creatures you control gain trample until end of turn. (Each of those creatures can deal excess …)</em>"
+    "<strong>Creatures you control gain trample; draw a card</strong> — the cantrip that pushes damage through blockers."
    ],
    [
     "Preordain",
-    "<strong>Scry 2, then draw</strong> — the classic blue cantrip. <em>(Oracle: Scry 2, then draw a card. (To scry 2, look at the top two cards of your library, then put any n…)</em>"
+    "<strong>Scry 2, then draw</strong> — the classic blue cantrip."
    ],
    [
     "Ponder",
-    "<strong>Look at top 3, reorder, draw; may shuffle</strong> — the other classic cantrip. <em>(Oracle: Look at the top three cards of your library, then put them back in any order. You may shuffle. …)</em>"
+    "<strong>Look at top 3, reorder, draw; may shuffle</strong> — the other classic cantrip."
    ],
    [
     "Enter the Enigma",
-    "<strong>Can't be blocked this turn; draw a card</strong> — another unblockable cantrip. <em>(Oracle: Target creature can't be blocked this turn. Draw a card.…)</em>"
+    "<strong>Can't be blocked this turn; draw a card</strong> — another unblockable cantrip."
    ],
    [
     "Gitaxian Probe",
-    "<strong>Look at target player's hand, draw a card</strong> — a free (2 life) cantrip that sees everything. <em>(Oracle: ({U/P} can be paid with either {U} or 2 life.) Look at target player's hand. Draw a card.…)</em>"
+    "<strong>Look at target player's hand, draw a card</strong> — a free (2 life) cantrip that sees everything."
    ],
    [
     "Serum Visions",
-    "<strong>Draw a card, scry 2</strong> — the third classic cantrip. <em>(Oracle: Draw a card. Scry 2.…)</em>"
+    "<strong>Draw a card, scry 2</strong> — the third classic cantrip."
    ]
   ],
   "Artifacts": [
    [
     "Runechanter's Pike",
-    "<strong>First strike and +X/+0 where X = instant/sorceries in your graveyard</strong> — with a graveyard full of cantrips, Shu Yun one-shots. Equip {2}. <em>(Oracle: Equipped creature has first strike and gets +X/+0, where X is the number of instant and sorcery…)</em>"
+    "<strong>First strike and +X/+0 where X = instant/sorceries in your graveyard</strong> — with a graveyard full of cantrips, Shu Yun one-shots. Equip {2}."
    ],
    [
     "Inquisitor's Flail",
-    "<strong>Equipped creature deals double combat damage</strong> — stacks with Shu Yun's double strike for 4× damage. <em>(Oracle: If equipped creature would deal combat damage, it deals double that damage instead. If another …)</em>"
+    "<strong>Equipped creature deals double combat damage</strong> — stacks with Shu Yun's double strike for 4× damage."
    ],
    [
     "Sunforger",
-    "<strong>+4/+0; {R}{W}, unattach: tutor a red/white instant with MV ≤ 4 and cast it free</strong> — fetch Unleash Fury or protection at will. <em>(Oracle: Equipped creature gets +4/+0. {R}{W}, Unattach this Equipment: Search your library for a red or…)</em>"
+    "<strong>+4/+0; {R}{W}, unattach: tutor a red/white instant with MV ≤ 4 and cast it free</strong> — fetch Unleash Fury or protection at will."
    ],
    [
     "Wayfarer's Bauble",
-    "{2}, {T}, sacrifice: search for a basic land — 1-mana ramp. <em>(Oracle: {2}, {T}, Sacrifice this artifact: Search your library for a basic land card, put that card ont…)</em>"
+    "{2}, {T}, sacrifice: search for a basic land — 1-mana ramp."
    ],
    [
     "Leering Emblem",
-    "<strong>Whenever you cast a spell, equipped creature gets +2/+2</strong> — every cantrip pumps Shu Yun even more. Equip {2}. <em>(Oracle: Whenever you cast a spell, equipped creature gets +2/+2 until end of turn. Equip {2}…)</em>"
+    "<strong>Whenever you cast a spell, equipped creature gets +2/+2</strong> — every cantrip pumps Shu Yun even more. Equip {2}."
    ]
   ],
   "Enchantments": [
    [
     "Combat Research",
-    "Enchanted creature: <strong>\"Whenever it deals combat damage to a player, draw a card\"; if legendary, +1/+1 and ward {1}</strong> — the perfect Shu Yun aura. <em>(Oracle: Enchant creature Enchanted creature has \"Whenever this creature deals combat damage to a player…)</em>"
+    "Enchanted creature: <strong>\"Whenever it deals combat damage to a player, draw a card\"; if legendary, +1/+1 and ward {1}</strong> — the perfect Shu Yun aura."
    ],
    [
     "Staggering Insight",
-    "<strong>+1/+1, lifelink, and draw on combat damage</strong> — lifegain + card advantage on Shu Yun. <em>(Oracle: Enchant creature Enchanted creature gets +1/+1 and has lifelink and \"Whenever this creature dea…)</em>"
+    "<strong>+1/+1, lifelink, and draw on combat damage</strong> — lifegain + card advantage on Shu Yun."
    ],
    [
     "Curiosity",
-    "<strong>Whenever enchanted creature deals damage to an opponent, you may draw a card</strong> — repeatable draw on an unblockable Shu Yun. <em>(Oracle: Enchant creature Whenever enchanted creature deals damage to an opponent, you may draw a card.…)</em>"
+    "<strong>Whenever enchanted creature deals damage to an opponent, you may draw a card</strong> — repeatable draw on an unblockable Shu Yun."
    ],
    [
     "Spirit Mantle",
-    "<strong>+1/+1 and protection from creatures</strong> — Shu Yun can't be blocked or targeted by creatures. <em>(Oracle: Enchant creature Enchanted creature gets +1/+1 and has protection from creatures.…)</em>"
+    "<strong>+1/+1 and protection from creatures</strong> — Shu Yun can't be blocked or targeted by creatures."
    ],
    [
     "Cartouche of Knowledge",
-    "Draw a card on entry; <strong>+1/+1 and flying</strong> — aura cantrip that dodges ground blockers. <em>(Oracle: Enchant creature you control When this Aura enters, draw a card. Enchanted creature gets +1/+1 …)</em>"
+    "Draw a card on entry; <strong>+1/+1 and flying</strong> — aura cantrip that dodges ground blockers."
    ]
   ],
   "Planeswalkers": [
    [
     "Saheeli, Sublime Artificer",
-    "<strong>Noncreature spell → Servo token; −2: copy an artifact/creature</strong> — token engine + copy utility. <em>(Oracle: Whenever you cast a noncreature spell, create a 1/1 colorless Servo artifact creature token. −2…)</em>"
+    "<strong>Noncreature spell → Servo token; −2: copy an artifact/creature</strong> — token engine + copy utility."
    ],
    [
     "Jeska, Thrice Reborn",
-    "<strong>0: until your next turn, target creature deals triple damage</strong> — triple commander damage with Shu Yun. <em>(Oracle: Jeska enters with a loyalty counter on her for each time you've cast a commander from the comma…)</em>"
+    "<strong>0: until your next turn, target creature deals triple damage</strong> — triple commander damage with Shu Yun."
    ],
    [
     "Narset of the Ancient Way",
-    "+1: gain 2 life, add {U}/{R}/{W} for noncreature spells; −2: draw and discard — walker cantrip engine. <em>(Oracle: +1: You gain 2 life. Add {U}, {R}, or {W}. Spend this mana only to cast a noncreature spell. −2…)</em>"
+    "+1: gain 2 life, add {U}/{R}/{W} for noncreature spells; −2: draw and discard — walker cantrip engine."
    ]
   ],
   "UtilityLands": [
    [
     "Rogue's Passage",
-    "{4}, {T}: <strong>target creature can't be blocked this turn</strong> — guarantee Shu Yun connects. <em>(Oracle: {T}: Add {C}. {4}, {T}: Target creature can't be blocked this turn.…)</em>"
+    "{4}, {T}: <strong>target creature can't be blocked this turn</strong> — guarantee Shu Yun connects."
    ],
    [
     "Slayers' Stronghold",
-    "{R}{W}, {T}: <strong>+2/+0, vigilance and haste</strong> — pump + haste from a land. <em>(Oracle: {T}: Add {C}. {R}{W}, {T}: Target creature gets +2/+0 and gains vigilance and haste until end o…)</em>"
+    "{R}{W}, {T}: <strong>+2/+0, vigilance and haste</strong> — pump + haste from a land."
    ],
    [
     "Mystic Sanctuary",
-    "On entry (if untapped): <strong>put an instant/sorcery from your graveyard on top</strong> — recur your key spells. <em>(Oracle: ({T}: Add {U}.) This land enters tapped unless you control three or more other Islands. When th…)</em>"
+    "On entry (if untapped): <strong>put an instant/sorcery from your graveyard on top</strong> — recur your key spells."
    ],
    [
     "Reliquary Tower",
-    "<strong>No maximum hand size</strong> — hold your cantrip chains. <em>(Oracle: You have no maximum hand size. {T}: Add {C}.…)</em>"
+    "<strong>No maximum hand size</strong> — hold your cantrip chains."
    ],
    [
     "Access Tunnel",
-    "{3}, {T}: <strong>creature with power 3 or less can't be blocked</strong> — Shu Yun (3 power) unblockable from a land. <em>(Oracle: {T}: Add {C}. {3}, {T}: Target creature with power 3 or less can't be blocked this turn.…)</em>"
+    "{3}, {T}: <strong>creature with power 3 or less can't be blocked</strong> — Shu Yun (3 power) unblockable from a land."
    ]
   ],
   "ManaBase": [
    [
     "Island",
-    "({T}: add {U}.) The basic blue source. <em>(Oracle: ({T}: Add {U}.)…)</em>"
+    "({T}: add {U}.) The basic blue source."
    ],
    [
     "Mountain",
-    "({T}: add {R}.) The basic red source. <em>(Oracle: ({T}: Add {R}.)…)</em>"
+    "({T}: add {R}.) The basic red source."
    ],
    [
     "Plains",
-    "({T}: add {W}.) The basic white source. <em>(Oracle: ({T}: Add {W}.)…)</em>"
+    "({T}: add {W}.) The basic white source."
    ],
    [
     "Command Tower",
-    "{T}: add one mana of any color in your commander's color identity — the format's best land. <em>(Oracle: {T}: Add one mana of any color in your commander's color identity.…)</em>"
+    "{T}: add one mana of any color in your commander's color identity — the format's best land."
    ],
    [
     "Arcane Signet",
-    "{T}: add one mana of any color in your commander's color identity — the best mana rock. <em>(Oracle: {T}: Add one mana of any color in your commander's color identity.…)</em>"
+    "{T}: add one mana of any color in your commander's color identity — the best mana rock."
    ],
    [
     "Sol Ring",
-    "{T}: add {C}{C} — the format's best ramp. <em>(Oracle: {T}: Add {C}{C}.…)</em>"
+    "{T}: add {C}{C} — the format's best ramp."
    ]
   ]
  },

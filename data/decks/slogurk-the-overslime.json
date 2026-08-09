@@ -3149,245 +3149,245 @@
   "HighSynergy": [
    [
     "Zuran Orb",
-    "The land-sacrifice outlet: <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, sacrifice a land: you gain 2 life. Every sacrificed land makes Slogurk grow (+1/+1) while keeping you alive — the engine's pressure valve. <em>(Oracle: Sacrifice a land: You gain 2 life.…)</em>"
+    "The land-sacrifice outlet: <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, sacrifice a land: you gain 2 life. Every sacrificed land makes Slogurk grow (+1/+1) while keeping you alive — the engine's pressure valve."
    ],
    [
     "Life from the Loam",
-    "Return up to three target land cards from your graveyard to your hand, with <strong>dredge 3</strong> — each draw can mill three and return Loam to hand instead. The infinite recursion engine of the deck. <em>(Oracle: Return up to three target land cards from your graveyard to your hand. Dredge 3 (If you wo…)</em>"
+    "Return up to three target land cards from your graveyard to your hand, with <strong>dredge 3</strong> — each draw can mill three and return Loam to hand instead. The infinite recursion engine of the deck."
    ],
    [
     "Tranquil Thicket",
-    "Enters tapped, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/>. <strong>Cycling <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/></strong>: discard it, draw a card — the land that discards, mills and grows Slogurk, then comes back via Loam. <em>(Oracle: This land enters tapped. {T}: Add {G}. Cycling {G} ({G}, Discard this card: Draw a card.)…)</em>"
+    "Enters tapped, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/>. <strong>Cycling <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/></strong>: discard it, draw a card — the land that discards, mills and grows Slogurk, then comes back via Loam."
    ],
    [
     "Lonely Sandbar",
-    "Enters tapped, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/>. <strong>Cycling <img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/></strong> — the blue twin of Tranquil Thicket, fuel for Loam and for Slogurk's counters. <em>(Oracle: This land enters tapped. {T}: Add {U}. Cycling {U} ({U}, Discard this card: Draw a card.)…)</em>"
+    "Enters tapped, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/>. <strong>Cycling <img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/></strong> — the blue twin of Tranquil Thicket, fuel for Loam and for Slogurk's counters."
    ],
    [
     "Splendid Reclamation",
-    "Return <strong>all land cards from your graveyard</strong> to the battlefield tapped — the bomb that turns your stocked graveyard into an explosive board, replaying every fetch, cycling land and sacrificed land at once. <em>(Oracle: Return all land cards from your graveyard to the battlefield tapped.…)</em>"
+    "Return <strong>all land cards from your graveyard</strong> to the battlefield tapped — the bomb that turns your stocked graveyard into an explosive board, replaying every fetch, cycling land and sacrificed land at once."
    ],
    [
     "Sylvan Safekeeper",
-    "Sacrifice a land: target creature you control gains <strong>shroud</strong> until end of turn — protects Slogurk from targeted removal AND grows him (+1/+1) in the same activation. <em>(Oracle: Sacrifice a land: Target creature you control gains shroud until end of turn. (It can't be…)</em>"
+    "Sacrifice a land: target creature you control gains <strong>shroud</strong> until end of turn — protects Slogurk from targeted removal AND grows him (+1/+1) in the same activation."
    ]
   ],
   "TopCards": [
    [
     "Tatyova, Benthic Druid",
-    "<strong>Landfall</strong> — whenever a land you control enters, you gain 1 life and draw a card. Every land replayed (Loam, fetches, extra-land drops) becomes a draw. <em>(Oracle: Landfall — Whenever a land you control enters, you gain 1 life and draw a card.…)</em>"
+    "<strong>Landfall</strong> — whenever a land you control enters, you gain 1 life and draw a card. Every land replayed (Loam, fetches, extra-land drops) becomes a draw."
    ],
    [
     "Azusa, Lost but Seeking",
-    "You may play <strong>two additional lands</strong> on each of your turns — up to three lands per turn, three landfall triggers, three Slogurk-fueling deaths. <em>(Oracle: You may play two additional lands on each of your turns.…)</em>"
+    "You may play <strong>two additional lands</strong> on each of your turns — up to three lands per turn, three landfall triggers, three Slogurk-fueling deaths."
    ],
    [
     "Harrow",
-    "As an additional cost, sacrifice a land; search for up to two basic lands and put them onto the battlefield — ramp that also triggers Slogurk twice (the sacrifice + the two fetches' deaths). <em>(Oracle: As an additional cost to cast this spell, sacrifice a land. Search your library for up to …)</em>"
+    "As an additional cost, sacrifice a land; search for up to two basic lands and put them onto the battlefield — ramp that also triggers Slogurk twice (the sacrifice + the two fetches' deaths)."
    ],
    [
     "Beast Within",
-    "Destroy any permanent; its controller creates a 3/3 green Beast token — the flexible answer to anything, from a planeswalker to an enchantment. <em>(Oracle: Destroy target permanent. Its controller creates a 3/3 green Beast creature token.…)</em>"
+    "Destroy any permanent; its controller creates a 3/3 green Beast token — the flexible answer to anything, from a planeswalker to an enchantment."
    ],
    [
     "Six",
-    "<strong>Reach</strong>; whenever Six attacks, mill three cards and you may put a land card from among them into your hand. During your turn, <strong>nonland permanent cards in your graveyard have retrace</strong> — massive recursion from the bin. <em>(Oracle: Reach Whenever Six attacks, mill three cards. You may put a land card from among them into…)</em>"
+    "<strong>Reach</strong>; whenever Six attacks, mill three cards and you may put a land card from among them into your hand. During your turn, <strong>nonland permanent cards in your graveyard have retrace</strong> — massive recursion from the bin."
    ],
    [
     "Exploration",
-    "You may play an additional land on each of your turns — the 1-mana extra-land drop that accelerates the whole engine. <em>(Oracle: You may play an additional land on each of your turns.…)</em>"
+    "You may play an additional land on each of your turns — the 1-mana extra-land drop that accelerates the whole engine."
    ]
   ],
   "Creatures": [
    [
     "Titania, Protector of Argoth",
-    "When she enters, return a land card from your graveyard to the battlefield. Whenever a land you control dies, create a <strong>5/3 green Elemental</strong> — your sacrificed lands become an army. <em>(Oracle: When Titania enters, return target land card from your graveyard to the battlefield. Whene…)</em>"
+    "When she enters, return a land card from your graveyard to the battlefield. Whenever a land you control dies, create a <strong>5/3 green Elemental</strong> — your sacrificed lands become an army."
    ],
    [
     "Ramunap Excavator",
-    "You may play lands from your graveyard — the Crucible of Worlds on legs, replaying every sacrificed or milled land each turn. <em>(Oracle: You may play lands from your graveyard.…)</em>"
+    "You may play lands from your graveyard — the Crucible of Worlds on legs, replaying every sacrificed or milled land each turn."
    ],
    [
     "Aftermath Analyst",
-    "When it enters, mill three cards. <img src=\"https://svgs.scryfall.io/card-symbols/3.svg\" alt=\"3\" title=\"3\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/>, sacrifice it: return all land cards from your graveyard to the battlefield tapped — mill plus reclamation in a single creature. <em>(Oracle: When this creature enters, mill three cards. (Put the top three cards of your library into…)</em>"
+    "When it enters, mill three cards. <img src=\"https://svgs.scryfall.io/card-symbols/3.svg\" alt=\"3\" title=\"3\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/>, sacrifice it: return all land cards from your graveyard to the battlefield tapped — mill plus reclamation in a single creature."
    ],
    [
     "Lotus Cobra",
-    "<strong>Landfall</strong> — whenever a land you control enters, add one mana of any color. Every land replayed is free mana; the combo piece of the infinite landfall loops. <em>(Oracle: Landfall — Whenever a land you control enters, add one mana of any color.…)</em>"
+    "<strong>Landfall</strong> — whenever a land you control enters, add one mana of any color. Every land replayed is free mana; the combo piece of the infinite landfall loops."
    ],
    [
     "Scute Swarm",
-    "<strong>Landfall</strong> — whenever a land you control enters, create a 1/1 Insect token; with six or more lands, create a <strong>copy of Scute Swarm</strong> instead — the exponential army. <em>(Oracle: Landfall — Whenever a land you control enters, create a 1/1 green Insect creature token. I…)</em>"
+    "<strong>Landfall</strong> — whenever a land you control enters, create a 1/1 Insect token; with six or more lands, create a <strong>copy of Scute Swarm</strong> instead — the exponential army."
    ],
    [
     "Tireless Provisioner",
-    "<strong>Landfall</strong> — whenever a land you control enters, create a Food token or a Treasure token — ramp and lifegain on every land drop. <em>(Oracle: Landfall — Whenever a land you control enters, create a Food token or a Treasure token. (F…)</em>"
+    "<strong>Landfall</strong> — whenever a land you control enters, create a Food token or a Treasure token — ramp and lifegain on every land drop."
    ]
   ],
   "Instants": [
    [
     "Growth Spiral",
-    "Draw a card; you may put a land card from your hand onto the battlefield — draw plus ramp for <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/>. <em>(Oracle: Draw a card. You may put a land card from your hand onto the battlefield.…)</em>"
+    "Draw a card; you may put a land card from your hand onto the battlefield — draw plus ramp for <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/>."
    ],
    [
     "Harrow",
-    "As an additional cost, sacrifice a land; search for up to two basic lands and put them onto the battlefield tapped — ramp that triggers Slogurk. <em>(Oracle: As an additional cost to cast this spell, sacrifice a land. Search your library for up to …)</em>"
+    "As an additional cost, sacrifice a land; search for up to two basic lands and put them onto the battlefield tapped — ramp that triggers Slogurk."
    ],
    [
     "Beast Within",
-    "Destroy any permanent; its controller creates a 3/3 Beast token — flexible removal for any permanent type. <em>(Oracle: Destroy target permanent. Its controller creates a 3/3 green Beast creature token.…)</em>"
+    "Destroy any permanent; its controller creates a 3/3 Beast token — flexible removal for any permanent type."
    ],
    [
     "Pongify",
-    "Destroy target creature; it can't be regenerated and its controller creates a 3/3 green Ape token — the 1-mana green removal. <em>(Oracle: Destroy target creature. It can't be regenerated. Its controller creates a 3/3 green Ape c…)</em>"
+    "Destroy target creature; it can't be regenerated and its controller creates a 3/3 green Ape token — the 1-mana green removal."
    ],
    [
     "Cyclonic Rift",
-    "Return target nonland permanent you don't control to its owner's hand; <strong>overload <img src=\"https://svgs.scryfall.io/card-symbols/6.svg\" alt=\"6\" title=\"6\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/></strong> returns every nonland permanent your opponents control — the mass bounce. <em>(Oracle: Return target nonland permanent you don't control to its owner's hand. Overload {6}{U} (Yo…)</em>"
+    "Return target nonland permanent you don't control to its owner's hand; <strong>overload <img src=\"https://svgs.scryfall.io/card-symbols/6.svg\" alt=\"6\" title=\"6\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/></strong> returns every nonland permanent your opponents control — the mass bounce."
    ],
    [
     "Heroic Intervention",
-    "Permanents you control gain <strong>hexproof and indestructible</strong> until end of turn — protects Slogurk and your land engine from wipes and targeted removal. <em>(Oracle: Permanents you control gain hexproof and indestructible until end of turn.…)</em>"
+    "Permanents you control gain <strong>hexproof and indestructible</strong> until end of turn — protects Slogurk and your land engine from wipes and targeted removal."
    ]
   ],
   "Sorceries": [
    [
     "Splendid Reclamation",
-    "Return all land cards from your graveyard to the battlefield tapped — the end-game bomb that converts your stocked bin into an explosive board. <em>(Oracle: Return all land cards from your graveyard to the battlefield tapped.…)</em>"
+    "Return all land cards from your graveyard to the battlefield tapped — the end-game bomb that converts your stocked bin into an explosive board."
    ],
    [
     "Life from the Loam",
-    "Return up to three target land cards from your graveyard to your hand, with dredge 3 — the engine that refills your hand and your graveyard every turn. <em>(Oracle: Return up to three target land cards from your graveyard to your hand. Dredge 3 (If you wo…)</em>"
+    "Return up to three target land cards from your graveyard to your hand, with dredge 3 — the engine that refills your hand and your graveyard every turn."
    ],
    [
     "Cultivate",
-    "Search for up to two basic lands: put one onto the battlefield tapped and the other into your hand — standard ramp. <em>(Oracle: Search your library for up to two basic land cards, reveal those cards, put one onto the b…)</em>"
+    "Search for up to two basic lands: put one onto the battlefield tapped and the other into your hand — standard ramp."
    ],
    [
     "Walk the Aeons",
-    "Target player takes an extra turn, with <strong>buyback — sacrifice three Islands</strong>. With Azusa or Ramunap Excavator replaying the sacrificed Islands, this loops into infinite turns. <em>(Oracle: Buyback—Sacrifice three Islands. (You may sacrifice three Islands in addition to any other…)</em>"
+    "Target player takes an extra turn, with <strong>buyback — sacrifice three Islands</strong>. With Azusa or Ramunap Excavator replaying the sacrificed Islands, this loops into infinite turns."
    ],
    [
     "Scapeshift",
-    "Sacrifice any number of lands, then search for up to that many lands and put them onto the battlefield tapped — the mass sacrifice that triggers Slogurk X times and refills the graveyard. <em>(Oracle: Sacrifice any number of lands. Search your library for up to that many land cards, put the…)</em>"
+    "Sacrifice any number of lands, then search for up to that many lands and put them onto the battlefield tapped — the mass sacrifice that triggers Slogurk X times and refills the graveyard."
    ],
    [
     "Constant Mists",
-    "As an additional cost, sacrifice a land; prevent all combat damage that would be dealt this turn, with <strong>buyback</strong> — the repeatable fog that also feeds Slogurk. <em>(Oracle: Buyback—Sacrifice a land. (You may sacrifice a land in addition to any other costs as you …)</em>"
+    "As an additional cost, sacrifice a land; prevent all combat damage that would be dealt this turn, with <strong>buyback</strong> — the repeatable fog that also feeds Slogurk."
    ]
   ],
   "Artifacts": [
    [
     "Zuran Orb",
-    "Sacrifice a land: you gain 2 life — see High Synergy for the full breakdown. <em>(Oracle: Sacrifice a land: You gain 2 life.…)</em>"
+    "Sacrifice a land: you gain 2 life — see High Synergy for the full breakdown."
    ],
    [
     "Crucible of Worlds",
-    "You may play lands from your graveyard — the Loam engine in artifact form, replaying sacrificed and milled lands every turn. <em>(Oracle: You may play lands from your graveyard.…)</em>"
+    "You may play lands from your graveyard — the Loam engine in artifact form, replaying sacrificed and milled lands every turn."
    ],
    [
     "Lotus Field",
-    "<strong>Hexproof</strong>; enters tapped and you sacrifice two lands as it enters. <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add three mana of any one color — the mana bomb that fills Slogurk's graveyard with two lands. <em>(Oracle: Hexproof This land enters tapped. When this land enters, sacrifice two lands. {T}: Add thr…)</em>"
+    "<strong>Hexproof</strong>; enters tapped and you sacrifice two lands as it enters. <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add three mana of any one color — the mana bomb that fills Slogurk's graveyard with two lands."
    ],
    [
     "Amulet of Vigor",
-    "Whenever a permanent you control enters tapped, untap it — turns your tapped lands and bouncelands into immediate mana; the piece of the Lumra/Mirrorpool loops. <em>(Oracle: Whenever a permanent you control enters tapped, untap it.…)</em>"
+    "Whenever a permanent you control enters tapped, untap it — turns your tapped lands and bouncelands into immediate mana; the piece of the Lumra/Mirrorpool loops."
    ],
    [
     "Expedition Map",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, sacrifice this artifact: search your library for a land card and put it into your hand — the land tutor that finds Dark Depths or Lotus Field. <em>(Oracle: {2}, {T}, Sacrifice this artifact: Search your library for a land card, reveal it, put it …)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, sacrifice this artifact: search your library for a land card and put it into your hand — the land tutor that finds Dark Depths or Lotus Field."
    ],
    [
     "Reliquary Tower",
-    "You have no maximum hand size; <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/C.svg\" alt=\"C\" title=\"C\" class=\"ms\"/> — keep the massive draw from Tatyova and Loam. <em>(Oracle: You have no maximum hand size. {T}: Add {C}.…)</em>"
+    "You have no maximum hand size; <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/C.svg\" alt=\"C\" title=\"C\" class=\"ms\"/> — keep the massive draw from Tatyova and Loam."
    ]
   ],
   "Enchantments": [
    [
     "Trade Routes",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/1.svg\" alt=\"1\" title=\"1\" class=\"ms\"/>: return target land you control to its owner's hand; <img src=\"https://svgs.scryfall.io/card-symbols/1.svg\" alt=\"1\" title=\"1\" class=\"ms\"/>, discard a land card: draw a card — the bounce plus draw loop. <em>(Oracle: {1}: Return target land you control to its owner's hand. {1}, Discard a land card: Draw a …)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/1.svg\" alt=\"1\" title=\"1\" class=\"ms\"/>: return target land you control to its owner's hand; <img src=\"https://svgs.scryfall.io/card-symbols/1.svg\" alt=\"1\" title=\"1\" class=\"ms\"/>, discard a land card: draw a card — the bounce plus draw loop."
    ],
    [
     "Exploration",
-    "You may play an additional land on each of your turns — see Top Cards. <em>(Oracle: You may play an additional land on each of your turns.…)</em>"
+    "You may play an additional land on each of your turns — see Top Cards."
    ],
    [
     "Rampaging Baloths",
-    "<strong>Trample</strong>; <strong>landfall</strong> — whenever a land you control enters, create a 4/4 green Beast token — the landfall army. <em>(Oracle: Trample Landfall — Whenever a land you control enters, create a 4/4 green Beast creature t…)</em>"
+    "<strong>Trample</strong>; <strong>landfall</strong> — whenever a land you control enters, create a 4/4 green Beast token — the landfall army."
    ],
    [
     "Retreat to Coralhelm",
-    "<strong>Landfall</strong> — whenever a land you control enters, choose one: tap or untap target creature, or scry 1 — the untap piece of the infinite landfall combos. <em>(Oracle: Landfall — Whenever a land you control enters, choose one — • You may tap or untap target …)</em>"
+    "<strong>Landfall</strong> — whenever a land you control enters, choose one: tap or untap target creature, or scry 1 — the untap piece of the infinite landfall combos."
    ],
    [
     "Burgeoning",
-    "Whenever an opponent plays a land, you may put a land card from your hand onto the battlefield — free ramp that rides every opponent's land drop. <em>(Oracle: Whenever an opponent plays a land, you may put a land card from your hand onto the battlef…)</em>"
+    "Whenever an opponent plays a land, you may put a land card from your hand onto the battlefield — free ramp that rides every opponent's land drop."
    ],
    [
     "Abundance",
-    "If you would draw a card, you may instead reveal cards until you reveal a land or nonland of your choice and put it into your hand — perfect draw control for the engine. <em>(Oracle: If you would draw a card, you may instead choose land or nonland and reveal cards from the…)</em>"
+    "If you would draw a card, you may instead reveal cards until you reveal a land or nonland of your choice and put it into your hand — perfect draw control for the engine."
    ]
   ],
   "Planeswalkers": [
    [
     "Wrenn and Seven",
-    "+1: reveal the top four cards, put all lands into your hand and the rest into your graveyard; 0: put any number of lands from your hand onto the battlefield tapped; −3: create an X/X Treefolk token (X = lands you control); −8: return all permanents from your graveyard to your hand plus a no-hand-size emblem — the perfect lands planeswalker. <em>(Oracle: +1: Reveal the top four cards of your library. Put all land cards revealed this way into y…)</em>"
+    "+1: reveal the top four cards, put all lands into your hand and the rest into your graveyard; 0: put any number of lands from your hand onto the battlefield tapped; −3: create an X/X Treefolk token (X = lands you control); −8: return all permanents from your graveyard to your hand plus a no-hand-size emblem — the perfect lands planeswalker."
    ],
    [
     "Tamiyo, Collector of Tales",
-    "Spells and abilities your opponents control can't cause you to discard or sacrifice permanents; +1: name a nonland card, reveal the top four, put the named cards into your hand and the rest into your graveyard; −3: return a card from your graveyard to your hand — the protected recursion. <em>(Oracle: Spells and abilities your opponents control can't cause you to discard cards or sacrifice …)</em>"
+    "Spells and abilities your opponents control can't cause you to discard or sacrifice permanents; +1: name a nonland card, reveal the top four, put the named cards into your hand and the rest into your graveyard; −3: return a card from your graveyard to your hand — the protected recursion."
    ]
   ],
   "UtilityLands": [
    [
     "Strip Mine",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, sacrifice this land: destroy target land — land destruction that is replayed in a loop thanks to Loam and Ramunap Excavator. <em>(Oracle: {T}: Add {C}. {T}, Sacrifice this land: Destroy target land.…)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, sacrifice this land: destroy target land — land destruction that is replayed in a loop thanks to Loam and Ramunap Excavator."
    ],
    [
     "Wasteland",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, sacrifice this land: destroy target nonbasic land — the second Strip Mine. <em>(Oracle: {T}: Add {C}. {T}, Sacrifice this land: Destroy target nonbasic land.…)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, sacrifice this land: destroy target nonbasic land — the second Strip Mine."
    ],
    [
     "Ghost Quarter",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, sacrifice this land: destroy target land; its controller may search for a basic land — flexible land hate that fuels your own graveyard. <em>(Oracle: {T}: Add {C}. {T}, Sacrifice this land: Destroy target land. Its controller may search the…)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, sacrifice this land: destroy target land; its controller may search for a basic land — flexible land hate that fuels your own graveyard."
    ],
    [
     "Dark Depths",
-    "Enters with ten ice counters; remove the last to sacrifice it and create <strong>Marit Lage, a legendary 20/20 black Avatar token with flying and indestructible</strong> — the land-based finisher. <em>(Oracle: Dark Depths enters with ten ice counters on it. {3}: Remove an ice counter from Dark Depth…)</em>"
+    "Enters with ten ice counters; remove the last to sacrifice it and create <strong>Marit Lage, a legendary 20/20 black Avatar token with flying and indestructible</strong> — the land-based finisher."
    ],
    [
     "Simic Growth Chamber",
-    "Enters tapped and returns a land you control to its owner's hand; <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/> — the bounceland, key piece of the Kodama loops. <em>(Oracle: This land enters tapped. When this land enters, return a land you control to its owner's h…)</em>"
+    "Enters tapped and returns a land you control to its owner's hand; <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/> — the bounceland, key piece of the Kodama loops."
    ],
    [
     "Misty Rainforest",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, pay 1 life, sacrifice this land: search for a Forest or Island and put it onto the battlefield — the fetchland that fills the graveyard and triggers landfall. <em>(Oracle: {T}, Pay 1 life, Sacrifice this land: Search your library for a Forest or Island card, put…)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, pay 1 life, sacrifice this land: search for a Forest or Island and put it onto the battlefield — the fetchland that fills the graveyard and triggers landfall."
    ]
   ],
   "ManaBase": [
    [
     "Command Tower",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add one mana of any color in your commander's color identity — the universal fixing land. <em>(Oracle: {T}: Add one mana of any color in your commander's color identity.…)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add one mana of any color in your commander's color identity — the universal fixing land."
    ],
    [
     "Breeding Pool",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/> or <img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/> — the Simic shockland: pay 2 life to have it enter untapped. <em>(Oracle: ({T}: Add {G} or {U}.) As this land enters, you may pay 2 life. If you don't, it enters ta…)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/> or <img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/> — the Simic shockland: pay 2 life to have it enter untapped."
    ],
    [
     "Misty Rainforest",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, pay 1 life, sacrifice this land: search for a Forest or Island — the green/blue fetchland. <em>(Oracle: {T}, Pay 1 life, Sacrifice this land: Search your library for a Forest or Island card, put…)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, pay 1 life, sacrifice this land: search for a Forest or Island — the green/blue fetchland."
    ],
    [
     "Wooded Foothills",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, pay 1 life, sacrifice this land: search for a Mountain or Forest — the fetchland that finds your Forests. <em>(Oracle: {T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Forest card, p…)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, pay 1 life, sacrifice this land: search for a Mountain or Forest — the fetchland that finds your Forests."
    ],
    [
     "Scalding Tarn",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, pay 1 life, sacrifice this land: search for an Island or Mountain — the fetchland that finds your Islands. <em>(Oracle: {T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Mountain card, …)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, pay 1 life, sacrifice this land: search for an Island or Mountain — the fetchland that finds your Islands."
    ],
    [
     "Lotus Field",
-    "<strong>Hexproof</strong>; enters tapped, sacrifice two lands as it enters; <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add three mana of any one color — the mana bomb (see Artifacts). <em>(Oracle: Hexproof This land enters tapped. When this land enters, sacrifice two lands. {T}: Add thr…)</em>"
+    "<strong>Hexproof</strong>; enters tapped, sacrifice two lands as it enters; <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add three mana of any one color — the mana bomb (see Artifacts)."
    ]
   ]
  },

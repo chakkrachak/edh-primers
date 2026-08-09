@@ -2507,241 +2507,241 @@
   "HighSynergy": [
    [
     "Celes, Rune Knight",
-    "On entry, discard any number of cards, then draw that many cards plus one — a massive draw that fills the graveyard at the same time, the perfect partner for Terra. Its second ability then rewards exactly what this deck does: creatures entering from a graveyard put a +1/+1 counter on your whole board. <em>(Oracle: When Celes enters, discard any number of cards, then draw that many cards plus one. Whenev…)</em>"
+    "On entry, discard any number of cards, then draw that many cards plus one — a massive draw that fills the graveyard at the same time, the perfect partner for Terra. Its second ability then rewards exactly what this deck does: creatures entering from a graveyard put a +1/+1 counter on your whole board."
    ],
    [
     "Stitcher's Supplier",
-    "On entry AND on death, mill three cards — six cards milled for a single <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> once it dies. The perfect one-mana mill dork for Terra's Trance plan. <em>(Oracle: When this creature enters or dies, mill three cards. (Put the top three cards of your libr…)</em>"
+    "On entry AND on death, mill three cards — six cards milled for a single <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> once it dies. The perfect one-mana mill dork for Terra's Trance plan."
    ],
    [
     "Reanimate",
-    "Put target creature card from a graveyard onto the battlefield under your control, losing life equal to its mana value — the ultimate 1-mana reanimation spell: any bomb, any graveyard. <em>(Oracle: Put target creature card from a graveyard onto the battlefield under your control. You los…)</em>"
+    "Put target creature card from a graveyard onto the battlefield under your control, losing life equal to its mana value — the ultimate 1-mana reanimation spell: any bomb, any graveyard."
    ],
    [
     "Priest of Fell Rites",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, pay 3 life, sacrifice it: return a creature card from your graveyard to the battlefield. And its <strong>Unearth <img src=\"https://svgs.scryfall.io/card-symbols/3.svg\" alt=\"3\" title=\"3\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/W.svg\" alt=\"W\" title=\"W\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/></strong> brings it back for a second activation — reanimation plus a late-game backup. <em>(Oracle: {T}, Pay 3 life, Sacrifice this creature: Return target creature card from your graveyard …)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, pay 3 life, sacrifice it: return a creature card from your graveyard to the battlefield. And its <strong>Unearth <img src=\"https://svgs.scryfall.io/card-symbols/3.svg\" alt=\"3\" title=\"3\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/W.svg\" alt=\"W\" title=\"W\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/></strong> brings it back for a second activation — reanimation plus a late-game backup."
    ],
    [
     "Anger",
-    "<strong>Haste</strong>; as long as Anger is in your graveyard and you control a Mountain, creatures you control have haste — every reanimated creature attacks immediately. A free haste enabler that mills itself into the graveyard. <em>(Oracle: Haste As long as this card is in your graveyard and you control a Mountain, creatures you …)</em>"
+    "<strong>Haste</strong>; as long as Anger is in your graveyard and you control a Mountain, creatures you control have haste — every reanimated creature attacks immediately. A free haste enabler that mills itself into the graveyard."
    ],
    [
     "Stitch Together",
-    "Return a creature card from your graveyard to your hand — but with <strong>threshold</strong> (7+ cards in your graveyard, trivial for Terra) it returns it to the battlefield instead: a second Reanimate. <em>(Oracle: Return target creature card from your graveyard to your hand. Threshold — Return that card…)</em>"
+    "Return a creature card from your graveyard to your hand — but with <strong>threshold</strong> (7+ cards in your graveyard, trivial for Terra) it returns it to the battlefield instead: a second Reanimate."
    ]
   ],
   "TopCards": [
    [
     "Ruinous Ultimatum",
-    "Destroy all nonland permanents your opponents control — the Mardu asymmetric wipe: they lose everything while your reanimated board survives untouched. <em>(Oracle: Destroy all nonland permanents your opponents control.…)</em>"
+    "Destroy all nonland permanents your opponents control — the Mardu asymmetric wipe: they lose everything while your reanimated board survives untouched."
    ],
    [
     "Karmic Guide",
-    "Flying, protection from black, and on entry it returns a creature card from your graveyard to the battlefield — the classic flying reanimator, and the engine of the deck's infinite combos (its echo cost is paid or looped). <em>(Oracle: Flying, protection from black Echo {3}{W}{W} (At the beginning of your upkeep, if this cam…)</em>"
+    "Flying, protection from black, and on entry it returns a creature card from your graveyard to the battlefield — the classic flying reanimator, and the engine of the deck's infinite combos (its echo cost is paid or looped)."
    ],
    [
     "Rise of the Dark Realms",
-    "Put ALL creature cards from ALL graveyards onto the battlefield under your control — the ultimate finisher: every creature that died all game becomes yours. <em>(Oracle: Put all creature cards from all graveyards onto the battlefield under your control.…)</em>"
+    "Put ALL creature cards from ALL graveyards onto the battlefield under your control — the ultimate finisher: every creature that died all game becomes yours."
    ],
    [
     "Alesha, Who Laughs at Fate",
-    "<strong>First strike</strong>; on each attack it grows with a +1/+1 counter, and <strong>Raid</strong> returns a creature card with mana value ≤ Alesha's power from your graveyard at end of turn — a mini-Terra that reanimates every turn it attacks. <em>(Oracle: First strike Whenever Alesha attacks, put a +1/+1 counter on it. Raid — At the beginning o…)</em>"
+    "<strong>First strike</strong>; on each attack it grows with a +1/+1 counter, and <strong>Raid</strong> returns a creature card with mana value ≤ Alesha's power from your graveyard at end of turn — a mini-Terra that reanimates every turn it attacks."
    ],
    [
     "Key to the City",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, discard a card: a creature can't be blocked this turn — it guarantees Terra's combat damage trigger (and the free reanimation that follows). When it untaps, pay <img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/> to draw: unblockability plus filtering in one artifact. <em>(Oracle: {T}, Discard a card: Up to one target creature can't be blocked this turn. Whenever this a…)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, discard a card: a creature can't be blocked this turn — it guarantees Terra's combat damage trigger (and the free reanimation that follows). When it untaps, pay <img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/> to draw: unblockability plus filtering in one artifact."
    ],
    [
     "Morbid Opportunist",
-    "Whenever one or more other creatures die, draw a card (once per turn) — every sacrifice, every wipe and every death trigger turns into card advantage. <em>(Oracle: Whenever one or more other creatures die, draw a card. This ability triggers only once eac…)</em>"
+    "Whenever one or more other creatures die, draw a card (once per turn) — every sacrifice, every wipe and every death trigger turns into card advantage."
    ]
   ],
   "Creatures": [
    [
     "Sun Titan",
-    "<strong>Vigilance</strong>, and on entry or attack it returns a permanent card with mana value 3 or less from your graveyard to the battlefield — a value machine that recurs Animate Dead, altars and small creatures, and the heart of several infinite loops. <em>(Oracle: Vigilance Whenever this creature enters or attacks, you may return target permanent card w…)</em>"
+    "<strong>Vigilance</strong>, and on entry or attack it returns a permanent card with mana value 3 or less from your graveyard to the battlefield — a value machine that recurs Animate Dead, altars and small creatures, and the heart of several infinite loops."
    ],
    [
     "Millikin",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, mill a card: add <img src=\"https://svgs.scryfall.io/card-symbols/C.svg\" alt=\"C\" title=\"C\" class=\"ms\"/> — mana acceleration and graveyard filling in a single activation. A tiny dork that feeds Terra's plan. <em>(Oracle: {T}, Mill a card: Add {C}. (To mill a card, put the top card of your library into your gra…)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, mill a card: add <img src=\"https://svgs.scryfall.io/card-symbols/C.svg\" alt=\"C\" title=\"C\" class=\"ms\"/> — mana acceleration and graveyard filling in a single activation. A tiny dork that feeds Terra's plan."
    ],
    [
     "Luminous Broodmoth",
-    "Flying; whenever a creature you control without flying dies, it returns with a flying counter — a second life for your whole board, and the piece of the infinite loops with sacrifice outlets. <em>(Oracle: Flying Whenever a creature you control without flying dies, return it to the battlefield u…)</em>"
+    "Flying; whenever a creature you control without flying dies, it returns with a flying counter — a second life for your whole board, and the piece of the infinite loops with sacrifice outlets."
    ],
    [
     "Selfless Spirit",
-    "Flying; sacrifice it to give your creatures <strong>indestructible</strong> until end of turn — the one-shot protection that saves your reanimated board from a board wipe. <em>(Oracle: Flying Sacrifice this creature: Creatures you control gain indestructible until end of tur…)</em>"
+    "Flying; sacrifice it to give your creatures <strong>indestructible</strong> until end of turn — the one-shot protection that saves your reanimated board from a board wipe."
    ],
    [
     "Sister Hospitaller",
-    "On entry, return a creature card from your graveyard to the battlefield and gain life equal to its mana value — reanimation plus lifegain in a single card, and a combo piece (Karmic Guide + Ashnod's Altar loop). <em>(Oracle: Medicus Ministorum — When this creature enters, return target creature card from your grav…)</em>"
+    "On entry, return a creature card from your graveyard to the battlefield and gain life equal to its mana value — reanimation plus lifegain in a single card, and a combo piece (Karmic Guide + Ashnod's Altar loop)."
    ],
    [
     "Pitiless Plunderer",
-    "Whenever another creature you control dies, create a <strong>Treasure</strong> token — every sacrifice becomes ramp, and it is the mana engine of the infinite sacrifice loops. <em>(Oracle: Whenever another creature you control dies, create a Treasure token. (It's an artifact wit…)</em>"
+    "Whenever another creature you control dies, create a <strong>Treasure</strong> token — every sacrifice becomes ramp, and it is the mana engine of the infinite sacrifice loops."
    ]
   ],
   "Instants": [
    [
     "Entomb",
-    "Search your library for any card and put it into your graveyard — the opening move of every reanimator combo: find the bomb, then Reanimate it for <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/>. <em>(Oracle: Search your library for a card, put that card into your graveyard, then shuffle.…)</em>"
+    "Search your library for any card and put it into your graveyard — the opening move of every reanimator combo: find the bomb, then Reanimate it for <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/>."
    ],
    [
     "Swords to Plowshares",
-    "Exile target creature; its controller gains life equal to its power — the best white removal in the format, and it exiles (no graveyard for reanimator mirrors). <em>(Oracle: Exile target creature. Its controller gains life equal to its power.…)</em>"
+    "Exile target creature; its controller gains life equal to its power — the best white removal in the format, and it exiles (no graveyard for reanimator mirrors)."
    ],
    [
     "Path to Exile",
-    "Exile target creature; its controller may search for a basic land — the second white removal staple; exiling keeps the threat gone for good. <em>(Oracle: Exile target creature. Its controller may search their library for a basic land card, put …)</em>"
+    "Exile target creature; its controller may search for a basic land — the second white removal staple; exiling keeps the threat gone for good."
    ],
    [
     "Anguished Unmaking",
-    "Exile any nonland permanent at the cost of 3 life — the flexible 3-mana answer to anything: creatures, enchantments, planeswalkers. <em>(Oracle: Exile target nonland permanent. You lose 3 life.…)</em>"
+    "Exile any nonland permanent at the cost of 3 life — the flexible 3-mana answer to anything: creatures, enchantments, planeswalkers."
    ],
    [
     "Deadly Rollick",
-    "If you control a commander, it costs <img src=\"https://svgs.scryfall.io/card-symbols/0.svg\" alt=\"0\" title=\"0\" class=\"ms\"/> — free exile removal for any creature, the ace up the sleeve of a deck that always has Terra on the battlefield. <em>(Oracle: If you control a commander, you may cast this spell without paying its mana cost. Exile ta…)</em>"
+    "If you control a commander, it costs <img src=\"https://svgs.scryfall.io/card-symbols/0.svg\" alt=\"0\" title=\"0\" class=\"ms\"/> — free exile removal for any creature, the ace up the sleeve of a deck that always has Terra on the battlefield."
    ],
    [
     "Boros Charm",
-    "Choose one: 4 damage to any player or planeswalker, indestructible for your permanents, or double strike — board protection or a surprise finisher in one flexible charm. <em>(Oracle: Choose one — • Boros Charm deals 4 damage to target player or planeswalker. • Permanents y…)</em>"
+    "Choose one: 4 damage to any player or planeswalker, indestructible for your permanents, or double strike — board protection or a surprise finisher in one flexible charm."
    ]
   ],
   "Sorceries": [
    [
     "Buried Alive",
-    "Search your library for up to <strong>three creature cards</strong> and put them into your graveyard — the best card in the deck alongside Terra: stack three bombs, then reanimate them one by one. <em>(Oracle: Search your library for up to three creature cards, put them into your graveyard, then shu…)</em>"
+    "Search your library for up to <strong>three creature cards</strong> and put them into your graveyard — the best card in the deck alongside Terra: stack three bombs, then reanimate them one by one."
    ],
    [
     "Faithless Looting",
-    "Draw two cards, then discard two — with <strong>flashback <img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/></strong> it fills the graveyard twice while filtering your hand; the classic red looting. <em>(Oracle: Draw two cards, then discard two cards. Flashback {2}{R} (You may cast this card from your…)</em>"
+    "Draw two cards, then discard two — with <strong>flashback <img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/></strong> it fills the graveyard twice while filtering your hand; the classic red looting."
    ],
    [
     "Victimize",
-    "Choose two creature cards in your graveyard, sacrifice a creature, and return them tapped — two reanimations for <img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> at the cost of one sacrifice: the most efficient reanimation spell. <em>(Oracle: Choose two target creature cards in your graveyard. Sacrifice a creature. If you do, retur…)</em>"
+    "Choose two creature cards in your graveyard, sacrifice a creature, and return them tapped — two reanimations for <img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> at the cost of one sacrifice: the most efficient reanimation spell."
    ],
    [
     "Living Death",
-    "Each player exiles their graveyard creatures, sacrifices their creatures, then returns the exiled ones — the global swap that empties your graveyard onto the battlefield while wiping enemy boards. <em>(Oracle: Each player exiles all creature cards from their graveyard, then sacrifices all creatures …)</em>"
+    "Each player exiles their graveyard creatures, sacrifices their creatures, then returns the exiled ones — the global swap that empties your graveyard onto the battlefield while wiping enemy boards."
    ],
    [
     "Sevinne's Reclamation",
-    "Return a permanent card with mana value 3 or less from your graveyard to the battlefield; cast from the graveyard it copies itself — with <strong>flashback <img src=\"https://svgs.scryfall.io/card-symbols/4.svg\" alt=\"4\" title=\"4\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/W.svg\" alt=\"W\" title=\"W\" class=\"ms\"/></strong> the reanimation comes doubled. <em>(Oracle: Return target permanent card with mana value 3 or less from your graveyard to the battlefi…)</em>"
+    "Return a permanent card with mana value 3 or less from your graveyard to the battlefield; cast from the graveyard it copies itself — with <strong>flashback <img src=\"https://svgs.scryfall.io/card-symbols/4.svg\" alt=\"4\" title=\"4\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/W.svg\" alt=\"W\" title=\"W\" class=\"ms\"/></strong> the reanimation comes doubled."
    ],
    [
     "Unearth",
-    "Return a creature card with mana value 3 or less from your graveyard to the battlefield, with <strong>cycling <img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/></strong> — the perfect 1-mana reanimation for Terra's power-3-and-under creatures. <em>(Oracle: Return target creature card with mana value 3 or less from your graveyard to the battlefie…)</em>"
+    "Return a creature card with mana value 3 or less from your graveyard to the battlefield, with <strong>cycling <img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/></strong> — the perfect 1-mana reanimation for Terra's power-3-and-under creatures."
    ]
   ],
   "Artifacts": [
    [
     "Lightning Greaves",
-    "Equipped creature has <strong>haste</strong> and <strong>shroud</strong>, and equip costs <img src=\"https://svgs.scryfall.io/card-symbols/0.svg\" alt=\"0\" title=\"0\" class=\"ms\"/> — Terra attacks the turn she lands and can't be targeted. Free to move between creatures. <em>(Oracle: Equipped creature has haste and shroud. (It can't be the target of spells or abilities.) E…)</em>"
+    "Equipped creature has <strong>haste</strong> and <strong>shroud</strong>, and equip costs <img src=\"https://svgs.scryfall.io/card-symbols/0.svg\" alt=\"0\" title=\"0\" class=\"ms\"/> — Terra attacks the turn she lands and can't be targeted. Free to move between creatures."
    ],
    [
     "Skullclamp",
-    "Equipped creature gets +1/-1; when it dies, draw two cards — equip a 1/1 token and convert it into 2 cards; in a sacrifice deck it draws a stream of cards. <em>(Oracle: Equipped creature gets +1/-1. Whenever equipped creature dies, draw two cards. Equip {1}…)</em>"
+    "Equipped creature gets +1/-1; when it dies, draw two cards — equip a 1/1 token and convert it into 2 cards; in a sacrifice deck it draws a stream of cards."
    ],
    [
     "Altar of Dementia",
-    "Sacrifice a creature: target player mills cards equal to its power — a sacrifice outlet that is also a mill finisher and the kill condition of several loops (Sun Titan + Karmic Guide). <em>(Oracle: Sacrifice a creature: Target player mills cards equal to the sacrificed creature's power.…)</em>"
+    "Sacrifice a creature: target player mills cards equal to its power — a sacrifice outlet that is also a mill finisher and the kill condition of several loops (Sun Titan + Karmic Guide)."
    ],
    [
     "Ashnod's Altar",
-    "Sacrifice a creature: add <img src=\"https://svgs.scryfall.io/card-symbols/C.svg\" alt=\"C\" title=\"C\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/C.svg\" alt=\"C\" title=\"C\" class=\"ms\"/> — the classic free sacrifice outlet; every reanimated creature becomes 2 colorless mana, the engine of the infinite combos. <em>(Oracle: Sacrifice a creature: Add {C}{C}.…)</em>"
+    "Sacrifice a creature: add <img src=\"https://svgs.scryfall.io/card-symbols/C.svg\" alt=\"C\" title=\"C\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/C.svg\" alt=\"C\" title=\"C\" class=\"ms\"/> — the classic free sacrifice outlet; every reanimated creature becomes 2 colorless mana, the engine of the infinite combos."
    ],
    [
     "Wayfarer's Bauble",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, sacrifice it: search for a basic land and put it tapped — 1-mana land ramp that fixes Mardu's three colors. <em>(Oracle: {2}, {T}, Sacrifice this artifact: Search your library for a basic land card, put that car…)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, sacrifice it: search for a basic land and put it tapped — 1-mana land ramp that fixes Mardu's three colors."
    ],
    [
     "Phyrexian Altar",
-    "Sacrifice a creature: add one mana of any color — the colored-mana altar, key piece of the infinite-mana sacrifice loops. <em>(Oracle: Sacrifice a creature: Add one mana of any color.…)</em>"
+    "Sacrifice a creature: add one mana of any color — the colored-mana altar, key piece of the infinite-mana sacrifice loops."
    ]
   ],
   "Enchantments": [
    [
     "Animate Dead",
-    "Enchant a creature card in a graveyard and return it to the battlefield under your control — the classic <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> reanimation Aura, and the pivot of the Sun Titan loops (it recurs itself endlessly). <em>(Oracle: Enchant creature card in a graveyard When this Aura enters, if it's on the battlefield, it…)</em>"
+    "Enchant a creature card in a graveyard and return it to the battlefield under your control — the classic <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> reanimation Aura, and the pivot of the Sun Titan loops (it recurs itself endlessly)."
    ],
    [
     "Necromancy",
-    "Reanimation at <strong>flash</strong> speed: put a creature from a graveyard onto the battlefield as an instant — the instant-speed reanimation that ambushes opponents mid-combat. <em>(Oracle: You may cast this spell as though it had flash. If you cast it any time a sorcery couldn't…)</em>"
+    "Reanimation at <strong>flash</strong> speed: put a creature from a graveyard onto the battlefield as an instant — the instant-speed reanimation that ambushes opponents mid-combat."
    ],
    [
     "Goblin Bombardment",
-    "Sacrifice a creature: deal 1 damage to any target — your reanimated creatures become direct damage, and it is the kill condition of the Sun Titan loops. <em>(Oracle: Sacrifice a creature: This enchantment deals 1 damage to any target.…)</em>"
+    "Sacrifice a creature: deal 1 damage to any target — your reanimated creatures become direct damage, and it is the kill condition of the Sun Titan loops."
    ],
    [
     "Black Market Connections",
-    "Each first main phase, choose any number: Treasure (−1 life), draw a card (−2 life), or a 3/2 changeling token (−3 life) — the ultimate black value engine: ramp, draw and blockers on demand. <em>(Oracle: At the beginning of your first main phase, choose one or more — • Sell Contraband — Create…)</em>"
+    "Each first main phase, choose any number: Treasure (−1 life), draw a card (−2 life), or a 3/2 changeling token (−3 life) — the ultimate black value engine: ramp, draw and blockers on demand."
    ],
    [
     "Phyrexian Arena",
-    "At your upkeep, draw a card and lose 1 life — the slow, constant card advantage engine. <em>(Oracle: At the beginning of your upkeep, you draw a card and you lose 1 life.…)</em>"
+    "At your upkeep, draw a card and lose 1 life — the slow, constant card advantage engine."
    ],
    [
     "Smile at Death",
-    "At your upkeep, return up to two creature cards with power 2 or less from your graveyard with a +1/+1 counter — Terra's reanimation effect, doubled and automatic every turn. <em>(Oracle: At the beginning of your upkeep, return up to two target creature cards with power 2 or le…)</em>"
+    "At your upkeep, return up to two creature cards with power 2 or less from your graveyard with a +1/+1 counter — Terra's reanimation effect, doubled and automatic every turn."
    ]
   ],
   "Planeswalkers": [
    [
     "Dihada, Binder of Wills",
-    "+2 gives a legendary creature vigilance, lifelink and indestructible (Terra itself); −3 reveals four cards, keeps the legendaries, mills the rest and makes Treasures; −11 steals all nonland permanents — the perfect Mardu planeswalker for a legendary reanimator. <em>(Oracle: +2: Up to one target legendary creature gains vigilance, lifelink, and indestructible unti…)</em>"
+    "+2 gives a legendary creature vigilance, lifelink and indestructible (Terra itself); −3 reveals four cards, keeps the legendaries, mills the rest and makes Treasures; −11 steals all nonland permanents — the perfect Mardu planeswalker for a legendary reanimator."
    ]
   ],
   "UtilityLands": [
    [
     "Rogue's Passage",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/4.svg\" alt=\"4\" title=\"4\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: target creature can't be blocked — guarantees Terra's combat damage trigger and her free reanimation every turn. <em>(Oracle: {T}: Add {C}. {4}, {T}: Target creature can't be blocked this turn.…)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/4.svg\" alt=\"4\" title=\"4\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: target creature can't be blocked — guarantees Terra's combat damage trigger and her free reanimation every turn."
    ],
    [
     "Phyrexian Tower",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, sacrifice a creature: add <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> — a sacrifice outlet built into a land, feeding the death-trigger loops. <em>(Oracle: {T}: Add {C}. {T}, Sacrifice a creature: Add {B}{B}.…)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, sacrifice a creature: add <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> — a sacrifice outlet built into a land, feeding the death-trigger loops."
    ],
    [
     "Bojuka Bog",
-    "Enters tapped and exiles target player's graveyard on entry — free graveyard hate against other reanimator decks, ready to be blinked or recurred. <em>(Oracle: This land enters tapped. When this land enters, exile target player's graveyard. {T}: Add …)</em>"
+    "Enters tapped and exiles target player's graveyard on entry — free graveyard hate against other reanimator decks, ready to be blinked or recurred."
    ],
    [
     "Takenuma, Abandoned Mire",
-    "Channel <img src=\"https://svgs.scryfall.io/card-symbols/3.svg\" alt=\"3\" title=\"3\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/>: mill three, then return a creature or planeswalker from your graveyard to your hand — a graveyard tutor on a land, cheaper for each legendary you control (Terra counts). <em>(Oracle: {T}: Add {B}. Channel — {3}{B}, Discard this card: Mill three cards, then return a creatur…)</em>"
+    "Channel <img src=\"https://svgs.scryfall.io/card-symbols/3.svg\" alt=\"3\" title=\"3\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/>: mill three, then return a creature or planeswalker from your graveyard to your hand — a graveyard tutor on a land, cheaper for each legendary you control (Terra counts)."
    ],
    [
     "Urborg, Tomb of Yawgmoth",
-    "Every land is a <strong>Swamp</strong> in addition to its other types — it fixes black mana everywhere and turns your utility lands into black sources. <em>(Oracle: Each land is a Swamp in addition to its other land types.…)</em>"
+    "Every land is a <strong>Swamp</strong> in addition to its other types — it fixes black mana everywhere and turns your utility lands into black sources."
    ],
    [
     "High Market",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, sacrifice a creature: gain 1 life — a sacrifice outlet plus lifegain on a land, useful to trigger death effects at will. <em>(Oracle: {T}: Add {C}. {T}, Sacrifice a creature: You gain 1 life.…)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, sacrifice a creature: gain 1 life — a sacrifice outlet plus lifegain on a land, useful to trigger death effects at will."
    ]
   ],
   "ManaBase": [
    [
     "Command Tower",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add one mana of any color in your commander's color identity — the best fixing land in Commander, always a must-play. <em>(Oracle: {T}: Add one mana of any color in your commander's color identity.…)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add one mana of any color in your commander's color identity — the best fixing land in Commander, always a must-play."
    ],
    [
     "Exotic Orchard",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add one mana of any color a land an opponent controls could produce — in a 4-player pod this is effectively a rainbow land. <em>(Oracle: {T}: Add one mana of any color that a land an opponent controls could produce.…)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add one mana of any color a land an opponent controls could produce — in a 4-player pod this is effectively a rainbow land."
    ],
    [
     "Nomad Outpost",
-    "Enters tapped; <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/W.svg\" alt=\"W\" title=\"W\" class=\"ms\"/> or <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> — the Mardu tri-land, core three-color fixing. <em>(Oracle: This land enters tapped. {T}: Add {R}, {W}, or {B}.…)</em>"
+    "Enters tapped; <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/W.svg\" alt=\"W\" title=\"W\" class=\"ms\"/> or <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> — the Mardu tri-land, core three-color fixing."
    ],
    [
     "Fetid Heath",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/WB.svg\" alt=\"W/B\" title=\"W/B\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/W.svg\" alt=\"W\" title=\"W\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/W.svg\" alt=\"W\" title=\"W\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/W.svg\" alt=\"W\" title=\"W\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> or <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> — the white/black filter land that fixes your two main colors. <em>(Oracle: {T}: Add {C}. {W/B}, {T}: Add {W}{W}, {W}{B}, or {B}{B}.…)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/WB.svg\" alt=\"W/B\" title=\"W/B\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/W.svg\" alt=\"W\" title=\"W\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/W.svg\" alt=\"W\" title=\"W\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/W.svg\" alt=\"W\" title=\"W\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> or <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> — the white/black filter land that fixes your two main colors."
    ],
    [
     "Smoldering Marsh",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> or <img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/>, entering tapped unless you control two or more basics — the black/red 'battle land'. <em>(Oracle: ({T}: Add {B} or {R}.) This land enters tapped unless you control two or more basic lands.…)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> or <img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/>, entering tapped unless you control two or more basics — the black/red 'battle land'."
    ],
    [
     "Graven Cairns",
-    "<img src=\"https://svgs.scryfall.io/card-symbols/BR.svg\" alt=\"B/R\" title=\"B/R\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/> or <img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/> — the flexible black/red filter land. <em>(Oracle: {T}: Add {C}. {B/R}, {T}: Add {B}{B}, {B}{R}, or {R}{R}.…)</em>"
+    "<img src=\"https://svgs.scryfall.io/card-symbols/BR.svg\" alt=\"B/R\" title=\"B/R\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/> or <img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/> — the flexible black/red filter land."
    ]
   ]
  },
