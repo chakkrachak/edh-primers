@@ -525,6 +525,23 @@ def build_index():
     with open(f'{BASE}/index.html', 'w', encoding='utf-8') as f:
         f.write(html_out)
     print(f"✓ index.html régénéré ({len(cards)} primers + {len(evals)} evals)")
+    check_links()
+
+def check_links():
+    """Garde-fou : après régénération de l'index, vérifie que TOUS les liens internes
+    (content/…) résolvent vers un fichier existant. Un lien cassé = ancienne version
+    restée dans l'index après purge de content/ — doit être détecté AVANT le push."""
+    html = open(f'{BASE}/index.html', encoding='utf-8').read()
+    links = sorted(set(re.findall(r'href="(content/[^"]+)"', html)))
+    broken = [l for l in links if not os.path.exists(f'{BASE}/{l}')]
+    if broken:
+        print(f"❌ CHECK LINKS: {len(broken)} lien(s) cassé(s) dans index.html →")
+        for l in broken:
+            print(f"   ⚠️ {l}")
+        print("   → Régénérer les rapports concernés ou purger content/ puis relancer build.py")
+        return False
+    print(f"✓ CHECK LINKS: {len(links)} liens internes, 0 cassé")
+    return True
 
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
