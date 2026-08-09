@@ -1816,7 +1816,12 @@
  "rarity": "Rare (Kamigawa: Neon Dynasty)",
  "legality": "Legal",
  "oracle_text": "If a creature attacking causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
- "quick_read": "The <strong>attack-trigger doubler</strong>: every \"whenever X attacks\" trigger on your permanents fires twice. Go wide with token-makers (Adeline, Krenko, Anim Pakal), draw from attack triggers (Chivalric Alliance, Aurelia), ramp with Sword of the Animist and Curse of Opulence — then finish with Fervent Charge pumps, extra combats (Aurelia, Aggravated Assault) or the infinite-combat combos.",
+ "quick_read": [
+  "**Double triggers** : every \"whenever X attacks\" trigger on your permanents fires twice.",
+  "**Go wide** : token-makers (Adeline, Krenko, Anim Pakal) explode the board each combat.",
+  "**Value attacks** : attack triggers draw (Chivalric Alliance), ramp (Sword of the Animist, Curse of Opulence) and drain (Commissar Severina Raine).",
+  "**Finish** : Fervent Charge pumps or infinite-combat combos (Hellkite Charger + Fire Nation Palace)."
+ ],
  "extra_table_rows": "<tr><td><strong>Power / Toughness</strong></td><td>3 / 4</td></tr>",
  "card_meta": {
   "Adeline, Resplendent Cathar": {

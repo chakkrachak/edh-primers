@@ -419,3 +419,8 @@ strong { color: var(--text-strong); }
 .plan-desc ul, .verdict ul { margin: 4px 0 10px; padding-left: 20px; }
 .plan-desc li, .verdict li { font-size: 13px; line-height: 1.6; margin: 3px 0; color: #c8d0e8; }
 .plan-desc li strong, .verdict li strong { color: var(--accent-green); }
+
+/* Quick read — pedagogical bullets (primer) */
+ul.quick-read { margin: 6px 0 10px; padding-left: 20px; }
+ul.quick-read li { font-size: 13px; line-height: 1.6; margin: 3px 0; color: #c8d0e8; }
+ul.quick-read li strong { color: var(--accent-green); }

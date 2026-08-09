@@ -66,7 +66,7 @@ def build_one(slug):
         'rarity': d['rarity'],
         'legality': d['legality'],
         'oracle_text': d['oracle_text'],
-        'quick_read': d['quick_read'],
+        'quick_read': bold_list(d['quick_read'] if isinstance(d['quick_read'], list) else [d['quick_read']]),
         'plan_html': d['plan_html'],
         'source_html': d['source_html'],
         'plan_bigs': ''.join(big_card(d['imgs'].get(n, ''), n, 185) for n in d['plan_cards']),
@@ -184,19 +184,19 @@ PRECON_SYNOPSES = {
     'UtilityLands': 'Utility lands', 'ManaBase': 'Mana base (lands + rocks)',
 }
 
+def bold(text):
+    """Convertit **bold** markdown en <strong> (pour les bullets pédagogiques)."""
+    if not isinstance(text, str):
+        return text
+    return re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
+
+def bold_list(items):
+    return [bold(x) for x in (items or [])]
+
 def build_precon(slug):
     """Rend une évaluation de deck (precon) : data/precons/<slug>.json + templates/precon.html."""
     with open(f'{PRECON_DIR}/{slug}.json', encoding='utf-8') as f:
         d = json.load(f)
-
-    def bold(text):
-        """Convertit **bold** markdown en <strong> (pour les bullets pédagogiques)."""
-        if not isinstance(text, str):
-            return text
-        return re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
-
-    def bold_list(items):
-        return [bold(x) for x in (items or [])]
 
     cmdr = d['commander']
     # images globales : cartes du deck + cartes de combos (pour les blocs combo)

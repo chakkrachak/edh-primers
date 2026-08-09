@@ -2787,7 +2787,11 @@
  "rarity": "Mythic (Aetherdrift Commander)",
  "legality": "Legal",
  "oracle_text": "Whenever you cast an Artificer or artifact spell, you get <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> (an energy counter).<br><br>At the beginning of combat on your turn, you may pay <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>. When you do, create a token that's a copy of target permanent you control, except it's a 5/5 artifact creature in addition to its other types and has haste. Sacrifice it at the beginning of the next end step.",
- "quick_read": "The <strong>energy queen</strong>: every Artificer or artifact spell you cast gives you an energy counter, and 3 <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> at the beginning of combat = a hasty 5/5 copy of any permanent you control. The deck stockpiles energy (Decoction Module, Gonti's Aether Heart, Nissa) to spend on massive outlets: infinite combats with Lightning Runner, extra turns with Aether Heart recurred by Academy Ruins, free spells with Aetherworks Marvel.",
+ "quick_read": [
+  "**Energy engine** : every Artificer or artifact spell gives an energy counter.",
+  "**Copy factory** : at the beginning of combat, 3 energy = a hasty 5/5 token copy of an artifact or creature.",
+  "**Artifact synergies** : Aetherworks Marvel, Decoction Module and Generatorium loop energy."
+ ],
  "extra_table_rows": "<tr><td><strong>Power / Toughness</strong></td><td>4/4</td></tr>",
  "card_meta": {
   "Academy Ruins": {

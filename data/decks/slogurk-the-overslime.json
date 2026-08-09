@@ -3461,7 +3461,11 @@
  "rarity": "Rare (Innistrad: Midnight Hunt)",
  "legality": "Legal",
  "oracle_text": "Trample<br><br>Whenever a land card is put into your graveyard from anywhere, put a +1/+1 counter on Slogurk.<br><br>Remove three +1/+1 counters from Slogurk: Return it to its owner's hand.<br><br>When Slogurk leaves the battlefield, return up to three target land cards from your graveyard to your hand.",
- "quick_read": "The unique <strong>Simic Lands Matter commander</strong>: every land that dies or is milled makes him bigger (+1/+1). You sacrifice and replay your lands in a loop (Loam, fetchlands, Zuran Orb): Slogurk becomes enormous, and when he leaves the battlefield he returns up to three lands to your hand. The perfect commander for decks that weaponize their land graveyard.",
+ "quick_read": [
+  "**Lands matter** : every land that dies or is milled makes him bigger (+1/+1).",
+  "**Loop** : sacrifice and replay your lands (Loam, fetchlands, Zuran Orb) — Slogurk becomes enormous.",
+  "**Value engine** : Tatyova / Azusa / Titania draw and ramp off every land replay."
+ ],
  "extra_table_rows": "",
  "card_meta": {
   "Abundance": {

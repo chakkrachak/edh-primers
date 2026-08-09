@@ -1431,7 +1431,12 @@
  "rarity": "Mythic (Final Fantasy VII)",
  "legality": "Legal",
  "oracle_text": "Haste<br><br>When Cloud enters, attach up to one target Equipment you control to it.<br><br>Whenever Cloud attacks, draw a card for each equipped attacking creature you control. Then if Cloud has power 7 or greater, create two Treasure tokens.",
- "quick_read": "The <strong>ultimate equipment-voltron general</strong>: it equips for free on entry, draws massively on attack (1 card per equipped creature), and generates Treasures past 7 power. Naya gives access to the best Equipment tutors and free-equip engines (Puresteel Paladin, Sigarda's Aid, Forge Anew) — turn Cloud into a 14/14 hasty monster and win through commander damage or infinite combats.",
+ "quick_read": [
+  "**Free equip** : it equips for free on entry — every Equipment in hand hits the board immediately.",
+  "**Draw engine** : draws massively on attack (1 card per equipped creature).",
+  "**Treasures** : past 7 power every attack generates Treasures — ramp from combat damage.",
+  "**Naya package** : access to the best Equipment support (Puresteel Paladin, Tifa, Colossus Hammer)."
+ ],
  "extra_table_rows": "",
  "card_meta": {
   "Adaptive Omnitool": {

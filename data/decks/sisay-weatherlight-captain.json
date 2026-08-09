@@ -3031,7 +3031,11 @@
  "rarity": "Rare (Modern Horizons)",
  "legality": "Legal",
  "oracle_text": "Sisay gets +1/+1 for each color among other legendary permanents you control.<br><br>{W}{U}{B}{R}{G}: Search your library for a legendary permanent card with mana value less than Sisay's power, put that card onto the battlefield, then shuffle.",
- "quick_read": "The <strong>legendary toolbox tutor</strong>: Sisay grows +1/+1 per color among your other legends, then {W}{U}{B}{R}{G} searches for any legendary permanent with mana value less than her power and puts it DIRECTLY onto the battlefield. Ramp with 5-color dorks (Faeburrow Elder, Bloom Tender, Selvala), untap her (Derevi, Ioreth, Minamo) for multiple tutors per turn, and answer any situation with exactly the legend you need — plus the infinite-mana combo lines (Derevi+Emiel, Kinnan+untap aura) that close the game.",
+ "quick_read": [
+  "**Toolbox tutor** : {W}{U}{B}{R}{G} searches for any legendary permanent with mana value less than her power.",
+  "**Grows with legends** : +1/+1 per color among your other legends — the tutor range widens as you build.",
+  "**Instant answers** : fetch the right legend for any situation (Derevi, Jhoira, The One Ring)."
+ ],
  "extra_table_rows": "<tr><td><strong>Power / Toughness</strong></td><td>2 / 2</td></tr>",
  "card_meta": {
   "Abrupt Decay": {

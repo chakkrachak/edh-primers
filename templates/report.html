@@ -32,7 +32,9 @@
 <h3>Exact Oracle text</h3>
 <div class="oracle">{{ oracle_text|safe }}</div>
 <h3>Quick read</h3>
-<p>{{ quick_read|safe }}</p>
+<ul class="quick-read">
+{% for b in quick_read %}<li>{{ b|safe }}</li>{% endfor %}
+</ul>
 </div>
 </div>
 

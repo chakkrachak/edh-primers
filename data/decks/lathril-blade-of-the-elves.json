@@ -5205,7 +5205,11 @@
  "rarity": "Rare (Kaldheim / Foundations)",
  "legality": "Legal",
  "oracle_text": "Menace (This creature can't be blocked except by two or more creatures.)<br><br>Whenever Lathril deals combat damage to a player, create that many 1/1 green Elf Warrior creature tokens.<br><img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, Tap ten untapped Elves you control: Each opponent loses 10 life and you gain 10 life.",
- "quick_read": "The <strong>Golgari Elf-tribal commander</strong> that creates a token army with every hit, then uses it through her activation to <strong>drain 10 life per opponent</strong> — a token machine that turns into a drain gun. Her elf mana engine also makes her naturally combo-oriented (Staff of Domination / Umbral Mantle).",
+ "quick_read": [
+  "**Token army** : creates a token with every combat hit — wide board in a few swings.",
+  "**Drain gun** : her activation drains 10 life per opponent from the token army.",
+  "**Elfball synergy** : Elvish Archdruid / Priest of Titania / Imperious Perfect multiply mana and tokens."
+ ],
  "extra_table_rows": "",
  "card_meta": {
   "Abomination of Llanowar": {

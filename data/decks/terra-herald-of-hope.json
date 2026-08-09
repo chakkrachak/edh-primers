@@ -2815,7 +2815,11 @@
  "rarity": "Mythic (Final Fantasy Commander)",
  "legality": "Legal",
  "oracle_text": "Trance — At the beginning of combat on your turn, mill two cards. Terra gains flying until end of turn.<br><br>Whenever Terra deals combat damage to a player, you may pay <img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/>. When you do, return target creature card with power 3 or less from your graveyard to the battlefield tapped.",
- "quick_read": "The <strong>Mardu reanimation commander</strong> who fills her own graveyard (Trance: mill two + flying at each combat start) and then reanimates a creature with power 3 or less for free on each hit for {2}. The deck combines cheap reanimation spells (Reanimate, Animate Dead) with massive finishers (Rise of the Dark Realms, Living Death).",
+ "quick_read": [
+  "**Self-mill** : Trance mills two + flying at each combat start — fills her own graveyard.",
+  "**Free reanimation** : on each hit, reanimate a creature with power 3 or less for {2}.",
+  "**Aggro-reanimator** : the deck combines cheap beats with recursion (Reanimate, Priest of Fell Rites)."
+ ],
  "extra_table_rows": "<tr><td><strong>Power / Toughness</strong></td><td>3/3</td></tr>",
  "card_meta": {
   "Abdel Adrian, Gorion's Ward": {

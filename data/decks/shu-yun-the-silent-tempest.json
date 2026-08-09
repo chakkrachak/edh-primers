@@ -1498,7 +1498,11 @@
  "rarity": "Rare (Fate Reforged)",
  "legality": "Legal",
  "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)<br><br>Whenever you cast a noncreature spell, you may pay {R/W}{R/W}. If you do, target creature gains double strike until end of turn.",
- "quick_read": "The <strong>Voltron cantrip commander</strong>: every noncreature spell pumps him (+1/+1 prowess) and can give any creature double strike for {R/W}{R/W} — usually himself. Fill the deck with 1-mana unblockable cantrips (Slip Through Space, Distortion Strike, Artful Dodge), protection (Emerge Unscathed, Loran's Escape) and pumps (Unleash Fury, Brute Force); 3 spells in one turn turn the 3/2 into an 8+ unblockable double-striker — 21 commander damage in two swings.",
+ "quick_read": [
+  "**Prowess pump** : every noncreature spell pumps him (+1/+1).",
+  "**Double strike** : {R/W}{R/W} grants double strike to any creature — usually himself.",
+  "**Cantrip shell** : 1-mana unblockable cantrips (Slip Through Space, Distortion Strike) chain into a one-shot machine."
+ ],
  "extra_table_rows": "<tr><td><strong>Power / Toughness</strong></td><td>3 / 2</td></tr>",
  "card_meta": {
   "Academy Ruins": {

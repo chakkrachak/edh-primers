@@ -3232,7 +3232,11 @@
  "rarity": "Rare (Innistrad Remastered)",
  "legality": "Legal",
  "oracle_text": "When Gisa and Geralf enters, mill four cards.<br><br>Once during each of your turns, you may cast a Zombie creature spell from your graveyard.",
- "quick_read": "The <strong>Zombie tribal / reanimator commander</strong>: it mills four cards on entry and lets you cast <strong>a Zombie from the graveyard each turn</strong>. The horde never dies — every sacrifice or board wipe is temporary. The lords (Diregraf Captain, Lord of the Accursed), the Rooftop Storm engine and the sacrifice altars turn the graveyard into a war machine: an overrunning army, a looped Gray Merchant drain, infinite combos.",
+ "quick_read": [
+  "**Self-mill** : mills four cards on entry — fills the graveyard every time.",
+  "**Recursion** : cast a Zombie from the graveyard each turn — the horde never dies.",
+  "**Resilience** : every sacrifice or board wipe is temporary — they all come back."
+ ],
  "extra_table_rows": "",
  "card_meta": {
   "A.I.M. Labs": {
