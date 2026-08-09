@@ -1,0 +1,1482 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hinata Budget (Moxfield) — Precon Deck Evaluation</title>
+<link rel="stylesheet" href="../css/theme.css">
+<link rel="stylesheet" href="../css/report.css">
+</head><body>
+<p class="back-link"><a href="../index.html">← Back to index</a></p>
+<h1>Hinata Budget (Moxfield) — Precon Deck Evaluation</h1>
+<p class="report-sub">Deck-list evaluation by <strong>MTG Precon Evaluator</strong> · Sources: EDHREC (precon list, game plans, synergy scores) · Scryfall (cards, images, Oracle texts)<br>💡 <em>Every card of the list is classified into EDHREC categories. The "synergy 0.xx" badge is the EDHREC score. Click a card to zoom.</em></p>
+
+<div class="toc"><h3 class="toc-h3">📑 Table of Contents</h3><ol>
+<li><a href="#s1">Commander Sheet</a></li>
+<li><a href="#s2">Game Plans &amp; High Synergy (7)</a></li>
+<li><a href="#s3">Deck Cards by Role (84 unique)</a></li>
+<li><a href="#s4">Structure Analysis</a></li>
+<li><a href="#s5">Verdict</a></li>
+</ol></div>
+
+<h2 id="s1">1. Commander Sheet <button class="copy-btn" data-copy="Hinata, Dawn-Crowned" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h2>
+<div class="sheet">
+<div class="sheet-img"><div class="big-card" style="width:260px;"><img src="https://cards.scryfall.io/normal/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata, Dawn-Crowned" loading="lazy" onclick="openModal(this)"/><div class="big-label">Hinata, Dawn-Crowned</div></div></div>
+<div class="sheet-info">
+<h3>Quick read</h3>
+<ul class="quick-read">
+<li><strong>Core mechanic</strong> : every spell you cast costs {1} less per target — <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span> turns multi-target spells into budget bombs.</li><li><strong>Engine</strong> : cast 36 instants/sorceries with token-makers (<span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/0/c0d74ecd-a595-4012-81b4-083264b40c94.jpg?1783907139" data-name="Young Pyromancer" onclick="openModal(this)">Young Pyromancer</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/b/1be3ed47-072e-481a-b3d9-dc232ac4b24f.jpg?1783911937" data-name="Talrand" onclick="openModal(this)">Talrand</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/9/e/9e68dcc2-bba4-4efa-97bb-3ed892037595.jpg?1783911941" data-name="Murmuring Mystic" onclick="openModal(this)">Murmuring Mystic</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791" data-name="Deekah" onclick="openModal(this)">Deekah</span>) and draw engines (<span class="card-badge" data-large="https://cards.scryfall.io/large/front/a/3/a3069683-0ff5-49e5-b7ae-f5bd40a4a32f.jpg?1783903222" data-name="Whirlwind of Thought" onclick="openModal(this)">Whirlwind of Thought</span>) converting each spell into value.</li><li><strong>Payoff</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/6/f6bb1ffc-2251-4655-b8f9-4c8047dd5d5f.jpg?1785497556" data-name="Guttersnipe" onclick="openModal(this)">Guttersnipe</span> and <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/a/ea1ab937-8647-4c83-99d5-6a40dffa4c9b.jpg?1783927615" data-name="Zaffai" onclick="openModal(this)">Zaffai</span> ping the table with every spell; <span class="card-badge" data-large="https://cards.scryfall.io/large/front/3/a/3a769d7e-c749-4845-ba87-808f0386df80.jpg?1783927564" data-name="Metallurgic Summonings" onclick="openModal(this)">Metallurgic Summonings</span> and <span class="card-badge" data-large="https://cards.scryfall.io/large/front/7/5/75c1eb6a-2183-4f60-b075-f7289df35be7.jpg?1783927539" data-name="Sunbird&#x27;s Invocation" onclick="openModal(this)">Sunbird&#x27;s Invocation</span> add free spells.</li><li><strong>Token swarm</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/b/1be3ed47-072e-481a-b3d9-dc232ac4b24f.jpg?1783911937" data-name="Talrand" onclick="openModal(this)">Talrand</span>/<span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/0/c0d74ecd-a595-4012-81b4-083264b40c94.jpg?1783907139" data-name="Young Pyromancer" onclick="openModal(this)">Young Pyromancer</span>/<span class="card-badge" data-large="https://cards.scryfall.io/large/front/9/e/9e68dcc2-bba4-4efa-97bb-3ed892037595.jpg?1783911941" data-name="Murmuring Mystic" onclick="openModal(this)">Murmuring Mystic</span> + <span class="card-badge" data-large="https://cards.scryfall.io/large/front/b/c/bc3e52c0-2f79-4537-8f1c-70b68836bac0.jpg?1783939456" data-name="Launch the Fleet" onclick="openModal(this)">Launch the Fleet</span> / <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/4/e492a245-46ba-438e-8d81-4626faa49bff.jpg?1783923991" data-name="Smoke Spirits&#x27; Aid" onclick="openModal(this)">Smoke Spirits&#x27; Aid</span> make a wide flying board.</li>
+</ul>
+</div>
+</div>
+
+<h2 id="s2">2. Game Plans &amp; High Synergy</h2>
+<p class="report-sub">All EDHREC archetypes for Hinata, Dawn-Crowned, ranked by deck count. For each major plan: the deck's cards that sit in that plan's EDHREC High Synergy pool — the cards of THIS list that actually answer the plan.</p>
+<div class="category"><h3>🏷️ All EDHREC game plans</h3>
+<div class="summary">Every archetype registered for this commander on EDHREC, with the number of decks built around it. Enchantress and Topdeck dominate by an order of magnitude.</div>
+<div class="tag-cloud">
+
+<a class="tag tag-hi" href="#plan-spellslinger">Spellslinger <em>606</em></a>
+
+<a class="tag tag-hi" href="#plan-x-spells">X Spells <em>539</em></a>
+
+<a class="tag tag-mid" href="#plan-control">Control <em>285</em></a>
+
+<a class="tag tag-lo" href="#plan-tokens">Tokens <em>96</em></a>
+
+<a class="tag tag-lo" href="#plan-combo">Combo <em>95</em></a>
+
+<a class="tag tag-lo" href="#plan-burn">Burn <em>48</em></a>
+
+<a class="tag tag-lo" href="#plan-storm">Storm <em>29</em></a>
+
+</div>
+</div>
+
+
+<div class="category" id="plan-spellslinger"><h3>👑 Spellslinger — 606 decks</h3>
+<div class="plan-desc">
+<p><strong>📖 Game plan</strong></p>
+<ul>
+<li><strong>Core mechanic</strong> : every spell you cast costs {1} less per target — <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span> turns multi-target spells into budget bombs.</li><li><strong>Engine</strong> : cast 36 instants/sorceries with token-makers (<span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/0/c0d74ecd-a595-4012-81b4-083264b40c94.jpg?1783907139" data-name="Young Pyromancer" onclick="openModal(this)">Young Pyromancer</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/b/1be3ed47-072e-481a-b3d9-dc232ac4b24f.jpg?1783911937" data-name="Talrand" onclick="openModal(this)">Talrand</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/9/e/9e68dcc2-bba4-4efa-97bb-3ed892037595.jpg?1783911941" data-name="Murmuring Mystic" onclick="openModal(this)">Murmuring Mystic</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791" data-name="Deekah" onclick="openModal(this)">Deekah</span>) and draw engines (<span class="card-badge" data-large="https://cards.scryfall.io/large/front/a/3/a3069683-0ff5-49e5-b7ae-f5bd40a4a32f.jpg?1783903222" data-name="Whirlwind of Thought" onclick="openModal(this)">Whirlwind of Thought</span>) converting each spell into value.</li><li><strong>Payoff</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/6/f6bb1ffc-2251-4655-b8f9-4c8047dd5d5f.jpg?1785497556" data-name="Guttersnipe" onclick="openModal(this)">Guttersnipe</span> and <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/a/ea1ab937-8647-4c83-99d5-6a40dffa4c9b.jpg?1783927615" data-name="Zaffai" onclick="openModal(this)">Zaffai</span> ping the table with every spell; <span class="card-badge" data-large="https://cards.scryfall.io/large/front/3/a/3a769d7e-c749-4845-ba87-808f0386df80.jpg?1783927564" data-name="Metallurgic Summonings" onclick="openModal(this)">Metallurgic Summonings</span> and <span class="card-badge" data-large="https://cards.scryfall.io/large/front/7/5/75c1eb6a-2183-4f60-b075-f7289df35be7.jpg?1783927539" data-name="Sunbird&#x27;s Invocation" onclick="openModal(this)">Sunbird&#x27;s Invocation</span> add free spells.</li>
+</ul>
+<p><strong>🏆 Win conditions</strong></p>
+<ul>
+<li><strong>Token swarm</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/b/1be3ed47-072e-481a-b3d9-dc232ac4b24f.jpg?1783911937" data-name="Talrand" onclick="openModal(this)">Talrand</span>/<span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/0/c0d74ecd-a595-4012-81b4-083264b40c94.jpg?1783907139" data-name="Young Pyromancer" onclick="openModal(this)">Young Pyromancer</span>/<span class="card-badge" data-large="https://cards.scryfall.io/large/front/9/e/9e68dcc2-bba4-4efa-97bb-3ed892037595.jpg?1783911941" data-name="Murmuring Mystic" onclick="openModal(this)">Murmuring Mystic</span> + <span class="card-badge" data-large="https://cards.scryfall.io/large/front/b/c/bc3e52c0-2f79-4537-8f1c-70b68836bac0.jpg?1783939456" data-name="Launch the Fleet" onclick="openModal(this)">Launch the Fleet</span> / <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/4/e492a245-46ba-438e-8d81-4626faa49bff.jpg?1783923991" data-name="Smoke Spirits&#x27; Aid" onclick="openModal(this)">Smoke Spirits&#x27; Aid</span> make a wide flying board.</li><li><strong>X-burn</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714" data-name="Comet Storm" onclick="openModal(this)">Comet Storm</span> / <span class="card-badge" data-large="https://cards.scryfall.io/large/front/3/6/365336b4-92ee-429d-8f18-4624cba5469d.jpg?1783928712" data-name="Jaya&#x27;s Immolating Inferno" onclick="openModal(this)">Jaya&#x27;s Immolating Inferno</span> deal lethal damage split across the table.</li><li><strong>Recursion</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/8/c8152ab0-c6fc-4568-b837-4e84129e7b57.jpg?1783927297" data-name="Radiant Scrollwielder" onclick="openModal(this)">Radiant Scrollwielder</span> / <span class="card-badge" data-large="https://cards.scryfall.io/large/front/8/0/806e5536-103b-4d6c-83b4-8659a55b25b5.jpg?1783908161" data-name="Mystic Retrieval" onclick="openModal(this)">Mystic Retrieval</span> / <span class="card-badge" data-large="https://cards.scryfall.io/large/front/3/e/3e565e38-43d5-482e-a911-ce525dfee74f.jpg?1783927298" data-name="Reconstruct History" onclick="openModal(this)">Reconstruct History</span> replay the winning spells.</li>
+</ul>
+</div>
+<div class="summary">EDHREC High Synergy pool: 10 cards · <strong>4 of the deck's cards match this plan</strong>: Curse of the Swine, March of Swirling Mist, Comet Storm, Battlefield Thaumaturge.</div>
+<div class="card-grid">
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795" data-large="https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795" data-name="Curse of the Swine" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Curse of the Swine <span class="plan-tag">Spellslinger</span></div>
+        
+        <div class="cb-expl">**Exile removal** : turns X creatures into 2/2 Boars — X targets with Hinata = mass removal.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901" data-large="https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901" data-name="March of Swirling Mist" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">March of Swirling Mist <span class="plan-tag">Spellslinger</span></div>
+        
+        <div class="cb-expl">**Protection** : X creatures phase out (X targets = discount); saves your board from wipes.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714" data-large="https://cards.scryfall.io/normal/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714" data-name="Comet Storm" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Comet Storm <span class="plan-tag">Spellslinger</span></div>
+        
+        <div class="cb-expl">**X-spell finisher** : deals X damage split between any targets — with Hinata + Thaumaturge, lethal for pennies.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/4/6/467ffc93-b107-457c-af04-a1b682a4b886.jpg?1783939450" data-large="https://cards.scryfall.io/normal/front/4/6/467ffc93-b107-457c-af04-a1b682a4b886.jpg?1783939450" data-name="Battlefield Thaumaturge" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Battlefield Thaumaturge <span class="plan-tag">Spellslinger</span></div>
+        
+        <div class="cb-expl">**Discount enabler** : each spell you cast costs {1} less per creature it targets — stacks with Hinata for X-burn.</div>
+      </div>
+    </div>
+
+</div>
+
+<div class="plan-combos"><strong>🔗 Combos (Commander Spellbook)</strong>
+
+<div class="combo">
+<h3>🔗 Hinata, Dawn-Crowned + Soulfire Grand Master + Reality Spasm <button class="copy-btn" data-copy="Hinata, Dawn-Crowned, Soulfire Grand Master, Reality Spasm" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h3>
+<div class="meta">in the precon: Hinata, Dawn-Crowned · Identity URW · Popularity: 3335 decks</div>
+<div class="center"><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata, Dawn-Crowned" loading="lazy" onclick="openModal(this)"/><div class="big-label">Hinata, Dawn-Crowned</div></div><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709" data-large="https://cards.scryfall.io/large/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709" data-name="Soulfire Grand Master" loading="lazy" onclick="openModal(this)"/><div class="big-label">Soulfire Grand Master</div></div><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993" data-large="https://cards.scryfall.io/large/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993" data-name="Reality Spasm" loading="lazy" onclick="openModal(this)"/><div class="big-label">Reality Spasm</div></div></div>
+
+<div class="result"><strong>Produces</strong>:<ul><li></li><li></li><li></li><li></li><li></li></ul></div>
+
+
+<div class="step"><strong>Prerequisites</strong>:<ul><li>Permanents you control can tap to produce at least <img src="https://svgs.scryfall.io/card-symbols/3.svg" alt="3" title="3" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/UR.svg" alt="U/R" title="U/R" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/UR.svg" alt="U/R" title="U/R" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/></li></ul></div>
+
+
+<div class="step"><strong>Execution</strong>:<ul><li>Activate any number of mana-producing permanents you control by tapping them, adding at least <img src="https://svgs.scryfall.io/card-symbols/3.svg" alt="3" title="3" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/UR.svg" alt="U/R" title="U/R" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/UR.svg" alt="U/R" title="U/R" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/></li><li>Activate <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709" data-name="Soulfire Grand Master" onclick="openModal(this)">Soulfire Grand Master</span> by paying <img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/UR.svg" alt="U/R" title="U/R" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/UR.svg" alt="U/R" title="U/R" class="ms"/>, causing you to put the next instant or sorcery card you cast from your hand this turn into your hand as it resolves</li><li>Cast <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993" data-name="Reality Spasm" onclick="openModal(this)">Reality Spasm</span> by paying a total of <img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/> due to <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span>, untapping the mana-producing permanents and returning <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993" data-name="Reality Spasm" onclick="openModal(this)">Reality Spasm</span> to your hand due to <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709" data-name="Soulfire Grand Master" onclick="openModal(this)">Soulfire Grand Master</span></li><li>Repeat</li><li>You may also repeat this on each opponent's upkeep to first gain infinite mana, then repeat the loop using <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993" data-name="Reality Spasm" onclick="openModal(this)">Reality Spasm</span>'s other mode instead to tap down all opponents' permanents</li></ul></div>
+
+</div>
+
+<div class="combo">
+<h3>🔗 Fury Storm + Deekah, Fractal Theorist <button class="copy-btn" data-copy="Fury Storm, Deekah, Fractal Theorist" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h3>
+<div class="meta">in the precon: Deekah, Fractal Theorist · Identity UR · Popularity: 549 decks</div>
+<div class="center"><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336" data-large="https://cards.scryfall.io/large/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336" data-name="Fury Storm" loading="lazy" onclick="openModal(this)"/><div class="big-label">Fury Storm</div></div><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791" data-large="https://cards.scryfall.io/large/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791" data-name="Deekah, Fractal Theorist" loading="lazy" onclick="openModal(this)"/><div class="big-label">Deekah, Fractal Theorist</div></div></div>
+
+<div class="result"><strong>Produces</strong>:<ul><li></li><li></li></ul></div>
+
+
+<div class="step"><strong>Prerequisites</strong>:<ul><li>You have cast your commander from your command zone this game</li><li>An additional instant or sorcery in hand with the mana to cast it, or an opponent has cast an as of yet unresolved instant or sorcery spell</li></ul></div>
+
+
+<div class="step"><strong>Execution</strong>:<ul><li>Cast your additional instant or sorcery spell, or wait for an opponent to cast one</li><li><span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791" data-name="Deekah" onclick="openModal(this)">Deekah</span> triggers, creating a Fractal creature token</li><li>Cast <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336" data-name="Fury Storm" onclick="openModal(this)">Fury Storm</span> targeting the instant or sorcery spell</li><li><span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791" data-name="Deekah" onclick="openModal(this)">Deekah</span> triggers, creating a Fractal creature token</li><li><span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336" data-name="Fury Storm" onclick="openModal(this)">Fury Storm</span> triggers, copying itself for each time you have cast your commander from your command zone this game and choosing the original copy of <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336" data-name="Fury Storm" onclick="openModal(this)">Fury Storm</span> as the target</li><li><span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791" data-name="Deekah" onclick="openModal(this)">Deekah</span> triggers for each copy, creating a Fractal creature token each time</li><li>Resolve a <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336" data-name="Fury Storm" onclick="openModal(this)">Fury Storm</span> copy, copying <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336" data-name="Fury Storm" onclick="openModal(this)">Fury Storm</span> and choosing the original <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336" data-name="Fury Storm" onclick="openModal(this)">Fury Storm</span> as the target</li><li><span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791" data-name="Deekah" onclick="openModal(this)">Deekah</span> triggers, creating a Fractal creature token</li><li>Repeat from step 7</li></ul></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="category" id="plan-x-spells"><h3>👑 X Spells — 539 decks</h3>
+<div class="plan-desc">
+<p><strong>📖 Game plan</strong></p>
+<ul>
+<li><strong>Core mechanic</strong> : X-spells with multiple targets get a huge discount from <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span> (each target = {1} less) — a 5-target <span class="card-badge" data-large="https://cards.scryfall.io/large/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714" data-name="Comet Storm" onclick="openModal(this)">Comet Storm</span> costs almost nothing.</li><li><strong>Enablers</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/4/6/467ffc93-b107-457c-af04-a1b682a4b886.jpg?1783939450" data-name="Battlefield Thaumaturge" onclick="openModal(this)">Battlefield Thaumaturge</span> stacks another {1} discount per creature targeted; <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/8/f892e316-95c9-4e68-8eb0-96f71a862f2b.jpg?1783903740" data-name="Elementalist&#x27;s Palette" onclick="openModal(this)">Elementalist&#x27;s Palette</span> charges mana for big X.</li><li><strong>Payoff</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714" data-name="Comet Storm" onclick="openModal(this)">Comet Storm</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/3/6/365336b4-92ee-429d-8f18-4624cba5469d.jpg?1783928712" data-name="Jaya&#x27;s Immolating Inferno" onclick="openModal(this)">Jaya&#x27;s Immolating Inferno</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/d/4/d4ba75be-2428-45aa-bf02-75c379a5dfa2.jpg?1783936750" data-name="Release the Gremlins" onclick="openModal(this)">Release the Gremlins</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795" data-name="Curse of the Swine" onclick="openModal(this)">Curse of the Swine</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/a/9/a921ff16-2cd1-4080-80a9-dd73c4eda5c7.jpg?1783929482" data-name="Open into Wonder" onclick="openModal(this)">Open into Wonder</span> and <span class="card-badge" data-large="https://cards.scryfall.io/large/front/b/c/bc3e52c0-2f79-4537-8f1c-70b68836bac0.jpg?1783939456" data-name="Launch the Fleet" onclick="openModal(this)">Launch the Fleet</span> all shine.</li>
+</ul>
+<p><strong>🏆 Win conditions</strong></p>
+<ul>
+<li><strong>Lethal burn</strong> : a giant <span class="card-badge" data-large="https://cards.scryfall.io/large/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714" data-name="Comet Storm" onclick="openModal(this)">Comet Storm</span> or Jaya's Inferno with 4+ targets ends the game for a few mana.</li><li><strong>Mass removal</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795" data-name="Curse of the Swine" onclick="openModal(this)">Curse of the Swine</span> with X targets exiles the whole board.</li><li><strong>Go-wide</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/b/c/bc3e52c0-2f79-4537-8f1c-70b68836bac0.jpg?1783939456" data-name="Launch the Fleet" onclick="openModal(this)">Launch the Fleet</span> / <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/4/e492a245-46ba-438e-8d81-4626faa49bff.jpg?1783923991" data-name="Smoke Spirits&#x27; Aid" onclick="openModal(this)">Smoke Spirits&#x27; Aid</span> turn X into an army.</li>
+</ul>
+</div>
+<div class="summary">EDHREC High Synergy pool: 10 cards · <strong>4 of the deck's cards match this plan</strong>: Curse of the Swine, March of Swirling Mist, Icy Blast, Comet Storm.</div>
+<div class="card-grid">
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795" data-large="https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795" data-name="Curse of the Swine" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Curse of the Swine <span class="plan-tag">X Spells</span></div>
+        
+        <div class="cb-expl">**Exile removal** : turns X creatures into 2/2 Boars — X targets with Hinata = mass removal.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901" data-large="https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901" data-name="March of Swirling Mist" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">March of Swirling Mist <span class="plan-tag">X Spells</span></div>
+        
+        <div class="cb-expl">**Protection** : X creatures phase out (X targets = discount); saves your board from wipes.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/b/0/b098f029-6b5d-49e4-9a81-f497ebbdb5ce.jpg?1783939087" data-large="https://cards.scryfall.io/normal/front/b/0/b098f029-6b5d-49e4-9a81-f497ebbdb5ce.jpg?1783939087" data-name="Icy Blast" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Icy Blast <span class="plan-tag">X Spells</span></div>
+        
+        <div class="cb-expl">**X-spell tap** : taps X creatures (X targets with Hinata = discount); stalls the board.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714" data-large="https://cards.scryfall.io/normal/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714" data-name="Comet Storm" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Comet Storm <span class="plan-tag">X Spells</span></div>
+        
+        <div class="cb-expl">**X-spell finisher** : deals X damage split between any targets — with Hinata + Thaumaturge, lethal for pennies.</div>
+      </div>
+    </div>
+
+</div>
+
+<div class="plan-combos"><strong>🔗 Combos (Commander Spellbook)</strong>
+
+<div class="combo">
+<h3>🔗 Hinata, Dawn-Crowned + Soulfire Grand Master + Reality Spasm <button class="copy-btn" data-copy="Hinata, Dawn-Crowned, Soulfire Grand Master, Reality Spasm" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h3>
+<div class="meta">in the precon: Hinata, Dawn-Crowned · Identity URW · Popularity: 3335 decks</div>
+<div class="center"><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata, Dawn-Crowned" loading="lazy" onclick="openModal(this)"/><div class="big-label">Hinata, Dawn-Crowned</div></div><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709" data-large="https://cards.scryfall.io/large/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709" data-name="Soulfire Grand Master" loading="lazy" onclick="openModal(this)"/><div class="big-label">Soulfire Grand Master</div></div><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993" data-large="https://cards.scryfall.io/large/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993" data-name="Reality Spasm" loading="lazy" onclick="openModal(this)"/><div class="big-label">Reality Spasm</div></div></div>
+
+<div class="result"><strong>Produces</strong>:<ul><li></li><li></li><li></li><li></li><li></li></ul></div>
+
+
+<div class="step"><strong>Prerequisites</strong>:<ul><li>Permanents you control can tap to produce at least <img src="https://svgs.scryfall.io/card-symbols/3.svg" alt="3" title="3" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/UR.svg" alt="U/R" title="U/R" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/UR.svg" alt="U/R" title="U/R" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/></li></ul></div>
+
+
+<div class="step"><strong>Execution</strong>:<ul><li>Activate any number of mana-producing permanents you control by tapping them, adding at least <img src="https://svgs.scryfall.io/card-symbols/3.svg" alt="3" title="3" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/UR.svg" alt="U/R" title="U/R" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/UR.svg" alt="U/R" title="U/R" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/></li><li>Activate <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709" data-name="Soulfire Grand Master" onclick="openModal(this)">Soulfire Grand Master</span> by paying <img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/UR.svg" alt="U/R" title="U/R" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/UR.svg" alt="U/R" title="U/R" class="ms"/>, causing you to put the next instant or sorcery card you cast from your hand this turn into your hand as it resolves</li><li>Cast <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993" data-name="Reality Spasm" onclick="openModal(this)">Reality Spasm</span> by paying a total of <img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/> due to <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span>, untapping the mana-producing permanents and returning <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993" data-name="Reality Spasm" onclick="openModal(this)">Reality Spasm</span> to your hand due to <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709" data-name="Soulfire Grand Master" onclick="openModal(this)">Soulfire Grand Master</span></li><li>Repeat</li><li>You may also repeat this on each opponent's upkeep to first gain infinite mana, then repeat the loop using <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993" data-name="Reality Spasm" onclick="openModal(this)">Reality Spasm</span>'s other mode instead to tap down all opponents' permanents</li></ul></div>
+
+</div>
+
+<div class="combo">
+<h3>🔗 Hinata, Dawn-Crowned + Voracious Bibliophile + Reality Spasm <button class="copy-btn" data-copy="Hinata, Dawn-Crowned, Voracious Bibliophile, Reality Spasm" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h3>
+<div class="meta">in the precon: Hinata, Dawn-Crowned · Identity URW · Popularity: 2917 decks</div>
+<div class="center"><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata, Dawn-Crowned" loading="lazy" onclick="openModal(this)"/><div class="big-label">Hinata, Dawn-Crowned</div></div><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/7/7/77d2c30b-3130-4d9d-bd3d-484fe6dc306d.jpg?1783907179" data-large="https://cards.scryfall.io/large/front/7/7/77d2c30b-3130-4d9d-bd3d-484fe6dc306d.jpg?1783907179" data-name="Voracious Bibliophile" loading="lazy" onclick="openModal(this)"/><div class="big-label">Voracious Bibliophile</div></div><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993" data-large="https://cards.scryfall.io/large/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993" data-name="Reality Spasm" loading="lazy" onclick="openModal(this)"/><div class="big-label">Reality Spasm</div></div></div>
+
+<div class="result"><strong>Produces</strong>:<ul><li></li><li></li></ul></div>
+
+
+
+<div class="step"><strong>Execution</strong>:<ul><li>Cast <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993" data-name="Reality Spasm" onclick="openModal(this)">Reality Spasm</span> by paying a total of <img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/> due to <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span>, targeting every permanent on the battlefield or a number of permanents equal to your deck size, whichever is smaller</li><li><span class="card-badge" data-large="https://cards.scryfall.io/large/front/7/7/77d2c30b-3130-4d9d-bd3d-484fe6dc306d.jpg?1783907179" data-name="Voracious Bibliophile" onclick="openModal(this)">Voracious Bibliophile</span> triggers, causing you to draw a card for each permanent targeted</li></ul></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="category" id="plan-control"><h3>🎯 Control — 285 decks</h3>
+<div class="plan-desc">
+<p><strong>📖 Game plan</strong></p>
+<ul>
+<li><strong>Core mechanic</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span> taxes opponents' spells ({1} more per target) while your own counters are discounted.</li><li><strong>Answers</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/b/8/b832abcc-9ffd-47bf-827a-01b303c610ee.jpg?1783930724" data-name="Rewind" onclick="openModal(this)">Rewind</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/9/7/97da6607-9131-4f8b-8af3-63439a59b78b.jpg?1783935018" data-name="Unwind" onclick="openModal(this)">Unwind</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/5/2/52d58fe4-6070-4022-9cd7-c35a11b44525.jpg?1783904112" data-name="Negate" onclick="openModal(this)">Negate</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/0/4/0430da3c-9460-4b62-ae28-2e7e6f4d06a4.jpg?1783931073" data-name="Neutralize" onclick="openModal(this)">Neutralize</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/8/7/877a1bb9-5eae-453a-bec0-a9de20ea6815.jpg?1783928256" data-name="Saw It Coming" onclick="openModal(this)">Saw It Coming</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/6/c6704458-6e9e-4795-a56d-25b68fbf9672.jpg?1783926504" data-name="You Find the Villains&#x27; Lair" onclick="openModal(this)">You Find the Villains&#x27; Lair</span> counter everything; <span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/3/c3f9b454-97e9-4c77-b37a-e974221ae385.jpg?1783903247" data-name="Generous Gift" onclick="openModal(this)">Generous Gift</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/0/8/08c5cdbe-2142-4ddc-b9b5-35ca60eb9970.jpg?1783923967" data-name="Crush Contraband" onclick="openModal(this)">Crush Contraband</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/3/c/3c3745c2-5509-4d6b-8f49-5cb93374edea.jpg?1783909632" data-name="Return to Dust" onclick="openModal(this)">Return to Dust</span> remove permanents.</li><li><strong>Engine</strong> : draw (<span class="card-badge" data-large="https://cards.scryfall.io/large/front/4/9/49233196-82e4-44c4-86f0-6eb2db7293a3.jpg?1783934832" data-name="Opportunity" onclick="openModal(this)">Opportunity</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/a/2/a247ab59-7749-4d37-87f6-f90f44cd54f4.jpg?1783907108" data-name="Compulsive Research" onclick="openModal(this)">Compulsive Research</span>) keeps the answers coming; tokens chump-block.</li>
+</ul>
+<p><strong>🏆 Win conditions</strong></p>
+<ul>
+<li><strong>Value win</strong> : out-grind the table with card advantage, then finish with a big X-spell.</li><li><strong><span class="card-badge" data-large="https://cards.scryfall.io/large/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935" data-name="Dismiss into Dream" onclick="openModal(this)">Dismiss into Dream</span> lock</strong> : any targeted removal becomes board destruction.</li>
+</ul>
+</div>
+<div class="summary">EDHREC High Synergy pool: 10 cards · <strong>4 of the deck's cards match this plan</strong>: Curse of the Swine, March of Swirling Mist, Comet Storm, Icy Blast.</div>
+<div class="card-grid">
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795" data-large="https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795" data-name="Curse of the Swine" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Curse of the Swine <span class="plan-tag">Control</span></div>
+        
+        <div class="cb-expl">**Exile removal** : turns X creatures into 2/2 Boars — X targets with Hinata = mass removal.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901" data-large="https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901" data-name="March of Swirling Mist" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">March of Swirling Mist <span class="plan-tag">Control</span></div>
+        
+        <div class="cb-expl">**Protection** : X creatures phase out (X targets = discount); saves your board from wipes.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714" data-large="https://cards.scryfall.io/normal/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714" data-name="Comet Storm" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Comet Storm <span class="plan-tag">Control</span></div>
+        
+        <div class="cb-expl">**X-spell finisher** : deals X damage split between any targets — with Hinata + Thaumaturge, lethal for pennies.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/b/0/b098f029-6b5d-49e4-9a81-f497ebbdb5ce.jpg?1783939087" data-large="https://cards.scryfall.io/normal/front/b/0/b098f029-6b5d-49e4-9a81-f497ebbdb5ce.jpg?1783939087" data-name="Icy Blast" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Icy Blast <span class="plan-tag">Control</span></div>
+        
+        <div class="cb-expl">**X-spell tap** : taps X creatures (X targets with Hinata = discount); stalls the board.</div>
+      </div>
+    </div>
+
+</div>
+
+<div class="plan-combos"><strong>🔗 Combos (Commander Spellbook)</strong>
+
+<div class="combo">
+<h3>🔗 Hinata, Dawn-Crowned + Ghostly Flicker + Archaeomancer <button class="copy-btn" data-copy="Hinata, Dawn-Crowned, Ghostly Flicker, Archaeomancer" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h3>
+<div class="meta">in the precon: Hinata, Dawn-Crowned · Identity URW · Popularity: 587 decks</div>
+<div class="center"><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata, Dawn-Crowned" loading="lazy" onclick="openModal(this)"/><div class="big-label">Hinata, Dawn-Crowned</div></div><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/d/c/dc143ba3-2a58-4980-9fa0-a05a9e9ed082.jpg?1783915697" data-large="https://cards.scryfall.io/large/front/d/c/dc143ba3-2a58-4980-9fa0-a05a9e9ed082.jpg?1783915697" data-name="Ghostly Flicker" loading="lazy" onclick="openModal(this)"/><div class="big-label">Ghostly Flicker</div></div><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1783933855" data-large="https://cards.scryfall.io/large/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1783933855" data-name="Archaeomancer" loading="lazy" onclick="openModal(this)"/><div class="big-label">Archaeomancer</div></div></div>
+
+<div class="result"><strong>Produces</strong>:<ul><li></li><li></li><li></li><li></li><li></li><li></li></ul></div>
+
+
+<div class="step"><strong>Prerequisites</strong>:<ul><li>You control a permanent that enters the battlefield untapped and that can tap to produce at least <img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/></li></ul></div>
+
+
+<div class="step"><strong>Execution</strong>:<ul><li>Activate a permanent by tapping it, adding at least <img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/></li><li>Cast <span class="card-badge" data-large="https://cards.scryfall.io/large/front/d/c/dc143ba3-2a58-4980-9fa0-a05a9e9ed082.jpg?1783915697" data-name="Ghostly Flicker" onclick="openModal(this)">Ghostly Flicker</span> by paying <img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/> due to <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span>, blinking <span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1783933855" data-name="Archaeomancer" onclick="openModal(this)">Archaeomancer</span> and the permanent tapped for mana in step 1</li><li>When <span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1783933855" data-name="Archaeomancer" onclick="openModal(this)">Archaeomancer</span> enters the battlefield, it triggers, returning <span class="card-badge" data-large="https://cards.scryfall.io/large/front/d/c/dc143ba3-2a58-4980-9fa0-a05a9e9ed082.jpg?1783915697" data-name="Ghostly Flicker" onclick="openModal(this)">Ghostly Flicker</span> from your graveyard to your hand</li><li>Repeat</li></ul></div>
+
+</div>
+
+<div class="combo">
+<h3>🔗 Dismiss into Dream + Goblin Sharpshooter <button class="copy-btn" data-copy="Dismiss into Dream, Goblin Sharpshooter" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h3>
+<div class="meta">in the precon: Dismiss into Dream · Identity UR · Popularity: 276 decks</div>
+<div class="center"><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935" data-large="https://cards.scryfall.io/large/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935" data-name="Dismiss into Dream" loading="lazy" onclick="openModal(this)"/><div class="big-label">Dismiss into Dream</div></div><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668" data-large="https://cards.scryfall.io/large/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668" data-name="Goblin Sharpshooter" loading="lazy" onclick="openModal(this)"/><div class="big-label">Goblin Sharpshooter</div></div></div>
+
+<div class="result"><strong>Produces</strong>:<ul><li></li><li></li><li></li></ul></div>
+
+
+<div class="step"><strong>Prerequisites</strong>:<ul><li><span class="card-badge" data-large="https://cards.scryfall.io/large/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668" data-name="Goblin Sharpshooter" onclick="openModal(this)">Goblin Sharpshooter</span> does not have summoning sickness</li></ul></div>
+
+
+<div class="step"><strong>Execution</strong>:<ul><li>Activate <span class="card-badge" data-large="https://cards.scryfall.io/large/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668" data-name="Goblin Sharpshooter" onclick="openModal(this)">Goblin Sharpshooter</span> targeting a creature an opponent controls</li><li>That creature triggers, causing its controller to sacrifice it</li><li><span class="card-badge" data-large="https://cards.scryfall.io/large/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668" data-name="Goblin Sharpshooter" onclick="openModal(this)">Goblin Sharpshooter</span> triggers, untapping itself</li><li>Repeat</li></ul></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="category" id="plan-tokens"><h3>🎯 Tokens — 96 decks</h3>
+<div class="plan-desc">
+<p><strong>📖 Game plan</strong></p>
+<ul>
+<li><strong>Core mechanic</strong> : spellslinger token engines — <span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/0/c0d74ecd-a595-4012-81b4-083264b40c94.jpg?1783907139" data-name="Young Pyromancer" onclick="openModal(this)">Young Pyromancer</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/b/1be3ed47-072e-481a-b3d9-dc232ac4b24f.jpg?1783911937" data-name="Talrand" onclick="openModal(this)">Talrand</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/9/e/9e68dcc2-bba4-4efa-97bb-3ed892037595.jpg?1783911941" data-name="Murmuring Mystic" onclick="openModal(this)">Murmuring Mystic</span> and <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791" data-name="Deekah" onclick="openModal(this)">Deekah</span> make creatures on every spell.</li><li><strong>Synergy</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/3/a/3a769d7e-c749-4845-ba87-808f0386df80.jpg?1783927564" data-name="Metallurgic Summonings" onclick="openModal(this)">Metallurgic Summonings</span> adds artifact creatures; <span class="card-badge" data-large="https://cards.scryfall.io/large/front/b/c/bc3e52c0-2f79-4537-8f1c-70b68836bac0.jpg?1783939456" data-name="Launch the Fleet" onclick="openModal(this)">Launch the Fleet</span> and <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/4/e492a245-46ba-438e-8d81-4626faa49bff.jpg?1783923991" data-name="Smoke Spirits&#x27; Aid" onclick="openModal(this)">Smoke Spirits&#x27; Aid</span> pump the board.</li><li><strong>Value</strong> : the tokens protect the planeswalker-ish engines and chump-block while you build.</li>
+</ul>
+<p><strong>🏆 Win conditions</strong></p>
+<ul>
+<li><strong>Wide board</strong> : a critical mass of Elementals/Drakes/Spirits/Fractals overwhelms.</li><li><strong>Flying finisher</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/4/e492a245-46ba-438e-8d81-4626faa49bff.jpg?1783923991" data-name="Smoke Spirits&#x27; Aid" onclick="openModal(this)">Smoke Spirits&#x27; Aid</span> gives everything flying +1/+1 for the alpha strike.</li>
+</ul>
+</div>
+<div class="summary">EDHREC High Synergy pool: 10 cards · <strong>2 of the deck's cards match this plan</strong>: Curse of the Swine, March of Swirling Mist.</div>
+<div class="card-grid">
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795" data-large="https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795" data-name="Curse of the Swine" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Curse of the Swine <span class="plan-tag">Tokens</span></div>
+        
+        <div class="cb-expl">**Exile removal** : turns X creatures into 2/2 Boars — X targets with Hinata = mass removal.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901" data-large="https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901" data-name="March of Swirling Mist" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">March of Swirling Mist <span class="plan-tag">Tokens</span></div>
+        
+        <div class="cb-expl">**Protection** : X creatures phase out (X targets = discount); saves your board from wipes.</div>
+      </div>
+    </div>
+
+</div>
+
+<div class="plan-combos"><strong>🔗 Combos (Commander Spellbook)</strong>
+
+<div class="combo">
+<h3>🔗 Fury Storm + Deekah, Fractal Theorist <button class="copy-btn" data-copy="Fury Storm, Deekah, Fractal Theorist" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h3>
+<div class="meta">in the precon: Deekah, Fractal Theorist · Identity UR · Popularity: 549 decks</div>
+<div class="center"><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336" data-large="https://cards.scryfall.io/large/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336" data-name="Fury Storm" loading="lazy" onclick="openModal(this)"/><div class="big-label">Fury Storm</div></div><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791" data-large="https://cards.scryfall.io/large/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791" data-name="Deekah, Fractal Theorist" loading="lazy" onclick="openModal(this)"/><div class="big-label">Deekah, Fractal Theorist</div></div></div>
+
+<div class="result"><strong>Produces</strong>:<ul><li></li><li></li></ul></div>
+
+
+<div class="step"><strong>Prerequisites</strong>:<ul><li>You have cast your commander from your command zone this game</li><li>An additional instant or sorcery in hand with the mana to cast it, or an opponent has cast an as of yet unresolved instant or sorcery spell</li></ul></div>
+
+
+<div class="step"><strong>Execution</strong>:<ul><li>Cast your additional instant or sorcery spell, or wait for an opponent to cast one</li><li><span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791" data-name="Deekah" onclick="openModal(this)">Deekah</span> triggers, creating a Fractal creature token</li><li>Cast <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336" data-name="Fury Storm" onclick="openModal(this)">Fury Storm</span> targeting the instant or sorcery spell</li><li><span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791" data-name="Deekah" onclick="openModal(this)">Deekah</span> triggers, creating a Fractal creature token</li><li><span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336" data-name="Fury Storm" onclick="openModal(this)">Fury Storm</span> triggers, copying itself for each time you have cast your commander from your command zone this game and choosing the original copy of <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336" data-name="Fury Storm" onclick="openModal(this)">Fury Storm</span> as the target</li><li><span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791" data-name="Deekah" onclick="openModal(this)">Deekah</span> triggers for each copy, creating a Fractal creature token each time</li><li>Resolve a <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336" data-name="Fury Storm" onclick="openModal(this)">Fury Storm</span> copy, copying <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336" data-name="Fury Storm" onclick="openModal(this)">Fury Storm</span> and choosing the original <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336" data-name="Fury Storm" onclick="openModal(this)">Fury Storm</span> as the target</li><li><span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791" data-name="Deekah" onclick="openModal(this)">Deekah</span> triggers, creating a Fractal creature token</li><li>Repeat from step 7</li></ul></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="category" id="plan-combo"><h3>🎯 Combo — 95 decks</h3>
+<div class="plan-desc">
+<p><strong>📖 Game plan</strong></p>
+<ul>
+<li><strong>Core mechanic</strong> : the deck packs several 2-3 card combos around its engines.</li><li><strong>Elsha lines</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837" data-name="Elsha of the Infinite" onclick="openModal(this)">Elsha of the Infinite</span> plays from the top — with <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span> or <span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795" data-name="Displacer Kitten" onclick="openModal(this)">Displacer Kitten</span> she goes infinite.</li><li><strong><span class="card-badge" data-large="https://cards.scryfall.io/large/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935" data-name="Dismiss into Dream" onclick="openModal(this)">Dismiss into Dream</span></strong> : any targeting spell becomes a destroy — with <span class="card-badge" data-large="https://cards.scryfall.io/large/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668" data-name="Goblin Sharpshooter" onclick="openModal(this)">Goblin Sharpshooter</span> it clears the whole board.</li>
+</ul>
+<p><strong>🏆 Win conditions</strong></p>
+<ul>
+<li><strong>Infinite loops</strong> : the Elsha + Top + <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615" data-name="Kykar" onclick="openModal(this)">Kykar</span> line draws the deck; <span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795" data-name="Displacer Kitten" onclick="openModal(this)">Displacer Kitten</span> + Top + Elsha blinks infinitely.</li><li><strong>Board wipe combo</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935" data-name="Dismiss into Dream" onclick="openModal(this)">Dismiss into Dream</span> + <span class="card-badge" data-large="https://cards.scryfall.io/large/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668" data-name="Goblin Sharpshooter" onclick="openModal(this)">Goblin Sharpshooter</span> clears all creatures, then swing through.</li>
+</ul>
+</div>
+<div class="summary">EDHREC High Synergy pool: 10 cards · <strong>3 of the deck's cards match this plan</strong>: March of Swirling Mist, Curse of the Swine, Battlefield Thaumaturge.</div>
+<div class="card-grid">
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901" data-large="https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901" data-name="March of Swirling Mist" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">March of Swirling Mist <span class="plan-tag">Combo</span></div>
+        
+        <div class="cb-expl">**Protection** : X creatures phase out (X targets = discount); saves your board from wipes.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795" data-large="https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795" data-name="Curse of the Swine" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Curse of the Swine <span class="plan-tag">Combo</span></div>
+        
+        <div class="cb-expl">**Exile removal** : turns X creatures into 2/2 Boars — X targets with Hinata = mass removal.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/4/6/467ffc93-b107-457c-af04-a1b682a4b886.jpg?1783939450" data-large="https://cards.scryfall.io/normal/front/4/6/467ffc93-b107-457c-af04-a1b682a4b886.jpg?1783939450" data-name="Battlefield Thaumaturge" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Battlefield Thaumaturge <span class="plan-tag">Combo</span></div>
+        
+        <div class="cb-expl">**Discount enabler** : each spell you cast costs {1} less per creature it targets — stacks with Hinata for X-burn.</div>
+      </div>
+    </div>
+
+</div>
+
+<div class="plan-combos"><strong>🔗 Combos (Commander Spellbook)</strong>
+
+<div class="combo">
+<h3>🔗 Sensei's Divining Top + Kykar, Wind's Fury + Elsha of the Infinite <button class="copy-btn" data-copy="Sensei&#x27;s Divining Top, Kykar, Wind&#x27;s Fury, Elsha of the Infinite" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h3>
+<div class="meta">in the precon: Elsha of the Infinite · Identity URW · Popularity: 2813 decks</div>
+<div class="center"><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" loading="lazy" onclick="openModal(this)"/><div class="big-label">Sensei&#x27;s Divining Top</div></div><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615" data-large="https://cards.scryfall.io/large/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615" data-name="Kykar, Wind&#x27;s Fury" loading="lazy" onclick="openModal(this)"/><div class="big-label">Kykar, Wind&#x27;s Fury</div></div><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837" data-large="https://cards.scryfall.io/large/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837" data-name="Elsha of the Infinite" loading="lazy" onclick="openModal(this)"/><div class="big-label">Elsha of the Infinite</div></div></div>
+
+<div class="result"><strong>Produces</strong>:<ul><li></li><li></li><li></li><li></li><li></li><li></li></ul></div>
+
+
+
+<div class="step"><strong>Execution</strong>:<ul><li>Activate <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span> by tapping it, causing you to draw a card and put <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span> on top of your library</li><li>Cast <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span> from the top of your library by paying <img src="https://svgs.scryfall.io/card-symbols/1.svg" alt="1" title="1" class="ms"/></li><li><span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615" data-name="Kykar" onclick="openModal(this)">Kykar</span> and Elsha trigger</li><li>Resolve the Elsha trigger, giving it +1/+1 until end of turn</li><li>Resolve the <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615" data-name="Kykar" onclick="openModal(this)">Kykar</span> trigger, creating a 1/1 Spirit creature token</li><li>Activate <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615" data-name="Kykar" onclick="openModal(this)">Kykar</span> by sacrificing the Spirit, adding <img src="https://svgs.scryfall.io/card-symbols/R.svg" alt="R" title="R" class="ms"/></li><li>Repeat</li></ul></div>
+
+</div>
+
+<div class="combo">
+<h3>🔗 Displacer Kitten + Sensei's Divining Top + Elsha of the Infinite <button class="copy-btn" data-copy="Displacer Kitten, Sensei&#x27;s Divining Top, Elsha of the Infinite" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h3>
+<div class="meta">in the precon: Elsha of the Infinite · Identity URW · Popularity: 1595 decks</div>
+<div class="center"><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795" data-large="https://cards.scryfall.io/large/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795" data-name="Displacer Kitten" loading="lazy" onclick="openModal(this)"/><div class="big-label">Displacer Kitten</div></div><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" loading="lazy" onclick="openModal(this)"/><div class="big-label">Sensei&#x27;s Divining Top</div></div><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837" data-large="https://cards.scryfall.io/large/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837" data-name="Elsha of the Infinite" loading="lazy" onclick="openModal(this)"/><div class="big-label">Elsha of the Infinite</div></div></div>
+
+<div class="result"><strong>Produces</strong>:<ul><li></li><li></li><li></li><li></li></ul></div>
+
+
+
+<div class="step"><strong>Execution</strong>:<ul><li>Activate <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span>'s second ability by tapping it, causing you to draw a card and put <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span> from the battlefield on top of your library</li><li>Activate the mana-producing artifact or creature by tapping it, adding at least <img src="https://svgs.scryfall.io/card-symbols/1.svg" alt="1" title="1" class="ms"/></li><li>Cast <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span> from the top of your library by paying <img src="https://svgs.scryfall.io/card-symbols/1.svg" alt="1" title="1" class="ms"/></li><li><span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795" data-name="Displacer Kitten" onclick="openModal(this)">Displacer Kitten</span> and <span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837" data-name="Elsha of the Infinite" onclick="openModal(this)">Elsha of the Infinite</span>'s prowess ability trigger</li><li>Resolve the <span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795" data-name="Displacer Kitten" onclick="openModal(this)">Displacer Kitten</span> trigger, blinking the mana-producing artifact or creature</li><li>Resolve the <span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837" data-name="Elsha of the Infinite" onclick="openModal(this)">Elsha of the Infinite</span> trigger, giving it +1/+1 until end of turn</li><li>Repeat</li></ul></div>
+
+</div>
+
+<div class="combo">
+<h3>🔗 Dismiss into Dream + Goblin Sharpshooter <button class="copy-btn" data-copy="Dismiss into Dream, Goblin Sharpshooter" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h3>
+<div class="meta">in the precon: Dismiss into Dream · Identity UR · Popularity: 276 decks</div>
+<div class="center"><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935" data-large="https://cards.scryfall.io/large/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935" data-name="Dismiss into Dream" loading="lazy" onclick="openModal(this)"/><div class="big-label">Dismiss into Dream</div></div><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668" data-large="https://cards.scryfall.io/large/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668" data-name="Goblin Sharpshooter" loading="lazy" onclick="openModal(this)"/><div class="big-label">Goblin Sharpshooter</div></div></div>
+
+<div class="result"><strong>Produces</strong>:<ul><li></li><li></li><li></li></ul></div>
+
+
+<div class="step"><strong>Prerequisites</strong>:<ul><li><span class="card-badge" data-large="https://cards.scryfall.io/large/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668" data-name="Goblin Sharpshooter" onclick="openModal(this)">Goblin Sharpshooter</span> does not have summoning sickness</li></ul></div>
+
+
+<div class="step"><strong>Execution</strong>:<ul><li>Activate <span class="card-badge" data-large="https://cards.scryfall.io/large/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668" data-name="Goblin Sharpshooter" onclick="openModal(this)">Goblin Sharpshooter</span> targeting a creature an opponent controls</li><li>That creature triggers, causing its controller to sacrifice it</li><li><span class="card-badge" data-large="https://cards.scryfall.io/large/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668" data-name="Goblin Sharpshooter" onclick="openModal(this)">Goblin Sharpshooter</span> triggers, untapping itself</li><li>Repeat</li></ul></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="category" id="plan-burn"><h3>🎯 Burn — 48 decks</h3>
+<div class="plan-desc">
+<p><strong>📖 Game plan</strong></p>
+<ul>
+<li><strong>Core mechanic</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/6/f6bb1ffc-2251-4655-b8f9-4c8047dd5d5f.jpg?1785497556" data-name="Guttersnipe" onclick="openModal(this)">Guttersnipe</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/a/ea1ab937-8647-4c83-99d5-6a40dffa4c9b.jpg?1783927615" data-name="Zaffai" onclick="openModal(this)">Zaffai</span> and <span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/8/c8152ab0-c6fc-4568-b837-4e84129e7b57.jpg?1783927297" data-name="Radiant Scrollwielder" onclick="openModal(this)">Radiant Scrollwielder</span> convert every spell into damage + lifegain.</li><li><strong>X-burn</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714" data-name="Comet Storm" onclick="openModal(this)">Comet Storm</span> and <span class="card-badge" data-large="https://cards.scryfall.io/large/front/3/6/365336b4-92ee-429d-8f18-4624cba5469d.jpg?1783928712" data-name="Jaya&#x27;s Immolating Inferno" onclick="openModal(this)">Jaya&#x27;s Immolating Inferno</span> scale with <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span>'s discount — many targets, cheap cost, huge damage.</li><li><strong>Recursion</strong> : replay the burn spells from the graveyard for repeated damage.</li>
+</ul>
+<p><strong>🏆 Win conditions</strong></p>
+<ul>
+<li><strong>Passive drain</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/6/f6bb1ffc-2251-4655-b8f9-4c8047dd5d5f.jpg?1785497556" data-name="Guttersnipe" onclick="openModal(this)">Guttersnipe</span> alone deals 2 per spell — 36 spells = ~72 damage over a game.</li><li><strong>Alpha burn</strong> : a single giant X-spell finishes the table.</li>
+</ul>
+</div>
+<div class="summary">EDHREC High Synergy pool: 10 cards · <strong>4 of the deck's cards match this plan</strong>: Comet Storm, Curse of the Swine, March of Swirling Mist, Icy Blast.</div>
+<div class="card-grid">
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714" data-large="https://cards.scryfall.io/normal/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714" data-name="Comet Storm" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Comet Storm <span class="plan-tag">Burn</span></div>
+        
+        <div class="cb-expl">**X-spell finisher** : deals X damage split between any targets — with Hinata + Thaumaturge, lethal for pennies.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795" data-large="https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795" data-name="Curse of the Swine" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Curse of the Swine <span class="plan-tag">Burn</span></div>
+        
+        <div class="cb-expl">**Exile removal** : turns X creatures into 2/2 Boars — X targets with Hinata = mass removal.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901" data-large="https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901" data-name="March of Swirling Mist" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">March of Swirling Mist <span class="plan-tag">Burn</span></div>
+        
+        <div class="cb-expl">**Protection** : X creatures phase out (X targets = discount); saves your board from wipes.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/b/0/b098f029-6b5d-49e4-9a81-f497ebbdb5ce.jpg?1783939087" data-large="https://cards.scryfall.io/normal/front/b/0/b098f029-6b5d-49e4-9a81-f497ebbdb5ce.jpg?1783939087" data-name="Icy Blast" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Icy Blast <span class="plan-tag">Burn</span></div>
+        
+        <div class="cb-expl">**X-spell tap** : taps X creatures (X targets with Hinata = discount); stalls the board.</div>
+      </div>
+    </div>
+
+</div>
+
+<div class="plan-combos"><strong>🔗 Combos (Commander Spellbook)</strong>
+
+<div class="combo">
+<h3>🔗 Hinata, Dawn-Crowned + Soulfire Grand Master + Reality Spasm <button class="copy-btn" data-copy="Hinata, Dawn-Crowned, Soulfire Grand Master, Reality Spasm" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h3>
+<div class="meta">in the precon: Hinata, Dawn-Crowned · Identity URW · Popularity: 3335 decks</div>
+<div class="center"><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata, Dawn-Crowned" loading="lazy" onclick="openModal(this)"/><div class="big-label">Hinata, Dawn-Crowned</div></div><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709" data-large="https://cards.scryfall.io/large/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709" data-name="Soulfire Grand Master" loading="lazy" onclick="openModal(this)"/><div class="big-label">Soulfire Grand Master</div></div><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993" data-large="https://cards.scryfall.io/large/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993" data-name="Reality Spasm" loading="lazy" onclick="openModal(this)"/><div class="big-label">Reality Spasm</div></div></div>
+
+<div class="result"><strong>Produces</strong>:<ul><li></li><li></li><li></li><li></li><li></li></ul></div>
+
+
+<div class="step"><strong>Prerequisites</strong>:<ul><li>Permanents you control can tap to produce at least <img src="https://svgs.scryfall.io/card-symbols/3.svg" alt="3" title="3" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/UR.svg" alt="U/R" title="U/R" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/UR.svg" alt="U/R" title="U/R" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/></li></ul></div>
+
+
+<div class="step"><strong>Execution</strong>:<ul><li>Activate any number of mana-producing permanents you control by tapping them, adding at least <img src="https://svgs.scryfall.io/card-symbols/3.svg" alt="3" title="3" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/UR.svg" alt="U/R" title="U/R" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/UR.svg" alt="U/R" title="U/R" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/></li><li>Activate <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709" data-name="Soulfire Grand Master" onclick="openModal(this)">Soulfire Grand Master</span> by paying <img src="https://svgs.scryfall.io/card-symbols/2.svg" alt="2" title="2" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/UR.svg" alt="U/R" title="U/R" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/UR.svg" alt="U/R" title="U/R" class="ms"/>, causing you to put the next instant or sorcery card you cast from your hand this turn into your hand as it resolves</li><li>Cast <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993" data-name="Reality Spasm" onclick="openModal(this)">Reality Spasm</span> by paying a total of <img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/><img src="https://svgs.scryfall.io/card-symbols/U.svg" alt="U" title="U" class="ms"/> due to <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span>, untapping the mana-producing permanents and returning <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993" data-name="Reality Spasm" onclick="openModal(this)">Reality Spasm</span> to your hand due to <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709" data-name="Soulfire Grand Master" onclick="openModal(this)">Soulfire Grand Master</span></li><li>Repeat</li><li>You may also repeat this on each opponent's upkeep to first gain infinite mana, then repeat the loop using <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993" data-name="Reality Spasm" onclick="openModal(this)">Reality Spasm</span>'s other mode instead to tap down all opponents' permanents</li></ul></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="category" id="plan-storm"><h3>🎯 Storm — 29 decks</h3>
+<div class="plan-desc">
+<p><strong>📖 Game plan</strong></p>
+<ul>
+<li><strong>Core mechanic</strong> : cheap spells chain — cantrips, counters and recursion all storm count.</li><li><strong>Enablers</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/8/1/8148adc6-7946-4abd-8601-b1f4cd6916c2.jpg?1783932779" data-name="Jace&#x27;s Sanctum" onclick="openModal(this)">Jace&#x27;s Sanctum</span> discounts; Elsha plays from the top; <span class="card-badge" data-large="https://cards.scryfall.io/large/front/7/5/75c1eb6a-2183-4f60-b075-f7289df35be7.jpg?1783927539" data-name="Sunbird&#x27;s Invocation" onclick="openModal(this)">Sunbird&#x27;s Invocation</span> cascades.</li><li><strong>Payoff</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/a/ea1ab937-8647-4c83-99d5-6a40dffa4c9b.jpg?1783927615" data-name="Zaffai" onclick="openModal(this)">Zaffai</span>'s magecraft and the token engines convert the storm count into board/damage.</li>
+</ul>
+<p><strong>🏆 Win conditions</strong></p>
+<ul>
+<li><strong>Big turn</strong> : chain 10+ spells in one turn with token engines out — board of Drakes + pings.</li><li><strong>Recursion storm</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/3/e/3e565e38-43d5-482e-a911-ce525dfee74f.jpg?1783927298" data-name="Reconstruct History" onclick="openModal(this)">Reconstruct History</span> / <span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/8/c8152ab0-c6fc-4568-b837-4e84129e7b57.jpg?1783927297" data-name="Radiant Scrollwielder" onclick="openModal(this)">Radiant Scrollwielder</span> replay the chain.</li>
+</ul>
+</div>
+<div class="summary">EDHREC High Synergy pool: 10 cards · <strong>4 of the deck's cards match this plan</strong>: Curse of the Swine, March of Swirling Mist, Comet Storm, Baral's Expertise.</div>
+<div class="card-grid">
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795" data-large="https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795" data-name="Curse of the Swine" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Curse of the Swine <span class="plan-tag">Storm</span></div>
+        
+        <div class="cb-expl">**Exile removal** : turns X creatures into 2/2 Boars — X targets with Hinata = mass removal.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901" data-large="https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901" data-name="March of Swirling Mist" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">March of Swirling Mist <span class="plan-tag">Storm</span></div>
+        
+        <div class="cb-expl">**Protection** : X creatures phase out (X targets = discount); saves your board from wipes.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714" data-large="https://cards.scryfall.io/normal/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714" data-name="Comet Storm" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Comet Storm <span class="plan-tag">Storm</span></div>
+        
+        <div class="cb-expl">**X-spell finisher** : deals X damage split between any targets — with Hinata + Thaumaturge, lethal for pennies.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/d/5/d5beecd5-4267-454d-87db-24d476e1f352.jpg?1783907109" data-large="https://cards.scryfall.io/normal/front/d/5/d5beecd5-4267-454d-87db-24d476e1f352.jpg?1783907109" data-name="Baral&#x27;s Expertise" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Baral&#x27;s Expertise <span class="plan-tag">Storm</span></div>
+        
+        <div class="cb-expl">**Bounce + free cast** : returns up to 3 nonland permanents (3 targets = nearly free with Hinata), then casts a free card.</div>
+      </div>
+    </div>
+
+</div>
+
+<div class="plan-combos"><strong>🔗 Combos (Commander Spellbook)</strong>
+
+<div class="combo">
+<h3>🔗 Sensei's Divining Top + Kykar, Wind's Fury + Elsha of the Infinite <button class="copy-btn" data-copy="Sensei&#x27;s Divining Top, Kykar, Wind&#x27;s Fury, Elsha of the Infinite" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h3>
+<div class="meta">in the precon: Elsha of the Infinite · Identity URW · Popularity: 2813 decks</div>
+<div class="center"><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" loading="lazy" onclick="openModal(this)"/><div class="big-label">Sensei&#x27;s Divining Top</div></div><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615" data-large="https://cards.scryfall.io/large/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615" data-name="Kykar, Wind&#x27;s Fury" loading="lazy" onclick="openModal(this)"/><div class="big-label">Kykar, Wind&#x27;s Fury</div></div><div class="big-card" style="width:110px;"><img src="https://cards.scryfall.io/normal/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837" data-large="https://cards.scryfall.io/large/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837" data-name="Elsha of the Infinite" loading="lazy" onclick="openModal(this)"/><div class="big-label">Elsha of the Infinite</div></div></div>
+
+<div class="result"><strong>Produces</strong>:<ul><li></li><li></li><li></li><li></li><li></li><li></li></ul></div>
+
+
+
+<div class="step"><strong>Execution</strong>:<ul><li>Activate <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span> by tapping it, causing you to draw a card and put <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span> on top of your library</li><li>Cast <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span> from the top of your library by paying <img src="https://svgs.scryfall.io/card-symbols/1.svg" alt="1" title="1" class="ms"/></li><li><span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615" data-name="Kykar" onclick="openModal(this)">Kykar</span> and Elsha trigger</li><li>Resolve the Elsha trigger, giving it +1/+1 until end of turn</li><li>Resolve the <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615" data-name="Kykar" onclick="openModal(this)">Kykar</span> trigger, creating a 1/1 Spirit creature token</li><li>Activate <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615" data-name="Kykar" onclick="openModal(this)">Kykar</span> by sacrificing the Spirit, adding <img src="https://svgs.scryfall.io/card-symbols/R.svg" alt="R" title="R" class="ms"/></li><li>Repeat</li></ul></div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<h2 id="s3">3. Deck Cards by Role (84 unique)</h2>
+<p class="report-sub">Every card of the list, grouped by ROLE/FUNCTION (Engines → Wincons → Flex → Card Advantage → Ramp → Wipes → Interaction → Lands) — not by card type. Cards in the commander's EDHREC High Synergy / Top Cards pool carry the synergy badge. 📋 copies a role's card names.</p>
+
+
+<div class="category"><h3>⚙️ Engines / Synergies <button class="copy-btn" data-copy="Baral&#x27;s Expertise, Battlefield Thaumaturge, Icy Blast, Comet Storm, Curse of the Swine, Zaffai, Thunder Conductor, Radiant Scrollwielder, March of Swirling Mist" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h3>
+<div class="summary">🎯 Build target: 30-35 (Engines + Wincons combined) — The Plan-A core: repeatable engines tied to the commander. — <strong>8 cards</strong>.</div>
+<div class="card-grid">
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/d/5/d5beecd5-4267-454d-87db-24d476e1f352.jpg?1783907109" data-large="https://cards.scryfall.io/normal/front/d/5/d5beecd5-4267-454d-87db-24d476e1f352.jpg?1783907109" data-name="Baral&#x27;s Expertise" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Baral&#x27;s Expertise</div>
+        
+        <div class="cb-expl">**Bounce + free cast** : returns up to 3 nonland permanents (3 targets = nearly free with <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span>), then casts a free card.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/4/6/467ffc93-b107-457c-af04-a1b682a4b886.jpg?1783939450" data-large="https://cards.scryfall.io/normal/front/4/6/467ffc93-b107-457c-af04-a1b682a4b886.jpg?1783939450" data-name="Battlefield Thaumaturge" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Battlefield Thaumaturge</div>
+        
+        <div class="cb-expl">**Discount enabler** : each spell you cast costs {1} less per creature it targets — stacks with <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span> for X-burn.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/b/0/b098f029-6b5d-49e4-9a81-f497ebbdb5ce.jpg?1783939087" data-large="https://cards.scryfall.io/normal/front/b/0/b098f029-6b5d-49e4-9a81-f497ebbdb5ce.jpg?1783939087" data-name="Icy Blast" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Icy Blast</div>
+        
+        <div class="cb-expl">**X-spell tap** : taps X creatures (X targets with <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span> = discount); stalls the board.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714" data-large="https://cards.scryfall.io/normal/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714" data-name="Comet Storm" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Comet Storm</div>
+        
+        <div class="cb-expl">**X-spell finisher** : deals X damage split between any targets — with <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span> + Thaumaturge, lethal for pennies.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795" data-large="https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795" data-name="Curse of the Swine" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Curse of the Swine</div>
+        
+        <div class="cb-expl">**Exile removal** : turns X creatures into 2/2 Boars — X targets with <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span> = mass removal.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/e/a/ea1ab937-8647-4c83-99d5-6a40dffa4c9b.jpg?1783927615" data-large="https://cards.scryfall.io/normal/front/e/a/ea1ab937-8647-4c83-99d5-6a40dffa4c9b.jpg?1783927615" data-name="Zaffai, Thunder Conductor" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Zaffai, Thunder Conductor</div>
+        
+        <div class="cb-expl">**Spell payoff** : magecraft — scry + big spell damage; 5+ CMC spells deal 5 to the table.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/c/8/c8152ab0-c6fc-4568-b837-4e84129e7b57.jpg?1783927297" data-large="https://cards.scryfall.io/normal/front/c/8/c8152ab0-c6fc-4568-b837-4e84129e7b57.jpg?1783927297" data-name="Radiant Scrollwielder" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Radiant Scrollwielder</div>
+        
+        <div class="cb-expl">**Recursion + lifegain** : exiles instants/sorceries from graveyard to cast again; spells heal.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901" data-large="https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901" data-name="March of Swirling Mist" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">March of Swirling Mist</div>
+        
+        <div class="cb-expl">**Protection** : X creatures phase out (X targets = discount); saves your board from wipes.</div>
+      </div>
+    </div>
+
+</div>
+</div>
+
+<div class="category"><h3>🏆 Wincons / Finishers <button class="copy-btn" data-copy="Release the Gremlins, Dismiss into Dream, Sunbird&#x27;s Invocation, Deekah, Fractal Theorist, Elsha of the Infinite" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h3>
+<div class="summary">🎯 Build target: 30-35 (Engines + Wincons combined) — Combo pieces, finishers and game-closing beats. — <strong>5 cards</strong>.</div>
+<div class="card-grid">
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/d/4/d4ba75be-2428-45aa-bf02-75c379a5dfa2.jpg?1783936750" data-large="https://cards.scryfall.io/normal/front/d/4/d4ba75be-2428-45aa-bf02-75c379a5dfa2.jpg?1783936750" data-name="Release the Gremlins" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Release the Gremlins</div>
+        
+        <div class="cb-expl">**X-spell finisher** : X gremlins + artifact destruction; X targets make it cheap with <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span>, and the horde attacks.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935" data-large="https://cards.scryfall.io/normal/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935" data-name="Dismiss into Dream" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Dismiss into Dream</div>
+        
+        <div class="cb-expl">**Combo finisher** : spells that target creatures destroy them instead — with <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span>'s discount, every removal nukes a board.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/7/5/75c1eb6a-2183-4f60-b075-f7289df35be7.jpg?1783927539" data-large="https://cards.scryfall.io/normal/front/7/5/75c1eb6a-2183-4f60-b075-f7289df35be7.jpg?1783927539" data-name="Sunbird&#x27;s Invocation" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Sunbird&#x27;s Invocation</div>
+        
+        <div class="cb-expl">**Cascade-like engine** : each spell reveals cards until a spell with lower CMC — free spells cascade into more spells.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791" data-large="https://cards.scryfall.io/normal/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791" data-name="Deekah, Fractal Theorist" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Deekah, Fractal Theorist</div>
+        
+        <div class="cb-expl">**Token engine** : magecraft makes a Fractal token with power = spell's mana value — huge tokens.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837" data-large="https://cards.scryfall.io/normal/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837" data-name="Elsha of the Infinite" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Elsha of the Infinite</div>
+        
+        <div class="cb-expl">**Topdeck engine** : plays instants/sorceries from the top of the library — free spells with prowess payoff.</div>
+      </div>
+    </div>
+
+</div>
+</div>
+
+<div class="category"><h3>🎯 Flex / Personal Slots <button class="copy-btn" data-copy="Guttersnipe, Opportunity, Oona&#x27;s Grace, Shreds of Sanity, Murmuring Mystic, Launch the Fleet, Pull from the Deep, Talrand, Sky Summoner, Channeled Force, Careful Consideration, Compulsive Research, Metallurgic Summonings, Mystic Retrieval, Jaya&#x27;s Immolating Inferno, Feather, the Redeemed, Reconstruct History, Semester&#x27;s End, Commander&#x27;s Insight, Aether Gale, Said // Done, Deep Analysis, Young Pyromancer" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h3>
+<div class="summary">🎯 Build target: 3-5 — Pet cards, off-role picks and personal slots. — <strong>22 cards</strong>.</div>
+<div class="card-grid">
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/f/6/f6bb1ffc-2251-4655-b8f9-4c8047dd5d5f.jpg?1785497556" data-large="https://cards.scryfall.io/normal/front/f/6/f6bb1ffc-2251-4655-b8f9-4c8047dd5d5f.jpg?1785497556" data-name="Guttersnipe" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Guttersnipe</div>
+        
+        <div class="cb-expl">**Spellslinger burn** : each instant/sorcery pings every opponent for 2 — with 36 spells, it drains the table passively.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/4/9/49233196-82e4-44c4-86f0-6eb2db7293a3.jpg?1783934832" data-large="https://cards.scryfall.io/normal/front/4/9/49233196-82e4-44c4-86f0-6eb2db7293a3.jpg?1783934832" data-name="Opportunity" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Opportunity</div>
+        
+        <div class="cb-expl">**Draw 4** : instant-speed card advantage that refills after a counter war.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/e/2/e2128105-de04-4f51-81c7-37f30cf324d4.jpg?1783932778" data-large="https://cards.scryfall.io/normal/front/e/2/e2128105-de04-4f51-81c7-37f30cf324d4.jpg?1783932778" data-name="Oona&#x27;s Grace" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Oona&#x27;s Grace</div>
+        
+        <div class="cb-expl">**Recursive draw** : retrace lets you pitch lands late game for cards, feeding your graveyard synergies.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/7/8/782e5600-ac63-4f90-acbe-49c04d2840ee.jpg?1783937454" data-large="https://cards.scryfall.io/normal/front/7/8/782e5600-ac63-4f90-acbe-49c04d2840ee.jpg?1783937454" data-name="Shreds of Sanity" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Shreds of Sanity</div>
+        
+        <div class="cb-expl">**Flashback recursion** : casts an instant and a sorcery from your graveyard — the deck reuses its best spells.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/9/e/9e68dcc2-bba4-4efa-97bb-3ed892037595.jpg?1783911941" data-large="https://cards.scryfall.io/normal/front/9/e/9e68dcc2-bba4-4efa-97bb-3ed892037595.jpg?1783911941" data-name="Murmuring Mystic" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Murmuring Mystic</div>
+        
+        <div class="cb-expl">**Token engine** : each instant/sorcery makes a 1/1 flying Spirit — spellslinger pay-off that blocks flyers.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/b/c/bc3e52c0-2f79-4537-8f1c-70b68836bac0.jpg?1783939456" data-large="https://cards.scryfall.io/normal/front/b/c/bc3e52c0-2f79-4537-8f1c-70b68836bac0.jpg?1783939456" data-name="Launch the Fleet" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Launch the Fleet</div>
+        
+        <div class="cb-expl">**X-spell token maker** : X Soldiers with haste for {X}{W}; X targets + <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span> = a huge board for pennies.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/a/0/a051b622-fa1d-4694-aef7-0fcdd7bff8d2.jpg?1783939444" data-large="https://cards.scryfall.io/normal/front/a/0/a051b622-fa1d-4694-aef7-0fcdd7bff8d2.jpg?1783939444" data-name="Pull from the Deep" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Pull from the Deep</div>
+        
+        <div class="cb-expl">**Recursion** : returns an instant and a sorcery — value from the graveyard.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/1/b/1be3ed47-072e-481a-b3d9-dc232ac4b24f.jpg?1783911937" data-large="https://cards.scryfall.io/normal/front/1/b/1be3ed47-072e-481a-b3d9-dc232ac4b24f.jpg?1783911937" data-name="Talrand, Sky Summoner" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Talrand, Sky Summoner</div>
+        
+        <div class="cb-expl">**Token engine** : every instant/sorcery makes a 2/2 Drake — the deck's best blocker/attacker generator.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/8/9/8918d24e-8ae8-4028-9f06-ba6fafcc717e.jpg?1783931027" data-large="https://cards.scryfall.io/normal/front/8/9/8918d24e-8ae8-4028-9f06-ba6fafcc717e.jpg?1783931027" data-name="Channeled Force" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Channeled Force</div>
+        
+        <div class="cb-expl">**Card draw + removal** : discard cards to draw more and deal damage — flexible instant.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/0/8/08b7224b-adb9-4c31-b0bb-1c498f2922fb.jpg?1783927853" data-large="https://cards.scryfall.io/normal/front/0/8/08b7224b-adb9-4c31-b0bb-1c498f2922fb.jpg?1783927853" data-name="Careful Consideration" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Careful Consideration</div>
+        
+        <div class="cb-expl">**Instant draw** : draws 4, discards 2 — fills the graveyard for recursion spells.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/a/2/a247ab59-7749-4d37-87f6-f90f44cd54f4.jpg?1783907108" data-large="https://cards.scryfall.io/normal/front/a/2/a247ab59-7749-4d37-87f6-f90f44cd54f4.jpg?1783907108" data-name="Compulsive Research" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Compulsive Research</div>
+        
+        <div class="cb-expl">**Card draw** : draws 3, discards 2 — cheap refill.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/3/a/3a769d7e-c749-4845-ba87-808f0386df80.jpg?1783927564" data-large="https://cards.scryfall.io/normal/front/3/a/3a769d7e-c749-4845-ba87-808f0386df80.jpg?1783927564" data-name="Metallurgic Summonings" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Metallurgic Summonings</div>
+        
+        <div class="cb-expl">**Token engine** : each instant/sorcery makes an Artifact Creature, then can cast from graveyard — spellslinger pay-off + recursion.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/8/0/806e5536-103b-4d6c-83b4-8659a55b25b5.jpg?1783908161" data-large="https://cards.scryfall.io/normal/front/8/0/806e5536-103b-4d6c-83b4-8659a55b25b5.jpg?1783908161" data-name="Mystic Retrieval" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Mystic Retrieval</div>
+        
+        <div class="cb-expl">**Recursion** : returns an instant/sorcery from graveyard, flashback doubles it.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/3/6/365336b4-92ee-429d-8f18-4624cba5469d.jpg?1783928712" data-large="https://cards.scryfall.io/normal/front/3/6/365336b4-92ee-429d-8f18-4624cba5469d.jpg?1783928712" data-name="Jaya&#x27;s Immolating Inferno" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Jaya&#x27;s Immolating Inferno</div>
+        
+        <div class="cb-expl">**X-spell finisher** : X damage to each of X targets — the ultimate multi-target burn with <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span>.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/e/4/e4a2d2c6-8eaa-4760-b620-921b807baa2e.jpg?1783933396" data-large="https://cards.scryfall.io/normal/front/e/4/e4a2d2c6-8eaa-4760-b620-921b807baa2e.jpg?1783933396" data-name="Feather, the Redeemed" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Feather, the Redeemed</div>
+        
+        <div class="cb-expl">**Recursion engine** : returns targeted spells to hand — makes cantrips/pumps repeatable.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/3/e/3e565e38-43d5-482e-a911-ce525dfee74f.jpg?1783927298" data-large="https://cards.scryfall.io/normal/front/3/e/3e565e38-43d5-482e-a911-ce525dfee74f.jpg?1783927298" data-name="Reconstruct History" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Reconstruct History</div>
+        
+        <div class="cb-expl">**Recursion** : returns an instant, sorcery and artifact from graveyard — massive value.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/d/b/db2bb091-ac6d-4c99-bdf6-70ffb6291ef0.jpg?1783915447" data-large="https://cards.scryfall.io/normal/front/d/b/db2bb091-ac6d-4c99-bdf6-70ffb6291ef0.jpg?1783915447" data-name="Semester&#x27;s End" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Semester&#x27;s End</div>
+        
+        <div class="cb-expl">**Protection** : blinks your creatures (saves them) or buffs them — combat trick + save.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/1/a/1a40e4da-a631-4423-b70f-701b27b09f79.jpg?1783903823" data-large="https://cards.scryfall.io/normal/front/1/a/1a40e4da-a631-4423-b70f-701b27b09f79.jpg?1783903823" data-name="Commander&#x27;s Insight" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Commander&#x27;s Insight</div>
+        
+        <div class="cb-expl">**Card draw** : draws X+1 where X = number of targets — multi-target draw with <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span>.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/4/e/4e336e87-e5af-46a0-8caf-5d9ad8d671fd.jpg?1783903794" data-large="https://cards.scryfall.io/normal/front/4/e/4e336e87-e5af-46a0-8caf-5d9ad8d671fd.jpg?1783903794" data-name="Aether Gale" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Aether Gale</div>
+        
+        <div class="cb-expl">**Bounce removal** : returns 6 nonland permanents (6 targets = huge discount with <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span>).</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/4/3/43ab3ed2-2b50-4488-a21f-60965222970a.jpg?1783926872" data-large="https://cards.scryfall.io/normal/front/4/3/43ab3ed2-2b50-4488-a21f-60965222970a.jpg?1783926872" data-name="Said // Done" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Said // Done</div>
+        
+        <div class="cb-expl">**Draw + counterspell** : both halves in one card — flexible.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/1/a/1a297bae-f259-4fc7-b76a-285f972d69e3.jpg?1783903240" data-large="https://cards.scryfall.io/normal/front/1/a/1a297bae-f259-4fc7-b76a-285f972d69e3.jpg?1783903240" data-name="Deep Analysis" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Deep Analysis</div>
+        
+        <div class="cb-expl">**Card draw** : draws 2, flashback makes it 4 total — efficient.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/c/0/c0d74ecd-a595-4012-81b4-083264b40c94.jpg?1783907139" data-large="https://cards.scryfall.io/normal/front/c/0/c0d74ecd-a595-4012-81b4-083264b40c94.jpg?1783907139" data-name="Young Pyromancer" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Young Pyromancer</div>
+        
+        <div class="cb-expl">**Token engine** : each instant/sorcery makes a 1/1 Elemental — the classic spellslinger engine.</div>
+      </div>
+    </div>
+
+</div>
+</div>
+
+<div class="category"><h3>🔍 Card Advantage / Draw <button class="copy-btn" data-copy="Whirlwind of Thought, Paradoxical Outcome, Step Through" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h3>
+<div class="summary">🎯 Build target: 10-12 — Draw engines, cantrips and tutors. — <strong>3 cards</strong>.</div>
+<div class="card-grid">
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/a/3/a3069683-0ff5-49e5-b7ae-f5bd40a4a32f.jpg?1783903222" data-large="https://cards.scryfall.io/normal/front/a/3/a3069683-0ff5-49e5-b7ae-f5bd40a4a32f.jpg?1783903222" data-name="Whirlwind of Thought" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Whirlwind of Thought</div>
+        
+        <div class="cb-expl">**Draw engine** : each noncreature spell draws a card — THE spellslinger card-advantage engine.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/1/7/17e50157-bf49-4c5f-9b8a-bf73484e63a5.jpg?1783937215" data-large="https://cards.scryfall.io/normal/front/1/7/17e50157-bf49-4c5f-9b8a-bf73484e63a5.jpg?1783937215" data-name="Paradoxical Outcome" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Paradoxical Outcome</div>
+        
+        <div class="cb-expl">**Value bounce** : returns your artifacts to draw cards — loops with mana rocks.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/7/1/716534cb-aa89-4de7-9aa5-8d8aa4422a6a.jpg?1783926869" data-large="https://cards.scryfall.io/normal/front/7/1/716534cb-aa89-4de7-9aa5-8d8aa4422a6a.jpg?1783926869" data-name="Step Through" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Step Through</div>
+        
+        <div class="cb-expl">**Wizard tutor** : finds a Wizard (<span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/b/1be3ed47-072e-481a-b3d9-dc232ac4b24f.jpg?1783911937" data-name="Talrand" onclick="openModal(this)">Talrand</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791" data-name="Deekah" onclick="openModal(this)">Deekah</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/a/ea1ab937-8647-4c83-99d5-6a40dffa4c9b.jpg?1783927615" data-name="Zaffai" onclick="openModal(this)">Zaffai</span>…) and can be cast via wizardcycling.</div>
+      </div>
+    </div>
+
+</div>
+</div>
+
+<div class="category"><h3>⚡ Ramp / Acceleration <button class="copy-btn" data-copy="Jace&#x27;s Sanctum, Midnight Clock, Prismatic Lens, Azorius Signet, Izzet Signet, Mind Stone, Boros Signet, Fire Diamond, Elementalist&#x27;s Palette, Liquimetal Torque, Smoke Spirits&#x27; Aid, Marble Diamond, Sky Diamond" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h3>
+<div class="summary">🎯 Build target: 10-12 — Mana rocks, dorks, land-search spells, treasures, cost reduction. — <strong>13 cards</strong>.</div>
+<div class="card-grid">
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/8/1/8148adc6-7946-4abd-8601-b1f4cd6916c2.jpg?1783932779" data-large="https://cards.scryfall.io/normal/front/8/1/8148adc6-7946-4abd-8601-b1f4cd6916c2.jpg?1783932779" data-name="Jace&#x27;s Sanctum" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Jace&#x27;s Sanctum</div>
+        
+        <div class="cb-expl">**Spell discount** : instants/sorceries cost {1} less — a second mini-<span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span> for non-targeted spells.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/0/b/0b3c33b7-5b15-4b61-bfd6-1ffa823eb28a.jpg?1783911941" data-large="https://cards.scryfall.io/normal/front/0/b/0b3c33b7-5b15-4b61-bfd6-1ffa823eb28a.jpg?1783911941" data-name="Midnight Clock" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Midnight Clock</div>
+        
+        <div class="cb-expl">**Ramp + wheel** : rocks to 12 counters, then draws 7 — late-game reload.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/7/4/74e8d3a8-5937-4108-b2fe-23e049379345.jpg?1783911890" data-large="https://cards.scryfall.io/normal/front/7/4/74e8d3a8-5937-4108-b2fe-23e049379345.jpg?1783911890" data-name="Prismatic Lens" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Prismatic Lens</div>
+        
+        <div class="cb-expl">**Mana rock** : adds any color — budget fixing.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/4/1/41c50b99-4a29-4bef-8d41-c548c8a61dac.jpg?1783907017" data-large="https://cards.scryfall.io/normal/front/4/1/41c50b99-4a29-4bef-8d41-c548c8a61dac.jpg?1783907017" data-name="Azorius Signet" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Azorius Signet</div>
+        
+        <div class="cb-expl">**Mana rock** : adds W or U — the format's best budget ramp.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/2/c/2c747a97-9070-4c1e-b7b7-52637fbb30e1.jpg?1783907010" data-large="https://cards.scryfall.io/normal/front/2/c/2c747a97-9070-4c1e-b7b7-52637fbb30e1.jpg?1783907010" data-name="Izzet Signet" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Izzet Signet</div>
+        
+        <div class="cb-expl">**Mana rock** : adds U or R — the format's best budget ramp.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.jpg?1785759375" data-large="https://cards.scryfall.io/normal/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.jpg?1785759375" data-name="Mind Stone" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Mind Stone</div>
+        
+        <div class="cb-expl">**Mana rock** : adds colorless, cycles for a card late.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/4/9/49c37c0e-d363-4033-a069-710241cd9923.jpg?1783907016" data-large="https://cards.scryfall.io/normal/front/4/9/49c37c0e-d363-4033-a069-710241cd9923.jpg?1783907016" data-name="Boros Signet" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Boros Signet</div>
+        
+        <div class="cb-expl">**Mana rock** : adds R or W — the format's best budget ramp.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/5/a/5a561484-438b-4ce9-911e-97078ac5b0fa.jpg?1783922676" data-large="https://cards.scryfall.io/normal/front/5/a/5a561484-438b-4ce9-911e-97078ac5b0fa.jpg?1783922676" data-name="Fire Diamond" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Fire Diamond</div>
+        
+        <div class="cb-expl">**Mana rock** : adds R — budget ramp.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/f/8/f892e316-95c9-4e68-8eb0-96f71a862f2b.jpg?1783903740" data-large="https://cards.scryfall.io/normal/front/f/8/f892e316-95c9-4e68-8eb0-96f71a862f2b.jpg?1783903740" data-name="Elementalist&#x27;s Palette" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Elementalist&#x27;s Palette</div>
+        
+        <div class="cb-expl">**Mana rock + charge** : adds any color, stores counters for X-spells — X-spell enabler.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/1/3/13c6101a-da40-4785-8ccb-4e779bbbdb55.jpg?1783926804" data-large="https://cards.scryfall.io/normal/front/1/3/13c6101a-da40-4785-8ccb-4e779bbbdb55.jpg?1783926804" data-name="Liquimetal Torque" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Liquimetal Torque</div>
+        
+        <div class="cb-expl">**Mana rock + enabler** : makes permanents artifacts — turns removal into universal answers.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/e/4/e492a245-46ba-438e-8d81-4626faa49bff.jpg?1783923991" data-large="https://cards.scryfall.io/normal/front/e/4/e492a245-46ba-438e-8d81-4626faa49bff.jpg?1783923991" data-name="Smoke Spirits&#x27; Aid" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Smoke Spirits&#x27; Aid</div>
+        
+        <div class="cb-expl">**X-spell pump** : gives X creatures +1/+1 and flying — go-wide finisher with <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span>.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/0/9/0930f71c-c3c8-4bdd-8468-6a61349cc8ca.jpg?1783922673" data-large="https://cards.scryfall.io/normal/front/0/9/0930f71c-c3c8-4bdd-8468-6a61349cc8ca.jpg?1783922673" data-name="Marble Diamond" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Marble Diamond</div>
+        
+        <div class="cb-expl">**Mana rock** : adds W — budget ramp.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/d/4/d47abfb2-9bcf-485c-9bd4-2c09b714eb32.jpg?1783922666" data-large="https://cards.scryfall.io/normal/front/d/4/d47abfb2-9bcf-485c-9bd4-2c09b714eb32.jpg?1783922666" data-name="Sky Diamond" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Sky Diamond</div>
+        
+        <div class="cb-expl">**Mana rock** : adds U — budget ramp.</div>
+      </div>
+    </div>
+
+</div>
+</div>
+
+<div class="category"><h3>🛡️ Interaction / Removal <button class="copy-btn" data-copy="Rewind, Crush Contraband, Negate, Prismatic Boon, Neutralize, Unwind, Open into Wonder, Generous Gift, Saw It Coming, Return to Dust, You Find the Villains&#x27; Lair" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h3>
+<div class="summary">🎯 Build target: 10-12 — Targeted removal, counterspells and cheap protection. — <strong>11 cards</strong>.</div>
+<div class="card-grid">
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/b/8/b832abcc-9ffd-47bf-827a-01b303c610ee.jpg?1783930724" data-large="https://cards.scryfall.io/normal/front/b/8/b832abcc-9ffd-47bf-827a-01b303c610ee.jpg?1783930724" data-name="Rewind" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Rewind</div>
+        
+        <div class="cb-expl">**Free counterspell** : counters a spell and untaps 4 lands — a "free" answer that leaves mana up for another spell.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/0/8/08c5cdbe-2142-4ddc-b9b5-35ca60eb9970.jpg?1783923967" data-large="https://cards.scryfall.io/normal/front/0/8/08c5cdbe-2142-4ddc-b9b5-35ca60eb9970.jpg?1783923967" data-name="Crush Contraband" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Crush Contraband</div>
+        
+        <div class="cb-expl">**Flexible removal** : exiles an artifact OR enchantment, and with two targets <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span> discounts it further.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/5/2/52d58fe4-6070-4022-9cd7-c35a11b44525.jpg?1783904112" data-large="https://cards.scryfall.io/normal/front/5/2/52d58fe4-6070-4022-9cd7-c35a11b44525.jpg?1783904112" data-name="Negate" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Negate</div>
+        
+        <div class="cb-expl">**Cheap counter** : answers noncreature spells; with <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span> it costs {1} less when it targets.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/f/b/fb774a9b-d29f-4f41-9fb8-a0189205e16f.jpg?1783947050" data-large="https://cards.scryfall.io/normal/front/f/b/fb774a9b-d29f-4f41-9fb8-a0189205e16f.jpg?1783947050" data-name="Prismatic Boon" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Prismatic Boon</div>
+        
+        <div class="cb-expl">**Color fixer on a stick** : adds any color to your mana pool; multi-target discounts with <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span>.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/0/4/0430da3c-9460-4b62-ae28-2e7e6f4d06a4.jpg?1783931073" data-large="https://cards.scryfall.io/normal/front/0/4/0430da3c-9460-4b62-ae28-2e7e6f4d06a4.jpg?1783931073" data-name="Neutralize" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Neutralize</div>
+        
+        <div class="cb-expl">**Counterspell with cycling** : counters a spell or cycles away late.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/9/7/97da6607-9131-4f8b-8af3-63439a59b78b.jpg?1783935018" data-large="https://cards.scryfall.io/normal/front/9/7/97da6607-9131-4f8b-8af3-63439a59b78b.jpg?1783935018" data-name="Unwind" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Unwind</div>
+        
+        <div class="cb-expl">**Free counter + untap** : counters a spell, untaps 3 lands — leaves mana open.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/a/9/a921ff16-2cd1-4080-80a9-dd73c4eda5c7.jpg?1783929482" data-large="https://cards.scryfall.io/normal/front/a/9/a921ff16-2cd1-4080-80a9-dd73c4eda5c7.jpg?1783929482" data-name="Open into Wonder" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Open into Wonder</div>
+        
+        <div class="cb-expl">**X-spell draw + unblockable** : draws X cards and makes X creatures unblockable — finisher enabler.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/c/3/c3f9b454-97e9-4c77-b37a-e974221ae385.jpg?1783903247" data-large="https://cards.scryfall.io/normal/front/c/3/c3f9b454-97e9-4c77-b37a-e974221ae385.jpg?1783903247" data-name="Generous Gift" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Generous Gift</div>
+        
+        <div class="cb-expl">**Universal removal** : turns anything into a 3/3 Elephant — answer to anything, multi-target with <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span>.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/8/7/877a1bb9-5eae-453a-bec0-a9de20ea6815.jpg?1783928256" data-large="https://cards.scryfall.io/normal/front/8/7/877a1bb9-5eae-453a-bec0-a9de20ea6815.jpg?1783928256" data-name="Saw It Coming" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Saw It Coming</div>
+        
+        <div class="cb-expl">**Counterspell** : foretell keeps it cheap and hidden.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/3/c/3c3745c2-5509-4d6b-8f49-5cb93374edea.jpg?1783909632" data-large="https://cards.scryfall.io/normal/front/3/c/3c3745c2-5509-4d6b-8f49-5cb93374edea.jpg?1783909632" data-name="Return to Dust" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Return to Dust</div>
+        
+        <div class="cb-expl">**Exile removal** : exiles 2 artifacts/enchantments (2 targets = discount with <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span>).</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/c/6/c6704458-6e9e-4795-a56d-25b68fbf9672.jpg?1783926504" data-large="https://cards.scryfall.io/normal/front/c/6/c6704458-6e9e-4795-a56d-25b68fbf9672.jpg?1783926504" data-name="You Find the Villains&#x27; Lair" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">You Find the Villains&#x27; Lair</div>
+        
+        <div class="cb-expl">**Modal removal** : counterspell, destroy creature, or draw — choose per situation.</div>
+      </div>
+    </div>
+
+</div>
+</div>
+
+<div class="category"><h3>🌲 Lands / Mana Base <button class="copy-btn" data-copy="Terramorphic Expanse, Thriving Heath, Thriving Bluff, Thriving Isle, Myriad Landscape, Temple of Triumph, Evolving Wilds, Sejiri Shelter // Sejiri Glacier, Jwari Disruption // Jwari Ruins, Ondu Inversion // Ondu Skyruins, Sejiri Refuge, Lorehold Campus, Prismari Campus, Temple of Epiphany, Command Tower, Temple of Enlightenment, Ash Barrens, Exotic Orchard, Mystic Monastery, Island, Mountain, Plains" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h3>
+<div class="summary">🎯 Build target: 36-38 — The mana base: basics, fixing and justified utility lands. — <strong>22 cards</strong>.</div>
+<div class="card-grid">
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/a/8/a81f924b-0527-4311-8120-9bfff71524f6.jpg?1783903191" data-large="https://cards.scryfall.io/normal/front/a/8/a81f924b-0527-4311-8120-9bfff71524f6.jpg?1783903191" data-name="Terramorphic Expanse" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Terramorphic Expanse</div>
+        
+        <div class="cb-expl">**Land fixer** : fetches any basic — budget fixing that thins the deck.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/b/b/bb089097-1eed-4e72-a715-579ddd8307a0.jpg?1783903089" data-large="https://cards.scryfall.io/normal/front/b/b/bb089097-1eed-4e72-a715-579ddd8307a0.jpg?1783903089" data-name="Thriving Heath" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Thriving Heath</div>
+        
+        <div class="cb-expl">**Budget tri-land** : enters tapped but fixes white — reliable budget mana.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/8/2/82c96473-d7b9-48dc-9569-cdb649c78463.jpg?1783903090" data-large="https://cards.scryfall.io/normal/front/8/2/82c96473-d7b9-48dc-9569-cdb649c78463.jpg?1783903090" data-name="Thriving Bluff" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Thriving Bluff</div>
+        
+        <div class="cb-expl">**Budget tri-land** : enters tapped but fixes red — reliable budget mana.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/5/8/58a3b5a5-eba0-4b4e-869a-5387ec7dd2b8.jpg?1783903089" data-large="https://cards.scryfall.io/normal/front/5/8/58a3b5a5-eba0-4b4e-869a-5387ec7dd2b8.jpg?1783903089" data-name="Thriving Isle" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Thriving Isle</div>
+        
+        <div class="cb-expl">**Budget tri-land** : enters tapped but fixes blue — reliable budget mana.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/a/0/a0e2098f-1d94-491a-a7e9-a45a9f69e3a8.jpg?1783906009" data-large="https://cards.scryfall.io/normal/front/a/0/a0e2098f-1d94-491a-a7e9-a45a9f69e3a8.jpg?1783906009" data-name="Myriad Landscape" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Myriad Landscape</div>
+        
+        <div class="cb-expl">**Land ramp** : taps for 2 basics — budget fixing + ramp.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/d/0/d0e763f7-25b8-444f-8722-614297d0663f.jpg?1783903716" data-large="https://cards.scryfall.io/normal/front/d/0/d0e763f7-25b8-444f-8722-614297d0663f.jpg?1783903716" data-name="Temple of Triumph" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Temple of Triumph</div>
+        
+        <div class="cb-expl">**Scry land** : enters tapped but scries — smoother draws.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/c/0/c0318a48-30e4-4ef7-be3d-5e561c5ce428.jpg?1783903203" data-large="https://cards.scryfall.io/normal/front/c/0/c0318a48-30e4-4ef7-be3d-5e561c5ce428.jpg?1783903203" data-name="Evolving Wilds" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Evolving Wilds</div>
+        
+        <div class="cb-expl">**Land fixer** : fetches any basic — budget fixing.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="" data-large="" data-name="Sejiri Shelter // Sejiri Glacier" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Sejiri Shelter // Sejiri Glacier</div>
+        
+        <div class="cb-expl">**Protection land** : instant-speed hexproof/indestructible or a land — flexible slot.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="" data-large="" data-name="Jwari Disruption // Jwari Ruins" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Jwari Disruption // Jwari Ruins</div>
+        
+        <div class="cb-expl">**Spell land** : counterspell or a land — flexible utility land.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="" data-large="" data-name="Ondu Inversion // Ondu Skyruins" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Ondu Inversion // Ondu Skyruins</div>
+        
+        <div class="cb-expl">**Wipe land** : board wipe or a land — flexible reset.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/b/4/b474bfdd-e0b2-4b96-b8eb-84ced9ac5a06.jpg?1783928291" data-large="https://cards.scryfall.io/normal/front/b/4/b474bfdd-e0b2-4b96-b8eb-84ced9ac5a06.jpg?1783928291" data-name="Sejiri Refuge" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Sejiri Refuge</div>
+        
+        <div class="cb-expl">**Budget land** : enters tapped, gains 1 life.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/b/6/b6ad08da-c9e8-4061-a4a6-032d6957a403.jpg?1783903727" data-large="https://cards.scryfall.io/normal/front/b/6/b6ad08da-c9e8-4061-a4a6-032d6957a403.jpg?1783903727" data-name="Lorehold Campus" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Lorehold Campus</div>
+        
+        <div class="cb-expl">**Budget land** : tapped, can cycle for W or R.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/7/c/7c464dee-dd89-4955-ae40-8bb74e9ff42a.jpg?1783903723" data-large="https://cards.scryfall.io/normal/front/7/c/7c464dee-dd89-4955-ae40-8bb74e9ff42a.jpg?1783903723" data-name="Prismari Campus" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Prismari Campus</div>
+        
+        <div class="cb-expl">**Budget land** : tapped, can cycle for U or R.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/c/c/cc63cd97-de9e-4d31-babb-aaad1277169e.jpg?1783903716" data-large="https://cards.scryfall.io/normal/front/c/c/cc63cd97-de9e-4d31-babb-aaad1277169e.jpg?1783903716" data-name="Temple of Epiphany" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Temple of Epiphany</div>
+        
+        <div class="cb-expl">**Scry land** : enters tapped but scries — smoother draws.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/0/5/0548fb60-c843-4f8f-a029-6f10efc63a41.jpg?1783903206" data-large="https://cards.scryfall.io/normal/front/0/5/0548fb60-c843-4f8f-a029-6f10efc63a41.jpg?1783903206" data-name="Command Tower" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Command Tower</div>
+        
+        <div class="cb-expl">**Best land** : adds any color — auto-include.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/d/d/dd139d4d-3a40-4015-93de-c838c64156c6.jpg?1783906003" data-large="https://cards.scryfall.io/normal/front/d/d/dd139d4d-3a40-4015-93de-c838c64156c6.jpg?1783906003" data-name="Temple of Enlightenment" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Temple of Enlightenment</div>
+        
+        <div class="cb-expl">**Scry land** : enters tapped but scries — smoother draws.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/e/8/e8510205-4baa-4f1c-bf64-5d931e2ddf48.jpg?1783904155" data-large="https://cards.scryfall.io/normal/front/e/8/e8510205-4baa-4f1c-bf64-5d931e2ddf48.jpg?1783904155" data-name="Ash Barrens" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Ash Barrens</div>
+        
+        <div class="cb-expl">**Land fixer** : cycles for a basic — budget fixing.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/d/1/d11c5fe0-1528-4c94-a8cc-42bcab9d7487.jpg?1785759427" data-large="https://cards.scryfall.io/normal/front/d/1/d11c5fe0-1528-4c94-a8cc-42bcab9d7487.jpg?1785759427" data-name="Exotic Orchard" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Exotic Orchard</div>
+        
+        <div class="cb-expl">**Budget land** : copies opponents' colors — fixing.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/b/c/bc23343a-3a01-4975-8430-17bf15fa639d.jpg?1783903198" data-large="https://cards.scryfall.io/normal/front/b/c/bc23343a-3a01-4975-8430-17bf15fa639d.jpg?1783903198" data-name="Mystic Monastery" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Mystic Monastery</div>
+        
+        <div class="cb-expl">**Budget tri-land** : enters tapped, fixes Jeskai.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/f/3/f3cc07cd-cc79-4745-b0b7-eade60175cc3.jpg?1785981645" data-large="https://cards.scryfall.io/normal/front/f/3/f3cc07cd-cc79-4745-b0b7-eade60175cc3.jpg?1785981645" data-name="Island" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Island</div>
+        
+        <div class="cb-expl">**Basic** : blue mana — the core of the draw/counter shell.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/2/a/2a844b96-6616-4c39-8f4f-5d14a3b2bd55.jpg?1785981666" data-large="https://cards.scryfall.io/normal/front/2/a/2a844b96-6616-4c39-8f4f-5d14a3b2bd55.jpg?1785981666" data-name="Mountain" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Mountain</div>
+        
+        <div class="cb-expl">**Basic** : red mana — the core of the burn shell.</div>
+      </div>
+    </div>
+
+    <div class="card-block">
+      <img src="https://cards.scryfall.io/normal/front/8/a/8ab0f4c0-b331-4c57-b68f-2e24bb5ba06c.jpg?1785981632" data-large="https://cards.scryfall.io/normal/front/8/a/8ab0f4c0-b331-4c57-b68f-2e24bb5ba06c.jpg?1785981632" data-name="Plains" loading="lazy" onclick="openModal(this)"/>
+      <div class="cb-body">
+        <div class="cb-name">Plains</div>
+        
+        <div class="cb-expl">**Basic** : white mana — the core of the protection/flex shell.</div>
+      </div>
+    </div>
+
+</div>
+</div>
+
+
+<h2 id="s4">4. Structure Analysis (build principles)</h2>
+<p class="report-sub">The list assessed against the ideal 100-card Commander build: 36-38 lands · 10-12 ramp · 10-12 draw · 10-12 interaction · 2-3 wipes · 30-35 synergies/wincons · 3-5 flex · avg CMC ≤ 3.2.</p>
+<div class="verdict">
+<div class="verdict-scores">
+
+<div class="score-row"><span class="score-name">Lands</span><div class="score-bar"><div class="score-fill fill-under" style="width: 41%"></div></div><span class="score-val">22 / 36-38</span></div>
+
+<div class="score-row"><span class="score-name">Ramp / Acceleration</span><div class="score-bar"><div class="score-fill fill-over" style="width: 77%"></div></div><span class="score-val">13 / 10-12</span></div>
+
+<div class="score-row"><span class="score-name">Card Advantage / Draw</span><div class="score-bar"><div class="score-fill fill-under" style="width: 18%"></div></div><span class="score-val">3 / 10-12</span></div>
+
+<div class="score-row"><span class="score-name">Interaction / Removal</span><div class="score-bar"><div class="score-fill " style="width: 65%"></div></div><span class="score-val">11 / 10-12</span></div>
+
+<div class="score-row"><span class="score-name">Engines / Synergies</span><div class="score-bar"><div class="score-fill fill-under" style="width: 20%"></div></div><span class="score-val">10 / 30-35</span></div>
+
+<div class="score-row"><span class="score-name">Wincons / Finishers</span><div class="score-bar"><div class="score-fill fill-under" style="width: 4%"></div></div><span class="score-val">2 / 30-35</span></div>
+
+<div class="score-row"><span class="score-name">Flex / Personal Slots</span><div class="score-bar"><div class="score-fill fill-over" style="width: 100%"></div></div><span class="score-val">23 / 3-5</span></div>
+
+<div class="score-row"><span class="score-name">Board Wipes</span><div class="score-bar"><div class="score-fill fill-under" style="width: 0%"></div></div><span class="score-val">0 / 2-3</span></div>
+
+</div>
+<p><strong>Average CMC (non-land): 3.26 — ⚠️ above the ≤ 3.2 golden rule</strong></p>
+<ul>
+<li><strong>Structure</strong>: 22 lands · 13 ramp · 11 interaction · 10 engines · 23 flex · avg CMC 3.26 (nonland).</li><li><strong>Low-to-the-ground spellslinger</strong>: cheap instants/sorceries (median 2) fuel the token engines.</li><li><strong>Gaps</strong>: only 22 lands (target 36-38) — the curve is low but greedy X-spells need mana; no dedicated board wipes (Ondu Inversion is the only reset, as a land); draw is thin (3 dedicated spells) but Whirlwind of Thought + engines compensate.</li>
+</ul>
+</div>
+
+<h2 id="s5">5. Verdict</h2>
+<div class="verdict">
+<h3>🎯 Spellslinger &amp; X Spells — co-favorites</h3>
+<div class="verdict-scores">
+
+<div class="score-row"><span class="score-name">Spellslinger</span><div class="score-bar"><div class="score-fill" style="width: 40%"></div></div><span class="score-val">4/10</span></div>
+
+<div class="score-row"><span class="score-name">X Spells</span><div class="score-bar"><div class="score-fill" style="width: 40%"></div></div><span class="score-val">4/10</span></div>
+
+<div class="score-row"><span class="score-name">Control</span><div class="score-bar"><div class="score-fill" style="width: 40%"></div></div><span class="score-val">4/10</span></div>
+
+<div class="score-row"><span class="score-name">Tokens</span><div class="score-bar"><div class="score-fill" style="width: 20%"></div></div><span class="score-val">2/10</span></div>
+
+<div class="score-row"><span class="score-name">Combo</span><div class="score-bar"><div class="score-fill" style="width: 30%"></div></div><span class="score-val">3/10</span></div>
+
+<div class="score-row"><span class="score-name">Burn</span><div class="score-bar"><div class="score-fill" style="width: 40%"></div></div><span class="score-val">4/10</span></div>
+
+<div class="score-row"><span class="score-name">Storm</span><div class="score-bar"><div class="score-fill" style="width: 40%"></div></div><span class="score-val">4/10</span></div>
+
+</div>
+<ul>
+<li><strong>Spellslinger (606) and X Spells (539) are co-favorites</strong>: 4 of the deck's cards sit in each plan's EDHREC High Synergy pool (<span class="card-badge" data-large="https://cards.scryfall.io/large/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795" data-name="Curse of the Swine" onclick="openModal(this)">Curse of the Swine</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901" data-name="March of Swirling Mist" onclick="openModal(this)">March of Swirling Mist</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714" data-name="Comet Storm" onclick="openModal(this)">Comet Storm</span> + Thaumaturge/<span class="card-badge" data-large="https://cards.scryfall.io/large/front/b/0/b098f029-6b5d-49e4-9a81-f497ebbdb5ce.jpg?1783939087" data-name="Icy Blast" onclick="openModal(this)">Icy Blast</span>) — the list is built exactly around <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span>'s multi-target discount.</li><li><strong>The list is a budget spellslinger core</strong>: 36 instants/sorceries (43% of nonland cards), 5 token engines (<span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/0/c0d74ecd-a595-4012-81b4-083264b40c94.jpg?1783907139" data-name="Young Pyromancer" onclick="openModal(this)">Young Pyromancer</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/b/1be3ed47-072e-481a-b3d9-dc232ac4b24f.jpg?1783911937" data-name="Talrand" onclick="openModal(this)">Talrand</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/9/e/9e68dcc2-bba4-4efa-97bb-3ed892037595.jpg?1783911941" data-name="Murmuring Mystic" onclick="openModal(this)">Murmuring Mystic</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791" data-name="Deekah" onclick="openModal(this)">Deekah</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/3/a/3a769d7e-c749-4845-ba87-808f0386df80.jpg?1783927564" data-name="Metallurgic Summonings" onclick="openModal(this)">Metallurgic Summonings</span>) and 3 recursion engines (<span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/4/e4a2d2c6-8eaa-4760-b620-921b807baa2e.jpg?1783933396" data-name="Feather" onclick="openModal(this)">Feather</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/c/8/c8152ab0-c6fc-4568-b837-4e84129e7b57.jpg?1783927297" data-name="Radiant Scrollwielder" onclick="openModal(this)">Radiant Scrollwielder</span>, <span class="card-badge" data-large="https://cards.scryfall.io/large/front/8/0/806e5536-103b-4d6c-83b4-8659a55b25b5.jpg?1783908161" data-name="Mystic Retrieval" onclick="openModal(this)">Mystic Retrieval</span>) — the classic Jeskai storm-ish shell.</li><li><strong>Structural notes</strong>: 22 lands (below the 36-38 target) but 13 ramp pieces (12 rocks + <span class="card-badge" data-large="https://cards.scryfall.io/large/front/a/0/a0e2098f-1d94-491a-a7e9-a45a9f69e3a8.jpg?1783906009" data-name="Myriad Landscape" onclick="openModal(this)">Myriad Landscape</span>) compensate; only 3 dedicated draw spells but <span class="card-badge" data-large="https://cards.scryfall.io/large/front/a/3/a3069683-0ff5-49e5-b7ae-f5bd40a4a32f.jpg?1783903222" data-name="Whirlwind of Thought" onclick="openModal(this)">Whirlwind of Thought</span> + token engines provide repeatable value; 11 interaction pieces with 5 counterspells — control plan viable.</li><li><strong>Biggest gap</strong>: no commander protection (only <span class="card-badge" data-large="https://cards.scryfall.io/large/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901" data-name="March of Swirling Mist" onclick="openModal(this)">March of Swirling Mist</span> / <span class="card-badge" data-large="https://cards.scryfall.io/large/front/d/b/db2bb091-ac6d-4c99-bdf6-70ffb6291ef0.jpg?1783915447" data-name="Semester&#x27;s End" onclick="openModal(this)">Semester&#x27;s End</span> as one-shots) — <span class="card-badge" data-large="https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834" data-name="Hinata" onclick="openModal(this)">Hinata</span> removed = deck slows a lot; and the X-burn finishers need the commander alive.</li>
+</ul>
+</div>
+
+<div id="modal" onclick="closeModal()"><img id="modalImg" src="" onclick="closeModal()"/><div id="modalCaption" class="caption"></div></div>
+<script>
+function openModal(img){ document.getElementById('modalImg').src = img.getAttribute('data-large')||img.src;
+  document.getElementById('modalCaption').textContent = img.getAttribute('data-name')||'';
+  document.getElementById('modal').classList.add('open'); document.body.style.overflow='hidden'; }
+function closeModal(){ document.getElementById('modal').classList.remove('open'); document.body.style.overflow=''; }
+document.addEventListener('keydown', e => { if(e.key==='Escape') closeModal(); });
+function copyText(text){
+  function fallback(){ var ta=document.createElement('textarea'); ta.value=text; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); }
+  if(navigator.clipboard && window.isSecureContext){ navigator.clipboard.writeText(text).then(()=>{}, fallback); } else { fallback(); }
+}
+</script>
+</body></html>

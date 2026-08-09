@@ -46,12 +46,15 @@
     "Yuriko, the Tiger's Shadow": "A Dimir aggro/control ninjutsu commander who returns from the command zone at will for ~2 mana, flipping high-cost cards to drain the table."
   },
   "evals_order": [
-    "Aminatou, Veil Piercer"
+    "Aminatou, Veil Piercer",
+    "Hinata, Dawn-Crowned"
   ],
   "eval_plans": {
-    "Aminatou, Veil Piercer": "MIRACLE WORKER — Enchantress & Topdeck (co-favorites)"
+    "Aminatou, Veil Piercer": "MIRACLE WORKER — Enchantress & Topdeck (co-favorites)",
+    "Hinata, Dawn-Crowned": "HINATA BUDGET — Spellslinger & X Spells (co-favorites)"
   },
   "eval_descriptions": {
-    "Aminatou, Veil Piercer": "Precon evaluation: the Duskmourn Miracle Worker list analyzed against EDHREC game plans — 88 unique cards, 6 archetypes ranked, high-synergy overlap per plan, combos and build-structure verdict."
+    "Aminatou, Veil Piercer": "Precon evaluation: the Duskmourn Miracle Worker list analyzed against EDHREC game plans — 88 unique cards, 6 archetypes ranked, high-synergy overlap per plan, combos and build-structure verdict.",
+    "Hinata, Dawn-Crowned": "Deck-list evaluation: the Moxfield Hinata Budget spellslinger analyzed against EDHREC game plans — 84 unique cards, 7 archetypes ranked, high-synergy overlap per plan, combos and build-structure verdict."
   }
 }
