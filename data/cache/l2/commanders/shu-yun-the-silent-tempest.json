@@ -1,0 +1,3554 @@
+{
+ "schema_version": 1,
+ "reconciled_at": "2026-08-09",
+ "commander": {
+  "name": "Shu Yun, the Silent Tempest",
+  "slug": "shu-yun-the-silent-tempest",
+  "mana_cost": "(3 mana)",
+  "type_line": "Legendary Creature — Human Monk",
+  "color_id": "🔴🔵⚪ Jeskai (R/U/W)",
+  "power": "3",
+  "toughness": "2",
+  "rarity": "Rare (Fate Reforged)",
+  "legality": "Legal",
+  "set_name": "",
+  "img": "https://cards.scryfall.io/normal/front/b/d/bd79e83a-a34b-472c-9317-12af4ed2ca28.jpg?1783938703",
+  "oracle": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)Whenever you cast a noncreature spell, you may pay {R/W}{R/W}. If you do, target creature gains double strike until end of turn.",
+  "keywords": []
+ },
+ "imgs": {
+  "Academy Ruins": "https://cards.scryfall.io/normal/front/a/9/a95b7645-154f-4904-bf71-db7eb24d4df2.jpg?1783930087",
+  "Access Tunnel": "https://cards.scryfall.io/normal/front/4/b/4bef5957-71a4-4fe0-b2ce-dff8e8690bd9.jpg?1783906998",
+  "Adarkar Wastes": "https://cards.scryfall.io/normal/front/4/2/42e0aa15-639a-4e88-9bd8-ce5e7c7d7649.jpg?1783906017",
+  "Aether Tunnel": "https://cards.scryfall.io/normal/front/5/d/5d6178ed-6353-4733-81e1-7b3dc592c3bd.jpg?1783934592",
+  "Ajani's Presence": "https://cards.scryfall.io/normal/front/e/7/e77e2fd5-5c46-4f6b-ac43-ec23fab57a1a.jpg?1783939464",
+  "All That Glitters": "https://cards.scryfall.io/normal/front/5/f/5fc0b82a-f943-4330-b9e7-bb4527354bfd.jpg?1783915728",
+  "An Offer You Can't Refuse": "https://cards.scryfall.io/normal/front/a/8/a829747f-cf9b-4d81-ba66-9f0630ed4565.jpg?1783909078",
+  "Ancestral Anger": "https://cards.scryfall.io/normal/front/6/c/6c5a93d6-d4ab-4062-bb3c-1b5330bf15ad.jpg?1783903672",
+  "Angelfire Ignition": "https://cards.scryfall.io/normal/front/8/4/84ec79d8-c8de-46be-9d82-5e6bd5de9cad.jpg?1783908082",
+  "Apostle's Blessing": "https://cards.scryfall.io/normal/front/f/d/fdfbc07e-d726-4d42-9394-6aa0f5fc3a3a.jpg?1783938429",
+  "Aqueous Form": "https://cards.scryfall.io/normal/front/c/8/c859f7cb-ac12-490e-b769-6f019791f2a5.jpg?1783928870",
+  "Arcane Denial": "https://cards.scryfall.io/normal/front/5/e/5eb843ef-b223-40d0-a461-54b16d188d0e.jpg?1783903242",
+  "Arcane Signet": "https://cards.scryfall.io/normal/front/1/c/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd.jpg?1783903222",
+  "Archmage Emeritus": "https://cards.scryfall.io/normal/front/d/d/dd547601-d650-4a02-a3a4-890bcef03a7c.jpg?1783903793",
+  "Archmage of Runes": "https://cards.scryfall.io/normal/front/3/3/334b5018-2da9-49f1-9d09-83d312ecfb02.jpg?1783909121",
+  "Arena of Glory": "https://cards.scryfall.io/normal/front/d/d/dd148edc-9e43-41aa-bb50-f912115d3e72.jpg?1783911241",
+  "Arid Mesa": "https://cards.scryfall.io/normal/front/2/5/25ac5405-df7b-4097-914a-022cb18e20d4.jpg?1783926797",
+  "Artful Dodge": "https://cards.scryfall.io/normal/front/d/e/de6ce6aa-e19f-4299-9807-e68920e63c73.jpg?1783940845",
+  "Artful Maneuver": "https://cards.scryfall.io/normal/front/7/f/7fcaf67e-ba97-4af9-8c47-dbca703cba35.jpg?1783938620",
+  "Axgard Armory": "https://cards.scryfall.io/normal/front/f/9/f9c77d35-8418-48fb-b7d7-7cfa763545c5.jpg?1783928180",
+  "Azorius Chancery": "https://cards.scryfall.io/normal/front/5/0/50ef0ac3-e911-4d67-a751-8d86160ae843.jpg?1783909580",
+  "Azorius Signet": "https://cards.scryfall.io/normal/front/4/1/41c50b99-4a29-4bef-8d41-c548c8a61dac.jpg?1783907017",
+  "Balmor, Battlemage Captain": "https://cards.scryfall.io/normal/front/0/b/0b45ab13-9bb6-48af-8b37-d97b25801ac8.jpg?1783909054",
+  "Bastion Protector": "https://cards.scryfall.io/normal/front/1/5/1582488a-ad15-487e-9271-6d9330b46fb4.jpg?1783903254",
+  "Battlefield Forge": "https://cards.scryfall.io/normal/front/c/4/c47c1bf5-f11e-4f86-b20b-5d899a11dc56.jpg?1783903735",
+  "Beamtown Beatstick": "https://cards.scryfall.io/normal/front/2/4/2443cb94-b27e-4a96-93cb-ac7880149bcc.jpg?1783916998",
+  "Bender's Waterskin": "https://cards.scryfall.io/normal/front/6/d/6d4a1712-d19e-4475-9614-a0b1af4da610.jpg?1783904915",
+  "Birgi, God of Storytelling // Harnfel, Horn of Bounty": "https://cards.scryfall.io/normal/front/4/4/44657ab1-0a6a-4a5f-9688-86f239083821.jpg?1783928241",
+  "Blackblade Reforged": "https://cards.scryfall.io/normal/front/2/4/240448cd-c308-49ae-9e4b-0c35adc59fba.jpg?1783921401",
+  "Blasphemous Act": "https://cards.scryfall.io/normal/front/7/d/7d4b1d44-126e-4987-9a9f-f0f9627a09cb.jpg?1783903234",
+  "Blazing Crescendo": "https://cards.scryfall.io/normal/front/8/4/8447c3d6-8c65-4d3c-81c4-609801602d06.jpg?1783902932",
+  "Boros Charm": "https://cards.scryfall.io/normal/front/e/0/e0d8c9f6-cbbd-4694-b100-01cfb81036cc.jpg?1783908890",
+  "Boros Garrison": "https://cards.scryfall.io/normal/front/7/6/76ec3366-98f3-4903-8f7b-cfcdd60e3be1.jpg?1783912508",
+  "Boros Signet": "https://cards.scryfall.io/normal/front/4/9/49c37c0e-d363-4033-a069-710241cd9923.jpg?1783907016",
+  "Borrowed Hostility": "https://cards.scryfall.io/normal/front/6/4/64185203-9d47-4d67-b433-1c4b09816a35.jpg?1783908127",
+  "Brainstorm": "https://cards.scryfall.io/normal/front/b/5/b5545882-6963-4729-b2c6-fb4bdc75ffcc.jpg?1783904806",
+  "Brotherhood Regalia": "https://cards.scryfall.io/normal/front/8/a/8a6439a6-288d-427e-b14b-a99e8ef8c5cd.jpg?1783910968",
+  "Brute Force": "https://cards.scryfall.io/normal/front/8/9/89db7256-3bd0-4c1d-9c6f-de81f7d3c1a2.jpg?1783927801",
+  "Brute Strength": "https://cards.scryfall.io/normal/front/6/f/6f40427d-231c-4baa-b1ed-4a2200dd5186.jpg?1783931655",
+  "Built to Smash": "https://cards.scryfall.io/normal/front/6/f/6f054978-446c-4565-b51e-8f1f0e0f01e2.jpg?1783937197",
+  "Bulk Up": "https://cards.scryfall.io/normal/front/9/7/977dcc50-da10-4281-b522-9240c1204f5d.jpg?1783909106",
+  "Cartouche of Knowledge": "https://cards.scryfall.io/normal/front/d/8/d806458e-81cd-4413-bba0-14d957bece79.jpg?1783936525",
+  "Cascade Bluffs": "https://cards.scryfall.io/normal/front/2/2/22acccd2-4e9d-46de-a060-863b08152e50.jpg?1783903736",
+  "Center Soul": "https://cards.scryfall.io/normal/front/b/f/bfca3763-9823-4fa4-968d-c701434b3d28.jpg?1783938619",
+  "Chromatic Lantern": "https://cards.scryfall.io/normal/front/9/b/9b29492a-8bdd-4806-8d1b-3058ed277cc1.jpg?1785759423",
+  "City of Brass": "https://cards.scryfall.io/normal/front/c/2/c21565d0-fc40-4d89-9b27-87c03385e0af.jpg?1783904153",
+  "Clifftop Retreat": "https://cards.scryfall.io/normal/front/4/a/4a7f7767-1959-4812-8654-0a22634096b1.jpg?1783903206",
+  "Cloak of Feathers": "https://cards.scryfall.io/normal/front/9/7/9746790c-a426-4135-8c9d-afb82a0c26b8.jpg?1783946843",
+  "Combat Research": "https://cards.scryfall.io/normal/front/6/c/6c44738c-706f-40b2-a09d-b21cd0889049.jpg?1783921355",
+  "Command Tower": "https://cards.scryfall.io/normal/front/0/5/0548fb60-c843-4f8f-a029-6f10efc63a41.jpg?1783903206",
+  "Commander's Sphere": "https://cards.scryfall.io/normal/front/a/0/a0d50603-e31f-4cd7-b4b6-49847d99eb2e.jpg?1783904531",
+  "Consider": "https://cards.scryfall.io/normal/front/4/f/4f28e706-c488-4525-ad8a-977a5fa77f80.jpg?1783904806",
+  "Consuming Fervor": "https://cards.scryfall.io/normal/front/d/5/d529d230-89b0-453b-987b-a47e15bc3830.jpg?1783936490",
+  "Consuming Tide": "https://cards.scryfall.io/normal/front/5/8/5865f0f1-28a6-49ac-b61e-135845075d1f.jpg?1783924899",
+  "Cori Mountain Monastery": "https://cards.scryfall.io/normal/front/9/3/9312821a-2059-4f44-9b20-c9522b827e38.jpg?1783907281",
+  "Cori-Steel Cutter": "https://cards.scryfall.io/normal/front/4/9/490eb213-9ae2-4b45-abec-6f1dfc83792a.jpg?1783907363",
+  "Counterspell": "https://cards.scryfall.io/normal/front/4/f/4f616706-ec97-4923-bb1e-11a69fbaa1f8.jpg?1783909630",
+  "Crash Through": "https://cards.scryfall.io/normal/front/9/e/9eb16918-6363-4849-8d74-e26822a0ddf7.jpg?1783908924",
+  "Crimson Wisps": "https://cards.scryfall.io/normal/front/a/6/a65c81ff-fc5d-4191-93fb-52eb806457b7.jpg?1783942749",
+  "Curiosity": "https://cards.scryfall.io/normal/front/c/5/c5a0be10-c20f-4ac0-89a5-1770ecf48aad.jpg?1783930457",
+  "Curious Obsession": "https://cards.scryfall.io/normal/front/0/4/04cf3030-dc92-45ab-9c26-f2e6aef67e56.jpg?1783930457",
+  "Defiant Strike": "https://cards.scryfall.io/normal/front/5/c/5c23869b-c99a-49dd-9e29-fcc0eb63fad1.jpg?1783930743",
+  "Deflecting Palm": "https://cards.scryfall.io/normal/front/c/5/c5bda1a7-537f-4a80-95a0-c45eb127969b.jpg?1783912980",
+  "Defy Gravity": "https://cards.scryfall.io/normal/front/c/3/c31e6c69-e5c4-47b0-b226-4e1d84fabfa7.jpg?1783933848",
+  "Deserted Beach": "https://cards.scryfall.io/normal/front/c/8/c819de09-dac2-407a-98c8-775865e9bdf8.jpg?1783908057",
+  "Dig Through Time": "https://cards.scryfall.io/normal/front/0/2/020939d6-72f0-4aa0-9ac2-d16cc896cd7f.jpg?1783903792",
+  "Distortion Strike": "https://cards.scryfall.io/normal/front/5/7/57556595-8ede-4a35-b3a4-0e6f8bfc4d9d.jpg?1783935548",
+  "Divine Reckoning": "https://cards.scryfall.io/normal/front/c/b/cbb97027-d6bc-4529-960d-6b0ab2af9c50.jpg?1783932791",
+  "Dovin's Veto": "https://cards.scryfall.io/normal/front/5/d/5d6b5054-2224-4f68-9d82-3ed17c5dacc4.jpg?1783933400",
+  "Dragon Mantle": "https://cards.scryfall.io/normal/front/c/a/ca32fd66-f7f1-4e50-817f-bb259f690f00.jpg?1783928816",
+  "Dreadhorde Arcanist": "https://cards.scryfall.io/normal/front/f/d/fd97b3cf-924e-4f77-bb82-0bf19592389f.jpg?1783933429",
+  "Dreadmaw's Ire": "https://cards.scryfall.io/normal/front/0/6/062e00a1-f1dc-4089-b640-800ab781c590.jpg?1783913761",
+  "Dust Corona": "https://cards.scryfall.io/normal/front/b/b/bb554768-d908-474d-832d-d4e36d293712.jpg?1783943148",
+  "Eel Umbra": "https://cards.scryfall.io/normal/front/b/4/b4ab47ce-a6dd-4839-ab41-053c5c5de768.jpg?1783921918",
+  "Eiganjo, Seat of the Empire": "https://cards.scryfall.io/normal/front/c/3/c375a022-5b57-496d-a802-e4ea8376e9e4.jpg?1783923818",
+  "Elsha of the Infinite": "https://cards.scryfall.io/normal/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837",
+  "Elsha, Threefold Master": "https://cards.scryfall.io/normal/front/e/e/eee11606-5902-41d3-aec6-d6a3da01091b.jpg?1783907192",
+  "Emerge Unscathed": "https://cards.scryfall.io/normal/front/d/0/d016f166-183e-4d9e-9292-9bfb1ca0d72b.jpg?1783935557",
+  "Enter the Enigma": "https://cards.scryfall.io/normal/front/c/f/cf5479c7-9e46-4a57-abe7-8cc670de89e4.jpg?1783909497",
+  "Escape Velocity": "https://cards.scryfall.io/normal/front/9/0/90c2a3da-2458-4921-8574-9eb9d5925ae8.jpg?1783931554",
+  "Esper Sentinel": "https://cards.scryfall.io/normal/front/f/3/f3537373-ef54-4578-9d05-6216420ee349.jpg?1783926893",
+  "Evolving Wilds": "https://cards.scryfall.io/normal/front/c/0/c0318a48-30e4-4ef7-be3d-5e561c5ce428.jpg?1783903203",
+  "Exotic Orchard": "https://cards.scryfall.io/normal/front/d/1/d11c5fe0-1528-4c94-a8cc-42bcab9d7487.jpg?1785759427",
+  "Expedite": "https://cards.scryfall.io/normal/front/b/8/b86c0628-0b61-44f2-91cc-1c3c309631ce.jpg?1783928712",
+  "Expressive Iteration": "https://cards.scryfall.io/normal/front/9/6/96f866ec-a163-4095-b088-d93fa0b6f6f7.jpg?1783903226",
+  "Faithless Looting": "https://cards.scryfall.io/normal/front/f/c/fc019ffa-4461-4f3d-ab8d-e4d20e77ca0c.jpg?1783903774",
+  "Feather, the Redeemed": "https://cards.scryfall.io/normal/front/e/4/e4a2d2c6-8eaa-4760-b620-921b807baa2e.jpg?1783933396",
+  "Fellwar Stone": "https://cards.scryfall.io/normal/front/3/e/3ef87948-0ad9-4757-a692-2262c8e24367.jpg?1785759354",
+  "Fiery Islet": "https://cards.scryfall.io/normal/front/a/3/a3aab13c-9d9d-4507-ae5d-da979990ae1b.jpg?1783933068",
+  "Fists of Flame": "https://cards.scryfall.io/normal/front/c/0/c06d88b3-d882-4c98-8f70-fed67b772386.jpg?1783904803",
+  "Flare of Faith": "https://cards.scryfall.io/normal/front/1/b/1b4354c6-ea21-46c0-93c4-744dbacbfcf4.jpg?1783925659",
+  "Flawless Maneuver": "https://cards.scryfall.io/normal/front/a/b/ab12f69e-1491-47a8-8c46-d85bbf637ff6.jpg?1783915723",
+  "Flooded Strand": "https://cards.scryfall.io/normal/front/8/f/8f85e12c-196b-4459-b81f-0c9c854e9f57.jpg?1783911240",
+  "Fragmentize": "https://cards.scryfall.io/normal/front/5/b/5bf09deb-2607-4eb0-94a7-9584e771fdfb.jpg?1783937234",
+  "Frantic Search": "https://cards.scryfall.io/normal/front/d/8/d8c5e52d-57ae-464b-8860-7dd39ebfef64.jpg?1783904806",
+  "Frostboil Snarl": "https://cards.scryfall.io/normal/front/a/e/ae705a26-5371-4236-904c-fe3e58b4721d.jpg?1783903201",
+  "Furycalm Snarl": "https://cards.scryfall.io/normal/front/a/f/afc12892-4978-4442-ace5-c4dea5c0ee00.jpg?1783903200",
+  "Ghostly Prison": "https://cards.scryfall.io/normal/front/e/1/e1f723a8-0be9-4270-b451-a52d6b2fda4e.jpg?1783903809",
+  "Gitaxian Probe": "https://cards.scryfall.io/normal/front/9/9/995486ce-58bb-4753-a812-0ca73ef1a235.jpg?1783941320",
+  "Giver of Runes": "https://cards.scryfall.io/normal/front/4/e/4e117771-5a8b-4812-b487-32ba34b7f724.jpg?1783933162",
+  "Glacial Fortress": "https://cards.scryfall.io/normal/front/d/6/d673a2d5-0c61-48dc-8c8d-06f0c7b6b8bf.jpg?1783903199",
+  "Glamdring": "https://cards.scryfall.io/normal/front/b/a/ba4b13c5-ef17-4bde-80e1-59d7587c123b.jpg?1785497303",
+  "Goblin Electromancer": "https://cards.scryfall.io/normal/front/b/d/bd9eca71-2430-4112-a23a-fba76ca2efb4.jpg?1783907139",
+  "Gods Willing": "https://cards.scryfall.io/normal/front/1/3/138f0e49-71d5-4582-92be-797e753f0f42.jpg?1783912564",
+  "Graduation Day": "https://cards.scryfall.io/normal/front/d/b/db1cea01-123e-4b23-8b98-f94cabce3912.jpg?1783903705",
+  "Guttersnipe": "https://cards.scryfall.io/normal/front/f/6/f6bb1ffc-2251-4655-b8f9-4c8047dd5d5f.jpg?1785497556",
+  "Hallowed Fountain": "https://cards.scryfall.io/normal/front/b/7/b7285986-7e08-4969-86ef-452dc5bfdd9f.jpg?1784036830",
+  "Hammer of Nazahn": "https://cards.scryfall.io/normal/front/e/7/e77a8ac1-f40d-423e-a0b3-0a8e236a6c1e.jpg?1783915599",
+  "Hero's Blade": "https://cards.scryfall.io/normal/front/6/f/6f2fa911-5735-4ee2-828f-59dea6927b20.jpg?1783903219",
+  "Hexing Squelcher": "https://cards.scryfall.io/normal/front/6/7/674960ce-ff33-4d5e-a24a-a4582b2e9809.jpg?1783904442",
+  "Improvised Arsenal": "https://cards.scryfall.io/normal/front/0/0/003265d9-b2fc-4916-afc8-53ed2d6aa053.jpg?1783904096",
+  "Infuriate": "https://cards.scryfall.io/normal/front/8/5/85a74392-4056-428c-a807-b062957e838e.jpg?1783931551",
+  "Inquisitor's Flail": "https://cards.scryfall.io/normal/front/3/0/3014f59d-9012-473a-8bb1-8085c6e91632.jpg?1783940900",
+  "Intervene": "https://cards.scryfall.io/normal/front/4/b/4b0e3894-5dfe-4d03-9996-eebf96c58168.jpg?1783946246",
+  "Invigorated Rampage": "https://cards.scryfall.io/normal/front/2/c/2c1d1727-99d4-4aee-b6f5-8399ac1d0184.jpg?1783936752",
+  "Island": "https://cards.scryfall.io/normal/front/f/3/f3cc07cd-cc79-4745-b0b7-eade60175cc3.jpg?1785981645",
+  "Isochron Scepter": "https://cards.scryfall.io/normal/front/2/a/2aa24fe0-e275-4307-b26c-2a656068a451.jpg?1783930107",
+  "Izzet Boilerworks": "https://cards.scryfall.io/normal/front/b/f/bfac9395-7ca5-48dd-ab83-7c26ada12f61.jpg?1783911875",
+  "Izzet Signet": "https://cards.scryfall.io/normal/front/2/c/2c747a97-9070-4c1e-b7b7-52637fbb30e1.jpg?1783907010",
+  "Jeska, Thrice Reborn": "https://cards.scryfall.io/normal/front/4/8/48caf4c4-745c-4072-bf3d-1a3fa7c3bc9c.jpg?1783928812",
+  "Jeskai Ascendancy": "https://cards.scryfall.io/normal/front/9/a/9a8399fc-4cba-44c5-888e-2cfc0f6739f6.jpg?1783921825",
+  "Jeskai Banner": "https://cards.scryfall.io/normal/front/6/8/684dc050-a66b-4364-9880-56f383db6c0a.jpg?1783939048",
+  "Jori En, Ruin Diver": "https://cards.scryfall.io/normal/front/4/0/40c020f2-5809-4aa6-a6f5-6030568058aa.jpg?1783936572",
+  "Kediss, Emberclaw Familiar": "https://cards.scryfall.io/normal/front/f/6/f606ebf1-483d-4331-b16a-9fb6f591a39f.jpg?1783928811",
+  "Key to the City": "https://cards.scryfall.io/normal/front/f/2/f2103bba-f367-45ed-9b2c-bf31bb2926a5.jpg?1783927512",
+  "Khenra Spellspear // Gitaxian Spellstalker": "https://cards.scryfall.io/normal/front/d/c/dc1454ce-bb49-4b4f-bbca-d77387fa4966.jpg?1783916992",
+  "Kykar, Wind's Fury": "https://cards.scryfall.io/normal/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615",
+  "Lavaspur Boots": "https://cards.scryfall.io/normal/front/e/5/e50709de-e6ef-4dbc-af1e-290fed279f34.jpg?1783911781",
+  "Leap": "https://cards.scryfall.io/normal/front/0/8/0841423d-7a27-4bc5-9ac2-0ba47648c6f1.jpg?1783946567",
+  "Leering Emblem": "https://cards.scryfall.io/normal/front/d/8/d81bcabd-7bbe-463c-a35a-992c12c4e4bf.jpg?1783942656",
+  "Legion Leadership // Legion Stronghold": "https://cards.scryfall.io/normal/front/7/6/7676abd9-0a3d-4721-b17b-778d2e3c2e25.jpg?1783911225",
+  "Leonin Lightscribe": "https://cards.scryfall.io/normal/front/2/a/2a465d7b-398c-444b-9eae-331ea2513f6d.jpg?1783927388",
+  "Leyline of Resonance": "https://cards.scryfall.io/normal/front/9/2/92c5f0e3-345a-40a8-9cda-565a62156692.jpg?1783909467",
+  "Lightning Greaves": "https://cards.scryfall.io/normal/front/b/6/b61634ae-05be-4b56-8ebb-9d4ade902e42.jpg?1783903217",
+  "Lion Sash": "https://cards.scryfall.io/normal/front/3/e/3e1766e9-2fa7-4446-a255-7beea1467ece.jpg?1783923917",
+  "Loran's Escape": "https://cards.scryfall.io/normal/front/3/7/3765610d-a0c1-4de9-a81b-ffa3eb06454b.jpg?1783920128",
+  "Lyse Hext": "https://cards.scryfall.io/normal/front/9/7/97845ece-ceef-468c-a4e3-6fde1413c9f0.jpg?1783906345",
+  "Madcap Skills": "https://cards.scryfall.io/normal/front/b/a/ba77b1ff-e73d-4181-9564-d71df348b2fe.jpg?1783936645",
+  "Mark of Fury": "https://cards.scryfall.io/normal/front/5/b/5b21b2f4-a05d-477b-8a39-632f7ff7f5f5.jpg?1783946066",
+  "Mask of Memory": "https://cards.scryfall.io/normal/front/b/a/ba275c02-8581-46a0-9c7c-8baa0fdb4982.jpg?1783928754",
+  "Mavinda, Students' Advocate": "https://cards.scryfall.io/normal/front/8/b/8b3d521f-31cd-4bd2-b6b6-771c79252789.jpg?1783927388",
+  "Maximize Velocity": "https://cards.scryfall.io/normal/front/e/b/ebb7a2aa-f002-4f05-b9ec-8adee4c65e46.jpg?1783934159",
+  "Mind Stone": "https://cards.scryfall.io/normal/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.jpg?1785759375",
+  "Mistfire Adept": "https://cards.scryfall.io/normal/front/e/8/e8a2dd0d-8034-47f7-801d-c893f32f0708.jpg?1783921912",
+  "Mistrise Village": "https://cards.scryfall.io/normal/front/d/4/d44bccbf-6fab-46e4-8ddb-6577e27ec6e8.jpg?1783907277",
+  "Monastery Mentor": "https://cards.scryfall.io/normal/front/2/3/2343e69d-f30e-4826-953c-fbf31c6079e6.jpg?1783907121",
+  "Monastery Swiftspear": "https://cards.scryfall.io/normal/front/d/6/d6bfa227-4309-40ed-952c-279595eab17e.jpg?1783920066",
+  "Monk Class": "https://cards.scryfall.io/normal/front/b/2/b2edd708-46ee-4963-b7e6-b631616d78fe.jpg?1783926446",
+  "Monstrous Rage": "https://cards.scryfall.io/normal/front/e/e/eef5a0ae-5907-42c9-a097-3f973737e392.jpg?1783915091",
+  "Mother of Runes": "https://cards.scryfall.io/normal/front/a/5/a5e19147-e459-43a6-8ef0-e37968a462e3.jpg?1783922485",
+  "Mountain": "https://cards.scryfall.io/normal/front/2/a/2a844b96-6616-4c39-8f4f-5d14a3b2bd55.jpg?1785981666",
+  "Murmuring Mystic": "https://cards.scryfall.io/normal/front/9/e/9e68dcc2-bba4-4efa-97bb-3ed892037595.jpg?1783911941",
+  "Mystic Gate": "https://cards.scryfall.io/normal/front/6/f/6f99714f-43bc-4048-b650-97dfef4c10fe.jpg?1783915384",
+  "Mystic Monastery": "https://cards.scryfall.io/normal/front/b/c/bc23343a-3a01-4975-8430-17bf15fa639d.jpg?1783903198",
+  "Mystic Remora": "https://cards.scryfall.io/normal/front/4/0/40140991-cffa-4b52-9a25-37e9a8aa9ddd.jpg?1783918491",
+  "Mystic Sanctuary": "https://cards.scryfall.io/normal/front/4/c/4cd86997-d7b9-4b5b-9488-11f5c679e4d3.jpg?1783903726",
+  "Myth Realized": "https://cards.scryfall.io/normal/front/1/5/15afcabf-58a8-4650-a6cf-b7f2f01d0671.jpg?1783921930",
+  "Narset of the Ancient Way": "https://cards.scryfall.io/normal/front/3/0/300f766f-9609-4105-9ed5-4299c48f7fa7.jpg?1783915415",
+  "Narset, Enlightened Exile": "https://cards.scryfall.io/normal/front/8/2/827ecc44-0b00-4515-8953-bc91fa03705a.jpg?1783916515",
+  "Negate": "https://cards.scryfall.io/normal/front/5/2/52d58fe4-6070-4022-9cd7-c35a11b44525.jpg?1783904112",
+  "Niblis of Frost": "https://cards.scryfall.io/normal/front/f/4/f4a3d06c-8059-4f73-8f7e-29aa004cd3d5.jpg?1783931186",
+  "Niv-Mizzet, Parun": "https://cards.scryfall.io/normal/front/8/6/86c5c337-d25f-4c3e-9762-09ed0c2d36d7.jpg?1783911897",
+  "O-Naginata": "https://cards.scryfall.io/normal/front/0/8/08db5b31-6b5a-4b99-b103-d628afaea2ba.jpg?1783930101",
+  "Opal Palace": "https://cards.scryfall.io/normal/front/9/1/912553e7-1e67-4045-84fd-0a791754cf6c.jpg?1783903726",
+  "Open the Armory": "https://cards.scryfall.io/normal/front/6/d/6db45698-9da9-4cea-b9bf-0f84ab276b51.jpg?1783928877",
+  "Opt": "https://cards.scryfall.io/normal/front/b/b/bbc99a51-1501-4525-a3cc-f48249b64bed.jpg?1783907102",
+  "Otawara, Soaring City": "https://cards.scryfall.io/normal/front/4/8/486d7edc-d983-41f0-8b78-c99aecd72996.jpg?1783923816",
+  "Past in Flames": "https://cards.scryfall.io/normal/front/2/b/2b7472f4-37b0-439f-b4ac-80706d40d191.jpg?1783936642",
+  "Path to Exile": "https://cards.scryfall.io/normal/front/9/5/95ca89ea-1200-4bb4-ae4b-af35d3ccd35b.jpg?1783903242",
+  "Perilous Landscape": "https://cards.scryfall.io/normal/front/6/1/61fc78e0-d0db-4ecb-a29a-f1a437d7987c.jpg?1783906975",
+  "Pinnacle Monk // Mystic Peak": "https://cards.scryfall.io/normal/front/2/4/24d4f26e-7f96-4b38-867e-4fac819b2679.jpg?1783911228",
+  "Pippin, Guard of the Citadel": "https://cards.scryfall.io/normal/front/0/8/08b7a4d8-1183-430e-8ea4-016844f33200.jpg?1783916249",
+  "Plains": "https://cards.scryfall.io/normal/front/8/a/8ab0f4c0-b331-4c57-b68f-2e24bb5ba06c.jpg?1785981632",
+  "Ponder": "https://cards.scryfall.io/normal/front/d/c/dc69f960-68ba-4315-8146-6a7a82047503.jpg?1783907102",
+  "Port Town": "https://cards.scryfall.io/normal/front/3/f/3f962cab-c058-41f5-b7e1-5b063f374eb0.jpg?1783903197",
+  "Prairie Stream": "https://cards.scryfall.io/normal/front/b/2/b2e133b4-2263-4ac2-8d16-7bf307d5e104.jpg?1783903196",
+  "Preordain": "https://cards.scryfall.io/normal/front/d/d/dd29a0e5-c1de-4e8a-8866-715e9f9cde1f.jpg?1783907099",
+  "Propaganda": "https://cards.scryfall.io/normal/front/a/c/ac943e31-26bc-4b54-b73f-460e6e402d86.jpg?1783903239",
+  "Raugrin Crystal": "https://cards.scryfall.io/normal/front/c/5/c5bce0fb-53d6-47ee-8c5a-a99e50f67fc9.jpg?1783931006",
+  "Raugrin Triome": "https://cards.scryfall.io/normal/front/0/2/02138fbb-3962-4348-8d31-faaefba0b8b2.jpg?1783931001",
+  "Raze the Effigy": "https://cards.scryfall.io/normal/front/e/0/e0dd378c-5050-48c9-9a16-6d91afa62d21.jpg?1783925591",
+  "Rebellious Strike": "https://cards.scryfall.io/normal/front/c/9/c9bafe19-3bd6-4da0-b3e5-e0b89262504c.jpg?1783907410",
+  "Reckless Charge": "https://cards.scryfall.io/normal/front/1/7/1754a8db-060e-470f-94c0-37f12d82978a.jpg?1783933106",
+  "Rediscover the Way": "https://cards.scryfall.io/normal/front/7/9/79d6decf-afd5-4e96-b87e-fd7ab7e3c068.jpg?1783907303",
+  "Relentless Assault": "https://cards.scryfall.io/normal/front/9/7/97622209-9357-4347-8961-f77f8d2389d8.jpg?1783928712",
+  "Reliquary Tower": "https://cards.scryfall.io/normal/front/e/2/e2a27742-08c1-4153-af7f-25a7a98f585e.jpg?1783903721",
+  "Renegade Tactics": "https://cards.scryfall.io/normal/front/7/d/7dfa0e65-1ce0-4f8e-a78b-2ade2d25e748.jpg?1783928809",
+  "Rip Apart": "https://cards.scryfall.io/normal/front/b/4/b4964c78-b9ca-43c2-bcaa-bf75d92b9065.jpg?1783903231",
+  "Rogue's Passage": "https://cards.scryfall.io/normal/front/4/4/4493b62b-f354-47ff-9dcf-cc6e29de77c6.jpg?1785497634",
+  "Rugged Prairie": "https://cards.scryfall.io/normal/front/6/b/6bd21c9e-de16-4ee9-ae16-6e82b490109d.jpg?1783903721",
+  "Run Amok": "https://cards.scryfall.io/normal/front/b/1/b18e1c55-29bc-434f-85b7-765d7ba71ff3.jpg?1786005592",
+  "Runechanter's Pike": "https://cards.scryfall.io/normal/front/0/f/0f54e38b-b4a0-4406-a635-7a5ab3722f25.jpg?1783940900",
+  "Rush of Adrenaline": "https://cards.scryfall.io/normal/front/d/0/d0def54b-9f0a-4ab1-9df9-25506a06350c.jpg?1783937744",
+  "Sacred Foundry": "https://cards.scryfall.io/normal/front/a/7/a7758cc6-4e18-48a5-8720-5f42b5cd9d31.jpg?1784036842",
+  "Saheeli, Sublime Artificer": "https://cards.scryfall.io/normal/front/c/e/ce35a39a-6dcd-4bbc-b43b-bd1a5425cb05.jpg?1783915410",
+  "Samut's Sprint": "https://cards.scryfall.io/normal/front/9/4/94bda699-2b5d-4f5b-bee5-792b99d2b64a.jpg?1783933422",
+  "Scalding Tarn": "https://cards.scryfall.io/normal/front/7/1/71e491c5-8c07-449b-b2f1-ffa052e6d311.jpg?1783926793",
+  "Scroll of the Masters": "https://cards.scryfall.io/normal/front/d/6/d6c7f24e-5ead-4b32-a804-4c89929508f6.jpg?1783938675",
+  "Sea of Clouds": "https://cards.scryfall.io/normal/front/d/4/d4fb722f-40af-4bd1-b660-e8186b98f233.jpg?1783922655",
+  "Security Bypass": "https://cards.scryfall.io/normal/front/5/c/5c155be9-8432-4e35-b586-96b6339d27ae.jpg?1783923140",
+  "Seeker of the Way": "https://cards.scryfall.io/normal/front/e/9/e9e3cb28-d318-4d5d-b5bf-1ea7c6249a89.jpg?1783921927",
+  "Seething Anger": "https://cards.scryfall.io/normal/front/2/2/2294ef08-c27a-4bb4-bd59-434516717961.jpg?1783938466",
+  "Seize the Day": "https://cards.scryfall.io/normal/front/9/c/9cb5d064-f474-4db9-b349-b9f71c587742.jpg?1783903232",
+  "Sejiri Shelter // Sejiri Glacier": "https://cards.scryfall.io/normal/front/f/2/f25d56f9-aa54-4657-9ac9-e93fbba3e715.jpg?1783929413",
+  "Sensei's Divining Top": "https://cards.scryfall.io/normal/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788",
+  "Sentinel's Eyes": "https://cards.scryfall.io/normal/front/9/f/9f50278a-06fc-4b11-a1d2-d28cd213ff8f.jpg?1783903801",
+  "Serum Visions": "https://cards.scryfall.io/normal/front/5/b/5b75eb6b-d76c-4b92-b042-13493f9ef164.jpg?1783911938",
+  "Shadow Rift": "https://cards.scryfall.io/normal/front/0/6/06f6d0bd-19b9-45d0-8768-691a6a593d81.jpg?1783938492",
+  "Shadowspear": "https://cards.scryfall.io/normal/front/9/3/939c6e19-4b27-4023-bb9c-ae440f91e21c.jpg?1783931515",
+  "Shelter": "https://cards.scryfall.io/normal/front/1/f/1f4fedc9-6dd1-4190-a0c9-e9d10fd91315.jpg?1783915712",
+  "Sheltering Light": "https://cards.scryfall.io/normal/front/b/0/b0c945c7-6c31-4c4f-9203-3dc2aef50820.jpg?1783935791",
+  "Shivan Reef": "https://cards.scryfall.io/normal/front/e/1/e13d0982-2542-4770-8e93-637478a0f84a.jpg?1783903720",
+  "Shore Up": "https://cards.scryfall.io/normal/front/4/d/4dc3b49e-3674-494c-bdea-4374cefd10f4.jpg?1783910845",
+  "Siege Smash": "https://cards.scryfall.io/normal/front/f/3/f33e3b25-76f5-4263-a309-9ea97f2d8248.jpg?1783911266",
+  "Sigarda's Aid": "https://cards.scryfall.io/normal/front/5/3/531da950-dc96-4050-94a8-e01b73ddd965.jpg?1783928726",
+  "Single Combat": "https://cards.scryfall.io/normal/front/c/e/ce0e7c6a-e628-4327-a16f-2062c5a662df.jpg?1783933474",
+  "Skycloud Expanse": "https://cards.scryfall.io/normal/front/0/3/03f8c846-d80c-49a4-a562-e817cd0c6096.jpg?1783906004",
+  "Slash the Ranks": "https://cards.scryfall.io/normal/front/0/9/0913a5e8-7f77-44f2-a7cf-c8c0d6270a86.jpg?1783928872",
+  "Slayers' Stronghold": "https://cards.scryfall.io/normal/front/3/b/3b2c82ea-6793-407c-ac9f-5fc14d4d09ea.jpg?1783912951",
+  "Slip Out the Back": "https://cards.scryfall.io/normal/front/d/9/d9d9fbbb-ed6c-45f7-a1d8-f9d29ae7930f.jpg?1783912552",
+  "Slip Through Space": "https://cards.scryfall.io/normal/front/2/d/2dee6dca-9c7e-4347-bea7-7fecc69e5827.jpg?1783937920",
+  "Sol Ring": "https://cards.scryfall.io/normal/front/9/1/91fdb56b-54d5-4272-8319-505ff987fe9b.jpg?1783903215",
+  "Spectator Seating": "https://cards.scryfall.io/normal/front/4/c/4c62dcfc-4bc8-4551-b3c7-9eec26be3362.jpg?1783903192",
+  "Spirit Mantle": "https://cards.scryfall.io/normal/front/8/a/8ac5a048-e8aa-48e8-b51b-b4e9a5b63ea6.jpg?1783903799",
+  "Staggering Insight": "https://cards.scryfall.io/normal/front/1/2/125b8be1-76b9-434e-a505-5099d950767c.jpg?1783931517",
+  "Star Compass": "https://cards.scryfall.io/normal/front/9/c/9c010712-7f42-4c55-9a63-aca2452aac05.jpg?1783935504",
+  "Steam Vents": "https://cards.scryfall.io/normal/front/a/8/a83903c7-fd51-4526-aed2-359e946fea36.jpg?1784036844",
+  "Steel of the Godhead": "https://cards.scryfall.io/normal/front/0/d/0d3c9145-14d0-4731-bc07-eb4c3f71d7e4.jpg?1783940774",
+  "Steelshaper's Gift": "https://cards.scryfall.io/normal/front/5/5/55d61383-b739-4422-a76c-d8cbca13c5b2.jpg?1783915711",
+  "Sticky Fingers": "https://cards.scryfall.io/normal/front/3/6/3678fa3d-d41f-4b7a-b25e-6fc5f78876c7.jpg?1783923112",
+  "Stoneforge Mystic": "https://cards.scryfall.io/normal/front/4/d/4d3473d0-b46f-41f5-ac1e-ba217f7747d4.jpg?1783930209",
+  "Storm-Kiln Artist": "https://cards.scryfall.io/normal/front/d/a/da7ae8e0-cb6b-4386-8a30-9527d1af9be5.jpg?1783903773",
+  "Stormcarved Coast": "https://cards.scryfall.io/normal/front/b/d/bd3ae4fa-4c97-410a-8c0a-bd203342595d.jpg?1783903618",
+  "Stormcatch Mentor": "https://cards.scryfall.io/normal/front/f/1/f1bbb5ad-a293-48f3-a3d0-7ac85a7b8467.jpg?1783903745",
+  "Stubborn Denial": "https://cards.scryfall.io/normal/front/6/f/6f8626c4-306f-4e9d-8840-2bb73fe87e87.jpg?1783939084",
+  "Sulfur Falls": "https://cards.scryfall.io/normal/front/c/7/c762f475-7e58-4477-839b-b3c55434b88f.jpg?1783903193",
+  "Sunbaked Canyon": "https://cards.scryfall.io/normal/front/c/3/c36820fa-ee86-4206-9a0d-737a67cf5208.jpg?1783933065",
+  "Sundown Pass": "https://cards.scryfall.io/normal/front/b/3/b34000e9-ff20-4fb4-9d0b-03a172a92457.jpg?1783903618",
+  "Sunforger": "https://cards.scryfall.io/normal/front/d/d/dd3e42ee-ab13-460b-90fd-86e677abce4f.jpg?1783928686",
+  "Swan Song": "https://cards.scryfall.io/normal/front/8/3/83d0b761-d694-4232-9f40-5bd8c82a05f1.jpg?1783906053",
+  "Swiftfoot Boots": "https://cards.scryfall.io/normal/front/0/3/03f7e9fc-8e59-45c1-90fc-1d04d929b292.jpg?1785759388",
+  "Swiftwater Cliffs": "https://cards.scryfall.io/normal/front/c/a/ca53fb19-b8ca-485b-af1a-5117ae54bfe3.jpg?1783907271",
+  "Sword of the Animist": "https://cards.scryfall.io/normal/front/6/4/64401acc-d080-4763-b67a-95164c11c69e.jpg?1783915589",
+  "Swords to Plowshares": "https://cards.scryfall.io/normal/front/b/4/b4e9c870-23c0-413a-ae39-265f09da16d1.jpg?1783903243",
+  "Taigam's Strike": "https://cards.scryfall.io/normal/front/2/e/2ef5e279-14c4-4f91-b24d-c7098140efcd.jpg?1783938602",
+  "Taigam, Ojutai Master": "https://cards.scryfall.io/normal/front/b/4/b47e2781-544f-442c-98d0-43b9d91bab03.jpg?1783935935",
+  "Talisman of Conviction": "https://cards.scryfall.io/normal/front/a/3/a365885c-f7d9-4ea1-9125-5265055e5570.jpg?1783903211",
+  "Talisman of Creativity": "https://cards.scryfall.io/normal/front/3/e/3ed13229-bbbb-41a7-933e-8975a6b64226.jpg?1783903211",
+  "Talisman of Progress": "https://cards.scryfall.io/normal/front/b/3/b356ee36-1c62-4097-87d7-fef6a6dad067.jpg?1783903217",
+  "Talrand, Sky Summoner": "https://cards.scryfall.io/normal/front/1/b/1be3ed47-072e-481a-b3d9-dc232ac4b24f.jpg?1783911937",
+  "Taste for Mayhem": "https://cards.scryfall.io/normal/front/e/3/e3426d58-ff4d-482d-bc78-99b67c55c6d1.jpg?1783913308",
+  "Teleportal": "https://cards.scryfall.io/normal/front/b/8/b8322a64-f1a0-49c6-ad59-2b803598f7d1.jpg?1783936607",
+  "Temple of Enlightenment": "https://cards.scryfall.io/normal/front/d/d/dd139d4d-3a40-4015-93de-c838c64156c6.jpg?1783906003",
+  "Temple of Epiphany": "https://cards.scryfall.io/normal/front/c/c/cc63cd97-de9e-4d31-babb-aaad1277169e.jpg?1783903716",
+  "Temple of Triumph": "https://cards.scryfall.io/normal/front/d/0/d0e763f7-25b8-444f-8722-614297d0663f.jpg?1783903716",
+  "Temur Battle Rage": "https://cards.scryfall.io/normal/front/3/7/375bc646-942e-4bf5-9c71-2c5471828e35.jpg?1783915640",
+  "Terramorphic Expanse": "https://cards.scryfall.io/normal/front/a/8/a81f924b-0527-4311-8120-9bfff71524f6.jpg?1783903191",
+  "Third Path Iconoclast": "https://cards.scryfall.io/normal/front/c/a/ca29f373-7051-4cbe-bda8-e711fda4f9bb.jpg?1783907016",
+  "Thought Vessel": "https://cards.scryfall.io/normal/front/a/d/ad077996-6b5e-4eb8-bb6e-93d43c5efa8f.jpg?1785759392",
+  "Thran Power Suit": "https://cards.scryfall.io/normal/front/1/7/17bfb8c5-9105-41e4-a58f-9c9eee32b18a.jpg?1783920012",
+  "Time Wipe": "https://cards.scryfall.io/normal/front/e/b/eb4b75e6-3080-412b-bf40-b6029ea8bbfe.jpg?1783907017",
+  "Titan's Strength": "https://cards.scryfall.io/normal/front/3/0/30f1bfbe-7cfd-4b11-be95-0df327a83c12.jpg?1783921878",
+  "Tragic Arrogance": "https://cards.scryfall.io/normal/front/9/5/956d4728-e7a3-43f4-a350-86eca1b95d06.jpg?1783903243",
+  "Trailblazer's Boots": "https://cards.scryfall.io/normal/front/a/a/aa05985b-e2cb-412f-a2ad-b8d723d9f451.jpg?1783911885",
+  "Training Center": "https://cards.scryfall.io/normal/front/7/8/78a39d22-5e3b-4ba0-b728-dbf16b61fc8f.jpg?1783915582",
+  "Treasure Cruise": "https://cards.scryfall.io/normal/front/4/2/42c45880-15c7-4259-8066-c04d031d8216.jpg?1783903788",
+  "Turn Aside": "https://cards.scryfall.io/normal/front/3/b/3b7573c2-484c-4b4e-9c26-0f005bd1daee.jpg?1783937490",
+  "Two-Handed Axe // Sweeping Cleave": "https://cards.scryfall.io/normal/front/2/1/21e34888-f57c-4f5d-bb5c-b82be980d145.jpg?1783922727",
+  "Umezawa's Jitte": "https://cards.scryfall.io/normal/front/3/b/3b6e5956-f795-451b-bb24-56462d1ced27.jpg?1783944176",
+  "Unleash Fury": "https://cards.scryfall.io/normal/front/e/8/e854e6a3-8684-43fa-9560-ef4c3b62c935.jpg?1783930681",
+  "Unstable Mutation": "https://cards.scryfall.io/normal/front/d/a/da66b93a-11a6-4861-a775-d309b7adc461.jpg?1783933831",
+  "Valorous Stance": "https://cards.scryfall.io/normal/front/f/7/f726d332-6961-403d-83f8-25c997f4dffc.jpg?1783903241",
+  "Vandalblast": "https://cards.scryfall.io/normal/front/7/1/71067239-d46f-4201-a91c-6aa4c41fa8b1.jpg?1783903232",
+  "Veyran, Voice of Duality": "https://cards.scryfall.io/normal/front/1/c/1cb06c70-7ff2-4c88-9931-1bfe8a3226d9.jpg?1783903742",
+  "Void Snare": "https://cards.scryfall.io/normal/front/9/4/94efe426-0fb2-4a24-9b50-914e48105b57.jpg?1783939187",
+  "Wayfarer's Bauble": "https://cards.scryfall.io/normal/front/b/2/b279f268-c37e-4a2d-8195-74f4881226fc.jpg?1785497631",
+  "Whirlwind of Thought": "https://cards.scryfall.io/normal/front/a/3/a3069683-0ff5-49e5-b7ae-f5bd40a4a32f.jpg?1783903222",
+  "Windfall": "https://cards.scryfall.io/normal/front/9/c/9ce7113b-08f7-4584-b65f-a7b5caa90c2f.jpg?1783911933",
+  "Winged Boots": "https://cards.scryfall.io/normal/front/1/1/116361c4-fddd-440a-ad02-8d71df733231.jpg?1783911933",
+  "Young Pyromancer": "https://cards.scryfall.io/normal/front/c/0/c0d74ecd-a595-4012-81b4-083264b40c94.jpg?1783907139",
+  "Zada, Hedron Grinder": "https://cards.scryfall.io/normal/front/4/5/4520cdcc-a10f-4b39-9c6f-ba86f6aa2c87.jpg?1783915638",
+  "Birgi, God of Storytelling": "https://cards.scryfall.io/normal/front/4/4/44657ab1-0a6a-4a5f-9688-86f239083821.jpg?1783928241",
+  "Khenra Spellspear": "https://cards.scryfall.io/normal/front/d/c/dc1454ce-bb49-4b4f-bbca-d77387fa4966.jpg?1783916992",
+  "Legion Leadership": "https://cards.scryfall.io/normal/front/7/6/7676abd9-0a3d-4721-b17b-778d2e3c2e25.jpg?1783911225",
+  "Pinnacle Monk": "https://cards.scryfall.io/normal/front/2/4/24d4f26e-7f96-4b38-867e-4fac819b2679.jpg?1783911228",
+  "Sejiri Shelter": "https://cards.scryfall.io/normal/front/f/2/f25d56f9-aa54-4657-9ac9-e93fbba3e715.jpg?1783929413",
+  "Two-Handed Axe": "https://cards.scryfall.io/normal/front/2/1/21e34888-f57c-4f5d-bb5c-b82be980d145.jpg?1783922727",
+  "Wear // Tear": "https://cards.scryfall.io/normal/front/e/0/e01cc65a-0e38-4f41-b9ed-796ef0355d0b.jpg?1783917123",
+  "Shu Yun, the Silent Tempest": "https://cards.scryfall.io/normal/front/b/d/bd79e83a-a34b-472c-9317-12af4ed2ca28.jpg?1783938703",
+  "Invasion of Segovia // Caetus, Sea Tyrant of Segovia": "https://cards.scryfall.io/normal/front/9/d/9df3e743-7bb8-482a-afd1-4d51119d416c.jpg?1783917037",
+  "Retraction Helix": "https://cards.scryfall.io/normal/front/7/a/7aa3fdd0-34d8-47b3-9753-d2929838732e.jpg?1783935172",
+  "Underworld Breach": "https://cards.scryfall.io/normal/front/0/e/0e51d796-7279-4c06-87f0-37adbdaa41df.jpg?1783931543"
+ },
+ "oracle": {
+  "Academy Ruins": "{T}: Add {C}.\n{1}{U}, {T}: Put target artifact card from your graveyard on top of your library.",
+  "Access Tunnel": "{T}: Add {C}.\n{3}, {T}: Target creature with power 3 or less can't be blocked this turn.",
+  "Adarkar Wastes": "{T}: Add {C}.\n{T}: Add {W} or {U}. This land deals 1 damage to you.",
+  "Aether Tunnel": "Enchant creature\nEnchanted creature gets +1/+0 and can't be blocked.",
+  "Ajani's Presence": "Strive — This spell costs {2}{W} more to cast for each target beyond the first.\nAny number of target creatures each get +1/+1 and gain indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy them.)",
+  "All That Glitters": "Enchant creature\nEnchanted creature gets +1/+1 for each artifact and/or enchantment you control.",
+  "An Offer You Can't Refuse": "Counter target noncreature spell. Its controller creates two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+  "Ancestral Anger": "Target creature gains trample and gets +X/+0 until end of turn, where X is 1 plus the number of cards named Ancestral Anger in your graveyard.\nDraw a card.",
+  "Angelfire Ignition": "Put two +1/+1 counters on target creature. It gains vigilance, trample, lifelink, indestructible, and haste until end of turn.\nFlashback {2}{R}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+  "Apostle's Blessing": "({W/P} can be paid with either {W} or 2 life.)\nTarget artifact or creature you control gains protection from artifacts or from the color of your choice until end of turn.",
+  "Aqueous Form": "Enchant creature\nEnchanted creature can't be blocked.\nWhenever enchanted creature attacks, scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+  "Arcane Denial": "Counter target spell. Its controller may draw up to two cards at the beginning of the next turn's upkeep.\nYou draw a card at the beginning of the next turn's upkeep.",
+  "Arcane Signet": "{T}: Add one mana of any color in your commander's color identity.",
+  "Archmage Emeritus": "Magecraft — Whenever you cast or copy an instant or sorcery spell, draw a card.",
+  "Archmage of Runes": "Instant and sorcery spells you cast cost {1} less to cast.\nWhenever you cast an instant or sorcery spell, draw a card.",
+  "Arena of Glory": "This land enters tapped unless you control a Mountain.\n{T}: Add {R}.\n{R}, {T}, Exert this land: Add {R}{R}. If that mana is spent on a creature spell, it gains haste until end of turn. (An exerted permanent won't untap during your next untap step.)",
+  "Arid Mesa": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle.",
+  "Artful Dodge": "Target creature can't be blocked this turn.\nFlashback {U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+  "Artful Maneuver": "Target creature gets +2/+2 until end of turn.\nRebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
+  "Axgard Armory": "This land enters tapped.\n{T}: Add {W}.\n{1}{R}{R}{W}, {T}, Sacrifice this land: Search your library for an Aura card and/or an Equipment card, reveal them, put them into your hand, then shuffle.",
+  "Azorius Chancery": "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {W}{U}.",
+  "Azorius Signet": "{1}, {T}: Add {W}{U}.",
+  "Balmor, Battlemage Captain": "Flying\nWhenever you cast an instant or sorcery spell, creatures you control get +1/+0 and gain trample until end of turn.",
+  "Bastion Protector": "Commander creatures you control get +2/+2 and have indestructible.",
+  "Battlefield Forge": "{T}: Add {C}.\n{T}: Add {R} or {W}. This land deals 1 damage to you.",
+  "Beamtown Beatstick": "Equipped creature gets +1/+0 and has menace. (It can't be blocked except by two or more creatures.)\nWhenever equipped creature deals combat damage to a player or battle, create a Treasure token.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Bender's Waterskin": "Untap this artifact during each other player's untap step.\n{T}: Add one mana of any color.",
+  "Birgi, God of Storytelling // Harnfel, Horn of Bounty": "Whenever you cast a spell, add {R}. Until end of turn, you don't lose this mana as steps and phases end.\nCreatures you control can boast twice during each of your turns rather than once. // Discard a card: Exile the top two cards of your library. You may play those cards this turn.",
+  "Blackblade Reforged": "Equipped creature gets +1/+1 for each land you control.\nEquip legendary creature {3}\nEquip {7}",
+  "Blasphemous Act": "This spell costs {1} less to cast for each creature on the battlefield.\nBlasphemous Act deals 13 damage to each creature.",
+  "Blazing Crescendo": "Target creature gets +3/+1 until end of turn.\nExile the top card of your library. Until the end of your next turn, you may play that card.",
+  "Boros Charm": "Choose one —\n• Boros Charm deals 4 damage to target player or planeswalker.\n• Permanents you control gain indestructible until end of turn.\n• Target creature gains double strike until end of turn.",
+  "Boros Garrison": "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {R}{W}.",
+  "Boros Signet": "{1}, {T}: Add {R}{W}.",
+  "Borrowed Hostility": "Escalate {3} (Pay this cost for each mode chosen beyond the first.)\nChoose one or both —\n• Target creature gets +3/+0 until end of turn.\n• Target creature gains first strike until end of turn.",
+  "Brainstorm": "Draw three cards, then put two cards from your hand on top of your library in any order.",
+  "Brotherhood Regalia": "Equipped creature has ward {2}, is an Assassin in addition to its other types, and can't be blocked.\nEquip legendary creature {1}\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Brute Force": "Target creature gets +3/+3 until end of turn.",
+  "Brute Strength": "Target creature gets +3/+1 and gains trample until end of turn. (It can deal excess combat damage to the player or planeswalker it's attacking.)",
+  "Built to Smash": "Target attacking creature gets +3/+3 until end of turn. If it's an artifact creature, it gains trample until end of turn.",
+  "Bulk Up": "Double target creature's power until end of turn.\nFlashback {4}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+  "Cartouche of Knowledge": "Enchant creature you control\nWhen this Aura enters, draw a card.\nEnchanted creature gets +1/+1 and has flying.",
+  "Cascade Bluffs": "{T}: Add {C}.\n{U/R}, {T}: Add {U}{U}, {U}{R}, or {R}{R}.",
+  "Center Soul": "Target creature you control gains protection from the color of your choice until end of turn.\nRebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
+  "Chromatic Lantern": "Lands you control have \"{T}: Add one mana of any color.\"\n{T}: Add one mana of any color.",
+  "City of Brass": "Whenever this land becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
+  "Clifftop Retreat": "This land enters tapped unless you control a Mountain or a Plains.\n{T}: Add {R} or {W}.",
+  "Cloak of Feathers": "Target creature gains flying until end of turn.\nDraw a card.",
+  "Combat Research": "Enchant creature\nEnchanted creature has \"Whenever this creature deals combat damage to a player, draw a card.\"\nAs long as enchanted creature is legendary, it gets +1/+1 and has ward {1}. (Whenever enchanted creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)",
+  "Command Tower": "{T}: Add one mana of any color in your commander's color identity.",
+  "Commander's Sphere": "{T}: Add one mana of any color in your commander's color identity.\nSacrifice this artifact: Draw a card.",
+  "Consider": "Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\nDraw a card.",
+  "Consuming Fervor": "Enchant creature\nEnchanted creature gets +3/+3 and has \"At the beginning of your upkeep, put a -1/-1 counter on this creature.\"",
+  "Consuming Tide": "Each player chooses a nonland permanent they control. Return all nonland permanents not chosen this way to their owners' hands. Then you draw a card for each opponent who has more cards in their hand than you.",
+  "Cori Mountain Monastery": "This land enters tapped unless you control a Plains or an Island.\n{T}: Add {R}.\n{3}{R}, {T}: Exile the top card of your library. Until the end of your next turn, you may play that card.",
+  "Cori-Steel Cutter": "Equipped creature gets +1/+1 and has trample and haste.\nFlurry — Whenever you cast your second spell each turn, create a 1/1 white Monk creature token with prowess. You may attach this Equipment to it. (Whenever you cast a noncreature spell, the token gets +1/+1 until end of turn.)\nEquip {1}{R}",
+  "Counterspell": "Counter target spell.",
+  "Crash Through": "Creatures you control gain trample until end of turn. (Each of those creatures can deal excess combat damage to the player or planeswalker it's attacking.)\nDraw a card.",
+  "Crimson Wisps": "Target creature becomes red and gains haste until end of turn. (It can attack and {T} this turn.)\nDraw a card.",
+  "Curiosity": "Enchant creature\nWhenever enchanted creature deals damage to an opponent, you may draw a card.",
+  "Curious Obsession": "Enchant creature\nEnchanted creature gets +1/+1 and has \"Whenever this creature deals combat damage to a player, you may draw a card.\"\nAt the beginning of your end step, if you didn't attack with a creature this turn, sacrifice this Aura.",
+  "Defiant Strike": "Target creature gets +1/+0 until end of turn.\nDraw a card.",
+  "Deflecting Palm": "The next time a source of your choice would deal damage to you this turn, prevent that damage. If damage is prevented this way, Deflecting Palm deals that much damage to that source's controller.",
+  "Defy Gravity": "Target creature gains flying until end of turn.\nFlashback {U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+  "Deserted Beach": "This land enters tapped unless you control two or more other lands.\n{T}: Add {W} or {U}.",
+  "Dig Through Time": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nLook at the top seven cards of your library. Put two of them into your hand and the rest on the bottom of your library in any order.",
+  "Distortion Strike": "Target creature gets +1/+0 until end of turn and can't be blocked this turn.\nRebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
+  "Divine Reckoning": "Each player chooses a creature they control. Destroy the rest.\nFlashback {5}{W}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+  "Dovin's Veto": "This spell can't be countered.\nCounter target noncreature spell.",
+  "Dragon Mantle": "Enchant creature\nWhen this Aura enters, draw a card.\nEnchanted creature has \"{R}: This creature gets +1/+0 until end of turn.\"",
+  "Dreadhorde Arcanist": "Trample\nWhenever this creature attacks, you may cast target instant or sorcery card with mana value less than or equal to this creature's power from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.",
+  "Dreadmaw's Ire": "Until end of turn, target attacking creature gets +2/+2 and gains trample and \"Whenever this creature deals combat damage to a player, destroy target artifact that player controls.\"",
+  "Dust Corona": "Enchant creature\nEnchanted creature gets +2/+0 and can't be blocked by creatures with flying.",
+  "Eel Umbra": "Flash (You may cast this spell any time you could cast an instant.)\nEnchant creature\nEnchanted creature gets +1/+1.\nUmbra armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)",
+  "Eiganjo, Seat of the Empire": "{T}: Add {W}.\nChannel — {2}{W}, Discard this card: It deals 4 damage to target attacking or blocking creature. This ability costs {1} less to activate for each legendary creature you control.",
+  "Elsha of the Infinite": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nYou may look at the top card of your library any time.\nYou may cast noncreature spells from the top of your library. If you cast a spell this way, you may cast it as though it had flash.",
+  "Elsha, Threefold Master": "Trample\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhenever Elsha deals combat damage to a player, create that many 1/1 white Monk creature tokens with prowess.",
+  "Emerge Unscathed": "Target creature you control gains protection from the color of your choice until end of turn.\nRebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
+  "Enter the Enigma": "Target creature can't be blocked this turn.\nDraw a card.",
+  "Escape Velocity": "Enchant creature\nEnchanted creature gets +1/+0 and has haste.\nEscape—{1}{R}, Exile two other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+  "Esper Sentinel": "Whenever an opponent casts their first noncreature spell each turn, draw a card unless that player pays {X}, where X is this creature's power.",
+  "Evolving Wilds": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+  "Exotic Orchard": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+  "Expedite": "Target creature gains haste until end of turn.\nDraw a card.",
+  "Expressive Iteration": "Look at the top three cards of your library. Put one of them into your hand, put one of them on the bottom of your library, and exile one of them. You may play the exiled card this turn.",
+  "Faithless Looting": "Draw two cards, then discard two cards.\nFlashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+  "Feather, the Redeemed": "Flying\nWhenever you cast an instant or sorcery spell that targets a creature you control, exile that card instead of putting it into your graveyard as it resolves. If you do, return it to your hand at the beginning of the next end step.",
+  "Fellwar Stone": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+  "Fiery Islet": "{T}, Pay 1 life: Add {U} or {R}.\n{1}, {T}, Sacrifice this land: Draw a card.",
+  "Fists of Flame": "Draw a card. Until end of turn, target creature gains trample and gets +1/+0 for each card you've drawn this turn. (A creature with trample can deal excess combat damage to the player or planeswalker it's attacking.)",
+  "Flare of Faith": "Target creature gets +2/+2 until end of turn. If it's a Human, instead it gets +3/+3 and gains indestructible until end of turn.",
+  "Flawless Maneuver": "If you control a commander, you may cast this spell without paying its mana cost.\nCreatures you control gain indestructible until end of turn.",
+  "Flooded Strand": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle.",
+  "Fragmentize": "Destroy target artifact or enchantment with mana value 4 or less.",
+  "Frantic Search": "Draw two cards, then discard two cards. Untap up to three lands.",
+  "Frostboil Snarl": "As this land enters, you may reveal an Island or Mountain card from your hand. If you don't, this land enters tapped.\n{T}: Add {U} or {R}.",
+  "Furycalm Snarl": "As this land enters, you may reveal a Mountain or Plains card from your hand. If you don't, this land enters tapped.\n{T}: Add {R} or {W}.",
+  "Ghostly Prison": "Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.",
+  "Gitaxian Probe": "({U/P} can be paid with either {U} or 2 life.)\nLook at target player's hand.\nDraw a card.",
+  "Giver of Runes": "{T}: Another target creature you control gains protection from colorless or from the color of your choice until end of turn.",
+  "Glacial Fortress": "This land enters tapped unless you control a Plains or an Island.\n{T}: Add {W} or {U}.",
+  "Glamdring": "Equipped creature has first strike and gets +1/+0 for each instant and sorcery card in your graveyard.\nWhenever equipped creature deals combat damage to a player, you may cast an instant or sorcery spell from your hand with mana value less than or equal to that damage without paying its mana cost.\nEquip {3}",
+  "Goblin Electromancer": "Instant and sorcery spells you cast cost {1} less to cast.",
+  "Gods Willing": "Target creature you control gains protection from the color of your choice until end of turn. (It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that color.)\nScry 1.",
+  "Graduation Day": "Repartee — Whenever you cast an instant or sorcery spell that targets a creature, put a +1/+1 counter on target creature you control.",
+  "Guttersnipe": "Whenever you cast an instant or sorcery spell, this creature deals 2 damage to each opponent.",
+  "Hallowed Fountain": "({T}: Add {W} or {U}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+  "Hammer of Nazahn": "Whenever Hammer of Nazahn or another Equipment you control enters, you may attach that Equipment to target creature you control.\nEquipped creature gets +2/+0 and has indestructible.\nEquip {4}",
+  "Hero's Blade": "Equipped creature gets +3/+2.\nWhenever a legendary creature you control enters, you may attach this Equipment to it.\nEquip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Hexing Squelcher": "This spell can't be countered.\nWard—Pay 2 life.\nSpells you control can't be countered.\nOther creatures you control have \"Ward—Pay 2 life.\"",
+  "Improvised Arsenal": "Equipped creature gets +1/+0 for each artifact you control.\n{4}{R}: Create a token that's a copy of this Equipment.\nEquip {R}",
+  "Infuriate": "Target creature gets +3/+2 until end of turn.",
+  "Inquisitor's Flail": "If equipped creature would deal combat damage, it deals double that damage instead.\nIf another creature would deal combat damage to equipped creature, it deals double that damage to equipped creature instead.\nEquip {2}",
+  "Intervene": "Counter target spell that targets a creature.",
+  "Invigorated Rampage": "Choose one —\n• Target creature gets +4/+0 and gains trample until end of turn.\n• Two target creatures each get +2/+0 and gain trample until end of turn.",
+  "Island": "({T}: Add {U}.)",
+  "Isochron Scepter": "Imprint — When this artifact enters, you may exile an instant card with mana value 2 or less from your hand.\n{2}, {T}: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.",
+  "Izzet Boilerworks": "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {U}{R}.",
+  "Izzet Signet": "{1}, {T}: Add {U}{R}.",
+  "Jeska, Thrice Reborn": "Jeska enters with a loyalty counter on her for each time you've cast a commander from the command zone this game.\n0: Choose target creature. Until your next turn, if that creature would deal combat damage to one of your opponents, it deals triple that damage to that player instead.\n−X: Jeska deals X damage to each of up to three targets.\nJeska, Thrice Reborn can be your commander.\nPartner",
+  "Jeskai Ascendancy": "Whenever you cast a noncreature spell, creatures you control get +1/+1 until end of turn. Untap those creatures.\nWhenever you cast a noncreature spell, you may draw a card. If you do, discard a card.",
+  "Jeskai Banner": "{T}: Add {U}, {R}, or {W}.\n{U}{R}{W}, {T}, Sacrifice this artifact: Draw a card.",
+  "Jori En, Ruin Diver": "Whenever you cast your second spell each turn, draw a card.",
+  "Kediss, Emberclaw Familiar": "Whenever a commander you control deals combat damage to an opponent, it deals that much damage to each other opponent.\nPartner (You can have two commanders if both have partner.)",
+  "Key to the City": "{T}, Discard a card: Up to one target creature can't be blocked this turn.\nWhenever this artifact becomes untapped, you may pay {2}. If you do, draw a card.",
+  "Khenra Spellspear // Gitaxian Spellstalker": "Trample\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\n{3}{U/P}: Transform this creature. Activate only as a sorcery. ({U/P} can be paid with either {U} or 2 life.) // Trample, ward {2}, prowess, prowess (Each instance of prowess triggers separately.)",
+  "Kykar, Wind's Fury": "Flying\nWhenever you cast a noncreature spell, create a 1/1 white Spirit creature token with flying.\nSacrifice a Spirit: Add {R}.",
+  "Lavaspur Boots": "Equipped creature gets +1/+0 and has haste and ward {1}. (Whenever it becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)\nEquip {1}",
+  "Leap": "Target creature gains flying until end of turn.\nDraw a card.",
+  "Leering Emblem": "Whenever you cast a spell, equipped creature gets +2/+2 until end of turn.\nEquip {2}",
+  "Legion Leadership // Legion Stronghold": "Until end of turn, double target creature's power and it gains first strike. // This land enters tapped.\n{T}: Add {R} or {W}.",
+  "Leonin Lightscribe": "Magecraft — Whenever you cast or copy an instant or sorcery spell, creatures you control get +1/+1 until end of turn.",
+  "Leyline of Resonance": "If this card is in your opening hand, you may begin the game with it on the battlefield.\nWhenever you cast an instant or sorcery spell that targets only a single creature you control, copy that spell. You may choose new targets for the copy.",
+  "Lightning Greaves": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)\nEquip {0}",
+  "Lion Sash": "{W}: Exile target card from a graveyard. If it was a permanent card, put a +1/+1 counter on this permanent.\nEquipped creature gets +1/+1 for each +1/+1 counter on this Equipment.\nReconfigure {2} ({2}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)",
+  "Loran's Escape": "Target artifact or creature gains hexproof and indestructible until end of turn. Scry 1.",
+  "Lyse Hext": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nNoncreature spells you cast cost {1} less to cast.\nAs long as you've cast two or more noncreature spells this turn, Lyse Hext has double strike.",
+  "Madcap Skills": "Enchant creature\nEnchanted creature gets +3/+0 and has menace.",
+  "Mark of Fury": "Enchant creature\nEnchanted creature has haste.\nAt the beginning of the end step, return this Aura to its owner's hand.",
+  "Mask of Memory": "Whenever equipped creature deals combat damage to a player, you may draw two cards. If you do, discard a card.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Mavinda, Students' Advocate": "Flying\n{0}: You may cast target instant or sorcery card from your graveyard this turn. If that spell doesn't target a creature you control, it costs {8} more to cast this way. If that spell would be put into your graveyard, exile it instead. Activate only once each turn. (You still pay the spell's costs. Timing rules for the spell still apply.)",
+  "Maximize Velocity": "Target creature gets +1/+1 and gains haste until end of turn.\nJump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)",
+  "Mind Stone": "{T}: Add {C}.\n{1}, {T}, Sacrifice this artifact: Draw a card.",
+  "Mistfire Adept": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhenever you cast a noncreature spell, target creature gains flying until end of turn.",
+  "Mistrise Village": "This land enters tapped unless you control a Mountain or a Forest.\n{T}: Add {U}.\n{U}, {T}: The next spell you cast this turn can't be countered.",
+  "Monastery Mentor": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhenever you cast a noncreature spell, create a 1/1 white Monk creature token with prowess.",
+  "Monastery Swiftspear": "Haste\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
+  "Monk Class": "(Gain the next level as a sorcery to add its ability.)\nThe second spell you cast each turn costs {1} less to cast.\n{W}{U}: Level 2\nWhen this Class becomes level 2, return up to one target nonland permanent to its owner's hand.\n{1}{W}{U}: Level 3\nAt the beginning of your upkeep, exile the top card of your library. For as long as it remains exiled, it has \"You may cast this card from exile as long as you've cast another spell this turn.\"",
+  "Monstrous Rage": "Target creature gets +2/+0 until end of turn. Create a Monster Role token attached to it. (If you control another Role on it, put that one into the graveyard. Enchanted creature gets +1/+1 and has trample.)",
+  "Mother of Runes": "{T}: Target creature you control gains protection from the color of your choice until end of turn.",
+  "Mountain": "({T}: Add {R}.)",
+  "Murmuring Mystic": "Whenever you cast an instant or sorcery spell, create a 1/1 blue Bird Illusion creature token with flying.",
+  "Mystic Gate": "{T}: Add {C}.\n{W/U}, {T}: Add {W}{W}, {W}{U}, or {U}{U}.",
+  "Mystic Monastery": "This land enters tapped.\n{T}: Add {U}, {R}, or {W}.",
+  "Mystic Remora": "Cumulative upkeep {1} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)\nWhenever an opponent casts a noncreature spell, you may draw a card unless that player pays {4}.",
+  "Mystic Sanctuary": "({T}: Add {U}.)\nThis land enters tapped unless you control three or more other Islands.\nWhen this land enters untapped, you may put target instant or sorcery card from your graveyard on top of your library.",
+  "Myth Realized": "Whenever you cast a noncreature spell, put a lore counter on this enchantment.\n{2}{W}: Put a lore counter on this enchantment.\n{W}: Until end of turn, this enchantment becomes a Monk Avatar creature in addition to its other types and gains \"This creature's power and toughness are each equal to the number of lore counters on it.\"",
+  "Narset of the Ancient Way": "+1: You gain 2 life. Add {U}, {R}, or {W}. Spend this mana only to cast a noncreature spell.\n−2: Draw a card, then you may discard a card. When you discard a nonland card this way, Narset deals damage equal to that card's mana value to target creature or planeswalker.\n−6: You get an emblem with \"Whenever you cast a noncreature spell, this emblem deals 2 damage to any target.\"",
+  "Narset, Enlightened Exile": "Creatures you control have prowess.\nWhenever Narset attacks, exile target noncreature, nonland card with mana value less than Narset's power from a graveyard and copy it. You may cast the copy without paying its mana cost.",
+  "Negate": "Counter target noncreature spell.",
+  "Niblis of Frost": "Flying\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhenever you cast an instant or sorcery spell, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.",
+  "Niv-Mizzet, Parun": "This spell can't be countered.\nFlying\nWhenever you draw a card, Niv-Mizzet deals 1 damage to any target.\nWhenever a player casts an instant or sorcery spell, you draw a card.",
+  "O-Naginata": "This Equipment can be attached only to a creature with power 3 or greater.\nEquipped creature gets +3/+0 and has trample.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Opal Palace": "{T}: Add {C}.\n{1}, {T}: Add one mana of any color in your commander's color identity. If you spend this mana to cast your commander, it enters with a number of additional +1/+1 counters on it equal to the number of times it's been cast from the command zone this game.",
+  "Open the Armory": "Search your library for an Aura or Equipment card, reveal it, put it into your hand, then shuffle.",
+  "Opt": "Scry 1. (Look at the top card of your library. You may put that card on the bottom.)\nDraw a card.",
+  "Otawara, Soaring City": "{T}: Add {U}.\nChannel — {3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control.",
+  "Past in Flames": "Each instant and sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost.\nFlashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+  "Path to Exile": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+  "Perilous Landscape": "{T}: Add {C}.\n{T}, Sacrifice this land: Search your library for a basic Island, Mountain, or Plains card, put it onto the battlefield tapped, then shuffle.\nCycling {U}{R}{W} ({U}{R}{W}, Discard this card: Draw a card.)",
+  "Pinnacle Monk // Mystic Peak": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhen this creature enters, return target instant or sorcery card from your graveyard to your hand. // As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {R}.",
+  "Pippin, Guard of the Citadel": "Vigilance, ward {1}\n{T}: Another target creature you control gains protection from the card type of your choice until end of turn. (It can't be blocked, targeted, dealt damage, enchanted, or equipped by anything of that type.)",
+  "Plains": "({T}: Add {W}.)",
+  "Ponder": "Look at the top three cards of your library, then put them back in any order. You may shuffle.\nDraw a card.",
+  "Port Town": "As this land enters, you may reveal a Plains or Island card from your hand. If you don't, this land enters tapped.\n{T}: Add {W} or {U}.",
+  "Prairie Stream": "({T}: Add {W} or {U}.)\nThis land enters tapped unless you control two or more basic lands.",
+  "Preordain": "Scry 2, then draw a card. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)",
+  "Propaganda": "Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.",
+  "Raugrin Crystal": "{T}: Add {U}, {R}, or {W}.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+  "Raugrin Triome": "({T}: Add {U}, {R}, or {W}.)\nThis land enters tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+  "Raze the Effigy": "Choose one —\n• Destroy target artifact.\n• Target attacking creature gets +2/+2 until end of turn.",
+  "Rebellious Strike": "Target creature gets +3/+0 until end of turn.\nDraw a card.",
+  "Reckless Charge": "Target creature gets +3/+0 and gains haste until end of turn.\nFlashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+  "Rediscover the Way": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II — Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.\nIII — Whenever you cast a noncreature spell this turn, target creature you control gains double strike until end of turn.",
+  "Relentless Assault": "Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase.",
+  "Reliquary Tower": "You have no maximum hand size.\n{T}: Add {C}.",
+  "Renegade Tactics": "Target creature can't block this turn.\nDraw a card.",
+  "Rip Apart": "Choose one —\n• Rip Apart deals 3 damage to target creature or planeswalker.\n• Destroy target artifact or enchantment.",
+  "Rogue's Passage": "{T}: Add {C}.\n{4}, {T}: Target creature can't be blocked this turn.",
+  "Rugged Prairie": "{T}: Add {C}.\n{R/W}, {T}: Add {R}{R}, {R}{W}, or {W}{W}.",
+  "Run Amok": "Target attacking creature gets +3/+3 and gains trample until end of turn.",
+  "Runechanter's Pike": "Equipped creature has first strike and gets +X/+0, where X is the number of instant and sorcery cards in your graveyard.\nEquip {2}",
+  "Rush of Adrenaline": "Target creature gets +2/+1 and gains trample until end of turn.",
+  "Sacred Foundry": "({T}: Add {R} or {W}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+  "Saheeli, Sublime Artificer": "Whenever you cast a noncreature spell, create a 1/1 colorless Servo artifact creature token.\n−2: Target artifact you control becomes a copy of another target artifact or creature you control until end of turn, except it's an artifact in addition to its other types.",
+  "Samut's Sprint": "Target creature gets +2/+1 and gains haste until end of turn. Scry 1.",
+  "Scalding Tarn": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.",
+  "Scroll of the Masters": "Whenever you cast a noncreature spell, put a lore counter on this artifact.\n{3}, {T}: Target creature you control gets +1/+1 until end of turn for each lore counter on this artifact.",
+  "Sea of Clouds": "This land enters tapped unless you have two or more opponents.\n{T}: Add {W} or {U}.",
+  "Security Bypass": "Enchant creature\nAs long as enchanted creature is attacking alone, it can't be blocked.\nEnchanted creature has \"Whenever this creature deals combat damage to a player, it connives.\" (Its controller draws a card, then discards a card. If they discarded a nonland card, they put a +1/+1 counter on this creature.)",
+  "Seeker of the Way": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhenever you cast a noncreature spell, this creature gains lifelink until end of turn.",
+  "Seething Anger": "Buyback {3} (You may pay an additional {3} as you cast this spell. If you do, put this card into your hand as it resolves.)\nTarget creature gets +3/+0 until end of turn.",
+  "Seize the Day": "Untap target creature. After this main phase, there is an additional combat phase followed by an additional main phase.\nFlashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+  "Sejiri Shelter // Sejiri Glacier": "Target creature you control gains protection from the color of your choice until end of turn. // This land enters tapped.\n{T}: Add {W}.",
+  "Sensei's Divining Top": "{1}: Look at the top three cards of your library, then put them back in any order.\n{T}: Draw a card, then put this artifact on top of its owner's library.",
+  "Sentinel's Eyes": "Enchant creature\nEnchanted creature gets +1/+1 and has vigilance.\nEscape—{W}, Exile two other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)",
+  "Serum Visions": "Draw a card. Scry 2.",
+  "Shadow Rift": "Target creature gains shadow until end of turn. (It can block or be blocked by only creatures with shadow.)\nDraw a card.",
+  "Shadowspear": "Equipped creature gets +1/+1 and has trample and lifelink.\n{1}: Permanents your opponents control lose hexproof and indestructible until end of turn.\nEquip {2}",
+  "Shelter": "Target creature you control gains protection from the color of your choice until end of turn.\nDraw a card.",
+  "Sheltering Light": "Target creature gains indestructible until end of turn. Scry 1. (Damage and effects that say \"destroy\" don't destroy the creature.)",
+  "Shivan Reef": "{T}: Add {C}.\n{T}: Add {U} or {R}. This land deals 1 damage to you.",
+  "Shore Up": "Target creature you control gets +1/+1 and gains hexproof until end of turn. Untap it. (It can't be the target of spells or abilities your opponents control.)",
+  "Siege Smash": "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)\nChoose one —\n• Destroy target artifact.\n• Target creature gets +3/+2 and gains trample until end of turn.",
+  "Sigarda's Aid": "You may cast Aura and Equipment spells as though they had flash.\nWhenever an Equipment you control enters, you may attach it to target creature you control.",
+  "Single Combat": "Each player chooses a creature or planeswalker they control, then sacrifices the rest. Players can't cast creature or planeswalker spells until the end of your next turn.",
+  "Skycloud Expanse": "{1}, {T}: Add {W}{U}.",
+  "Slash the Ranks": "Destroy all creatures and planeswalkers except for commanders.",
+  "Slayers' Stronghold": "{T}: Add {C}.\n{R}{W}, {T}: Target creature gets +2/+0 and gains vigilance and haste until end of turn.",
+  "Slip Out the Back": "Put a +1/+1 counter on target creature. It phases out. (Treat it and anything attached to it as though they don't exist until its controller's next turn.)",
+  "Slip Through Space": "Devoid (This card has no color.)\nTarget creature can't be blocked this turn.\nDraw a card.",
+  "Sol Ring": "{T}: Add {C}{C}.",
+  "Spectator Seating": "This land enters tapped unless you have two or more opponents.\n{T}: Add {R} or {W}.",
+  "Spirit Mantle": "Enchant creature\nEnchanted creature gets +1/+1 and has protection from creatures.",
+  "Staggering Insight": "Enchant creature\nEnchanted creature gets +1/+1 and has lifelink and \"Whenever this creature deals combat damage to a player, draw a card.\"",
+  "Star Compass": "This artifact enters tapped.\n{T}: Add one mana of any color that a basic land you control could produce.",
+  "Steam Vents": "({T}: Add {U} or {R}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+  "Steel of the Godhead": "Enchant creature\nAs long as enchanted creature is white, it gets +1/+1 and has lifelink. (Damage dealt by the creature also causes its controller to gain that much life.)\nAs long as enchanted creature is blue, it gets +1/+1 and can't be blocked.",
+  "Steelshaper's Gift": "Search your library for an Equipment card, reveal that card, put it into your hand, then shuffle.",
+  "Sticky Fingers": "Enchant creature\nEnchanted creature has menace and \"Whenever this creature deals combat damage to a player, create a Treasure token.\" (It can't be blocked except by two or more creatures. The token is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nWhen enchanted creature dies, draw a card.",
+  "Stoneforge Mystic": "When this creature enters, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle.\n{1}{W}, {T}: You may put an Equipment card from your hand onto the battlefield.",
+  "Storm-Kiln Artist": "This creature gets +1/+0 for each artifact you control.\nMagecraft — Whenever you cast or copy an instant or sorcery spell, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+  "Stormcarved Coast": "This land enters tapped unless you control two or more other lands.\n{T}: Add {U} or {R}.",
+  "Stormcatch Mentor": "Haste\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nInstant and sorcery spells you cast cost {1} less to cast.",
+  "Stubborn Denial": "Counter target noncreature spell unless its controller pays {1}.\nFerocious — If you control a creature with power 4 or greater, counter that spell instead.",
+  "Sulfur Falls": "This land enters tapped unless you control an Island or a Mountain.\n{T}: Add {U} or {R}.",
+  "Sunbaked Canyon": "{T}, Pay 1 life: Add {R} or {W}.\n{1}, {T}, Sacrifice this land: Draw a card.",
+  "Sundown Pass": "This land enters tapped unless you control two or more other lands.\n{T}: Add {R} or {W}.",
+  "Sunforger": "Equipped creature gets +4/+0.\n{R}{W}, Unattach this Equipment: Search your library for a red or white instant card with mana value 4 or less and cast that card without paying its mana cost. Then shuffle.\nEquip {3}",
+  "Swan Song": "Counter target enchantment, instant, or sorcery spell. Its controller creates a 2/2 blue Bird creature token with flying.",
+  "Swiftfoot Boots": "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control.)\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Swiftwater Cliffs": "This land enters tapped.\nWhen this land enters, you gain 1 life.\n{T}: Add {U} or {R}.",
+  "Sword of the Animist": "Equipped creature gets +1/+1.\nWhenever equipped creature attacks, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\nEquip {2}",
+  "Swords to Plowshares": "Exile target creature. Its controller gains life equal to its power.",
+  "Taigam's Strike": "Target creature gets +2/+0 until end of turn and can't be blocked this turn.\nRebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
+  "Taigam, Ojutai Master": "Instant, sorcery, and Dragon spells you control can't be countered.\nWhenever you cast an instant or sorcery spell from your hand, if Taigam attacked this turn, that spell gains rebound. (Exile the spell as it resolves. At the beginning of your next upkeep, you may cast that card from exile without paying its mana cost.)",
+  "Talisman of Conviction": "{T}: Add {C}.\n{T}: Add {R} or {W}. This artifact deals 1 damage to you.",
+  "Talisman of Creativity": "{T}: Add {C}.\n{T}: Add {U} or {R}. This artifact deals 1 damage to you.",
+  "Talisman of Progress": "{T}: Add {C}.\n{T}: Add {W} or {U}. This artifact deals 1 damage to you.",
+  "Talrand, Sky Summoner": "Whenever you cast an instant or sorcery spell, create a 2/2 blue Drake creature token with flying.",
+  "Taste for Mayhem": "Enchant creature\nEnchanted creature gets +2/+0.\nHellbent — Enchanted creature gets an additional +2/+0 as long as you have no cards in hand.",
+  "Teleportal": "Target creature you control gets +1/+0 until end of turn and can't be blocked this turn.\nOverload {3}{U}{R} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
+  "Temple of Enlightenment": "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {W} or {U}.",
+  "Temple of Epiphany": "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {U} or {R}.",
+  "Temple of Triumph": "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {R} or {W}.",
+  "Temur Battle Rage": "Target creature gains double strike until end of turn.\nFerocious — That creature also gains trample until end of turn if you control a creature with power 4 or greater.",
+  "Terramorphic Expanse": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+  "Third Path Iconoclast": "Whenever you cast a noncreature spell, create a 1/1 colorless Soldier artifact creature token.",
+  "Thought Vessel": "You have no maximum hand size.\n{T}: Add {C}.",
+  "Thran Power Suit": "Equipped creature gets +1/+1 for each Aura and Equipment attached to it and has ward {2}. (Whenever equipped creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Time Wipe": "Return a creature you control to its owner's hand, then destroy all creatures.",
+  "Titan's Strength": "Target creature gets +3/+1 until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+  "Tragic Arrogance": "For each player, you choose from among the permanents that player controls an artifact, a creature, an enchantment, and a planeswalker. Then each player sacrifices all other nonland permanents they control.",
+  "Trailblazer's Boots": "Equipped creature has nonbasic landwalk. (It can't be blocked as long as defending player controls a nonbasic land.)\nEquip {2}",
+  "Training Center": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {R}.",
+  "Treasure Cruise": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nDraw three cards.",
+  "Turn Aside": "Counter target spell that targets a permanent you control.",
+  "Two-Handed Axe // Sweeping Cleave": "Whenever equipped creature attacks, double its power until end of turn.\nEquip {1}{R} // Target creature you control gains double strike until end of turn. (Then exile this card. You may cast the artifact later from exile.)",
+  "Umezawa's Jitte": "Whenever equipped creature deals combat damage, put two charge counters on Umezawa's Jitte.\nRemove a charge counter from Umezawa's Jitte: Choose one —\n• Equipped creature gets +2/+2 until end of turn.\n• Target creature gets -1/-1 until end of turn.\n• You gain 2 life.\nEquip {2}",
+  "Unleash Fury": "Double the power of target creature until end of turn.",
+  "Unstable Mutation": "Enchant creature\nEnchanted creature gets +3/+3.\nAt the beginning of the upkeep of enchanted creature's controller, put a -1/-1 counter on that creature.",
+  "Valorous Stance": "Choose one —\n• Target creature gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)\n• Destroy target creature with toughness 4 or greater.",
+  "Vandalblast": "Destroy target artifact you don't control.\nOverload {4}{R} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
+  "Veyran, Voice of Duality": "Magecraft — Whenever you cast or copy an instant or sorcery spell, Veyran gets +1/+1 until end of turn.\nIf you casting or copying an instant or sorcery spell causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+  "Void Snare": "Return target nonland permanent to its owner's hand.",
+  "Wayfarer's Bauble": "{2}, {T}, Sacrifice this artifact: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+  "Whirlwind of Thought": "Whenever you cast a noncreature spell, draw a card.",
+  "Windfall": "Each player discards their hand, then draws cards equal to the greatest number of cards a player discarded this way.",
+  "Winged Boots": "Equipped creature has flying and ward {4}. (Whenever equipped creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {4}.)\nEquip {1}",
+  "Young Pyromancer": "Whenever you cast an instant or sorcery spell, create a 1/1 red Elemental creature token.",
+  "Zada, Hedron Grinder": "Whenever you cast an instant or sorcery spell that targets only Zada, copy that spell for each other creature you control that the spell could target. Each copy targets a different one of those creatures.",
+  "Birgi, God of Storytelling": "Whenever you cast a spell, add {R}. Until end of turn, you don't lose this mana as steps and phases end.\nCreatures you control can boast twice during each of your turns rather than once. // Discard a card: Exile the top two cards of your library. You may play those cards this turn.",
+  "Khenra Spellspear": "Trample\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\n{3}{U/P}: Transform this creature. Activate only as a sorcery. ({U/P} can be paid with either {U} or 2 life.) // Trample, ward {2}, prowess, prowess (Each instance of prowess triggers separately.)",
+  "Legion Leadership": "Until end of turn, double target creature's power and it gains first strike. // This land enters tapped.\n{T}: Add {R} or {W}.",
+  "Pinnacle Monk": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhen this creature enters, return target instant or sorcery card from your graveyard to your hand. // As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {R}.",
+  "Sejiri Shelter": "Target creature you control gains protection from the color of your choice until end of turn. // This land enters tapped.\n{T}: Add {W}.",
+  "Two-Handed Axe": "Whenever equipped creature attacks, double its power until end of turn.\nEquip {1}{R} // Target creature you control gains double strike until end of turn. (Then exile this card. You may cast the artifact later from exile.)",
+  "Wear // Tear": "Destroy target artifact.\nFuse (You may cast one or both halves of this card from your hand.) // Destroy target enchantment.\nFuse (You may cast one or both halves of this card from your hand.)",
+  "Shu Yun, the Silent Tempest": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhenever you cast a noncreature spell, you may pay {R/W}{R/W}. If you do, target creature gains double strike until end of turn.",
+  "Invasion of Segovia // Caetus, Sea Tyrant of Segovia": "(As a Siege enters, choose an opponent to protect it. You and others can attack it. When it's defeated, exile it, then cast it transformed.)\nWhen this Siege enters, create two 1/1 blue Kraken creature tokens with trample. // Noncreature spells you cast have convoke. (Your creatures can help cast those spells. Each creature you tap while casting a noncreature spell pays for {1} or one mana of that creature's color.)\nAt the beginning of your end step, untap up to four target creatures.",
+  "Retraction Helix": "Until end of turn, target creature gains \"{T}: Return target nonland permanent to its owner's hand.\"",
+  "Underworld Breach": "Each nonland card in your graveyard has escape. The escape cost is equal to the card's mana cost plus exile three other cards from your graveyard. (You may cast cards from your graveyard for their escape cost.)\nAt the beginning of the end step, sacrifice this enchantment."
+ },
+ "card_meta": {
+  "Academy Ruins": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Access Tunnel": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Adarkar Wastes": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Aether Tunnel": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Ajani's Presence": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Strive"
+   ]
+  },
+  "All That Glitters": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "An Offer You Can't Refuse": {
+   "type_line": "Instant",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Treasure"
+   ]
+  },
+  "Ancestral Anger": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Angelfire Ignition": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Apostle's Blessing": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Aqueous Form": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant",
+    "Scry"
+   ]
+  },
+  "Arcane Denial": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Arcane Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Archmage Emeritus": {
+   "type_line": "Creature — Human Wizard",
+   "produced_mana": [],
+   "keywords": [
+    "Magecraft"
+   ]
+  },
+  "Archmage of Runes": {
+   "type_line": "Creature — Giant Wizard",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Arena of Glory": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": [
+    "Exert"
+   ]
+  },
+  "Arid Mesa": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Artful Dodge": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Artful Maneuver": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Rebound"
+   ]
+  },
+  "Axgard Armory": {
+   "type_line": "Land",
+   "produced_mana": [
+    "W"
+   ],
+   "keywords": []
+  },
+  "Azorius Chancery": {
+   "type_line": "Land",
+   "produced_mana": [
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Azorius Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Balmor, Battlemage Captain": {
+   "type_line": "Legendary Creature — Bird Wizard",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Bastion Protector": {
+   "type_line": "Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Battlefield Forge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Beamtown Beatstick": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Treasure",
+    "Equip"
+   ]
+  },
+  "Bender's Waterskin": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Birgi, God of Storytelling // Harnfel, Horn of Bounty": {
+   "type_line": "Legendary Creature — God // Legendary Artifact",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": []
+  },
+  "Blackblade Reforged": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Blasphemous Act": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Blazing Crescendo": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Boros Charm": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Boros Garrison": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Boros Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Borrowed Hostility": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Escalate"
+   ]
+  },
+  "Brainstorm": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Brotherhood Regalia": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Brute Force": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Brute Strength": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Built to Smash": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Bulk Up": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback",
+    "Double"
+   ]
+  },
+  "Cartouche of Knowledge": {
+   "type_line": "Enchantment — Aura Cartouche",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Cascade Bluffs": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Center Soul": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Rebound"
+   ]
+  },
+  "Chromatic Lantern": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "City of Brass": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Clifftop Retreat": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Cloak of Feathers": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Combat Research": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Command Tower": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Commander's Sphere": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Consider": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Surveil"
+   ]
+  },
+  "Consuming Fervor": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Consuming Tide": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cori Mountain Monastery": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": []
+  },
+  "Cori-Steel Cutter": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Flurry",
+    "Equip"
+   ]
+  },
+  "Counterspell": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Crash Through": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Crimson Wisps": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Curiosity": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Curious Obsession": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Defiant Strike": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Deflecting Palm": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Defy Gravity": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Deserted Beach": {
+   "type_line": "Land",
+   "produced_mana": [
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Dig Through Time": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Delve"
+   ]
+  },
+  "Distortion Strike": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Rebound"
+   ]
+  },
+  "Divine Reckoning": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Dovin's Veto": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Dragon Mantle": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Dreadhorde Arcanist": {
+   "type_line": "Creature — Zombie Wizard",
+   "produced_mana": [],
+   "keywords": [
+    "Trample"
+   ]
+  },
+  "Dreadmaw's Ire": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Dust Corona": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Eel Umbra": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Umbra armor",
+    "Enchant",
+    "Flash"
+   ]
+  },
+  "Eiganjo, Seat of the Empire": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "W"
+   ],
+   "keywords": [
+    "Channel"
+   ]
+  },
+  "Elsha of the Infinite": {
+   "type_line": "Legendary Creature — Djinn Monk",
+   "produced_mana": [],
+   "keywords": [
+    "Prowess"
+   ]
+  },
+  "Elsha, Threefold Master": {
+   "type_line": "Legendary Creature — Djinn Monk",
+   "produced_mana": [],
+   "keywords": [
+    "Prowess",
+    "Trample"
+   ]
+  },
+  "Emerge Unscathed": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Rebound"
+   ]
+  },
+  "Enter the Enigma": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Escape Velocity": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant",
+    "Escape"
+   ]
+  },
+  "Esper Sentinel": {
+   "type_line": "Artifact Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Evolving Wilds": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Exotic Orchard": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Expedite": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Expressive Iteration": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Faithless Looting": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Feather, the Redeemed": {
+   "type_line": "Legendary Creature — Angel",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Fellwar Stone": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Fiery Islet": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Fists of Flame": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Flare of Faith": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Flawless Maneuver": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Flooded Strand": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Fragmentize": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Frantic Search": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Frostboil Snarl": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Furycalm Snarl": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Ghostly Prison": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Gitaxian Probe": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Giver of Runes": {
+   "type_line": "Creature — Kor Cleric",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Glacial Fortress": {
+   "type_line": "Land",
+   "produced_mana": [
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Glamdring": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Goblin Electromancer": {
+   "type_line": "Creature — Goblin Wizard",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Gods Willing": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Graduation Day": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Repartee"
+   ]
+  },
+  "Guttersnipe": {
+   "type_line": "Creature — Goblin Shaman",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Hallowed Fountain": {
+   "type_line": "Land — Plains Island",
+   "produced_mana": [
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Hammer of Nazahn": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Hero's Blade": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Hexing Squelcher": {
+   "type_line": "Creature — Goblin Sorcerer",
+   "produced_mana": [],
+   "keywords": [
+    "Ward"
+   ]
+  },
+  "Improvised Arsenal": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Infuriate": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Inquisitor's Flail": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip",
+    "Double"
+   ]
+  },
+  "Intervene": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Invigorated Rampage": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Island": {
+   "type_line": "Basic Land — Island",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Isochron Scepter": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": [
+    "Imprint"
+   ]
+  },
+  "Izzet Boilerworks": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Izzet Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Jeska, Thrice Reborn": {
+   "type_line": "Legendary Planeswalker — Jeska",
+   "produced_mana": [],
+   "keywords": [
+    "Triple",
+    "Partner"
+   ]
+  },
+  "Jeskai Ascendancy": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Jeskai Banner": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Jori En, Ruin Diver": {
+   "type_line": "Legendary Creature — Merfolk Wizard",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Kediss, Emberclaw Familiar": {
+   "type_line": "Legendary Creature — Elemental Lizard",
+   "produced_mana": [],
+   "keywords": [
+    "Partner"
+   ]
+  },
+  "Key to the City": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Khenra Spellspear // Gitaxian Spellstalker": {
+   "type_line": "Creature — Jackal Warrior // Creature — Phyrexian Jackal",
+   "produced_mana": [],
+   "keywords": [
+    "Prowess",
+    "Transform",
+    "Trample",
+    "Ward"
+   ]
+  },
+  "Kykar, Wind's Fury": {
+   "type_line": "Legendary Creature — Bird Wizard",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Lavaspur Boots": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Leap": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Leering Emblem": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Legion Leadership // Legion Stronghold": {
+   "type_line": "Instant // Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": [
+    "Double"
+   ]
+  },
+  "Leonin Lightscribe": {
+   "type_line": "Creature — Cat Cleric",
+   "produced_mana": [],
+   "keywords": [
+    "Magecraft"
+   ]
+  },
+  "Leyline of Resonance": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Lightning Greaves": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Lion Sash": {
+   "type_line": "Artifact Creature — Equipment Cat",
+   "produced_mana": [],
+   "keywords": [
+    "Reconfigure"
+   ]
+  },
+  "Loran's Escape": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Lyse Hext": {
+   "type_line": "Legendary Creature — Human Rebel Monk",
+   "produced_mana": [],
+   "keywords": [
+    "Prowess"
+   ]
+  },
+  "Madcap Skills": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Mark of Fury": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Mask of Memory": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Mavinda, Students' Advocate": {
+   "type_line": "Legendary Creature — Bird Advisor",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Maximize Velocity": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Jump",
+    "Jump-start"
+   ]
+  },
+  "Mind Stone": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Mistfire Adept": {
+   "type_line": "Creature — Human Monk",
+   "produced_mana": [],
+   "keywords": [
+    "Prowess"
+   ]
+  },
+  "Mistrise Village": {
+   "type_line": "Land",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Monastery Mentor": {
+   "type_line": "Creature — Human Monk",
+   "produced_mana": [],
+   "keywords": [
+    "Prowess"
+   ]
+  },
+  "Monastery Swiftspear": {
+   "type_line": "Creature — Human Monk",
+   "produced_mana": [],
+   "keywords": [
+    "Prowess",
+    "Haste"
+   ]
+  },
+  "Monk Class": {
+   "type_line": "Enchantment — Class",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Monstrous Rage": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Role token"
+   ]
+  },
+  "Mother of Runes": {
+   "type_line": "Creature — Human Cleric",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Mountain": {
+   "type_line": "Basic Land — Mountain",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": []
+  },
+  "Murmuring Mystic": {
+   "type_line": "Creature — Human Wizard",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Mystic Gate": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Mystic Monastery": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Mystic Remora": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Cumulative upkeep"
+   ]
+  },
+  "Mystic Sanctuary": {
+   "type_line": "Land — Island",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Myth Realized": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Narset of the Ancient Way": {
+   "type_line": "Legendary Planeswalker — Narset",
+   "produced_mana": [
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Narset, Enlightened Exile": {
+   "type_line": "Legendary Creature — Human Monk",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Negate": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Niblis of Frost": {
+   "type_line": "Creature — Spirit",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Prowess"
+   ]
+  },
+  "Niv-Mizzet, Parun": {
+   "type_line": "Legendary Creature — Dragon Wizard",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "O-Naginata": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Opal Palace": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Open the Armory": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Opt": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Otawara, Soaring City": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": [
+    "Channel"
+   ]
+  },
+  "Past in Flames": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Path to Exile": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Perilous Landscape": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Pinnacle Monk // Mystic Peak": {
+   "type_line": "Creature — Djinn Monk // Land",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": [
+    "Prowess"
+   ]
+  },
+  "Pippin, Guard of the Citadel": {
+   "type_line": "Legendary Creature — Halfling Soldier",
+   "produced_mana": [],
+   "keywords": [
+    "Vigilance",
+    "Ward"
+   ]
+  },
+  "Plains": {
+   "type_line": "Basic Land — Plains",
+   "produced_mana": [
+    "W"
+   ],
+   "keywords": []
+  },
+  "Ponder": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Port Town": {
+   "type_line": "Land",
+   "produced_mana": [
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Prairie Stream": {
+   "type_line": "Land — Plains Island",
+   "produced_mana": [
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Preordain": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Propaganda": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Raugrin Crystal": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Raugrin Triome": {
+   "type_line": "Land — Island Mountain Plains",
+   "produced_mana": [
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Raze the Effigy": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Rebellious Strike": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Reckless Charge": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Rediscover the Way": {
+   "type_line": "Enchantment — Saga",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Relentless Assault": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Reliquary Tower": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Renegade Tactics": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Retraction Helix": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Rip Apart": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Rogue's Passage": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Rugged Prairie": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Run Amok": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Runechanter's Pike": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Rush of Adrenaline": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Sacred Foundry": {
+   "type_line": "Land — Mountain Plains",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Saheeli, Sublime Artificer": {
+   "type_line": "Legendary Planeswalker — Saheeli",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Samut's Sprint": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Scalding Tarn": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Scroll of the Masters": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Sea of Clouds": {
+   "type_line": "Land",
+   "produced_mana": [
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Security Bypass": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant",
+    "Connive"
+   ]
+  },
+  "Seeker of the Way": {
+   "type_line": "Creature — Human Warrior",
+   "produced_mana": [],
+   "keywords": [
+    "Prowess"
+   ]
+  },
+  "Seething Anger": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Buyback"
+   ]
+  },
+  "Seize the Day": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Sejiri Shelter // Sejiri Glacier": {
+   "type_line": "Instant // Land",
+   "produced_mana": [
+    "W"
+   ],
+   "keywords": []
+  },
+  "Sensei's Divining Top": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Sentinel's Eyes": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant",
+    "Escape"
+   ]
+  },
+  "Serum Visions": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Shadow Rift": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Shadowspear": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Shelter": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Sheltering Light": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Shivan Reef": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Shore Up": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Shu Yun, the Silent Tempest": {
+   "type_line": "Legendary Creature — Human Monk",
+   "produced_mana": [],
+   "keywords": [
+    "Prowess"
+   ]
+  },
+  "Siege Smash": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Split second"
+   ]
+  },
+  "Sigarda's Aid": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Single Combat": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Skycloud Expanse": {
+   "type_line": "Land",
+   "produced_mana": [
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Slash the Ranks": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Slayers' Stronghold": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Slip Out the Back": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Slip Through Space": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Devoid"
+   ]
+  },
+  "Sol Ring": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Spectator Seating": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Spirit Mantle": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Staggering Insight": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Star Compass": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Steam Vents": {
+   "type_line": "Land — Island Mountain",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Steel of the Godhead": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Steelshaper's Gift": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Sticky Fingers": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Treasure",
+    "Enchant"
+   ]
+  },
+  "Stoneforge Mystic": {
+   "type_line": "Creature — Kor Artificer",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Storm-Kiln Artist": {
+   "type_line": "Creature — Dwarf Shaman",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Treasure",
+    "Magecraft"
+   ]
+  },
+  "Stormcarved Coast": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Stormcatch Mentor": {
+   "type_line": "Creature — Otter Wizard",
+   "produced_mana": [],
+   "keywords": [
+    "Prowess",
+    "Haste"
+   ]
+  },
+  "Stubborn Denial": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Ferocious"
+   ]
+  },
+  "Sulfur Falls": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Sunbaked Canyon": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Sundown Pass": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Sunforger": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Swan Song": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Swiftfoot Boots": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Swiftwater Cliffs": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Sword of the Animist": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Swords to Plowshares": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Taigam's Strike": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Rebound"
+   ]
+  },
+  "Taigam, Ojutai Master": {
+   "type_line": "Legendary Creature — Human Monk",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Talisman of Conviction": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C",
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Talisman of Creativity": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C",
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Talisman of Progress": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Talrand, Sky Summoner": {
+   "type_line": "Legendary Creature — Merfolk Wizard",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Taste for Mayhem": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant",
+    "Hellbent"
+   ]
+  },
+  "Teleportal": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Overload"
+   ]
+  },
+  "Temple of Enlightenment": {
+   "type_line": "Land",
+   "produced_mana": [
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Temple of Epiphany": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Temple of Triumph": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Temur Battle Rage": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Ferocious"
+   ]
+  },
+  "Terramorphic Expanse": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Third Path Iconoclast": {
+   "type_line": "Creature — Human Monk",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Thought Vessel": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Thran Power Suit": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Time Wipe": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Titan's Strength": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Tragic Arrogance": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Trailblazer's Boots": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Training Center": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Treasure Cruise": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Delve"
+   ]
+  },
+  "Turn Aside": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Two-Handed Axe // Sweeping Cleave": {
+   "type_line": "Artifact — Equipment // Instant — Adventure",
+   "produced_mana": [],
+   "keywords": [
+    "Equip",
+    "Double"
+   ]
+  },
+  "Umezawa's Jitte": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Underworld Breach": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Unleash Fury": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Double"
+   ]
+  },
+  "Unstable Mutation": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Valorous Stance": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Vandalblast": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Overload"
+   ]
+  },
+  "Veyran, Voice of Duality": {
+   "type_line": "Legendary Creature — Efreet Wizard",
+   "produced_mana": [],
+   "keywords": [
+    "Magecraft"
+   ]
+  },
+  "Void Snare": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Wayfarer's Bauble": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Whirlwind of Thought": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Windfall": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Winged Boots": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Young Pyromancer": {
+   "type_line": "Creature — Human Shaman",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Zada, Hedron Grinder": {
+   "type_line": "Legendary Creature — Goblin Ally",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Birgi, God of Storytelling": {
+   "type_line": "Legendary Creature — God // Legendary Artifact",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": []
+  },
+  "Invasion of Segovia // Caetus, Sea Tyrant of Segovia": {
+   "type_line": "Battle — Siege // Legendary Creature — Serpent",
+   "produced_mana": [],
+   "keywords": [
+    "Transform"
+   ]
+  },
+  "Khenra Spellspear": {
+   "type_line": "Creature — Jackal Warrior // Creature — Phyrexian Jackal",
+   "produced_mana": [],
+   "keywords": [
+    "Prowess",
+    "Transform",
+    "Trample",
+    "Ward"
+   ]
+  },
+  "Legion Leadership": {
+   "type_line": "Instant // Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": [
+    "Double"
+   ]
+  },
+  "Pinnacle Monk": {
+   "type_line": "Creature — Djinn Monk // Land",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": [
+    "Prowess"
+   ]
+  },
+  "Sejiri Shelter": {
+   "type_line": "Instant // Land",
+   "produced_mana": [
+    "W"
+   ],
+   "keywords": []
+  },
+  "Two-Handed Axe": {
+   "type_line": "Artifact — Equipment // Instant — Adventure",
+   "produced_mana": [],
+   "keywords": [
+    "Equip",
+    "Double"
+   ]
+  },
+  "Wear // Tear": {
+   "type_line": "Instant // Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Fuse"
+   ]
+  }
+ },
+ "synergy": {
+  "Slip Through Space": {
+   "synergy": 0.6921753242149
+  },
+  "Distortion Strike": {
+   "synergy": 0.6413629067057254
+  },
+  "Emerge Unscathed": {
+   "synergy": 0.5856090481862908
+  },
+  "Unleash Fury": {
+   "synergy": 0.5749006564826267
+  },
+  "Aqueous Form": {
+   "synergy": 0.5487669552516078
+  },
+  "Artful Dodge": {
+   "synergy": 0.560445421335027
+  },
+  "Whirlwind of Thought": {
+   "synergy": 0.4876247618338565
+  },
+  "Swiftfoot Boots": {
+   "synergy": 0.4487287866264329
+  },
+  "Swords to Plowshares": {
+   "synergy": -0.021880042512846587
+  },
+  "Jeskai Ascendancy": {
+   "synergy": 0.4637314493770961
+  },
+  "Expedite": {
+   "synergy": 0.45968420764745027
+  },
+  "Path to Exile": {
+   "synergy": 0.0037942930783170237
+  },
+  "Monastery Mentor": {
+   "synergy": 0.2956216997339022
+  },
+  "Feather, the Redeemed": {
+   "synergy": 0.3981238940025182
+  },
+  "Storm-Kiln Artist": {
+   "synergy": 0.20302340586954826
+  },
+  "Kykar, Wind's Fury": {
+   "synergy": 0.2238425897788866
+  },
+  "Archmage Emeritus": {
+   "synergy": 0.1970619718181459
+  },
+  "Young Pyromancer": {
+   "synergy": 0.16877011940467834
+  },
+  "Brute Force": {
+   "synergy": 0.42989691622325477
+  },
+  "Fists of Flame": {
+   "synergy": 0.4147089814845766
+  },
+  "Counterspell": {
+   "synergy": 0.060740849912533146
+  },
+  "Leap": {
+   "synergy": 0.39577793849666393
+  },
+  "Legion Leadership": {
+   "synergy": 0.3323041289222076
+  },
+  "Loran's Escape": {
+   "synergy": 0.373790208421332
+  },
+  "Crash Through": {
+   "synergy": 0.38330295797032304
+  },
+  "Preordain": {
+   "synergy": 0.3032122801046564
+  },
+  "Ponder": {
+   "synergy": 0.24377434840478066
+  },
+  "Enter the Enigma": {
+   "synergy": 0.27076886383893845
+  },
+  "Gitaxian Probe": {
+   "synergy": 0.16150469089807756
+  },
+  "Serum Visions": {
+   "synergy": 0.18692731235141521
+  },
+  "Runechanter's Pike": {
+   "synergy": 0.40390100569167703
+  },
+  "Inquisitor's Flail": {
+   "synergy": 0.30037856514837963
+  },
+  "Sunforger": {
+   "synergy": 0.23848528105377564
+  },
+  "Wayfarer's Bauble": {
+   "synergy": 0.12393632417336976
+  },
+  "Leering Emblem": {
+   "synergy": 0.17635705954330852
+  },
+  "Combat Research": {
+   "synergy": 0.37278132600171593
+  },
+  "Staggering Insight": {
+   "synergy": 0.29539796790214246
+  },
+  "Curiosity": {
+   "synergy": 0.23194577814108347
+  },
+  "Spirit Mantle": {
+   "synergy": 0.1779216946185847
+  },
+  "Cartouche of Knowledge": {
+   "synergy": 0.17507468490150735
+  },
+  "Saheeli, Sublime Artificer": {
+   "synergy": 0.00781978837779608
+  },
+  "Jeska, Thrice Reborn": {
+   "synergy": 0.05801776635863339
+  },
+  "Narset of the Ancient Way": {
+   "synergy": 0.004127991574413688
+  },
+  "Rogue's Passage": {
+   "synergy": 0.3271674131991399
+  },
+  "Slayers' Stronghold": {
+   "synergy": 0.2395248996941952
+  },
+  "Mystic Sanctuary": {
+   "synergy": 0.11500702469837353
+  },
+  "Reliquary Tower": {
+   "synergy": -0.17837381144838443
+  },
+  "Access Tunnel": {
+   "synergy": 0.1491148918034381
+  },
+  "Island": {
+   "synergy": 0.033527455833538444
+  },
+  "Mountain": {
+   "synergy": 0.025080281362720558
+  },
+  "Plains": {
+   "synergy": 0.019388604338802184
+  },
+  "Command Tower": {
+   "synergy": 0.0006740127184012845
+  },
+  "Arcane Signet": {
+   "synergy": -0.08834621785580077
+  },
+  "Sol Ring": {
+   "synergy": -0.12928392012609013
+  }
+ },
+ "plans": [],
+ "combos": [
+  {
+   "uses": [
+    {
+     "card": {
+      "id": 776,
+      "name": "Jeskai Ascendancy",
+      "oracleId": "c3c802ba-dfbb-4f63-ae9a-e29c2e30013d",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Enchantment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/9/a/9a8399fc-4cba-44c5-888e-2cfc0f6739f6.png?1783921825",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/9/a/9a8399fc-4cba-44c5-888e-2cfc0f6739f6.jpg?1783921825",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/9/a/9a8399fc-4cba-44c5-888e-2cfc0f6739f6.jpg?1783921825",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/9/a/9a8399fc-4cba-44c5-888e-2cfc0f6739f6.jpg?1783921825",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/9/a/9a8399fc-4cba-44c5-888e-2cfc0f6739f6.jpg?1783921825",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 4113,
+      "name": "Invasion of Segovia // Caetus, Sea Tyrant of Segovia",
+      "oracleId": "7b3c0d89-55ed-43d7-a00a-7b060857ec4e",
+      "spoiler": false,
+      "faces": 2,
+      "typeLine": "Battle — Siege // Legendary Creature — Serpent",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/9/d/9df3e743-7bb8-482a-afd1-4d51119d416c.png?1783917037",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/9/d/9df3e743-7bb8-482a-afd1-4d51119d416c.jpg?1783917037",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/9/d/9df3e743-7bb8-482a-afd1-4d51119d416c.jpg?1783917037",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/9/d/9df3e743-7bb8-482a-afd1-4d51119d416c.jpg?1783917037",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/9/d/9df3e743-7bb8-482a-afd1-4d51119d416c.jpg?1783917037",
+      "layoutRotationFront": "clockwise",
+      "imageUriBackPng": "https://cards.scryfall.io/png/back/9/d/9df3e743-7bb8-482a-afd1-4d51119d416c.png?1783917037",
+      "imageUriBackLarge": "https://cards.scryfall.io/large/back/9/d/9df3e743-7bb8-482a-afd1-4d51119d416c.jpg?1783917037",
+      "imageUriBackNormal": "https://cards.scryfall.io/normal/back/9/d/9df3e743-7bb8-482a-afd1-4d51119d416c.jpg?1783917037",
+      "imageUriBackSmall": "https://cards.scryfall.io/small/back/9/d/9df3e743-7bb8-482a-afd1-4d51119d416c.jpg?1783917037",
+      "imageUriBackArtCrop": "https://cards.scryfall.io/art_crop/back/9/d/9df3e743-7bb8-482a-afd1-4d51119d416c.jpg?1783917037"
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "as Caetus, Sea Tyrant of Segovia",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "identity": "URW",
+   "popularity": 5374,
+   "produces": [
+    {
+     "name": "Infinite storm count"
+    },
+    {
+     "name": "Infinite self-discard triggers"
+    },
+    {
+     "name": "Infinite untap of creatures you control"
+    },
+    {
+     "name": "Infinite draw triggers"
+    },
+    {
+     "name": "Infinite looting"
+    },
+    {
+     "name": "Infinite mana creatures you control can produce"
+    },
+    {
+     "name": "Infinite magecraft triggers"
+    },
+    {
+     "name": "Infinitely large creatures you control until end of turn"
+    }
+   ],
+   "notablePrerequisites": "You control enough creatures to cast the buyback spell by only tapping creatures.",
+   "easyPrerequisites": "",
+   "description": "Cast the buyback spell with buyback by tapping any number of creatures.\nJeskai Ascendancy's first and second abilities trigger.\nResolve the first trigger, giving creatures you control +1/+1 until end of turn and untapping them.\nResolve the second trigger, allowing you to loot.\nResolve the spell with buyback, returning it to your hand.\nRepeat."
+  },
+  {
+   "uses": [
+    {
+     "card": {
+      "id": 1368,
+      "name": "Underworld Breach",
+      "oracleId": "27e0948b-9916-473b-8d8c-a51bdfbc7457",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Enchantment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/0/e/0e51d796-7279-4c06-87f0-37adbdaa41df.png?1783931543",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/0/e/0e51d796-7279-4c06-87f0-37adbdaa41df.jpg?1783931543",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/0/e/0e51d796-7279-4c06-87f0-37adbdaa41df.jpg?1783931543",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/0/e/0e51d796-7279-4c06-87f0-37adbdaa41df.jpg?1783931543",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/0/e/0e51d796-7279-4c06-87f0-37adbdaa41df.jpg?1783931543",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 2196,
+      "name": "Frantic Search",
+      "oracleId": "16e015b2-f8a3-4b1a-80be-58a8f5fb5e8c",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Instant",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/d/8/d8c5e52d-57ae-464b-8860-7dd39ebfef64.png?1783904806",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/d/8/d8c5e52d-57ae-464b-8860-7dd39ebfef64.jpg?1783904806",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/d/8/d8c5e52d-57ae-464b-8860-7dd39ebfef64.jpg?1783904806",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/d/8/d8c5e52d-57ae-464b-8860-7dd39ebfef64.jpg?1783904806",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/d/8/d8c5e52d-57ae-464b-8860-7dd39ebfef64.jpg?1783904806",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "G"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 776,
+      "name": "Jeskai Ascendancy",
+      "oracleId": "c3c802ba-dfbb-4f63-ae9a-e29c2e30013d",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Enchantment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/9/a/9a8399fc-4cba-44c5-888e-2cfc0f6739f6.png?1783921825",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/9/a/9a8399fc-4cba-44c5-888e-2cfc0f6739f6.jpg?1783921825",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/9/a/9a8399fc-4cba-44c5-888e-2cfc0f6739f6.jpg?1783921825",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/9/a/9a8399fc-4cba-44c5-888e-2cfc0f6739f6.jpg?1783921825",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/9/a/9a8399fc-4cba-44c5-888e-2cfc0f6739f6.jpg?1783921825",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "identity": "URW",
+   "popularity": 2968,
+   "produces": [
+    {
+     "name": "Infinite draw triggers"
+    },
+    {
+     "name": "Infinite looting"
+    },
+    {
+     "name": "Infinite self-discard triggers"
+    },
+    {
+     "name": "Near-infinite magecraft triggers"
+    },
+    {
+     "name": "Near-infinite mana creatures you control can produce"
+    },
+    {
+     "name": "Near-infinite storm count"
+    },
+    {
+     "name": "Near-infinite untap of creatures you control"
+    },
+    {
+     "name": "Near-infinitely large creatures until end of turn"
+    }
+   ],
+   "notablePrerequisites": "",
+   "easyPrerequisites": "You have at least three other cards in your graveyard.\nYou control up to three lands that can tap to produce at least {2}{U}.",
+   "description": "Activate up to three lands by tapping them, adding at least {2}{U}.\nCast Frantic Search for its escape cost by paying {2}{U} and exiling three other cards from your graveyard.\nJeskai Ascendancy's first and second abilities trigger. Resolve both triggers, causing you to loot, untap all creatures you control and give them +1/+1 until end of turn.\nResolve Frantic Search, causing you to loot twice and untap three lands.\nRepeat."
+  },
+  {
+   "uses": [
+    {
+     "card": {
+      "id": 776,
+      "name": "Jeskai Ascendancy",
+      "oracleId": "c3c802ba-dfbb-4f63-ae9a-e29c2e30013d",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Enchantment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/9/a/9a8399fc-4cba-44c5-888e-2cfc0f6739f6.png?1783921825",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/9/a/9a8399fc-4cba-44c5-888e-2cfc0f6739f6.jpg?1783921825",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/9/a/9a8399fc-4cba-44c5-888e-2cfc0f6739f6.jpg?1783921825",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/9/a/9a8399fc-4cba-44c5-888e-2cfc0f6739f6.jpg?1783921825",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/9/a/9a8399fc-4cba-44c5-888e-2cfc0f6739f6.jpg?1783921825",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 1792,
+      "name": "Retraction Helix",
+      "oracleId": "2707f9f4-2b80-47ac-af0a-99fc53af94bf",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Instant",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/7/a/7aa3fdd0-34d8-47b3-9753-d2929838732e.png?1783935172",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/7/a/7aa3fdd0-34d8-47b3-9753-d2929838732e.jpg?1783935172",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/7/a/7aa3fdd0-34d8-47b3-9753-d2929838732e.jpg?1783935172",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/7/a/7aa3fdd0-34d8-47b3-9753-d2929838732e.jpg?1783935172",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/7/a/7aa3fdd0-34d8-47b3-9753-d2929838732e.jpg?1783935172",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "H"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "identity": "URW",
+   "popularity": 1301,
+   "produces": [
+    {
+     "name": "Infinite looting"
+    },
+    {
+     "name": "Infinite mana creatures you control can produce"
+    },
+    {
+     "name": "Infinite mana the permanent cast infinite times can produce"
+    },
+    {
+     "name": "Infinite storm count"
+    },
+    {
+     "name": "Infinite untap of creatures you control"
+    },
+    {
+     "name": "Infinitely large creatures you control until end of turn"
+    }
+   ],
+   "notablePrerequisites": "",
+   "easyPrerequisites": "You control at least one creature that does not have summoning sickness.",
+   "description": "Cast Retraction Helix by paying {U}, targeting a creature you control without summoning sickness.\nJeskai Ascendacy's first and second abilities trigger.\nResolve the first Jeskai Ascendancy trigger, giving creatures you control +1/+1 until end of turn and untapping them.\nResolve the second Jeskai Ascendancy trigger, allowing you to loot.\nIf the permanent that costs {0} can tap to add mana, activate it by tapping it, adding at least one mana.\nActivate the creature by tapping it, returning the free permanent to your hand.\nCast that permanent by paying {0}.\nRepeat from step 2."
+  },
+  {
+   "uses": [
+    {
+     "card": {
+      "id": 1811,
+      "name": "Zada, Hedron Grinder",
+      "oracleId": "9f7d5e1c-bf5b-4ab9-bd6e-2627b4d22b36",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Goblin Ally",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/4/5/4520cdcc-a10f-4b39-9c6f-ba86f6aa2c87.png?1783915638",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/4/5/4520cdcc-a10f-4b39-9c6f-ba86f6aa2c87.jpg?1783915638",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/4/5/4520cdcc-a10f-4b39-9c6f-ba86f6aa2c87.jpg?1783915638",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/4/5/4520cdcc-a10f-4b39-9c6f-ba86f6aa2c87.jpg?1783915638",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/4/5/4520cdcc-a10f-4b39-9c6f-ba86f6aa2c87.jpg?1783915638",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 5195,
+      "name": "Storm-Kiln Artist",
+      "oracleId": "a145ff8c-5812-4bcb-bd16-9839dc25121d",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Dwarf Shaman",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/d/a/da7ae8e0-cb6b-4386-8a30-9527d1af9be5.png?1783903773",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/d/a/da7ae8e0-cb6b-4386-8a30-9527d1af9be5.jpg?1783903773",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/d/a/da7ae8e0-cb6b-4386-8a30-9527d1af9be5.jpg?1783903773",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/d/a/da7ae8e0-cb6b-4386-8a30-9527d1af9be5.jpg?1783903773",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/d/a/da7ae8e0-cb6b-4386-8a30-9527d1af9be5.jpg?1783903773",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 2871,
+      "name": "Seething Anger",
+      "oracleId": "2effcd1c-5833-4e0e-bb67-2d2ffb22a014",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Sorcery",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/2/2/2294ef08-c27a-4bb4-bd59-434516717961.png?1783938466",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/2/2/2294ef08-c27a-4bb4-bd59-434516717961.jpg?1783938466",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/2/2/2294ef08-c27a-4bb4-bd59-434516717961.jpg?1783938466",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/2/2/2294ef08-c27a-4bb4-bd59-434516717961.jpg?1783938466",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/2/2/2294ef08-c27a-4bb4-bd59-434516717961.jpg?1783938466",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "H"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "identity": "R",
+   "popularity": 828,
+   "produces": [
+    {
+     "name": "Infinite colored mana"
+    },
+    {
+     "name": "Infinitely powerful creatures you control until end of turn"
+    },
+    {
+     "name": "Infinite magecraft triggers"
+    },
+    {
+     "name": "Infinite storm count"
+    },
+    {
+     "name": "Infinite Treasure tokens"
+    }
+   ],
+   "notablePrerequisites": "You control at least three other creatures that are valid targets for Seething Anger.",
+   "easyPrerequisites": "",
+   "description": "Cast Seething Anger with buyback by paying {3}{R}, targeting Zada.\nZada and Storm-Kiln Artist triggers.\nResolve the Storm-Kiln Artist trigger, creating a Treasure token.\nResolve the Zada trigger, copying Seething Anger for each creature you control.\nStorm-Kiln Artist triggers for each copy made this way, creating at least four Treasure tokens.\nResolve all Seething Anger copies, giving all other creatures +3/+0 until end of turn.\nResolve Seething Anger, giving Zada +3/+0 until end of turn and returning Seething Anger to your hand.\nActivate four Treasure tokens by tapping and sacrificing them, adding {3}{R}.\nRepeat."
+  }
+ ],
+ "hs_imgs": {},
+ "type_recs": {},
+ "content": {
+  "primer": {
+   "quick_read": [
+    "**Prowess pump** : every noncreature spell pumps him (+1/+1).",
+    "**Double strike** : {R/W}{R/W} grants double strike to any creature — usually himself.",
+    "**Cantrip shell** : 1-mana unblockable cantrips (Slip Through Space, Distortion Strike) chain into a one-shot machine."
+   ],
+   "plan_title": "⚔️ VOLTRON — The signature plan (96 decks)",
+   "plan_html": "<h3>⚔️ VOLTRON <span class=\"badge\">CHOSEN PLAN</span></h3>\n    <p>The dominant plan for Shu Yun (96 Voltron decks, 94 Spellslinger, 62 Prowess on EDHREC).</p>\n<div class=\"plan-block\"><span class=\"plan-badge\">How it plays</span>\n<ul>\n<li><strong>Open mana</strong> : cast Shu Yun on turn 3, then keep {R/W}{R/W} up every turn.</li>\n<li><strong>One spell = threat</strong> : any noncreature spell (cantrip, pump, protection) makes him unblockable (Slip Through Space, Distortion Strike, Aqueous Form) and grants double strike.</li>\n<li><strong>Prowess</strong> : each spell also pumps him.</li>\n</ul></div><div class=\"plan-block\"><span class=\"plan-badge\">Core loop</span>\n<ul>\n<li><strong>Cantrip chain</strong> : cantrip → draw + prowess + unblockable → swing with double strike → commander damage.</li>\n<li><strong>Rebound</strong> : Distortion Strike and Emerge Unscathed cast twice; Feather, the Redeemed returns target spells to hand each turn.</li>\n<li><strong>Draw</strong> : Whirlwind of Thought turns every spell into a card.</li>\n</ul></div><div class=\"plan-block\"><span class=\"plan-badge\">Win conditions</span>\n<ul>\n<li><strong>21 damage</strong> : two swings with double strike + Unleash Fury / Brute Force / Legion Leadership.</li>\n<li><strong>Multipliers</strong> : Inquisitor's Flail and Runechanter's Pike; Jeska, Thrice Reborn makes it triple.</li>\n<li><strong>Tutor</strong> : Sunforger fetches the finisher or the protection.</li>\n</ul></div>",
+   "plan_cards": [
+    "Slip Through Space",
+    "Distortion Strike",
+    "Unleash Fury",
+    "Aqueous Form"
+   ],
+   "source_html": "<em>“Building Monk Typal With Shu Yun, the Silent Tempest”</em> (EDHREC Articles — deck tech on Shu Yun): the guide calls Shu Yun “maybe not the strongest Monk commander, but… the most aggressive” and stresses that the ability to “give out double strike to any creature” is what makes him fun and versatile. Its core advice maps 1:1 onto our Voltron plan: play <strong>cheap cantripping noncreature spells</strong> (“We want spells that cantrip, like Opt”) so every spell triggers prowess and leaves mana up to activate double strike, and use evasive creatures that “make solid use of our commander’s ability to grant double strike.”",
+   "combos_note": "221 raw combos found (search across 26 key pieces incl. Sunforger) → 96 Jeskai-compatible → strict ≥ 2/3 overlap yielded only 1 combo → low-yield relaxation (2-card combos with 1/2 overlap where the in-pool card is a key piece) → 4 relevant: the Jeskai Ascendancy engine (with Invasion of Segovia, Retraction Helix, Underworld Breach+Frantic Search) and the Zada copy chain. Produces/Prerequisites/Execution reproduce Commander Spellbook content verbatim.",
+   "explanations": {
+    "HighSynergy": [
+     [
+      "Slip Through Space",
+      "<strong>Target creature can't be blocked this turn. Draw a card.</strong> Devoid — the #1 Shu Yun cantrip: unblockable + replace itself, and prowess boosts Shu Yun."
+     ],
+     [
+      "Distortion Strike",
+      "+1/+0, <strong>can't be blocked, and rebound</strong> — cast it twice (now + rebound next upkeep) for two prowess triggers and two unblockable turns."
+     ],
+     [
+      "Emerge Unscathed",
+      "<strong>Protection from a color of your choice + rebound</strong> — dodge removal twice while triggering prowess both times."
+     ],
+     [
+      "Unleash Fury",
+      "<strong>Double the power of target creature</strong> — on a prowess-buffed Shu Yun with double strike, that's lethal commander damage in one swing."
+     ],
+     [
+      "Aqueous Form",
+      "<strong>Can't be blocked</strong> and scry 1 on every attack — the repeatable unblockable engine for Shu Yun."
+     ],
+     [
+      "Artful Dodge",
+      "<strong>Can't be blocked this turn, flashback {U}</strong> — two unblockable uses for two prowess triggers."
+     ]
+    ],
+    "TopCards": [
+     [
+      "Whirlwind of Thought",
+      "<strong>Whenever you cast a noncreature spell, draw a card</strong> — every cantrip now draws twice; the deck's card engine."
+     ],
+     [
+      "Swiftfoot Boots",
+      "<strong>Hexproof and haste</strong> — deploy Shu Yun and swing the same turn, safe from targeted removal. Equip {1}."
+     ],
+     [
+      "Swords to Plowshares",
+      "Exile target creature; its controller gains life equal to its power — the white removal benchmark."
+     ],
+     [
+      "Jeskai Ascendancy",
+      "<strong>Whenever you cast a noncreature spell: creatures you control get +1/+1 and untap; you may draw then discard</strong> — the engine that pumps the team and digs to the combo."
+     ],
+     [
+      "Expedite",
+      "<strong>Haste + draw a card</strong> — a cantrip that lets Shu Yun swing immediately."
+     ],
+     [
+      "Path to Exile",
+      "Exile target creature; its controller may search for a basic land — second white removal."
+     ]
+    ],
+    "Creatures": [
+     [
+      "Monastery Mentor",
+      "Prowess; <strong>whenever you cast a noncreature spell, create a 1/1 Monk token with prowess</strong> — the go-wide engine that also swings for commander damage."
+     ],
+     [
+      "Feather, the Redeemed",
+      "Flying; <strong>instants/sorceries that target your creature return to hand instead of the graveyard</strong> — recast your cantrips every turn, Shu Yun's best friend."
+     ],
+     [
+      "Storm-Kiln Artist",
+      "<strong>+1/+0 per artifact; magecraft: create a Treasure</strong> — every cantrip ramps you while the creature grows."
+     ],
+     [
+      "Kykar, Wind's Fury",
+      "Flying; <strong>noncreature spell → Spirit token; sacrifice a Spirit: add {R}</strong> — token + ramp engine in one."
+     ],
+     [
+      "Archmage Emeritus",
+      "<strong>Magecraft: whenever you cast or copy an instant or sorcery, draw a card</strong> — a cantrip chain draws the whole deck."
+     ],
+     [
+      "Young Pyromancer",
+      "<strong>Whenever you cast an instant or sorcery, create a 1/1 Elemental</strong> — the classic token engine."
+     ]
+    ],
+    "Instants": [
+     [
+      "Brute Force",
+      "<strong>+3/+3 until end of turn</strong> — a one-mana pump that pushes Shu Yun past the 21 commander-damage line."
+     ],
+     [
+      "Fists of Flame",
+      "Draw a card; <strong>trample and +1/+0 for each card drawn this turn</strong> — the finisher that scales with your cantrip count."
+     ],
+     [
+      "Counterspell",
+      "Counter target spell — the blue safety net for your Voltron turn."
+     ],
+     [
+      "Leap",
+      "<strong>Flying until end of turn, draw a card</strong> — a cantrip that also dodges ground blockers."
+     ],
+     [
+      "Legion Leadership",
+      "<strong>Double target creature's power and give it first strike</strong> (or MDFC land) — an extra double-power effect for Shu Yun."
+     ],
+     [
+      "Loran's Escape",
+      "<strong>Hexproof + indestructible until end of turn, scry 1</strong> — the protection cantrip."
+     ]
+    ],
+    "Sorceries": [
+     [
+      "Crash Through",
+      "<strong>Creatures you control gain trample; draw a card</strong> — the cantrip that pushes damage through blockers."
+     ],
+     [
+      "Preordain",
+      "<strong>Scry 2, then draw</strong> — the classic blue cantrip."
+     ],
+     [
+      "Ponder",
+      "<strong>Look at top 3, reorder, draw; may shuffle</strong> — the other classic cantrip."
+     ],
+     [
+      "Enter the Enigma",
+      "<strong>Can't be blocked this turn; draw a card</strong> — another unblockable cantrip."
+     ],
+     [
+      "Gitaxian Probe",
+      "<strong>Look at target player's hand, draw a card</strong> — a free (2 life) cantrip that sees everything."
+     ],
+     [
+      "Serum Visions",
+      "<strong>Draw a card, scry 2</strong> — the third classic cantrip."
+     ]
+    ],
+    "Artifacts": [
+     [
+      "Runechanter's Pike",
+      "<strong>First strike and +X/+0 where X = instant/sorceries in your graveyard</strong> — with a graveyard full of cantrips, Shu Yun one-shots. Equip {2}."
+     ],
+     [
+      "Inquisitor's Flail",
+      "<strong>Equipped creature deals double combat damage</strong> — stacks with Shu Yun's double strike for 4× damage."
+     ],
+     [
+      "Sunforger",
+      "<strong>+4/+0; {R}{W}, unattach: tutor a red/white instant with MV ≤ 4 and cast it free</strong> — fetch Unleash Fury or protection at will."
+     ],
+     [
+      "Wayfarer's Bauble",
+      "{2}, {T}, sacrifice: search for a basic land — 1-mana ramp."
+     ],
+     [
+      "Leering Emblem",
+      "<strong>Whenever you cast a spell, equipped creature gets +2/+2</strong> — every cantrip pumps Shu Yun even more. Equip {2}."
+     ]
+    ],
+    "Enchantments": [
+     [
+      "Combat Research",
+      "Enchanted creature: <strong>\"Whenever it deals combat damage to a player, draw a card\"; if legendary, +1/+1 and ward {1}</strong> — the perfect Shu Yun aura."
+     ],
+     [
+      "Staggering Insight",
+      "<strong>+1/+1, lifelink, and draw on combat damage</strong> — lifegain + card advantage on Shu Yun."
+     ],
+     [
+      "Curiosity",
+      "<strong>Whenever enchanted creature deals damage to an opponent, you may draw a card</strong> — repeatable draw on an unblockable Shu Yun."
+     ],
+     [
+      "Spirit Mantle",
+      "<strong>+1/+1 and protection from creatures</strong> — Shu Yun can't be blocked or targeted by creatures."
+     ],
+     [
+      "Cartouche of Knowledge",
+      "Draw a card on entry; <strong>+1/+1 and flying</strong> — aura cantrip that dodges ground blockers."
+     ]
+    ],
+    "Planeswalkers": [
+     [
+      "Saheeli, Sublime Artificer",
+      "<strong>Noncreature spell → Servo token; −2: copy an artifact/creature</strong> — token engine + copy utility."
+     ],
+     [
+      "Jeska, Thrice Reborn",
+      "<strong>0: until your next turn, target creature deals triple damage</strong> — triple commander damage with Shu Yun."
+     ],
+     [
+      "Narset of the Ancient Way",
+      "+1: gain 2 life, add {U}/{R}/{W} for noncreature spells; −2: draw and discard — walker cantrip engine."
+     ]
+    ],
+    "UtilityLands": [
+     [
+      "Rogue's Passage",
+      "{4}, {T}: <strong>target creature can't be blocked this turn</strong> — guarantee Shu Yun connects."
+     ],
+     [
+      "Slayers' Stronghold",
+      "{R}{W}, {T}: <strong>+2/+0, vigilance and haste</strong> — pump + haste from a land."
+     ],
+     [
+      "Mystic Sanctuary",
+      "On entry (if untapped): <strong>put an instant/sorcery from your graveyard on top</strong> — recur your key spells."
+     ],
+     [
+      "Reliquary Tower",
+      "<strong>No maximum hand size</strong> — hold your cantrip chains."
+     ],
+     [
+      "Access Tunnel",
+      "{3}, {T}: <strong>creature with power 3 or less can't be blocked</strong> — Shu Yun (3 power) unblockable from a land."
+     ]
+    ],
+    "ManaBase": [
+     [
+      "Island",
+      "({T}: add {U}.) The basic blue source."
+     ],
+     [
+      "Mountain",
+      "({T}: add {R}.) The basic red source."
+     ],
+     [
+      "Plains",
+      "({T}: add {W}.) The basic white source."
+     ],
+     [
+      "Command Tower",
+      "{T}: add one mana of any color in your commander's color identity — the format's best land."
+     ],
+     [
+      "Arcane Signet",
+      "{T}: add one mana of any color in your commander's color identity — the best mana rock."
+     ],
+     [
+      "Sol Ring",
+      "{T}: add {C}{C} — the format's best ramp."
+     ]
+    ]
+   },
+   "cat_synopsis": {
+    "HighSynergy": [
+     "🌟 High Synergy Cards",
+     "The Voltron core: unblockable cantrips (Slip Through Space, Distortion Strike) and pump spells that trigger prowess and double strike."
+    ],
+    "TopCards": [
+     "🔥 Top Cards",
+     "The most played cards: the draw engine (Whirlwind of Thought), protection (Swiftfoot Boots) and removal."
+    ],
+    "Creatures": [
+     "🧝 Creatures",
+     "Prowess/magecraft engines: token makers and cantrip recursion that fuel the spell chain."
+    ],
+    "Instants": [
+     "⚡ Instants",
+     "Pump, protection and counterspells — the spells that push Shu Yun past 21 commander damage."
+    ],
+    "Sorceries": [
+     "📜 Sorceries",
+     "The cantrip suite: Opt-class draw that digs while triggering prowess."
+    ],
+    "Artifacts": [
+     "⚔️ Artifacts",
+     "Equipment that multiplies damage (Pike, Flail) and tutors (Sunforger)."
+    ],
+    "Enchantments": [
+     "🌿 Enchantments",
+     "Auras that draw on combat damage and protect Shu Yun."
+    ],
+    "Planeswalkers": [
+     "🔮 Planeswalkers",
+     "Utility walkers: token engines, triple damage (Jeska) and cantrip support."
+    ],
+    "UtilityLands": [
+     "🏰 Utility Lands",
+     "Unblockable lands and recursion for your key spells."
+    ],
+    "ManaBase": [
+     "🌲 Lands / Mana Base",
+     "Jeskai fixing: basics, Command Tower, rocks."
+    ]
+   },
+   "cat_order": [
+    "HighSynergy",
+    "TopCards",
+    "Creatures",
+    "Instants",
+    "Sorceries",
+    "Artifacts",
+    "Enchantments",
+    "Planeswalkers",
+    "UtilityLands",
+    "ManaBase"
+   ],
+   "mana_cost_html": "<img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/> (3 mana)",
+   "extra_table_rows": "<tr><td><strong>Power / Toughness</strong></td><td>3 / 2</td></tr>"
+  }
+ }
+}

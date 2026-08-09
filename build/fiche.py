@@ -33,7 +33,7 @@ Schéma (schema_version 1) :
 Le contenu IA est stocké en JSON structuré (markdown léger **bold**, pas de HTML) — le
 build transforme (cardify, bold, mana) au rendu.
 """
-import json, os
+import json, os, re
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 L2_DIR = f'{BASE}/data/cache/l2/commanders'
@@ -47,6 +47,13 @@ COMMANDER_REQUIRED = ['name', 'oracle', 'img']
 
 def fiche_path(slug):
     return f'{L2_DIR}/{slug}.json'
+
+
+def slugify(name):
+    """Slug déterministe d'un nom de commander : minuscules, apostrophes SUPPRIMÉES
+    (Tiger's → tigers, pas tiger-s), le reste → tirets."""
+    s = name.lower().replace("'", '').replace('’', '')
+    return re.sub(r'[^a-z0-9]+', '-', s).strip('-')
 
 
 def load_fiche(slug):

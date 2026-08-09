@@ -124,10 +124,24 @@ def _merge_fiche(d, slug, kind):
     """Fusionne la fiche L2 du commander (data/cache/l2/commanders/<slug>.json) dans les
     données du rapport si elle existe. kind = 'primer' (build_one) ou 'eval' (build_precon).
     La fiche centralise les données commander-level ; le JSON deck/precon garde les textes
-    IA spécifiques. Sans fiche : fallback silencieux sur l'ancien format."""
+    IA spécifiques. Sans fiche : fallback silencieux sur l'ancien format.
+    Résout le slug : d'abord le slug du rapport (ex. 'hinata-budget'), puis le slug du
+    NOM du commander (ex. 'hinata-dawn-crowned') — les évals sont nommées par deck list."""
     try:
-        from fiche import load_fiche
+        from fiche import load_fiche, slugify
         fiche = load_fiche(slug)
+        if not fiche:
+            # essayer le slug du nom du commander (dans d['commander'] pour les évals,
+            # d['commander_name'] pour les primers)
+            cname = None
+            if isinstance(d.get('commander'), dict):
+                cname = d['commander'].get('name')
+            elif d.get('commander_name'):
+                cname = d['commander_name']
+            if cname:
+                cslug = slugify(cname)
+                if cslug != slug:
+                    fiche = load_fiche(cslug)
         if not fiche:
             return
         cmdr = fiche['commander']

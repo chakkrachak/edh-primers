@@ -1,0 +1,3286 @@
+{
+ "schema_version": 1,
+ "reconciled_at": "2026-08-09",
+ "commander": {
+  "name": "Cloud, Ex-SOLDIER",
+  "slug": "cloud-ex-soldier",
+  "mana_cost": "(4 mana)",
+  "type_line": "Legendary Creature — Human Soldier Mercenary",
+  "color_id": "🔴🟢⚪ Naya (R/G/W)",
+  "power": "4",
+  "toughness": "4",
+  "rarity": "Mythic (Final Fantasy VII)",
+  "legality": "Legal",
+  "set_name": "",
+  "img": "https://cards.scryfall.io/normal/front/0/7/07b4e4f8-6a31-4533-be51-668ce3ddc84f.jpg?1783906375",
+  "oracle": "HasteWhen Cloud enters, attach up to one target Equipment you control to it.Whenever Cloud attacks, draw a card for each equipped attacking creature you control. Then if Cloud has power 7 or greater, create two Treasure tokens.",
+  "keywords": []
+ },
+ "imgs": {
+  "Mjölnir, Hammer of Thor": "https://cards.scryfall.io/normal/front/e/0/e0c7f566-5351-44e3-a346-b84b0eb10209.jpg?1783902926",
+  "Super-Soldier Serum": "https://cards.scryfall.io/normal/front/8/4/845b0be1-4f85-4a8c-8205-dc85c8cf9a61.jpg?1783902965",
+  "Swordsman's Steel": "https://cards.scryfall.io/normal/front/a/e/ae4ab04b-a3bd-40ea-9a71-df221cde4496.jpg?1783903028",
+  "Captain America's Shield": "https://cards.scryfall.io/normal/front/4/b/4b5433ac-0d36-4472-bf8b-d22f0ffd367b.jpg?1783902892",
+  "Iron Man Armor": "https://cards.scryfall.io/normal/front/3/6/361c2f3b-f04e-446b-a683-9195e238daf0.jpg?1783902891",
+  "Puresteel Paladin": "https://cards.scryfall.io/normal/front/d/8/d8f8a324-006d-4cb8-9816-620a603b4229.jpg?1783915714",
+  "Colossus Hammer": "https://cards.scryfall.io/normal/front/8/9/897a134e-7e61-4fe1-bbae-23ef1fe5c0cf.jpg?1783926175",
+  "Conqueror's Flail": "https://cards.scryfall.io/normal/front/d/5/d5f5399a-26c6-4ecd-9715-f6440f6958f1.jpg?1783921792",
+  "Red XIII, Proud Warrior": "https://cards.scryfall.io/normal/front/1/0/10407b26-be28-4628-9567-746681e5c834.jpg?1783906343",
+  "Tifa, Martial Artist": "https://cards.scryfall.io/normal/front/3/1/31513afc-329c-4913-8fcd-945c39ec82b2.jpg?1783906372",
+  "Sword of the Animist": "https://cards.scryfall.io/normal/front/6/4/64401acc-d080-4763-b67a-95164c11c69e.jpg?1783915589",
+  "Cid, Freeflier Pilot": "https://cards.scryfall.io/normal/front/a/f/afa9e3e6-a633-46ad-b52a-48574b2f3d07.jpg?1783906369",
+  "Professor Hojo": "https://cards.scryfall.io/normal/front/1/0/107ffe2e-47eb-43de-bc9e-c68013b62912.jpg?1783906351",
+  "Wrecking Ball Arm": "https://cards.scryfall.io/normal/front/e/1/e1f16620-08d6-49bd-9f75-d89ae46bfd1f.jpg?1783906340",
+  "Buster Sword": "https://cards.scryfall.io/normal/front/3/7/374d7383-a1a7-4eea-91f7-290180e14cc9.jpg?1783906560",
+  "Nature's Lore": "https://cards.scryfall.io/normal/front/7/a/7afc4a15-5ff8-457a-aa62-803b2d78d912.jpg?1783903228",
+  "Bugenhagen, Wise Elder": "https://cards.scryfall.io/normal/front/9/9/99155fae-507a-4eab-918a-bdee021e2262.jpg?1783906352",
+  "Cloud, Midgar Mercenary": "https://cards.scryfall.io/normal/front/2/c/2cf7e8a3-fad7-413d-b17c-7519a9cf5fb5.jpg?1783906652",
+  "Cultivate": "https://cards.scryfall.io/normal/front/e/6/e60deb92-f7dd-4f4e-9036-e47dd586f985.jpg?1783903229",
+  "Champion's Helm": "https://cards.scryfall.io/normal/front/c/6/c6548a30-577a-47e7-aa6e-8f6db1f7b78e.jpg?1783915603",
+  "Lightning Greaves": "https://cards.scryfall.io/normal/front/b/6/b61634ae-05be-4b56-8ebb-9d4ade902e42.jpg?1783903217",
+  "Clever Concealment": "https://cards.scryfall.io/normal/front/4/1/41d45a8a-ea1d-4fbc-86d2-5d6340f3b639.jpg?1783903251",
+  "Sram, Senior Edificer": "https://cards.scryfall.io/normal/front/8/f/8fbd18ce-0ac3-4b52-9cd0-0af7e0244207.jpg?1783903797",
+  "Dispatch": "https://cards.scryfall.io/normal/front/9/9/99d30a21-b003-4a17-a4c5-97811f230896.jpg?1783903251",
+  "Ultimate Magic: Holy": "https://cards.scryfall.io/normal/front/8/f/8fdb8414-2f08-42fb-ae0a-c7f0af1e144e.jpg?1783906364",
+  "Enlightened Tutor": "https://cards.scryfall.io/normal/front/1/c/1c9675fb-1a89-420f-aea8-50e0642f549c.jpg?1783918516",
+  "Teferi's Protection": "https://cards.scryfall.io/normal/front/4/8/483fa1cb-1e35-44f2-a143-98c0f107f5ca.jpg?1783921926",
+  "Smothering Tithe": "https://cards.scryfall.io/normal/front/8/6/861b5889-0183-4bee-afeb-a4b2aa700a8e.jpg?1783915712",
+  "Farewell": "https://cards.scryfall.io/normal/front/1/1/114d2180-093b-4838-97ad-badbc8ee50b0.jpg?1783913032",
+  "Ancient Tomb": "https://cards.scryfall.io/normal/front/b/d/bd3d4b4b-cf31-4f89-8140-9650edb03c7b.jpg?1783933762",
+  "Jeska's Will": "https://cards.scryfall.io/normal/front/9/9/99e0c371-1024-4432-9fd9-3bc29c8d38e4.jpg?1783912996",
+  "Worldly Tutor": "https://cards.scryfall.io/normal/front/f/3/f39aa2e9-e294-4ce6-bf5e-e1f579101a7a.jpg?1783918434",
+  "Sephiroth, Fallen Hero": "https://cards.scryfall.io/normal/front/d/f/df919eb8-9eff-4777-9c46-94c795cda918.jpg?1783906343",
+  "Barret, Avalanche Leader": "https://cards.scryfall.io/normal/front/2/e/2e37fd36-84f0-4869-bfae-da4b97c9725d.jpg?1783906346",
+  "Zack Fair": "https://cards.scryfall.io/normal/front/f/2/f21f9161-5945-40da-8da0-446f6a4a1c23.jpg?1783906640",
+  "Vincent, Vengeful Atoner": "https://cards.scryfall.io/normal/front/9/e/9e53d0b2-eeb0-4d54-86e5-723e05aaf6da.jpg?1783906353",
+  "Professional Face-Breaker": "https://cards.scryfall.io/normal/front/4/2/42acbf52-b137-44f0-a815-2817fe8d2da2.jpg?1783923119",
+  "Yuffie, Materia Hunter": "https://cards.scryfall.io/normal/front/1/1/117bb5db-4a1c-4704-b0b5-c67b45ac2f52.jpg?1783906353",
+  "Danitha Capashen, Paragon": "https://cards.scryfall.io/normal/front/a/1/a11f77e4-edb6-43c6-b8ca-d4f62d26d0c0.jpg?1783915725",
+  "Bastion Protector": "https://cards.scryfall.io/normal/front/1/5/1582488a-ad15-487e-9271-6d9330b46fb4.jpg?1783903254",
+  "Stoneforge Mystic": "https://cards.scryfall.io/normal/front/4/d/4d3473d0-b46f-41f5-ac1e-ba217f7747d4.jpg?1783930209",
+  "Helitrooper": "https://cards.scryfall.io/normal/front/2/0/2073f387-9cdd-4184-8704-e6031c934b6d.jpg?1783906367",
+  "Akiri, Fearless Voyager": "https://cards.scryfall.io/normal/front/f/a/fa135775-abcd-4a21-abb7-3aeb5a39df28.jpg?1783915617",
+  "Cloud, Planet's Champion": "https://cards.scryfall.io/normal/front/a/6/a6d58067-337d-43dc-b4a3-c6acc701d450.jpg?1783906437",
+  "Firion, Wild Rose Warrior": "https://cards.scryfall.io/normal/front/9/8/98366937-d15b-4a66-b9f6-878d50b63871.jpg?1783906604",
+  "Aerith, Last Ancient": "https://cards.scryfall.io/normal/front/d/0/d041a51c-9a28-4b32-9da3-0f06807959f1.jpg?1783906349",
+  "Gilgamesh, Master-at-Arms": "https://cards.scryfall.io/normal/front/1/e/1eb81329-fb7a-4347-b96c-9960a5c48e87.jpg?1783906605",
+  "Lightning, Army of One": "https://cards.scryfall.io/normal/front/1/1/1103da9c-300c-406b-997d-9e5bb7cd02d6.jpg?1783906566",
+  "Kutzil, Malamet Exemplar": "https://cards.scryfall.io/normal/front/c/9/c9f88a40-a6ed-4c1f-a309-011aca1acddd.jpg?1783913732",
+  "Codsworth, Handy Helper": "https://cards.scryfall.io/normal/front/b/b/bbdfbd21-61b1-4ebd-8d37-bce2a391a7e9.jpg?1783912418",
+  "Bronze Guardian": "https://cards.scryfall.io/normal/front/8/c/8cd5cc66-2ade-4142-9269-7d9905b029e5.jpg?1783927610",
+  "Kellan, the Fae-Blooded // Birthright Boon": "https://cards.scryfall.io/normal/front/e/c/ec5e2680-8b42-4571-ab45-4936aec51901.jpg?1783915063",
+  "Bruenor Battlehammer": "https://cards.scryfall.io/normal/front/5/3/53e1eb00-412e-4c25-bc7b-6d074330fd97.jpg?1783926450",
+  "Elena, Turk Recruit": "https://cards.scryfall.io/normal/front/d/1/d16553a3-65c3-4dec-af92-123d1e5dce10.jpg?1783906368",
+  "Armory Automaton": "https://cards.scryfall.io/normal/front/c/c/cc0be4ff-c346-4c22-8357-9a2383a53469.jpg?1783937081",
+  "Birds of Paradise": "https://cards.scryfall.io/normal/front/4/9/492c2f9a-51e7-4e0f-9899-23bf43ea988b.jpg?1783903230",
+  "Bureau Headmaster": "https://cards.scryfall.io/normal/front/5/8/58766566-6e19-4f74-bfce-5a61429ffaa9.jpg?1783910891",
+  "Ardenn, Intrepid Archaeologist": "https://cards.scryfall.io/normal/front/7/2/728b802c-969b-4865-b7a0-871c585d097a.jpg?1783928890",
+  "Halvar, God of Battle // Sword of the Realms": "https://cards.scryfall.io/normal/front/9/7/97502411-5c93-434c-b77b-ceb2c32feae7.jpg?1783928291",
+  "Raubahn, Bull of Ala Mhigo": "https://cards.scryfall.io/normal/front/7/0/7035d11b-525f-4120-8dcb-610095196681.jpg?1783906599",
+  "Esper Sentinel": "https://cards.scryfall.io/normal/front/f/3/f3537373-ef54-4578-9d05-6216420ee349.jpg?1783926893",
+  "Barret Wallace": "https://cards.scryfall.io/normal/front/1/a/1a504dff-5857-4a61-ab99-616d5df7cf5a.jpg?1783906607",
+  "Cait Sith, Fortune Teller": "https://cards.scryfall.io/normal/front/3/e/3e0f6c53-6bbf-4d4c-bbbf-4dab22297527.jpg?1783906357",
+  "Hellkite Tyrant": "https://cards.scryfall.io/normal/front/a/7/a7cb4100-1696-4393-8f1f-634018e0b78f.jpg?1783908487",
+  "Nahiri, Forged in Fury": "https://cards.scryfall.io/normal/front/9/0/90eb0859-d24e-4703-8930-1cd4ac1fb3b6.jpg?1783916513",
+  "Reyav, Master Smith": "https://cards.scryfall.io/normal/front/9/0/90307dd6-196d-4d51-9b3f-6ff339882d31.jpg?1783928769",
+  "Kodama of the West Tree": "https://cards.scryfall.io/normal/front/e/f/ef1e1dff-b559-441d-8df3-b6a418066aca.jpg?1783923845",
+  "Freya Crescent": "https://cards.scryfall.io/normal/front/9/9/9921f646-e893-44db-ac89-0633c1009788.jpg?1783906604",
+  "Armored Skyhunter": "https://cards.scryfall.io/normal/front/7/0/707e9d2e-3934-4b90-878d-4699ac1cbe89.jpg?1783903813",
+  "Danitha, New Benalia's Light": "https://cards.scryfall.io/normal/front/0/3/039e43f2-cf3b-4c60-ac55-d2aafb20eb34.jpg?1783916517",
+  "Weapons Vendor": "https://cards.scryfall.io/normal/front/c/9/c9e6b374-3e44-4df7-b0a3-4ef98dc08267.jpg?1783906642",
+  "Heidegger, Shinra Executive": "https://cards.scryfall.io/normal/front/8/e/8e216baf-0e3c-4173-a852-5c5aeb3a9d79.jpg?1783906367",
+  "Delighted Halfling": "https://cards.scryfall.io/normal/front/9/1/9158f904-bf34-4cc0-9a6c-34893da29f22.jpg?1784631828",
+  "Beatrix, Loyal General": "https://cards.scryfall.io/normal/front/9/d/9da83b07-4978-4af7-be51-8aa8f35ec0bb.jpg?1783906435",
+  "Avalanche of Sector 7": "https://cards.scryfall.io/normal/front/2/0/20a87dbc-5deb-42ae-9097-806e9a27466f.jpg?1783906357",
+  "Amy Rose": "https://cards.scryfall.io/normal/front/6/a/6ac0c02f-6428-4ed0-bd1a-bf9f4af9c3c1.jpg?1783906091",
+  "Adelbert Steiner": "https://cards.scryfall.io/normal/front/1/a/1a67a991-1e52-4676-a2e3-2bc7aa943ab3.jpg?1783906656",
+  "Chishiro, the Shattered Blade": "https://cards.scryfall.io/normal/front/b/f/bffa36ac-137d-481c-b1b7-76a88ef15d54.jpg?1783924001",
+  "Godo, Bandit Warlord": "https://cards.scryfall.io/normal/front/0/1/01d566cf-cb32-461d-8afe-b0f3f4c24160.jpg?1783915653",
+  "Aurelia, the Warleader": "https://cards.scryfall.io/normal/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+  "Summon: Kujata": "https://cards.scryfall.io/normal/front/b/a/ba934866-efd0-4126-b1ff-9c7e82b73bd6.jpg?1783906353",
+  "Dogmeat, Ever Loyal": "https://cards.scryfall.io/normal/front/8/6/86b45e3e-8460-4678-87d1-d74479936c83.jpg?1783912422",
+  "Cloud's Limit Break": "https://cards.scryfall.io/normal/front/1/e/1eb10082-4f0a-41f9-9a70-0d3c7ead249f.jpg?1783906371",
+  "Swords to Plowshares": "https://cards.scryfall.io/normal/front/b/4/b4e9c870-23c0-413a-ae39-265f09da16d1.jpg?1783903243",
+  "Chaos Warp": "https://cards.scryfall.io/normal/front/f/b/fb8d8106-b9bd-405c-886e-72fc301c65e1.jpg?1785759418",
+  "Path to Exile": "https://cards.scryfall.io/normal/front/9/5/95ca89ea-1200-4bb4-ae4b-af35d3ccd35b.jpg?1783903242",
+  "Heroic Intervention": "https://cards.scryfall.io/normal/front/e/3/e32c67d1-187f-40df-b3b3-6036f5c92834.jpg?1783915629",
+  "Lifestream's Blessing": "https://cards.scryfall.io/normal/front/4/8/48b4101b-3428-4b6b-818a-6097a093e9b5.jpg?1783906352",
+  "Inventory Management": "https://cards.scryfall.io/normal/front/7/a/7a1acb59-a679-4c6d-8458-8fe5556b9d4d.jpg?1783912388",
+  "Boros Charm": "https://cards.scryfall.io/normal/front/e/0/e0d8c9f6-cbbd-4694-b100-01cfb81036cc.jpg?1783908890",
+  "Stroke of Midnight": "https://cards.scryfall.io/normal/front/b/0/b000f605-177f-459d-a197-fcf54efec2fb.jpg?1783907118",
+  "Deflecting Swat": "https://cards.scryfall.io/normal/front/b/4/b4b36435-55b3-4615-8812-af41d4fc64d9.jpg?1783915656",
+  "Akroma's Will": "https://cards.scryfall.io/normal/front/6/0/608cdbdb-6f7e-438a-bab0-0e7782435f0f.jpg?1783913897",
+  "Generous Gift": "https://cards.scryfall.io/normal/front/c/3/c3f9b454-97e9-4c77-b37a-e974221ae385.jpg?1783903247",
+  "Beast Within": "https://cards.scryfall.io/normal/front/4/0/400b43aa-c1d2-4435-b863-061f43889422.jpg?1783903232",
+  "Flawless Maneuver": "https://cards.scryfall.io/normal/front/a/b/ab12f69e-1491-47a8-8c46-d85bbf637ff6.jpg?1783915723",
+  "Tifa's Limit Break": "https://cards.scryfall.io/normal/front/2/4/24d6eab7-22bd-494f-8cbe-204446f24be9.jpg?1783906579",
+  "Restoration Magic": "https://cards.scryfall.io/normal/front/4/9/494e68e9-ecba-4482-82bc-207ad59144c1.jpg?1783906646",
+  "Legion Leadership // Legion Stronghold": "https://cards.scryfall.io/normal/front/7/6/7676abd9-0a3d-4721-b17b-778d2e3c2e25.jpg?1783911225",
+  "Rampant Growth": "https://cards.scryfall.io/normal/front/b/7/b7c47024-5e08-4b17-b41a-7647f8b814b9.jpg?1783907042",
+  "Vandalblast": "https://cards.scryfall.io/normal/front/7/1/71067239-d46f-4201-a91c-6aa4c41fa8b1.jpg?1783903232",
+  "Austere Command": "https://cards.scryfall.io/normal/front/a/8/a8bc7912-e201-468a-b251-140205cb741c.jpg?1783903253",
+  "Unfinished Business": "https://cards.scryfall.io/normal/front/7/6/76c9b6c1-05de-4c16-8ebf-ea68aa110a69.jpg?1783906279",
+  "Vanquish the Horde": "https://cards.scryfall.io/normal/front/f/3/f392782b-7464-4617-b421-6b5d0e2880fc.jpg?1783903241",
+  "Steelshaper's Gift": "https://cards.scryfall.io/normal/front/5/5/55d61383-b739-4422-a76c-d8cbca13c5b2.jpg?1783915711",
+  "Open the Armory": "https://cards.scryfall.io/normal/front/6/d/6db45698-9da9-4cea-b9bf-0f84ab276b51.jpg?1783928877",
+  "Farseek": "https://cards.scryfall.io/normal/front/c/1/c1aac0f5-1d01-4673-b8d3-878d9a1d423c.jpg?1783903231",
+  "Harmonize": "https://cards.scryfall.io/normal/front/b/d/bd7138fb-6aa7-455e-b1f7-ca08d747277d.jpg?1783903229",
+  "Decimate": "https://cards.scryfall.io/normal/front/c/f/cf0e68bc-8de8-4ff8-a39a-8da95f71d843.jpg?1783911901",
+  "Ultimate Magic: Meteor": "https://cards.scryfall.io/normal/front/b/5/b5b0f0fd-574a-4ae7-ab55-b815112d6b3a.jpg?1783906353",
+  "Secret Rendezvous": "https://cards.scryfall.io/normal/front/9/b/9be712b3-14ed-4a73-b3d3-5b76b2c5db64.jpg?1783903802",
+  "Three Visits": "https://cards.scryfall.io/normal/front/9/9/99bf792f-963e-4509-8d3c-7db129c6a77f.jpg?1783903227",
+  "Nibelheim Aflame": "https://cards.scryfall.io/normal/front/3/d/3d3e926a-74af-4996-849f-d31e0fdedeae.jpg?1783906601",
+  "Blasphemous Act": "https://cards.scryfall.io/normal/front/7/d/7d4b1d44-126e-4987-9a9f-f0f9627a09cb.jpg?1783903234",
+  "Kodama's Reach": "https://cards.scryfall.io/normal/front/9/0/90c423cc-1264-4067-9c50-e7c88c68ef2d.jpg?1783904544",
+  "Chandra's Ignition": "https://cards.scryfall.io/normal/front/9/6/960f45a3-f9cf-41e6-b813-f3dee620a944.jpg?1783913867",
+  "Full Throttle": "https://cards.scryfall.io/normal/front/d/9/d91f7cad-89e8-45cb-a78e-b35b0ee64783.jpg?1783907882",
+  "Behemoth Sledge": "https://cards.scryfall.io/normal/front/1/7/179461b8-0a6b-48c5-9d1f-db8bcfecc6f9.jpg?1783926182",
+  "Trailblazer's Boots": "https://cards.scryfall.io/normal/front/a/a/aa05985b-e2cb-412f-a2ad-b8d723d9f451.jpg?1783911885",
+  "Darksteel Plate": "https://cards.scryfall.io/normal/front/3/f/3f99fb1e-99a6-4c83-98eb-7bff23996a7f.jpg?1783921791",
+  "Hero's Blade": "https://cards.scryfall.io/normal/front/6/f/6f2fa911-5735-4ee2-828f-59dea6927b20.jpg?1783903219",
+  "Conformer Shuriken": "https://cards.scryfall.io/normal/front/0/1/019615fa-4bec-41e8-9c4c-2c6f91bdefb2.jpg?1783906341",
+  "Genji Glove": "https://cards.scryfall.io/normal/front/f/7/f724dde1-84b0-4e3b-a9b8-44cd22bb9f79.jpg?1783906558",
+  "The Reaver Cleaver": "https://cards.scryfall.io/normal/front/5/b/5bcd1591-b5b9-49fc-9f2a-45f31ed1871e.jpg?1783921476",
+  "Sword of Feast and Famine": "https://cards.scryfall.io/normal/front/c/7/c7710eb5-c56a-437b-8847-2a829c404d47.jpg?1783930094",
+  "Swiftfoot Boots": "https://cards.scryfall.io/normal/front/0/3/03f7e9fc-8e59-45c1-90fc-1d04d929b292.jpg?1785759388",
+  "Blackblade Reforged": "https://cards.scryfall.io/normal/front/2/4/240448cd-c308-49ae-9e4b-0c35adc59fba.jpg?1783921401",
+  "Hero's Heirloom": "https://cards.scryfall.io/normal/front/5/b/5b7c0d2d-7107-4599-8d49-c7c57d21e467.jpg?1783921268",
+  "Hammer of Nazahn": "https://cards.scryfall.io/normal/front/e/7/e77a8ac1-f40d-423e-a0b3-0a8e236a6c1e.jpg?1783915599",
+  "Inspiring Statuary": "https://cards.scryfall.io/normal/front/4/f/4f7e4c0a-683b-4b22-9ea5-ed6470b8b1d7.jpg?1783912973",
+  "Shadowspear": "https://cards.scryfall.io/normal/front/9/3/939c6e19-4b27-4023-bb9c-ae440f91e21c.jpg?1783931515",
+  "Excalibur, Sword of Eden": "https://cards.scryfall.io/normal/front/2/6/26dbf574-3193-413e-a982-4b9d27dafaf5.jpg?1783910966",
+  "Mask of Memory": "https://cards.scryfall.io/normal/front/b/a/ba275c02-8581-46a0-9c7c-8baa0fdb4982.jpg?1783928754",
+  "Ultima Weapon": "https://cards.scryfall.io/normal/front/b/9/b9162d08-a6ba-4e6e-b82c-9b092bd781dd.jpg?1783906432",
+  "Aettir and Priwen": "https://cards.scryfall.io/normal/front/0/3/038710ca-c756-4e66-a9de-278e676c9f5b.jpg?1783906559",
+  "Kaldra Compleat": "https://cards.scryfall.io/normal/front/5/7/572fb0dc-d876-4e1b-91d1-9c595f6f6f04.jpg?1783915404",
+  "Mithril Coat": "https://cards.scryfall.io/normal/front/b/1/b19d533b-0081-4744-8fc8-5e864ddb39ba.jpg?1784980202",
+  "Nettlecyst": "https://cards.scryfall.io/normal/front/0/a/0a7cb0f8-2946-4b00-a192-0b31c8e1ec5c.jpg?1783912971",
+  "Sword of Fire and Ice": "https://cards.scryfall.io/normal/front/2/6/2626d4c9-fcef-4057-a154-7d987a4a4b84.jpg?1783930092",
+  "Skullclamp": "https://cards.scryfall.io/normal/front/1/d/1d8b007b-3169-4ee3-80c7-781fc096fc7a.jpg?1783903215",
+  "Embercleave": "https://cards.scryfall.io/normal/front/a/a/aaae15dd-11b6-4421-99e9-365c7fe4a5d6.jpg?1783932625",
+  "Loxodon Warhammer": "https://cards.scryfall.io/normal/front/1/3/13eeff85-9e4a-46c9-841f-f3b1c556ef18.jpg?1783927510",
+  "Brotherhood Regalia": "https://cards.scryfall.io/normal/front/8/a/8a6439a6-288d-427e-b14b-a99e8ef8c5cd.jpg?1783910968",
+  "Helm of the Host": "https://cards.scryfall.io/normal/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218",
+  "Adaptive Omnitool": "https://cards.scryfall.io/normal/front/1/6/1603aab8-731c-407a-bb44-625c36ace43e.jpg?1783907750",
+  "Explorer's Scope": "https://cards.scryfall.io/normal/front/b/e/be120499-fe2f-4c21-982c-566d0dbbddff.jpg?1783915601",
+  "Basilisk Collar": "https://cards.scryfall.io/normal/front/7/b/7b36fba7-71f7-4b7f-bde5-b3a9752ad21c.jpg?1783908907",
+  "Bloodforged Battle-Axe": "https://cards.scryfall.io/normal/front/1/4/14f12690-377e-46ae-bbae-f17c27b6acb4.jpg?1783917119",
+  "Hexplate Wallbreaker": "https://cards.scryfall.io/normal/front/f/7/f75e6145-79a4-4400-8e0a-c334e4a780fb.jpg?1783918159",
+  "Umezawa's Jitte": "https://cards.scryfall.io/normal/front/3/b/3b6e5956-f795-451b-bb24-56462d1ced27.jpg?1783944176",
+  "Masterwork of Ingenuity": "https://cards.scryfall.io/normal/front/8/0/80b38b13-fc19-4ffc-8100-249f9eb8cca6.jpg?1783926169",
+  "Sunforger": "https://cards.scryfall.io/normal/front/d/d/dd3e42ee-ab13-460b-90fd-86e677abce4f.jpg?1783928686",
+  "Sword of Hearth and Home": "https://cards.scryfall.io/normal/front/a/1/a16fabbe-4557-4067-b882-f2e5dbd8b458.jpg?1783926799",
+  "Dragonfire Blade": "https://cards.scryfall.io/normal/front/0/3/031afea3-fbfb-4663-a8cc-9b7eb7b16020.jpg?1783907290",
+  "Machinist's Arsenal": "https://cards.scryfall.io/normal/front/f/f/ff976428-2145-4630-aab1-08870b90b2f0.jpg?1783906647",
+  "Bitterthorn, Nissa's Animus": "https://cards.scryfall.io/normal/front/9/2/926cbd68-3b66-4ccc-a7c9-fb20e38a3126.jpg?1783903741",
+  "Leyline Axe": "https://cards.scryfall.io/normal/front/b/9/b9c03336-a321-4c06-94d1-809f328fabd8.jpg?1783909089",
+  "Caduceus, Staff of Hermes": "https://cards.scryfall.io/normal/front/2/b/2b60f18e-4709-4b91-a342-74eb3fca71e1.jpg?1783910988",
+  "Samurai's Katana": "https://cards.scryfall.io/normal/front/1/1/11f1d378-c78c-402a-ac46-2d32598c23e7.jpg?1783906598",
+  "Pip-Boy 3000": "https://cards.scryfall.io/normal/front/c/2/c2248694-aab0-47a8-ae8b-8d5283075e10.jpg?1783912377",
+  "Sword of Forge and Frontier": "https://cards.scryfall.io/normal/front/2/d/2daa3621-8a2c-4b4b-87ac-f981192a0567.jpg?1783917985",
+  "Commander's Plate": "https://cards.scryfall.io/normal/front/1/9/19992dbd-7a6a-43d3-b1db-01716b2eed27.jpg?1783928762",
+  "Power Fist": "https://cards.scryfall.io/normal/front/9/e/9e8f7fbc-bf2a-43c1-a88d-807c1e7dab69.jpg?1783912396",
+  "Sword of Light and Shadow": "https://cards.scryfall.io/normal/front/b/3/b378c8bf-85ed-4d28-aec9-4925d12bca4a.jpg?1783930094",
+  "Dancer's Chakrams": "https://cards.scryfall.io/normal/front/2/7/27ec595f-406b-4539-8d2e-eb98df1a0fc9.jpg?1783906369",
+  "Bladehold War-Whip": "https://cards.scryfall.io/normal/front/5/6/563e9ba5-e0ec-4fb3-8301-689aa145cc19.jpg?1783918004",
+  "Sword of Wealth and Power": "https://cards.scryfall.io/normal/front/e/d/ed9e5041-3c05-4a8a-9f00-081b01685d0c.jpg?1784634311",
+  "Forge Anew": "https://cards.scryfall.io/normal/front/5/6/56274b88-6e3f-4538-bb0c-eb5e52a58ef3.jpg?1783916332",
+  "Sigarda's Aid": "https://cards.scryfall.io/normal/front/5/3/531da950-dc96-4050-94a8-e01b73ddd965.jpg?1783928726",
+  "Fighter Class": "https://cards.scryfall.io/normal/front/d/5/d54a8329-b940-42c9-8ace-1d74407d14cb.jpg?1783926448",
+  "SOLDIER Military Program": "https://cards.scryfall.io/normal/front/d/d/dddad2c2-bd19-42bd-aad6-bbf23ccef269.jpg?1783906364",
+  "Aggravated Assault": "https://cards.scryfall.io/normal/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+  "Annie Joins Up": "https://cards.scryfall.io/normal/front/1/6/1624a5f4-f5bc-47c9-85de-c5520ee234ce.jpg?1783911799",
+  "Furious Rise": "https://cards.scryfall.io/normal/front/1/f/1f5da1ab-d720-4140-8121-89de760d020c.jpg?1783915653",
+  "Mantle of the Ancients": "https://cards.scryfall.io/normal/front/8/6/867124fc-c8e4-4e0e-be41-b74a6bb34e86.jpg?1783926258",
+  "Strong Back": "https://cards.scryfall.io/normal/front/3/f/3f65afa5-e4f7-49c2-97f9-47ad5dbcacfa.jpg?1783912396",
+  "Super State": "https://cards.scryfall.io/normal/front/a/6/a6a39919-a521-4e96-a47a-e09ac4d783bf.jpg?1783906091",
+  "Slayers' Stronghold": "https://cards.scryfall.io/normal/front/3/b/3b2c82ea-6793-407c-ac9f-5fc14d4d09ea.jpg?1783912951",
+  "Bonders' Enclave": "https://cards.scryfall.io/normal/front/d/1/d174f42c-dcf2-4da9-812b-7e1d0991d466.jpg?1783911885",
+  "Scavenger Grounds": "https://cards.scryfall.io/normal/front/9/f/9fbe68ba-ffe5-4fe0-ac0a-0b3221e4f395.jpg?1783903197",
+  "Rogue's Passage": "https://cards.scryfall.io/normal/front/4/4/4493b62b-f354-47ff-9dcf-cc6e29de77c6.jpg?1785497634",
+  "Ishgard, the Holy See // Faith & Grief": "https://cards.scryfall.io/normal/front/0/6/068bc755-9d3d-430b-abc5-c775a5415bf9.jpg?1783906548",
+  "Boseiju, Who Endures": "https://cards.scryfall.io/normal/front/2/1/2135ac5a-187b-4dc9-8f82-34e8d1603416.jpg?1783923818",
+  "Reliquary Tower": "https://cards.scryfall.io/normal/front/e/2/e2a27742-08c1-4153-af7f-25a7a98f585e.jpg?1783903721",
+  "Urza's Saga": "https://cards.scryfall.io/normal/front/c/1/c1e0f201-42cb-46a1-901a-65bb4fc18f6c.jpg?1783926791",
+  "Kessig Wolf Run": "https://cards.scryfall.io/normal/front/3/2/32da0d6c-64dd-4aec-b63e-953e96164603.jpg?1783906980",
+  "Buried Ruin": "https://cards.scryfall.io/normal/front/7/a/7ab1a074-9d92-4125-9200-84cd035f8f53.jpg?1783906016",
+  "Yavimaya, Cradle of Growth": "https://cards.scryfall.io/normal/front/4/e/4e4b6e22-93b2-4896-bba5-0ceaa5d8ea3c.jpg?1783926791",
+  "Command Beacon": "https://cards.scryfall.io/normal/front/4/3/435e9678-9ff3-4e5d-8061-3f806e1c2ed2.jpg?1783906993",
+  "Inventors' Fair": "https://cards.scryfall.io/normal/front/2/7/275471e3-ded1-40ac-91ef-369dce5764d9.jpg?1783937144",
+  "Axgard Armory": "https://cards.scryfall.io/normal/front/f/9/f9c77d35-8418-48fb-b7d7-7cfa763545c5.jpg?1783928180",
+  "Sol Ring": "https://cards.scryfall.io/normal/front/9/1/91fdb56b-54d5-4272-8319-505ff987fe9b.jpg?1783903215",
+  "Arcane Signet": "https://cards.scryfall.io/normal/front/1/c/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd.jpg?1783903222",
+  "Summoning Materia": "https://cards.scryfall.io/normal/front/1/7/176401fb-f87c-4085-9dac-e6c8a843e32e.jpg?1783906350",
+  "The Aetherspark": "https://cards.scryfall.io/normal/front/0/5/05690d52-06c4-40b1-8360-380418a83250.jpg?1783907850",
+  "Talisman of Conviction": "https://cards.scryfall.io/normal/front/a/3/a365885c-f7d9-4ea1-9125-5265055e5570.jpg?1783903211",
+  "Fellwar Stone": "https://cards.scryfall.io/normal/front/3/e/3ef87948-0ad9-4757-a692-2262c8e24367.jpg?1785759354",
+  "Talisman of Unity": "https://cards.scryfall.io/normal/front/8/9/89e8443d-daf4-4cef-9080-d7568b5c540e.jpg?1783912968",
+  "Talisman of Impulse": "https://cards.scryfall.io/normal/front/5/1/5135919f-7b10-4a2e-a98a-83ed1347ad36.jpg?1783907005",
+  "Plains": "https://cards.scryfall.io/normal/front/7/b/7b7c408b-8660-4db5-9a16-5003c11b4ac1.jpg?1785323349",
+  "Mountain": "https://cards.scryfall.io/normal/front/c/4/c49d378e-9549-4320-b3c6-1aeb216d1e98.jpg?1785323363",
+  "Forest": "https://cards.scryfall.io/normal/front/c/3/c3e84b42-5423-4d4d-b8fc-cfbb2c53a4ca.jpg?1785323365",
+  "Command Tower": "https://cards.scryfall.io/normal/front/0/5/0548fb60-c843-4f8f-a029-6f10efc63a41.jpg?1783903206",
+  "Clifftop Retreat": "https://cards.scryfall.io/normal/front/4/a/4a7f7767-1959-4812-8654-0a22634096b1.jpg?1783903206",
+  "Exotic Orchard": "https://cards.scryfall.io/normal/front/d/1/d11c5fe0-1528-4c94-a8cc-42bcab9d7487.jpg?1785759427",
+  "Sunpetal Grove": "https://cards.scryfall.io/normal/front/e/8/e83092ee-4a90-4eac-915f-3fd01b7d9bd0.jpg?1783903191",
+  "Rootbound Crag": "https://cards.scryfall.io/normal/front/4/2/42d174e5-b8c2-45eb-8e08-1b94fc27cbee.jpg?1783903194",
+  "Battlefield Forge": "https://cards.scryfall.io/normal/front/c/4/c47c1bf5-f11e-4f86-b20b-5d899a11dc56.jpg?1783903735",
+  "Canopy Vista": "https://cards.scryfall.io/normal/front/3/6/369e6485-fbc7-45f9-ac9d-2e26dd94f2d5.jpg?1783903209",
+  "Jungle Shrine": "https://cards.scryfall.io/normal/front/0/b/0b1a84b6-4202-4413-80ed-4142c51e619a.jpg?1783904523",
+  "Cinder Glade": "https://cards.scryfall.io/normal/front/e/c/ec93087a-5728-40e8-8625-a1d175d5252c.jpg?1783903207",
+  "Brushland": "https://cards.scryfall.io/normal/front/1/8/18d236ce-3b78-403a-b5f9-4fb44123d85b.jpg?1783920007",
+  "Spire of Industry": "https://cards.scryfall.io/normal/front/3/5/35e9ec06-a848-4230-84a2-19cb8034e0f0.jpg?1783906004",
+  "Rugged Prairie": "https://cards.scryfall.io/normal/front/6/b/6bd21c9e-de16-4ee9-ae16-6e82b490109d.jpg?1783903721",
+  "Path of Ancestry": "https://cards.scryfall.io/normal/front/b/1/b1aaa7b0-1cac-4a92-b880-7ef1ac00618f.jpg?1785759407",
+  "Fire-Lit Thicket": "https://cards.scryfall.io/normal/front/1/9/1927d645-ca43-4b8e-9932-7e70acca7aa6.jpg?1783930083",
+  "Fortified Village": "https://cards.scryfall.io/normal/front/1/5/15f81ac6-a550-4782-a3a9-22d7fef1c206.jpg?1783903201",
+  "Furycalm Snarl": "https://cards.scryfall.io/normal/front/a/f/afc12892-4978-4442-ace5-c4dea5c0ee00.jpg?1783903200",
+  "Game Trail": "https://cards.scryfall.io/normal/front/2/a/2a84a604-7b05-4716-bcd8-40d2acdb76e8.jpg?1783912962",
+  "Sungrass Prairie": "https://cards.scryfall.io/normal/front/8/4/841f369e-6532-469c-8565-78094b33a3d9.jpg?1783903191",
+  "Sunscorched Divide": "https://cards.scryfall.io/normal/front/e/a/eae999f9-9c58-4609-8ade-aca0acf07519.jpg?1783903718",
+  "Mossfire Valley": "https://cards.scryfall.io/normal/front/2/9/29208018-8079-44bc-b33b-21cda4709bf2.jpg?1783906978",
+  "Evolving Wilds": "https://cards.scryfall.io/normal/front/c/0/c0318a48-30e4-4ef7-be3d-5e561c5ce428.jpg?1783903203",
+  "Sacred Foundry": "https://cards.scryfall.io/normal/front/a/7/a7758cc6-4e18-48a5-8720-5f42b5cd9d31.jpg?1784036842",
+  "Stomping Ground": "https://cards.scryfall.io/normal/front/1/e/1ee8255a-44f6-4faa-9843-15432bf751ea.jpg?1784065855",
+  "Radiant Grove": "https://cards.scryfall.io/normal/front/4/6/466fd4e6-f1dd-40c9-92df-1da48ab729d6.jpg?1783906973",
+  "Temple Garden": "https://cards.scryfall.io/normal/front/b/9/b9b0589d-f327-46a7-8bac-06b7654c547a.jpg?1784036854",
+  "Sacred Peaks": "https://cards.scryfall.io/normal/front/e/e/ee2d6798-b19d-4628-bb57-05663ab4af68.jpg?1783903721",
+  "Wooded Ridgeline": "https://cards.scryfall.io/normal/front/e/8/e8e31184-dca4-48b1-be9d-581247c41d99.jpg?1783921254",
+  "Ash Barrens": "https://cards.scryfall.io/normal/front/e/8/e8510205-4baa-4f1c-bf64-5d931e2ddf48.jpg?1783904155",
+  "Jetmir's Garden": "https://cards.scryfall.io/normal/front/2/6/26d40e03-6de4-4373-9fbf-04c1dd79e995.jpg?1783923058",
+  "Windswept Heath": "https://cards.scryfall.io/normal/front/b/d/bd1d13f7-fd38-4f0b-a8e0-1eac78668117.jpg?1783911233",
+  "Wooded Foothills": "https://cards.scryfall.io/normal/front/4/e/4e11ea8a-f895-438d-a3b7-f070238e4161.jpg?1783911232",
+  "Arid Mesa": "https://cards.scryfall.io/normal/front/2/5/25ac5405-df7b-4097-914a-022cb18e20d4.jpg?1783926797",
+  "Spectator Seating": "https://cards.scryfall.io/normal/front/4/c/4c62dcfc-4bc8-4551-b3c7-9eec26be3362.jpg?1783903192",
+  "Bountiful Promenade": "https://cards.scryfall.io/normal/front/f/0/f0b11ba3-68ba-4067-af40-2a55e31b395e.jpg?1783903209",
+  "Spire Garden": "https://cards.scryfall.io/normal/front/4/8/48444c3e-2068-4961-a9cd-9398052e5bd6.jpg?1783904149",
+  "Overgrown Farmland": "https://cards.scryfall.io/normal/front/6/4/644fb0ed-f434-4cc4-b7e9-a60db5ece2b7.jpg?1783906975",
+  "Sundown Pass": "https://cards.scryfall.io/normal/front/b/3/b34000e9-ff20-4fb4-9d0b-03a172a92457.jpg?1783903618",
+  "Rockfall Vale": "https://cards.scryfall.io/normal/front/d/c/dcdea659-ecaf-4abe-be0f-64e105abb104.jpg?1783906974",
+  "Karplusan Forest": "https://cards.scryfall.io/normal/front/6/7/67198b97-bac2-480f-aea8-12841e8884de.jpg?1783906010",
+  "Hushwood Verge": "https://cards.scryfall.io/normal/front/e/c/ec288d76-c1f5-471b-8a53-504f88469c1b.jpg?1783909428",
+  "Sunbillow Verge": "https://cards.scryfall.io/normal/front/9/4/94ed132f-b818-4dbf-9b4a-e5acb067e0a4.jpg?1783907839",
+  "Thornspire Verge": "https://cards.scryfall.io/normal/front/7/e/7e1cdc03-6faa-4138-9a52-caafbe34fb59.jpg?1783909426",
+  "Starting Town": "https://cards.scryfall.io/normal/front/f/c/fc7d1912-7e27-49ef-bd98-375d975a42b0.jpg?1783906546",
+  "Plateau": "https://cards.scryfall.io/normal/front/b/b/bb979a96-a57d-4fb5-8ebe-0bd398272abe.jpg?1783939220",
+  "Savannah": "https://cards.scryfall.io/normal/front/b/0/b0d161fc-4a2a-4f1d-82b4-a746552552df.jpg?1783939219",
+  "Taiga": "https://cards.scryfall.io/normal/front/0/c/0c2c39fc-b564-4ab5-833c-ff029760b7a7.jpg?1783939218",
+  "Kellan, the Fae-Blooded": "https://cards.scryfall.io/normal/front/e/c/ec5e2680-8b42-4571-ab45-4936aec51901.jpg?1783915063",
+  "Halvar, God of Battle": "https://cards.scryfall.io/normal/front/9/7/97502411-5c93-434c-b77b-ceb2c32feae7.jpg?1783928291",
+  "Legion Leadership": "https://cards.scryfall.io/normal/front/7/6/7676abd9-0a3d-4721-b17b-778d2e3c2e25.jpg?1783911225",
+  "Ishgard, the Holy See": "https://cards.scryfall.io/normal/front/0/6/068bc755-9d3d-430b-abc5-c775a5415bf9.jpg?1783906548",
+  "Crackdown Construct": "https://cards.scryfall.io/normal/front/9/9/993bc69a-b615-48c5-af81-252a73384e8c.jpg?1783936730",
+  "Cloud, Ex-SOLDIER": "https://cards.scryfall.io/normal/front/0/7/07b4e4f8-6a31-4533-be51-668ce3ddc84f.jpg?1783906375"
+ },
+ "oracle": {
+  "Mjölnir, Hammer of Thor": "When Mjölnir enters, it deals 4 damage to up to one target creature.\nDouble all damage equipped creature would deal.\nEquip worthy {1} (A creature is worthy if it's a legendary non-Villain that's red and/or white.)\n{2}{R}, Discard this card: It deals 2 damage to each creature.",
+  "Super-Soldier Serum": "Enchant creature\nEnchanted creature gets +2/+2, has first strike and vigilance, and is a legendary Soldier in addition to its other types.\nWhenever enchanted creature attacks or blocks, attach any number of target Equipment you control to it.",
+  "Swordsman's Steel": "When this Equipment enters, draw a card for each Equipment you control.\nEquipped creature gets +2/+2 for each Equipment you control.\nEquip {3}",
+  "Captain America's Shield": "Indestructible\nEquipped creature gets +0/+8 and has vigilance.\nWhenever equipped creature attacks, tap target creature defending player controls.\nEquip {2}",
+  "Iron Man Armor": "When this Equipment enters, attach it to target creature you control.\nEquipped creature gets +2/+1 and has flying.\n{2}: If this Equipment isn't a creature, it becomes a 0/0 Construct Hero artifact creature with flying and \"This creature gets +1/+1 for each artifact you control\" until end of turn.\nEquip {2}",
+  "Puresteel Paladin": "Whenever an Equipment you control enters, you may draw a card.\nMetalcraft — Equipment you control have equip {0} as long as you control three or more artifacts.",
+  "Colossus Hammer": "Equipped creature gets +10/+10 and loses flying.\nEquip {8} ({8}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Conqueror's Flail": "Equipped creature gets +1/+1 for each color among permanents you control.\nAs long as this Equipment is attached to a creature, your opponents can't cast spells during your turn.\nEquip {2}",
+  "Red XIII, Proud Warrior": "Vigilance, trample\nOther modified creatures you control have vigilance and trample. (Equipment, Auras you control, and counters are modifications.)\nCosmo Memory — When Red XIII enters, return target Aura or Equipment card from your graveyard to your hand.",
+  "Tifa, Martial Artist": "Melee (Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)\nWhenever one or more creatures you control with power 7 or greater deal combat damage to a player, untap all creatures you control. If it's the first combat phase of your turn, there is an additional combat phase after this phase.",
+  "Sword of the Animist": "Equipped creature gets +1/+1.\nWhenever equipped creature attacks, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\nEquip {2}",
+  "Cid, Freeflier Pilot": "Equipment and Vehicle spells you cast cost {1} less to cast.\nJump — During your turn, Cid has flying.\n{2}, {T}: Return target Equipment or Vehicle card from your graveyard to your hand.",
+  "Professor Hojo": "The first activated ability you activate during your turn that targets a creature you control costs {2} less to activate.\nWhenever one or more creatures you control become the target of an activated ability, draw a card. This ability triggers only once each turn.",
+  "Wrecking Ball Arm": "Equipped creature has base power and toughness 7/7 and can't be blocked by creatures with power 2 or less.\nEquip legendary creature {3}\nEquip {7}",
+  "Buster Sword": "Equipped creature gets +3/+2.\nWhenever equipped creature deals combat damage to a player, draw a card, then you may cast a spell from your hand with mana value less than or equal to that damage without paying its mana cost.\nEquip {2}",
+  "Nature's Lore": "Search your library for a Forest card, put that card onto the battlefield, then shuffle.",
+  "Bugenhagen, Wise Elder": "Reach\nAt the beginning of your upkeep, if you control a creature with power 7 or greater, draw a card.\n{T}: Add one mana of any color.",
+  "Cloud, Midgar Mercenary": "When Cloud enters, search your library for an Equipment card, reveal it, put it into your hand, then shuffle.\nAs long as Cloud is equipped, if a triggered ability of Cloud or an Equipment attached to it triggers, that ability triggers an additional time.",
+  "Cultivate": "Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.",
+  "Champion's Helm": "Equipped creature gets +2/+2.\nAs long as equipped creature is legendary, it has hexproof. (It can't be the target of spells or abilities your opponents control.)\nEquip {1}",
+  "Lightning Greaves": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)\nEquip {0}",
+  "Clever Concealment": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nAny number of target nonland permanents you control phase out. (Treat them and anything attached to them as though they don't exist until your next turn.)",
+  "Sram, Senior Edificer": "Whenever you cast an Aura, Equipment, or Vehicle spell, draw a card.",
+  "Dispatch": "Tap target creature.\nMetalcraft — If you control three or more artifacts, exile that creature.",
+  "Ultimate Magic: Holy": "Permanents you control gain indestructible until end of turn. If this spell was cast from exile, prevent all damage that would be dealt to you this turn.\nForetell {2}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+  "Enlightened Tutor": "Search your library for an artifact or enchantment card, reveal it, then shuffle and put that card on top.",
+  "Teferi's Protection": "Until your next turn, your life total can't change and you gain protection from everything. All permanents you control phase out. (While they're phased out, they're treated as though they don't exist. They phase in before you untap during your untap step.)\nExile Teferi's Protection.",
+  "Smothering Tithe": "Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+  "Farewell": "Choose one or more —\n• Exile all artifacts.\n• Exile all creatures.\n• Exile all enchantments.\n• Exile all graveyards.",
+  "Ancient Tomb": "{T}: Add {C}{C}. This land deals 2 damage to you.",
+  "Jeska's Will": "Choose one. If you control a commander as you cast this spell, you may choose both instead.\n• Add {R} for each card in target opponent's hand.\n• Exile the top three cards of your library. You may play them this turn.",
+  "Worldly Tutor": "Search your library for a creature card, reveal it, then shuffle and put the card on top.",
+  "Sephiroth, Fallen Hero": "Jenova Cells — Whenever Sephiroth attacks, you may put a cell counter on target creature. Until end of turn, each modified creature you control has base power and toughness 7/5. (Equipment, Auras you control, and counters are modifications.)\nThe Reunion — {3}, Sacrifice a modified creature: Return this card from your graveyard to the battlefield tapped.",
+  "Barret, Avalanche Leader": "Reach\nAvalanche! — Whenever an Equipment you control enters, create a 2/2 red Rebel creature token.\nAt the beginning of combat on your turn, attach up to one target Equipment you control to target Rebel you control.",
+  "Zack Fair": "Zack Fair enters with a +1/+1 counter on it.\n{1}, Sacrifice Zack Fair: Target creature you control gains indestructible until end of turn. Put Zack Fair's counters on that creature and attach an Equipment that was attached to Zack Fair to that creature.",
+  "Vincent, Vengeful Atoner": "Menace\nWhenever one or more creatures you control deal combat damage to a player, put a +1/+1 counter on Vincent.\nChaos — Whenever Vincent deals combat damage to an opponent, it deals that much damage to each other opponent if Vincent's power is 7 or greater.",
+  "Professional Face-Breaker": "Menace\nWhenever one or more creatures you control deal combat damage to a player, create a Treasure token.\nSacrifice a Treasure: Exile the top card of your library. You may play that card this turn.",
+  "Yuffie, Materia Hunter": "Ninjutsu {1}{R} ({1}{R}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhen Yuffie enters, gain control of target noncreature artifact for as long as you control Yuffie. Then you may attach an Equipment you control to Yuffie.",
+  "Danitha Capashen, Paragon": "First strike, vigilance, lifelink\nAura and Equipment spells you cast cost {1} less to cast.",
+  "Bastion Protector": "Commander creatures you control get +2/+2 and have indestructible.",
+  "Stoneforge Mystic": "When this creature enters, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle.\n{1}{W}, {T}: You may put an Equipment card from your hand onto the battlefield.",
+  "Helitrooper": "Flying\nWhenever this creature attacks, another target attacking creature gains flying until end of turn.\nEquip abilities you activate that target this creature cost {2} less to activate.",
+  "Akiri, Fearless Voyager": "Whenever you attack a player with one or more equipped creatures, draw a card.\n{W}: You may unattach an Equipment from a creature you control. If you do, tap that creature and it gains indestructible until end of turn.",
+  "Cloud, Planet's Champion": "During your turn, as long as Cloud is equipped, it has double strike and indestructible. (This creature deals both first-strike and regular combat damage. Damage and effects that say \"destroy\" don't destroy this creature.)\nEquip abilities you activate that target Cloud cost {2} less to activate.",
+  "Firion, Wild Rose Warrior": "Equipped creatures you control have haste.\nWhenever a nontoken Equipment you control enters, create a token that's a copy of it, except it has \"This Equipment's equip abilities cost {2} less to activate.\" Sacrifice that token at the beginning of the next upkeep.",
+  "Aerith, Last Ancient": "Lifelink\nRaise — At the beginning of your end step, if you gained life this turn, return target creature card from your graveyard to your hand. If you gained 7 or more life this turn, return that card to the battlefield instead.",
+  "Gilgamesh, Master-at-Arms": "Whenever Gilgamesh enters or attacks, look at the top six cards of your library. You may put any number of Equipment cards from among them onto the battlefield. Put the rest on the bottom of your library in a random order. When you put one or more Equipment onto the battlefield this way, you may attach one of them to a Samurai you control.",
+  "Lightning, Army of One": "First strike, trample, lifelink\nStagger — Whenever Lightning deals combat damage to a player, until your next turn, if a source would deal damage to that player or a permanent that player controls, it deals double that damage instead.",
+  "Kutzil, Malamet Exemplar": "Your opponents can't cast spells during your turn.\nWhenever one or more creatures you control each with power greater than its base power deals combat damage to a player, draw a card.",
+  "Codsworth, Handy Helper": "Commanders you control have ward {2}.\n{T}: Add {W}{W}. Spend this mana only to cast Aura and/or Equipment spells.\n{T}: Attach target Aura or Equipment you control to target creature you control. Activate only as a sorcery.",
+  "Bronze Guardian": "Double strike\nWard {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)\nOther artifacts you control have ward {2}.\nBronze Guardian's power is equal to the number of artifacts you control.",
+  "Bruenor Battlehammer": "Each creature you control gets +2/+0 for each Equipment attached to it.\nYou may pay {0} rather than pay the equip cost of the first equip ability you activate each turn.",
+  "Elena, Turk Recruit": "When Elena enters, return target non-Assassin historic card from your graveyard to your hand. (Artifacts, legendaries, and Sagas are historic.)\nWhenever you cast a historic spell, put a +1/+1 counter on Elena.",
+  "Armory Automaton": "Whenever this creature enters or attacks, you may attach any number of target Equipment to it. (Control of the Equipment doesn't change.)",
+  "Birds of Paradise": "Flying\n{T}: Add one mana of any color.",
+  "Bureau Headmaster": "Equipment spells you cast cost {1} less to cast.\nEquip abilities you activate cost {1} less to activate.",
+  "Ardenn, Intrepid Archaeologist": "At the beginning of combat on your turn, you may attach any number of Auras and Equipment you control to target permanent or player.\nPartner (You can have two commanders if both have partner.)",
+  "Raubahn, Bull of Ala Mhigo": "Ward—Pay life equal to Raubahn's power.\nWhenever Raubahn attacks, attach up to one target Equipment you control to target attacking creature.",
+  "Esper Sentinel": "Whenever an opponent casts their first noncreature spell each turn, draw a card unless that player pays {X}, where X is this creature's power.",
+  "Barret Wallace": "Reach\nWhenever Barret Wallace attacks, it deals damage equal to the number of equipped creatures you control to defending player.",
+  "Cait Sith, Fortune Teller": "Lucky Slots — At the beginning of combat on your turn, scry 1, then exile the top card of your library. You may play that card this turn. When you exile a card this way, target creature you control gets +X/+0 until end of turn, where X is that card's mana value.",
+  "Hellkite Tyrant": "Flying, trample\nWhenever this creature deals combat damage to a player, gain control of all artifacts that player controls.\nAt the beginning of your upkeep, if you control twenty or more artifacts, you win the game.",
+  "Nahiri, Forged in Fury": "Affinity for Equipment (This spell costs {1} less to cast for each Equipment you control.)\nWhenever an equipped creature you control attacks, exile the top card of your library. You may play that card this turn. You may cast Equipment spells this way without paying their mana costs.",
+  "Reyav, Master Smith": "Whenever a creature you control that's enchanted or equipped attacks, that creature gains double strike until end of turn.",
+  "Kodama of the West Tree": "Reach\nModified creatures you control have trample. (Equipment, Auras you control, and counters are modifications.)\nWhenever a modified creature you control deals combat damage to a player, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+  "Freya Crescent": "Jump — During your turn, Freya Crescent has flying.\n{T}: Add {R}. Spend this mana only to cast an Equipment spell or activate an equip ability.",
+  "Armored Skyhunter": "Flying\nWhenever this creature attacks, look at the top six cards of your library. You may put an Aura or Equipment card from among them onto the battlefield. If an Equipment is put onto the battlefield this way, you may attach it to a creature you control. Put the rest of those cards on the bottom of your library in a random order.",
+  "Danitha, New Benalia's Light": "Vigilance, trample, lifelink\nOnce during each of your turns, you may cast an Aura or Equipment spell from your graveyard.",
+  "Weapons Vendor": "When this creature enters, draw a card.\nAt the beginning of combat on your turn, if you control an Equipment, you may pay {1}. When you do, attach target Equipment you control to target creature you control.",
+  "Heidegger, Shinra Executive": "At the beginning of combat on your turn, target creature you control gets +X/+0 until end of turn, where X is the number of Soldiers you control.\nAt the beginning of your end step, create a number of 1/1 white Soldier creature tokens equal to the number of opponents who control more creatures than you.",
+  "Delighted Halfling": "{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a legendary spell, and that spell can't be countered.",
+  "Beatrix, Loyal General": "Vigilance (Attacking doesn't cause this creature to tap.)\nAt the beginning of combat on your turn, you may attach any number of Equipment you control to target creature you control.",
+  "Avalanche of Sector 7": "Menace\nAvalanche of Sector 7's power is equal to the number of artifacts your opponents control.\nWhenever an opponent activates an ability of an artifact they control, Avalanche of Sector 7 deals 1 damage to that player.",
+  "Amy Rose": "Haste\nWhenever Amy Rose attacks, attach up to one target Equipment to her. Then up to one other target attacking creature gets +X/+0 until end of turn, where X is Amy Rose's power.",
+  "Adelbert Steiner": "Lifelink\nAdelbert Steiner gets +1/+1 for each Equipment you control.",
+  "Chishiro, the Shattered Blade": "Whenever an Aura or Equipment you control enters, create a 2/2 red Spirit creature token with menace.\nAt the beginning of your end step, put a +1/+1 counter on each modified creature you control. (Equipment, Auras you control, and counters are modifications.)",
+  "Godo, Bandit Warlord": "When Godo enters, you may search your library for an Equipment card, put it onto the battlefield, then shuffle.\nWhenever Godo attacks for the first time each turn, untap it and all Samurai you control. After this phase, there is an additional combat phase.",
+  "Aurelia, the Warleader": "Flying, vigilance, haste\nWhenever Aurelia attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase.",
+  "Summon: Kujata": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Lightning — This creature deals 3 damage to each of up to two target creatures.\nII — Ice — Up to three target creatures can't block this turn.\nIII — Fire — Discard a card, then draw two cards. When you discard a card this way, this creature deals damage equal to that card's mana value to each opponent.\nTrample, haste",
+  "Dogmeat, Ever Loyal": "When Dogmeat enters, mill five cards, then return an Aura or Equipment card from your graveyard to your hand.\nWhenever a creature you control that's enchanted or equipped attacks, create a Junk token. (It's an artifact with \"{T}, Sacrifice this token: Exile the top card of your library. You may play that card this turn. Activate only as a sorcery.\")",
+  "Cloud's Limit Break": "Tiered (Choose one additional cost.)\n• Cross-Slash — {0} — Destroy target tapped creature.\n• Blade Beam — {1} — Destroy any number of target tapped creatures with different controllers.\n• Omnislash — {3}{W} — Destroy all tapped creatures.",
+  "Swords to Plowshares": "Exile target creature. Its controller gains life equal to its power.",
+  "Chaos Warp": "The owner of target permanent shuffles it into their library, then reveals the top card of their library. If it's a permanent card, they put it onto the battlefield.",
+  "Path to Exile": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+  "Heroic Intervention": "Permanents you control gain hexproof and indestructible until end of turn.",
+  "Lifestream's Blessing": "Draw X cards, where X is the greatest power among creatures you controlled as you cast this spell. If this spell was cast from exile, you gain twice X life.\nForetell {4}{G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+  "Inventory Management": "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)\nFor each Aura and Equipment you control, you may attach it to a creature you control.",
+  "Boros Charm": "Choose one —\n• Boros Charm deals 4 damage to target player or planeswalker.\n• Permanents you control gain indestructible until end of turn.\n• Target creature gains double strike until end of turn.",
+  "Stroke of Midnight": "Destroy target nonland permanent. Its controller creates a 1/1 white Human creature token.",
+  "Deflecting Swat": "If you control a commander, you may cast this spell without paying its mana cost.\nYou may choose new targets for target spell or ability.",
+  "Akroma's Will": "Choose one. If you control a commander as you cast this spell, you may choose both instead.\n• Creatures you control gain flying, vigilance, and double strike until end of turn.\n• Creatures you control gain lifelink, indestructible, and protection from each color until end of turn.",
+  "Generous Gift": "Destroy target permanent. Its controller creates a 3/3 green Elephant creature token.",
+  "Beast Within": "Destroy target permanent. Its controller creates a 3/3 green Beast creature token.",
+  "Flawless Maneuver": "If you control a commander, you may cast this spell without paying its mana cost.\nCreatures you control gain indestructible until end of turn.",
+  "Tifa's Limit Break": "Tiered (Choose one additional cost.)\n• Somersault — {0} — Target creature gets +2/+2 until end of turn.\n• Meteor Strikes — {2} — Double target creature's power and toughness until end of turn.\n• Final Heaven — {6}{G} — Triple target creature's power and toughness until end of turn.",
+  "Restoration Magic": "Tiered (Choose one additional cost.)\n• Cure — {0} — Target permanent gains hexproof and indestructible until end of turn.\n• Cura — {1} — Target permanent gains hexproof and indestructible until end of turn. You gain 3 life.\n• Curaga — {3}{W} — Permanents you control gain hexproof and indestructible until end of turn. You gain 6 life.",
+  "Rampant Growth": "Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+  "Vandalblast": "Destroy target artifact you don't control.\nOverload {4}{R} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
+  "Austere Command": "Choose two —\n• Destroy all artifacts.\n• Destroy all enchantments.\n• Destroy all creatures with mana value 3 or less.\n• Destroy all creatures with mana value 4 or greater.",
+  "Unfinished Business": "Return target creature card from your graveyard to the battlefield, then return up to two target Aura and/or Equipment cards from your graveyard to the battlefield attached to that creature. (If the Auras can't enchant that creature, they remain in your graveyard.)",
+  "Vanquish the Horde": "This spell costs {1} less to cast for each creature on the battlefield.\nDestroy all creatures.",
+  "Steelshaper's Gift": "Search your library for an Equipment card, reveal that card, put it into your hand, then shuffle.",
+  "Open the Armory": "Search your library for an Aura or Equipment card, reveal it, put it into your hand, then shuffle.",
+  "Farseek": "Search your library for a Plains, Island, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle.",
+  "Harmonize": "Draw three cards.",
+  "Decimate": "Destroy target artifact, target creature, target enchantment, and target land. (You can't cast this spell unless you have legal choices for all its targets.)",
+  "Ultimate Magic: Meteor": "Ultimate Magic: Meteor deals 7 damage to each creature. If this spell was cast from exile, for each opponent, choose an artifact or land that player controls. Destroy the chosen permanents.\nForetell {5}{R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+  "Secret Rendezvous": "You and target opponent each draw three cards.",
+  "Three Visits": "Search your library for a Forest card, put it onto the battlefield, then shuffle.",
+  "Nibelheim Aflame": "Choose target creature you control. It deals damage equal to its power to each other creature. If this spell was cast from a graveyard, discard your hand and draw four cards.\nFlashback {5}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+  "Blasphemous Act": "This spell costs {1} less to cast for each creature on the battlefield.\nBlasphemous Act deals 13 damage to each creature.",
+  "Kodama's Reach": "Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.",
+  "Chandra's Ignition": "Target creature you control deals damage equal to its power to each other creature and each opponent.",
+  "Full Throttle": "After this main phase, there are two additional combat phases.\nAt the beginning of each combat this turn, untap all creatures that attacked this turn.",
+  "Behemoth Sledge": "Equipped creature gets +2/+2 and has trample and lifelink.\nEquip {3}",
+  "Trailblazer's Boots": "Equipped creature has nonbasic landwalk. (It can't be blocked as long as defending player controls a nonbasic land.)\nEquip {2}",
+  "Darksteel Plate": "Indestructible\nEquipped creature has indestructible.\nEquip {2}",
+  "Hero's Blade": "Equipped creature gets +3/+2.\nWhenever a legendary creature you control enters, you may attach this Equipment to it.\nEquip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Conformer Shuriken": "Equipped creature has \"Whenever this creature attacks, tap target creature defending player controls. If that creature has greater power than this creature, put a number of +1/+1 counters on this creature equal to the difference.\"\nEquip {2}",
+  "Genji Glove": "Equipped creature has double strike.\nWhenever equipped creature attacks, if it's the first combat phase of the turn, untap it. After this phase, there is an additional combat phase.\nEquip {3}",
+  "The Reaver Cleaver": "Equipped creature gets +1/+1 and has trample and \"Whenever this creature deals combat damage to a player or planeswalker, create that many Treasure tokens.\"\nEquip {3}",
+  "Sword of Feast and Famine": "Equipped creature gets +2/+2 and has protection from black and from green.\nWhenever equipped creature deals combat damage to a player, that player discards a card and you untap all lands you control.\nEquip {2}",
+  "Swiftfoot Boots": "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control.)\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Blackblade Reforged": "Equipped creature gets +1/+1 for each land you control.\nEquip legendary creature {3}\nEquip {7}",
+  "Hero's Heirloom": "Equipped creature gets +2/+1.\nAs long as equipped creature is legendary, it has trample and haste.\nEquip {2}",
+  "Hammer of Nazahn": "Whenever Hammer of Nazahn or another Equipment you control enters, you may attach that Equipment to target creature you control.\nEquipped creature gets +2/+0 and has indestructible.\nEquip {4}",
+  "Inspiring Statuary": "Nonartifact spells you cast have improvise. (Your artifacts can help cast those spells. Each artifact you tap after you're done activating mana abilities pays for {1}.)",
+  "Shadowspear": "Equipped creature gets +1/+1 and has trample and lifelink.\n{1}: Permanents your opponents control lose hexproof and indestructible until end of turn.\nEquip {2}",
+  "Excalibur, Sword of Eden": "This spell costs {X} less to cast, where X is the total mana value of historic permanents you control. (Artifacts, legendaries, and Sagas are historic.)\nEquipped creature gets +10/+0 and has vigilance.\nEquip legendary creature {2}",
+  "Mask of Memory": "Whenever equipped creature deals combat damage to a player, you may draw two cards. If you do, discard a card.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Ultima Weapon": "Whenever equipped creature attacks, destroy target creature an opponent controls.\nEquipped creature gets +7/+7.\nEquip {7}",
+  "Aettir and Priwen": "Equipped creature has base power and toughness X/X, where X is your life total.\nEquip {5}",
+  "Kaldra Compleat": "Living weapon\nIndestructible\nEquipped creature gets +5/+5 and has first strike, trample, indestructible, haste, and \"Whenever this creature deals combat damage to a creature, exile that creature.\"\nEquip {7}",
+  "Mithril Coat": "Flash\nIndestructible\nWhen Mithril Coat enters, attach it to target legendary creature you control.\nEquipped creature has indestructible.\nEquip {3}",
+  "Nettlecyst": "Living weapon (When this Equipment enters, create a 0/0 black Phyrexian Germ creature token, then attach this to it.)\nEquipped creature gets +1/+1 for each artifact and/or enchantment you control.\nEquip {2}",
+  "Sword of Fire and Ice": "Equipped creature gets +2/+2 and has protection from red and from blue.\nWhenever equipped creature deals combat damage to a player, this Equipment deals 2 damage to any target and you draw a card.\nEquip {2}",
+  "Skullclamp": "Equipped creature gets +1/-1.\nWhenever equipped creature dies, draw two cards.\nEquip {1}",
+  "Embercleave": "Flash\nThis spell costs {1} less to cast for each attacking creature you control.\nWhen Embercleave enters, attach it to target creature you control.\nEquipped creature gets +1/+1 and has double strike and trample.\nEquip {3}",
+  "Loxodon Warhammer": "Equipped creature gets +3/+0 and has trample and lifelink.\nEquip {3}",
+  "Brotherhood Regalia": "Equipped creature has ward {2}, is an Assassin in addition to its other types, and can't be blocked.\nEquip legendary creature {1}\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Helm of the Host": "At the beginning of combat on your turn, create a token that's a copy of equipped creature, except the token isn't legendary. That token gains haste.\nEquip {5}",
+  "Adaptive Omnitool": "Equipped creature gets +1/+1 for each artifact you control.\nWhenever equipped creature attacks, look at the top six cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.\nEquip {3}",
+  "Explorer's Scope": "Whenever equipped creature attacks, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Basilisk Collar": "Equipped creature has deathtouch and lifelink. (Any amount of damage it deals to a creature is enough to destroy it. Damage dealt by this creature also causes you to gain that much life.)\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Bloodforged Battle-Axe": "Equipped creature gets +2/+0.\nWhenever equipped creature deals combat damage to a player, create a token that's a copy of this Equipment.\nEquip {2}",
+  "Hexplate Wallbreaker": "For Mirrodin! (When this Equipment enters, create a 2/2 red Rebel creature token, then attach this to it.)\nEquipped creature gets +2/+2.\nWhenever equipped creature attacks, if it's the first combat phase of the turn, untap each attacking creature. After this phase, there is an additional combat phase.\nEquip {3}{R}",
+  "Umezawa's Jitte": "Whenever equipped creature deals combat damage, put two charge counters on Umezawa's Jitte.\nRemove a charge counter from Umezawa's Jitte: Choose one —\n• Equipped creature gets +2/+2 until end of turn.\n• Target creature gets -1/-1 until end of turn.\n• You gain 2 life.\nEquip {2}",
+  "Masterwork of Ingenuity": "You may have this Equipment enter as a copy of any Equipment on the battlefield.",
+  "Sunforger": "Equipped creature gets +4/+0.\n{R}{W}, Unattach this Equipment: Search your library for a red or white instant card with mana value 4 or less and cast that card without paying its mana cost. Then shuffle.\nEquip {3}",
+  "Sword of Hearth and Home": "Equipped creature gets +2/+2 and has protection from green and from white.\nWhenever equipped creature deals combat damage to a player, exile up to one target creature you own, then search your library for a basic land card. Put both cards onto the battlefield under your control, then shuffle.\nEquip {2}",
+  "Dragonfire Blade": "Equipped creature gets +2/+2 and has hexproof from monocolored.\nEquip {4}. This ability costs {1} less to activate for each color of the creature it targets.",
+  "Machinist's Arsenal": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +2/+2 for each artifact you control and is an Artificer in addition to its other types.\nMachina — Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Bitterthorn, Nissa's Animus": "Living weapon (When this Equipment enters, create a 0/0 black Phyrexian Germ creature token, then attach this to it.)\nEquipped creature gets +1/+1.\nWhenever equipped creature attacks, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\nEquip {3}",
+  "Leyline Axe": "If this card is in your opening hand, you may begin the game with it on the battlefield.\nEquipped creature gets +1/+1 and has double strike and trample.\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Caduceus, Staff of Hermes": "Equipped creature has lifelink.\nAs long as you have 30 or more life, equipped creature gets +5/+5 and has indestructible and \"Prevent all damage that would be dealt to this creature.\"\nEquip {W}{W}",
+  "Samurai's Katana": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +2/+2, has trample and haste, and is a Samurai in addition to its other types.\nMurasame — Equip {5}",
+  "Pip-Boy 3000": "Whenever equipped creature attacks, choose one —\n• Sort Inventory — Draw a card, then discard a card.\n• Pick a Perk — Put a +1/+1 counter on that creature.\n• Check Map — Untap up to two target lands.\nEquip {2}",
+  "Sword of Forge and Frontier": "Equipped creature gets +2/+2 and has protection from red and from green.\nWhenever equipped creature deals combat damage to a player, exile the top two cards of your library. You may play those cards this turn. You may play an additional land this turn.\nEquip {2}",
+  "Commander's Plate": "Equipped creature gets +3/+3 and has protection from each color that's not in your commander's color identity.\nEquip commander {3}\nEquip {5}",
+  "Power Fist": "Equipped creature has trample and \"Whenever this creature deals combat damage to a player, put that many +1/+1 counters on it.\"\nEquip {2}",
+  "Sword of Light and Shadow": "Equipped creature gets +2/+2 and has protection from white and from black.\nWhenever equipped creature deals combat damage to a player, you gain 3 life and you may return up to one target creature card from your graveyard to your hand.\nEquip {2}",
+  "Dancer's Chakrams": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +2/+2, has lifelink and \"Other commanders you control get +2/+2 and have lifelink,\" and is a Performer in addition to its other types.\nKrishna — Equip {3}",
+  "Bladehold War-Whip": "For Mirrodin! (When this Equipment enters, create a 2/2 red Rebel creature token, then attach this to it.)\nEquip abilities you activate of other Equipment cost {1} less to activate.\nEquipped creature has double strike.\nEquip {3}{R}{W}",
+  "Sword of Wealth and Power": "Equipped creature gets +2/+2 and has protection from instants and from sorceries.\nWhenever equipped creature deals combat damage to a player, create a Treasure token. When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.\nEquip {2}",
+  "Forge Anew": "When this enchantment enters, return target Equipment card from your graveyard to the battlefield.\nDuring your turn, you may activate equip abilities any time you could cast an instant.\nYou may pay {0} rather than pay the equip cost of the first equip ability you activate during each of your turns.",
+  "Sigarda's Aid": "You may cast Aura and Equipment spells as though they had flash.\nWhenever an Equipment you control enters, you may attach it to target creature you control.",
+  "Fighter Class": "(Gain the next level as a sorcery to add its ability.)\nWhen this Class enters, search your library for an Equipment card, reveal it, put it into your hand, then shuffle.\n{1}{R}{W}: Level 2\nEquip abilities you activate cost {2} less to activate.\n{3}{R}{W}: Level 3\nWhenever a creature you control attacks, up to one target creature blocks it this combat if able.",
+  "SOLDIER Military Program": "At the beginning of combat on your turn, choose one. If you control a commander, you may choose both instead.\n• Create a 1/1 white Soldier creature token.\n• Put a +1/+1 counter on each of up to two Soldiers you control.",
+  "Aggravated Assault": "{3}{R}{R}: Untap all creatures you control. After this main phase, there is an additional combat phase followed by an additional main phase. Activate only as a sorcery.",
+  "Annie Joins Up": "When Annie Joins Up enters, it deals 5 damage to target creature or planeswalker an opponent controls.\nIf a triggered ability of a legendary creature you control triggers, that ability triggers an additional time.",
+  "Furious Rise": "At the beginning of your end step, if you control a creature with power 4 or greater, exile the top card of your library. You may play that card until you exile another card with this enchantment.",
+  "Mantle of the Ancients": "Enchant creature you control\nWhen this Aura enters, return any number of target Aura and/or Equipment cards from your graveyard to the battlefield attached to enchanted creature.\nEnchanted creature gets +1/+1 for each Aura and Equipment attached to it.",
+  "Strong Back": "Enchant creature\nEquip abilities you activate that target enchanted creature cost {3} less to activate.\nAura spells you cast that target enchanted creature cost {3} less to cast.\nEnchanted creature gets +2/+2 for each Aura and Equipment attached to it.",
+  "Super State": "Enchant creature you control\nEnchanted creature has base power and toughness 9/9 and has flying, first strike, trample, and haste.\nWhenever enchanted creature deals combat damage to an opponent, it deals that much damage to each other opponent.",
+  "Slayers' Stronghold": "{T}: Add {C}.\n{R}{W}, {T}: Target creature gets +2/+0 and gains vigilance and haste until end of turn.",
+  "Bonders' Enclave": "{T}: Add {C}.\n{3}, {T}: Draw a card. Activate only if you control a creature with power 4 or greater.",
+  "Scavenger Grounds": "{T}: Add {C}.\n{2}, {T}, Sacrifice a Desert: Exile all graveyards.",
+  "Rogue's Passage": "{T}: Add {C}.\n{4}, {T}: Target creature can't be blocked this turn.",
+  "Boseiju, Who Endures": "{T}: Add {G}.\nChannel — {1}{G}, Discard this card: Destroy target artifact, enchantment, or nonbasic land an opponent controls. That player may search their library for a land card with a basic land type, put it onto the battlefield, then shuffle. This ability costs {1} less to activate for each legendary creature you control.",
+  "Reliquary Tower": "You have no maximum hand size.\n{T}: Add {C}.",
+  "Urza's Saga": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — This Saga gains \"{T}: Add {C}.\"\nII — This Saga gains \"{2}, {T}: Create a 0/0 colorless Construct artifact creature token with 'This token gets +1/+1 for each artifact you control.'\"\nIII — Search your library for an artifact card with mana cost {0} or {1}, put it onto the battlefield, then shuffle.",
+  "Kessig Wolf Run": "{T}: Add {C}.\n{X}{R}{G}, {T}: Target creature gets +X/+0 and gains trample until end of turn.",
+  "Buried Ruin": "{T}: Add {C}.\n{2}, {T}, Sacrifice this land: Return target artifact card from your graveyard to your hand.",
+  "Yavimaya, Cradle of Growth": "Each land is a Forest in addition to its other land types.",
+  "Command Beacon": "{T}: Add {C}.\n{T}, Sacrifice this land: Put your commander into your hand from the command zone.",
+  "Inventors' Fair": "At the beginning of your upkeep, if you control three or more artifacts, you gain 1 life.\n{T}: Add {C}.\n{4}, {T}, Sacrifice Inventors' Fair: Search your library for an artifact card, reveal it, put it into your hand, then shuffle. Activate only if you control three or more artifacts.",
+  "Axgard Armory": "This land enters tapped.\n{T}: Add {W}.\n{1}{R}{R}{W}, {T}, Sacrifice this land: Search your library for an Aura card and/or an Equipment card, reveal them, put them into your hand, then shuffle.",
+  "Sol Ring": "{T}: Add {C}{C}.",
+  "Arcane Signet": "{T}: Add one mana of any color in your commander's color identity.",
+  "Summoning Materia": "You may look at the top card of your library any time.\nAs long as this Equipment is attached to a creature, you may cast creature spells from the top of your library.\nEquipped creature gets +2/+2 and has vigilance and \"{T}: Add {G}.\"\nEquip {2}",
+  "The Aetherspark": "As long as The Aetherspark is attached to a creature, The Aetherspark can't be attacked and has \"Whenever equipped creature deals combat damage during your turn, put that many loyalty counters on The Aetherspark.\"\n+1: Attach The Aetherspark to up to one target creature you control. Put a +1/+1 counter on that creature.\n−5: Draw two cards.\n−10: Add ten mana of any one color.",
+  "Talisman of Conviction": "{T}: Add {C}.\n{T}: Add {R} or {W}. This artifact deals 1 damage to you.",
+  "Fellwar Stone": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+  "Talisman of Unity": "{T}: Add {C}.\n{T}: Add {G} or {W}. This artifact deals 1 damage to you.",
+  "Talisman of Impulse": "{T}: Add {C}.\n{T}: Add {R} or {G}. This artifact deals 1 damage to you.",
+  "Plains": "({T}: Add {W}.)",
+  "Mountain": "({T}: Add {R}.)",
+  "Forest": "({T}: Add {G}.)",
+  "Command Tower": "{T}: Add one mana of any color in your commander's color identity.",
+  "Clifftop Retreat": "This land enters tapped unless you control a Mountain or a Plains.\n{T}: Add {R} or {W}.",
+  "Exotic Orchard": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+  "Sunpetal Grove": "This land enters tapped unless you control a Forest or a Plains.\n{T}: Add {G} or {W}.",
+  "Rootbound Crag": "This land enters tapped unless you control a Mountain or a Forest.\n{T}: Add {R} or {G}.",
+  "Battlefield Forge": "{T}: Add {C}.\n{T}: Add {R} or {W}. This land deals 1 damage to you.",
+  "Canopy Vista": "({T}: Add {G} or {W}.)\nThis land enters tapped unless you control two or more basic lands.",
+  "Jungle Shrine": "This land enters tapped.\n{T}: Add {R}, {G}, or {W}.",
+  "Cinder Glade": "({T}: Add {R} or {G}.)\nThis land enters tapped unless you control two or more basic lands.",
+  "Brushland": "{T}: Add {C}.\n{T}: Add {G} or {W}. This land deals 1 damage to you.",
+  "Spire of Industry": "{T}: Add {C}.\n{T}, Pay 1 life: Add one mana of any color. Activate only if you control an artifact.",
+  "Rugged Prairie": "{T}: Add {C}.\n{R/W}, {T}: Add {R}{R}, {R}{W}, or {W}{W}.",
+  "Path of Ancestry": "This land enters tapped.\n{T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+  "Fire-Lit Thicket": "{T}: Add {C}.\n{R/G}, {T}: Add {R}{R}, {R}{G}, or {G}{G}.",
+  "Fortified Village": "As this land enters, you may reveal a Forest or Plains card from your hand. If you don't, this land enters tapped.\n{T}: Add {G} or {W}.",
+  "Furycalm Snarl": "As this land enters, you may reveal a Mountain or Plains card from your hand. If you don't, this land enters tapped.\n{T}: Add {R} or {W}.",
+  "Game Trail": "As this land enters, you may reveal a Mountain or Forest card from your hand. If you don't, this land enters tapped.\n{T}: Add {R} or {G}.",
+  "Sungrass Prairie": "{1}, {T}: Add {G}{W}.",
+  "Sunscorched Divide": "{1}, {T}: Add {R}{W}.",
+  "Mossfire Valley": "{1}, {T}: Add {R}{G}.",
+  "Evolving Wilds": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+  "Sacred Foundry": "({T}: Add {R} or {W}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+  "Stomping Ground": "({T}: Add {R} or {G}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+  "Radiant Grove": "({T}: Add {G} or {W}.)\nThis land enters tapped.",
+  "Temple Garden": "({T}: Add {G} or {W}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+  "Sacred Peaks": "({T}: Add {R} or {W}.)\nThis land enters tapped.",
+  "Wooded Ridgeline": "({T}: Add {R} or {G}.)\nThis land enters tapped.",
+  "Ash Barrens": "{T}: Add {C}.\nBasic landcycling {1} ({1}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+  "Jetmir's Garden": "({T}: Add {R}, {G}, or {W}.)\nThis land enters tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+  "Windswept Heath": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Forest or Plains card, put it onto the battlefield, then shuffle.",
+  "Wooded Foothills": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Forest card, put it onto the battlefield, then shuffle.",
+  "Arid Mesa": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle.",
+  "Spectator Seating": "This land enters tapped unless you have two or more opponents.\n{T}: Add {R} or {W}.",
+  "Bountiful Promenade": "This land enters tapped unless you have two or more opponents.\n{T}: Add {G} or {W}.",
+  "Spire Garden": "This land enters tapped unless you have two or more opponents.\n{T}: Add {R} or {G}.",
+  "Overgrown Farmland": "This land enters tapped unless you control two or more other lands.\n{T}: Add {G} or {W}.",
+  "Sundown Pass": "This land enters tapped unless you control two or more other lands.\n{T}: Add {R} or {W}.",
+  "Rockfall Vale": "This land enters tapped unless you control two or more other lands.\n{T}: Add {R} or {G}.",
+  "Karplusan Forest": "{T}: Add {C}.\n{T}: Add {R} or {G}. This land deals 1 damage to you.",
+  "Hushwood Verge": "{T}: Add {G}.\n{T}: Add {W}. Activate only if you control a Forest or a Plains.",
+  "Sunbillow Verge": "{T}: Add {W}.\n{T}: Add {R}. Activate only if you control a Mountain or a Plains.",
+  "Thornspire Verge": "{T}: Add {R}.\n{T}: Add {G}. Activate only if you control a Mountain or a Forest.",
+  "Starting Town": "This land enters tapped unless it's your first, second, or third turn of the game.\n{T}: Add {C}.\n{T}, Pay 1 life: Add one mana of any color.",
+  "Plateau": "({T}: Add {R} or {W}.)",
+  "Savannah": "({T}: Add {G} or {W}.)",
+  "Taiga": "({T}: Add {R} or {G}.)",
+  "Kellan, the Fae-Blooded // Birthright Boon": "Double strike\nOther creatures you control get +1/+0 for each Aura and Equipment attached to Kellan.\nSearch your library for an Aura or Equipment card, reveal it, put it into your hand, then shuffle.",
+  "Halvar, God of Battle // Sword of the Realms": "Creatures you control that are enchanted or equipped have double strike.\nAt the beginning of each combat, you may attach target Aura or Equipment attached to a creature you control to target creature you control.\nEquipped creature gets +2/+0 and has vigilance.\nWhenever equipped creature dies, return it to its owner's hand.\nEquip {1}{W}",
+  "Legion Leadership // Legion Stronghold": "Until end of turn, double target creature's power and it gains first strike.\nThis land enters tapped.\n{T}: Add {R} or {W}.",
+  "Ishgard, the Holy See // Faith & Grief": "This land enters tapped.\n{T}: Add {W}.\nReturn up to two target artifact and/or enchantment cards from your graveyard to your hand. (Then exile this card. You may play the land later from exile.)",
+  "Crackdown Construct": "Whenever you activate an ability of an artifact or creature that isn't a mana ability, this creature gets +1/+1 until end of turn.",
+  "Cloud, Ex-SOLDIER": "Haste\nWhen Cloud enters, attach up to one target Equipment you control to it.\nWhenever Cloud attacks, draw a card for each equipped attacking creature you control. Then if Cloud has power 7 or greater, create two Treasure tokens.",
+  "Kellan, the Fae-Blooded": "Double strike\nOther creatures you control get +1/+0 for each Aura and Equipment attached to Kellan.\nSearch your library for an Aura or Equipment card, reveal it, put it into your hand, then shuffle.",
+  "Halvar, God of Battle": "Creatures you control that are enchanted or equipped have double strike.\nAt the beginning of each combat, you may attach target Aura or Equipment attached to a creature you control to target creature you control.\nEquipped creature gets +2/+0 and has vigilance.\nWhenever equipped creature dies, return it to its owner's hand.\nEquip {1}{W}",
+  "Legion Leadership": "Until end of turn, double target creature's power and it gains first strike.\nThis land enters tapped.\n{T}: Add {R} or {W}.",
+  "Ishgard, the Holy See": "This land enters tapped.\n{T}: Add {W}.\nReturn up to two target artifact and/or enchantment cards from your graveyard to your hand. (Then exile this card. You may play the land later from exile.)"
+ },
+ "card_meta": {
+  "Adaptive Omnitool": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Adelbert Steiner": {
+   "type_line": "Legendary Creature — Human Knight",
+   "produced_mana": [],
+   "keywords": [
+    "Lifelink"
+   ]
+  },
+  "Aerith, Last Ancient": {
+   "type_line": "Legendary Creature — Human Cleric Druid",
+   "produced_mana": [],
+   "keywords": [
+    "Lifelink",
+    "Raise"
+   ]
+  },
+  "Aettir and Priwen": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Aggravated Assault": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Akiri, Fearless Voyager": {
+   "type_line": "Legendary Creature — Kor Warrior",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Akroma's Will": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Amy Rose": {
+   "type_line": "Legendary Creature — Hedgehog Warrior",
+   "produced_mana": [],
+   "keywords": [
+    "Haste"
+   ]
+  },
+  "Ancient Tomb": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Annie Joins Up": {
+   "type_line": "Legendary Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Arcane Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Ardenn, Intrepid Archaeologist": {
+   "type_line": "Legendary Creature — Kor Scout",
+   "produced_mana": [],
+   "keywords": [
+    "Partner"
+   ]
+  },
+  "Arid Mesa": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Armored Skyhunter": {
+   "type_line": "Creature — Cat Knight",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Armory Automaton": {
+   "type_line": "Artifact Creature — Construct",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Ash Barrens": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": [
+    "Landcycling",
+    "Basic landcycling",
+    "Typecycling",
+    "Cycling"
+   ]
+  },
+  "Aurelia, the Warleader": {
+   "type_line": "Legendary Creature — Angel",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Vigilance",
+    "Haste"
+   ]
+  },
+  "Austere Command": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Avalanche of Sector 7": {
+   "type_line": "Legendary Creature — Human Rebel",
+   "produced_mana": [],
+   "keywords": [
+    "Menace"
+   ]
+  },
+  "Axgard Armory": {
+   "type_line": "Land",
+   "produced_mana": [
+    "W"
+   ],
+   "keywords": []
+  },
+  "Barret Wallace": {
+   "type_line": "Legendary Creature — Human Rebel",
+   "produced_mana": [],
+   "keywords": [
+    "Reach"
+   ]
+  },
+  "Barret, Avalanche Leader": {
+   "type_line": "Legendary Creature — Human Rebel",
+   "produced_mana": [],
+   "keywords": [
+    "Reach",
+    "Avalanche!"
+   ]
+  },
+  "Basilisk Collar": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Bastion Protector": {
+   "type_line": "Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Battlefield Forge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Beast Within": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Beatrix, Loyal General": {
+   "type_line": "Legendary Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": [
+    "Vigilance"
+   ]
+  },
+  "Behemoth Sledge": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Birds of Paradise": {
+   "type_line": "Creature — Bird",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Bitterthorn, Nissa's Animus": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip",
+    "Living weapon"
+   ]
+  },
+  "Blackblade Reforged": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Bladehold War-Whip": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "For Mirrodin!",
+    "Equip"
+   ]
+  },
+  "Blasphemous Act": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Bloodforged Battle-Axe": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Bonders' Enclave": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Boros Charm": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Boseiju, Who Endures": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": [
+    "Channel"
+   ]
+  },
+  "Bountiful Promenade": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Bronze Guardian": {
+   "type_line": "Artifact Creature — Golem",
+   "produced_mana": [],
+   "keywords": [
+    "Ward",
+    "Double strike"
+   ]
+  },
+  "Brotherhood Regalia": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Bruenor Battlehammer": {
+   "type_line": "Legendary Creature — Dwarf Warrior",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Brushland": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Bugenhagen, Wise Elder": {
+   "type_line": "Legendary Creature — Human Shaman",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Reach"
+   ]
+  },
+  "Bureau Headmaster": {
+   "type_line": "Creature — Human Assassin",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Buried Ruin": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Buster Sword": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Caduceus, Staff of Hermes": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Cait Sith, Fortune Teller": {
+   "type_line": "Legendary Artifact Creature — Cat Moogle",
+   "produced_mana": [],
+   "keywords": [
+    "Lucky Slots",
+    "Scry"
+   ]
+  },
+  "Canopy Vista": {
+   "type_line": "Land — Forest Plains",
+   "produced_mana": [
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Captain America's Shield": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Indestructible",
+    "Equip"
+   ]
+  },
+  "Champion's Helm": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Chandra's Ignition": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Chaos Warp": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Chishiro, the Shattered Blade": {
+   "type_line": "Legendary Creature — Snake Samurai",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cid, Freeflier Pilot": {
+   "type_line": "Legendary Creature — Human Warrior Pilot",
+   "produced_mana": [],
+   "keywords": [
+    "Jump"
+   ]
+  },
+  "Cinder Glade": {
+   "type_line": "Land — Mountain Forest",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Clever Concealment": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Convoke"
+   ]
+  },
+  "Clifftop Retreat": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Cloud's Limit Break": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Omnislash",
+    "Blade Beam",
+    "Tiered",
+    "Cross-Slash"
+   ]
+  },
+  "Cloud, Ex-SOLDIER": {
+   "type_line": "Legendary Creature — Human Soldier Mercenary",
+   "produced_mana": [],
+   "keywords": [
+    "Treasure",
+    "Haste"
+   ]
+  },
+  "Cloud, Midgar Mercenary": {
+   "type_line": "Legendary Creature — Human Soldier Mercenary",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cloud, Planet's Champion": {
+   "type_line": "Legendary Creature — Human Soldier Mercenary",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Codsworth, Handy Helper": {
+   "type_line": "Legendary Artifact Creature — Robot",
+   "produced_mana": [
+    "W"
+   ],
+   "keywords": []
+  },
+  "Colossus Hammer": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Command Beacon": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Command Tower": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Commander's Plate": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Conformer Shuriken": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Conqueror's Flail": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Crackdown Construct": {
+   "type_line": "Artifact Creature — Construct",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cultivate": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Dancer's Chakrams": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Job select",
+    "Equip",
+    "Krishna"
+   ]
+  },
+  "Danitha Capashen, Paragon": {
+   "type_line": "Legendary Creature — Human Knight",
+   "produced_mana": [],
+   "keywords": [
+    "Lifelink",
+    "Vigilance",
+    "First strike"
+   ]
+  },
+  "Danitha, New Benalia's Light": {
+   "type_line": "Legendary Creature — Human Knight",
+   "produced_mana": [],
+   "keywords": [
+    "Lifelink",
+    "Vigilance",
+    "Trample"
+   ]
+  },
+  "Darksteel Plate": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Indestructible",
+    "Equip"
+   ]
+  },
+  "Decimate": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Deflecting Swat": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Delighted Halfling": {
+   "type_line": "Creature — Halfling Citizen",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Dispatch": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Metalcraft"
+   ]
+  },
+  "Dogmeat, Ever Loyal": {
+   "type_line": "Legendary Creature — Dog",
+   "produced_mana": [],
+   "keywords": [
+    "Mill"
+   ]
+  },
+  "Dragonfire Blade": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Elena, Turk Recruit": {
+   "type_line": "Legendary Creature — Human Assassin",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Embercleave": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip",
+    "Flash"
+   ]
+  },
+  "Enlightened Tutor": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Esper Sentinel": {
+   "type_line": "Artifact Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Evolving Wilds": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Excalibur, Sword of Eden": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Exotic Orchard": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Explorer's Scope": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Farewell": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Farseek": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Fellwar Stone": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Fighter Class": {
+   "type_line": "Enchantment — Class",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Fire-Lit Thicket": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Firion, Wild Rose Warrior": {
+   "type_line": "Legendary Creature — Human Rebel Warrior",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Flawless Maneuver": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Forest": {
+   "type_line": "Basic Land — Forest",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Forge Anew": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Fortified Village": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Freya Crescent": {
+   "type_line": "Legendary Creature — Rat Knight",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": [
+    "Jump"
+   ]
+  },
+  "Full Throttle": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Furious Rise": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Furycalm Snarl": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Game Trail": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Generous Gift": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Genji Glove": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Gilgamesh, Master-at-Arms": {
+   "type_line": "Legendary Creature — Human Samurai",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Godo, Bandit Warlord": {
+   "type_line": "Legendary Creature — Human Barbarian",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Halvar, God of Battle // Sword of the Realms": {
+   "type_line": "Legendary Creature — God // Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Hammer of Nazahn": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Harmonize": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Heidegger, Shinra Executive": {
+   "type_line": "Legendary Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Helitrooper": {
+   "type_line": "Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Hellkite Tyrant": {
+   "type_line": "Creature — Dragon",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Trample"
+   ]
+  },
+  "Helm of the Host": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Hero's Blade": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Hero's Heirloom": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Heroic Intervention": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Hexplate Wallbreaker": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "For Mirrodin!",
+    "Equip"
+   ]
+  },
+  "Hushwood Verge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Inspiring Statuary": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Inventors' Fair": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Inventory Management": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Split second"
+   ]
+  },
+  "Iron Man Armor": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Ishgard, the Holy See // Faith & Grief": {
+   "type_line": "Land — Town // Sorcery — Adventure",
+   "produced_mana": [
+    "W"
+   ],
+   "keywords": []
+  },
+  "Jeska's Will": {
+   "type_line": "Sorcery",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": []
+  },
+  "Jetmir's Garden": {
+   "type_line": "Land — Mountain Forest Plains",
+   "produced_mana": [
+    "G",
+    "R",
+    "W"
+   ],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Jungle Shrine": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Kaldra Compleat": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Indestructible",
+    "Equip",
+    "Living weapon"
+   ]
+  },
+  "Karplusan Forest": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Kellan, the Fae-Blooded // Birthright Boon": {
+   "type_line": "Legendary Creature — Human Faerie // Sorcery — Adventure",
+   "produced_mana": [],
+   "keywords": [
+    "Double strike"
+   ]
+  },
+  "Kessig Wolf Run": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Kodama of the West Tree": {
+   "type_line": "Legendary Creature — Spirit",
+   "produced_mana": [],
+   "keywords": [
+    "Reach"
+   ]
+  },
+  "Kodama's Reach": {
+   "type_line": "Sorcery — Arcane",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Kutzil, Malamet Exemplar": {
+   "type_line": "Legendary Creature — Cat Warrior",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Legion Leadership // Legion Stronghold": {
+   "type_line": "Instant // Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": [
+    "Double"
+   ]
+  },
+  "Leyline Axe": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Lifestream's Blessing": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Foretell"
+   ]
+  },
+  "Lightning Greaves": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Lightning, Army of One": {
+   "type_line": "Legendary Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": [
+    "Lifelink",
+    "Stagger",
+    "First strike",
+    "Trample",
+    "Double"
+   ]
+  },
+  "Loxodon Warhammer": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Machinist's Arsenal": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Machina",
+    "Job select",
+    "Equip"
+   ]
+  },
+  "Mantle of the Ancients": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Mask of Memory": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Masterwork of Ingenuity": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Mithril Coat": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Indestructible",
+    "Equip",
+    "Flash"
+   ]
+  },
+  "Mjölnir, Hammer of Thor": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Double"
+   ]
+  },
+  "Mossfire Valley": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Mountain": {
+   "type_line": "Basic Land — Mountain",
+   "produced_mana": [
+    "R"
+   ],
+   "keywords": []
+  },
+  "Nahiri, Forged in Fury": {
+   "type_line": "Legendary Creature — Kor Artificer",
+   "produced_mana": [],
+   "keywords": [
+    "Affinity"
+   ]
+  },
+  "Nature's Lore": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Nettlecyst": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip",
+    "Living weapon"
+   ]
+  },
+  "Nibelheim Aflame": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Flashback"
+   ]
+  },
+  "Open the Armory": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Overgrown Farmland": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Path of Ancestry": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Path to Exile": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Pip-Boy 3000": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Check Map",
+    "Pick a Perk",
+    "Equip",
+    "Sort Inventory"
+   ]
+  },
+  "Plains": {
+   "type_line": "Basic Land — Plains",
+   "produced_mana": [
+    "W"
+   ],
+   "keywords": []
+  },
+  "Plateau": {
+   "type_line": "Land — Mountain Plains",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Power Fist": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Professional Face-Breaker": {
+   "type_line": "Creature — Human Warrior",
+   "produced_mana": [],
+   "keywords": [
+    "Treasure",
+    "Menace"
+   ]
+  },
+  "Professor Hojo": {
+   "type_line": "Legendary Creature — Human Scientist",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Puresteel Paladin": {
+   "type_line": "Creature — Human Knight",
+   "produced_mana": [],
+   "keywords": [
+    "Metalcraft"
+   ]
+  },
+  "Radiant Grove": {
+   "type_line": "Land — Forest Plains",
+   "produced_mana": [
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Rampant Growth": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Raubahn, Bull of Ala Mhigo": {
+   "type_line": "Legendary Creature — Human Warrior",
+   "produced_mana": [],
+   "keywords": [
+    "Ward"
+   ]
+  },
+  "Red XIII, Proud Warrior": {
+   "type_line": "Legendary Creature — Beast Warrior",
+   "produced_mana": [],
+   "keywords": [
+    "Vigilance",
+    "Trample",
+    "Cosmo Memory"
+   ]
+  },
+  "Reliquary Tower": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Restoration Magic": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Curaga",
+    "Cura",
+    "Tiered",
+    "Cure"
+   ]
+  },
+  "Reyav, Master Smith": {
+   "type_line": "Legendary Creature — Dwarf Artificer",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Rockfall Vale": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Rogue's Passage": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Rootbound Crag": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Rugged Prairie": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "SOLDIER Military Program": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Sacred Foundry": {
+   "type_line": "Land — Mountain Plains",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Sacred Peaks": {
+   "type_line": "Land — Mountain Plains",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Samurai's Katana": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Murasame",
+    "Job select",
+    "Equip"
+   ]
+  },
+  "Savannah": {
+   "type_line": "Land — Forest Plains",
+   "produced_mana": [
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Scavenger Grounds": {
+   "type_line": "Land — Desert",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Secret Rendezvous": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Sephiroth, Fallen Hero": {
+   "type_line": "Legendary Creature — Human Avatar Soldier",
+   "produced_mana": [],
+   "keywords": [
+    "Jenova Cells",
+    "The Reunion"
+   ]
+  },
+  "Shadowspear": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sigarda's Aid": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Skullclamp": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Slayers' Stronghold": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Smothering Tithe": {
+   "type_line": "Enchantment",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Treasure"
+   ]
+  },
+  "Sol Ring": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Spectator Seating": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Spire Garden": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Spire of Industry": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Sram, Senior Edificer": {
+   "type_line": "Legendary Creature — Dwarf Advisor",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Starting Town": {
+   "type_line": "Land — Town",
+   "produced_mana": [
+    "B",
+    "C",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Steelshaper's Gift": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Stomping Ground": {
+   "type_line": "Land — Mountain Forest",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Stoneforge Mystic": {
+   "type_line": "Creature — Kor Artificer",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Stroke of Midnight": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Strong Back": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Summon: Kujata": {
+   "type_line": "Enchantment Creature — Saga Ox",
+   "produced_mana": [],
+   "keywords": [
+    "Haste",
+    "Trample"
+   ]
+  },
+  "Summoning Materia": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sunbillow Verge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Sundown Pass": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Sunforger": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sungrass Prairie": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Sunpetal Grove": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Sunscorched Divide": {
+   "type_line": "Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Super State": {
+   "type_line": "Legendary Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "First strike",
+    "Trample",
+    "Enchant"
+   ]
+  },
+  "Super-Soldier Serum": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Swiftfoot Boots": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sword of Feast and Famine": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sword of Fire and Ice": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sword of Forge and Frontier": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sword of Hearth and Home": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sword of Light and Shadow": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Sword of Wealth and Power": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Treasure",
+    "Equip"
+   ]
+  },
+  "Sword of the Animist": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Swords to Plowshares": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Swordsman's Steel": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Taiga": {
+   "type_line": "Land — Mountain Forest",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Talisman of Conviction": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C",
+    "R",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Talisman of Impulse": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C",
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Talisman of Unity": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C",
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Teferi's Protection": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Temple Garden": {
+   "type_line": "Land — Forest Plains",
+   "produced_mana": [
+    "G",
+    "W"
+   ],
+   "keywords": []
+  },
+  "The Aetherspark": {
+   "type_line": "Legendary Artifact Planeswalker — Equipment",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "The Reaver Cleaver": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Treasure",
+    "Equip"
+   ]
+  },
+  "Thornspire Verge": {
+   "type_line": "Land",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Three Visits": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Tifa's Limit Break": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Triple",
+    "Final Heaven",
+    "Meteor Strikes",
+    "Somersault",
+    "Tiered",
+    "Double"
+   ]
+  },
+  "Tifa, Martial Artist": {
+   "type_line": "Legendary Creature — Human Monk",
+   "produced_mana": [],
+   "keywords": [
+    "Melee"
+   ]
+  },
+  "Trailblazer's Boots": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Ultima Weapon": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Ultimate Magic: Holy": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Foretell"
+   ]
+  },
+  "Ultimate Magic: Meteor": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Foretell"
+   ]
+  },
+  "Umezawa's Jitte": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Unfinished Business": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Urza's Saga": {
+   "type_line": "Enchantment Land — Urza's Saga",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Vandalblast": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Overload"
+   ]
+  },
+  "Vanquish the Horde": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Vincent, Vengeful Atoner": {
+   "type_line": "Legendary Creature — Assassin",
+   "produced_mana": [],
+   "keywords": [
+    "Chaos",
+    "Menace"
+   ]
+  },
+  "Weapons Vendor": {
+   "type_line": "Creature — Human Artificer",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Windswept Heath": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Wooded Foothills": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Wooded Ridgeline": {
+   "type_line": "Land — Mountain Forest",
+   "produced_mana": [
+    "G",
+    "R"
+   ],
+   "keywords": []
+  },
+  "Worldly Tutor": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Wrecking Ball Arm": {
+   "type_line": "Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Yavimaya, Cradle of Growth": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "G"
+   ],
+   "keywords": []
+  },
+  "Yuffie, Materia Hunter": {
+   "type_line": "Legendary Creature — Human Ninja",
+   "produced_mana": [],
+   "keywords": [
+    "Ninjutsu"
+   ]
+  },
+  "Zack Fair": {
+   "type_line": "Legendary Creature — Human Soldier",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Halvar, God of Battle": {
+   "type_line": "Legendary Creature — God // Legendary Artifact — Equipment",
+   "produced_mana": [],
+   "keywords": [
+    "Equip"
+   ]
+  },
+  "Ishgard, the Holy See": {
+   "type_line": "Land — Town // Sorcery — Adventure",
+   "produced_mana": [
+    "W"
+   ],
+   "keywords": []
+  },
+  "Kellan, the Fae-Blooded": {
+   "type_line": "Legendary Creature — Human Faerie // Sorcery — Adventure",
+   "produced_mana": [],
+   "keywords": [
+    "Double strike"
+   ]
+  },
+  "Legion Leadership": {
+   "type_line": "Instant // Land",
+   "produced_mana": [
+    "R",
+    "W"
+   ],
+   "keywords": [
+    "Double"
+   ]
+  }
+ },
+ "synergy": {
+  "Puresteel Paladin": {
+   "synergy": 0.86
+  },
+  "Colossus Hammer": {
+   "synergy": 0.82
+  },
+  "Conqueror&#x27;s Flail": {
+   "synergy": 0.75
+  },
+  "Red XIII, Proud Warrior": {
+   "synergy": 0.73
+  },
+  "Tifa, Martial Artist": {
+   "synergy": 0.73
+  },
+  "Sword of the Animist": {
+   "synergy": 0.72
+  },
+  "Nature&#x27;s Lore": {
+   "synergy": 0.32
+  },
+  "Bugenhagen, Wise Elder": {
+   "synergy": 0.6
+  },
+  "Cloud, Midgar Mercenary": {
+   "synergy": 0.6
+  },
+  "Cultivate": {
+   "synergy": 0.18
+  },
+  "Champion&#x27;s Helm": {
+   "synergy": 0.59
+  },
+  "Lightning Greaves": {
+   "synergy": 0.4
+  },
+  "Halvar, God of Battle": {
+   "synergy": 0.18
+  },
+  "Kellan, the Fae-Blooded": {
+   "synergy": 0.24
+  },
+  "Aurelia, the Warleader": {
+   "synergy": 0.05
+  },
+  "Stoneforge Mystic": {
+   "synergy": 0.38
+  },
+  "Danitha Capashen, Paragon": {
+   "synergy": 0.4
+  },
+  "Bastion Protector": {
+   "synergy": 0.41
+  },
+  "Heroic Intervention": {
+   "synergy": 0.02
+  },
+  "Rampant Growth": {
+   "synergy": 0.2
+  },
+  "Open the Armory": {
+   "synergy": 0.29
+  },
+  "Steelshaper&#x27;s Gift": {
+   "synergy": 0.35
+  },
+  "Helm of the Host": {
+   "synergy": 0.14
+  },
+  "Sword of Feast and Famine": {
+   "synergy": 0.36
+  },
+  "Sword of Hearth and Home": {
+   "synergy": 0.11
+  },
+  "Forge Anew": {
+   "synergy": 0.52
+  },
+  "Sigarda&#x27;s Aid": {
+   "synergy": 0.44
+  },
+  "Fighter Class": {
+   "synergy": 0.22
+  },
+  "Aggravated Assault": {
+   "synergy": 0.1
+  },
+  "Strong Back": {
+   "synergy": 0.02
+  },
+  "Rogue&#x27;s Passage": {
+   "synergy": 0.07
+  },
+  "Slayers&#x27; Stronghold": {
+   "synergy": 0.5
+  },
+  "Urza&#x27;s Saga": {
+   "synergy": 0.04
+  },
+  "Scavenger Grounds": {
+   "synergy": 0.34
+  },
+  "Command Tower": {
+   "synergy": 0.07
+  }
+ },
+ "plans": [],
+ "combos": [
+  {
+   "id": "900-3750",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 900,
+      "name": "Sword of Feast and Famine",
+      "oracleId": "d0901053-6de0-46d0-9ee3-8d40510236c1",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Artifact — Equipment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/7/c7710eb5-c56a-437b-8847-2a829c404d47.png?1783930094",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/7/c7710eb5-c56a-437b-8847-2a829c404d47.jpg?1783930094",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/7/c7710eb5-c56a-437b-8847-2a829c404d47.jpg?1783930094",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/7/c7710eb5-c56a-437b-8847-2a829c404d47.jpg?1783930094",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/7/c7710eb5-c56a-437b-8847-2a829c404d47.jpg?1783930094",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 3750,
+      "name": "Aggravated Assault",
+      "oracleId": "20129459-a386-41eb-899d-1aede3427300",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Enchantment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.png?1783945060",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "name": "Infinite combat phases"
+    }
+   ],
+   "of": [
+    {
+     "id": 1774
+    }
+   ],
+   "includes": [
+    {
+     "id": 1774
+    }
+   ],
+   "identity": "R",
+   "manaNeeded": "",
+   "manaValueNeeded": 0,
+   "easyPrerequisites": "",
+   "notablePrerequisites": "Sword of Feast and Famine attached to a creature that can attack this turn.\nAn opponent is unable to block and kill the creature with Sword of Feast and Famine attached.\nLands you control can tap to produce at least {3}{R}{R}.",
+   "description": "Deal combat damage to an opponent with the creature that has Sword of Feast and Famine attached.\nSword of Feast and Famine triggers, causing that opponent to discard a card, and you to untap all lands you control.\nProceed to your postcombat main phase.\nActivate all mana producing lands you control by tapping them, adding at least {3}{R}{R}.\nActivate Aggravated Assault by paying {3}{R}{R}, untapping all creatures you control and causing you to get an additional combat and main phase after this phase.\nRepeat.",
+   "notes": "",
+   "popularity": 34059,
+   "spoiler": false,
+   "bracketTag": "S",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": true,
+    "standardBrawl": false,
+    "brawl": true,
+    "competitiveBrawl": true,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": false,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "59.10",
+    "cardkingdom": "67.98",
+    "cardmarket": "36.65"
+   },
+   "variantCount": 1
+  },
+  {
+   "id": "1069-4944",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 4944,
+      "name": "Crackdown Construct",
+      "oracleId": "bccbd5ae-4e3f-43ee-a51b-d0ec2c645238",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Artifact Creature — Construct",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/9/9/993bc69a-b615-48c5-af81-252a73384e8c.png?1783936730",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/9/9/993bc69a-b615-48c5-af81-252a73384e8c.jpg?1783936730",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/9/9/993bc69a-b615-48c5-af81-252a73384e8c.jpg?1783936730",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/9/9/993bc69a-b615-48c5-af81-252a73384e8c.jpg?1783936730",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/9/9/993bc69a-b615-48c5-af81-252a73384e8c.jpg?1783936730",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 1069,
+      "name": "Puresteel Paladin",
+      "oracleId": "74a62c7b-4753-4af2-b7a1-9a4ae8988801",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Human Knight",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/d/8/d8f8a324-006d-4cb8-9816-620a603b4229.png?1783915714",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/d/8/d8f8a324-006d-4cb8-9816-620a603b4229.jpg?1783915714",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/d/8/d8f8a324-006d-4cb8-9816-620a603b4229.jpg?1783915714",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/d/8/d8f8a324-006d-4cb8-9816-620a603b4229.jpg?1783915714",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/d/8/d8f8a324-006d-4cb8-9816-620a603b4229.jpg?1783915714",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "name": "Infinitely large creature until end of turn"
+    }
+   ],
+   "of": [
+    {
+     "id": 5667
+    }
+   ],
+   "includes": [
+    {
+     "id": 5667
+    }
+   ],
+   "identity": "W",
+   "manaNeeded": "",
+   "manaValueNeeded": 0,
+   "easyPrerequisites": "",
+   "notablePrerequisites": "You control an Equipment.\nYou control at least three artifacts.",
+   "description": "Activate the Equipment by paying {0}, targeting Crackdown Construct.\nCrackdown Construct triggers, giving itself +1/+1 until end of turn.\nResolve the equip ability, attaching the Equipment to Crackdown Construct.\nRepeat.",
+   "notes": "",
+   "popularity": 1124,
+   "spoiler": false,
+   "bracketTag": "O",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": false,
+    "competitiveBrawl": false,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": true,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "0.87",
+    "cardkingdom": "1.64",
+    "cardmarket": "1.10"
+   },
+   "variantCount": 7
+  },
+  {
+   "id": "1692-4364",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 4364,
+      "name": "Aurelia, the Warleader",
+      "oracleId": "0f5a3a09-2f07-4774-9e0f-e99d9a444166",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Angel",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.png?1783908915",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 1692,
+      "name": "Helm of the Host",
+      "oracleId": "83b43aba-bf9c-4da2-967d-9daa632e97d2",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Artifact — Equipment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.png?1783903218",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "name": "Infinite combat phases"
+    },
+    {
+     "name": "Infinite creature tokens with haste"
+    },
+    {
+     "name": "Infinite ETB"
+    },
+    {
+     "name": "Infinite mana creatures you control can produce"
+    },
+    {
+     "name": "Infinite untap of creatures you control"
+    }
+   ],
+   "of": [
+    {
+     "id": 115
+    }
+   ],
+   "includes": [
+    {
+     "id": 115
+    },
+    {
+     "id": 27045
+    },
+    {
+     "id": 27480
+    },
+    {
+     "id": 31074
+    }
+   ],
+   "identity": "RW",
+   "manaNeeded": "",
+   "manaValueNeeded": 0,
+   "easyPrerequisites": "",
+   "notablePrerequisites": "Helm attached to Aurelia.",
+   "description": "At the beginning of your combat phase, Helm of the Host triggers, creating a nonlegendary token copy of Aurelia.\nDeclare the token Aurelia as an attacker.\nThe token Aurelia triggers, causing you to untap all creatures you control and get an additional combat phase after this one.\nRepeat each combat phase.",
+   "notes": "",
+   "popularity": 30396,
+   "spoiler": false,
+   "bracketTag": "S",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": true,
+    "competitiveBrawl": true,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": true,
+    "pioneer": true,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "9.19",
+    "cardkingdom": "13.48",
+    "cardmarket": "7.49"
+   },
+   "variantCount": 1
+  },
+  {
+   "id": "1550-4364",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 4364,
+      "name": "Aurelia, the Warleader",
+      "oracleId": "0f5a3a09-2f07-4774-9e0f-e99d9a444166",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Angel",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.png?1783908915",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 1550,
+      "name": "Sword of Hearth and Home",
+      "oracleId": "913e6182-706a-4872-8c8a-e146b0ae0738",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Artifact — Equipment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/1/a16fabbe-4557-4067-b882-f2e5dbd8b458.png?1783926799",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/1/a16fabbe-4557-4067-b882-f2e5dbd8b458.jpg?1783926799",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/1/a16fabbe-4557-4067-b882-f2e5dbd8b458.jpg?1783926799",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/1/a16fabbe-4557-4067-b882-f2e5dbd8b458.jpg?1783926799",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/1/a16fabbe-4557-4067-b882-f2e5dbd8b458.jpg?1783926799",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "name": "Infinite combat damage"
+    },
+    {
+     "name": "Infinite combat phases"
+    },
+    {
+     "name": "Infinite ETB"
+    },
+    {
+     "name": "Infinite LTB"
+    },
+    {
+     "name": "Put all basic lands from your library onto the battlefield"
+    }
+   ],
+   "of": [
+    {
+     "id": 8489
+    }
+   ],
+   "includes": [
+    {
+     "id": 8489
+    },
+    {
+     "id": 31074
+    }
+   ],
+   "identity": "RW",
+   "manaNeeded": "",
+   "manaValueNeeded": 0,
+   "easyPrerequisites": "",
+   "notablePrerequisites": "Sword of Hearth and Home attached to any other creature you control.\nThe creature with Sword of Hearth and Home attached can attack this turn.\nAn opponent cannot block and kill the creature with Sword of Hearth and Home attached and Aurelia.",
+   "description": "Declare Aurelia and the creature with Sword of Hearth and Home attached as attackers, attacking an opponent unable to block them.\nAurelia triggers, causing you to untap all creatures you control and to get an additional combat phase after this one.\nDeal combat damage with Aurelia and the creature that has Sword of Hearth and Home attached.\nSword of Hearth and Home triggers, blinking Aurelia and searching your library for a basic land card and putting it onto the battlefield.\nRepeat each combat phase.",
+   "notes": "",
+   "popularity": 11985,
+   "spoiler": false,
+   "bracketTag": "S",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": true,
+    "competitiveBrawl": true,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": true,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "17.82",
+    "cardkingdom": "21.48",
+    "cardmarket": "14.90"
+   },
+   "variantCount": 1
+  }
+ ],
+ "hs_imgs": {},
+ "type_recs": {},
+ "content": {
+  "primer": {
+   "quick_read": [
+    "**Free equip** : it equips for free on entry — every Equipment in hand hits the board immediately.",
+    "**Draw engine** : draws massively on attack (1 card per equipped creature).",
+    "**Treasures** : past 7 power every attack generates Treasures — ramp from combat damage.",
+    "**Naya package** : access to the best Equipment support (Puresteel Paladin, Tifa, Colossus Hammer)."
+   ],
+   "plan_title": "⚔️ VOLTRON EQUIPMENT — The signature plan (2,760 Equipment decks)",
+   "plan_html": "<h3>⚔️ VOLTRON EQUIPMENT <span class=\"badge\">CHOSEN PLAN</span></h3>\n    <p>The dominant plan for Cloud (2,760 Equipment decks + 1,568 Voltron on EDHREC).</p>\n<div class=\"plan-block\"><span class=\"plan-badge\">How it plays</span>\n<ul>\n<li><strong>Free equip</strong> : Cloud equips for free on entry — every Equipment in hand hits the board immediately.</li>\n<li><strong>Draw per attacker</strong> : each attack draws a card per equipped attacking creature.</li>\n<li><strong>War machine</strong> : Colossus Hammer (+10/+10), Champion's Helm (+2/+2 + hexproof) push Cloud past 7 power → Treasures.</li>\n</ul></div><div class=\"plan-block\"><span class=\"plan-badge\">Core loop</span>\n<ul>\n<li><strong>Draw engine</strong> : Puresteel Paladin (free equip with Metalcraft), Sigarda's Aid / Forge Anew (free flash equips).</li>\n<li><strong>Doubling</strong> : Cloud, Midgar Mercenary doubles the triggers.</li>\n</ul></div><div class=\"plan-block\"><span class=\"plan-badge\">Win conditions</span>\n<ul>\n<li><strong>One-shot</strong> : commander damage from Colossus Hammer.</li>\n<li><strong>Infinite combats</strong> : Aggravated Assault + Sword of Feast and Famine, Aurelia + Helm of the Host.</li>\n<li><strong>Extra phases</strong> : Tifa / Aurelia combat phases.</li>\n</ul></div>",
+   "plan_cards": [
+    "Puresteel Paladin",
+    "Colossus Hammer",
+    "Champion's Helm",
+    "Lightning Greaves"
+   ],
+   "source_html": "<em>“EDHREC Guide to Equipment in Commander”</em> (Cooper Gottfried, edhrec.com): the official EDHREC guide identifies <strong>4 pillars</strong> of an Equipment deck: ① the <strong>equipment</strong> themselves (cheap-to-equip weapons — Mask of Memory, Lavaspur Boots — or powerful finishers), ② the <strong>free-equip engines</strong> (Puresteel Paladin, Sigarda’s Aid, Brass Squire, Forge Anew), ③ <strong>card draw</strong> tied to attacking with equipped creatures, and ④ <strong>protection</strong> (hexproof, indestructible, boots). The guide’s core insight: an Equipment deck lives and dies by its ability to re-equip fast after a wipe — Cloud’s free self-equip on entry plus Puresteel Paladin make it one of the best shells for that exact engine.",
+   "combos_note": "110 Naya combos discarded (insufficient overlap, 5+ cards, low popularity, or off-plan pieces) plus 66 off-color ones. Kept 4: the infinite-combat engines. Produces/Prerequisites/Execution reproduce Commander Spellbook content verbatim.",
+   "explanations": {
+    "HighSynergy": [
+     [
+      "Puresteel Paladin",
+      "Draw a card whenever an Equipment enters, and with Metalcraft (3+ artifacts) all your Equipment have equip {0} — the free draw/equip engine."
+     ],
+     [
+      "Colossus Hammer",
+      "Equipped creature gets +10/+10 (and loses flying). Cloud equips for free on entry → an immediate 14/14 threat. Equip {8} is expensive, but Puresteel Paladin makes it free."
+     ],
+     [
+      "Conqueror's Flail",
+      "Equipped creature gets +1/+1 for each color among permanents you control, and while it is equipped, opponents can't cast spells during your turn — a lock piece."
+     ],
+     [
+      "Red XIII, Proud Warrior",
+      "Vigilance, trample; your other modified creatures (equipped, enchanted, or with counters) gain them too. On entry, returns an Equipment."
+     ],
+     [
+      "Tifa, Martial Artist",
+      "Melee, and whenever a creature with power 7+ deals combat damage, untap all your creatures and there is an additional combat phase — the finisher enabler."
+     ],
+     [
+      "Sword of the Animist",
+      "+1/+1, and whenever the equipped creature attacks, search for a basic land and put it onto the battlefield tapped — Cloud ramps one land per combat."
+     ]
+    ],
+    "TopCards": [
+     [
+      "Nature's Lore",
+      "Search your library for a Forest and put it onto the battlefield (untapped) — 2-mana ramp."
+     ],
+     [
+      "Bugenhagen, Wise Elder",
+      "At your upkeep, if you control a creature with power 7+ (equipped Cloud!), draw a card. And {T}: add one mana of any color."
+     ],
+     [
+      "Cloud, Midgar Mercenary",
+      "On entry, search your library for an Equipment and put it into your hand. While equipped, Cloud's and his Equipment's triggered abilities trigger an additional time — a second Cloud engine."
+     ],
+     [
+      "Cultivate",
+      "Search for up to two basic lands: one onto the battlefield tapped, one to hand."
+     ],
+     [
+      "Champion's Helm",
+      "+2/+2; while the equipped creature is legendary (Cloud!), it has hexproof — protection from targeted spells."
+     ],
+     [
+      "Lightning Greaves",
+      "Equipped creature has haste and shroud (can't be targeted by ANYONE, including you). Haste to strike immediately, but equip can't target it afterwards."
+     ]
+    ],
+    "Creatures": [
+     [
+      "Halvar, God of Battle",
+      "Your enchanted or equipped creatures have double strike. At the start of each combat, you may move an Aura/Equipment for free — the combat buff engine."
+     ],
+     [
+      "Kellan, the Fae-Blooded",
+      "Double strike; your other creatures get +1/+0 per Aura/Equipment attached to Kellan. On entry, search for an Aura or Equipment."
+     ],
+     [
+      "Aurelia, the Warleader",
+      "Flying, vigilance, haste. When she attacks for the first time each turn, untap your creatures and there is an additional combat phase — the combat doubler."
+     ],
+     [
+      "Stoneforge Mystic",
+      "On entry, search for an Equipment. {1}{W}, {T}: put an Equipment from your hand onto the battlefield — tutor + free deploy."
+     ],
+     [
+      "Danitha Capashen, Paragon",
+      "First strike, vigilance, lifelink. Aura and Equipment spells you cast cost {1} less — the tribal discount."
+     ],
+     [
+      "Bastion Protector",
+      "Commander creatures you control (Cloud!) get +2/+2 and have indestructible — the ultimate bodyguard."
+     ]
+    ],
+    "Instants": [
+     [
+      "Swords to Plowshares",
+      "Exile target creature; its controller gains life equal to its power. The white removal benchmark."
+     ],
+     [
+      "Path to Exile",
+      "Exile target creature; its controller may search for a basic land. Second white removal."
+     ],
+     [
+      "Heroic Intervention",
+      "Your permanents gain hexproof and indestructible until end of turn — protects the whole equipped board."
+     ],
+     [
+      "Boros Charm",
+      "Choose one: 4 damage to a player/planeswalker, indestructible for your permanents, or double strike for a creature — the indestructible mode saves Cloud."
+     ],
+     [
+      "Flawless Maneuver",
+      "Free if you control a commander — your creatures gain indestructible. The protection free-spell."
+     ],
+     [
+      "Akroma's Will",
+      "If you control a commander as you cast it, choose two modes: flying+vigilance+double strike, or lifelink+indestructible+protection from each color — the all-in finisher."
+     ]
+    ],
+    "Sorceries": [
+     [
+      "Cultivate",
+      "Search for up to two basic lands: one tapped, one to hand."
+     ],
+     [
+      "Nature's Lore",
+      "Search for a Forest and put it onto the battlefield (untapped)."
+     ],
+     [
+      "Three Visits",
+      "Search for a Forest and put it onto the battlefield (untapped) — the upgraded Nature's Lore."
+     ],
+     [
+      "Rampant Growth",
+      "Search for a basic land and put it tapped."
+     ],
+     [
+      "Open the Armory",
+      "Search for an Aura or Equipment — flexible tutor."
+     ],
+     [
+      "Steelshaper's Gift",
+      "Search for an Equipment — the deck's most direct tutor."
+     ]
+    ],
+    "Artifacts": [
+     [
+      "Lightning Greaves",
+      "Haste + shroud — see Top Cards."
+     ],
+     [
+      "Colossus Hammer",
+      "+10/+10 — see High Synergy."
+     ],
+     [
+      "Champion's Helm",
+      "+2/+2 + hexproof if legendary — see Top Cards."
+     ],
+     [
+      "Helm of the Host",
+      "At the beginning of combat, create a nonlegendary token copy of the equipped creature with haste — doubles Cloud every combat."
+     ],
+     [
+      "Sword of Feast and Famine",
+      "+2/+2, protection from black and green. On contact: opponent discards a card and you untap all your lands — the infinite-combat combo piece."
+     ],
+     [
+      "Sword of Hearth and Home",
+      "+2/+2, protection from green and white. On contact: exile a creature you own, then search for a basic land — blink + ramp."
+     ]
+    ],
+    "Enchantments": [
+     [
+      "Forge Anew",
+      "On entry, return an Equipment from your graveyard to the battlefield. During YOUR turn, equip at instant speed and the first equip each turn is free — the recursion engine."
+     ],
+     [
+      "Sigarda's Aid",
+      "Your Aura/Equipment spells have flash, and whenever an Equipment enters you may attach it for free — equip at instant speed."
+     ],
+     [
+      "Fighter Class",
+      "On entry, search for an Equipment. Level 2: equipping costs {2} less. Level 3: an attacking creature forces a single blocker — the combat enforcer."
+     ],
+     [
+      "Aggravated Assault",
+      "{3}{R}{R}: untap all your creatures, then an additional combat phase follows this main phase. Combos with Sword of Feast and Famine: contact → untap lands → repeat for infinite combats."
+     ],
+     [
+      "Annie Joins Up",
+      "On entry: 5 damage to a creature/planeswalker. Then your legendary creatures' triggered abilities trigger an additional time — doubles Cloud's draw triggers."
+     ],
+     [
+      "Strong Back",
+      "Equipping the enchanted creature costs {3} less, and it gets +2/+2 for each Aura and Equipment attached — grows with every piece."
+     ]
+    ],
+    "UtilityLands": [
+     [
+      "Rogue's Passage",
+      "{4}, {T}: target creature can't be blocked this turn — guarantees Cloud's contact."
+     ],
+     [
+      "Slayers' Stronghold",
+      "{R}{W}, {T}: a creature gets +2/+0, vigilance and haste — combat buff."
+     ],
+     [
+      "Kessig Wolf Run",
+      "{X}{R}{G}, {T}: a creature gets +X/+0 and trample — the surprise finisher."
+     ],
+     [
+      "Urza's Saga",
+      "Three-step Saga: colorless mana, a 0/0 Construct token that grows with your artifacts, then search for an artifact with cost ≤ 1 — finds Sol Ring et al."
+     ],
+     [
+      "Scavenger Grounds",
+      "{2}, {T}, sacrifice a Desert: exile all graveyards — anti-recursion."
+     ],
+     [
+      "Reliquary Tower",
+      "No maximum hand size — keeps your massive draws."
+     ]
+    ],
+    "ManaBase": [
+     [
+      "Command Tower",
+      "{T}: add one mana of any color in your commander's color identity — the format's best land."
+     ],
+     [
+      "Stomping Ground",
+      "{T}: add {R} or {G} — red/green shockland, enters untapped for 2 life."
+     ],
+     [
+      "Temple Garden",
+      "{T}: add {G} or {W} — green/white shockland."
+     ],
+     [
+      "Sacred Foundry",
+      "{T}: add {R} or {W} — red/white shockland."
+     ],
+     [
+      "Wooded Foothills",
+      "Pay 1 life, sacrifice: search for a Mountain or Forest — red/green fetch."
+     ],
+     [
+      "Windswept Heath",
+      "Pay 1 life, sacrifice: search for a Forest or Plains — green/white fetch."
+     ]
+    ]
+   },
+   "cat_synopsis": {
+    "HighSynergy": [
+     "🌟 High Synergy Cards",
+     "The heart of the deck: free-equip engines, the +10/+10 hammer and the combat lock pieces."
+    ],
+    "TopCards": [
+     "🔥 Top Cards",
+     "The most played cards: ramp, the draw engine and the protection boots."
+    ],
+    "Creatures": [
+     "🧝 Creatures",
+     "The support creatures: tutors, combat doublers and bodyguards."
+    ],
+    "Instants": [
+     "⚡ Instants",
+     "White removal and protection spells that keep Cloud alive."
+    ],
+    "Sorceries": [
+     "📜 Sorceries",
+     "Ramp and Equipment tutors."
+    ],
+    "Artifacts": [
+     "⚔️ Artifacts",
+     "The weapons and boots: hammers, swords and the doubling Helm."
+    ],
+    "Enchantments": [
+     "🌿 Enchantments",
+     "Free-equip engines, recursion and the infinite-combat piece."
+    ],
+    "UtilityLands": [
+     "🏰 Utility Lands",
+     "Unblockable, combat buffs and graveyard hate lands."
+    ],
+    "ManaBase": [
+     "🌲 Lands / Mana Base",
+     "Naya fixing: shocks, fetches and Command Tower."
+    ]
+   },
+   "cat_order": [
+    "HighSynergy",
+    "TopCards",
+    "Creatures",
+    "Instants",
+    "Sorceries",
+    "Artifacts",
+    "Enchantments",
+    "UtilityLands",
+    "ManaBase"
+   ],
+   "mana_cost_html": "<img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/W.svg\" alt=\"W\" title=\"W\" class=\"ms\"/> (4 mana)",
+   "extra_table_rows": ""
+  }
+ }
+}

@@ -1,0 +1,3461 @@
+{
+ "schema_version": 1,
+ "reconciled_at": "2026-08-09",
+ "commander": {
+  "name": "Aminatou, Veil Piercer",
+  "slug": "aminatou-veil-piercer",
+  "mana_cost": "{1}{W}{U}{B}",
+  "type_line": "Legendary Creature — Human Wizard",
+  "color_id": "",
+  "power": "2",
+  "toughness": "4",
+  "rarity": "mythic",
+  "legality": "legal",
+  "set_name": "Duskmourn: House of Horror Commander",
+  "img": "https://cards.scryfall.io/normal/front/9/f/9f868023-6035-403d-ba91-7a4840c6c392.jpg?1783909663",
+  "oracle": "At the beginning of your upkeep, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\nEach enchantment card in your hand has miracle. Its miracle cost is equal to its mana cost reduced by {4}. (You may cast a card for its miracle cost when you draw it if it's the first card you drew this turn.)",
+  "keywords": []
+ },
+ "imgs": {
+  "Ancient Cellarspawn": "https://cards.scryfall.io/normal/front/2/7/27e2477d-4f04-408d-8c39-8a886ac81f44.jpg?1783909661",
+  "Archetype of Imagination": "https://cards.scryfall.io/normal/front/2/0/204972f7-8111-4e7d-97c4-53bcdc222230.jpg?1783909628",
+  "Arvinox, the Mind Flail": "https://cards.scryfall.io/normal/front/f/8/f81e3110-857c-4074-9c55-7e87c22051c9.jpg?1783909623",
+  "Athreos, Shroud-Veiled": "https://cards.scryfall.io/normal/front/f/5/f50ffa76-f704-4d53-a15c-8316b07c1d12.jpg?1783909597",
+  "Auramancer": "https://cards.scryfall.io/normal/front/d/0/d0957032-6d98-4cac-889b-890e9bfe1f86.jpg?1783909633",
+  "Burnished Hart": "https://cards.scryfall.io/normal/front/6/5/65ebbff0-fbe6-4310-a33f-e00bb2534979.jpg?1783909049",
+  "Demon of Fate's Design": "https://cards.scryfall.io/normal/front/0/d/0d3668fe-78d9-4c2c-8c83-5cace9d39e03.jpg?1783909621",
+  "Doomwake Giant": "https://cards.scryfall.io/normal/front/0/b/0be3f848-ba01-4890-a3a1-ed0dfb564632.jpg?1783903786",
+  "Dream Eater": "https://cards.scryfall.io/normal/front/c/7/c721d449-fc77-4d86-8baf-158181e37087.jpg?1783909628",
+  "Fear of Sleep Paralysis": "https://cards.scryfall.io/normal/front/8/4/845e9d68-11a9-4759-a031-13464d337e12.jpg?1783909663",
+  "Mesa Enchantress": "https://cards.scryfall.io/normal/front/c/4/c4f9e9fc-8b89-40ee-9b20-10e4a23e6333.jpg?1783909643",
+  "Metamorphosis Fanatic": "https://cards.scryfall.io/normal/front/1/6/16448d95-ee21-4def-b880-26f6f159c213.jpg?1783909658",
+  "Moon-Blessed Cleric": "https://cards.scryfall.io/normal/front/0/5/0555e095-8c6f-4436-80fe-99b641fad2df.jpg?1783909642",
+  "Nightmare Shepherd": "https://cards.scryfall.io/normal/front/c/0/c03c1ad6-3122-4267-80d6-94ecf1ff3884.jpg?1783909617",
+  "Ondu Spiritdancer": "https://cards.scryfall.io/normal/front/e/e/ee1c6432-54d7-4b57-a554-f7194d74e03c.jpg?1783909632",
+  "Phenomenon Investigators": "https://cards.scryfall.io/normal/front/5/7/57195155-6bdf-43c3-9f2e-11c31aef6b9c.jpg?1783909653",
+  "Prognostic Sphinx": "https://cards.scryfall.io/normal/front/d/9/d9d36763-2975-4b5c-aeda-2d0159cb5191.jpg?1783909624",
+  "Soaring Lightbringer": "https://cards.scryfall.io/normal/front/f/c/fc7895bf-a5fe-45bd-bc57-c4abe0703900.jpg?1783909663",
+  "Solemn Simulacrum": "https://cards.scryfall.io/normal/front/d/a/daafd816-f7c1-4630-9e5c-a1e5db570a35.jpg?1783903212",
+  "Starfield Mystic": "https://cards.scryfall.io/normal/front/e/8/e8f2fcb4-8d06-49ac-9c70-9c54d77c6d86.jpg?1783903798",
+  "The Master of Keys": "https://cards.scryfall.io/normal/front/3/5/3545341b-dacc-4ac8-976e-39754a62bbc3.jpg?1783909663",
+  "Verge Rangers": "https://cards.scryfall.io/normal/front/c/6/c63a5253-b3b7-48d0-8c2c-700fbd0e4c3f.jpg?1783909629",
+  "Arcane Denial": "https://cards.scryfall.io/normal/front/5/e/5eb843ef-b223-40d0-a461-54b16d188d0e.jpg?1783903242",
+  "Brainstorm": "https://cards.scryfall.io/normal/front/b/5/b5545882-6963-4729-b2c6-fb4bdc75ffcc.jpg?1783904806",
+  "Inkshield": "https://cards.scryfall.io/normal/front/3/3/3362ade8-d585-40be-8486-382cad6efaf8.jpg?1783903751",
+  "Otherworldly Gaze": "https://cards.scryfall.io/normal/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg?1783909625",
+  "Return to Dust": "https://cards.scryfall.io/normal/front/3/c/3c3745c2-5509-4d6b-8f49-5cb93374edea.jpg?1783909632",
+  "Swords to Plowshares": "https://cards.scryfall.io/normal/front/b/4/b4e9c870-23c0-413a-ae39-265f09da16d1.jpg?1783903243",
+  "Telling Time": "https://cards.scryfall.io/normal/front/c/2/c2616749-699b-4928-8984-aba630d3397a.jpg?1783909641",
+  "Thirst for Meaning": "https://cards.scryfall.io/normal/front/b/9/b91bd773-b36b-4a7a-a9e4-3a07cff90646.jpg?1783909622",
+  "Utter End": "https://cards.scryfall.io/normal/front/1/8/1819a0af-0775-431d-9637-13f8f10830f5.jpg?1783909636",
+  "Aminatou's Augury": "https://cards.scryfall.io/normal/front/5/0/503448da-d14f-4759-85b6-0db2e90e0241.jpg?1783909645",
+  "Diabolic Vision": "https://cards.scryfall.io/normal/front/c/3/c360753a-af32-4f1d-a1c7-c3f3c075ecc0.jpg?1783909637",
+  "Entreat the Angels": "https://cards.scryfall.io/normal/front/f/f/ff4411bc-ed4e-4d54-9e1b-21fc77b0e415.jpg?1783909633",
+  "Ponder": "https://cards.scryfall.io/normal/front/d/c/dc69f960-68ba-4315-8146-6a7a82047503.jpg?1783907102",
+  "Portent": "https://cards.scryfall.io/normal/front/5/b/5b360632-9c81-4b9c-8b9f-ac0b51c974a0.jpg?1783909642",
+  "Read the Bones": "https://cards.scryfall.io/normal/front/b/3/b3198f96-f9d8-494f-a556-24ce3ad3895d.jpg?1783909615",
+  "Redress Fate": "https://cards.scryfall.io/normal/front/1/9/19f56096-f692-4719-af38-6a4955f2b65c.jpg?1783909662",
+  "Terminus": "https://cards.scryfall.io/normal/front/4/c/4c53c684-37f9-4b95-88be-a42b9600c47c.jpg?1783909643",
+  "Time Wipe": "https://cards.scryfall.io/normal/front/e/b/eb4b75e6-3080-412b-bf40-b6029ea8bbfe.jpg?1783907017",
+  "Arcane Signet": "https://cards.scryfall.io/normal/front/1/c/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd.jpg?1783903222",
+  "Azorius Signet": "https://cards.scryfall.io/normal/front/4/1/41c50b99-4a29-4bef-8d41-c548c8a61dac.jpg?1783907017",
+  "Brainstone": "https://cards.scryfall.io/normal/front/6/e/6e86ad39-2a90-466d-b188-056216429f4e.jpg?1783909587",
+  "Commander's Sphere": "https://cards.scryfall.io/normal/front/a/0/a0d50603-e31f-4cd7-b4b6-49847d99eb2e.jpg?1783904531",
+  "Mind Stone": "https://cards.scryfall.io/normal/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.jpg?1785759375",
+  "Orzhov Signet": "https://cards.scryfall.io/normal/front/9/0/90894726-1940-4291-a05c-b85cefbfa344.jpg?1783907008",
+  "Sol Ring": "https://cards.scryfall.io/normal/front/9/1/91fdb56b-54d5-4272-8319-505ff987fe9b.jpg?1783903215",
+  "Bottomless Pool // Locker Room": "https://cards.scryfall.io/normal/front/6/0/606fe87c-d17b-4fa7-8e82-e7002d8229ef.jpg?1783909499",
+  "Cast Out": "https://cards.scryfall.io/normal/front/4/b/4b491874-4be1-496a-bf04-abe1f5af4482.jpg?1783909633",
+  "Cramped Vents // Access Maze": "https://cards.scryfall.io/normal/front/7/b/7ba1e27e-ed0d-438c-9ec6-a48a04718512.jpg?1783909659",
+  "Extravagant Replication": "https://cards.scryfall.io/normal/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+  "Life Insurance": "https://cards.scryfall.io/normal/front/6/0/60e1921e-6c98-4c60-88f4-8fbb6f30236e.jpg?1783909592",
+  "Mirrormade": "https://cards.scryfall.io/normal/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+  "Monologue Tax": "https://cards.scryfall.io/normal/front/e/e/ee68d390-11cb-4617-a9ee-6e8cf7ff0e55.jpg?1783903246",
+  "One with the Multiverse": "https://cards.scryfall.io/normal/front/1/c/1c85ae22-ccd0-4649-a736-1915043daae7.jpg?1783909627",
+  "Secret Arcade // Dusty Parlor": "https://cards.scryfall.io/normal/front/f/e/fe050c16-9be5-42ef-988f-0531a8bb2352.jpg?1783909661",
+  "Shark Typhoon": "https://cards.scryfall.io/normal/front/2/b/2b2accb1-d77b-4633-9d0c-b972d9c014bb.jpg?1783909622",
+  "Sigil of the Empty Throne": "https://cards.scryfall.io/normal/front/6/8/6875be24-1515-488f-a899-929c8e480dfd.jpg?1783909633",
+  "Sphere of Safety": "https://cards.scryfall.io/normal/front/5/c/5c4e3031-ffc2-4d4d-a9f9-e85820059315.jpg?1783909633",
+  "Spirit-Sister's Call": "https://cards.scryfall.io/normal/front/b/c/bc495d03-9340-47cd-afc2-82a1677e69df.jpg?1783909590",
+  "The Eldest Reborn": "https://cards.scryfall.io/normal/front/4/d/4d29351e-5608-40e8-8220-6c9635d48ad4.jpg?1783909619",
+  "Timely Ward": "https://cards.scryfall.io/normal/front/d/6/d61f8db1-0148-47bd-ae97-9aedccb83813.jpg?1783909630",
+  "Bojuka Bog": "https://cards.scryfall.io/normal/front/5/5/55b5b094-9d2d-4d96-b90c-78fecdae725a.jpg?1783903734",
+  "Hall of Heliod's Generosity": "https://cards.scryfall.io/normal/front/f/0/f08dfd99-59fa-4a6c-bd69-c647f639de4d.jpg?1783909573",
+  "Adarkar Wastes": "https://cards.scryfall.io/normal/front/4/2/42e0aa15-639a-4e88-9bd8-ce5e7c7d7649.jpg?1783906017",
+  "Arcane Sanctum": "https://cards.scryfall.io/normal/front/c/7/c75eeb97-3249-4762-84b0-387f27fb255f.jpg?1783909581",
+  "Ash Barrens": "https://cards.scryfall.io/normal/front/e/8/e8510205-4baa-4f1c-bf64-5d931e2ddf48.jpg?1783904155",
+  "Azorius Chancery": "https://cards.scryfall.io/normal/front/5/0/50ef0ac3-e911-4d67-a751-8d86160ae843.jpg?1783909580",
+  "Caves of Koilos": "https://cards.scryfall.io/normal/front/a/8/a8a57915-5226-4d3c-ae8e-a55c50f3c131.jpg?1783903734",
+  "Command Tower": "https://cards.scryfall.io/normal/front/0/5/0548fb60-c843-4f8f-a029-6f10efc63a41.jpg?1783903206",
+  "Dimir Aqueduct": "https://cards.scryfall.io/normal/front/8/4/84bf9d60-64b8-4209-acfe-e07eefc6bf1f.jpg?1783909578",
+  "Evolving Wilds": "https://cards.scryfall.io/normal/front/c/0/c0318a48-30e4-4ef7-be3d-5e561c5ce428.jpg?1783903203",
+  "Halimar Depths": "https://cards.scryfall.io/normal/front/6/3/63eb18e0-c723-4de4-8498-c5362c75b2b4.jpg?1783909574",
+  "Island": "https://cards.scryfall.io/normal/front/f/3/f3cc07cd-cc79-4745-b0b7-eade60175cc3.jpg?1785981645",
+  "Obscura Storefront": "https://cards.scryfall.io/normal/front/d/8/d8eaf8d2-8029-49d9-a94b-a72dc31fc81f.jpg?1783909570",
+  "Orzhov Basilica": "https://cards.scryfall.io/normal/front/9/c/9c7c08fc-b6ee-498c-8ab6-fd6be27c9d97.jpg?1783909569",
+  "Plains": "https://cards.scryfall.io/normal/front/8/a/8ab0f4c0-b331-4c57-b68f-2e24bb5ba06c.jpg?1785981632",
+  "Swamp": "https://cards.scryfall.io/normal/front/b/7/b7387103-1df1-4fd0-9e91-1544509792c7.jpg?1785981659",
+  "Tainted Field": "https://cards.scryfall.io/normal/front/c/6/c6eeab6f-a738-4005-91c2-a5f81df5c569.jpg?1783909567",
+  "Tainted Isle": "https://cards.scryfall.io/normal/front/7/0/70e8e7e2-e9ea-4358-805e-c5110c8d8443.jpg?1783909566",
+  "Temple of Deceit": "https://cards.scryfall.io/normal/front/e/1/e18748ce-e52e-4cd1-89d4-cd2578a0d574.jpg?1783908897",
+  "Temple of Enlightenment": "https://cards.scryfall.io/normal/front/d/d/dd139d4d-3a40-4015-93de-c838c64156c6.jpg?1783906003",
+  "Temple of Silence": "https://cards.scryfall.io/normal/front/f/7/f7d3770f-cde6-4e29-8cbf-fe841634a5d7.jpg?1783903716",
+  "Terramorphic Expanse": "https://cards.scryfall.io/normal/front/a/8/a81f924b-0527-4311-8120-9bfff71524f6.jpg?1783903191",
+  "Thriving Heath": "https://cards.scryfall.io/normal/front/b/b/bb089097-1eed-4e72-a715-579ddd8307a0.jpg?1783903089",
+  "Thriving Isle": "https://cards.scryfall.io/normal/front/5/8/58a3b5a5-eba0-4b4e-869a-5387ec7dd2b8.jpg?1783903089",
+  "Thriving Moor": "https://cards.scryfall.io/normal/front/5/d/5d5eea5f-b9e8-4a10-8e7f-c42493a728cd.jpg?1783903088",
+  "Underground River": "https://cards.scryfall.io/normal/front/5/e/5e50c8d5-6b22-4fc6-87ea-3d7d77ced17f.jpg?1783909555",
+  "Aminatou, Veil Piercer": "https://cards.scryfall.io/normal/front/9/f/9f868023-6035-403d-ba91-7a4840c6c392.jpg?1783909663"
+ },
+ "oracle": {
+  "Adarkar Wastes": "{T}: Add {C}.\n{T}: Add {W} or {U}. This land deals 1 damage to you.",
+  "Aminatou's Augury": "Exile the top eight cards of your library. You may put a land card from among them onto the battlefield. Until end of turn, for each nonland card type, you may cast a spell of that type from among the exiled cards without paying its mana cost.",
+  "Ancient Cellarspawn": "Each spell you cast that's a Demon, Horror, or Nightmare costs {1} less to cast.\nWhenever you cast a spell, if the amount of mana spent to cast it was less than its mana value, target opponent loses life equal to the difference.",
+  "Arcane Denial": "Counter target spell. Its controller may draw up to two cards at the beginning of the next turn's upkeep.\nYou draw a card at the beginning of the next turn's upkeep.",
+  "Arcane Sanctum": "This land enters tapped.\n{T}: Add {W}, {U}, or {B}.",
+  "Arcane Signet": "{T}: Add one mana of any color in your commander's color identity.",
+  "Archetype of Imagination": "Creatures you control have flying.\nCreatures your opponents control lose flying and can't have or gain flying.",
+  "Arvinox, the Mind Flail": "Arvinox isn't a creature unless you control three or more permanents you don't own.\nAt the beginning of your end step, exile the bottom card of each opponent's library face down. For as long as those cards remain exiled, you may look at them, you may cast permanent spells from among them, and you may spend mana as though it were mana of any color to cast those spells.",
+  "Ash Barrens": "{T}: Add {C}.\nBasic landcycling {1} ({1}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+  "Athreos, Shroud-Veiled": "Indestructible\nAs long as your devotion to white and black is less than seven, Athreos isn't a creature.\nAt the beginning of your end step, put a coin counter on another target creature.\nWhenever a creature with a coin counter on it dies or is put into exile, return that card to the battlefield under your control.",
+  "Auramancer": "When this creature enters, you may return target enchantment card from your graveyard to your hand.",
+  "Azorius Chancery": "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {W}{U}.",
+  "Azorius Signet": "{1}, {T}: Add {W}{U}.",
+  "Bojuka Bog": "This land enters tapped.\nWhen this land enters, exile target player's graveyard.\n{T}: Add {B}.",
+  "Brainstone": "{2}, {T}, Sacrifice this artifact: Draw three cards, then put two cards from your hand on top of your library in any order.",
+  "Brainstorm": "Draw three cards, then put two cards from your hand on top of your library in any order.",
+  "Burnished Hart": "{3}, Sacrifice this creature: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
+  "Cast Out": "Flash\nWhen this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.\nCycling {W} ({W}, Discard this card: Draw a card.)",
+  "Caves of Koilos": "{T}: Add {C}.\n{T}: Add {W} or {B}. This land deals 1 damage to you.",
+  "Command Tower": "{T}: Add one mana of any color in your commander's color identity.",
+  "Commander's Sphere": "{T}: Add one mana of any color in your commander's color identity.\nSacrifice this artifact: Draw a card.",
+  "Demon of Fate's Design": "Flying, trample\nOnce during each of your turns, you may cast an enchantment spell by paying life equal to its mana value rather than paying its mana cost.\n{2}{B}, Sacrifice another enchantment: This creature gets +X/+0 until end of turn, where X is the sacrificed enchantment's mana value.",
+  "Diabolic Vision": "Look at the top five cards of your library. Put one of them into your hand and the rest on top of your library in any order.",
+  "Dimir Aqueduct": "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {U}{B}.",
+  "Doomwake Giant": "Constellation — Whenever this creature or another enchantment you control enters, creatures your opponents control get -1/-1 until end of turn.",
+  "Dream Eater": "Flash\nFlying\nWhen this creature enters, surveil 4. When you do, you may return target nonland permanent an opponent controls to its owner's hand. (To surveil 4, look at the top four cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+  "Entreat the Angels": "Create X 4/4 white Angel creature tokens with flying.\nMiracle {X}{W}{W} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)",
+  "Evolving Wilds": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+  "Extravagant Replication": "At the beginning of your upkeep, create a token that's a copy of another target nonland permanent you control.",
+  "Fear of Sleep Paralysis": "Flying\nEerie — Whenever this creature or another enchantment you control enters and whenever you fully unlock a Room, tap up to one target creature and put a stun counter on it.\nStun counters can't be removed from permanents your opponents control. (They won't untap if they have stun counters.)",
+  "Halimar Depths": "This land enters tapped.\nWhen this land enters, look at the top three cards of your library, then put them back in any order.\n{T}: Add {U}.",
+  "Hall of Heliod's Generosity": "{T}: Add {C}.\n{1}{W}, {T}: Put target enchantment card from your graveyard on top of your library.",
+  "Inkshield": "Prevent all combat damage that would be dealt to you this turn. For each 1 damage prevented this way, create a 2/1 white and black Inkling creature token with flying.",
+  "Island": "({T}: Add {U}.)",
+  "Life Insurance": "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)\nWhenever a nontoken creature dies, you lose 1 life and create a Treasure token.",
+  "Mesa Enchantress": "Whenever you cast an enchantment spell, you may draw a card.",
+  "Metamorphosis Fanatic": "Lifelink\nWhen this creature enters, return up to one target creature card from your graveyard to the battlefield with a lifelink counter on it.\nMiracle {1}{B} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)",
+  "Mind Stone": "{T}: Add {C}.\n{1}, {T}, Sacrifice this artifact: Draw a card.",
+  "Mirrormade": "You may have this enchantment enter as a copy of any artifact or enchantment on the battlefield.",
+  "Monologue Tax": "Whenever an opponent casts their second spell each turn, you create a Treasure token.",
+  "Moon-Blessed Cleric": "Divine Intervention — When this creature enters, you may search your library for an enchantment card, reveal it, then shuffle and put that card on top.",
+  "Nightmare Shepherd": "Flying\nWhenever another nontoken creature you control dies, you may exile it. If you do, create a token that's a copy of that creature, except it's 1/1 and it's a Nightmare in addition to its other types.",
+  "Obscura Storefront": "When this land enters, sacrifice it. When you do, search your library for a basic Plains, Island, or Swamp card, put it onto the battlefield tapped, then shuffle and you gain 1 life.",
+  "Ondu Spiritdancer": "Whenever an enchantment you control enters, you may create a token that's a copy of it. Do this only once each turn.",
+  "One with the Multiverse": "You may look at the top card of your library any time.\nYou may play lands and cast spells from the top of your library.\nOnce during each of your turns, you may cast a spell from your hand or the top of your library without paying its mana cost.",
+  "Orzhov Basilica": "This land enters tapped.\nWhen this land enters, return a land you control to its owner's hand.\n{T}: Add {W}{B}.",
+  "Orzhov Signet": "{1}, {T}: Add {W}{B}.",
+  "Otherworldly Gaze": "Surveil 3. (Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\nFlashback {1}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+  "Phenomenon Investigators": "As this creature enters, choose Believe or Doubt.\n• Believe — Whenever a nontoken creature you control dies, create a 2/2 black Horror enchantment creature token.\n• Doubt — At the beginning of your end step, you may return a nonland permanent you own to your hand. If you do, draw a card.",
+  "Plains": "({T}: Add {W}.)",
+  "Ponder": "Look at the top three cards of your library, then put them back in any order. You may shuffle.\nDraw a card.",
+  "Portent": "Look at the top three cards of target player's library, then put them back in any order. You may have that player shuffle.\nDraw a card at the beginning of the next turn's upkeep.",
+  "Prognostic Sphinx": "Flying\nDiscard a card: This creature gains hexproof until end of turn. Tap it.\nWhenever this creature attacks, scry 3.",
+  "Read the Bones": "Scry 2, then draw two cards. You lose 2 life. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)",
+  "Redress Fate": "Return all artifact and enchantment cards from your graveyard to the battlefield.\nMiracle {3}{W} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)",
+  "Return to Dust": "Exile target artifact or enchantment. If you cast this spell during your main phase, you may exile up to one other target artifact or enchantment.",
+  "Shark Typhoon": "Whenever you cast a noncreature spell, create an X/X blue Shark creature token with flying, where X is that spell's mana value.\nCycling {X}{1}{U} ({X}{1}{U}, Discard this card: Draw a card.)\nWhen you cycle this card, create an X/X blue Shark creature token with flying.",
+  "Sigil of the Empty Throne": "Whenever you cast an enchantment spell, create a 4/4 white Angel creature token with flying.",
+  "Soaring Lightbringer": "Flying\nOther enchantment creatures you control have flying.\nWhenever you attack a player, create a 1/1 white Glimmer enchantment creature token that's tapped and attacking that player.",
+  "Sol Ring": "{T}: Add {C}{C}.",
+  "Solemn Simulacrum": "When this creature enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.\nWhen this creature dies, you may draw a card.",
+  "Sphere of Safety": "Creatures can't attack you or planeswalkers you control unless their controller pays {X} for each of those creatures, where X is the number of enchantments you control.",
+  "Spirit-Sister's Call": "At the beginning of your end step, choose target permanent card in your graveyard. You may sacrifice a permanent that shares a card type with the chosen card. If you do, return the chosen card from your graveyard to the battlefield and it gains \"If this permanent would leave the battlefield, exile it instead of putting it anywhere else.\"",
+  "Starfield Mystic": "Enchantment spells you cast cost {1} less to cast.\nWhenever an enchantment you control is put into a graveyard from the battlefield, put a +1/+1 counter on this creature.",
+  "Swamp": "({T}: Add {B}.)",
+  "Swords to Plowshares": "Exile target creature. Its controller gains life equal to its power.",
+  "Tainted Field": "{T}: Add {C}.\n{T}: Add {W} or {B}. Activate only if you control a Swamp.",
+  "Tainted Isle": "{T}: Add {C}.\n{T}: Add {U} or {B}. Activate only if you control a Swamp.",
+  "Telling Time": "Look at the top three cards of your library. Put one of those cards into your hand, one on top of your library, and one on the bottom of your library.",
+  "Temple of Deceit": "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {U} or {B}.",
+  "Temple of Enlightenment": "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {W} or {U}.",
+  "Temple of Silence": "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {W} or {B}.",
+  "Terminus": "Put all creatures on the bottom of their owners' libraries.\nMiracle {W} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)",
+  "Terramorphic Expanse": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+  "The Eldest Reborn": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Each opponent sacrifices a creature or planeswalker of their choice.\nII — Each opponent discards a card.\nIII — Put target creature or planeswalker card from a graveyard onto the battlefield under your control.",
+  "The Master of Keys": "Flying\nWhen The Master of Keys enters, put X +1/+1 counters on it and mill twice X cards.\nEach enchantment card in your graveyard has escape. The escape cost is equal to the card's mana cost plus exile three other cards from your graveyard. (You may cast cards from your graveyard for their escape cost.)",
+  "Thirst for Meaning": "Draw three cards. Then discard two cards unless you discard an enchantment card.",
+  "Thriving Heath": "This land enters tapped. As it enters, choose a color other than white.\n{T}: Add {W} or one mana of the chosen color.",
+  "Thriving Isle": "This land enters tapped. As it enters, choose a color other than blue.\n{T}: Add {U} or one mana of the chosen color.",
+  "Thriving Moor": "This land enters tapped. As it enters, choose a color other than black.\n{T}: Add {B} or one mana of the chosen color.",
+  "Time Wipe": "Return a creature you control to its owner's hand, then destroy all creatures.",
+  "Timely Ward": "You may cast this spell as though it had flash if it targets a commander.\nEnchant creature\nEnchanted creature has indestructible.",
+  "Underground River": "{T}: Add {C}.\n{T}: Add {U} or {B}. This land deals 1 damage to you.",
+  "Utter End": "Exile target nonland permanent.",
+  "Verge Rangers": "First strike\nYou may look at the top card of your library any time.\nAs long as an opponent controls more lands than you, you may play lands from the top of your library. (You can play a land this way only if you have an available land play remaining.)",
+  "Bottomless Pool // Locker Room": "When you unlock this door, return up to one target creature to its owner's hand.\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.) Whenever one or more creatures you control deal combat damage to a player, draw a card.\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)",
+  "Cramped Vents // Access Maze": "When you unlock this door, this Room deals 6 damage to target creature an opponent controls. You gain life equal to the excess damage dealt this way.\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.) Once during each of your turns, you may cast a spell from your hand by paying life equal to its mana value rather than paying its mana cost.\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)",
+  "Secret Arcade // Dusty Parlor": "Nonland permanents you control and permanent spells you control are enchantments in addition to their other types.\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.) Whenever you cast an enchantment spell, put a number of +1/+1 counters equal to that spell's mana value on up to one target creature.\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)"
+ },
+ "card_meta": {
+  "Adarkar Wastes": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Aminatou's Augury": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Ancient Cellarspawn": {
+   "type_line": "Enchantment Creature — Horror",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Arcane Denial": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Arcane Sanctum": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Arcane Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Archetype of Imagination": {
+   "type_line": "Enchantment Creature — Human Wizard",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Arvinox, the Mind Flail": {
+   "type_line": "Legendary Enchantment Creature — Horror",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Ash Barrens": {
+   "type_line": "Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": [
+    "Landcycling",
+    "Basic landcycling",
+    "Typecycling",
+    "Cycling"
+   ]
+  },
+  "Athreos, Shroud-Veiled": {
+   "type_line": "Legendary Enchantment Creature — God",
+   "produced_mana": [],
+   "keywords": [
+    "Indestructible"
+   ]
+  },
+  "Auramancer": {
+   "type_line": "Creature — Human Wizard",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Azorius Chancery": {
+   "type_line": "Land",
+   "produced_mana": [
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Azorius Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Bojuka Bog": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Brainstone": {
+   "type_line": "Artifact",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Brainstorm": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Burnished Hart": {
+   "type_line": "Artifact Creature — Elk",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cast Out": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Flash",
+    "Cycling"
+   ]
+  },
+  "Caves of Koilos": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Command Tower": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Commander's Sphere": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Demon of Fate's Design": {
+   "type_line": "Enchantment Creature — Demon",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Trample"
+   ]
+  },
+  "Diabolic Vision": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Dimir Aqueduct": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Doomwake Giant": {
+   "type_line": "Enchantment Creature — Giant",
+   "produced_mana": [],
+   "keywords": [
+    "Constellation"
+   ]
+  },
+  "Dream Eater": {
+   "type_line": "Creature — Nightmare Sphinx",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Surveil",
+    "Flash"
+   ]
+  },
+  "Entreat the Angels": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Miracle"
+   ]
+  },
+  "Evolving Wilds": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Extravagant Replication": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Fear of Sleep Paralysis": {
+   "type_line": "Enchantment Creature — Nightmare",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Eerie"
+   ]
+  },
+  "Halimar Depths": {
+   "type_line": "Land",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Hall of Heliod's Generosity": {
+   "type_line": "Legendary Land",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Inkshield": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Island": {
+   "type_line": "Basic Land — Island",
+   "produced_mana": [
+    "U"
+   ],
+   "keywords": []
+  },
+  "Life Insurance": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Extort",
+    "Treasure"
+   ]
+  },
+  "Mesa Enchantress": {
+   "type_line": "Creature — Human Druid",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Metamorphosis Fanatic": {
+   "type_line": "Creature — Human Cleric",
+   "produced_mana": [],
+   "keywords": [
+    "Lifelink",
+    "Miracle"
+   ]
+  },
+  "Mind Stone": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Mirrormade": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Monologue Tax": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Treasure"
+   ]
+  },
+  "Moon-Blessed Cleric": {
+   "type_line": "Creature — Human Elf Cleric",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Nightmare Shepherd": {
+   "type_line": "Enchantment Creature — Demon",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Obscura Storefront": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Ondu Spiritdancer": {
+   "type_line": "Creature — Kor Cleric",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "One with the Multiverse": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Orzhov Basilica": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Orzhov Signet": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "B",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Otherworldly Gaze": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": [
+    "Surveil",
+    "Flashback"
+   ]
+  },
+  "Phenomenon Investigators": {
+   "type_line": "Creature — Human Detective",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Plains": {
+   "type_line": "Basic Land — Plains",
+   "produced_mana": [
+    "W"
+   ],
+   "keywords": []
+  },
+  "Ponder": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Portent": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Prognostic Sphinx": {
+   "type_line": "Creature — Sphinx",
+   "produced_mana": [],
+   "keywords": [
+    "Scry",
+    "Flying"
+   ]
+  },
+  "Read the Bones": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Redress Fate": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Miracle"
+   ]
+  },
+  "Return to Dust": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Shark Typhoon": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": [
+    "Cycling"
+   ]
+  },
+  "Sigil of the Empty Throne": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Soaring Lightbringer": {
+   "type_line": "Enchantment Creature — Bird Glimmer",
+   "produced_mana": [],
+   "keywords": [
+    "Flying"
+   ]
+  },
+  "Sol Ring": {
+   "type_line": "Artifact",
+   "produced_mana": [
+    "C"
+   ],
+   "keywords": []
+  },
+  "Solemn Simulacrum": {
+   "type_line": "Artifact Creature — Golem",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Sphere of Safety": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Spirit-Sister's Call": {
+   "type_line": "Enchantment",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Starfield Mystic": {
+   "type_line": "Creature — Human Cleric",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Swamp": {
+   "type_line": "Basic Land — Swamp",
+   "produced_mana": [
+    "B"
+   ],
+   "keywords": []
+  },
+  "Swords to Plowshares": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Tainted Field": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Tainted Isle": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Telling Time": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Temple of Deceit": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "U"
+   ],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Temple of Enlightenment": {
+   "type_line": "Land",
+   "produced_mana": [
+    "U",
+    "W"
+   ],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Temple of Silence": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "W"
+   ],
+   "keywords": [
+    "Scry"
+   ]
+  },
+  "Terminus": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": [
+    "Miracle"
+   ]
+  },
+  "Terramorphic Expanse": {
+   "type_line": "Land",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "The Eldest Reborn": {
+   "type_line": "Enchantment — Saga",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "The Master of Keys": {
+   "type_line": "Legendary Enchantment Creature — Horror",
+   "produced_mana": [],
+   "keywords": [
+    "Flying",
+    "Mill"
+   ]
+  },
+  "Thirst for Meaning": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Thriving Heath": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Thriving Isle": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Thriving Moor": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "G",
+    "R",
+    "U",
+    "W"
+   ],
+   "keywords": []
+  },
+  "Time Wipe": {
+   "type_line": "Sorcery",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Timely Ward": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": [],
+   "keywords": [
+    "Enchant"
+   ]
+  },
+  "Underground River": {
+   "type_line": "Land",
+   "produced_mana": [
+    "B",
+    "C",
+    "U"
+   ],
+   "keywords": []
+  },
+  "Utter End": {
+   "type_line": "Instant",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Verge Rangers": {
+   "type_line": "Creature — Human Scout Ranger",
+   "produced_mana": [],
+   "keywords": [
+    "First strike"
+   ]
+  },
+  "Bottomless Pool // Locker Room": {
+   "type_line": "Enchantment — Room // Enchantment — Room",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Cramped Vents // Access Maze": {
+   "type_line": "Enchantment — Room // Enchantment — Room",
+   "produced_mana": [],
+   "keywords": []
+  },
+  "Secret Arcade // Dusty Parlor": {
+   "type_line": "Enchantment — Room // Enchantment — Room",
+   "produced_mana": [],
+   "keywords": []
+  }
+ },
+ "synergy": {
+  "Demon of Fate's Design": 0.71,
+  "Doomwake Giant": 0.68,
+  "Fear of Sleep Paralysis": 0.67,
+  "Mesa Enchantress": 0.69,
+  "Moon-Blessed Cleric": 0.69,
+  "Ondu Spiritdancer": 0.7,
+  "Soaring Lightbringer": 0.59,
+  "Arcane Denial": 0.43,
+  "Brainstorm": 0.67,
+  "Swords to Plowshares": 0.08,
+  "Redress Fate": 0.75,
+  "Terminus": 0.59,
+  "Extravagant Replication": 0.75,
+  "Mirrormade": 0.56,
+  "One with the Multiverse": 0.8,
+  "Secret Arcade // Dusty Parlor": 0.6,
+  "Shark Typhoon": 0.73,
+  "Sigil of the Empty Throne": 0.73,
+  "Sphere of Safety": 0.77,
+  "Hall of Heliod's Generosity": 0.76
+ },
+ "plans": [
+  {
+   "tag": "Enchantress",
+   "decks": 2872,
+   "description": [
+    "**Engine** : play enchantments to draw cards — Mesa Enchantress, Ondu Spiritdancer (doubles auras), Starfield Mystic (discount).",
+    "**Miracle synergy** : Aminatou's miracle −{4} makes every enchantment in hand a cheap blowout; surveil 2 each upkeep feeds both the enchantment count and the miracle trigger.",
+    "**Snowball** : each enchantment cantrips, the board grows, and control pieces (Doomwake Giant constellation) keep the table in check."
+   ],
+   "win": [
+    "**Angel army** : Sigil of the Empty Throne turns every enchantment into a 4/4 Angel.",
+    "**Copy engine** : Extravagant Replication doubles your best permanent each upkeep.",
+    "**Top-of-library** : One with the Multiverse plays from the top of your library.",
+    "**Finisher** : Redress Fate recursion or a giant Entreat the Angels (miracle for {W}{W}{W}{W})."
+   ],
+   "high_synergy": [
+    {
+     "name": "One with the Multiverse",
+     "synergy": 0.8
+    },
+    {
+     "name": "Hall of Heliod's Generosity",
+     "synergy": 0.79
+    },
+    {
+     "name": "Sphere of Safety",
+     "synergy": 0.79
+    },
+    {
+     "name": "Extravagant Replication",
+     "synergy": 0.75
+    },
+    {
+     "name": "Sigil of the Empty Throne",
+     "synergy": 0.75
+    },
+    {
+     "name": "Shark Typhoon",
+     "synergy": 0.74
+    },
+    {
+     "name": "Redress Fate",
+     "synergy": 0.74
+    },
+    {
+     "name": "Demon of Fate's Design",
+     "synergy": 0.72
+    },
+    {
+     "name": "Doomwake Giant",
+     "synergy": 0.71
+    },
+    {
+     "name": "Mesa Enchantress",
+     "synergy": 0.71
+    }
+   ],
+   "deck_matches": [
+    "Demon of Fate's Design",
+    "Doomwake Giant",
+    "Extravagant Replication",
+    "Hall of Heliod's Generosity",
+    "Mesa Enchantress",
+    "One with the Multiverse",
+    "Redress Fate",
+    "Shark Typhoon",
+    "Sigil of the Empty Throne",
+    "Sphere of Safety"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Topdeck",
+   "decks": 2108,
+   "description": [
+    "**Setup** : surveil 2 at upkeep + cantrips (Brainstorm, Ponder, Portent, Telling Time), Halimar Depths and Brainstone stack the top of the library.",
+    "**Payoff** : miracle draws always hit — Aminatou's discount turns any enchantment into a cheap answer.",
+    "**Engine** : One with the Multiverse turns the top of the library into an extra hand."
+   ],
+   "win": [
+    "**Free spells** : Aminatou's Augury casts your whole top 8 for free.",
+    "**Cheap wipe** : Terminus becomes a one-mana wipe via miracle.",
+    "**Beatdown** : Entreat the Angels and Shark Typhoon finish from the top.",
+    "**Infinite turns** : Timestream Navigator + Extravagant Replication (see combos)."
+   ],
+   "high_synergy": [
+    {
+     "name": "One with the Multiverse",
+     "synergy": 0.85
+    },
+    {
+     "name": "Hall of Heliod's Generosity",
+     "synergy": 0.81
+    },
+    {
+     "name": "Sphere of Safety",
+     "synergy": 0.8
+    },
+    {
+     "name": "Redress Fate",
+     "synergy": 0.79
+    },
+    {
+     "name": "Shark Typhoon",
+     "synergy": 0.78
+    },
+    {
+     "name": "Extravagant Replication",
+     "synergy": 0.77
+    },
+    {
+     "name": "Sigil of the Empty Throne",
+     "synergy": 0.77
+    },
+    {
+     "name": "Demon of Fate's Design",
+     "synergy": 0.76
+    },
+    {
+     "name": "Moon-Blessed Cleric",
+     "synergy": 0.75
+    },
+    {
+     "name": "Brainstorm",
+     "synergy": 0.75
+    }
+   ],
+   "deck_matches": [
+    "Brainstorm",
+    "Demon of Fate's Design",
+    "Extravagant Replication",
+    "Hall of Heliod's Generosity",
+    "Moon-Blessed Cleric",
+    "One with the Multiverse",
+    "Redress Fate",
+    "Shark Typhoon",
+    "Sigil of the Empty Throne",
+    "Sphere of Safety"
+   ],
+   "combos": [
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 1061,
+        "name": "Timestream Navigator",
+        "oracleId": "d0896996-ee31-402e-b642-4e7cca4929fe",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Human Pirate Wizard",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.png?1783913879",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2061,
+        "name": "Extravagant Replication",
+        "oracleId": "3a646245-b8b7-4f91-a312-d5eea9a9e49a",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.png?1783909081",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Timestream Navigator + Extravagant Replication",
+     "popularity": 927,
+     "produces": [
+      {
+       "name": "Infinite turns"
+      },
+      {
+       "name": "Lock"
+      }
+     ],
+     "description": "During your upkeep, Extravagant Replication triggers, creating a token copy of Timestream Navigator.\nDuring your next upkeep, Extravagant Replication triggers, creating a token copy of Timestream Navigator.\nActivate the ability of a Timestream Navigator token that did not enter the battlefield this turn by paying {2}{U}{U}, tapping it, and putting it on the bottom of your library, taking an extra turn.\nRepeat from 2.",
+     "notablePrerequisites": "You have the city's blessing.",
+     "easyPrerequisites": "",
+     "plans": [
+      "Topdeck",
+      "Combo"
+     ],
+     "in_deck": [
+      "Extravagant Replication"
+     ]
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 2120,
+        "name": "Wanderwine Prophets",
+        "oracleId": "9ab36915-b600-4970-961a-403f5da0dba1",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Merfolk Wizard",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.png?1783942895",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2061,
+        "name": "Extravagant Replication",
+        "oracleId": "3a646245-b8b7-4f91-a312-d5eea9a9e49a",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.png?1783909081",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Wanderwine Prophets + Extravagant Replication",
+     "popularity": 109,
+     "produces": [
+      {
+       "name": "Infinite turns"
+      },
+      {
+       "name": "Lock"
+      }
+     ],
+     "description": "Declare Wanderwine Prophets as an attacker.\nDeal combat damage to an opponent using Wanderwine Prophets.\nWanderwine Prophets triggers, causing you to sacrifice the Merfolk token and take an extra turn after this one.\nAt the begining of your upkeep Extravagant Replication triggers creating a copy of a merfolk you control.\nRepeat each turn.",
+     "notablePrerequisites": "Wanderwine Prophets cannot be blocked by opponents.",
+     "easyPrerequisites": "Wanderwine Prophets does not have summoning sickness.\nYou control at least one other merfolk.",
+     "plans": [
+      "Topdeck",
+      "Combo"
+     ],
+     "in_deck": [
+      "Extravagant Replication"
+     ]
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 1530,
+        "name": "Second Chance",
+        "oracleId": "aa19bbf0-7de3-4ec3-a98b-2ac7533c6b0b",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.png?1783946245",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2061,
+        "name": "Extravagant Replication",
+        "oracleId": "3a646245-b8b7-4f91-a312-d5eea9a9e49a",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.png?1783909081",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Second Chance + Extravagant Replication",
+     "popularity": 106,
+     "produces": [
+      {
+       "name": "Infinite turns"
+      },
+      {
+       "name": "Lock"
+      }
+     ],
+     "description": "At the beginning of your upkeep, Second Chance and Extravagant Replication trigger.\nResolve the Extravagant Replication trigger, creating a token copy of Second Chance.\nResolve the Second Chance trigger, causing you to sacrifice it and take an extra turn after this one.\nRepeat each turn.",
+     "notablePrerequisites": "You have 5 or less life.",
+     "easyPrerequisites": "",
+     "plans": [
+      "Topdeck",
+      "Combo"
+     ],
+     "in_deck": [
+      "Extravagant Replication"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "Control",
+   "decks": 282,
+   "description": [
+    "**Answers** : Swords to Plowshares, Path to Exile, Utter End, Cast Out, Return to Dust, Arcane Denial + counterspells.",
+    "**Refill** : the enchantress engine draws cards back between answers.",
+    "**Recurring wipe** : Doomwake Giant's constellation clears small boards repeatedly."
+   ],
+   "win": [
+    "**Reset then win** : Terminus / Time Wipe clear the board, then the enchantress card advantage takes over.",
+    "**Beats** : Angel tokens, Dream Eater, or a copied engine via Mirrormade / Extravagant Replication.",
+    "**Infinite ETB** : Sharuum the Hegemon + Mirrormade loops (see combos)."
+   ],
+   "high_synergy": [
+    {
+     "name": "Hall of Heliod's Generosity",
+     "synergy": 0.76
+    },
+    {
+     "name": "One with the Multiverse",
+     "synergy": 0.73
+    },
+    {
+     "name": "Sphere of Safety",
+     "synergy": 0.71
+    },
+    {
+     "name": "Extravagant Replication",
+     "synergy": 0.68
+    },
+    {
+     "name": "Redress Fate",
+     "synergy": 0.66
+    },
+    {
+     "name": "Moon-Blessed Cleric",
+     "synergy": 0.66
+    },
+    {
+     "name": "Brainstorm",
+     "synergy": 0.65
+    },
+    {
+     "name": "Mesa Enchantress",
+     "synergy": 0.62
+    },
+    {
+     "name": "Shark Typhoon",
+     "synergy": 0.61
+    },
+    {
+     "name": "Sigil of the Empty Throne",
+     "synergy": 0.6
+    }
+   ],
+   "deck_matches": [
+    "Brainstorm",
+    "Extravagant Replication",
+    "Hall of Heliod's Generosity",
+    "Mesa Enchantress",
+    "Moon-Blessed Cleric",
+    "One with the Multiverse",
+    "Redress Fate",
+    "Shark Typhoon",
+    "Sigil of the Empty Throne",
+    "Sphere of Safety"
+   ],
+   "combos": [
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 4112,
+        "name": "Sharuum the Hegemon",
+        "oracleId": "037e7fc9-3aa6-484c-a2c8-43009e45f1d8",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Legendary Artifact Creature — Sphinx",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.png?1783930126",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2210,
+        "name": "Mirrormade",
+        "oracleId": "79a71fe5-38ce-4bb5-aea0-c9b9a856d397",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.png?1783909627",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "H"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Sharuum the Hegemon + Mirrormade",
+     "popularity": 673,
+     "produces": [
+      {
+       "name": "Infinite creature ETB"
+      },
+      {
+       "name": "Infinite creature LTB"
+      }
+     ],
+     "description": "Cast Mirrormade by paying {1}{U}{U}.\nMirrormade enters as a copy of Sharuum.\nPut Sharuum into the graveyard due to the legend rule.\nMirrormade triggers, returning Sharuum from your graveyard to the battlefield.\nPut Sharuum into the graveyard due to the legend rule.\nSharuum enters the battlefield triggers, returning itself from your graveyard to the battlefield.\nRepeat from step 5.",
+     "notablePrerequisites": "",
+     "easyPrerequisites": "",
+     "plans": [
+      "Pillow Fort",
+      "Combo",
+      "Control"
+     ],
+     "in_deck": [
+      "Mirrormade"
+     ]
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 3790,
+        "name": "Mystic Barrier",
+        "oracleId": "0caf42f5-abff-48aa-9bbf-df6cba169ef3",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.png?1783939689",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2210,
+        "name": "Mirrormade",
+        "oracleId": "79a71fe5-38ce-4bb5-aea0-c9b9a856d397",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.png?1783909627",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "as a copy of Mystic Barrier",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Mystic Barrier + Mirrormade",
+     "popularity": 468,
+     "produces": [
+      {
+       "name": "Creatures can't attack"
+      },
+      {
+       "name": "Lock"
+      }
+     ],
+     "description": "At the beginning of each of your upkeeps, Mystic Barrier and Mirrormade trigger, choosing \"left\" for Mystic Barrier and \"right\" for Mirrormade.\nAs long as there are three or more players in the game, creatures cannot attack.",
+     "notablePrerequisites": "You have at least two opponents.",
+     "easyPrerequisites": "",
+     "plans": [
+      "Pillow Fort",
+      "Control"
+     ],
+     "in_deck": [
+      "Mirrormade"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "Pillow Fort",
+   "decks": 154,
+   "description": [
+    "**Fort** : Sphere of Safety (attackers pay {1} per enchantment) + defensive enchantments make attacking you expensive.",
+    "**Value behind the wall** : the enchantress draw engine and Aminatou's surveil keep assembling pieces."
+   ],
+   "win": [
+    "**Lock** : Mystic Barrier + Mirrormade prevents all attacks (see combos).",
+    "**Unbeatable board** : Sigil of the Empty Throne + Extravagant Replication builds an Angel army opponents can't profitably attack into."
+   ],
+   "high_synergy": [
+    {
+     "name": "Sphere of Safety",
+     "synergy": 0.83
+    },
+    {
+     "name": "Hall of Heliod's Generosity",
+     "synergy": 0.79
+    },
+    {
+     "name": "One with the Multiverse",
+     "synergy": 0.75
+    },
+    {
+     "name": "Shark Typhoon",
+     "synergy": 0.7
+    },
+    {
+     "name": "Redress Fate",
+     "synergy": 0.69
+    },
+    {
+     "name": "Extravagant Replication",
+     "synergy": 0.68
+    },
+    {
+     "name": "Ondu Spiritdancer",
+     "synergy": 0.68
+    },
+    {
+     "name": "Sigil of the Empty Throne",
+     "synergy": 0.66
+    },
+    {
+     "name": "Mesa Enchantress",
+     "synergy": 0.66
+    },
+    {
+     "name": "Moon-Blessed Cleric",
+     "synergy": 0.65
+    }
+   ],
+   "deck_matches": [
+    "Extravagant Replication",
+    "Hall of Heliod's Generosity",
+    "Mesa Enchantress",
+    "Moon-Blessed Cleric",
+    "Ondu Spiritdancer",
+    "One with the Multiverse",
+    "Redress Fate",
+    "Shark Typhoon",
+    "Sigil of the Empty Throne",
+    "Sphere of Safety"
+   ],
+   "combos": [
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 4112,
+        "name": "Sharuum the Hegemon",
+        "oracleId": "037e7fc9-3aa6-484c-a2c8-43009e45f1d8",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Legendary Artifact Creature — Sphinx",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.png?1783930126",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2210,
+        "name": "Mirrormade",
+        "oracleId": "79a71fe5-38ce-4bb5-aea0-c9b9a856d397",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.png?1783909627",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "H"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Sharuum the Hegemon + Mirrormade",
+     "popularity": 673,
+     "produces": [
+      {
+       "name": "Infinite creature ETB"
+      },
+      {
+       "name": "Infinite creature LTB"
+      }
+     ],
+     "description": "Cast Mirrormade by paying {1}{U}{U}.\nMirrormade enters as a copy of Sharuum.\nPut Sharuum into the graveyard due to the legend rule.\nMirrormade triggers, returning Sharuum from your graveyard to the battlefield.\nPut Sharuum into the graveyard due to the legend rule.\nSharuum enters the battlefield triggers, returning itself from your graveyard to the battlefield.\nRepeat from step 5.",
+     "notablePrerequisites": "",
+     "easyPrerequisites": "",
+     "plans": [
+      "Pillow Fort",
+      "Combo",
+      "Control"
+     ],
+     "in_deck": [
+      "Mirrormade"
+     ]
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 3790,
+        "name": "Mystic Barrier",
+        "oracleId": "0caf42f5-abff-48aa-9bbf-df6cba169ef3",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.png?1783939689",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2210,
+        "name": "Mirrormade",
+        "oracleId": "79a71fe5-38ce-4bb5-aea0-c9b9a856d397",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.png?1783909627",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "as a copy of Mystic Barrier",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Mystic Barrier + Mirrormade",
+     "popularity": 468,
+     "produces": [
+      {
+       "name": "Creatures can't attack"
+      },
+      {
+       "name": "Lock"
+      }
+     ],
+     "description": "At the beginning of each of your upkeeps, Mystic Barrier and Mirrormade trigger, choosing \"left\" for Mystic Barrier and \"right\" for Mirrormade.\nAs long as there are three or more players in the game, creatures cannot attack.",
+     "notablePrerequisites": "You have at least two opponents.",
+     "easyPrerequisites": "",
+     "plans": [
+      "Pillow Fort",
+      "Control"
+     ],
+     "in_deck": [
+      "Mirrormade"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "Tokens",
+   "decks": 103,
+   "description": [
+    "**Token makers** : Sigil of the Empty Throne (Angels), Shark Typhoon (Sharks on every noncreature spell), Extravagant Replication (copies), Life Insurance (token on death).",
+    "**Chain** : Aminatou's miracle discount lets you chain enchantments and flood the board."
+   ],
+   "win": [
+    "**Go wide** : Angel tokens from Sigil + Entreat, Shark Typhoon flips huge whenever you cast a spell.",
+    "**Doubling** : Extravagant Replication doubles your best token maker each upkeep.",
+    "**Blowout** : Inkshield turns a lost combat into 8+ 2/1 flying tokens."
+   ],
+   "high_synergy": [
+    {
+     "name": "Hall of Heliod's Generosity",
+     "synergy": 0.79
+    },
+    {
+     "name": "One with the Multiverse",
+     "synergy": 0.78
+    },
+    {
+     "name": "Sigil of the Empty Throne",
+     "synergy": 0.76
+    },
+    {
+     "name": "Extravagant Replication",
+     "synergy": 0.74
+    },
+    {
+     "name": "Sphere of Safety",
+     "synergy": 0.72
+    },
+    {
+     "name": "Redress Fate",
+     "synergy": 0.72
+    },
+    {
+     "name": "Shark Typhoon",
+     "synergy": 0.71
+    },
+    {
+     "name": "Ondu Spiritdancer",
+     "synergy": 0.71
+    },
+    {
+     "name": "Fear of Sleep Paralysis",
+     "synergy": 0.69
+    },
+    {
+     "name": "Demon of Fate's Design",
+     "synergy": 0.66
+    }
+   ],
+   "deck_matches": [
+    "Demon of Fate's Design",
+    "Extravagant Replication",
+    "Fear of Sleep Paralysis",
+    "Hall of Heliod's Generosity",
+    "Ondu Spiritdancer",
+    "One with the Multiverse",
+    "Redress Fate",
+    "Shark Typhoon",
+    "Sigil of the Empty Throne",
+    "Sphere of Safety"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Combo",
+   "decks": 92,
+   "description": [
+    "**Copy engines** : Extravagant Replication and Mirrormade go infinite with the right piece.",
+    "**Digging** : Aminatou's topdeck control and the enchantress draw find the combo pieces.",
+    "**Note** : the combo pieces are NOT in the precon — these are upgrade paths."
+   ],
+   "win": [
+    "**Infinite turns** : Timestream Navigator / Wanderwine Prophets / Second Chance + Extravagant Replication.",
+    "**Infinite ETB** : Sharuum the Hegemon + Mirrormade.",
+    "**Lock** : Mystic Barrier + Mirrormade prevents all attacks."
+   ],
+   "high_synergy": [
+    {
+     "name": "Hall of Heliod's Generosity",
+     "synergy": 0.7
+    },
+    {
+     "name": "Redress Fate",
+     "synergy": 0.68
+    },
+    {
+     "name": "Sphere of Safety",
+     "synergy": 0.63
+    },
+    {
+     "name": "One with the Multiverse",
+     "synergy": 0.62
+    },
+    {
+     "name": "Brainstorm",
+     "synergy": 0.6
+    },
+    {
+     "name": "Mesa Enchantress",
+     "synergy": 0.6
+    },
+    {
+     "name": "Shark Typhoon",
+     "synergy": 0.58
+    },
+    {
+     "name": "Moon-Blessed Cleric",
+     "synergy": 0.57
+    },
+    {
+     "name": "Sensei's Divining Top",
+     "synergy": 0.57
+    },
+    {
+     "name": "Ondu Spiritdancer",
+     "synergy": 0.56
+    }
+   ],
+   "deck_matches": [
+    "Brainstorm",
+    "Hall of Heliod's Generosity",
+    "Mesa Enchantress",
+    "Moon-Blessed Cleric",
+    "Ondu Spiritdancer",
+    "One with the Multiverse",
+    "Redress Fate",
+    "Shark Typhoon",
+    "Sphere of Safety"
+   ],
+   "combos": [
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 1061,
+        "name": "Timestream Navigator",
+        "oracleId": "d0896996-ee31-402e-b642-4e7cca4929fe",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Human Pirate Wizard",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.png?1783913879",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2061,
+        "name": "Extravagant Replication",
+        "oracleId": "3a646245-b8b7-4f91-a312-d5eea9a9e49a",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.png?1783909081",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Timestream Navigator + Extravagant Replication",
+     "popularity": 927,
+     "produces": [
+      {
+       "name": "Infinite turns"
+      },
+      {
+       "name": "Lock"
+      }
+     ],
+     "description": "During your upkeep, Extravagant Replication triggers, creating a token copy of Timestream Navigator.\nDuring your next upkeep, Extravagant Replication triggers, creating a token copy of Timestream Navigator.\nActivate the ability of a Timestream Navigator token that did not enter the battlefield this turn by paying {2}{U}{U}, tapping it, and putting it on the bottom of your library, taking an extra turn.\nRepeat from 2.",
+     "notablePrerequisites": "You have the city's blessing.",
+     "easyPrerequisites": "",
+     "plans": [
+      "Topdeck",
+      "Combo"
+     ],
+     "in_deck": [
+      "Extravagant Replication"
+     ]
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 4112,
+        "name": "Sharuum the Hegemon",
+        "oracleId": "037e7fc9-3aa6-484c-a2c8-43009e45f1d8",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Legendary Artifact Creature — Sphinx",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.png?1783930126",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2210,
+        "name": "Mirrormade",
+        "oracleId": "79a71fe5-38ce-4bb5-aea0-c9b9a856d397",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.png?1783909627",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "H"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Sharuum the Hegemon + Mirrormade",
+     "popularity": 673,
+     "produces": [
+      {
+       "name": "Infinite creature ETB"
+      },
+      {
+       "name": "Infinite creature LTB"
+      }
+     ],
+     "description": "Cast Mirrormade by paying {1}{U}{U}.\nMirrormade enters as a copy of Sharuum.\nPut Sharuum into the graveyard due to the legend rule.\nMirrormade triggers, returning Sharuum from your graveyard to the battlefield.\nPut Sharuum into the graveyard due to the legend rule.\nSharuum enters the battlefield triggers, returning itself from your graveyard to the battlefield.\nRepeat from step 5.",
+     "notablePrerequisites": "",
+     "easyPrerequisites": "",
+     "plans": [
+      "Pillow Fort",
+      "Combo",
+      "Control"
+     ],
+     "in_deck": [
+      "Mirrormade"
+     ]
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 2120,
+        "name": "Wanderwine Prophets",
+        "oracleId": "9ab36915-b600-4970-961a-403f5da0dba1",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Merfolk Wizard",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.png?1783942895",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2061,
+        "name": "Extravagant Replication",
+        "oracleId": "3a646245-b8b7-4f91-a312-d5eea9a9e49a",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.png?1783909081",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Wanderwine Prophets + Extravagant Replication",
+     "popularity": 109,
+     "produces": [
+      {
+       "name": "Infinite turns"
+      },
+      {
+       "name": "Lock"
+      }
+     ],
+     "description": "Declare Wanderwine Prophets as an attacker.\nDeal combat damage to an opponent using Wanderwine Prophets.\nWanderwine Prophets triggers, causing you to sacrifice the Merfolk token and take an extra turn after this one.\nAt the begining of your upkeep Extravagant Replication triggers creating a copy of a merfolk you control.\nRepeat each turn.",
+     "notablePrerequisites": "Wanderwine Prophets cannot be blocked by opponents.",
+     "easyPrerequisites": "Wanderwine Prophets does not have summoning sickness.\nYou control at least one other merfolk.",
+     "plans": [
+      "Topdeck",
+      "Combo"
+     ],
+     "in_deck": [
+      "Extravagant Replication"
+     ]
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 1530,
+        "name": "Second Chance",
+        "oracleId": "aa19bbf0-7de3-4ec3-a98b-2ac7533c6b0b",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.png?1783946245",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2061,
+        "name": "Extravagant Replication",
+        "oracleId": "3a646245-b8b7-4f91-a312-d5eea9a9e49a",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.png?1783909081",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "title": "Second Chance + Extravagant Replication",
+     "popularity": 106,
+     "produces": [
+      {
+       "name": "Infinite turns"
+      },
+      {
+       "name": "Lock"
+      }
+     ],
+     "description": "At the beginning of your upkeep, Second Chance and Extravagant Replication trigger.\nResolve the Extravagant Replication trigger, creating a token copy of Second Chance.\nResolve the Second Chance trigger, causing you to sacrifice it and take an extra turn after this one.\nRepeat each turn.",
+     "notablePrerequisites": "You have 5 or less life.",
+     "easyPrerequisites": "",
+     "plans": [
+      "Topdeck",
+      "Combo"
+     ],
+     "in_deck": [
+      "Extravagant Replication"
+     ]
+    }
+   ]
+  }
+ ],
+ "combos": [
+  {
+   "uses": [
+    {
+     "card": {
+      "id": 1061,
+      "name": "Timestream Navigator",
+      "oracleId": "d0896996-ee31-402e-b642-4e7cca4929fe",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Human Pirate Wizard",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.png?1783913879",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 2061,
+      "name": "Extravagant Replication",
+      "oracleId": "3a646245-b8b7-4f91-a312-d5eea9a9e49a",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Enchantment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.png?1783909081",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "title": "Timestream Navigator + Extravagant Replication",
+   "popularity": 927,
+   "produces": [
+    {
+     "name": "Infinite turns"
+    },
+    {
+     "name": "Lock"
+    }
+   ],
+   "description": "During your upkeep, Extravagant Replication triggers, creating a token copy of Timestream Navigator.\nDuring your next upkeep, Extravagant Replication triggers, creating a token copy of Timestream Navigator.\nActivate the ability of a Timestream Navigator token that did not enter the battlefield this turn by paying {2}{U}{U}, tapping it, and putting it on the bottom of your library, taking an extra turn.\nRepeat from 2.",
+   "notablePrerequisites": "You have the city's blessing.",
+   "easyPrerequisites": "",
+   "plans": [
+    "Topdeck",
+    "Combo"
+   ],
+   "in_deck": [
+    "Extravagant Replication"
+   ]
+  },
+  {
+   "uses": [
+    {
+     "card": {
+      "id": 2120,
+      "name": "Wanderwine Prophets",
+      "oracleId": "9ab36915-b600-4970-961a-403f5da0dba1",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Merfolk Wizard",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.png?1783942895",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 2061,
+      "name": "Extravagant Replication",
+      "oracleId": "3a646245-b8b7-4f91-a312-d5eea9a9e49a",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Enchantment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.png?1783909081",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "title": "Wanderwine Prophets + Extravagant Replication",
+   "popularity": 109,
+   "produces": [
+    {
+     "name": "Infinite turns"
+    },
+    {
+     "name": "Lock"
+    }
+   ],
+   "description": "Declare Wanderwine Prophets as an attacker.\nDeal combat damage to an opponent using Wanderwine Prophets.\nWanderwine Prophets triggers, causing you to sacrifice the Merfolk token and take an extra turn after this one.\nAt the begining of your upkeep Extravagant Replication triggers creating a copy of a merfolk you control.\nRepeat each turn.",
+   "notablePrerequisites": "Wanderwine Prophets cannot be blocked by opponents.",
+   "easyPrerequisites": "Wanderwine Prophets does not have summoning sickness.\nYou control at least one other merfolk.",
+   "plans": [
+    "Topdeck",
+    "Combo"
+   ],
+   "in_deck": [
+    "Extravagant Replication"
+   ]
+  },
+  {
+   "uses": [
+    {
+     "card": {
+      "id": 1530,
+      "name": "Second Chance",
+      "oracleId": "aa19bbf0-7de3-4ec3-a98b-2ac7533c6b0b",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Enchantment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.png?1783946245",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 2061,
+      "name": "Extravagant Replication",
+      "oracleId": "3a646245-b8b7-4f91-a312-d5eea9a9e49a",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Enchantment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.png?1783909081",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "title": "Second Chance + Extravagant Replication",
+   "popularity": 106,
+   "produces": [
+    {
+     "name": "Infinite turns"
+    },
+    {
+     "name": "Lock"
+    }
+   ],
+   "description": "At the beginning of your upkeep, Second Chance and Extravagant Replication trigger.\nResolve the Extravagant Replication trigger, creating a token copy of Second Chance.\nResolve the Second Chance trigger, causing you to sacrifice it and take an extra turn after this one.\nRepeat each turn.",
+   "notablePrerequisites": "You have 5 or less life.",
+   "easyPrerequisites": "",
+   "plans": [
+    "Topdeck",
+    "Combo"
+   ],
+   "in_deck": [
+    "Extravagant Replication"
+   ]
+  },
+  {
+   "uses": [
+    {
+     "card": {
+      "id": 4112,
+      "name": "Sharuum the Hegemon",
+      "oracleId": "037e7fc9-3aa6-484c-a2c8-43009e45f1d8",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Artifact Creature — Sphinx",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.png?1783930126",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 2210,
+      "name": "Mirrormade",
+      "oracleId": "79a71fe5-38ce-4bb5-aea0-c9b9a856d397",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Enchantment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.png?1783909627",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "H"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "title": "Sharuum the Hegemon + Mirrormade",
+   "popularity": 673,
+   "produces": [
+    {
+     "name": "Infinite creature ETB"
+    },
+    {
+     "name": "Infinite creature LTB"
+    }
+   ],
+   "description": "Cast Mirrormade by paying {1}{U}{U}.\nMirrormade enters as a copy of Sharuum.\nPut Sharuum into the graveyard due to the legend rule.\nMirrormade triggers, returning Sharuum from your graveyard to the battlefield.\nPut Sharuum into the graveyard due to the legend rule.\nSharuum enters the battlefield triggers, returning itself from your graveyard to the battlefield.\nRepeat from step 5.",
+   "notablePrerequisites": "",
+   "easyPrerequisites": "",
+   "plans": [
+    "Pillow Fort",
+    "Combo",
+    "Control"
+   ],
+   "in_deck": [
+    "Mirrormade"
+   ]
+  },
+  {
+   "uses": [
+    {
+     "card": {
+      "id": 3790,
+      "name": "Mystic Barrier",
+      "oracleId": "0caf42f5-abff-48aa-9bbf-df6cba169ef3",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Enchantment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.png?1783939689",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 2210,
+      "name": "Mirrormade",
+      "oracleId": "79a71fe5-38ce-4bb5-aea0-c9b9a856d397",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Enchantment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.png?1783909627",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "as a copy of Mystic Barrier",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "title": "Mystic Barrier + Mirrormade",
+   "popularity": 468,
+   "produces": [
+    {
+     "name": "Creatures can't attack"
+    },
+    {
+     "name": "Lock"
+    }
+   ],
+   "description": "At the beginning of each of your upkeeps, Mystic Barrier and Mirrormade trigger, choosing \"left\" for Mystic Barrier and \"right\" for Mirrormade.\nAs long as there are three or more players in the game, creatures cannot attack.",
+   "notablePrerequisites": "You have at least two opponents.",
+   "easyPrerequisites": "",
+   "plans": [
+    "Pillow Fort",
+    "Control"
+   ],
+   "in_deck": [
+    "Mirrormade"
+   ]
+  }
+ ],
+ "hs_imgs": {
+  "One with the Multiverse": "https://cards.scryfall.io/normal/front/1/c/1c85ae22-ccd0-4649-a736-1915043daae7.jpg?1783909627",
+  "Hall of Heliod's Generosity": "https://cards.scryfall.io/normal/front/f/0/f08dfd99-59fa-4a6c-bd69-c647f639de4d.jpg?1783909573",
+  "Sphere of Safety": "https://cards.scryfall.io/normal/front/5/c/5c4e3031-ffc2-4d4d-a9f9-e85820059315.jpg?1783909633",
+  "Extravagant Replication": "https://cards.scryfall.io/normal/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+  "Sigil of the Empty Throne": "https://cards.scryfall.io/normal/front/6/8/6875be24-1515-488f-a899-929c8e480dfd.jpg?1783909633",
+  "Shark Typhoon": "https://cards.scryfall.io/normal/front/2/b/2b2accb1-d77b-4633-9d0c-b972d9c014bb.jpg?1783909622",
+  "Redress Fate": "https://cards.scryfall.io/normal/front/1/9/19f56096-f692-4719-af38-6a4955f2b65c.jpg?1783909662",
+  "Demon of Fate's Design": "https://cards.scryfall.io/normal/front/0/d/0d3668fe-78d9-4c2c-8c83-5cace9d39e03.jpg?1783909621",
+  "Doomwake Giant": "https://cards.scryfall.io/normal/front/0/b/0be3f848-ba01-4890-a3a1-ed0dfb564632.jpg?1783903786",
+  "Mesa Enchantress": "https://cards.scryfall.io/normal/front/c/4/c4f9e9fc-8b89-40ee-9b20-10e4a23e6333.jpg?1783909643",
+  "Moon-Blessed Cleric": "https://cards.scryfall.io/normal/front/0/5/0555e095-8c6f-4436-80fe-99b641fad2df.jpg?1783909642",
+  "Brainstorm": "https://cards.scryfall.io/normal/front/b/5/b5545882-6963-4729-b2c6-fb4bdc75ffcc.jpg?1783904806",
+  "Ondu Spiritdancer": "https://cards.scryfall.io/normal/front/e/e/ee1c6432-54d7-4b57-a554-f7194d74e03c.jpg?1783909632",
+  "Fear of Sleep Paralysis": "https://cards.scryfall.io/normal/front/8/4/845e9d68-11a9-4759-a031-13464d337e12.jpg?1783909663",
+  "Sensei's Divining Top": "https://cards.scryfall.io/normal/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788",
+  "Curse of the Swine": "https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795",
+  "Heliod's Intervention": "https://cards.scryfall.io/normal/front/9/5/9519bb3a-bed3-48e8-93ae-9e9b2e7d646a.jpg?1783911947",
+  "March of Swirling Mist": "https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901",
+  "Sublime Epiphany": "https://cards.scryfall.io/normal/front/0/f/0f7d3839-0bc3-402b-b9ea-c903f82d39da.jpg?1783907098",
+  "Reality Spasm": "https://cards.scryfall.io/normal/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993",
+  "Aurelia's Fury": "https://cards.scryfall.io/normal/front/1/a/1a3465b6-ee7f-4553-bbf1-85fae9734b67.jpg?1783940113",
+  "Comet Storm": "https://cards.scryfall.io/normal/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714",
+  "Distorting Wake": "https://cards.scryfall.io/normal/front/7/7/77e28743-3694-48ef-9f16-0a3a4ff7e934.jpg?1783938850",
+  "Battlefield Thaumaturge": "https://cards.scryfall.io/normal/front/4/6/467ffc93-b107-457c-af04-a1b682a4b886.jpg?1783939450",
+  "Magma Opus": "https://cards.scryfall.io/normal/front/0/f/0fd4a0f7-ba03-4158-95cd-4effe798aec0.jpg?1783903750",
+  "Icy Blast": "https://cards.scryfall.io/normal/front/b/0/b098f029-6b5d-49e4-9a81-f497ebbdb5ce.jpg?1783939087",
+  "Disorder in the Court": "https://cards.scryfall.io/normal/front/0/7/07277df0-d306-4c3a-baa7-d7a49332c7dd.jpg?1783912979",
+  "Voracious Bibliophile": "https://cards.scryfall.io/normal/front/7/7/77d2c30b-3130-4d9d-bd3d-484fe6dc306d.jpg?1783907179",
+  "Kykar, Wind's Fury": "https://cards.scryfall.io/normal/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615",
+  "Dualcaster Mage": "https://cards.scryfall.io/normal/front/d/e/defcc4a3-40e0-4f5d-b23c-6cd6a614abc1.jpg?1783927545",
+  "Crackle with Power": "https://cards.scryfall.io/normal/front/d/e/de547f52-3798-4b3a-947d-24873251204b.jpg?1783927356",
+  "Baral's Expertise": "https://cards.scryfall.io/normal/front/d/5/d5beecd5-4267-454d-87db-24d476e1f352.jpg?1783907109",
+  "Archaeomancer": "https://cards.scryfall.io/normal/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1783933855",
+  "Deekah, Fractal Theorist": "https://cards.scryfall.io/normal/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791",
+  "Dismiss into Dream": "https://cards.scryfall.io/normal/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935",
+  "Displacer Kitten": "https://cards.scryfall.io/normal/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795",
+  "Elsha of the Infinite": "https://cards.scryfall.io/normal/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837",
+  "Fury Storm": "https://cards.scryfall.io/normal/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336",
+  "Ghostly Flicker": "https://cards.scryfall.io/normal/front/d/c/dc143ba3-2a58-4980-9fa0-a05a9e9ed082.jpg?1783915697",
+  "Goblin Sharpshooter": "https://cards.scryfall.io/normal/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668",
+  "Hinata, Dawn-Crowned": "https://cards.scryfall.io/normal/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+  "Mirrormade": "https://cards.scryfall.io/normal/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+  "Mystic Barrier": "https://cards.scryfall.io/normal/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+  "Second Chance": "https://cards.scryfall.io/normal/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+  "Sharuum the Hegemon": "https://cards.scryfall.io/normal/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+  "Soulfire Grand Master": "https://cards.scryfall.io/normal/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709",
+  "Timestream Navigator": "https://cards.scryfall.io/normal/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+  "Wanderwine Prophets": "https://cards.scryfall.io/normal/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895"
+ },
+ "type_recs": {
+  "Creatures": [
+   {
+    "name": "Inquisitive Glimmer",
+    "synergy": "0.47",
+    "img": "https://cards.scryfall.io/normal/front/f/1/f1f66e3e-9f1f-4601-aa30-30b66805a5a8.jpg?1783909443",
+    "oracle": "Enchantment spells you cast cost {1} less to cast.\nUnlock costs you pay cost {1} less.",
+    "type_line": "Enchantment Creature — Fox Glimmer"
+   },
+   {
+    "name": "Entity Tracker",
+    "synergy": "0.43",
+    "img": "https://cards.scryfall.io/normal/front/a/e/ae54d697-6d06-4af1-a617-8a47a6ab9c01.jpg?1783909496",
+    "oracle": "Flash\nEerie — Whenever an enchantment you control enters and whenever you fully unlock a Room, draw a card.",
+    "type_line": "Creature — Human Scout"
+   },
+   {
+    "name": "Zur, Eternal Schemer",
+    "synergy": "0.43",
+    "img": "https://cards.scryfall.io/normal/front/4/d/4d987435-2403-4e0f-b19d-693da923ba50.jpg?1783921271",
+    "oracle": "Flying\nEnchantment creatures you control have deathtouch, lifelink, and hexproof.\n{1}{W}: Target non-Aura enchantment you control becomes a creature in addition to its other types and has base power and base toughness each equal to its mana value.",
+    "type_line": "Legendary Creature — Human Wizard"
+   },
+   {
+    "name": "Archon of Sun's Grace",
+    "synergy": "0.33",
+    "img": "https://cards.scryfall.io/normal/front/0/d/0d3af89d-d22c-45e8-9fec-170ac9bb0a34.jpg?1783903812",
+    "oracle": "Flying\nLifelink (Damage dealt by this creature also causes you to gain that much life.)\nPegasus creatures you control have lifelink.\nConstellation — Whenever an enchantment you control enters, create a 2/2 white Pegasus creature token with flying.",
+    "type_line": "Creature — Archon"
+   }
+  ],
+  "Utility Artifacts": [
+   {
+    "name": "Sensei's Divining Top",
+    "synergy": "0.36",
+    "img": "https://cards.scryfall.io/normal/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788",
+    "oracle": "",
+    "type_line": ""
+   }
+  ],
+  "Enchantments": [
+   {
+    "name": "Starfield of Nyx",
+    "synergy": "0.47",
+    "img": "https://cards.scryfall.io/normal/front/b/f/bfe4e1cb-ceee-46aa-96d1-f3f26516cd77.jpg?1783915445",
+    "oracle": "At the beginning of your upkeep, you may return target enchantment card from your graveyard to the battlefield.\nAs long as you control five or more enchantments, each other non-Aura enchantment you control is a creature in addition to its other types and has base power and base toughness each equal to its mana value.",
+    "type_line": "Enchantment"
+   },
+   {
+    "name": "Omniscience",
+    "synergy": "0.42",
+    "img": "https://cards.scryfall.io/normal/front/d/3/d33d91d0-1506-45e4-9def-975bf901815e.jpg?1783909079",
+    "oracle": "You may cast spells from your hand without paying their mana costs.",
+    "type_line": "Enchantment"
+   },
+   {
+    "name": "Mind's Dilation",
+    "synergy": "0.35",
+    "img": "https://cards.scryfall.io/normal/front/4/f/4f2980ba-2468-4a36-afdb-87e6567797a9.jpg?1783911942",
+    "oracle": "Whenever an opponent casts their first spell each turn, that player exiles the top card of their library. If it's a nonland card, you may cast it without paying its mana cost.",
+    "type_line": "Enchantment"
+   },
+   {
+    "name": "Estrid's Invocation",
+    "synergy": "0.32",
+    "img": "https://cards.scryfall.io/normal/front/8/9/8920e7e4-d89e-4ff9-8922-27fdc2f8ed6e.jpg?1783911217",
+    "oracle": "You may have this enchantment enter as a copy of an enchantment you control, except it has \"At the beginning of your upkeep, you may exile this enchantment. If you do, return it to the battlefield under its owner's control.\"",
+    "type_line": "Enchantment"
+   }
+  ],
+  "Planeswalkers": [
+   {
+    "name": "Aminatou, the Fateshifter",
+    "synergy": "0.33",
+    "img": "https://cards.scryfall.io/normal/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857",
+    "oracle": "+1: Draw a card, then put a card from your hand on top of your library.\n−1: Exile another target permanent you own, then return it to the battlefield under your control.\n−6: Choose left or right. Each player gains control of all nonland permanents other than Aminatou controlled by the next player in the chosen direction.\nAminatou, the Fateshifter can be your commander.",
+    "type_line": "Legendary Planeswalker — Aminatou"
+   }
+  ]
+ },
+ "content": {
+  "eval": {
+   "cards": {
+    "Creatures": [
+     {
+      "name": "Ancient Cellarspawn",
+      "img": "https://cards.scryfall.io/normal/front/2/7/27e2477d-4f04-408d-8c39-8a886ac81f44.jpg?1783909661",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "A growing horror for an enchantment deck: it gets +1/+1 for each enchantment you control, and with Aminatou's miracle discount you can cast it out of nowhere."
+     },
+     {
+      "name": "Archetype of Imagination",
+      "img": "https://cards.scryfall.io/normal/front/2/0/204972f7-8111-4e7d-97c4-53bcdc222230.jpg?1783909628",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Gives your enchantments' creatures flying and takes it away from opponents — the evasion that lets your enchantress payoffs connect."
+     },
+     {
+      "name": "Arvinox, the Mind Flail",
+      "img": "https://cards.scryfall.io/normal/front/f/8/f81e3110-857c-4074-9c55-7e87c22051c9.jpg?1783909623",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Exiles the top of opponents' libraries and lets you cast their spells — card advantage tied to the enchantment count via its nightmare scaling."
+     },
+     {
+      "name": "Athreos, Shroud-Veiled",
+      "img": "https://cards.scryfall.io/normal/front/f/5/f50ffa76-f704-4d53-a15c-8316b07c1d12.jpg?1783909597",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "A god who puts coin counters on creatures and returns them when they die — recurring your enchantresses and big threats over and over."
+     },
+     {
+      "name": "Auramancer",
+      "img": "https://cards.scryfall.io/normal/front/d/0/d0957032-6d98-4cac-889b-890e9bfe1f86.jpg?1783909633",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Returns an enchantment from your graveyard to hand — key recursion for the Enchantress plan when your auras or payoffs get destroyed."
+     },
+     {
+      "name": "Burnished Hart",
+      "img": "https://cards.scryfall.io/normal/front/6/5/65ebbff0-fbe6-4310-a33f-e00bb2534979.jpg?1783909049",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Sacrifices to ramp two basics — colorless fixing that gets you to the 5-6 mana the big enchantments need."
+     },
+     {
+      "name": "Demon of Fate's Design",
+      "img": "https://cards.scryfall.io/normal/front/0/d/0d3668fe-78d9-4c2c-8c83-5cace9d39e03.jpg?1783909621",
+      "synergy": 0.71,
+      "in_main_hs": true,
+      "explanation": "A flying demon that exiles cards from graveyards and grows from enchantments — both a beater and a graveyard-hate engine for the miracle plan."
+     },
+     {
+      "name": "Doomwake Giant",
+      "img": "https://cards.scryfall.io/normal/front/0/b/0be3f848-ba01-4890-a3a1-ed0dfb564632.jpg?1783903786",
+      "synergy": 0.68,
+      "in_main_hs": true,
+      "explanation": "Constellation: each enchantment you play makes all opponents' creatures -1/-1 — mass removal stapled to your Enchantress engine."
+     },
+     {
+      "name": "Dream Eater",
+      "img": "https://cards.scryfall.io/normal/front/c/7/c721d449-fc77-4d86-8baf-158181e37087.jpg?1783909628",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Flash flyer that surveils 4 and bounces a nonland permanent on entry — instant-speed disruption that feeds the topdeck plan."
+     },
+     {
+      "name": "Fear of Sleep Paralysis",
+      "img": "https://cards.scryfall.io/normal/front/8/4/845e9d68-11a9-4759-a031-13464d337e12.jpg?1783909663",
+      "synergy": 0.67,
+      "in_main_hs": true,
+      "explanation": "An enchantment creature that gets +1/+1 per enchantment and can tap a defender each turn — enchantress synergy plus combat control."
+     },
+     {
+      "name": "Mesa Enchantress",
+      "img": "https://cards.scryfall.io/normal/front/c/4/c4f9e9fc-8b89-40ee-9b20-10e4a23e6333.jpg?1783909643",
+      "synergy": 0.69,
+      "in_main_hs": true,
+      "explanation": "The classic Enchantress: draw a card whenever you cast an enchantment — THE engine card of the plan, with every enchantment cantripping."
+     },
+     {
+      "name": "Metamorphosis Fanatic",
+      "img": "https://cards.scryfall.io/normal/front/1/6/16448d95-ee21-4def-b880-26f6f159c213.jpg?1783909658",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Sacrifices itself to reanimate an enchantment from your graveyard — recursion for the miracle plan."
+     },
+     {
+      "name": "Moon-Blessed Cleric",
+      "img": "https://cards.scryfall.io/normal/front/0/5/0555e095-8c6f-4436-80fe-99b641fad2df.jpg?1783909642",
+      "synergy": 0.69,
+      "in_main_hs": true,
+      "explanation": "A cleric that tutors any enchantment from your deck to your hand — the toolbox piece that finds your best enchantress payoff."
+     },
+     {
+      "name": "Nightmare Shepherd",
+      "img": "https://cards.scryfall.io/normal/front/c/0/c03c1ad6-3122-4267-80d6-94ecf1ff3884.jpg?1783909617",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "When your creatures die, it makes a copy token that exiles itself at end of turn — value from deaths without losing the enchantment synergy."
+     },
+     {
+      "name": "Ondu Spiritdancer",
+      "img": "https://cards.scryfall.io/normal/front/e/e/ee1c6432-54d7-4b57-a554-f7194d74e03c.jpg?1783909632",
+      "synergy": 0.7,
+      "in_main_hs": true,
+      "explanation": "Draw a card whenever an Aura enters and creates a copy of it — doubles your auras and your draw, an enchantress all-star."
+     },
+     {
+      "name": "Phenomenon Investigators",
+      "img": "https://cards.scryfall.io/normal/front/5/7/57195155-6bdf-43c3-9f2e-11c31aef6b9c.jpg?1783909653",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Whenever you draw a card, investigate — with the enchantress draw engine, you drown in Clue tokens."
+     },
+     {
+      "name": "Prognostic Sphinx",
+      "img": "https://cards.scryfall.io/normal/front/d/9/d9d36763-2975-4b5c-aeda-2d0159cb5191.jpg?1783909624",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Flying, can be made hexproof, and lets you scry 3 when it attacks — evasion + topdeck control that fuels miracle."
+     },
+     {
+      "name": "Soaring Lightbringer",
+      "img": "https://cards.scryfall.io/normal/front/f/c/fc7895bf-a5fe-45bd-bc57-c4abe0703900.jpg?1783909663",
+      "synergy": 0.59,
+      "in_main_hs": true,
+      "explanation": "A flyer that exiles a graveyard when it enters and returns from the graveyard when a creature dies — recurring graveyard hate."
+     },
+     {
+      "name": "Solemn Simulacrum",
+      "img": "https://cards.scryfall.io/normal/front/d/a/daafd816-f7c1-4630-9e5c-a1e5db570a35.jpg?1783903212",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Ramps a basic, draws a card, and replaces itself when it dies — the standard colorless value creature."
+     },
+     {
+      "name": "Starfield Mystic",
+      "img": "https://cards.scryfall.io/normal/front/e/8/e8f2fcb4-8d06-49ac-9c70-9c54d77c6d86.jpg?1783903798",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Enchantments you cast cost {1} less and it has vigilance — mana discount that accelerates the enchantment engine."
+     },
+     {
+      "name": "The Master of Keys",
+      "img": "https://cards.scryfall.io/normal/front/3/5/3545341b-dacc-4ac8-976e-39754a62bbc3.jpg?1783909663",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "The precon's alternate commander: opens Rooms and reanimates enchantments from the graveyard — a second enchantment engine in the 99."
+     },
+     {
+      "name": "Verge Rangers",
+      "img": "https://cards.scryfall.io/normal/front/c/6/c63a5253-b3b7-48d0-8c2c-700fbd0e4c3f.jpg?1783909629",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Vigilance plus land ramp when it enters — fixing that helps cast the expensive enchantments on curve."
+     }
+    ],
+    "Instants": [
+     {
+      "name": "Arcane Denial",
+      "img": "https://cards.scryfall.io/normal/front/5/e/5eb843ef-b223-40d0-a461-54b16d188d0e.jpg?1783903242",
+      "synergy": 0.43,
+      "in_main_hs": true,
+      "explanation": "Counters a spell and replaces itself — the budget counterspell that doesn't lose you card advantage."
+     },
+     {
+      "name": "Brainstorm",
+      "img": "https://cards.scryfall.io/normal/front/b/5/b5545882-6963-4729-b2c6-fb4bdc75ffcc.jpg?1783904806",
+      "synergy": 0.67,
+      "in_main_hs": true,
+      "explanation": "Draws 3 and puts 2 back — the best topdeck-control cantrip: it sets up miracles and keeps your best cards."
+     },
+     {
+      "name": "Inkshield",
+      "img": "https://cards.scryfall.io/normal/front/3/3/3362ade8-d585-40be-8486-382cad6efaf8.jpg?1783903751",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Fogs all combat damage and makes a flying 2/1 token per damage prevented — the surprise blocker that turns a lost combat into a board."
+     },
+     {
+      "name": "Otherworldly Gaze",
+      "img": "https://cards.scryfall.io/normal/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg?1783909625",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Surveils 3 for one mana — cheap topdeck setup that also fills the graveyard for miracle recursion."
+     },
+     {
+      "name": "Return to Dust",
+      "img": "https://cards.scryfall.io/normal/front/3/c/3c3745c2-5509-4d6b-8f49-5cb93374edea.jpg?1783909632",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Exiles two artifacts/enchantments at instant speed — the catch-all answer for the table's engines."
+     },
+     {
+      "name": "Swords to Plowshares",
+      "img": "https://cards.scryfall.io/normal/front/b/4/b4e9c870-23c0-413a-ae39-265f09da16d1.jpg?1783903243",
+      "synergy": 0.08,
+      "in_main_hs": true,
+      "explanation": "Exiles any creature for one mana — the format's best removal, here to protect your enchantress board."
+     },
+     {
+      "name": "Telling Time",
+      "img": "https://cards.scryfall.io/normal/front/c/2/c2616749-699b-4928-8984-aba630d3397a.jpg?1783909641",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Looks at the top 3 and picks one for hand or top — topdeck setup that keeps miracles live."
+     },
+     {
+      "name": "Thirst for Meaning",
+      "img": "https://cards.scryfall.io/normal/front/b/9/b91bd773-b36b-4a7a-a9e4-3a07cff90646.jpg?1783909622",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Draws 3, discards an enchantment — the precon's signature draw that fills the graveyard for recursion."
+     },
+     {
+      "name": "Utter End",
+      "img": "https://cards.scryfall.io/normal/front/1/8/1819a0af-0775-431d-9637-13f8f10830f5.jpg?1783909636",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Exiles any nonland permanent — flexible removal for anything that threatens the plan."
+     }
+    ],
+    "Sorceries": [
+     {
+      "name": "Aminatou's Augury",
+      "img": "https://cards.scryfall.io/normal/front/5/0/503448da-d14f-4759-85b6-0db2e90e0241.jpg?1783909645",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Exiles the top 8 and casts all nonland cards from among them for free — the ultimate topdeck payoff, casting your whole deck for free."
+     },
+     {
+      "name": "Diabolic Vision",
+      "img": "https://cards.scryfall.io/normal/front/c/3/c360753a-af32-4f1d-a1c7-c3f3c075ecc0.jpg?1783909637",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Surveils 5 then draws — massive topdeck setup that makes the next miracle almost guaranteed."
+     },
+     {
+      "name": "Entreat the Angels",
+      "img": "https://cards.scryfall.io/normal/front/f/f/ff4411bc-ed4e-4d54-9e1b-21fc77b0e415.jpg?1783909633",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "A miracle sorcery: creates X 4/4 Angel tokens, but its miracle cost makes it 5 cheaper — the perfect Aminatou payoff."
+     },
+     {
+      "name": "Ponder",
+      "img": "https://cards.scryfall.io/normal/front/d/c/dc69f960-68ba-4315-8146-6a7a82047503.jpg?1783907102",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Top 3 manipulation + draw — the cantrip that sets up your miracle draws."
+     },
+     {
+      "name": "Portent",
+      "img": "https://cards.scryfall.io/normal/front/5/b/5b360632-9c81-4b9c-8b9f-ac0b51c974a0.jpg?1783909642",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Top 3 manipulation + draw at next upkeep — like Ponder but plays around the miracle timing even better."
+     },
+     {
+      "name": "Read the Bones",
+      "img": "https://cards.scryfall.io/normal/front/b/3/b3198f96-f9d8-494f-a556-24ce3ad3895d.jpg?1783909615",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Draws 2, loses 2 life, and scries 2 — solid card advantage with topdeck setup."
+     },
+     {
+      "name": "Redress Fate",
+      "img": "https://cards.scryfall.io/normal/front/1/9/19f56096-f692-4719-af38-6a4955f2b65c.jpg?1783909662",
+      "synergy": 0.75,
+      "in_main_hs": true,
+      "explanation": "Returns an enchantment from your graveyard and creates a token copy of it — recursion + doubling for the enchantress engine."
+     },
+     {
+      "name": "Terminus",
+      "img": "https://cards.scryfall.io/normal/front/4/c/4c53c684-37f9-4b95-88be-a42b9600c47c.jpg?1783909643",
+      "synergy": 0.59,
+      "in_main_hs": true,
+      "explanation": "A miracle board wipe: puts all creatures on the bottom of libraries for just {W} with the miracle discount — the cleanest reset."
+     },
+     {
+      "name": "Time Wipe",
+      "img": "https://cards.scryfall.io/normal/front/e/b/eb4b75e6-3080-412b-bf40-b6029ea8bbfe.jpg?1783907017",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Bounces your own creatures and wipes the rest — asymmetric wipe that keeps your enchantress creatures."
+     }
+    ],
+    "Artifacts": [
+     {
+      "name": "Arcane Signet",
+      "img": "https://cards.scryfall.io/normal/front/1/c/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd.jpg?1783903222",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "The best mana rock: one mana of any color in your commander's identity."
+     },
+     {
+      "name": "Azorius Signet",
+      "img": "https://cards.scryfall.io/normal/front/4/1/41c50b99-4a29-4bef-8d41-c548c8a61dac.jpg?1783907017",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Filters to W/U — fixing for the Esper manabase."
+     },
+     {
+      "name": "Brainstone",
+      "img": "https://cards.scryfall.io/normal/front/6/e/6e86ad39-2a90-466d-b188-056216429f4e.jpg?1783909587",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Draws 3 and puts 2 back for {2} — an artifact Brainstorm that sets up miracles on demand."
+     },
+     {
+      "name": "Commander's Sphere",
+      "img": "https://cards.scryfall.io/normal/front/a/0/a0d50603-e31f-4cd7-b4b6-49847d99eb2e.jpg?1783904531",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Ramp that draws a card when sacrificed — replaces itself in the endgame."
+     },
+     {
+      "name": "Mind Stone",
+      "img": "https://cards.scryfall.io/normal/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.jpg?1785759375",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "A 2-mana rock that draws when sacrificed — efficient ramp with late-game value."
+     },
+     {
+      "name": "Orzhov Signet",
+      "img": "https://cards.scryfall.io/normal/front/9/0/90894726-1940-4291-a05c-b85cefbfa344.jpg?1783907008",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Filters to W/B — fixing for the Esper manabase."
+     },
+     {
+      "name": "Sol Ring",
+      "img": "https://cards.scryfall.io/normal/front/9/1/91fdb56b-54d5-4272-8319-505ff987fe9b.jpg?1783903215",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "The best ramp in the format: two colorless on turn 1."
+     }
+    ],
+    "Enchantments": [
+     {
+      "name": "Bottomless Pool // Locker Room",
+      "img": "https://cards.scryfall.io/normal/front/6/0/606fe87c-d17b-4fa7-8e82-e7002d8229ef.jpg?1783909499",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "A Room that exiles a creature (then returns it) and loots — the precon's room synergies with The Master of Keys."
+     },
+     {
+      "name": "Cast Out",
+      "img": "https://cards.scryfall.io/normal/front/4/b/4b491874-4be1-496a-bf04-abe1f5af4482.jpg?1783909633",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Flash enchantment that exiles any nonland permanent and cycles — flexible removal that also plays with enchantress."
+     },
+     {
+      "name": "Cramped Vents // Access Maze",
+      "img": "https://cards.scryfall.io/normal/front/7/b/7ba1e27e-ed0d-438c-9ec6-a48a04718512.jpg?1783909659",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "A Room that damages and taps, plus a man-land side — flexibility from one card."
+     },
+     {
+      "name": "Extravagant Replication",
+      "img": "https://cards.scryfall.io/normal/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+      "synergy": 0.75,
+      "in_main_hs": true,
+      "explanation": "Makes a token copy of an artifact/enchantment each upkeep — doubles your best enchantment every turn."
+     },
+     {
+      "name": "Life Insurance",
+      "img": "https://cards.scryfall.io/normal/front/6/0/60e1921e-6c98-4c60-88f4-8fbb6f30236e.jpg?1783909592",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Draws a card and makes a token when your creatures die — value from the deaths the deck suffers."
+     },
+     {
+      "name": "Mirrormade",
+      "img": "https://cards.scryfall.io/normal/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+      "synergy": 0.56,
+      "in_main_hs": true,
+      "explanation": "Enters as a copy of any artifact/enchantment — a second copy of your best engine."
+     },
+     {
+      "name": "Monologue Tax",
+      "img": "https://cards.scryfall.io/normal/front/e/e/ee68d390-11cb-4617-a9ee-6e8cf7ff0e55.jpg?1783903246",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Whenever an opponent casts their second spell, makes a Treasure — passive ramp in a reactive game."
+     },
+     {
+      "name": "One with the Multiverse",
+      "img": "https://cards.scryfall.io/normal/front/1/c/1c85ae22-ccd0-4649-a736-1915043daae7.jpg?1783909627",
+      "synergy": 0.8,
+      "in_main_hs": true,
+      "explanation": "The topdeck engine: play from the top of your library and get a free copy trigger — the ultimate payoff for the topdeck/miracle plan."
+     },
+     {
+      "name": "Secret Arcade // Dusty Parlor",
+      "img": "https://cards.scryfall.io/normal/front/f/e/fe050c16-9be5-42ef-988f-0531a8bb2352.jpg?1783909661",
+      "synergy": 0.6,
+      "in_main_hs": true,
+      "explanation": "A Room that makes tokens and a man-land — board presence from enchantments."
+     },
+     {
+      "name": "Shark Typhoon",
+      "img": "https://cards.scryfall.io/normal/front/2/b/2b2accb1-d77b-4633-9d0c-b972d9c014bb.jpg?1783909622",
+      "synergy": 0.73,
+      "in_main_hs": true,
+      "explanation": "Creates a Shark token with power equal to mana spent whenever you cast a noncreature spell — every spell becomes a flying threat."
+     },
+     {
+      "name": "Sigil of the Empty Throne",
+      "img": "https://cards.scryfall.io/normal/front/6/8/6875be24-1515-488f-a899-929c8e480dfd.jpg?1783909633",
+      "synergy": 0.73,
+      "in_main_hs": true,
+      "explanation": "Creates a 4/4 Angel whenever you cast an enchantment — the enchantress plan's token army."
+     },
+     {
+      "name": "Sphere of Safety",
+      "img": "https://cards.scryfall.io/normal/front/5/c/5c4e3031-ffc2-4d4d-a9f9-e85820059315.jpg?1783909633",
+      "synergy": 0.77,
+      "in_main_hs": true,
+      "explanation": "Attackers must pay {1} per enchantment you control — the pillow-fort wall that makes the table look elsewhere."
+     },
+     {
+      "name": "Spirit-Sister's Call",
+      "img": "https://cards.scryfall.io/normal/front/b/c/bc495d03-9340-47cd-afc2-82a1677e69df.jpg?1783909590",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Sacrifices an enchantment to reanimate another on death — recursion for the enchantress engine."
+     },
+     {
+      "name": "The Eldest Reborn",
+      "img": "https://cards.scryfall.io/normal/front/4/d/4d29351e-5608-40e8-8220-6c9635d48ad4.jpg?1783909619",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "A saga that makes opponents sacrifice, discards, and reanimates your best creature — value over three turns."
+     },
+     {
+      "name": "Timely Ward",
+      "img": "https://cards.scryfall.io/normal/front/d/6/d61f8db1-0148-47bd-ae97-9aedccb83813.jpg?1783909630",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "A flash aura that gives indestructible and vigilance to a creature — combat protection for your enchantress payoffs."
+     }
+    ],
+    "UtilityLands": [
+     {
+      "name": "Bojuka Bog",
+      "img": "https://cards.scryfall.io/normal/front/5/5/55b5b094-9d2d-4d96-b90c-78fecdae725a.jpg?1783903734",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Exiles a graveyard on entry — the free graveyard hate that protects your plan from reanimator decks."
+     },
+     {
+      "name": "Hall of Heliod's Generosity",
+      "img": "https://cards.scryfall.io/normal/front/f/0/f08dfd99-59fa-4a6c-bd69-c647f639de4d.jpg?1783909573",
+      "synergy": 0.76,
+      "in_main_hs": true,
+      "explanation": "Puts an enchantment from your graveyard on top of your library — a land that fuels the miracle plan every turn."
+     }
+    ],
+    "ManaBase": [
+     {
+      "name": "Adarkar Wastes",
+      "img": "https://cards.scryfall.io/normal/front/4/2/42e0aa15-639a-4e88-9bd8-ce5e7c7d7649.jpg?1783906017",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Painland W/U — fixing for the Esper manabase."
+     },
+     {
+      "name": "Arcane Sanctum",
+      "img": "https://cards.scryfall.io/normal/front/c/7/c75eeb97-3249-4762-84b0-387f27fb255f.jpg?1783909581",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Enters tapped and adds W/U/B — tri-color fixing."
+     },
+     {
+      "name": "Ash Barrens",
+      "img": "https://cards.scryfall.io/normal/front/e/8/e8510205-4baa-4f1c-bf64-5d931e2ddf48.jpg?1783904155",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Basic landcycling for {1} — finds the basic you need, then replaces itself in the cycle."
+     },
+     {
+      "name": "Azorius Chancery",
+      "img": "https://cards.scryfall.io/normal/front/5/0/50ef0ac3-e911-4d67-a751-8d86160ae843.jpg?1783909580",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Bounceland W/U — returns a land, giving repeated ETB value with landfall-style recursion."
+     },
+     {
+      "name": "Caves of Koilos",
+      "img": "https://cards.scryfall.io/normal/front/a/8/a8a57915-5226-4d3c-ae8e-a55c50f3c131.jpg?1783903734",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Painland W/B — fixing for the Esper manabase."
+     },
+     {
+      "name": "Command Tower",
+      "img": "https://cards.scryfall.io/normal/front/0/5/0548fb60-c843-4f8f-a029-6f10efc63a41.jpg?1783903206",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "The best land in the format: any color of your commander's identity."
+     },
+     {
+      "name": "Dimir Aqueduct",
+      "img": "https://cards.scryfall.io/normal/front/8/4/84bf9d60-64b8-4209-acfe-e07eefc6bf1f.jpg?1783909578",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Bounceland U/B — repeated landfall-style value."
+     },
+     {
+      "name": "Evolving Wilds",
+      "img": "https://cards.scryfall.io/normal/front/c/0/c0318a48-30e4-4ef7-be3d-5e561c5ce428.jpg?1783903203",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Sacrifices to find a basic — the standard fixing fetch."
+     },
+     {
+      "name": "Halimar Depths",
+      "img": "https://cards.scryfall.io/normal/front/6/3/63eb18e0-c723-4de4-8498-c5362c75b2b4.jpg?1783909574",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Enters tapped and scries 3 — land-based topdeck setup that fuels miracles."
+     },
+     {
+      "name": "Island",
+      "img": "https://cards.scryfall.io/normal/front/f/3/f3cc07cd-cc79-4745-b0b7-eade60175cc3.jpg?1785981645",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "The basic blue source."
+     },
+     {
+      "name": "Obscura Storefront",
+      "img": "https://cards.scryfall.io/normal/front/d/8/d8eaf8d2-8029-49d9-a94b-a72dc31fc81f.jpg?1783909570",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Enters tapped, adds W/U/B or cycles — flexible Esper fixing."
+     },
+     {
+      "name": "Orzhov Basilica",
+      "img": "https://cards.scryfall.io/normal/front/9/c/9c7c08fc-b6ee-498c-8ab6-fd6be27c9d97.jpg?1783909569",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Bounceland W/B — repeated land-value."
+     },
+     {
+      "name": "Plains",
+      "img": "https://cards.scryfall.io/normal/front/8/a/8ab0f4c0-b331-4c57-b68f-2e24bb5ba06c.jpg?1785981632",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "The basic white source."
+     },
+     {
+      "name": "Swamp",
+      "img": "https://cards.scryfall.io/normal/front/b/7/b7387103-1df1-4fd0-9e91-1544509792c7.jpg?1785981659",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "The basic black source."
+     },
+     {
+      "name": "Tainted Field",
+      "img": "https://cards.scryfall.io/normal/front/c/6/c6eeab6f-a738-4005-91c2-a5f81df5c569.jpg?1783909567",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "W/B if you control a Swamp — conditional fixing that's almost always on."
+     },
+     {
+      "name": "Tainted Isle",
+      "img": "https://cards.scryfall.io/normal/front/7/0/70e8e7e2-e9ea-4358-805e-c5110c8d8443.jpg?1783909566",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "U/B if you control a Swamp — conditional fixing."
+     },
+     {
+      "name": "Temple of Deceit",
+      "img": "https://cards.scryfall.io/normal/front/e/1/e18748ce-e52e-4cd1-89d4-cd2578a0d574.jpg?1783908897",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Enters tapped, scries 1 — topdeck setup on a land."
+     },
+     {
+      "name": "Temple of Enlightenment",
+      "img": "https://cards.scryfall.io/normal/front/d/d/dd139d4d-3a40-4015-93de-c838c64156c6.jpg?1783906003",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Enters tapped, scries 1 — topdeck setup on a land."
+     },
+     {
+      "name": "Temple of Silence",
+      "img": "https://cards.scryfall.io/normal/front/f/7/f7d3770f-cde6-4e29-8cbf-fe841634a5d7.jpg?1783903716",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Enters tapped, scries 1 — topdeck setup on a land."
+     },
+     {
+      "name": "Terramorphic Expanse",
+      "img": "https://cards.scryfall.io/normal/front/a/8/a81f924b-0527-4311-8120-9bfff71524f6.jpg?1783903191",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Sacrifices to find a basic — Evolving Wilds' twin."
+     },
+     {
+      "name": "Thriving Heath",
+      "img": "https://cards.scryfall.io/normal/front/b/b/bb089097-1eed-4e72-a715-579ddd8307a0.jpg?1783903089",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Enters tapped, adds W or a chosen color — flexible fixing."
+     },
+     {
+      "name": "Thriving Isle",
+      "img": "https://cards.scryfall.io/normal/front/5/8/58a3b5a5-eba0-4b4e-869a-5387ec7dd2b8.jpg?1783903089",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Enters tapped, adds U or a chosen color — flexible fixing."
+     },
+     {
+      "name": "Thriving Moor",
+      "img": "https://cards.scryfall.io/normal/front/5/d/5d5eea5f-b9e8-4a10-8e7f-c42493a728cd.jpg?1783903088",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Enters tapped, adds B or a chosen color — flexible fixing."
+     },
+     {
+      "name": "Underground River",
+      "img": "https://cards.scryfall.io/normal/front/5/e/5e50c8d5-6b22-4fc6-87ea-3d7d77ced17f.jpg?1783909555",
+      "synergy": null,
+      "in_main_hs": false,
+      "explanation": "Painland U/B — fixing for the Esper manabase."
+     }
+    ]
+   },
+   "verdict": {
+    "favored": "Enchantress & Topdeck (Miracles) — co-favorites",
+    "score_enchantress": 10,
+    "score_topdeck": 10,
+    "text": [
+     "**Enchantress (2,872 decks) and Topdeck (2,108) are co-favorites**: 10 of the deck's cards sit in both plans' EDHREC High Synergy pools — the two dominant archetypes.",
+     "**The list is built around Aminatou's miracle ability**: 15 enchantments + 8 enchantress payoffs (Mesa Enchantress, Ondu Spiritdancer, Sigil of the Empty Throne, One with the Multiverse, Sphere of Safety).",
+     "**Control (282) and Pillow Fort (154) are supported by the same cards**: Sphere of Safety, Shark Typhoon, the removal suite.",
+     "**Tokens/Combo are accessory plans**: Sigil of the Empty Throne and Extravagant Replication make tokens, but the list has no other token payoffs.",
+     "**Conclusion**: a classic Enchantress/Miracles control deck — Enchantress and Topdeck co-favorites, with Pillow Fort as the natural secondary plan."
+    ]
+   },
+   "structure": {
+    "avg_cmc_nonland": 4.03,
+    "roles": [
+     {
+      "role": "Lands",
+      "slots": 36,
+      "ideal": "36-38",
+      "status": "ok"
+     },
+     {
+      "role": "Ramp",
+      "slots": 10,
+      "ideal": "10-12",
+      "status": "ok"
+     },
+     {
+      "role": "Draw",
+      "slots": 13,
+      "ideal": "10-12",
+      "status": "over"
+     },
+     {
+      "role": "Interaction",
+      "slots": 12,
+      "ideal": "10-12",
+      "status": "ok"
+     },
+     {
+      "role": "Board wipes",
+      "slots": 2,
+      "ideal": "2-3",
+      "status": "ok"
+     },
+     {
+      "role": "Synergies/Wincons",
+      "slots": 25,
+      "ideal": "30-35",
+      "status": "under"
+     },
+     {
+      "role": "Flex",
+      "slots": 1,
+      "ideal": "3-5",
+      "status": "under"
+     }
+    ],
+    "summary": [
+     "**Solid base**: 36 lands, 10 ramp (rocks CMC ≤ 2), 12 interaction, 2 wipes — all within the ideal ranges.",
+     "**Average CMC 4.03**: ⚠️ above the ≤ 3.2 golden rule — the top of the curve is loaded with 5-8 mana enchantments (One with the Multiverse, Extravagant Replication, Aminatou's Augury).",
+     "**Synergies/wincons at 25/30-35**: several 5-6 mana creatures are value engines rather than dedicated finishers.",
+     "**Only 1 flex slot** (ideal 3-5).",
+     "**Upgrade path**: cut the weakest 5-6 mana engines for 2-3 rocks/cantrips at 2-3 mana and 2-3 dedicated finishers — bring the curve under 3.5 while keeping the enchantress core."
+    ]
+   }
+  }
+ }
+}
