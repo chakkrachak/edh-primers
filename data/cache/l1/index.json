@@ -18,5 +18,20 @@
   "source": "spellbook",
   "fetched_at": 1786308222,
   "ttl_days": 7
+ },
+ "7d54246e8ed4cd58": {
+  "source": "scryfall",
+  "fetched_at": 1786314763,
+  "ttl_days": 30
+ },
+ "9c623c1d9e214fd5": {
+  "source": "edhrec",
+  "fetched_at": 1786314764,
+  "ttl_days": 7
+ },
+ "49d0a8401f61355f": {
+  "source": "spellbook",
+  "fetched_at": 1786314765,
+  "ttl_days": 7
  }
 }
