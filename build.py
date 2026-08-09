@@ -12,6 +12,17 @@ DATA_DIR = f'{BASE}/data/decks'
 TEMPLATE = f'{BASE}/templates/report.html'
 OUT_DIR = f'{BASE}/content'
 
+def produces_of(combo):
+    """Noms des Produces d'un combo — gère les 2 formats Spellbook :
+    legacy [{'name': ...}] et récent [{'feature': {'name': ...}, 'quantity': ...}]."""
+    out = []
+    for f in combo.get('produces', []) or []:
+        if isinstance(f, dict):
+            name = f.get('name') or (f.get('feature') or {}).get('name', '')
+            if name:
+                out.append(name)
+    return out[:6]
+
 def copy_btn(card_names, label="📋"):
     data = H.escape(", ".join(card_names))
     return (f'<button class="copy-btn" data-copy="{data}" '
@@ -214,7 +225,7 @@ def build_one(slug):
         names = [u['card']['name'] for u in c.get('uses', [])]
         pop = c.get('popularity') or 0
         identity = c.get('identity') or ''
-        produces = [f.get('name', '') for f in c.get('produces', []) if isinstance(f, dict)][:6]
+        produces = produces_of(c)
         desc = c.get('description') or ''
         prereq = c.get('notablePrerequisites') or c.get('easyPrerequisites') or ''
         prereq_bullets = [s.strip() for s in re.split(r'[.;]\s*|\n', prereq) if s.strip()]
@@ -414,7 +425,7 @@ def build_precon(slug):
         plan_combos = []
         for c in p.get('combos', []):
             names = [u['card']['name'] for u in c.get('uses', [])]
-            produces = [f.get('name', '') for f in c.get('produces', []) if isinstance(f, dict)][:6]
+            produces = produces_of(c)
             desc = c.get('description') or ''
             prereq = c.get('notablePrerequisites') or c.get('easyPrerequisites') or ''
             prereq_bullets = [s.strip() for s in re.split(r'[.;]\s*|\n', prereq) if s.strip()]
