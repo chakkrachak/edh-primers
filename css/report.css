@@ -183,6 +183,8 @@ strong { color: var(--text-strong); }
 .toc a { color: var(--accent-blue); text-decoration: none; }
 .toc li { margin: 4px 0; }
 .toc a { overflow-wrap: anywhere; }
+.toc ol { padding-left: 26px; margin: 4px 0 0; list-style-position: outside; }
+.toc-h3 { margin: 0 0 4px; }
 
 /* Modale plein écran (zoom cartes) */
 #modal {
@@ -357,8 +359,6 @@ strong { color: var(--text-strong); }
 .center { text-align: center; }
 
 /* Sommaire */
-.toc-h3 { margin-top: 6px; }
-
 /* Pied de rapport */
 .report-footer {
   color: #666;
