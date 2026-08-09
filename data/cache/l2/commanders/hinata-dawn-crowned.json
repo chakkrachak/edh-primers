@@ -5491,5 +5491,41 @@
     ]
    }
   }
+ },
+ "card_plan_texts": {
+  "Curse of the Swine": {
+   "Spellslinger": "**Exile removal** : turns X creatures into 2/2 Boars — every target is a {1} discount off the spell, so a board-sized Curse costs almost nothing.",
+   "X Spells": "**Mass exile** : X targets = X discount — you can afford X = the whole board for a fraction of its mana cost.",
+   "Control": "**Flexible sweeper** : exiles problem permanents one by one or clears the board — the control plan's catch-all answer that scales.",
+   "Tokens": "**Anti-token tech** : exiles enemy token armies without touching yours (Boars are harmless 2/2s you can ignore).",
+   "Combo": "**Setup piece** : cleans the board of blockers/stax so your combo pieces resolve and attack through.",
+   "Burn": "**Board control** : keeps the path clear so your X-burn and Guttersnipe pings go face instead of into blockers.",
+   "Storm": "**Chain enabler** : a cheap multi-target exile that adds to the storm count while answering the table's threats."
+  },
+  "March of Swirling Mist": {
+   "Spellslinger": "**Protection** : X creatures phase out (X targets = discount) — saves your board from wipes for pennies.",
+   "X Spells": "**X-scale protection** : with X high, your entire board dodges any wipe or board sweep.",
+   "Control": "**Answer dodger** : phases out your key pieces in response to removal — the control player's insurance.",
+   "Tokens": "**Board save** : protects your token army from a wipe, then they all come back swinging.",
+   "Combo": "**Combo shield** : phases out your combo pieces in response to interaction, keeping the line safe.",
+   "Burn": "**Resilience** : keeps your engines alive so the burn keeps flowing turn after turn.",
+   "Storm": "**Storm protection** : after a big chain, phases out the whole board you just built before the table can answer."
+  },
+  "Comet Storm": {
+   "Spellslinger": "**X-spell finisher** : deals X damage split between any targets — with Hinata + Thaumaturge, lethal for pennies.",
+   "X Spells": "**The X-burn of the plan** : multi-target means multi-discount — a 5-target Comet Storm is practically free.",
+   "Control": "**Late-game closer** : the control plan's finisher — hold up counters all game, then kill the table with one spell.",
+   "Burn": "**Lethal burst** : the biggest single burn spell in the deck — split X across the table for the kill.",
+   "Storm": "**Chain payoff** : at the end of a long storm chain, a giant Comet Storm ends the game."
+  },
+  "Battlefield Thaumaturge": {
+   "Spellslinger": "**Discount enabler** : each spell you cast costs {1} less per creature it targets — stacks with Hinata for X-burn.",
+   "Combo": "**Combo cost-cutter** : makes the multi-target pieces of your loops cheaper to fire every iteration."
+  },
+  "Icy Blast": {
+   "X Spells": "**X-spell tap** : taps X creatures (X targets = discount) — with enough mana, the whole table's attacks are gone.",
+   "Control": "**Time-buyer** : taps the biggest threats for a turn — the control plan's way to survive until the late game.",
+   "Burn": "**Attack tapper** : taps down blockers so your X-burn and pings connect for lethal."
+  }
  }
 }

@@ -177,7 +177,8 @@ def _merge_fiche(d, slug, kind):
         else:
             # --- eval : commander + données + contenu depuis la fiche ---
             d['commander'] = cmdr
-            for k in ('imgs', 'oracle', 'card_meta', 'synergy', 'hs_imgs', 'type_recs'):
+            for k in ('imgs', 'oracle', 'card_meta', 'synergy', 'hs_imgs', 'type_recs',
+                      'card_plan_texts'):
                 if fiche.get(k):
                     d[k] = fiche[k]
             if fiche.get('combos') is not None:
@@ -650,6 +651,11 @@ def build_precon(slug):
                     break
             score = (card_info or {}).get('synergy')
             expl = (card_info or {}).get('explanation', '')
+            # texte de synergie spécifique au plan (triplet général+plan+carte) s'il existe,
+            # sinon fallback sur l'explication générale de la carte
+            plan_text = (d.get('card_plan_texts', {}).get(mname) or {}).get(p['tag'])
+            if plan_text:
+                expl = plan_text
             match_cards.append({
                 'name': mname,
                 'img': (card_info or {}).get('img', ''),
