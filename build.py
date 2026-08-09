@@ -415,7 +415,7 @@ def build_precon(slug):
         'quick_read': bold_list(verdict_quick_read(d)),
     }
 
-    # Tous les noms de cartes connus (deck + commander + pièces de combos) pour les badges
+    # Tous les noms de cartes connus (deck + commander + pièces de combos + pools HS) pour les badges
     all_names = set()
     for cat in d['cards'].values():
         for c in cat:
@@ -425,7 +425,11 @@ def build_precon(slug):
         for cb in p.get('combos', []):
             for u in cb.get('uses', []):
                 all_names.add(u['card']['name'])
-    img_of = imgs_global.get
+        for h in p.get('high_synergy', []):
+            all_names.add(h if isinstance(h, str) else h.get('name', ''))
+    hs_imgs = d.get('hs_imgs', {})
+    def img_of(name):
+        return imgs_global.get(name) or hs_imgs.get(name, '')
     # cardify des textes
     ctx['quick_read'] = [cardify(b, all_names, img_of) for b in ctx['quick_read']]
 
@@ -481,6 +485,11 @@ def build_precon(slug):
 
     # --- cartes filler (diluent le plan — section dédiée, évals uniquement) ---
     fillers = detect_fillers(d, role_of, lambda n: d.get('oracle', {}).get(n, ''))
+    for f in fillers:
+        # markdown **bold** → <strong> puis noms de cartes → badges cliquables
+        f['reasons'] = [cardify(bold(r), all_names, img_of) for r in f['reasons']]
+        if f.get('replacement'):
+            f['replacement'] = cardify(f['replacement'], all_names, img_of)
     ctx['fillers'] = fillers
     ctx['n_fillers'] = len(fillers)
 
