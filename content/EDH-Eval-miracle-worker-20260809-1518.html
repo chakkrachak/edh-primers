@@ -14,7 +14,8 @@
 <li><a href="#s3">Deck Cards by Role (88 unique)</a></li>
 <li><a href="#s4">Structure Analysis</a></li>
 <li><a href="#s5">Filler Cards (11)</a></li>
-<li><a href="#s6">Verdict</a></li>
+<li><a href="#s6">Upgrades (1 + 5)</a></li>
+<li><a href="#s7">Verdict</a></li>
 </ol></div>
 
 <h2 id="s1">1. Commander Sheet <button class="copy-btn" data-copy="Aminatou, Veil Piercer" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h2>
@@ -1903,133 +1904,119 @@
 </div>
 
 <h2 id="s5">5. Filler Cards (11)</h2>
-<p class="report-sub">Cards that do NOT serve any major game plan and dilute it. Dilution score: +1 no High-Synergy match in any major plan · +1 unclear role (Flex, no ramp/draw/removal in Oracle) · +1 EDHREC synergy &lt; 0.30. Score ≥ 2 = filler. Lands are never fillers. For each filler: why it dilutes + a replacement from the favored plan's High-Synergy pool missing from the deck.</p>
+<p class="report-sub">Cards that do NOT serve any major game plan and dilute it. A card is flagged as filler when it hits <strong>at least 2 of these criteria</strong>:</p>
+<ul class="filler-criteria">
+<li><strong>No High-Synergy match</strong> : absent from every major plan's EDHREC High Synergy pool — it answers none of the commander's main game plans.</li>
+<li><strong>Unclear role</strong> : classified Flex (no engine/wincon/ramp/draw/removal signal in its Oracle) — it does not serve any structural role.</li>
+<li><strong>Low synergy score</strong> : EDHREC synergy &lt; 0.30 — very few decks of this commander play it.</li>
+</ul>
+<p class="report-sub">Lands are never fillers. The cards below all hit ≥ 2 criteria.</p>
 
+<div class="filler-grid">
 
-<div class="filler-row">
-<div class="filler-img"><img src="https://cards.scryfall.io/normal/front/2/0/204972f7-8111-4e7d-97c4-53bcdc222230.jpg?1783909628" data-large="https://cards.scryfall.io/normal/front/2/0/204972f7-8111-4e7d-97c4-53bcdc222230.jpg?1783909628" data-name="Archetype of Imagination" loading="lazy" onclick="openModal(this)"/></div>
-<div class="filler-info">
+<div class="filler-chip" title="Archetype of Imagination">
+<img src="https://cards.scryfall.io/normal/front/2/0/204972f7-8111-4e7d-97c4-53bcdc222230.jpg?1783909628" data-large="https://cards.scryfall.io/normal/front/2/0/204972f7-8111-4e7d-97c4-53bcdc222230.jpg?1783909628" data-name="Archetype of Imagination" loading="lazy" onclick="openModal(this)"/>
 <div class="cb-name">Archetype of Imagination </div>
-<ul class="filler-reasons">
-<li><strong>No High-Synergy match</strong> : absent from every major plan's EDHREC High Synergy pool — it answers none of the commander's main game plans.</li><li><strong>Unclear role</strong> : classified Flex (no engine/wincon/ramp/draw/removal signal in its Oracle) — it does not serve any structural role.</li>
-</ul>
-<div class="filler-swap">🔄 <strong>Replace with</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span> (Enchantress High-Synergy card missing from this deck)</div>
-</div>
 </div>
 
-<div class="filler-row">
-<div class="filler-img"><img src="https://cards.scryfall.io/normal/front/f/8/f81e3110-857c-4074-9c55-7e87c22051c9.jpg?1783909623" data-large="https://cards.scryfall.io/normal/front/f/8/f81e3110-857c-4074-9c55-7e87c22051c9.jpg?1783909623" data-name="Arvinox, the Mind Flail" loading="lazy" onclick="openModal(this)"/></div>
-<div class="filler-info">
+<div class="filler-chip" title="Arvinox, the Mind Flail">
+<img src="https://cards.scryfall.io/normal/front/f/8/f81e3110-857c-4074-9c55-7e87c22051c9.jpg?1783909623" data-large="https://cards.scryfall.io/normal/front/f/8/f81e3110-857c-4074-9c55-7e87c22051c9.jpg?1783909623" data-name="Arvinox, the Mind Flail" loading="lazy" onclick="openModal(this)"/>
 <div class="cb-name">Arvinox, the Mind Flail </div>
-<ul class="filler-reasons">
-<li><strong>No High-Synergy match</strong> : absent from every major plan's EDHREC High Synergy pool — it answers none of the commander's main game plans.</li><li><strong>Unclear role</strong> : classified Flex (no engine/wincon/ramp/draw/removal signal in its Oracle) — it does not serve any structural role.</li>
-</ul>
-<div class="filler-swap">🔄 <strong>Replace with</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span> (Enchantress High-Synergy card missing from this deck)</div>
-</div>
 </div>
 
-<div class="filler-row">
-<div class="filler-img"><img src="https://cards.scryfall.io/normal/front/f/5/f50ffa76-f704-4d53-a15c-8316b07c1d12.jpg?1783909597" data-large="https://cards.scryfall.io/normal/front/f/5/f50ffa76-f704-4d53-a15c-8316b07c1d12.jpg?1783909597" data-name="Athreos, Shroud-Veiled" loading="lazy" onclick="openModal(this)"/></div>
-<div class="filler-info">
+<div class="filler-chip" title="Athreos, Shroud-Veiled">
+<img src="https://cards.scryfall.io/normal/front/f/5/f50ffa76-f704-4d53-a15c-8316b07c1d12.jpg?1783909597" data-large="https://cards.scryfall.io/normal/front/f/5/f50ffa76-f704-4d53-a15c-8316b07c1d12.jpg?1783909597" data-name="Athreos, Shroud-Veiled" loading="lazy" onclick="openModal(this)"/>
 <div class="cb-name">Athreos, Shroud-Veiled </div>
-<ul class="filler-reasons">
-<li><strong>No High-Synergy match</strong> : absent from every major plan's EDHREC High Synergy pool — it answers none of the commander's main game plans.</li><li><strong>Unclear role</strong> : classified Flex (no engine/wincon/ramp/draw/removal signal in its Oracle) — it does not serve any structural role.</li>
-</ul>
-<div class="filler-swap">🔄 <strong>Replace with</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span> (Enchantress High-Synergy card missing from this deck)</div>
-</div>
 </div>
 
-<div class="filler-row">
-<div class="filler-img"><img src="https://cards.scryfall.io/normal/front/7/b/7ba1e27e-ed0d-438c-9ec6-a48a04718512.jpg?1783909659" data-large="https://cards.scryfall.io/normal/front/7/b/7ba1e27e-ed0d-438c-9ec6-a48a04718512.jpg?1783909659" data-name="Cramped Vents // Access Maze" loading="lazy" onclick="openModal(this)"/></div>
-<div class="filler-info">
+<div class="filler-chip" title="Cramped Vents // Access Maze">
+<img src="https://cards.scryfall.io/normal/front/7/b/7ba1e27e-ed0d-438c-9ec6-a48a04718512.jpg?1783909659" data-large="https://cards.scryfall.io/normal/front/7/b/7ba1e27e-ed0d-438c-9ec6-a48a04718512.jpg?1783909659" data-name="Cramped Vents // Access Maze" loading="lazy" onclick="openModal(this)"/>
 <div class="cb-name">Cramped Vents // Access Maze </div>
-<ul class="filler-reasons">
-<li><strong>No High-Synergy match</strong> : absent from every major plan's EDHREC High Synergy pool — it answers none of the commander's main game plans.</li><li><strong>Unclear role</strong> : classified Flex (no engine/wincon/ramp/draw/removal signal in its Oracle) — it does not serve any structural role.</li>
-</ul>
-<div class="filler-swap">🔄 <strong>Replace with</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span> (Enchantress High-Synergy card missing from this deck)</div>
-</div>
 </div>
 
-<div class="filler-row">
-<div class="filler-img"><img src="https://cards.scryfall.io/normal/front/3/3/3362ade8-d585-40be-8486-382cad6efaf8.jpg?1783903751" data-large="https://cards.scryfall.io/normal/front/3/3/3362ade8-d585-40be-8486-382cad6efaf8.jpg?1783903751" data-name="Inkshield" loading="lazy" onclick="openModal(this)"/></div>
-<div class="filler-info">
+<div class="filler-chip" title="Inkshield">
+<img src="https://cards.scryfall.io/normal/front/3/3/3362ade8-d585-40be-8486-382cad6efaf8.jpg?1783903751" data-large="https://cards.scryfall.io/normal/front/3/3/3362ade8-d585-40be-8486-382cad6efaf8.jpg?1783903751" data-name="Inkshield" loading="lazy" onclick="openModal(this)"/>
 <div class="cb-name">Inkshield </div>
-<ul class="filler-reasons">
-<li><strong>No High-Synergy match</strong> : absent from every major plan's EDHREC High Synergy pool — it answers none of the commander's main game plans.</li><li><strong>Unclear role</strong> : classified Flex (no engine/wincon/ramp/draw/removal signal in its Oracle) — it does not serve any structural role.</li>
-</ul>
-<div class="filler-swap">🔄 <strong>Replace with</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span> (Enchantress High-Synergy card missing from this deck)</div>
-</div>
 </div>
 
-<div class="filler-row">
-<div class="filler-img"><img src="https://cards.scryfall.io/normal/front/1/6/16448d95-ee21-4def-b880-26f6f159c213.jpg?1783909658" data-large="https://cards.scryfall.io/normal/front/1/6/16448d95-ee21-4def-b880-26f6f159c213.jpg?1783909658" data-name="Metamorphosis Fanatic" loading="lazy" onclick="openModal(this)"/></div>
-<div class="filler-info">
+<div class="filler-chip" title="Metamorphosis Fanatic">
+<img src="https://cards.scryfall.io/normal/front/1/6/16448d95-ee21-4def-b880-26f6f159c213.jpg?1783909658" data-large="https://cards.scryfall.io/normal/front/1/6/16448d95-ee21-4def-b880-26f6f159c213.jpg?1783909658" data-name="Metamorphosis Fanatic" loading="lazy" onclick="openModal(this)"/>
 <div class="cb-name">Metamorphosis Fanatic </div>
-<ul class="filler-reasons">
-<li><strong>No High-Synergy match</strong> : absent from every major plan's EDHREC High Synergy pool — it answers none of the commander's main game plans.</li><li><strong>Unclear role</strong> : classified Flex (no engine/wincon/ramp/draw/removal signal in its Oracle) — it does not serve any structural role.</li>
-</ul>
-<div class="filler-swap">🔄 <strong>Replace with</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span> (Enchantress High-Synergy card missing from this deck)</div>
-</div>
 </div>
 
-<div class="filler-row">
-<div class="filler-img"><img src="https://cards.scryfall.io/normal/front/c/0/c03c1ad6-3122-4267-80d6-94ecf1ff3884.jpg?1783909617" data-large="https://cards.scryfall.io/normal/front/c/0/c03c1ad6-3122-4267-80d6-94ecf1ff3884.jpg?1783909617" data-name="Nightmare Shepherd" loading="lazy" onclick="openModal(this)"/></div>
-<div class="filler-info">
+<div class="filler-chip" title="Nightmare Shepherd">
+<img src="https://cards.scryfall.io/normal/front/c/0/c03c1ad6-3122-4267-80d6-94ecf1ff3884.jpg?1783909617" data-large="https://cards.scryfall.io/normal/front/c/0/c03c1ad6-3122-4267-80d6-94ecf1ff3884.jpg?1783909617" data-name="Nightmare Shepherd" loading="lazy" onclick="openModal(this)"/>
 <div class="cb-name">Nightmare Shepherd </div>
-<ul class="filler-reasons">
-<li><strong>No High-Synergy match</strong> : absent from every major plan's EDHREC High Synergy pool — it answers none of the commander's main game plans.</li><li><strong>Unclear role</strong> : classified Flex (no engine/wincon/ramp/draw/removal signal in its Oracle) — it does not serve any structural role.</li>
-</ul>
-<div class="filler-swap">🔄 <strong>Replace with</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span> (Enchantress High-Synergy card missing from this deck)</div>
-</div>
 </div>
 
-<div class="filler-row">
-<div class="filler-img"><img src="https://cards.scryfall.io/normal/front/b/c/bc495d03-9340-47cd-afc2-82a1677e69df.jpg?1783909590" data-large="https://cards.scryfall.io/normal/front/b/c/bc495d03-9340-47cd-afc2-82a1677e69df.jpg?1783909590" data-name="Spirit-Sister&#x27;s Call" loading="lazy" onclick="openModal(this)"/></div>
-<div class="filler-info">
+<div class="filler-chip" title="Spirit-Sister&#x27;s Call">
+<img src="https://cards.scryfall.io/normal/front/b/c/bc495d03-9340-47cd-afc2-82a1677e69df.jpg?1783909590" data-large="https://cards.scryfall.io/normal/front/b/c/bc495d03-9340-47cd-afc2-82a1677e69df.jpg?1783909590" data-name="Spirit-Sister&#x27;s Call" loading="lazy" onclick="openModal(this)"/>
 <div class="cb-name">Spirit-Sister&#x27;s Call </div>
-<ul class="filler-reasons">
-<li><strong>No High-Synergy match</strong> : absent from every major plan's EDHREC High Synergy pool — it answers none of the commander's main game plans.</li><li><strong>Unclear role</strong> : classified Flex (no engine/wincon/ramp/draw/removal signal in its Oracle) — it does not serve any structural role.</li>
-</ul>
-<div class="filler-swap">🔄 <strong>Replace with</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span> (Enchantress High-Synergy card missing from this deck)</div>
-</div>
 </div>
 
-<div class="filler-row">
-<div class="filler-img"><img src="https://cards.scryfall.io/normal/front/4/d/4d29351e-5608-40e8-8220-6c9635d48ad4.jpg?1783909619" data-large="https://cards.scryfall.io/normal/front/4/d/4d29351e-5608-40e8-8220-6c9635d48ad4.jpg?1783909619" data-name="The Eldest Reborn" loading="lazy" onclick="openModal(this)"/></div>
-<div class="filler-info">
+<div class="filler-chip" title="The Eldest Reborn">
+<img src="https://cards.scryfall.io/normal/front/4/d/4d29351e-5608-40e8-8220-6c9635d48ad4.jpg?1783909619" data-large="https://cards.scryfall.io/normal/front/4/d/4d29351e-5608-40e8-8220-6c9635d48ad4.jpg?1783909619" data-name="The Eldest Reborn" loading="lazy" onclick="openModal(this)"/>
 <div class="cb-name">The Eldest Reborn </div>
-<ul class="filler-reasons">
-<li><strong>No High-Synergy match</strong> : absent from every major plan's EDHREC High Synergy pool — it answers none of the commander's main game plans.</li><li><strong>Unclear role</strong> : classified Flex (no engine/wincon/ramp/draw/removal signal in its Oracle) — it does not serve any structural role.</li>
-</ul>
-<div class="filler-swap">🔄 <strong>Replace with</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span> (Enchantress High-Synergy card missing from this deck)</div>
-</div>
 </div>
 
-<div class="filler-row">
-<div class="filler-img"><img src="https://cards.scryfall.io/normal/front/3/5/3545341b-dacc-4ac8-976e-39754a62bbc3.jpg?1783909663" data-large="https://cards.scryfall.io/normal/front/3/5/3545341b-dacc-4ac8-976e-39754a62bbc3.jpg?1783909663" data-name="The Master of Keys" loading="lazy" onclick="openModal(this)"/></div>
-<div class="filler-info">
+<div class="filler-chip" title="The Master of Keys">
+<img src="https://cards.scryfall.io/normal/front/3/5/3545341b-dacc-4ac8-976e-39754a62bbc3.jpg?1783909663" data-large="https://cards.scryfall.io/normal/front/3/5/3545341b-dacc-4ac8-976e-39754a62bbc3.jpg?1783909663" data-name="The Master of Keys" loading="lazy" onclick="openModal(this)"/>
 <div class="cb-name">The Master of Keys </div>
-<ul class="filler-reasons">
-<li><strong>No High-Synergy match</strong> : absent from every major plan's EDHREC High Synergy pool — it answers none of the commander's main game plans.</li><li><strong>Unclear role</strong> : classified Flex (no engine/wincon/ramp/draw/removal signal in its Oracle) — it does not serve any structural role.</li>
-</ul>
-<div class="filler-swap">🔄 <strong>Replace with</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span> (Enchantress High-Synergy card missing from this deck)</div>
-</div>
 </div>
 
-<div class="filler-row">
-<div class="filler-img"><img src="https://cards.scryfall.io/normal/front/d/6/d61f8db1-0148-47bd-ae97-9aedccb83813.jpg?1783909630" data-large="https://cards.scryfall.io/normal/front/d/6/d61f8db1-0148-47bd-ae97-9aedccb83813.jpg?1783909630" data-name="Timely Ward" loading="lazy" onclick="openModal(this)"/></div>
-<div class="filler-info">
+<div class="filler-chip" title="Timely Ward">
+<img src="https://cards.scryfall.io/normal/front/d/6/d61f8db1-0148-47bd-ae97-9aedccb83813.jpg?1783909630" data-large="https://cards.scryfall.io/normal/front/d/6/d61f8db1-0148-47bd-ae97-9aedccb83813.jpg?1783909630" data-name="Timely Ward" loading="lazy" onclick="openModal(this)"/>
 <div class="cb-name">Timely Ward </div>
-<ul class="filler-reasons">
-<li><strong>No High-Synergy match</strong> : absent from every major plan's EDHREC High Synergy pool — it answers none of the commander's main game plans.</li><li><strong>Unclear role</strong> : classified Flex (no engine/wincon/ramp/draw/removal signal in its Oracle) — it does not serve any structural role.</li>
-</ul>
-<div class="filler-swap">🔄 <strong>Replace with</strong> : <span class="card-badge" data-large="https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" onclick="openModal(this)">Sensei&#x27;s Divining Top</span> (Enchantress High-Synergy card missing from this deck)</div>
 </div>
+
 </div>
 
 
+<h2 id="s6">6. Upgrades (1 high-synergy + 5 combos)</h2>
+<p class="report-sub">The strongest cards you are NOT playing: High-Synergy cards from the major game plans missing from the deck, and pieces that would unlock combos from Commander Spellbook.</p>
 
-<h2 id="s6">6. Verdict</h2>
+<h3>🏆 Missing High-Synergy cards</h3>
+
+<h4>Combo — 92 decks</h4>
+<div class="upgrade-grid">
+
+<div class="filler-chip" title="Sensei&#x27;s Divining Top">
+<img src="https://cards.scryfall.io/normal/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-large="https://cards.scryfall.io/normal/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788" data-name="Sensei&#x27;s Divining Top" loading="lazy" onclick="openModal(this)"/>
+<div class="cb-name">Sensei&#x27;s Divining Top <span class="cb-syn syn-mid">syn 0.57</span></div>
+</div>
+
+</div>
+
+
+<h3>🔗 Missing combo pieces</h3>
+
+<div class="combo-upgrade">
+<div class="cb-name">Timestream Navigator + Extravagant Replication</div>
+<div class="combo-upgrade-meta">Popularity: 927 decks · In the deck: Extravagant Replication · Missing: <span class="missing-chip" onclick="openModal(this)" data-large="https://cards.scryfall.io/normal/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879" data-name="Timestream Navigator">Timestream Navigator</span></div>
+</div>
+
+<div class="combo-upgrade">
+<div class="cb-name">Wanderwine Prophets + Extravagant Replication</div>
+<div class="combo-upgrade-meta">Popularity: 109 decks · In the deck: Extravagant Replication · Missing: <span class="missing-chip" onclick="openModal(this)" data-large="https://cards.scryfall.io/normal/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895" data-name="Wanderwine Prophets">Wanderwine Prophets</span></div>
+</div>
+
+<div class="combo-upgrade">
+<div class="cb-name">Second Chance + Extravagant Replication</div>
+<div class="combo-upgrade-meta">Popularity: 106 decks · In the deck: Extravagant Replication · Missing: <span class="missing-chip" onclick="openModal(this)" data-large="https://cards.scryfall.io/normal/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245" data-name="Second Chance">Second Chance</span></div>
+</div>
+
+<div class="combo-upgrade">
+<div class="cb-name">Sharuum the Hegemon + Mirrormade</div>
+<div class="combo-upgrade-meta">Popularity: 673 decks · In the deck: Mirrormade · Missing: <span class="missing-chip" onclick="openModal(this)" data-large="https://cards.scryfall.io/normal/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126" data-name="Sharuum the Hegemon">Sharuum the Hegemon</span></div>
+</div>
+
+<div class="combo-upgrade">
+<div class="cb-name">Mystic Barrier + Mirrormade</div>
+<div class="combo-upgrade-meta">Popularity: 468 decks · In the deck: Mirrormade · Missing: <span class="missing-chip" onclick="openModal(this)" data-large="https://cards.scryfall.io/normal/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689" data-name="Mystic Barrier">Mystic Barrier</span></div>
+</div>
+
+
+<h2 id="s7">7. Verdict</h2>
 <div class="verdict">
 <h3>🎯 Enchantress &amp; Topdeck (Miracles) — co-favorites</h3>
 <div class="verdict-scores">

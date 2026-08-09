@@ -14,7 +14,8 @@
 <li><a href="#s3">Deck Cards by Role ({{ n_cards }} unique)</a></li>
 <li><a href="#s4">Structure Analysis</a></li>
 <li><a href="#s5">Filler Cards ({{ n_fillers }})</a></li>
-<li><a href="#s6">Verdict</a></li>
+<li><a href="#s6">Upgrades ({{ n_upgrades_hs }} + {{ n_upgrades_combos }})</a></li>
+<li><a href="#s7">Verdict</a></li>
 </ol></div>
 
 <h2 id="s1">1. Commander Sheet {{ copy_btn_cmd }}</h2>
@@ -127,25 +128,51 @@
 </div>
 
 <h2 id="s5">5. Filler Cards ({{ n_fillers }})</h2>
-<p class="report-sub">Cards that do NOT serve any major game plan and dilute it. Dilution score: +1 no High-Synergy match in any major plan · +1 unclear role (Flex, no ramp/draw/removal in Oracle) · +1 EDHREC synergy &lt; 0.30. Score ≥ 2 = filler. Lands are never fillers. For each filler: why it dilutes + a replacement from the favored plan's High-Synergy pool missing from the deck.</p>
-{% if fillers %}
-{% for f in fillers %}
-<div class="filler-row">
-<div class="filler-img"><img src="{{ f.img }}" data-large="{{ f.img }}" data-name="{{ f.name|escape }}" loading="lazy" onclick="openModal(this)"/></div>
-<div class="filler-info">
-<div class="cb-name">{{ f.name|escape }} {% if f.synergy %}<span class="cb-syn {{ f.syn_cls }}">synergy {{ f.synergy }}</span>{% endif %}</div>
-<ul class="filler-reasons">
-{% for r in f.reasons %}<li>{{ r|safe }}</li>{% endfor %}
+<p class="report-sub">Cards that do NOT serve any major game plan and dilute it. A card is flagged as filler when it hits <strong>at least 2 of these criteria</strong>:</p>
+<ul class="filler-criteria">
+<li><strong>No High-Synergy match</strong> : absent from every major plan's EDHREC High Synergy pool — it answers none of the commander's main game plans.</li>
+<li><strong>Unclear role</strong> : classified Flex (no engine/wincon/ramp/draw/removal signal in its Oracle) — it does not serve any structural role.</li>
+<li><strong>Low synergy score</strong> : EDHREC synergy &lt; 0.30 — very few decks of this commander play it.</li>
 </ul>
-{% if f.replacement %}<div class="filler-swap">🔄 <strong>Replace with</strong> : {{ f.replacement|safe }} ({{ f.top_plan|escape }} High-Synergy card missing from this deck)</div>{% endif %}
-</div>
+<p class="report-sub">Lands are never fillers. The cards below all hit ≥ 2 criteria.</p>
+{% if fillers %}
+<div class="filler-grid">
+{% for f in fillers %}
+<div class="filler-chip" title="{{ f.name|escape }}">
+<img src="{{ f.img }}" data-large="{{ f.img }}" data-name="{{ f.name|escape }}" loading="lazy" onclick="openModal(this)"/>
+<div class="cb-name">{{ f.name|escape }} {% if f.synergy %}<span class="cb-syn {{ f.syn_cls }}">syn {{ f.synergy }}</span>{% endif %}</div>
 </div>
 {% endfor %}
+</div>
 {% else %}
 <p>✅ No filler cards detected — every non-land card serves a structural role or a major game plan.</p>
 {% endif %}
 
-<h2 id="s6">6. Verdict</h2>
+<h2 id="s6">6. Upgrades ({{ n_upgrades_hs }} high-synergy + {{ n_upgrades_combos }} combos)</h2>
+<p class="report-sub">The strongest cards you are NOT playing: High-Synergy cards from the major game plans missing from the deck, and pieces that would unlock combos from Commander Spellbook.</p>
+
+<h3>🏆 Missing High-Synergy cards</h3>
+{% for p in upgrades.hs %}
+<h4>{{ p.tag }} — {{ p.decks }} decks</h4>
+<div class="upgrade-grid">
+{% for c in p.cards %}
+<div class="filler-chip" title="{{ c.name|escape }}">
+<img src="{{ c.img }}" data-large="{{ c.img }}" data-name="{{ c.name|escape }}" loading="lazy" onclick="openModal(this)"/>
+<div class="cb-name">{{ c.name|escape }} {% if c.synergy %}<span class="cb-syn {{ c.syn_cls }}">syn {{ c.synergy }}</span>{% endif %}</div>
+</div>
+{% endfor %}
+</div>
+{% endfor %}
+
+<h3>🔗 Missing combo pieces</h3>
+{% for c in upgrades.combos %}
+<div class="combo-upgrade">
+<div class="cb-name">{{ c.title|escape }}</div>
+<div class="combo-upgrade-meta">Popularity: {{ c.popularity }} decks · In the deck: {{ c.in_deck|join(', ') }} · Missing: {% for m in c.missing %}<span class="missing-chip" onclick="openModal(this)" data-large="{{ m.img }}" data-name="{{ m.name|escape }}">{{ m.name|escape }}</span>{% if not loop.last %}, {% endif %}{% endfor %}</div>
+</div>
+{% endfor %}
+
+<h2 id="s7">7. Verdict</h2>
 <div class="verdict">
 <h3>🎯 {{ verdict.favored|escape }}</h3>
 <div class="verdict-scores">

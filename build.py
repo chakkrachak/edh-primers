@@ -326,28 +326,13 @@ def filler_reasons(card, oracle_txt, role, in_any_hs, synergy):
 def detect_fillers(d, role_of, oracle_get):
     """Détecte les cartes filler d'un deck évalué : cartes qui ne servent aucun plan majeur
     et diluent le plan de jeu. Score de dilution = 3 critères (HS match / rôle / synergie).
-    Pour chaque filler : les raisons + une carte de remplacement (HS du plan favori absente
-    du deck). Les lands ne sont jamais des fillers."""
+    Les lands ne sont jamais des fillers. Les raisons étant les mêmes pour toutes les cartes,
+    elles sont exposées en introduction de section (critères), pas par carte."""
     # Pools HS de tous les plans (tolère str OU dict {name})
     all_hs = set()
     for p in d.get('plans', []):
         for h in p.get('high_synergy', []):
             all_hs.add(h if isinstance(h, str) else h.get('name', ''))
-    # Plan dominant (le plus de decks) → pool pour les remplacements.
-    # Le swap cherche dans TOUS les plans majeurs (du plus grand au plus petit) : si le plan
-    # dominant n'a aucune HS absente du deck (precon très rempli), on prend la 1ère HS
-    # manquante d'un autre plan majeur.
-    plans = d.get('plans', [])
-    plans_sorted = sorted(plans, key=lambda p: -p.get('decks', 0)) if plans else []
-    top = plans_sorted[0] if plans_sorted else None
-    top_hs = []
-    for p in plans_sorted:
-        for h in p.get('high_synergy', []):
-            top_hs.append(h if isinstance(h, str) else h.get('name', ''))
-    deck_names = set()
-    for cat in d['cards'].values():
-        for c in cat:
-            deck_names.add(c['name'])
 
     fillers = []
     for cat in d['cards'].values():
@@ -358,29 +343,75 @@ def detect_fillers(d, role_of, oracle_get):
                 continue  # les lands ne sont jamais des fillers
             oracle_txt = oracle_get(name)
             role = role_of.get(name, 'Flex')
-            score, reasons = filler_reasons(c, oracle_txt, role, name in all_hs, c.get('synergy'))
+            score, _ = filler_reasons(c, oracle_txt, role, name in all_hs, c.get('synergy'))
             if score < 2:
                 continue
-            # carte de remplacement : 1ère carte du pool HS du plan dominant absente du deck
-            replacement = ''
-            for cand in top_hs:
-                if cand not in deck_names:
-                    replacement = cand
-                    break
             fillers.append({
                 'name': name,
                 'img': c.get('img', ''),
                 'synergy': f'{c.get("synergy"):.2f}' if c.get('synergy') is not None else None,
                 'syn_cls': syn_cls(c.get('synergy')),
-                'role': role,
                 'score': score,
-                'reasons': reasons,
-                'replacement': replacement,
-                'top_plan': top['tag'] if top else '',
             })
     # tri : score décroissant, puis nom
     fillers.sort(key=lambda f: (-f['score'], f['name']))
     return fillers
+
+def detect_upgrades(d):
+    """Cartes manquantes pour améliorer le deck : les cartes High-Synergy des plans majeurs
+    absentes du deck + les pièces des combos potentiels absentes du deck. Les images viennent
+    de hs_imgs (fetch Scryfall au moment de la génération du JSON)."""
+    deck_names = set()
+    for cat in d['cards'].values():
+        for c in cat:
+            deck_names.add(c['name'])
+    deck_names.add(d['commander']['name'])
+    hs_imgs = d.get('hs_imgs', {})
+
+    # 1. HS manquantes par plan (plans du plus grand au plus petit)
+    plans = sorted(d.get('plans', []), key=lambda p: -p.get('decks', 0))
+    hs_upgrades = []
+    for p in plans:
+        pool = []
+        for h in p.get('high_synergy', []):
+            n = h if isinstance(h, str) else h.get('name', '')
+            syn = None if isinstance(h, str) else h.get('synergy')
+            if n and n not in deck_names:
+                pool.append({
+                    'name': n, 'img': hs_imgs.get(n, ''),
+                    'synergy': f'{syn:.2f}' if syn is not None else None,
+                    'syn_cls': syn_cls(syn),
+                })
+        if pool:
+            hs_upgrades.append({'tag': p['tag'], 'decks': p['decks'], 'cards': pool})
+
+    # 2. Pièces de combos absentes (pour les combos des plans)
+    seen = set()
+    combo_cards = []
+    for p in plans:
+        for cb in p.get('combos', []):
+            missing = []
+            names = []
+            for u in cb.get('uses', []):
+                n = u['card']['name']
+                names.append(n)
+                if n not in deck_names:
+                    missing.append(n)
+            if not missing:
+                continue
+            key = tuple(sorted(names))
+            if key in seen:
+                continue
+            seen.add(key)
+            combo_cards.append({
+                'combo': ' + '.join(names),
+                'title': cb.get('title', ''),
+                'missing': [{'name': n, 'img': hs_imgs.get(n, '')} for n in missing],
+                'in_deck': [n for n in names if n in deck_names],
+                'popularity': cb.get('popularity', 0),
+            })
+
+    return {'hs': hs_upgrades, 'combos': combo_cards}
 
 def build_precon(slug):
     """Rend une évaluation de deck (precon) : data/precons/<slug>.json + templates/precon.html."""
@@ -485,13 +516,14 @@ def build_precon(slug):
 
     # --- cartes filler (diluent le plan — section dédiée, évals uniquement) ---
     fillers = detect_fillers(d, role_of, lambda n: d.get('oracle', {}).get(n, ''))
-    for f in fillers:
-        # markdown **bold** → <strong> puis noms de cartes → badges cliquables
-        f['reasons'] = [cardify(bold(r), all_names, img_of) for r in f['reasons']]
-        if f.get('replacement'):
-            f['replacement'] = cardify(f['replacement'], all_names, img_of)
     ctx['fillers'] = fillers
     ctx['n_fillers'] = len(fillers)
+
+    # --- upgrades : HS manquantes + pièces de combos absentes ---
+    upgrades = detect_upgrades(d)
+    ctx['upgrades'] = upgrades
+    ctx['n_upgrades_hs'] = sum(len(p['cards']) for p in upgrades['hs'])
+    ctx['n_upgrades_combos'] = len(upgrades['combos'])
 
     # --- plans ---
     plans = []
