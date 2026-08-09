@@ -197,15 +197,19 @@ def bold_list(items):
     return [bold(x) for x in (items or [])]
 
 def verdict_quick_read(d):
-    """Résumé du verdict en bullets pédagogiques (pour la commander sheet de l'évaluation)."""
-    v = d.get('verdict', {})
-    favored = v.get('favored', '')
-    texts = v.get('text', [])
+    """Résumé du plan favorisé en bullets pédagogiques — MÊME FORMAT que le quick read des
+    primers (description du plan + win conditions, lead-ins en gras)."""
+    plans = d.get('plans', [])
+    if not plans:
+        return []
+    # plan dominant = le plus de decks (le favori du verdict)
+    top = max(plans, key=lambda p: p.get('decks', 0))
     out = []
-    if favored:
-        out.append(f"**Favored plan** : {favored}.")
-    for t in (texts or [])[:2]:
-        out.append(t)
+    for b in (top.get('description') or [])[:3]:
+        out.append(b)
+    wins = top.get('win') or []
+    if wins:
+        out.append(wins[0])
     return out
 
 def build_precon(slug):
