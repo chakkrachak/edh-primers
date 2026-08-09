@@ -18,6 +18,74 @@ def copy_btn(card_names, label="📋"):
             f'onclick="copyText(this.getAttribute(\'data-copy\'))" '
             f'title="Copy card list">{label}</button>')
 
+def cardify(text, card_names, img_of=None):
+    """Transforme chaque nom de carte présent dans le texte en badge cliquable (zoom modal).
+
+    - Matche les noms les PLUS LONGS d'abord (évite « Cloud » dans « Cloud, Midgar Mercenary »).
+    - Ajoute la forme COURTE (avant la virgule) de chaque nom pour matcher les mentions
+      au prénom (ex. « Adeline » pour « Adeline, Resplendent Cathar ») — sauf si elle est
+      un mot anglais générique (Captain, Sword…) ou trop courte (< 4 lettres).
+    - Ignore les balises HTML existantes (<strong>, <em>, <img>…) et leurs attributs.
+    - Tolère les apostrophes ' et ’ (ex. Sensei's Divining Top vs Sensei’s).
+    - img_of(name) → URL d'image optionnelle (badge cliquable si fournie, sinon badge texte).
+    """
+    if not text or not card_names:
+        return text
+    # mots anglais génériques — jamais comme forme courte (faux positifs)
+    BAD_SHORT = {'captain', 'herald', 'general', 'champion', 'master', 'lord', 'lady',
+                 'king', 'queen', 'angel', 'demon', 'dragon', 'spirit', 'beast', 'giant',
+                 'wizard', 'warrior', 'soldier', 'knight', 'path', 'sword', 'shield',
+                 'helm', 'crown', 'throne', 'palace', 'fort', 'castle', 'tower', 'gate',
+                 'hope', 'faith', 'light', 'dawn', 'night', 'moon', 'sun', 'star',
+                 'storm', 'wind', 'fire', 'flame', 'ice', 'frost', 'time', 'world',
+                 'life', 'death', 'war', 'peace', 'power', 'glory', 'honor', 'justice',
+                 'mercy', 'saint', 'prophet', 'priest', 'monk', 'sky', 'sea', 'earth'}
+    # noms complets + formes courtes (avant virgule), triés par longueur décroissante.
+    # short→full permet de retrouver l'image d'un badge au prénom (Adeline → Adeline, Resplendent Cathar).
+    variants = set()
+    short_to_full = {}
+    for n in card_names:
+        if not n:
+            continue
+        variants.add(n)
+        short = n.split(',')[0].strip()
+        if len(short) >= 4 and short.lower() not in BAD_SHORT:
+            variants.add(short)
+            short_to_full.setdefault(short, n)
+    names = sorted(variants, key=len, reverse=True)
+    # img_of élargi : nom exact, puis forme courte → nom complet (Adeline → Adeline, Resplendent Cathar)
+    def img_lookup(name):
+        if img_of:
+            return img_of(name) or img_of(short_to_full.get(name, ''))
+        return ''
+    # patterns : apostrophes normalisées
+    def esc(n):
+        return re.escape(n).replace("\\'", "['’]")
+    alt = '|'.join(esc(n) for n in names)
+    pattern = re.compile(r'(?<![\w])(' + alt + r')(?![\w])')
+
+    # découpe en segments HTML vs texte
+    def repl_in_text(seg):
+        def repl(m):
+            name = m.group(1)
+            img = img_lookup(name)
+            if img:
+                large = img.replace('/normal/', '/large/')
+                return (f'<span class="card-badge" data-large="{large}" '
+                        f'data-name="{H.escape(name)}" onclick="openModal(this)">'
+                        f'{H.escape(name)}</span>')
+            return f'<span class="card-badge">{H.escape(name)}</span>'
+        return pattern.sub(repl, seg)
+
+    parts = re.split(r'(<[^>]*>)', text)
+    out = []
+    for i, part in enumerate(parts):
+        if i % 2 == 1:
+            out.append(part)          # balise HTML : inchangée
+        else:
+            out.append(repl_in_text(part))
+    return ''.join(out)
+
 def big_card(url, name, size=190):
     assert url.startswith("https://cards.scryfall.io/"), f"URL manquante pour {name}"
     return (f'<div class="big-card" style="width:{size}px;">'
@@ -95,6 +163,14 @@ def build_one(slug):
     for c in d.get('combos', []):
         for u in c.get('uses', []):
             combo_pieces.add(u['card']['name'])
+    # Tous les noms de cartes connus (deck + commander + pièces de combos) pour les badges
+    all_names = set(flat.keys()) | {d['commander_name']} | combo_pieces
+    img_of = d['imgs'].get
+    # --- cardify des textes (noms de cartes → badges cliquables) ---
+    ctx['quick_read'] = [cardify(b, all_names, img_of) for b in ctx['quick_read']]
+    ctx['plan_html'] = cardify(ctx['plan_html'], all_names, img_of)
+    ctx['source_html'] = cardify(ctx['source_html'], all_names, img_of)
+    ctx['combos_note'] = cardify(ctx['combos_note'], all_names, img_of)
     # Assignation par rôle
     from roles import assign_role, ROLE_ORDER, ROLE_TITLES, ROLE_SYNOPSES, ROLE_TARGETS
     cards_by_role = {r: [] for r in ROLE_ORDER}
@@ -110,7 +186,7 @@ def build_one(slug):
             'name': name,
             'img': img,
             'img_large': img.replace('/normal/', '/large/'),
-            'explanation': info['explanation'],
+            'explanation': cardify(info['explanation'], all_names, img_of),
             'synergy': f'{score:.2f}' if score is not None else None,
             'syn_cls': syn_cls(score) if score is not None else '',
         })
@@ -149,9 +225,9 @@ def build_one(slug):
             'identity': identity,
             'popularity': pop,
             'bigs': ''.join(big_card(d['imgs'].get(n, ''), n, 150) for n in names),
-            'produces': produces,
-            'prereq_bullets': prereq_bullets,
-            'exec_steps': exec_steps,
+            'produces': [cardify(p, all_names, img_of) for p in produces],
+            'prereq_bullets': [cardify(b, all_names, img_of) for b in prereq_bullets],
+            'exec_steps': [cardify(s, all_names, img_of) for s in exec_steps],
         })
     ctx['combos'] = combos
 
@@ -244,6 +320,20 @@ def build_precon(slug):
         'quick_read': bold_list(verdict_quick_read(d)),
     }
 
+    # Tous les noms de cartes connus (deck + commander + pièces de combos) pour les badges
+    all_names = set()
+    for cat in d['cards'].values():
+        for c in cat:
+            all_names.add(c['name'])
+    all_names.add(cmdr['name'])
+    for p in d['plans']:
+        for cb in p.get('combos', []):
+            for u in cb.get('uses', []):
+                all_names.add(u['card']['name'])
+    img_of = imgs_global.get
+    # cardify des textes
+    ctx['quick_read'] = [cardify(b, all_names, img_of) for b in ctx['quick_read']]
+
     # --- categories (regroupées par RÔLE — même moteur que les rapports) ---
     from roles import assign_role, ROLE_ORDER, ROLE_TITLES, ROLE_SYNOPSES, ROLE_TARGETS
     # combo pieces (toutes les cartes des combos de tous les plans)
@@ -270,7 +360,7 @@ def build_precon(slug):
             score = c.get('synergy')
             cards_by_role[role].append({
                 'name': c['name'], 'img': c['img'],
-                'explanation': c.get('explanation', ''),
+                'explanation': cardify(c.get('explanation', ''), all_names, img_of),
                 'synergy': f'{score:.2f}' if score is not None else None,
                 'syn_cls': syn_cls(score),
             })
@@ -334,16 +424,16 @@ def build_precon(slug):
                 'copy_btn': copy_btn(names),
                 'bigs': ''.join(big_card(imgs_global.get(n, ''), n, 110) for n in names),
                 'identity': c.get('identity', ''),
-                'produces': produces,
-                'prereq_bullets': prereq_bullets,
-                'exec_steps': exec_steps,
+                'produces': [cardify(p, all_names, img_of) for p in produces],
+                'prereq_bullets': [cardify(b, all_names, img_of) for b in prereq_bullets],
+                'exec_steps': [cardify(s, all_names, img_of) for s in exec_steps],
                 'popularity': c.get('popularity', 0),
                 'in_deck': c.get('in_deck', []),
             })
         plans.append({
             'tag': p['tag'], 'decks': p['decks'], 'tag_cls': tag_cls, 'tag_slug': tag_slug,
-            'description': bold_list(p.get('description', '') if isinstance(p.get('description'), list) else [p.get('description', '')]),
-            'win': bold_list(p.get('win', '') if isinstance(p.get('win'), list) else [p.get('win', '')]),
+            'description': [cardify(b, all_names, img_of) for b in bold_list(p.get('description', '') if isinstance(p.get('description'), list) else [p.get('description', '')])],
+            'win': [cardify(b, all_names, img_of) for b in bold_list(p.get('win', '') if isinstance(p.get('win'), list) else [p.get('win', '')])],
             'high_synergy': p.get('high_synergy', []),
             'deck_matches': p.get('deck_matches', []),
             'match_cards': match_cards,
@@ -358,7 +448,7 @@ def build_precon(slug):
     vtext = verdict.get('text', '')
     ctx['verdict'] = {
         'favored': verdict.get('favored', ''),
-        'text': bold_list(vtext if isinstance(vtext, list) else [vtext]),
+        'text': [cardify(b, all_names, img_of) for b in bold_list(vtext if isinstance(vtext, list) else [vtext])],
     }
 
     # --- structure analysis (build principles) ---
