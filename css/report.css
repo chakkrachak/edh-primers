@@ -181,6 +181,8 @@ strong { color: var(--text-strong); }
   border: 1px solid var(--border-strong);
 }
 .toc a { color: var(--accent-blue); text-decoration: none; }
+.toc li { margin: 4px 0; }
+.toc a { overflow-wrap: anywhere; }
 
 /* Modale plein écran (zoom cartes) */
 #modal {
