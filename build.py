@@ -359,8 +359,9 @@ def detect_fillers(d, role_of, oracle_get):
 
 def detect_upgrades(d):
     """Cartes manquantes pour améliorer le deck : les cartes High-Synergy des plans majeurs
-    absentes du deck + les pièces des combos potentiels absentes du deck. Les images viennent
-    de hs_imgs (fetch Scryfall au moment de la génération du JSON)."""
+    absentes du deck + les pièces des combos potentiels absentes du deck + les recommandations
+    par type (EDHREC) ≥ 0.30 synergie regroupées PAR UTILITÉ (rôle). Les images viennent de
+    hs_imgs (fetch Scryfall au moment de la génération du JSON)."""
     deck_names = set()
     for cat in d['cards'].values():
         for c in cat:
@@ -411,7 +412,30 @@ def detect_upgrades(d):
                 'popularity': cb.get('popularity', 0),
             })
 
-    return {'hs': hs_upgrades, 'combos': combo_cards}
+    # 3. Recommandations par type (EDHREC) ≥ 0.30 synergie, absentes du deck, GROUPÉES PAR
+    #    UTILITÉ (rôle assigné via l'oracle) — chaque carte garde son score de synergie.
+    from roles import assign_role, ROLE_ORDER, ROLE_TITLES
+    by_util = {r: [] for r in ROLE_ORDER}
+    for hdr, cards in d.get('type_recs', {}).items():
+        for c in cards:
+            meta = {'type_line': c.get('type_line', ''), 'produced_mana': '', 'keywords': []}
+            role = assign_role(c['name'], meta, c.get('oracle', ''),
+                               is_engine_hint=False, is_combo_piece=False)
+            by_util[role].append({
+                'name': c['name'],
+                'img': c.get('img') or hs_imgs.get(c['name'], ''),
+                'synergy': c.get('synergy'),
+                'syn_cls': syn_cls(float(c['synergy'])) if c.get('synergy') else '',
+            })
+    utility_upgrades = []
+    for role in ROLE_ORDER:
+        cards = by_util[role]
+        if not cards:
+            continue
+        cards.sort(key=lambda x: -float(x['synergy'] or 0))
+        utility_upgrades.append({'role': ROLE_TITLES[role], 'cards': cards})
+
+    return {'hs': hs_upgrades, 'combos': combo_cards, 'utility': utility_upgrades}
 
 def build_precon(slug):
     """Rend une évaluation de deck (precon) : data/precons/<slug>.json + templates/precon.html."""
@@ -519,11 +543,12 @@ def build_precon(slug):
     ctx['fillers'] = fillers
     ctx['n_fillers'] = len(fillers)
 
-    # --- upgrades : HS manquantes + pièces de combos absentes ---
+    # --- upgrades : HS manquantes + pièces de combos absentes + recs par utilité ---
     upgrades = detect_upgrades(d)
     ctx['upgrades'] = upgrades
     ctx['n_upgrades_hs'] = sum(len(p['cards']) for p in upgrades['hs'])
     ctx['n_upgrades_combos'] = len(upgrades['combos'])
+    ctx['n_upgrades_utility'] = sum(len(u['cards']) for u in upgrades['utility'])
 
     # --- plans ---
     plans = []

@@ -2825,5 +2825,85 @@
   "Soulfire Grand Master": "https://cards.scryfall.io/normal/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709",
   "Timestream Navigator": "https://cards.scryfall.io/normal/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
   "Wanderwine Prophets": "https://cards.scryfall.io/normal/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895"
+ },
+ "type_recs": {
+  "Creatures": [
+   {
+    "name": "Inquisitive Glimmer",
+    "synergy": "0.47",
+    "img": "https://cards.scryfall.io/normal/front/f/1/f1f66e3e-9f1f-4601-aa30-30b66805a5a8.jpg?1783909443",
+    "oracle": "Enchantment spells you cast cost {1} less to cast.\nUnlock costs you pay cost {1} less.",
+    "type_line": "Enchantment Creature — Fox Glimmer"
+   },
+   {
+    "name": "Entity Tracker",
+    "synergy": "0.43",
+    "img": "https://cards.scryfall.io/normal/front/a/e/ae54d697-6d06-4af1-a617-8a47a6ab9c01.jpg?1783909496",
+    "oracle": "Flash\nEerie — Whenever an enchantment you control enters and whenever you fully unlock a Room, draw a card.",
+    "type_line": "Creature — Human Scout"
+   },
+   {
+    "name": "Zur, Eternal Schemer",
+    "synergy": "0.43",
+    "img": "https://cards.scryfall.io/normal/front/4/d/4d987435-2403-4e0f-b19d-693da923ba50.jpg?1783921271",
+    "oracle": "Flying\nEnchantment creatures you control have deathtouch, lifelink, and hexproof.\n{1}{W}: Target non-Aura enchantment you control becomes a creature in addition to its other types and has base power and base toughness each equal to its mana value.",
+    "type_line": "Legendary Creature — Human Wizard"
+   },
+   {
+    "name": "Archon of Sun's Grace",
+    "synergy": "0.33",
+    "img": "https://cards.scryfall.io/normal/front/0/d/0d3af89d-d22c-45e8-9fec-170ac9bb0a34.jpg?1783903812",
+    "oracle": "Flying\nLifelink (Damage dealt by this creature also causes you to gain that much life.)\nPegasus creatures you control have lifelink.\nConstellation — Whenever an enchantment you control enters, create a 2/2 white Pegasus creature token with flying.",
+    "type_line": "Creature — Archon"
+   }
+  ],
+  "Utility Artifacts": [
+   {
+    "name": "Sensei's Divining Top",
+    "synergy": "0.36",
+    "img": "https://cards.scryfall.io/normal/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788",
+    "oracle": "",
+    "type_line": ""
+   }
+  ],
+  "Enchantments": [
+   {
+    "name": "Starfield of Nyx",
+    "synergy": "0.47",
+    "img": "https://cards.scryfall.io/normal/front/b/f/bfe4e1cb-ceee-46aa-96d1-f3f26516cd77.jpg?1783915445",
+    "oracle": "At the beginning of your upkeep, you may return target enchantment card from your graveyard to the battlefield.\nAs long as you control five or more enchantments, each other non-Aura enchantment you control is a creature in addition to its other types and has base power and base toughness each equal to its mana value.",
+    "type_line": "Enchantment"
+   },
+   {
+    "name": "Omniscience",
+    "synergy": "0.42",
+    "img": "https://cards.scryfall.io/normal/front/d/3/d33d91d0-1506-45e4-9def-975bf901815e.jpg?1783909079",
+    "oracle": "You may cast spells from your hand without paying their mana costs.",
+    "type_line": "Enchantment"
+   },
+   {
+    "name": "Mind's Dilation",
+    "synergy": "0.35",
+    "img": "https://cards.scryfall.io/normal/front/4/f/4f2980ba-2468-4a36-afdb-87e6567797a9.jpg?1783911942",
+    "oracle": "Whenever an opponent casts their first spell each turn, that player exiles the top card of their library. If it's a nonland card, you may cast it without paying its mana cost.",
+    "type_line": "Enchantment"
+   },
+   {
+    "name": "Estrid's Invocation",
+    "synergy": "0.32",
+    "img": "https://cards.scryfall.io/normal/front/8/9/8920e7e4-d89e-4ff9-8922-27fdc2f8ed6e.jpg?1783911217",
+    "oracle": "You may have this enchantment enter as a copy of an enchantment you control, except it has \"At the beginning of your upkeep, you may exile this enchantment. If you do, return it to the battlefield under its owner's control.\"",
+    "type_line": "Enchantment"
+   }
+  ],
+  "Planeswalkers": [
+   {
+    "name": "Aminatou, the Fateshifter",
+    "synergy": "0.33",
+    "img": "https://cards.scryfall.io/normal/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1783921857",
+    "oracle": "+1: Draw a card, then put a card from your hand on top of your library.\n−1: Exile another target permanent you own, then return it to the battlefield under your control.\n−6: Choose left or right. Each player gains control of all nonland permanents other than Aminatou controlled by the next player in the chosen direction.\nAminatou, the Fateshifter can be your commander.",
+    "type_line": "Legendary Planeswalker — Aminatou"
+   }
+  ]
  }
 }

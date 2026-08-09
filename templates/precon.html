@@ -14,7 +14,7 @@
 <li><a href="#s3">Deck Cards by Role ({{ n_cards }} unique)</a></li>
 <li><a href="#s4">Structure Analysis</a></li>
 <li><a href="#s5">Filler Cards ({{ n_fillers }})</a></li>
-<li><a href="#s6">Upgrades ({{ n_upgrades_hs }} + {{ n_upgrades_combos }})</a></li>
+<li><a href="#s6">Upgrades ({{ n_upgrades_hs }} + {{ n_upgrades_utility }} + {{ n_upgrades_combos }})</a></li>
 <li><a href="#s7">Verdict</a></li>
 </ol></div>
 
@@ -156,6 +156,20 @@
 <h4>{{ p.tag }} — {{ p.decks }} decks</h4>
 <div class="upgrade-grid">
 {% for c in p.cards %}
+<div class="filler-chip" title="{{ c.name|escape }}">
+<img src="{{ c.img }}" data-large="{{ c.img }}" data-name="{{ c.name|escape }}" loading="lazy" onclick="openModal(this)"/>
+<div class="cb-name">{{ c.name|escape }} {% if c.synergy %}<span class="cb-syn {{ c.syn_cls }}">syn {{ c.synergy }}</span>{% endif %}</div>
+</div>
+{% endfor %}
+</div>
+{% endfor %}
+
+<h3>🎯 Best recommendations by utility</h3>
+<p class="report-sub">The top EDHREC recommendations for this commander (synergy ≥ 0.30) that are NOT in the deck, grouped by what they do for the game plan — each with its synergy score.</p>
+{% for u in upgrades.utility %}
+<h4>{{ u.role }}</h4>
+<div class="upgrade-grid">
+{% for c in u.cards %}
 <div class="filler-chip" title="{{ c.name|escape }}">
 <img src="{{ c.img }}" data-large="{{ c.img }}" data-name="{{ c.name|escape }}" loading="lazy" onclick="openModal(this)"/>
 <div class="cb-name">{{ c.name|escape }} {% if c.synergy %}<span class="cb-syn {{ c.syn_cls }}">syn {{ c.synergy }}</span>{% endif %}</div>

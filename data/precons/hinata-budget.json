@@ -3720,5 +3720,92 @@
   "Soulfire Grand Master": "https://cards.scryfall.io/normal/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709",
   "Timestream Navigator": "https://cards.scryfall.io/normal/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
   "Wanderwine Prophets": "https://cards.scryfall.io/normal/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895"
+ },
+ "type_recs": {
+  "Creatures": [
+   {
+    "name": "Kykar, Wind's Fury",
+    "synergy": "0.43",
+    "img": "https://cards.scryfall.io/normal/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615",
+    "oracle": "",
+    "type_line": ""
+   },
+   {
+    "name": "Willbreaker",
+    "synergy": "0.31",
+    "img": "https://cards.scryfall.io/normal/front/2/4/2465eafc-453c-4e4f-b369-0951b8a4b7bf.jpg?1783938345",
+    "oracle": "Whenever a creature an opponent controls becomes the target of a spell or ability you control, gain control of that creature for as long as you control this creature.",
+    "type_line": "Creature — Human Wizard"
+   }
+  ],
+  "Instants": [
+   {
+    "name": "Mystic Confluence",
+    "synergy": "0.50",
+    "img": "https://cards.scryfall.io/normal/front/6/2/62e5d409-c0b6-4123-802d-eb32f223bd1a.jpg?1783915695",
+    "oracle": "Choose three. You may choose the same mode more than once.\n• Counter target spell unless its controller pays {3}.\n• Return target creature to its owner's hand.\n• Draw a card.",
+    "type_line": "Instant"
+   },
+   {
+    "name": "Volcanic Offering",
+    "synergy": "0.35",
+    "img": "https://cards.scryfall.io/normal/front/4/c/4c30b821-09ec-4b66-9963-f97e3ef5005c.jpg?1783934733",
+    "oracle": "Destroy target nonbasic land you don't control and target nonbasic land of an opponent's choice you don't control.\nVolcanic Offering deals 7 damage to target creature you don't control and 7 damage to target creature of an opponent's choice you don't control.",
+    "type_line": "Instant"
+   },
+   {
+    "name": "Gridlock",
+    "synergy": "0.31",
+    "img": "https://cards.scryfall.io/normal/front/b/4/b4f5c126-3df9-4771-9e74-4ca33161ac08.jpg?1783940138",
+    "oracle": "Tap X target nonland permanents.",
+    "type_line": "Instant"
+   }
+  ],
+  "Sorceries": [
+   {
+    "name": "By Force",
+    "synergy": "0.51",
+    "img": "https://cards.scryfall.io/normal/front/6/6/66cdfdb2-b47f-446d-9850-8581bd1d806c.jpg?1783936492",
+    "oracle": "Destroy X target artifacts.",
+    "type_line": "Sorcery"
+   },
+   {
+    "name": "Red Sun's Twilight",
+    "synergy": "0.48",
+    "img": "https://cards.scryfall.io/normal/front/7/c/7cac1827-69af-469d-b88c-fb9f2f33866a.jpg?1783918024",
+    "oracle": "Destroy up to X target artifacts. If X is 5 or more, for each artifact destroyed this way, create a token that's a copy of it. Those tokens gain haste. Exile them at the beginning of the next end step.",
+    "type_line": "Sorcery"
+   },
+   {
+    "name": "Soulfire Eruption",
+    "synergy": "0.44",
+    "img": "https://cards.scryfall.io/normal/front/2/d/2def4384-7175-4a26-a5a0-8f2c5b5ad71c.jpg?1783928807",
+    "oracle": "Choose any number of target creatures, planeswalkers, and/or players. For each of them, exile the top card of your library, then Soulfire Eruption deals damage equal to that card's mana value to that permanent or player. You may play the exiled cards until the end of your next turn.",
+    "type_line": "Sorcery"
+   },
+   {
+    "name": "Mass Manipulation",
+    "synergy": "0.39",
+    "img": "https://cards.scryfall.io/normal/front/7/8/782760d7-59cc-4d40-a885-6a7980094fee.jpg?1783933708",
+    "oracle": "Gain control of X target creatures and/or planeswalkers.",
+    "type_line": "Sorcery"
+   },
+   {
+    "name": "Meteor Blast",
+    "synergy": "0.32",
+    "img": "https://cards.scryfall.io/normal/front/d/e/de18b9ff-9847-4347-a02f-391470332f6e.jpg?1783934738",
+    "oracle": "Meteor Blast deals 4 damage to each of X targets.",
+    "type_line": "Sorcery"
+   }
+  ],
+  "Enchantments": [
+   {
+    "name": "Shark Typhoon",
+    "synergy": "0.36",
+    "img": "https://cards.scryfall.io/normal/front/2/b/2b2accb1-d77b-4633-9d0c-b972d9c014bb.jpg?1783909622",
+    "oracle": "",
+    "type_line": ""
+   }
+  ]
  }
 }
