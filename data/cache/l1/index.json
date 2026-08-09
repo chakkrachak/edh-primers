@@ -1,0 +1,22 @@
+{
+ "ed69f5055d780ce4": {
+  "source": "edhrec",
+  "fetched_at": 1786308141,
+  "ttl_days": 7
+ },
+ "6e4c2cdd87c9fffe": {
+  "source": "edhrec",
+  "fetched_at": 1786308142,
+  "ttl_days": 7
+ },
+ "2a15bcb13672fd72": {
+  "source": "moxfield",
+  "fetched_at": 1786308189,
+  "ttl_days": 30
+ },
+ "59f459bcbcd30ee2": {
+  "source": "spellbook",
+  "fetched_at": 1786308222,
+  "ttl_days": 7
+ }
+}
