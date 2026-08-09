@@ -1,37 +1,457 @@
 {
- "ed69f5055d780ce4": {
+ "12bb15e53f25e15e": {
+  "source": "scryfall",
+  "fetched_at": 1786317272,
+  "ttl_days": 30
+ },
+ "01fdcc2182ca173f": {
+  "source": "scryfall",
+  "fetched_at": 1786317275,
+  "ttl_days": 30
+ },
+ "e525c0df38a03771": {
+  "source": "scryfall",
+  "fetched_at": 1786317279,
+  "ttl_days": 30
+ },
+ "62710a5c0ae62357": {
+  "source": "scryfall",
+  "fetched_at": 1786317281,
+  "ttl_days": 30
+ },
+ "ea1f5be5a5c71ecf": {
+  "source": "scryfall",
+  "fetched_at": 1786317283,
+  "ttl_days": 30
+ },
+ "5dac29f7e306968a": {
+  "source": "scryfall",
+  "fetched_at": 1786317286,
+  "ttl_days": 30
+ },
+ "0cd047a54c4e3705": {
+  "source": "scryfall",
+  "fetched_at": 1786317288,
+  "ttl_days": 30
+ },
+ "72b6a1eacc52b090": {
+  "source": "scryfall",
+  "fetched_at": 1786317290,
+  "ttl_days": 30
+ },
+ "3a6e36544ade5d4b": {
+  "source": "scryfall",
+  "fetched_at": 1786317293,
+  "ttl_days": 30
+ },
+ "da4b53fc48335f37": {
+  "source": "scryfall",
+  "fetched_at": 1786317295,
+  "ttl_days": 30
+ },
+ "f7a57939819eea78": {
+  "source": "scryfall",
+  "fetched_at": 1786317298,
+  "ttl_days": 30
+ },
+ "e77b4bf749d1eb87": {
+  "source": "scryfall",
+  "fetched_at": 1786317301,
+  "ttl_days": 30
+ },
+ "e676f7ce0e43ef3d": {
+  "source": "scryfall",
+  "fetched_at": 1786317303,
+  "ttl_days": 30
+ },
+ "c8f61daca8ec3057": {
+  "source": "scryfall",
+  "fetched_at": 1786317305,
+  "ttl_days": 30
+ },
+ "b4cc81c880bf1e02": {
+  "source": "scryfall",
+  "fetched_at": 1786317309,
+  "ttl_days": 30
+ },
+ "a76da09c9e60d376": {
+  "source": "scryfall",
+  "fetched_at": 1786317311,
+  "ttl_days": 30
+ },
+ "bd8d6f2ee5c8b1cc": {
+  "source": "scryfall",
+  "fetched_at": 1786317313,
+  "ttl_days": 30
+ },
+ "4869074b1c70f829": {
+  "source": "scryfall",
+  "fetched_at": 1786317316,
+  "ttl_days": 30
+ },
+ "c5ffed7c7ddbe596": {
+  "source": "scryfall",
+  "fetched_at": 1786317318,
+  "ttl_days": 30
+ },
+ "0289931ceb09ab28": {
+  "source": "scryfall",
+  "fetched_at": 1786317323,
+  "ttl_days": 30
+ },
+ "04c5c4ae8ac7cbc3": {
+  "source": "scryfall",
+  "fetched_at": 1786317325,
+  "ttl_days": 30
+ },
+ "ef9b631361fbaefa": {
+  "source": "scryfall",
+  "fetched_at": 1786317328,
+  "ttl_days": 30
+ },
+ "52cff2feef1860fd": {
+  "source": "scryfall",
+  "fetched_at": 1786317331,
+  "ttl_days": 30
+ },
+ "3d6514e98be1dfd4": {
+  "source": "scryfall",
+  "fetched_at": 1786317333,
+  "ttl_days": 30
+ },
+ "49e25930fb068f78": {
+  "source": "scryfall",
+  "fetched_at": 1786317336,
+  "ttl_days": 30
+ },
+ "9de80566fc136d34": {
+  "source": "scryfall",
+  "fetched_at": 1786317339,
+  "ttl_days": 30
+ },
+ "0c361bf08649f991": {
+  "source": "scryfall",
+  "fetched_at": 1786317342,
+  "ttl_days": 30
+ },
+ "e98d27cd88758fba": {
+  "source": "scryfall",
+  "fetched_at": 1786317345,
+  "ttl_days": 30
+ },
+ "cd3dbbb54b2da9ff": {
+  "source": "scryfall",
+  "fetched_at": 1786317347,
+  "ttl_days": 30
+ },
+ "d28379f5d6e42c89": {
+  "source": "scryfall",
+  "fetched_at": 1786317349,
+  "ttl_days": 30
+ },
+ "b8ba9022873d9f2a": {
+  "source": "scryfall",
+  "fetched_at": 1786317351,
+  "ttl_days": 30
+ },
+ "784603c807f4b554": {
+  "source": "scryfall",
+  "fetched_at": 1786317352,
+  "ttl_days": 30
+ },
+ "e3e9854df63bf00a": {
+  "source": "scryfall",
+  "fetched_at": 1786317353,
+  "ttl_days": 30
+ },
+ "3ee09b43eb94abc1": {
+  "source": "scryfall",
+  "fetched_at": 1786317353,
+  "ttl_days": 30
+ },
+ "0e8ce07354d3e2ac": {
+  "source": "scryfall",
+  "fetched_at": 1786317353,
+  "ttl_days": 30
+ },
+ "6942706eceffc766": {
+  "source": "scryfall",
+  "fetched_at": 1786317354,
+  "ttl_days": 30
+ },
+ "57166e7b083f8044": {
+  "source": "scryfall",
+  "fetched_at": 1786317354,
+  "ttl_days": 30
+ },
+ "e9851dca7b4326da": {
+  "source": "scryfall",
+  "fetched_at": 1786317354,
+  "ttl_days": 30
+ },
+ "9665177dbdeea76f": {
+  "source": "scryfall",
+  "fetched_at": 1786317355,
+  "ttl_days": 30
+ },
+ "57d6d2dd9f4d12ee": {
+  "source": "scryfall",
+  "fetched_at": 1786317355,
+  "ttl_days": 30
+ },
+ "b8ebdd9962d12c90": {
+  "source": "scryfall",
+  "fetched_at": 1786317355,
+  "ttl_days": 30
+ },
+ "a8198b61f49dd9fb": {
+  "source": "scryfall",
+  "fetched_at": 1786317355,
+  "ttl_days": 30
+ },
+ "fdfbabca4444fbfe": {
+  "source": "scryfall",
+  "fetched_at": 1786317356,
+  "ttl_days": 30
+ },
+ "a25a1f99e7c41757": {
+  "source": "scryfall",
+  "fetched_at": 1786317356,
+  "ttl_days": 30
+ },
+ "5032bb6550a0b747": {
+  "source": "scryfall",
+  "fetched_at": 1786317356,
+  "ttl_days": 30
+ },
+ "aabe4a169dabda22": {
+  "source": "scryfall",
+  "fetched_at": 1786317357,
+  "ttl_days": 30
+ },
+ "c32adfe7c619e81f": {
+  "source": "scryfall",
+  "fetched_at": 1786317357,
+  "ttl_days": 30
+ },
+ "254c7ebeafdf397c": {
+  "source": "scryfall",
+  "fetched_at": 1786317357,
+  "ttl_days": 30
+ },
+ "423cfd4a722940cb": {
+  "source": "scryfall",
+  "fetched_at": 1786317357,
+  "ttl_days": 30
+ },
+ "a3b93a3e997303c3": {
+  "source": "scryfall",
+  "fetched_at": 1786317358,
+  "ttl_days": 30
+ },
+ "fbfb0faa0ecac2f8": {
+  "source": "scryfall",
+  "fetched_at": 1786317358,
+  "ttl_days": 30
+ },
+ "78c2302e70d54db3": {
   "source": "edhrec",
-  "fetched_at": 1786308141,
+  "fetched_at": 1786317371,
   "ttl_days": 7
  },
- "6e4c2cdd87c9fffe": {
+ "016e5a0675008952": {
   "source": "edhrec",
-  "fetched_at": 1786308142,
+  "fetched_at": 1786317372,
+  "ttl_days": 7
+ },
+ "e04ae8bdc58ae084": {
+  "source": "edhrec",
+  "fetched_at": 1786317373,
+  "ttl_days": 7
+ },
+ "25faefc7213b76ef": {
+  "source": "edhrec",
+  "fetched_at": 1786317374,
+  "ttl_days": 7
+ },
+ "ed69f5055d780ce4": {
+  "source": "edhrec",
+  "fetched_at": 1786317375,
+  "ttl_days": 7
+ },
+ "19bf0b24a7db0991": {
+  "source": "edhrec",
+  "fetched_at": 1786317376,
+  "ttl_days": 7
+ },
+ "9e31f6d64f0ee56b": {
+  "source": "edhrec",
+  "fetched_at": 1786317377,
+  "ttl_days": 7
+ },
+ "82dea42b409142bb": {
+  "source": "edhrec",
+  "fetched_at": 1786317378,
+  "ttl_days": 7
+ },
+ "154ea442973a3f90": {
+  "source": "edhrec",
+  "fetched_at": 1786317379,
+  "ttl_days": 7
+ },
+ "5a887666eeab3bcc": {
+  "source": "edhrec",
+  "fetched_at": 1786317380,
+  "ttl_days": 7
+ },
+ "7a9d312a3ef30668": {
+  "source": "edhrec",
+  "fetched_at": 1786317381,
+  "ttl_days": 7
+ },
+ "e070d233f5744d3d": {
+  "source": "edhrec",
+  "fetched_at": 1786317382,
+  "ttl_days": 7
+ },
+ "6458746a25c79572": {
+  "source": "edhrec",
+  "fetched_at": 1786317383,
+  "ttl_days": 7
+ },
+ "8cbba2986645fae2": {
+  "source": "spellbook",
+  "fetched_at": 1786317383,
+  "ttl_days": 7
+ },
+ "0821d1a46124a572": {
+  "source": "spellbook",
+  "fetched_at": 1786317385,
+  "ttl_days": 7
+ },
+ "82cc7955b03ed9da": {
+  "source": "spellbook",
+  "fetched_at": 1786317385,
+  "ttl_days": 7
+ },
+ "0cf2f57ae986c8d4": {
+  "source": "spellbook",
+  "fetched_at": 1786317386,
+  "ttl_days": 7
+ },
+ "f24f12b7483a6d74": {
+  "source": "spellbook",
+  "fetched_at": 1786317387,
+  "ttl_days": 7
+ },
+ "9bd332ba85d2dd50": {
+  "source": "spellbook",
+  "fetched_at": 1786317388,
+  "ttl_days": 7
+ },
+ "630019a9ffbacc45": {
+  "source": "spellbook",
+  "fetched_at": 1786317388,
+  "ttl_days": 7
+ },
+ "987a89c399eac5f8": {
+  "source": "spellbook",
+  "fetched_at": 1786317389,
+  "ttl_days": 7
+ },
+ "e35b02dddfbbb4e8": {
+  "source": "spellbook",
+  "fetched_at": 1786317390,
+  "ttl_days": 7
+ },
+ "1f335a09d0684f2f": {
+  "source": "spellbook",
+  "fetched_at": 1786317391,
+  "ttl_days": 7
+ },
+ "4828ca91ca5c446b": {
+  "source": "spellbook",
+  "fetched_at": 1786317392,
+  "ttl_days": 7
+ },
+ "13c58d67645686df": {
+  "source": "spellbook",
+  "fetched_at": 1786317392,
+  "ttl_days": 7
+ },
+ "949f7e57b632ddb4": {
+  "source": "spellbook",
+  "fetched_at": 1786317393,
   "ttl_days": 7
  },
  "2a15bcb13672fd72": {
   "source": "moxfield",
-  "fetched_at": 1786308189,
+  "fetched_at": 1786317404,
   "ttl_days": 30
  },
- "59f459bcbcd30ee2": {
-  "source": "spellbook",
-  "fetched_at": 1786308222,
-  "ttl_days": 7
- },
- "7d54246e8ed4cd58": {
-  "source": "scryfall",
-  "fetched_at": 1786314763,
-  "ttl_days": 30
- },
- "9c623c1d9e214fd5": {
+ "6e4c2cdd87c9fffe": {
   "source": "edhrec",
-  "fetched_at": 1786314764,
+  "fetched_at": 1786317405,
   "ttl_days": 7
  },
- "49d0a8401f61355f": {
-  "source": "spellbook",
-  "fetched_at": 1786314765,
+ "b9f46b16a519cfd2": {
+  "source": "edhrec",
+  "fetched_at": 1786317407,
+  "ttl_days": 7
+ },
+ "0fd79127fe1e3609": {
+  "source": "edhrec",
+  "fetched_at": 1786317408,
+  "ttl_days": 7
+ },
+ "02208bf43a79a5e8": {
+  "source": "edhrec",
+  "fetched_at": 1786317410,
+  "ttl_days": 7
+ },
+ "1342dcda5ffc21d8": {
+  "source": "edhrec",
+  "fetched_at": 1786317412,
+  "ttl_days": 7
+ },
+ "8ac15b85fb2a6a2b": {
+  "source": "edhrec",
+  "fetched_at": 1786317413,
+  "ttl_days": 7
+ },
+ "170b3f179e43cae5": {
+  "source": "edhrec",
+  "fetched_at": 1786317415,
+  "ttl_days": 7
+ },
+ "35744eb6fd0d5bfa": {
+  "source": "edhrec",
+  "fetched_at": 1786317416,
+  "ttl_days": 7
+ },
+ "a04a3d6eaba489f0": {
+  "source": "edhrec",
+  "fetched_at": 1786317417,
+  "ttl_days": 7
+ },
+ "6fd1e419b2774b88": {
+  "source": "edhrec",
+  "fetched_at": 1786317419,
+  "ttl_days": 7
+ },
+ "75f16680a044db2c": {
+  "source": "edhrec",
+  "fetched_at": 1786317420,
+  "ttl_days": 7
+ },
+ "915eabe85be2f375": {
+  "source": "edhrec",
+  "fetched_at": 1786317421,
+  "ttl_days": 7
+ },
+ "dcf4b605794065c6": {
+  "source": "edhrec",
+  "fetched_at": 1786317422,
   "ttl_days": 7
  }
 }

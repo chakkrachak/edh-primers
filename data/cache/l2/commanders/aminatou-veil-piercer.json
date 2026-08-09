@@ -2756,6 +2756,89 @@
    }
   ]
  },
+ "card_plan_texts": {
+  "Brainstorm": {
+   "Topdeck": "**Topdeck setup** : draws 3, puts 2 back — the miracles and your best topdeck hits are exactly where you want them.",
+   "Control": "**Card selection** : digs for answers and hides cards from discard — the control plan's cheap instant-speed selection.",
+   "Combo": "**Combo dig** : finds the missing piece and tucks the redundant cards back on top for the next draw."
+  },
+  "Demon of Fate's Design": {
+   "Enchantress": "**Constellation beater** : grows with each enchantment you cast and exiles graveyards — engine AND hatebear.",
+   "Topdeck": "**Topdeck threat** : a flying demon that punishes graveyards while the topdeck engine feeds it enchantments.",
+   "Tokens": "**Token carrier** : flies over the token board and keeps growing — the flying finisher the token plan lacks."
+  },
+  "Extravagant Replication": {
+   "Enchantress": "**Enchantment doubler** : copies your best enchantment each upkeep — doubles the enchantress draw engine itself.",
+   "Topdeck": "**Copy engine** : duplicates your topdeck payoff (One with the Multiverse) or your best enchantment every turn.",
+   "Control": "**Value engine** : a free copy of your best permanent each upkeep — the control plan's grind machine.",
+   "Pillow Fort": "**Fort doubler** : copies Sphere of Safety or your best defensive enchantment — the pillow fort gets thicker every turn.",
+   "Tokens": "**Token factory** : copies Sigil of the Empty Throne — double the Angels on every enchantment cast."
+  },
+  "Hall of Heliod's Generosity": {
+   "Enchantress": "**Enchantment recursion** : puts a dead enchantment back on top — the enchantress engine never runs out of fuel.",
+   "Topdeck": "**Miracle enabler** : a land that sets up your topdeck — put the miracle on top every single turn.",
+   "Control": "**Grind land** : recycles your spent answers — the control plan's late-game card advantage from a land.",
+   "Pillow Fort": "**Fort recursion** : brings back your defensive enchantments — the fort rebuilds after a wipe.",
+   "Tokens": "**Token recursion** : recycles Sigil of the Empty Throne — the Angel factory keeps producing.",
+   "Combo": "**Combo piece** : puts the enchantment piece of your loop back on top — recursion for the win line."
+  },
+  "Mesa Enchantress": {
+   "Enchantress": "**The engine card** : draw a card whenever you cast an enchantment — THE engine of the plan, every enchantment cantrips.",
+   "Control": "**Card advantage** : each defensive enchantment also draws — the control plan's incidental gas.",
+   "Pillow Fort": "**Fort fuel** : every pillow-fort piece you drop replaces itself — build the wall while drawing cards.",
+   "Combo": "**Combo draw** : each enchantment piece of the loop cantrips — dig toward the win line."
+  },
+  "Moon-Blessed Cleric": {
+   "Topdeck": "**Topdeck tutor** : searches any enchantment — finds your best topdeck payoff or miracle setup piece.",
+   "Control": "**Answer tutor** : fetches the exact enchantment answer the board demands — the toolbox piece of control.",
+   "Pillow Fort": "**Fort tutor** : finds Sphere of Safety or your best defensive enchantment — the wall you need, on demand.",
+   "Combo": "**Combo tutor** : grabs the enchantment piece of your loop — the consistency engine for the win line."
+  },
+  "Ondu Spiritdancer": {
+   "Pillow Fort": "**Aura engine** : draws on every Aura and copies it — the fort's Aura-based defenses double and cantrip.",
+   "Tokens": "**Aura doubler** : copies your Aura tokens — each enchantment token becomes two, and each one draws.",
+   "Combo": "**Aura loop** : copies the Aura piece of your combo — duplication toward the win line."
+  },
+  "One with the Multiverse": {
+   "Enchantress": "**Enchantment payoff** : play from the top of your library and copy triggers — the ultimate enchantress top.",
+   "Topdeck": "**THE topdeck engine** : play from the top and get a free copy trigger — the plan's crown jewel.",
+   "Control": "**Value engine** : every spell from the top is card advantage — the control plan's late-game machine.",
+   "Pillow Fort": "**Fort fuel** : plays your defensive enchantments from the top — the wall builds itself.",
+   "Tokens": "**Token amplifier** : copies your token-makers' triggers — double the Angels and Sharks.",
+   "Combo": "**Combo engine** : casts combo pieces from the top and copies the key trigger — consistency and redundancy."
+  },
+  "Redress Fate": {
+   "Enchantress": "**Enchantment recursion** : returns one from the graveyard and creates a token copy — recursion + doubling in one.",
+   "Topdeck": "**Topdeck recursion** : recycles your spent topdeck pieces and doubles them — the engine stays fed.",
+   "Control": "**Grind card** : brings back an answer and copies it — two-for-one for the control plan.",
+   "Pillow Fort": "**Fort recursion** : returns and copies a defensive enchantment — the wall doubles.",
+   "Tokens": "**Token doubler** : copies Sigil of the Empty Throne — double the Angel production.",
+   "Combo": "**Combo recursion** : retrieves and copies the enchantment piece of your loop — the line re-fires."
+  },
+  "Shark Typhoon": {
+   "Enchantress": "**Cycling payoff** : every noncreature spell creates a flying Shark — the enchantress board grows on its own.",
+   "Topdeck": "**Topdeck threat** : cycling from the top makes a huge Shark — instant-speed board presence.",
+   "Control": "**Instant threat** : on your opponent's turn, every spell becomes a flying blocker/beater — control's surprise finish.",
+   "Pillow Fort": "**Fort defense** : Sharks chump-block anything — the wall that fights back.",
+   "Tokens": "**Token maker** : every noncreature spell = a flying Shark token — the plan's second army.",
+   "Combo": "**Combo payoff** : each piece of the loop makes a Shark — incidental lethal while you combo."
+  },
+  "Sigil of the Empty Throne": {
+   "Enchantress": "**Angel factory** : a 4/4 Angel for every enchantment you cast — the enchantress plan's token army.",
+   "Topdeck": "**Topdeck payoff** : enchantments played from the top still make Angels — the engine doubles as a win condition.",
+   "Control": "**Clock** : each defensive enchantment also builds a flying army — the control plan's inevitable win.",
+   "Pillow Fort": "**Fort army** : every wall piece summons an Angel — the fort fights back.",
+   "Tokens": "**THE token maker** : the plan's core — one Angel per enchantment, the army of the deck."
+  },
+  "Sphere of Safety": {
+   "Enchantress": "**Fort wall** : attackers pay {1} per enchantment you control — with the enchantress engine wide open, attacking is unaffordable.",
+   "Topdeck": "**Tax layer** : your topdeck enchantments all contribute — the table must pay to get through.",
+   "Control": "**Time engine** : the pillow-fort wall that makes the table look elsewhere — the control plan's best friend.",
+   "Pillow Fort": "**THE pillow-fort card** : the definitive tax wall of the plan — every enchantment stacks the toll.",
+   "Tokens": "**Board shield** : protects your token army — attackers pay through the wall to reach the Angels.",
+   "Combo": "**Combo protection** : while you assemble the loop, the wall buys you all the time in the world."
+  }
+ },
  "content": {
   "eval": {
    "cards": {
@@ -3456,89 +3539,6 @@
      "**Upgrade path**: cut the weakest 5-6 mana engines for 2-3 rocks/cantrips at 2-3 mana and 2-3 dedicated finishers — bring the curve under 3.5 while keeping the enchantress core."
     ]
    }
-  }
- },
- "card_plan_texts": {
-  "Brainstorm": {
-   "Topdeck": "**Topdeck setup** : draws 3, puts 2 back — the miracles and your best topdeck hits are exactly where you want them.",
-   "Control": "**Card selection** : digs for answers and hides cards from discard — the control plan's cheap instant-speed selection.",
-   "Combo": "**Combo dig** : finds the missing piece and tucks the redundant cards back on top for the next draw."
-  },
-  "Demon of Fate's Design": {
-   "Enchantress": "**Constellation beater** : grows with each enchantment you cast and exiles graveyards — engine AND hatebear.",
-   "Topdeck": "**Topdeck threat** : a flying demon that punishes graveyards while the topdeck engine feeds it enchantments.",
-   "Tokens": "**Token carrier** : flies over the token board and keeps growing — the flying finisher the token plan lacks."
-  },
-  "Extravagant Replication": {
-   "Enchantress": "**Enchantment doubler** : copies your best enchantment each upkeep — doubles the enchantress draw engine itself.",
-   "Topdeck": "**Copy engine** : duplicates your topdeck payoff (One with the Multiverse) or your best enchantment every turn.",
-   "Control": "**Value engine** : a free copy of your best permanent each upkeep — the control plan's grind machine.",
-   "Pillow Fort": "**Fort doubler** : copies Sphere of Safety or your best defensive enchantment — the pillow fort gets thicker every turn.",
-   "Tokens": "**Token factory** : copies Sigil of the Empty Throne — double the Angels on every enchantment cast."
-  },
-  "Hall of Heliod's Generosity": {
-   "Enchantress": "**Enchantment recursion** : puts a dead enchantment back on top — the enchantress engine never runs out of fuel.",
-   "Topdeck": "**Miracle enabler** : a land that sets up your topdeck — put the miracle on top every single turn.",
-   "Control": "**Grind land** : recycles your spent answers — the control plan's late-game card advantage from a land.",
-   "Pillow Fort": "**Fort recursion** : brings back your defensive enchantments — the fort rebuilds after a wipe.",
-   "Tokens": "**Token recursion** : recycles Sigil of the Empty Throne — the Angel factory keeps producing.",
-   "Combo": "**Combo piece** : puts the enchantment piece of your loop back on top — recursion for the win line."
-  },
-  "Mesa Enchantress": {
-   "Enchantress": "**The engine card** : draw a card whenever you cast an enchantment — THE engine of the plan, every enchantment cantrips.",
-   "Control": "**Card advantage** : each defensive enchantment also draws — the control plan's incidental gas.",
-   "Pillow Fort": "**Fort fuel** : every pillow-fort piece you drop replaces itself — build the wall while drawing cards.",
-   "Combo": "**Combo draw** : each enchantment piece of the loop cantrips — dig toward the win line."
-  },
-  "Moon-Blessed Cleric": {
-   "Topdeck": "**Topdeck tutor** : searches any enchantment — finds your best topdeck payoff or miracle setup piece.",
-   "Control": "**Answer tutor** : fetches the exact enchantment answer the board demands — the toolbox piece of control.",
-   "Pillow Fort": "**Fort tutor** : finds Sphere of Safety or your best defensive enchantment — the wall you need, on demand.",
-   "Combo": "**Combo tutor** : grabs the enchantment piece of your loop — the consistency engine for the win line."
-  },
-  "Ondu Spiritdancer": {
-   "Pillow Fort": "**Aura engine** : draws on every Aura and copies it — the fort's Aura-based defenses double and cantrip.",
-   "Tokens": "**Aura doubler** : copies your Aura tokens — each enchantment token becomes two, and each one draws.",
-   "Combo": "**Aura loop** : copies the Aura piece of your combo — duplication toward the win line."
-  },
-  "One with the Multiverse": {
-   "Enchantress": "**Enchantment payoff** : play from the top of your library and copy triggers — the ultimate enchantress top.",
-   "Topdeck": "**THE topdeck engine** : play from the top and get a free copy trigger — the plan's crown jewel.",
-   "Control": "**Value engine** : every spell from the top is card advantage — the control plan's late-game machine.",
-   "Pillow Fort": "**Fort fuel** : plays your defensive enchantments from the top — the wall builds itself.",
-   "Tokens": "**Token amplifier** : copies your token-makers' triggers — double the Angels and Sharks.",
-   "Combo": "**Combo engine** : casts combo pieces from the top and copies the key trigger — consistency and redundancy."
-  },
-  "Redress Fate": {
-   "Enchantress": "**Enchantment recursion** : returns one from the graveyard and creates a token copy — recursion + doubling in one.",
-   "Topdeck": "**Topdeck recursion** : recycles your spent topdeck pieces and doubles them — the engine stays fed.",
-   "Control": "**Grind card** : brings back an answer and copies it — two-for-one for the control plan.",
-   "Pillow Fort": "**Fort recursion** : returns and copies a defensive enchantment — the wall doubles.",
-   "Tokens": "**Token doubler** : copies Sigil of the Empty Throne — double the Angel production.",
-   "Combo": "**Combo recursion** : retrieves and copies the enchantment piece of your loop — the line re-fires."
-  },
-  "Shark Typhoon": {
-   "Enchantress": "**Cycling payoff** : every noncreature spell creates a flying Shark — the enchantress board grows on its own.",
-   "Topdeck": "**Topdeck threat** : cycling from the top makes a huge Shark — instant-speed board presence.",
-   "Control": "**Instant threat** : on your opponent's turn, every spell becomes a flying blocker/beater — control's surprise finish.",
-   "Pillow Fort": "**Fort defense** : Sharks chump-block anything — the wall that fights back.",
-   "Tokens": "**Token maker** : every noncreature spell = a flying Shark token — the plan's second army.",
-   "Combo": "**Combo payoff** : each piece of the loop makes a Shark — incidental lethal while you combo."
-  },
-  "Sigil of the Empty Throne": {
-   "Enchantress": "**Angel factory** : a 4/4 Angel for every enchantment you cast — the enchantress plan's token army.",
-   "Topdeck": "**Topdeck payoff** : enchantments played from the top still make Angels — the engine doubles as a win condition.",
-   "Control": "**Clock** : each defensive enchantment also builds a flying army — the control plan's inevitable win.",
-   "Pillow Fort": "**Fort army** : every wall piece summons an Angel — the fort fights back.",
-   "Tokens": "**THE token maker** : the plan's core — one Angel per enchantment, the army of the deck."
-  },
-  "Sphere of Safety": {
-   "Enchantress": "**Fort wall** : attackers pay {1} per enchantment you control — with the enchantress engine wide open, attacking is unaffordable.",
-   "Topdeck": "**Tax layer** : your topdeck enchantments all contribute — the table must pay to get through.",
-   "Control": "**Time engine** : the pillow-fort wall that makes the table look elsewhere — the control plan's best friend.",
-   "Pillow Fort": "**THE pillow-fort card** : the definitive tax wall of the plan — every enchantment stacks the toll.",
-   "Tokens": "**Board shield** : protects your token army — attackers pay through the wall to reach the Angels.",
-   "Combo": "**Combo protection** : while you assemble the loop, the wall buys you all the time in the world."
   }
  }
 }
