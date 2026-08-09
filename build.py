@@ -72,7 +72,6 @@ def build_one(slug):
         'quick_read': bold_list(d['quick_read'] if isinstance(d['quick_read'], list) else [d['quick_read']]),
         'plan_html': d['plan_html'],
         'source_html': d['source_html'],
-        'plan_bigs': ''.join(big_card(d['imgs'].get(n, ''), n, 185) for n in d['plan_cards']),
         'combos_note': d['combos_note'],
         'gen_date': datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
     }
