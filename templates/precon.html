@@ -73,13 +73,13 @@
 <div class="meta">{% if c.in_deck %}in the precon: {{ c.in_deck|join(', ') }}{% else %}upgrade cards{% endif %}{% if c.identity %} · Identity {{ c.identity|escape }}{% endif %} · Popularity: {{ c.popularity }} decks</div>
 <div class="center">{{ c.bigs|safe }}</div>
 {% if c.produces %}
-<div class="result"><strong>Produces</strong>:<ul>{% for p2 in c.produces %}<li>{{ p2|escape }}</li>{% endfor %}</ul></div>
+<div class="result"><strong>Produces</strong>:<ul>{% for p2 in c.produces %}<li>{{ p2|safe }}</li>{% endfor %}</ul></div>
 {% endif %}
 {% if c.prereq_bullets %}
-<div class="step"><strong>Prerequisites</strong>:<ul>{% for b in c.prereq_bullets %}<li>{{ b|escape|mana }}</li>{% endfor %}</ul></div>
+<div class="step"><strong>Prerequisites</strong>:<ul>{% for b in c.prereq_bullets %}<li>{{ b|safe|mana }}</li>{% endfor %}</ul></div>
 {% endif %}
 {% if c.exec_steps %}
-<div class="step"><strong>Execution</strong>:<ul>{% for s in c.exec_steps %}<li>{{ s|escape|mana }}</li>{% endfor %}</ul></div>
+<div class="step"><strong>Execution</strong>:<ul>{% for s in c.exec_steps %}<li>{{ s|safe|mana }}</li>{% endfor %}</ul></div>
 {% endif %}
 </div>
 {% endfor %}

@@ -63,13 +63,13 @@
 <div class="meta">Identity {{ combo.identity|escape }} · Popularity: {{ combo.popularity }} decks</div>
 <div class="center">{{ combo.bigs|safe }}</div>
 {% if combo.produces %}
-<div class="result"><strong>Produces</strong>:<ul>{% for p in combo.produces %}<li>{{ p|escape }}</li>{% endfor %}</ul></div>
+<div class="result"><strong>Produces</strong>:<ul>{% for p in combo.produces %}<li>{{ p|safe }}</li>{% endfor %}</ul></div>
 {% endif %}
 {% if combo.prereq_bullets %}
-<div class="step"><strong>Prerequisites</strong>:<ul>{% for b in combo.prereq_bullets %}<li>{{ b|escape|mana }}</li>{% endfor %}</ul></div>
+<div class="step"><strong>Prerequisites</strong>:<ul>{% for b in combo.prereq_bullets %}<li>{{ b|safe|mana }}</li>{% endfor %}</ul></div>
 {% endif %}
 {% if combo.exec_steps %}
-<div class="step"><strong>Execution</strong>:<ul>{% for s in combo.exec_steps %}<li>{{ s|escape|mana }}</li>{% endfor %}</ul></div>
+<div class="step"><strong>Execution</strong>:<ul>{% for s in combo.exec_steps %}<li>{{ s|safe|mana }}</li>{% endfor %}</ul></div>
 {% endif %}
 </div>
 {% endfor %}
