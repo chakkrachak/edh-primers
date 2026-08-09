@@ -1,0 +1,4160 @@
+{
+ "schema_version": 1,
+ "reconciled_at": "2026-08-09",
+ "commander": {
+  "name": "Hinata, Dawn-Crowned",
+  "slug": "hinata-dawn-crowned",
+  "mana_cost": "{1}{U}{R}{W}",
+  "type_line": "Legendary Creature — Kirin Spirit",
+  "color_id": "",
+  "power": "4",
+  "toughness": "4",
+  "rarity": "rare",
+  "legality": "legal",
+  "set_name": "Kamigawa: Neon Dynasty",
+  "img": "https://cards.scryfall.io/normal/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+  "oracle": "Flying, trample\nSpells you cast cost {1} less to cast for each target.\nSpells your opponents cast cost {1} more to cast for each target.",
+  "keywords": []
+ },
+ "imgs": {
+  "Guttersnipe": "https://cards.scryfall.io/normal/front/f/6/f6bb1ffc-2251-4655-b8f9-4c8047dd5d5f.jpg?1785497556",
+  "Release the Gremlins": "https://cards.scryfall.io/normal/front/d/4/d4ba75be-2428-45aa-bf02-75c379a5dfa2.jpg?1783936750",
+  "Rewind": "https://cards.scryfall.io/normal/front/b/8/b832abcc-9ffd-47bf-827a-01b303c610ee.jpg?1783930724",
+  "Opportunity": "https://cards.scryfall.io/normal/front/4/9/49233196-82e4-44c4-86f0-6eb2db7293a3.jpg?1783934832",
+  "Jace's Sanctum": "https://cards.scryfall.io/normal/front/8/1/8148adc6-7946-4abd-8601-b1f4cd6916c2.jpg?1783932779",
+  "Oona's Grace": "https://cards.scryfall.io/normal/front/e/2/e2128105-de04-4f51-81c7-37f30cf324d4.jpg?1783932778",
+  "Shreds of Sanity": "https://cards.scryfall.io/normal/front/7/8/782e5600-ac63-4f90-acbe-49c04d2840ee.jpg?1783937454",
+  "Terramorphic Expanse": "https://cards.scryfall.io/normal/front/a/8/a81f924b-0527-4311-8120-9bfff71524f6.jpg?1783903191",
+  "Crush Contraband": "https://cards.scryfall.io/normal/front/0/8/08c5cdbe-2142-4ddc-b9b5-35ca60eb9970.jpg?1783923967",
+  "Murmuring Mystic": "https://cards.scryfall.io/normal/front/9/e/9e68dcc2-bba4-4efa-97bb-3ed892037595.jpg?1783911941",
+  "Baral's Expertise": "https://cards.scryfall.io/normal/front/d/5/d5beecd5-4267-454d-87db-24d476e1f352.jpg?1783907109",
+  "Midnight Clock": "https://cards.scryfall.io/normal/front/0/b/0b3c33b7-5b15-4b61-bfd6-1ffa823eb28a.jpg?1783911941",
+  "Battlefield Thaumaturge": "https://cards.scryfall.io/normal/front/4/6/467ffc93-b107-457c-af04-a1b682a4b886.jpg?1783939450",
+  "Launch the Fleet": "https://cards.scryfall.io/normal/front/b/c/bc3e52c0-2f79-4537-8f1c-70b68836bac0.jpg?1783939456",
+  "Pull from the Deep": "https://cards.scryfall.io/normal/front/a/0/a051b622-fa1d-4694-aef7-0fcdd7bff8d2.jpg?1783939444",
+  "Negate": "https://cards.scryfall.io/normal/front/5/2/52d58fe4-6070-4022-9cd7-c35a11b44525.jpg?1783904112",
+  "Prismatic Boon": "https://cards.scryfall.io/normal/front/f/b/fb774a9b-d29f-4f41-9fb8-a0189205e16f.jpg?1783947050",
+  "Whirlwind of Thought": "https://cards.scryfall.io/normal/front/a/3/a3069683-0ff5-49e5-b7ae-f5bd40a4a32f.jpg?1783903222",
+  "Talrand, Sky Summoner": "https://cards.scryfall.io/normal/front/1/b/1be3ed47-072e-481a-b3d9-dc232ac4b24f.jpg?1783911937",
+  "Thriving Heath": "https://cards.scryfall.io/normal/front/b/b/bb089097-1eed-4e72-a715-579ddd8307a0.jpg?1783903089",
+  "Thriving Bluff": "https://cards.scryfall.io/normal/front/8/2/82c96473-d7b9-48dc-9569-cdb649c78463.jpg?1783903090",
+  "Thriving Isle": "https://cards.scryfall.io/normal/front/5/8/58a3b5a5-eba0-4b4e-869a-5387ec7dd2b8.jpg?1783903089",
+  "Channeled Force": "https://cards.scryfall.io/normal/front/8/9/8918d24e-8ae8-4028-9f06-ba6fafcc717e.jpg?1783931027",
+  "Neutralize": "https://cards.scryfall.io/normal/front/0/4/0430da3c-9460-4b62-ae28-2e7e6f4d06a4.jpg?1783931073",
+  "Careful Consideration": "https://cards.scryfall.io/normal/front/0/8/08b7224b-adb9-4c31-b0bb-1c498f2922fb.jpg?1783927853",
+  "Dismiss into Dream": "https://cards.scryfall.io/normal/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935",
+  "Icy Blast": "https://cards.scryfall.io/normal/front/b/0/b098f029-6b5d-49e4-9a81-f497ebbdb5ce.jpg?1783939087",
+  "Compulsive Research": "https://cards.scryfall.io/normal/front/a/2/a247ab59-7749-4d37-87f6-f90f44cd54f4.jpg?1783907108",
+  "Metallurgic Summonings": "https://cards.scryfall.io/normal/front/3/a/3a769d7e-c749-4845-ba87-808f0386df80.jpg?1783927564",
+  "Paradoxical Outcome": "https://cards.scryfall.io/normal/front/1/7/17e50157-bf49-4c5f-9b8a-bf73484e63a5.jpg?1783937215",
+  "Prismatic Lens": "https://cards.scryfall.io/normal/front/7/4/74e8d3a8-5937-4108-b2fe-23e049379345.jpg?1783911890",
+  "Myriad Landscape": "https://cards.scryfall.io/normal/front/a/0/a0e2098f-1d94-491a-a7e9-a45a9f69e3a8.jpg?1783906009",
+  "Azorius Signet": "https://cards.scryfall.io/normal/front/4/1/41c50b99-4a29-4bef-8d41-c548c8a61dac.jpg?1783907017",
+  "Izzet Signet": "https://cards.scryfall.io/normal/front/2/c/2c747a97-9070-4c1e-b7b7-52637fbb30e1.jpg?1783907010",
+  "Mind Stone": "https://cards.scryfall.io/normal/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.jpg?1785759375",
+  "Unwind": "https://cards.scryfall.io/normal/front/9/7/97da6607-9131-4f8b-8af3-63439a59b78b.jpg?1783935018",
+  "Sunbird's Invocation": "https://cards.scryfall.io/normal/front/7/5/75c1eb6a-2183-4f60-b075-f7289df35be7.jpg?1783927539",
+  "Boros Signet": "https://cards.scryfall.io/normal/front/4/9/49c37c0e-d363-4033-a069-710241cd9923.jpg?1783907016",
+  "Mystic Retrieval": "https://cards.scryfall.io/normal/front/8/0/806e5536-103b-4d6c-83b4-8659a55b25b5.jpg?1783908161",
+  "Temple of Triumph": "https://cards.scryfall.io/normal/front/d/0/d0e763f7-25b8-444f-8722-614297d0663f.jpg?1783903716",
+  "Evolving Wilds": "https://cards.scryfall.io/normal/front/c/0/c0318a48-30e4-4ef7-be3d-5e561c5ce428.jpg?1783903203",
+  "Open into Wonder": "https://cards.scryfall.io/normal/front/a/9/a921ff16-2cd1-4080-80a9-dd73c4eda5c7.jpg?1783929482",
+  "Fire Diamond": "https://cards.scryfall.io/normal/front/5/a/5a561484-438b-4ce9-911e-97078ac5b0fa.jpg?1783922676",
+  "Generous Gift": "https://cards.scryfall.io/normal/front/c/3/c3f9b454-97e9-4c77-b37a-e974221ae385.jpg?1783903247",
+  "Comet Storm": "https://cards.scryfall.io/normal/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714",
+  "Jaya's Immolating Inferno": "https://cards.scryfall.io/normal/front/3/6/365336b4-92ee-429d-8f18-4624cba5469d.jpg?1783928712",
+  "Saw It Coming": "https://cards.scryfall.io/normal/front/8/7/877a1bb9-5eae-453a-bec0-a9de20ea6815.jpg?1783928256",
+  "Curse of the Swine": "https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795",
+  "Sejiri Refuge": "https://cards.scryfall.io/normal/front/b/4/b474bfdd-e0b2-4b96-b8eb-84ced9ac5a06.jpg?1783928291",
+  "Return to Dust": "https://cards.scryfall.io/normal/front/3/c/3c3745c2-5509-4d6b-8f49-5cb93374edea.jpg?1783909632",
+  "Feather, the Redeemed": "https://cards.scryfall.io/normal/front/e/4/e4a2d2c6-8eaa-4760-b620-921b807baa2e.jpg?1783933396",
+  "Zaffai, Thunder Conductor": "https://cards.scryfall.io/normal/front/e/a/ea1ab937-8647-4c83-99d5-6a40dffa4c9b.jpg?1783927615",
+  "Reconstruct History": "https://cards.scryfall.io/normal/front/3/e/3e565e38-43d5-482e-a911-ce525dfee74f.jpg?1783927298",
+  "Lorehold Campus": "https://cards.scryfall.io/normal/front/b/6/b6ad08da-c9e8-4061-a4a6-032d6957a403.jpg?1783903727",
+  "Prismari Campus": "https://cards.scryfall.io/normal/front/7/c/7c464dee-dd89-4955-ae40-8bb74e9ff42a.jpg?1783903723",
+  "Radiant Scrollwielder": "https://cards.scryfall.io/normal/front/c/8/c8152ab0-c6fc-4568-b837-4e84129e7b57.jpg?1783927297",
+  "Semester's End": "https://cards.scryfall.io/normal/front/d/b/db2bb091-ac6d-4c99-bdf6-70ffb6291ef0.jpg?1783915447",
+  "Elementalist's Palette": "https://cards.scryfall.io/normal/front/f/8/f892e316-95c9-4e68-8eb0-96f71a862f2b.jpg?1783903740",
+  "Commander's Insight": "https://cards.scryfall.io/normal/front/1/a/1a40e4da-a631-4423-b70f-701b27b09f79.jpg?1783903823",
+  "Aether Gale": "https://cards.scryfall.io/normal/front/4/e/4e336e87-e5af-46a0-8caf-5d9ad8d671fd.jpg?1783903794",
+  "Temple of Epiphany": "https://cards.scryfall.io/normal/front/c/c/cc63cd97-de9e-4d31-babb-aaad1277169e.jpg?1783903716",
+  "Deekah, Fractal Theorist": "https://cards.scryfall.io/normal/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791",
+  "Command Tower": "https://cards.scryfall.io/normal/front/0/5/0548fb60-c843-4f8f-a029-6f10efc63a41.jpg?1783903206",
+  "Step Through": "https://cards.scryfall.io/normal/front/7/1/716534cb-aa89-4de7-9aa5-8d8aa4422a6a.jpg?1783926869",
+  "Liquimetal Torque": "https://cards.scryfall.io/normal/front/1/3/13c6101a-da40-4785-8ccb-4e779bbbdb55.jpg?1783926804",
+  "Said // Done": "https://cards.scryfall.io/normal/front/4/3/43ab3ed2-2b50-4488-a21f-60965222970a.jpg?1783926872",
+  "You Find the Villains' Lair": "https://cards.scryfall.io/normal/front/c/6/c6704458-6e9e-4795-a56d-25b68fbf9672.jpg?1783926504",
+  "Smoke Spirits' Aid": "https://cards.scryfall.io/normal/front/e/4/e492a245-46ba-438e-8d81-4626faa49bff.jpg?1783923991",
+  "Temple of Enlightenment": "https://cards.scryfall.io/normal/front/d/d/dd139d4d-3a40-4015-93de-c838c64156c6.jpg?1783906003",
+  "March of Swirling Mist": "https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901",
+  "Marble Diamond": "https://cards.scryfall.io/normal/front/0/9/0930f71c-c3c8-4bdd-8468-6a61349cc8ca.jpg?1783922673",
+  "Sky Diamond": "https://cards.scryfall.io/normal/front/d/4/d47abfb2-9bcf-485c-9bd4-2c09b714eb32.jpg?1783922666",
+  "Ash Barrens": "https://cards.scryfall.io/normal/front/e/8/e8510205-4baa-4f1c-bf64-5d931e2ddf48.jpg?1783904155",
+  "Deep Analysis": "https://cards.scryfall.io/normal/front/1/a/1a297bae-f259-4fc7-b76a-285f972d69e3.jpg?1783903240",
+  "Young Pyromancer": "https://cards.scryfall.io/normal/front/c/0/c0d74ecd-a595-4012-81b4-083264b40c94.jpg?1783907139",
+  "Elsha of the Infinite": "https://cards.scryfall.io/normal/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837",
+  "Exotic Orchard": "https://cards.scryfall.io/normal/front/d/1/d11c5fe0-1528-4c94-a8cc-42bcab9d7487.jpg?1785759427",
+  "Mystic Monastery": "https://cards.scryfall.io/normal/front/b/c/bc23343a-3a01-4975-8430-17bf15fa639d.jpg?1783903198",
+  "Island": "https://cards.scryfall.io/normal/front/f/3/f3cc07cd-cc79-4745-b0b7-eade60175cc3.jpg?1785981645",
+  "Mountain": "https://cards.scryfall.io/normal/front/2/a/2a844b96-6616-4c39-8f4f-5d14a3b2bd55.jpg?1785981666",
+  "Plains": "https://cards.scryfall.io/normal/front/8/a/8ab0f4c0-b331-4c57-b68f-2e24bb5ba06c.jpg?1785981632",
+  "Hinata, Dawn-Crowned": "https://cards.scryfall.io/normal/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834"
+ },
+ "oracle": {
+  "Guttersnipe": "Whenever you cast an instant or sorcery spell, this creature deals 2 damage to each opponent.",
+  "Release the Gremlins": "Destroy X target artifacts. Create X 2/2 red Gremlin creature tokens.",
+  "Rewind": "Counter target spell. Untap up to four lands.",
+  "Opportunity": "Target player draws four cards.",
+  "Jace's Sanctum": "Instant and sorcery spells you cast cost {1} less to cast.\nWhenever you cast an instant or sorcery spell, scry 1.",
+  "Oona's Grace": "Target player draws a card.\nRetrace (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)",
+  "Shreds of Sanity": "Return up to one target instant card and up to one target sorcery card from your graveyard to your hand, then discard a card. Exile Shreds of Sanity.",
+  "Terramorphic Expanse": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+  "Crush Contraband": "Choose one or both —\n• Exile target artifact.\n• Exile target enchantment.",
+  "Murmuring Mystic": "Whenever you cast an instant or sorcery spell, create a 1/1 blue Bird Illusion creature token with flying.",
+  "Baral's Expertise": "Return up to three target artifacts and/or creatures to their owners' hands.\nYou may cast a spell with mana value 4 or less from your hand without paying its mana cost.",
+  "Midnight Clock": "{T}: Add {U}.\n{2}{U}: Put an hour counter on this artifact.\nAt the beginning of each upkeep, put an hour counter on this artifact.\nWhen the twelfth hour counter is put on this artifact, shuffle your hand and graveyard into your library, then draw seven cards. Exile this artifact.",
+  "Battlefield Thaumaturge": "Each instant and sorcery spell you cast costs {1} less to cast for each creature it targets.\nHeroic — Whenever you cast a spell that targets this creature, this creature gains hexproof until end of turn.",
+  "Launch the Fleet": "Strive — This spell costs {1} more to cast for each target beyond the first.\nUntil end of turn, any number of target creatures each gain \"Whenever this creature attacks, create a 1/1 white Soldier creature token that's tapped and attacking.\"",
+  "Pull from the Deep": "Return up to one target instant card and up to one target sorcery card from your graveyard to your hand. Exile Pull from the Deep.",
+  "Negate": "Counter target noncreature spell.",
+  "Prismatic Boon": "Choose a color. X target creatures gain protection from the chosen color until end of turn.",
+  "Whirlwind of Thought": "Whenever you cast a noncreature spell, draw a card.",
+  "Talrand, Sky Summoner": "Whenever you cast an instant or sorcery spell, create a 2/2 blue Drake creature token with flying.",
+  "Thriving Heath": "This land enters tapped. As it enters, choose a color other than white.\n{T}: Add {W} or one mana of the chosen color.",
+  "Thriving Bluff": "This land enters tapped. As it enters, choose a color other than red.\n{T}: Add {R} or one mana of the chosen color.",
+  "Thriving Isle": "This land enters tapped. As it enters, choose a color other than blue.\n{T}: Add {U} or one mana of the chosen color.",
+  "Channeled Force": "As an additional cost to cast this spell, discard X cards.\nTarget player draws X cards. Channeled Force deals X damage to up to one target creature or planeswalker.",
+  "Neutralize": "Counter target spell.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+  "Careful Consideration": "Target player draws four cards, then discards three cards. If you cast this spell during your main phase, instead that player draws four cards, then discards two cards.",
+  "Dismiss into Dream": "Each creature your opponents control is an Illusion in addition to its other types and has \"When this creature becomes the target of a spell or ability, sacrifice it.\"",
+  "Icy Blast": "Tap X target creatures.\nFerocious — If you control a creature with power 4 or greater, those creatures don't untap during their controllers' next untap steps.",
+  "Compulsive Research": "Target player draws three cards. Then that player discards two cards unless they discard a land card.",
+  "Metallurgic Summonings": "Whenever you cast an instant or sorcery spell, create an X/X colorless Construct artifact creature token, where X is that spell's mana value.\n{3}{U}{U}, Exile this enchantment: Return all instant and sorcery cards from your graveyard to your hand. Activate only if you control six or more artifacts.",
+  "Paradoxical Outcome": "Return any number of target nonland, nontoken permanents you control to their owners' hands. Draw a card for each card returned to your hand this way.",
+  "Prismatic Lens": "{T}: Add {C}.\n{1}, {T}: Add one mana of any color.",
+  "Myriad Landscape": "This land enters tapped.\n{T}: Add {C}.\n{2}, {T}, Sacrifice this land: Search your library for up to two basic land cards that share a land type, put them onto the battlefield tapped, then shuffle.",
+  "Azorius Signet": "{1}, {T}: Add {W}{U}.",
+  "Izzet Signet": "{1}, {T}: Add {U}{R}.",
+  "Mind Stone": "{T}: Add {C}.\n{1}, {T}, Sacrifice this artifact: Draw a card.",
+  "Unwind": "Counter target noncreature spell. Untap up to three lands.",
+  "Sunbird's Invocation": "Whenever you cast a spell from your hand, reveal the top X cards of your library, where X is that spell's mana value. You may cast a spell with mana value X or less from among cards revealed this way without paying its mana cost. Put the rest on the bottom of your library in a random order.",
+  "Boros Signet": "{1}, {T}: Add {R}{W}.",
+  "Mystic Retrieval": "Return target instant or sorcery card from your graveyard to your hand.\nFlashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+  "Temple of Triumph": "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {R} or {W}.",
+  "Evolving Wilds": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+  "Sejiri Shelter // Sejiri Glacier": "",
+  "Jwari Disruption // Jwari Ruins": "",
+  "Ondu Inversion // Ondu Skyruins": "",
+  "Open into Wonder": "X target creatures can't be blocked this turn. Until end of turn, those creatures gain \"Whenever this creature deals combat damage to a player, draw a card.\"",
+  "Fire Diamond": "This artifact enters tapped.\n{T}: Add {R}.",
+  "Generous Gift": "Destroy target permanent. Its controller creates a 3/3 green Elephant creature token.",
+  "Comet Storm": "Multikicker {1} (You may pay an additional {1} any number of times as you cast this spell.)\nChoose any target, then choose another target for each time this spell was kicked. Comet Storm deals X damage to each of them.",
+  "Jaya's Immolating Inferno": "(You may cast a legendary sorcery only if you control a legendary creature or planeswalker.)\nJaya's Immolating Inferno deals X damage to each of up to three targets.",
+  "Saw It Coming": "Counter target spell.\nForetell {1}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+  "Curse of the Swine": "Exile X target creatures. For each creature exiled this way, its controller creates a 2/2 green Boar creature token.",
+  "Sejiri Refuge": "This land enters tapped.\nWhen this land enters, you gain 1 life.\n{T}: Add {W} or {U}.",
+  "Return to Dust": "Exile target artifact or enchantment. If you cast this spell during your main phase, you may exile up to one other target artifact or enchantment.",
+  "Feather, the Redeemed": "Flying\nWhenever you cast an instant or sorcery spell that targets a creature you control, exile that card instead of putting it into your graveyard as it resolves. If you do, return it to your hand at the beginning of the next end step.",
+  "Zaffai, Thunder Conductor": "Magecraft — Whenever you cast or copy an instant or sorcery spell, scry 1. If that spell's mana value is 5 or greater, create a 4/4 blue and red Elemental creature token. If that spell's mana value is 10 or greater, Zaffai deals 10 damage to an opponent chosen at random.",
+  "Reconstruct History": "Return up to one target artifact card, up to one target enchantment card, up to one target instant card, up to one target sorcery card, and up to one target planeswalker card from your graveyard to your hand.\nExile Reconstruct History.",
+  "Lorehold Campus": "This land enters tapped.\n{T}: Add {R} or {W}.\n{4}, {T}: Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+  "Prismari Campus": "This land enters tapped.\n{T}: Add {U} or {R}.\n{4}, {T}: Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+  "Radiant Scrollwielder": "Instant and sorcery spells you control have lifelink.\nAt the beginning of your upkeep, exile an instant or sorcery card at random from your graveyard. You may cast it this turn. If a spell cast this way would be put into your graveyard, exile it instead.",
+  "Semester's End": "Exile any number of target creatures and/or planeswalkers you control. At the beginning of the next end step, return each of them to the battlefield under its owner's control. Each of them enters with an additional +1/+1 counter on it if it's a creature and an additional loyalty counter on it if it's a planeswalker.",
+  "Elementalist's Palette": "Whenever you cast a spell with {X} in its mana cost, put two charge counters on this artifact.\n{T}: Add one mana of any color.\n{T}: Add {C} for each charge counter on this artifact. Spend this mana only on costs that contain {X}.",
+  "Commander's Insight": "Target player draws X cards plus an additional card for each time they've cast a commander from the command zone this game.",
+  "Aether Gale": "Return six target nonland permanents to their owners' hands.",
+  "Temple of Epiphany": "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {U} or {R}.",
+  "Deekah, Fractal Theorist": "Magecraft — Whenever you cast or copy an instant or sorcery spell, create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it, where X is that spell's mana value.\n{3}{U}: Target creature token can't be blocked this turn.",
+  "Command Tower": "{T}: Add one mana of any color in your commander's color identity.",
+  "Step Through": "Return two target creatures to their owners' hands.\nWizardcycling {2} ({2}, Discard this card: Search your library for a Wizard card, reveal it, put it into your hand, then shuffle.)",
+  "Liquimetal Torque": "{T}: Add {C}.\n{T}: Target nonland permanent becomes an artifact in addition to its other types until end of turn.",
+  "Said // Done": "Return target instant or sorcery card from your graveyard to your hand. // Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.",
+  "You Find the Villains' Lair": "Choose one —\n• Foil Their Scheme — Counter target spell.\n• Learn Their Secrets — Draw two cards, then discard two cards.",
+  "Smoke Spirits' Aid": "For each of up to X target creatures, create a red Aura enchantment token named Smoke Blessing attached to that creature. Those tokens have enchant creature and \"When enchanted creature dies, it deals 1 damage to its controller and you create a Treasure token.\"",
+  "Temple of Enlightenment": "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {W} or {U}.",
+  "March of Swirling Mist": "As an additional cost to cast this spell, you may exile any number of blue cards from your hand. This spell costs {2} less to cast for each card exiled this way.\nUp to X target creatures phase out. (While they're phased out, they're treated as though they don't exist. Each one phases in before its controller untaps during their next untap step.)",
+  "Marble Diamond": "This artifact enters tapped.\n{T}: Add {W}.",
+  "Sky Diamond": "This artifact enters tapped.\n{T}: Add {U}.",
+  "Ash Barrens": "{T}: Add {C}.\nBasic landcycling {1} ({1}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+  "Deep Analysis": "Target player draws two cards.\nFlashback—{1}{U}, Pay 3 life. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+  "Young Pyromancer": "Whenever you cast an instant or sorcery spell, create a 1/1 red Elemental creature token.",
+  "Elsha of the Infinite": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nYou may look at the top card of your library any time.\nYou may cast noncreature spells from the top of your library. If you cast a spell this way, you may cast it as though it had flash.",
+  "Exotic Orchard": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+  "Mystic Monastery": "This land enters tapped.\n{T}: Add {U}, {R}, or {W}.",
+  "Island": "({T}: Add {U}.)",
+  "Mountain": "({T}: Add {R}.)",
+  "Plains": "({T}: Add {W}.)"
+ },
+ "card_meta": {
+  "Guttersnipe": {
+   "type_line": "Creature — Goblin Shaman",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Release the Gremlins": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Rewind": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Opportunity": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Jace's Sanctum": {
+   "type_line": "Enchantment",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Oona's Grace": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Shreds of Sanity": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Terramorphic Expanse": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Crush Contraband": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Murmuring Mystic": {
+   "type_line": "Creature — Human Wizard",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Baral's Expertise": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Midnight Clock": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Battlefield Thaumaturge": {
+   "type_line": "Creature — Human Wizard",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Launch the Fleet": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Pull from the Deep": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Negate": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Prismatic Boon": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Whirlwind of Thought": {
+   "type_line": "Enchantment",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Talrand, Sky Summoner": {
+   "type_line": "Legendary Creature — Merfolk Wizard",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Thriving Heath": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Thriving Bluff": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Thriving Isle": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Channeled Force": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Neutralize": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Careful Consideration": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Dismiss into Dream": {
+   "type_line": "Enchantment",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Icy Blast": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Compulsive Research": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Metallurgic Summonings": {
+   "type_line": "Enchantment",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Paradoxical Outcome": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Prismatic Lens": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Myriad Landscape": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Azorius Signet": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Izzet Signet": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Mind Stone": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Unwind": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Sunbird's Invocation": {
+   "type_line": "Enchantment",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Boros Signet": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Mystic Retrieval": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Temple of Triumph": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Evolving Wilds": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Sejiri Shelter // Sejiri Glacier": {
+   "type_line": "Instant // Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Jwari Disruption // Jwari Ruins": {
+   "type_line": "Instant // Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Ondu Inversion // Ondu Skyruins": {
+   "type_line": "Sorcery // Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Open into Wonder": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Fire Diamond": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Generous Gift": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Comet Storm": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Jaya's Immolating Inferno": {
+   "type_line": "Legendary Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Saw It Coming": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Curse of the Swine": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Sejiri Refuge": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Return to Dust": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Feather, the Redeemed": {
+   "type_line": "Legendary Creature — Angel",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Zaffai, Thunder Conductor": {
+   "type_line": "Legendary Creature — Human Shaman",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Reconstruct History": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Lorehold Campus": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Prismari Campus": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Radiant Scrollwielder": {
+   "type_line": "Creature — Dwarf Cleric",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Semester's End": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Elementalist's Palette": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Commander's Insight": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Aether Gale": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Temple of Epiphany": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Deekah, Fractal Theorist": {
+   "type_line": "Legendary Creature — Human Wizard",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Command Tower": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Step Through": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Liquimetal Torque": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Said // Done": {
+   "type_line": "Sorcery // Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "You Find the Villains' Lair": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Smoke Spirits' Aid": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Temple of Enlightenment": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "March of Swirling Mist": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Marble Diamond": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Sky Diamond": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Ash Barrens": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Deep Analysis": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Young Pyromancer": {
+   "type_line": "Creature — Human Shaman",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Elsha of the Infinite": {
+   "type_line": "Legendary Creature — Djinn Monk",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Exotic Orchard": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Mystic Monastery": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Island": {
+   "type_line": "Basic Land — Island",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Mountain": {
+   "type_line": "Basic Land — Mountain",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Plains": {
+   "type_line": "Basic Land — Plains",
+   "produced_mana": "",
+   "keywords": []
+  }
+ },
+ "synergy": {
+  "Guttersnipe": 0.20637347303729228,
+  "Release the Gremlins": 0.07905964042244741,
+  "Rewind": 0.22141642137009995,
+  "Jace's Sanctum": 0.047177717317893164,
+  "Shreds of Sanity": 0.06741289354252268,
+  "Terramorphic Expanse": -0.009184822846633023,
+  "Crush Contraband": 0.21108691176078803,
+  "Murmuring Mystic": 0.08356995563532886,
+  "Baral's Expertise": 0.5562313126988843,
+  "Midnight Clock": 0.05853393819123132,
+  "Battlefield Thaumaturge": 0.5761443863939251,
+  "Launch the Fleet": 0.19553869781938335,
+  "Pull from the Deep": 0.13265096609176316,
+  "Negate": 0.3962815008122053,
+  "Prismatic Boon": 0.25892122005306345,
+  "Whirlwind of Thought": 0.5089940302638084,
+  "Talrand, Sky Summoner": 0.35468963879564475,
+  "Dismiss into Dream": 0.1082835268784945,
+  "Icy Blast": 0.6073356813142784,
+  "Compulsive Research": 0.06090048655339131,
+  "Metallurgic Summonings": 0.46386968048655286,
+  "Paradoxical Outcome": 0.2200294463105493,
+  "Azorius Signet": 0.20171349582792608,
+  "Izzet Signet": 0.22539986092033154,
+  "Mind Stone": -0.021312214720136474,
+  "Unwind": 0.4018741333124235,
+  "Sunbird's Invocation": 0.08665914860401114,
+  "Boros Signet": 0.13071499668192188,
+  "Mystic Retrieval": 0.05403774099712364,
+  "Temple of Triumph": -0.04361609997415866,
+  "Evolving Wilds": -0.038942472139045364,
+  "Open into Wonder": 0.4149004731914495,
+  "Generous Gift": -0.022037966115600216,
+  "Comet Storm": 0.6199500142403658,
+  "Jaya's Immolating Inferno": 0.1406129650591545,
+  "Curse of the Swine": 0.7663796855154269,
+  "Return to Dust": 0.08734474543974934,
+  "Feather, the Redeemed": 0.4527828841993361,
+  "Zaffai, Thunder Conductor": 0.3859403476177899,
+  "Reconstruct History": 0.4219629330386081,
+  "Radiant Scrollwielder": 0.13942386221209585,
+  "Semester's End": 0.2712729743261835,
+  "Elementalist's Palette": 0.1929047181648918,
+  "Aether Gale": 0.43584002445400316,
+  "Temple of Epiphany": -0.019619399658951597,
+  "Deekah, Fractal Theorist": 0.3245442869876764,
+  "Command Tower": -0.009578354028167646,
+  "Step Through": 0.0670578260577056,
+  "Smoke Spirits' Aid": 0.42094783786597806,
+  "Temple of Enlightenment": -0.040304180481452734,
+  "March of Swirling Mist": 0.7121819036472575,
+  "Deep Analysis": 0.1561165429665199,
+  "Young Pyromancer": 0.295793099843756,
+  "Elsha of the Infinite": 0.17845560641921981,
+  "Exotic Orchard": 0.01334677903931436,
+  "Mystic Monastery": 0.01204209264615086,
+  "Island": 0.007451399579549656,
+  "Mountain": 0.002036005264385077,
+  "Plains": -0.002045628061991378
+ },
+ "plans": [
+  {
+   "tag": "Spellslinger",
+   "decks": 606,
+   "description": [
+    "**Core mechanic** : every spell you cast costs {1} less per target — Hinata turns multi-target spells into budget bombs.",
+    "**Engine** : cast 36 instants/sorceries with token-makers (Young Pyromancer, Talrand, Murmuring Mystic, Deekah) and draw engines (Whirlwind of Thought) converting each spell into value.",
+    "**Payoff** : Guttersnipe and Zaffai ping the table with every spell; Metallurgic Summonings and Sunbird's Invocation add free spells."
+   ],
+   "win": [
+    "**Token swarm** : Talrand/Young Pyromancer/Murmuring Mystic + Launch the Fleet / Smoke Spirits' Aid make a wide flying board.",
+    "**X-burn** : Comet Storm / Jaya's Immolating Inferno deal lethal damage split across the table.",
+    "**Recursion** : Radiant Scrollwielder / Mystic Retrieval / Reconstruct History replay the winning spells."
+   ],
+   "high_synergy": [
+    {
+     "name": "Curse of the Swine",
+     "synergy": null
+    },
+    {
+     "name": "Heliod's Intervention",
+     "synergy": null
+    },
+    {
+     "name": "March of Swirling Mist",
+     "synergy": null
+    },
+    {
+     "name": "Sublime Epiphany",
+     "synergy": null
+    },
+    {
+     "name": "Reality Spasm",
+     "synergy": null
+    },
+    {
+     "name": "Aurelia's Fury",
+     "synergy": null
+    },
+    {
+     "name": "Comet Storm",
+     "synergy": null
+    },
+    {
+     "name": "Distorting Wake",
+     "synergy": null
+    },
+    {
+     "name": "Battlefield Thaumaturge",
+     "synergy": null
+    },
+    {
+     "name": "Magma Opus",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Curse of the Swine",
+    "March of Swirling Mist",
+    "Comet Storm",
+    "Battlefield Thaumaturge"
+   ]
+  },
+  {
+   "tag": "X Spells",
+   "decks": 539,
+   "description": [
+    "**Core mechanic** : X-spells with multiple targets get a huge discount from Hinata (each target = {1} less) — a 5-target Comet Storm costs almost nothing.",
+    "**Enablers** : Battlefield Thaumaturge stacks another {1} discount per creature targeted; Elementalist's Palette charges mana for big X.",
+    "**Payoff** : Comet Storm, Jaya's Immolating Inferno, Release the Gremlins, Curse of the Swine, Open into Wonder and Launch the Fleet all shine."
+   ],
+   "win": [
+    "**Lethal burn** : a giant Comet Storm or Jaya's Inferno with 4+ targets ends the game for a few mana.",
+    "**Mass removal** : Curse of the Swine with X targets exiles the whole board.",
+    "**Go-wide** : Launch the Fleet / Smoke Spirits' Aid turn X into an army."
+   ],
+   "high_synergy": [
+    {
+     "name": "Curse of the Swine",
+     "synergy": null
+    },
+    {
+     "name": "Heliod's Intervention",
+     "synergy": null
+    },
+    {
+     "name": "March of Swirling Mist",
+     "synergy": null
+    },
+    {
+     "name": "Reality Spasm",
+     "synergy": null
+    },
+    {
+     "name": "Distorting Wake",
+     "synergy": null
+    },
+    {
+     "name": "Aurelia's Fury",
+     "synergy": null
+    },
+    {
+     "name": "Icy Blast",
+     "synergy": null
+    },
+    {
+     "name": "Comet Storm",
+     "synergy": null
+    },
+    {
+     "name": "Disorder in the Court",
+     "synergy": null
+    },
+    {
+     "name": "Sublime Epiphany",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Curse of the Swine",
+    "March of Swirling Mist",
+    "Icy Blast",
+    "Comet Storm"
+   ]
+  },
+  {
+   "tag": "Control",
+   "decks": 285,
+   "description": [
+    "**Core mechanic** : Hinata taxes opponents' spells ({1} more per target) while your own counters are discounted.",
+    "**Answers** : Rewind, Unwind, Negate, Neutralize, Saw It Coming, You Find the Villains' Lair counter everything; Generous Gift, Crush Contraband, Return to Dust remove permanents.",
+    "**Engine** : draw (Opportunity, Compulsive Research) keeps the answers coming; tokens chump-block."
+   ],
+   "win": [
+    "**Value win** : out-grind the table with card advantage, then finish with a big X-spell.",
+    "**Dismiss into Dream lock** : any targeted removal becomes board destruction."
+   ],
+   "high_synergy": [
+    {
+     "name": "Curse of the Swine",
+     "synergy": null
+    },
+    {
+     "name": "Heliod's Intervention",
+     "synergy": null
+    },
+    {
+     "name": "Sublime Epiphany",
+     "synergy": null
+    },
+    {
+     "name": "Distorting Wake",
+     "synergy": null
+    },
+    {
+     "name": "March of Swirling Mist",
+     "synergy": null
+    },
+    {
+     "name": "Reality Spasm",
+     "synergy": null
+    },
+    {
+     "name": "Aurelia's Fury",
+     "synergy": null
+    },
+    {
+     "name": "Voracious Bibliophile",
+     "synergy": null
+    },
+    {
+     "name": "Comet Storm",
+     "synergy": null
+    },
+    {
+     "name": "Icy Blast",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Curse of the Swine",
+    "March of Swirling Mist",
+    "Comet Storm",
+    "Icy Blast"
+   ]
+  },
+  {
+   "tag": "Tokens",
+   "decks": 96,
+   "description": [
+    "**Core mechanic** : spellslinger token engines — Young Pyromancer, Talrand, Murmuring Mystic and Deekah make creatures on every spell.",
+    "**Synergy** : Metallurgic Summonings adds artifact creatures; Launch the Fleet and Smoke Spirits' Aid pump the board.",
+    "**Value** : the tokens protect the planeswalker-ish engines and chump-block while you build."
+   ],
+   "win": [
+    "**Wide board** : a critical mass of Elementals/Drakes/Spirits/Fractals overwhelms.",
+    "**Flying finisher** : Smoke Spirits' Aid gives everything flying +1/+1 for the alpha strike."
+   ],
+   "high_synergy": [
+    {
+     "name": "Heliod's Intervention",
+     "synergy": null
+    },
+    {
+     "name": "Curse of the Swine",
+     "synergy": null
+    },
+    {
+     "name": "Sublime Epiphany",
+     "synergy": null
+    },
+    {
+     "name": "Distorting Wake",
+     "synergy": null
+    },
+    {
+     "name": "March of Swirling Mist",
+     "synergy": null
+    },
+    {
+     "name": "Aurelia's Fury",
+     "synergy": null
+    },
+    {
+     "name": "Reality Spasm",
+     "synergy": null
+    },
+    {
+     "name": "Voracious Bibliophile",
+     "synergy": null
+    },
+    {
+     "name": "Magma Opus",
+     "synergy": null
+    },
+    {
+     "name": "Kykar, Wind's Fury",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Curse of the Swine",
+    "March of Swirling Mist"
+   ]
+  },
+  {
+   "tag": "Combo",
+   "decks": 95,
+   "description": [
+    "**Core mechanic** : the deck packs several 2-3 card combos around its engines.",
+    "**Elsha lines** : Elsha of the Infinite plays from the top — with Sensei's Divining Top or Displacer Kitten she goes infinite.",
+    "**Dismiss into Dream** : any targeting spell becomes a destroy — with Goblin Sharpshooter it clears the whole board."
+   ],
+   "win": [
+    "**Infinite loops** : the Elsha + Top + Kykar line draws the deck; Displacer Kitten + Top + Elsha blinks infinitely.",
+    "**Board wipe combo** : Dismiss into Dream + Goblin Sharpshooter clears all creatures, then swing through."
+   ],
+   "high_synergy": [
+    {
+     "name": "Heliod's Intervention",
+     "synergy": null
+    },
+    {
+     "name": "Reality Spasm",
+     "synergy": null
+    },
+    {
+     "name": "March of Swirling Mist",
+     "synergy": null
+    },
+    {
+     "name": "Sublime Epiphany",
+     "synergy": null
+    },
+    {
+     "name": "Curse of the Swine",
+     "synergy": null
+    },
+    {
+     "name": "Aurelia's Fury",
+     "synergy": null
+    },
+    {
+     "name": "Distorting Wake",
+     "synergy": null
+    },
+    {
+     "name": "Dualcaster Mage",
+     "synergy": null
+    },
+    {
+     "name": "Voracious Bibliophile",
+     "synergy": null
+    },
+    {
+     "name": "Battlefield Thaumaturge",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "March of Swirling Mist",
+    "Curse of the Swine",
+    "Battlefield Thaumaturge"
+   ]
+  },
+  {
+   "tag": "Burn",
+   "decks": 48,
+   "description": [
+    "**Core mechanic** : Guttersnipe, Zaffai and Radiant Scrollwielder convert every spell into damage + lifegain.",
+    "**X-burn** : Comet Storm and Jaya's Immolating Inferno scale with Hinata's discount — many targets, cheap cost, huge damage.",
+    "**Recursion** : replay the burn spells from the graveyard for repeated damage."
+   ],
+   "win": [
+    "**Passive drain** : Guttersnipe alone deals 2 per spell — 36 spells = ~72 damage over a game.",
+    "**Alpha burn** : a single giant X-spell finishes the table."
+   ],
+   "high_synergy": [
+    {
+     "name": "Comet Storm",
+     "synergy": null
+    },
+    {
+     "name": "Curse of the Swine",
+     "synergy": null
+    },
+    {
+     "name": "March of Swirling Mist",
+     "synergy": null
+    },
+    {
+     "name": "Reality Spasm",
+     "synergy": null
+    },
+    {
+     "name": "Distorting Wake",
+     "synergy": null
+    },
+    {
+     "name": "Heliod's Intervention",
+     "synergy": null
+    },
+    {
+     "name": "Aurelia's Fury",
+     "synergy": null
+    },
+    {
+     "name": "Crackle with Power",
+     "synergy": null
+    },
+    {
+     "name": "Sublime Epiphany",
+     "synergy": null
+    },
+    {
+     "name": "Icy Blast",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Comet Storm",
+    "Curse of the Swine",
+    "March of Swirling Mist",
+    "Icy Blast"
+   ]
+  },
+  {
+   "tag": "Storm",
+   "decks": 29,
+   "description": [
+    "**Core mechanic** : cheap spells chain — cantrips, counters and recursion all storm count.",
+    "**Enablers** : Jace's Sanctum discounts; Elsha plays from the top; Sunbird's Invocation cascades.",
+    "**Payoff** : Zaffai's magecraft and the token engines convert the storm count into board/damage."
+   ],
+   "win": [
+    "**Big turn** : chain 10+ spells in one turn with token engines out — board of Drakes + pings.",
+    "**Recursion storm** : Reconstruct History / Radiant Scrollwielder replay the chain."
+   ],
+   "high_synergy": [
+    {
+     "name": "Curse of the Swine",
+     "synergy": null
+    },
+    {
+     "name": "March of Swirling Mist",
+     "synergy": null
+    },
+    {
+     "name": "Heliod's Intervention",
+     "synergy": null
+    },
+    {
+     "name": "Sublime Epiphany",
+     "synergy": null
+    },
+    {
+     "name": "Aurelia's Fury",
+     "synergy": null
+    },
+    {
+     "name": "Reality Spasm",
+     "synergy": null
+    },
+    {
+     "name": "Voracious Bibliophile",
+     "synergy": null
+    },
+    {
+     "name": "Comet Storm",
+     "synergy": null
+    },
+    {
+     "name": "Distorting Wake",
+     "synergy": null
+    },
+    {
+     "name": "Baral's Expertise",
+     "synergy": null
+    }
+   ],
+   "deck_matches": [
+    "Curse of the Swine",
+    "March of Swirling Mist",
+    "Comet Storm",
+    "Baral's Expertise"
+   ]
+  }
+ ],
+ "combos": [
+  {
+   "id": "2128-4560-4697",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 2128,
+      "name": "Hinata, Dawn-Crowned",
+      "oracleId": "aee473c7-c659-421c-96b5-05f57ca2ed97",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Kirin Spirit",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.png?1783923834",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 4560,
+      "name": "Soulfire Grand Master",
+      "oracleId": "e65769f4-50ae-482b-933b-ac5cf3843f2a",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Human Monk",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.png?1783938709",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 4697,
+      "name": "Reality Spasm",
+      "oracleId": "34a2fc4c-ab56-4ecd-95d9-04316046843c",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Instant",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.png?1783941993",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "H"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "feature": {
+      "id": 77,
+      "name": "Infinite magecraft triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 151,
+      "name": "Infinite mana permanents you control can produce",
+      "uncountable": true,
+      "status": "S"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 17,
+      "name": "Infinite storm count",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 1926,
+      "name": "Tap all permanents your opponents control each upkeep",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 2618,
+      "name": "Mass Land Denial",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    }
+   ],
+   "of": [
+    {
+     "id": 10309
+    }
+   ],
+   "includes": [
+    {
+     "id": 26849
+    },
+    {
+     "id": 27047
+    },
+    {
+     "id": 27474
+    },
+    {
+     "id": 10309
+    },
+    {
+     "id": 32008
+    }
+   ],
+   "identity": "URW",
+   "manaNeeded": "",
+   "manaValueNeeded": 0,
+   "easyPrerequisites": "",
+   "notablePrerequisites": "Permanents you control can tap to produce at least {3}{U/R}{U/R}{U}{U}.",
+   "description": "Activate any number of mana-producing permanents you control by tapping them, adding at least {3}{U/R}{U/R}{U}{U}.\nActivate Soulfire Grand Master by paying {2}{U/R}{U/R}, causing you to put the next instant or sorcery card you cast from your hand this turn into your hand as it resolves.\nCast Reality Spasm by paying a total of {U}{U} due to Hinata, untapping the mana-producing permanents and returning Reality Spasm to your hand due to Soulfire Grand Master.\nRepeat.\nYou may also repeat this on each opponent's upkeep to first gain infinite mana, then repeat the loop using Reality Spasm's other mode instead to tap down all opponents' permanents.",
+   "notes": "",
+   "popularity": 3335,
+   "spoiler": false,
+   "bracketTag": "R",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": false,
+    "competitiveBrawl": false,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": true,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "1.34",
+    "cardkingdom": "2.47",
+    "cardmarket": "1.86"
+   },
+   "variantCount": 1,
+   "in_deck": [
+    "Hinata, Dawn-Crowned"
+   ],
+   "title": "Hinata, Dawn-Crowned + Soulfire Grand Master + Reality Spasm"
+  },
+  {
+   "id": "889-2655",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 2655,
+      "name": "Fury Storm",
+      "oracleId": "371fa9e3-5432-4f2f-89d4-55061b0b4e57",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Instant",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.png?1783934336",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "H"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 889,
+      "name": "Deekah, Fractal Theorist",
+      "oracleId": "6b071146-2f83-4fda-a55a-46fcb74e6f28",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Human Wizard",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.png?1783903791",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "feature": {
+      "id": 21,
+      "name": "Infinite creature tokens",
+      "uncountable": true,
+      "status": "S"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 77,
+      "name": "Infinite magecraft triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    }
+   ],
+   "of": [
+    {
+     "id": 6387
+    }
+   ],
+   "includes": [
+    {
+     "id": 27481
+    },
+    {
+     "id": 6387
+    }
+   ],
+   "identity": "UR",
+   "manaNeeded": "{2}{R}{R}",
+   "manaValueNeeded": 4,
+   "easyPrerequisites": "",
+   "notablePrerequisites": "You have cast your commander from your command zone this game.\nAn additional instant or sorcery in hand with the mana to cast it, or an opponent has cast an as of yet unresolved instant or sorcery spell.",
+   "description": "Cast your additional instant or sorcery spell, or wait for an opponent to cast one.\nDeekah triggers, creating a Fractal creature token.\nCast Fury Storm targeting the instant or sorcery spell.\nDeekah triggers, creating a Fractal creature token.\nFury Storm triggers, copying itself for each time you have cast your commander from your command zone this game and choosing the original copy of Fury Storm as the target.\nDeekah triggers for each copy, creating a Fractal creature token each time.\nResolve a Fury Storm copy, copying Fury Storm and choosing the original Fury Storm as the target.\nDeekah triggers, creating a Fractal creature token.\nRepeat from step 7.",
+   "notes": "",
+   "popularity": 549,
+   "spoiler": false,
+   "bracketTag": "S",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": false,
+    "competitiveBrawl": false,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": false,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "5.05",
+    "cardkingdom": "7.98",
+    "cardmarket": "3.93"
+   },
+   "variantCount": 1,
+   "in_deck": [
+    "Deekah, Fractal Theorist"
+   ],
+   "title": "Fury Storm + Deekah, Fractal Theorist"
+  },
+  {
+   "id": "2128-4560-4697",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 2128,
+      "name": "Hinata, Dawn-Crowned",
+      "oracleId": "aee473c7-c659-421c-96b5-05f57ca2ed97",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Kirin Spirit",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.png?1783923834",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 4560,
+      "name": "Soulfire Grand Master",
+      "oracleId": "e65769f4-50ae-482b-933b-ac5cf3843f2a",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Human Monk",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.png?1783938709",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 4697,
+      "name": "Reality Spasm",
+      "oracleId": "34a2fc4c-ab56-4ecd-95d9-04316046843c",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Instant",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.png?1783941993",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "H"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "feature": {
+      "id": 77,
+      "name": "Infinite magecraft triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 151,
+      "name": "Infinite mana permanents you control can produce",
+      "uncountable": true,
+      "status": "S"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 17,
+      "name": "Infinite storm count",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 1926,
+      "name": "Tap all permanents your opponents control each upkeep",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 2618,
+      "name": "Mass Land Denial",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    }
+   ],
+   "of": [
+    {
+     "id": 10309
+    }
+   ],
+   "includes": [
+    {
+     "id": 26849
+    },
+    {
+     "id": 27047
+    },
+    {
+     "id": 27474
+    },
+    {
+     "id": 10309
+    },
+    {
+     "id": 32008
+    }
+   ],
+   "identity": "URW",
+   "manaNeeded": "",
+   "manaValueNeeded": 0,
+   "easyPrerequisites": "",
+   "notablePrerequisites": "Permanents you control can tap to produce at least {3}{U/R}{U/R}{U}{U}.",
+   "description": "Activate any number of mana-producing permanents you control by tapping them, adding at least {3}{U/R}{U/R}{U}{U}.\nActivate Soulfire Grand Master by paying {2}{U/R}{U/R}, causing you to put the next instant or sorcery card you cast from your hand this turn into your hand as it resolves.\nCast Reality Spasm by paying a total of {U}{U} due to Hinata, untapping the mana-producing permanents and returning Reality Spasm to your hand due to Soulfire Grand Master.\nRepeat.\nYou may also repeat this on each opponent's upkeep to first gain infinite mana, then repeat the loop using Reality Spasm's other mode instead to tap down all opponents' permanents.",
+   "notes": "",
+   "popularity": 3335,
+   "spoiler": false,
+   "bracketTag": "R",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": false,
+    "competitiveBrawl": false,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": true,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "1.34",
+    "cardkingdom": "2.47",
+    "cardmarket": "1.86"
+   },
+   "variantCount": 1,
+   "in_deck": [
+    "Hinata, Dawn-Crowned"
+   ],
+   "title": "Hinata, Dawn-Crowned + Soulfire Grand Master + Reality Spasm"
+  },
+  {
+   "id": "2128-4697-6477",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 2128,
+      "name": "Hinata, Dawn-Crowned",
+      "oracleId": "aee473c7-c659-421c-96b5-05f57ca2ed97",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Kirin Spirit",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.png?1783923834",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 6477,
+      "name": "Voracious Bibliophile",
+      "oracleId": "dcc323d6-ddae-4fd9-9c9e-466b07895d73",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Dragon",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/7/7/77d2c30b-3130-4d9d-bd3d-484fe6dc306d.png?1783907179",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/7/7/77d2c30b-3130-4d9d-bd3d-484fe6dc306d.jpg?1783907179",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/7/7/77d2c30b-3130-4d9d-bd3d-484fe6dc306d.jpg?1783907179",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/7/7/77d2c30b-3130-4d9d-bd3d-484fe6dc306d.jpg?1783907179",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/7/7/77d2c30b-3130-4d9d-bd3d-484fe6dc306d.jpg?1783907179",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 4697,
+      "name": "Reality Spasm",
+      "oracleId": "34a2fc4c-ab56-4ecd-95d9-04316046843c",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Instant",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.png?1783941993",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "feature": {
+      "id": 292,
+      "name": "Near-infinite card draw",
+      "uncountable": true,
+      "status": "S"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 293,
+      "name": "Near-infinite draw triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    }
+   ],
+   "of": [
+    {
+     "id": 29644
+    }
+   ],
+   "includes": [
+    {
+     "id": 29644
+    }
+   ],
+   "identity": "URW",
+   "manaNeeded": "{U}{U}",
+   "manaValueNeeded": 2,
+   "easyPrerequisites": "",
+   "notablePrerequisites": "",
+   "description": "Cast Reality Spasm by paying a total of {U}{U} due to Hinata, targeting every permanent on the battlefield or a number of permanents equal to your deck size, whichever is smaller.\nVoracious Bibliophile triggers, causing you to draw a card for each permanent targeted.",
+   "notes": "",
+   "popularity": 2917,
+   "spoiler": false,
+   "bracketTag": "S",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": false,
+    "competitiveBrawl": false,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": false,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "1.21",
+    "cardkingdom": "2.17",
+    "cardmarket": "1.61"
+   },
+   "variantCount": 1,
+   "in_deck": [
+    "Hinata, Dawn-Crowned"
+   ],
+   "title": "Hinata, Dawn-Crowned + Voracious Bibliophile + Reality Spasm"
+  },
+  {
+   "id": "1987-2128-2493",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 2128,
+      "name": "Hinata, Dawn-Crowned",
+      "oracleId": "aee473c7-c659-421c-96b5-05f57ca2ed97",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Kirin Spirit",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.png?1783923834",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 1987,
+      "name": "Ghostly Flicker",
+      "oracleId": "ad0070db-6454-41cb-861f-8f5b8fc2a3b8",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Instant",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/d/c/dc143ba3-2a58-4980-9fa0-a05a9e9ed082.png?1783915697",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/d/c/dc143ba3-2a58-4980-9fa0-a05a9e9ed082.jpg?1783915697",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/d/c/dc143ba3-2a58-4980-9fa0-a05a9e9ed082.jpg?1783915697",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/d/c/dc143ba3-2a58-4980-9fa0-a05a9e9ed082.jpg?1783915697",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/d/c/dc143ba3-2a58-4980-9fa0-a05a9e9ed082.jpg?1783915697",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "H"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 2493,
+      "name": "Archaeomancer",
+      "oracleId": "a91a3266-cadd-47a0-9b20-160307f14c07",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Human Wizard",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.png?1783933855",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1783933855",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1783933855",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1783933855",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1783933855",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "feature": {
+      "id": 2408,
+      "name": "Infinite artifact ETB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 2409,
+      "name": "Infinite artifact LTB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 4,
+      "name": "Infinite creature ETB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 3,
+      "name": "Infinite creature LTB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 77,
+      "name": "Infinite magecraft triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 17,
+      "name": "Infinite storm count",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 119,
+      "name": "Infinite landfall triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    }
+   ],
+   "of": [
+    {
+     "id": 31202
+    }
+   ],
+   "includes": [
+    {
+     "id": 31074
+    },
+    {
+     "id": 31202
+    }
+   ],
+   "identity": "URW",
+   "manaNeeded": "",
+   "manaValueNeeded": 0,
+   "easyPrerequisites": "You control a permanent that enters the battlefield untapped and that can tap to produce at least {U}.",
+   "notablePrerequisites": "",
+   "description": "Activate a permanent by tapping it, adding at least {U}.\nCast Ghostly Flicker by paying {U} due to Hinata, blinking Archaeomancer and the permanent tapped for mana in step 1.\nWhen Archaeomancer enters the battlefield, it triggers, returning Ghostly Flicker from your graveyard to your hand.\nRepeat.",
+   "notes": "",
+   "popularity": 587,
+   "spoiler": false,
+   "bracketTag": "E",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": false,
+    "competitiveBrawl": false,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": true,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "1.70",
+    "cardkingdom": "3.63",
+    "cardmarket": "2.00"
+   },
+   "variantCount": 20,
+   "in_deck": [
+    "Hinata, Dawn-Crowned"
+   ],
+   "title": "Hinata, Dawn-Crowned + Ghostly Flicker + Archaeomancer"
+  },
+  {
+   "id": "1228-3056",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 3056,
+      "name": "Dismiss into Dream",
+      "oracleId": "b76566a9-f998-4a20-b073-4b60862843c9",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Enchantment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.png?1783939935",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 1228,
+      "name": "Goblin Sharpshooter",
+      "oracleId": "d81285b7-a718-411a-8be3-ecc0cfe0bcb0",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Goblin",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.png?1783939668",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "untapped",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "feature": {
+      "id": 543,
+      "name": "Destroy all creatures opponents control",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 477,
+      "name": "Destroy each creature that enters the battlefield under an opponent's control",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 2617,
+      "name": "Lock",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    }
+   ],
+   "of": [
+    {
+     "id": 5960
+    }
+   ],
+   "includes": [
+    {
+     "id": 5960
+    },
+    {
+     "id": 32062
+    }
+   ],
+   "identity": "UR",
+   "manaNeeded": "",
+   "manaValueNeeded": 0,
+   "easyPrerequisites": "",
+   "notablePrerequisites": "Goblin Sharpshooter does not have summoning sickness.",
+   "description": "Activate Goblin Sharpshooter targeting a creature an opponent controls.\nThat creature triggers, causing its controller to sacrifice it.\nGoblin Sharpshooter triggers, untapping itself.\nRepeat.",
+   "notes": "",
+   "popularity": 276,
+   "spoiler": false,
+   "bracketTag": "S",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": false,
+    "competitiveBrawl": false,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": false,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "25.71",
+    "cardkingdom": "28.78",
+    "cardmarket": "20.55"
+   },
+   "variantCount": 1,
+   "in_deck": [
+    "Dismiss into Dream"
+   ],
+   "title": "Dismiss into Dream + Goblin Sharpshooter"
+  },
+  {
+   "id": "889-2655",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 2655,
+      "name": "Fury Storm",
+      "oracleId": "371fa9e3-5432-4f2f-89d4-55061b0b4e57",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Instant",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.png?1783934336",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "H"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 889,
+      "name": "Deekah, Fractal Theorist",
+      "oracleId": "6b071146-2f83-4fda-a55a-46fcb74e6f28",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Human Wizard",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.png?1783903791",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "feature": {
+      "id": 21,
+      "name": "Infinite creature tokens",
+      "uncountable": true,
+      "status": "S"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 77,
+      "name": "Infinite magecraft triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    }
+   ],
+   "of": [
+    {
+     "id": 6387
+    }
+   ],
+   "includes": [
+    {
+     "id": 27481
+    },
+    {
+     "id": 6387
+    }
+   ],
+   "identity": "UR",
+   "manaNeeded": "{2}{R}{R}",
+   "manaValueNeeded": 4,
+   "easyPrerequisites": "",
+   "notablePrerequisites": "You have cast your commander from your command zone this game.\nAn additional instant or sorcery in hand with the mana to cast it, or an opponent has cast an as of yet unresolved instant or sorcery spell.",
+   "description": "Cast your additional instant or sorcery spell, or wait for an opponent to cast one.\nDeekah triggers, creating a Fractal creature token.\nCast Fury Storm targeting the instant or sorcery spell.\nDeekah triggers, creating a Fractal creature token.\nFury Storm triggers, copying itself for each time you have cast your commander from your command zone this game and choosing the original copy of Fury Storm as the target.\nDeekah triggers for each copy, creating a Fractal creature token each time.\nResolve a Fury Storm copy, copying Fury Storm and choosing the original Fury Storm as the target.\nDeekah triggers, creating a Fractal creature token.\nRepeat from step 7.",
+   "notes": "",
+   "popularity": 549,
+   "spoiler": false,
+   "bracketTag": "S",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": false,
+    "competitiveBrawl": false,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": false,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "5.05",
+    "cardkingdom": "7.98",
+    "cardmarket": "3.93"
+   },
+   "variantCount": 1,
+   "in_deck": [
+    "Deekah, Fractal Theorist"
+   ],
+   "title": "Fury Storm + Deekah, Fractal Theorist"
+  },
+  {
+   "id": "1395-3581-5078",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 5078,
+      "name": "Sensei's Divining Top",
+      "oracleId": "13575cf9-65c1-4861-b21e-eb2155e07766",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Artifact",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.png?1783921788",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 3581,
+      "name": "Kykar, Wind's Fury",
+      "oracleId": "71a80491-eea2-4661-9446-26a87efbf4a8",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Bird Wizard",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.png?1783915615",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 1395,
+      "name": "Elsha of the Infinite",
+      "oracleId": "da339200-ed26-42e4-b24f-b96bc4daef7c",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Djinn Monk",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.png?1783921837",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "feature": {
+      "id": 24,
+      "name": "Infinite card draw",
+      "uncountable": true,
+      "status": "S"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 61,
+      "name": "Infinite draw triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 68,
+      "name": "Near-infinite storm count",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 271,
+      "name": "Near-infinitely large creature until end of turn",
+      "uncountable": true,
+      "status": "C"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 60,
+      "name": "Near-infinite creature ETB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 79,
+      "name": "Near-infinite creature LTB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 134,
+      "name": "Near-infinite death triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 136,
+      "name": "Near-infinite creature sacrifice triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    }
+   ],
+   "of": [
+    {
+     "id": 589
+    }
+   ],
+   "includes": [
+    {
+     "id": 26876
+    },
+    {
+     "id": 589
+    },
+    {
+     "id": 27916
+    },
+    {
+     "id": 30861
+    }
+   ],
+   "identity": "URW",
+   "manaNeeded": "{1}",
+   "manaValueNeeded": 1,
+   "easyPrerequisites": "",
+   "notablePrerequisites": "",
+   "description": "Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.\nCast Sensei's Divining Top from the top of your library by paying {1}.\nKykar and Elsha trigger.\nResolve the Elsha trigger, giving it +1/+1 until end of turn.\nResolve the Kykar trigger, creating a 1/1 Spirit creature token.\nActivate Kykar by sacrificing the Spirit, adding {R}.\nRepeat",
+   "notes": "",
+   "popularity": 2813,
+   "spoiler": false,
+   "bracketTag": "S",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": false,
+    "competitiveBrawl": false,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": false,
+    "premodern": false,
+    "modern": false,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "38.54",
+    "cardkingdom": "49.47",
+    "cardmarket": "20.47"
+   },
+   "variantCount": 434,
+   "in_deck": [
+    "Elsha of the Infinite"
+   ],
+   "title": "Sensei's Divining Top + Kykar, Wind's Fury + Elsha of the Infinite"
+  },
+  {
+   "id": "1170-1395-5078--30",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 1170,
+      "name": "Displacer Kitten",
+      "oracleId": "09ef446c-a13d-49d9-a94c-cd5f5a2d440b",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Cat Beast",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.png?1783922795",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 5078,
+      "name": "Sensei's Divining Top",
+      "oracleId": "13575cf9-65c1-4861-b21e-eb2155e07766",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Artifact",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.png?1783921788",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 1395,
+      "name": "Elsha of the Infinite",
+      "oracleId": "da339200-ed26-42e4-b24f-b96bc4daef7c",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Djinn Monk",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.png?1783921837",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [
+    {
+     "template": {
+      "id": 30,
+      "name": "Artifact / Creature with \"{T}: Add Mana\" that can tap upon ETB (Mana Rock)",
+      "scryfallQuery": "o:/^{T}: Add / -o:\"~ enters tapped\" -o:\"spend this mana only to\" -t:land (t:artifact -t:creature or t:creature keyword:haste)",
+      "scryfallApi": "https://api.scryfall.com/cards/search?q=%28o%3A%2F%5E%7BT%7D%3A+Add+%2F+-o%3A%22~+enters+tapped%22+-o%3A%22spend+this+mana+only+to%22+-t%3Aland+%28t%3Aartifact+-t%3Acreature+or+t%3Acreature+keyword%3Ahaste%29%29+legal%3Acommander"
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1
+    }
+   ],
+   "produces": [
+    {
+     "feature": {
+      "id": 24,
+      "name": "Infinite card draw",
+      "uncountable": true,
+      "status": "S"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 61,
+      "name": "Infinite draw triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 68,
+      "name": "Near-infinite storm count",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 271,
+      "name": "Near-infinitely large creature until end of turn",
+      "uncountable": true,
+      "status": "C"
+     },
+     "quantity": 1
+    }
+   ],
+   "of": [
+    {
+     "id": 27076
+    }
+   ],
+   "includes": [
+    {
+     "id": 26876
+    },
+    {
+     "id": 27076
+    },
+    {
+     "id": 27916
+    }
+   ],
+   "identity": "URW",
+   "manaNeeded": "",
+   "manaValueNeeded": 0,
+   "easyPrerequisites": "",
+   "notablePrerequisites": "",
+   "description": "Activate Sensei's Divining Top's second ability by tapping it, causing you to draw a card and put Sensei's Divining Top from the battlefield on top of your library.\nActivate the mana-producing artifact or creature by tapping it, adding at least {1}.\nCast Sensei's Divining Top from the top of your library by paying {1}.\nDisplacer Kitten and Elsha of the Infinite's prowess ability trigger.\nResolve the Displacer Kitten trigger, blinking the mana-producing artifact or creature.\nResolve the Elsha of the Infinite trigger, giving it +1/+1 until end of turn.\nRepeat.",
+   "notes": "",
+   "popularity": 1595,
+   "spoiler": false,
+   "bracketTag": "E",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": false,
+    "competitiveBrawl": false,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": false,
+    "premodern": false,
+    "modern": false,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "62.71",
+    "cardkingdom": "83.47",
+    "cardmarket": "35.38"
+   },
+   "variantCount": 10,
+   "in_deck": [
+    "Elsha of the Infinite"
+   ],
+   "title": "Displacer Kitten + Sensei's Divining Top + Elsha of the Infinite"
+  },
+  {
+   "id": "1228-3056",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 3056,
+      "name": "Dismiss into Dream",
+      "oracleId": "b76566a9-f998-4a20-b073-4b60862843c9",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Enchantment",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.png?1783939935",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 1228,
+      "name": "Goblin Sharpshooter",
+      "oracleId": "d81285b7-a718-411a-8be3-ecc0cfe0bcb0",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Goblin",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.png?1783939668",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "untapped",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "feature": {
+      "id": 543,
+      "name": "Destroy all creatures opponents control",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 477,
+      "name": "Destroy each creature that enters the battlefield under an opponent's control",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 2617,
+      "name": "Lock",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    }
+   ],
+   "of": [
+    {
+     "id": 5960
+    }
+   ],
+   "includes": [
+    {
+     "id": 5960
+    },
+    {
+     "id": 32062
+    }
+   ],
+   "identity": "UR",
+   "manaNeeded": "",
+   "manaValueNeeded": 0,
+   "easyPrerequisites": "",
+   "notablePrerequisites": "Goblin Sharpshooter does not have summoning sickness.",
+   "description": "Activate Goblin Sharpshooter targeting a creature an opponent controls.\nThat creature triggers, causing its controller to sacrifice it.\nGoblin Sharpshooter triggers, untapping itself.\nRepeat.",
+   "notes": "",
+   "popularity": 276,
+   "spoiler": false,
+   "bracketTag": "S",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": false,
+    "competitiveBrawl": false,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": false,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "25.71",
+    "cardkingdom": "28.78",
+    "cardmarket": "20.55"
+   },
+   "variantCount": 1,
+   "in_deck": [
+    "Dismiss into Dream"
+   ],
+   "title": "Dismiss into Dream + Goblin Sharpshooter"
+  },
+  {
+   "id": "2128-4560-4697",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 2128,
+      "name": "Hinata, Dawn-Crowned",
+      "oracleId": "aee473c7-c659-421c-96b5-05f57ca2ed97",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Kirin Spirit",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.png?1783923834",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 4560,
+      "name": "Soulfire Grand Master",
+      "oracleId": "e65769f4-50ae-482b-933b-ac5cf3843f2a",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Human Monk",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.png?1783938709",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 4697,
+      "name": "Reality Spasm",
+      "oracleId": "34a2fc4c-ab56-4ecd-95d9-04316046843c",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Instant",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.png?1783941993",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "H"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "feature": {
+      "id": 77,
+      "name": "Infinite magecraft triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 151,
+      "name": "Infinite mana permanents you control can produce",
+      "uncountable": true,
+      "status": "S"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 17,
+      "name": "Infinite storm count",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 1926,
+      "name": "Tap all permanents your opponents control each upkeep",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 2618,
+      "name": "Mass Land Denial",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    }
+   ],
+   "of": [
+    {
+     "id": 10309
+    }
+   ],
+   "includes": [
+    {
+     "id": 26849
+    },
+    {
+     "id": 27047
+    },
+    {
+     "id": 27474
+    },
+    {
+     "id": 10309
+    },
+    {
+     "id": 32008
+    }
+   ],
+   "identity": "URW",
+   "manaNeeded": "",
+   "manaValueNeeded": 0,
+   "easyPrerequisites": "",
+   "notablePrerequisites": "Permanents you control can tap to produce at least {3}{U/R}{U/R}{U}{U}.",
+   "description": "Activate any number of mana-producing permanents you control by tapping them, adding at least {3}{U/R}{U/R}{U}{U}.\nActivate Soulfire Grand Master by paying {2}{U/R}{U/R}, causing you to put the next instant or sorcery card you cast from your hand this turn into your hand as it resolves.\nCast Reality Spasm by paying a total of {U}{U} due to Hinata, untapping the mana-producing permanents and returning Reality Spasm to your hand due to Soulfire Grand Master.\nRepeat.\nYou may also repeat this on each opponent's upkeep to first gain infinite mana, then repeat the loop using Reality Spasm's other mode instead to tap down all opponents' permanents.",
+   "notes": "",
+   "popularity": 3335,
+   "spoiler": false,
+   "bracketTag": "R",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": false,
+    "competitiveBrawl": false,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": true,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "1.34",
+    "cardkingdom": "2.47",
+    "cardmarket": "1.86"
+   },
+   "variantCount": 1,
+   "in_deck": [
+    "Hinata, Dawn-Crowned"
+   ],
+   "title": "Hinata, Dawn-Crowned + Soulfire Grand Master + Reality Spasm"
+  },
+  {
+   "id": "1395-3581-5078",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 5078,
+      "name": "Sensei's Divining Top",
+      "oracleId": "13575cf9-65c1-4861-b21e-eb2155e07766",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Artifact",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.png?1783921788",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 3581,
+      "name": "Kykar, Wind's Fury",
+      "oracleId": "71a80491-eea2-4661-9446-26a87efbf4a8",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Bird Wizard",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.png?1783915615",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 1395,
+      "name": "Elsha of the Infinite",
+      "oracleId": "da339200-ed26-42e4-b24f-b96bc4daef7c",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Djinn Monk",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.png?1783921837",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "feature": {
+      "id": 24,
+      "name": "Infinite card draw",
+      "uncountable": true,
+      "status": "S"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 61,
+      "name": "Infinite draw triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 68,
+      "name": "Near-infinite storm count",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 271,
+      "name": "Near-infinitely large creature until end of turn",
+      "uncountable": true,
+      "status": "C"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 60,
+      "name": "Near-infinite creature ETB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 79,
+      "name": "Near-infinite creature LTB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 134,
+      "name": "Near-infinite death triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 136,
+      "name": "Near-infinite creature sacrifice triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    }
+   ],
+   "of": [
+    {
+     "id": 589
+    }
+   ],
+   "includes": [
+    {
+     "id": 26876
+    },
+    {
+     "id": 589
+    },
+    {
+     "id": 27916
+    },
+    {
+     "id": 30861
+    }
+   ],
+   "identity": "URW",
+   "manaNeeded": "{1}",
+   "manaValueNeeded": 1,
+   "easyPrerequisites": "",
+   "notablePrerequisites": "",
+   "description": "Activate Sensei's Divining Top by tapping it, causing you to draw a card and put Sensei's Divining Top on top of your library.\nCast Sensei's Divining Top from the top of your library by paying {1}.\nKykar and Elsha trigger.\nResolve the Elsha trigger, giving it +1/+1 until end of turn.\nResolve the Kykar trigger, creating a 1/1 Spirit creature token.\nActivate Kykar by sacrificing the Spirit, adding {R}.\nRepeat",
+   "notes": "",
+   "popularity": 2813,
+   "spoiler": false,
+   "bracketTag": "S",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": false,
+    "competitiveBrawl": false,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": false,
+    "premodern": false,
+    "modern": false,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "38.54",
+    "cardkingdom": "49.47",
+    "cardmarket": "20.47"
+   },
+   "variantCount": 434,
+   "in_deck": [
+    "Elsha of the Infinite"
+   ],
+   "title": "Sensei's Divining Top + Kykar, Wind's Fury + Elsha of the Infinite"
+  }
+ ],
+ "hs_imgs": {
+  "One with the Multiverse": "https://cards.scryfall.io/normal/front/1/c/1c85ae22-ccd0-4649-a736-1915043daae7.jpg?1783909627",
+  "Hall of Heliod's Generosity": "https://cards.scryfall.io/normal/front/f/0/f08dfd99-59fa-4a6c-bd69-c647f639de4d.jpg?1783909573",
+  "Sphere of Safety": "https://cards.scryfall.io/normal/front/5/c/5c4e3031-ffc2-4d4d-a9f9-e85820059315.jpg?1783909633",
+  "Extravagant Replication": "https://cards.scryfall.io/normal/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
+  "Sigil of the Empty Throne": "https://cards.scryfall.io/normal/front/6/8/6875be24-1515-488f-a899-929c8e480dfd.jpg?1783909633",
+  "Shark Typhoon": "https://cards.scryfall.io/normal/front/2/b/2b2accb1-d77b-4633-9d0c-b972d9c014bb.jpg?1783909622",
+  "Redress Fate": "https://cards.scryfall.io/normal/front/1/9/19f56096-f692-4719-af38-6a4955f2b65c.jpg?1783909662",
+  "Demon of Fate's Design": "https://cards.scryfall.io/normal/front/0/d/0d3668fe-78d9-4c2c-8c83-5cace9d39e03.jpg?1783909621",
+  "Doomwake Giant": "https://cards.scryfall.io/normal/front/0/b/0be3f848-ba01-4890-a3a1-ed0dfb564632.jpg?1783903786",
+  "Mesa Enchantress": "https://cards.scryfall.io/normal/front/c/4/c4f9e9fc-8b89-40ee-9b20-10e4a23e6333.jpg?1783909643",
+  "Moon-Blessed Cleric": "https://cards.scryfall.io/normal/front/0/5/0555e095-8c6f-4436-80fe-99b641fad2df.jpg?1783909642",
+  "Brainstorm": "https://cards.scryfall.io/normal/front/b/5/b5545882-6963-4729-b2c6-fb4bdc75ffcc.jpg?1783904806",
+  "Ondu Spiritdancer": "https://cards.scryfall.io/normal/front/e/e/ee1c6432-54d7-4b57-a554-f7194d74e03c.jpg?1783909632",
+  "Fear of Sleep Paralysis": "https://cards.scryfall.io/normal/front/8/4/845e9d68-11a9-4759-a031-13464d337e12.jpg?1783909663",
+  "Sensei's Divining Top": "https://cards.scryfall.io/normal/front/e/5/e5142b7a-e580-4737-a4aa-2590f6610ceb.jpg?1783921788",
+  "Curse of the Swine": "https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795",
+  "Heliod's Intervention": "https://cards.scryfall.io/normal/front/9/5/9519bb3a-bed3-48e8-93ae-9e9b2e7d646a.jpg?1783911947",
+  "March of Swirling Mist": "https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901",
+  "Sublime Epiphany": "https://cards.scryfall.io/normal/front/0/f/0f7d3839-0bc3-402b-b9ea-c903f82d39da.jpg?1783907098",
+  "Reality Spasm": "https://cards.scryfall.io/normal/front/e/c/ec85a97d-4f02-4d0d-ab9a-e172e327da0e.jpg?1783941993",
+  "Aurelia's Fury": "https://cards.scryfall.io/normal/front/1/a/1a3465b6-ee7f-4553-bbf1-85fae9734b67.jpg?1783940113",
+  "Comet Storm": "https://cards.scryfall.io/normal/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714",
+  "Distorting Wake": "https://cards.scryfall.io/normal/front/7/7/77e28743-3694-48ef-9f16-0a3a4ff7e934.jpg?1783938850",
+  "Battlefield Thaumaturge": "https://cards.scryfall.io/normal/front/4/6/467ffc93-b107-457c-af04-a1b682a4b886.jpg?1783939450",
+  "Magma Opus": "https://cards.scryfall.io/normal/front/0/f/0fd4a0f7-ba03-4158-95cd-4effe798aec0.jpg?1783903750",
+  "Icy Blast": "https://cards.scryfall.io/normal/front/b/0/b098f029-6b5d-49e4-9a81-f497ebbdb5ce.jpg?1783939087",
+  "Disorder in the Court": "https://cards.scryfall.io/normal/front/0/7/07277df0-d306-4c3a-baa7-d7a49332c7dd.jpg?1783912979",
+  "Voracious Bibliophile": "https://cards.scryfall.io/normal/front/7/7/77d2c30b-3130-4d9d-bd3d-484fe6dc306d.jpg?1783907179",
+  "Kykar, Wind's Fury": "https://cards.scryfall.io/normal/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615",
+  "Dualcaster Mage": "https://cards.scryfall.io/normal/front/d/e/defcc4a3-40e0-4f5d-b23c-6cd6a614abc1.jpg?1783927545",
+  "Crackle with Power": "https://cards.scryfall.io/normal/front/d/e/de547f52-3798-4b3a-947d-24873251204b.jpg?1783927356",
+  "Baral's Expertise": "https://cards.scryfall.io/normal/front/d/5/d5beecd5-4267-454d-87db-24d476e1f352.jpg?1783907109",
+  "Archaeomancer": "https://cards.scryfall.io/normal/front/c/c/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1.jpg?1783933855",
+  "Deekah, Fractal Theorist": "https://cards.scryfall.io/normal/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791",
+  "Dismiss into Dream": "https://cards.scryfall.io/normal/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935",
+  "Displacer Kitten": "https://cards.scryfall.io/normal/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795",
+  "Elsha of the Infinite": "https://cards.scryfall.io/normal/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837",
+  "Fury Storm": "https://cards.scryfall.io/normal/front/1/0/10dad353-7200-46de-96ad-4c457b94c62b.jpg?1783934336",
+  "Ghostly Flicker": "https://cards.scryfall.io/normal/front/d/c/dc143ba3-2a58-4980-9fa0-a05a9e9ed082.jpg?1783915697",
+  "Goblin Sharpshooter": "https://cards.scryfall.io/normal/front/4/f/4f72e9e2-ed47-40ff-bc2e-8446ef545022.jpg?1783939668",
+  "Hinata, Dawn-Crowned": "https://cards.scryfall.io/normal/front/f/2/f25aff90-56fd-4f70-bb3b-cabf2900c391.jpg?1783923834",
+  "Mirrormade": "https://cards.scryfall.io/normal/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
+  "Mystic Barrier": "https://cards.scryfall.io/normal/front/f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f.jpg?1783939689",
+  "Second Chance": "https://cards.scryfall.io/normal/front/6/2/62d1a0da-40b9-4e79-bace-b93f98ae4695.jpg?1783946245",
+  "Sharuum the Hegemon": "https://cards.scryfall.io/normal/front/a/f/af80ef38-ab95-476f-b0dd-b5ef3e9bceab.jpg?1783930126",
+  "Soulfire Grand Master": "https://cards.scryfall.io/normal/front/f/c/fc3a4e7d-6667-4c2f-b6b4-484f401b0455.jpg?1783938709",
+  "Timestream Navigator": "https://cards.scryfall.io/normal/front/0/8/086afafe-6b6c-4a54-8ce7-0040295d309c.jpg?1783913879",
+  "Wanderwine Prophets": "https://cards.scryfall.io/normal/front/6/c/6cdbb6ff-c945-4dd6-aba6-4fd4b77824c0.jpg?1783942895"
+ },
+ "type_recs": {
+  "Creatures": [
+   {
+    "name": "Kykar, Wind's Fury",
+    "synergy": "0.43",
+    "img": "https://cards.scryfall.io/normal/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615",
+    "oracle": "",
+    "type_line": ""
+   },
+   {
+    "name": "Willbreaker",
+    "synergy": "0.31",
+    "img": "https://cards.scryfall.io/normal/front/2/4/2465eafc-453c-4e4f-b369-0951b8a4b7bf.jpg?1783938345",
+    "oracle": "Whenever a creature an opponent controls becomes the target of a spell or ability you control, gain control of that creature for as long as you control this creature.",
+    "type_line": "Creature — Human Wizard"
+   }
+  ],
+  "Instants": [
+   {
+    "name": "Mystic Confluence",
+    "synergy": "0.50",
+    "img": "https://cards.scryfall.io/normal/front/6/2/62e5d409-c0b6-4123-802d-eb32f223bd1a.jpg?1783915695",
+    "oracle": "Choose three. You may choose the same mode more than once.\n• Counter target spell unless its controller pays {3}.\n• Return target creature to its owner's hand.\n• Draw a card.",
+    "type_line": "Instant"
+   },
+   {
+    "name": "Volcanic Offering",
+    "synergy": "0.35",
+    "img": "https://cards.scryfall.io/normal/front/4/c/4c30b821-09ec-4b66-9963-f97e3ef5005c.jpg?1783934733",
+    "oracle": "Destroy target nonbasic land you don't control and target nonbasic land of an opponent's choice you don't control.\nVolcanic Offering deals 7 damage to target creature you don't control and 7 damage to target creature of an opponent's choice you don't control.",
+    "type_line": "Instant"
+   },
+   {
+    "name": "Gridlock",
+    "synergy": "0.31",
+    "img": "https://cards.scryfall.io/normal/front/b/4/b4f5c126-3df9-4771-9e74-4ca33161ac08.jpg?1783940138",
+    "oracle": "Tap X target nonland permanents.",
+    "type_line": "Instant"
+   }
+  ],
+  "Sorceries": [
+   {
+    "name": "By Force",
+    "synergy": "0.51",
+    "img": "https://cards.scryfall.io/normal/front/6/6/66cdfdb2-b47f-446d-9850-8581bd1d806c.jpg?1783936492",
+    "oracle": "Destroy X target artifacts.",
+    "type_line": "Sorcery"
+   },
+   {
+    "name": "Red Sun's Twilight",
+    "synergy": "0.48",
+    "img": "https://cards.scryfall.io/normal/front/7/c/7cac1827-69af-469d-b88c-fb9f2f33866a.jpg?1783918024",
+    "oracle": "Destroy up to X target artifacts. If X is 5 or more, for each artifact destroyed this way, create a token that's a copy of it. Those tokens gain haste. Exile them at the beginning of the next end step.",
+    "type_line": "Sorcery"
+   },
+   {
+    "name": "Soulfire Eruption",
+    "synergy": "0.44",
+    "img": "https://cards.scryfall.io/normal/front/2/d/2def4384-7175-4a26-a5a0-8f2c5b5ad71c.jpg?1783928807",
+    "oracle": "Choose any number of target creatures, planeswalkers, and/or players. For each of them, exile the top card of your library, then Soulfire Eruption deals damage equal to that card's mana value to that permanent or player. You may play the exiled cards until the end of your next turn.",
+    "type_line": "Sorcery"
+   },
+   {
+    "name": "Mass Manipulation",
+    "synergy": "0.39",
+    "img": "https://cards.scryfall.io/normal/front/7/8/782760d7-59cc-4d40-a885-6a7980094fee.jpg?1783933708",
+    "oracle": "Gain control of X target creatures and/or planeswalkers.",
+    "type_line": "Sorcery"
+   },
+   {
+    "name": "Meteor Blast",
+    "synergy": "0.32",
+    "img": "https://cards.scryfall.io/normal/front/d/e/de18b9ff-9847-4347-a02f-391470332f6e.jpg?1783934738",
+    "oracle": "Meteor Blast deals 4 damage to each of X targets.",
+    "type_line": "Sorcery"
+   }
+  ],
+  "Enchantments": [
+   {
+    "name": "Shark Typhoon",
+    "synergy": "0.36",
+    "img": "https://cards.scryfall.io/normal/front/2/b/2b2accb1-d77b-4633-9d0c-b972d9c014bb.jpg?1783909622",
+    "oracle": "",
+    "type_line": ""
+   }
+  ]
+ },
+ "content": {
+  "eval": {
+   "cards": {
+    "Deck": [
+     {
+      "name": "Guttersnipe",
+      "img": "https://cards.scryfall.io/normal/front/f/6/f6bb1ffc-2251-4655-b8f9-4c8047dd5d5f.jpg?1785497556",
+      "synergy": 0.20637347303729228,
+      "explanation": "**Spellslinger burn** : each instant/sorcery pings every opponent for 2 — with 36 spells, it drains the table passively.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Release the Gremlins",
+      "img": "https://cards.scryfall.io/normal/front/d/4/d4ba75be-2428-45aa-bf02-75c379a5dfa2.jpg?1783936750",
+      "synergy": 0.07905964042244741,
+      "explanation": "**X-spell finisher** : X gremlins + artifact destruction; X targets make it cheap with Hinata, and the horde attacks.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Rewind",
+      "img": "https://cards.scryfall.io/normal/front/b/8/b832abcc-9ffd-47bf-827a-01b303c610ee.jpg?1783930724",
+      "synergy": 0.22141642137009995,
+      "explanation": "**Free counterspell** : counters a spell and untaps 4 lands — a \"free\" answer that leaves mana up for another spell.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Opportunity",
+      "img": "https://cards.scryfall.io/normal/front/4/9/49233196-82e4-44c4-86f0-6eb2db7293a3.jpg?1783934832",
+      "synergy": null,
+      "explanation": "**Draw 4** : instant-speed card advantage that refills after a counter war.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Jace's Sanctum",
+      "img": "https://cards.scryfall.io/normal/front/8/1/8148adc6-7946-4abd-8601-b1f4cd6916c2.jpg?1783932779",
+      "synergy": 0.047177717317893164,
+      "explanation": "**Spell discount** : instants/sorceries cost {1} less — a second mini-Hinata for non-targeted spells.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Oona's Grace",
+      "img": "https://cards.scryfall.io/normal/front/e/2/e2128105-de04-4f51-81c7-37f30cf324d4.jpg?1783932778",
+      "synergy": null,
+      "explanation": "**Recursive draw** : retrace lets you pitch lands late game for cards, feeding your graveyard synergies.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Shreds of Sanity",
+      "img": "https://cards.scryfall.io/normal/front/7/8/782e5600-ac63-4f90-acbe-49c04d2840ee.jpg?1783937454",
+      "synergy": 0.06741289354252268,
+      "explanation": "**Flashback recursion** : casts an instant and a sorcery from your graveyard — the deck reuses its best spells.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Terramorphic Expanse",
+      "img": "https://cards.scryfall.io/normal/front/a/8/a81f924b-0527-4311-8120-9bfff71524f6.jpg?1783903191",
+      "synergy": -0.009184822846633023,
+      "explanation": "**Land fixer** : fetches any basic — budget fixing that thins the deck.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Crush Contraband",
+      "img": "https://cards.scryfall.io/normal/front/0/8/08c5cdbe-2142-4ddc-b9b5-35ca60eb9970.jpg?1783923967",
+      "synergy": 0.21108691176078803,
+      "explanation": "**Flexible removal** : exiles an artifact OR enchantment, and with two targets Hinata discounts it further.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Murmuring Mystic",
+      "img": "https://cards.scryfall.io/normal/front/9/e/9e68dcc2-bba4-4efa-97bb-3ed892037595.jpg?1783911941",
+      "synergy": 0.08356995563532886,
+      "explanation": "**Token engine** : each instant/sorcery makes a 1/1 flying Spirit — spellslinger pay-off that blocks flyers.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Baral's Expertise",
+      "img": "https://cards.scryfall.io/normal/front/d/5/d5beecd5-4267-454d-87db-24d476e1f352.jpg?1783907109",
+      "synergy": 0.5562313126988843,
+      "explanation": "**Bounce + free cast** : returns up to 3 nonland permanents (3 targets = nearly free with Hinata), then casts a free card.",
+      "in_main_hs": true
+     },
+     {
+      "name": "Midnight Clock",
+      "img": "https://cards.scryfall.io/normal/front/0/b/0b3c33b7-5b15-4b61-bfd6-1ffa823eb28a.jpg?1783911941",
+      "synergy": 0.05853393819123132,
+      "explanation": "**Ramp + wheel** : rocks to 12 counters, then draws 7 — late-game reload.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Battlefield Thaumaturge",
+      "img": "https://cards.scryfall.io/normal/front/4/6/467ffc93-b107-457c-af04-a1b682a4b886.jpg?1783939450",
+      "synergy": 0.5761443863939251,
+      "explanation": "**Discount enabler** : each spell you cast costs {1} less per creature it targets — stacks with Hinata for X-burn.",
+      "in_main_hs": true
+     },
+     {
+      "name": "Launch the Fleet",
+      "img": "https://cards.scryfall.io/normal/front/b/c/bc3e52c0-2f79-4537-8f1c-70b68836bac0.jpg?1783939456",
+      "synergy": 0.19553869781938335,
+      "explanation": "**X-spell token maker** : X Soldiers with haste for {X}{W}; X targets + Hinata = a huge board for pennies.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Pull from the Deep",
+      "img": "https://cards.scryfall.io/normal/front/a/0/a051b622-fa1d-4694-aef7-0fcdd7bff8d2.jpg?1783939444",
+      "synergy": 0.13265096609176316,
+      "explanation": "**Recursion** : returns an instant and a sorcery — value from the graveyard.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Negate",
+      "img": "https://cards.scryfall.io/normal/front/5/2/52d58fe4-6070-4022-9cd7-c35a11b44525.jpg?1783904112",
+      "synergy": 0.3962815008122053,
+      "explanation": "**Cheap counter** : answers noncreature spells; with Hinata it costs {1} less when it targets.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Prismatic Boon",
+      "img": "https://cards.scryfall.io/normal/front/f/b/fb774a9b-d29f-4f41-9fb8-a0189205e16f.jpg?1783947050",
+      "synergy": 0.25892122005306345,
+      "explanation": "**Color fixer on a stick** : adds any color to your mana pool; multi-target discounts with Hinata.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Whirlwind of Thought",
+      "img": "https://cards.scryfall.io/normal/front/a/3/a3069683-0ff5-49e5-b7ae-f5bd40a4a32f.jpg?1783903222",
+      "synergy": 0.5089940302638084,
+      "explanation": "**Draw engine** : each noncreature spell draws a card — THE spellslinger card-advantage engine.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Talrand, Sky Summoner",
+      "img": "https://cards.scryfall.io/normal/front/1/b/1be3ed47-072e-481a-b3d9-dc232ac4b24f.jpg?1783911937",
+      "synergy": 0.35468963879564475,
+      "explanation": "**Token engine** : every instant/sorcery makes a 2/2 Drake — the deck's best blocker/attacker generator.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Thriving Heath",
+      "img": "https://cards.scryfall.io/normal/front/b/b/bb089097-1eed-4e72-a715-579ddd8307a0.jpg?1783903089",
+      "synergy": null,
+      "explanation": "**Budget tri-land** : enters tapped but fixes white — reliable budget mana.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Thriving Bluff",
+      "img": "https://cards.scryfall.io/normal/front/8/2/82c96473-d7b9-48dc-9569-cdb649c78463.jpg?1783903090",
+      "synergy": null,
+      "explanation": "**Budget tri-land** : enters tapped but fixes red — reliable budget mana.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Thriving Isle",
+      "img": "https://cards.scryfall.io/normal/front/5/8/58a3b5a5-eba0-4b4e-869a-5387ec7dd2b8.jpg?1783903089",
+      "synergy": null,
+      "explanation": "**Budget tri-land** : enters tapped but fixes blue — reliable budget mana.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Channeled Force",
+      "img": "https://cards.scryfall.io/normal/front/8/9/8918d24e-8ae8-4028-9f06-ba6fafcc717e.jpg?1783931027",
+      "synergy": null,
+      "explanation": "**Card draw + removal** : discard cards to draw more and deal damage — flexible instant.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Neutralize",
+      "img": "https://cards.scryfall.io/normal/front/0/4/0430da3c-9460-4b62-ae28-2e7e6f4d06a4.jpg?1783931073",
+      "synergy": null,
+      "explanation": "**Counterspell with cycling** : counters a spell or cycles away late.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Careful Consideration",
+      "img": "https://cards.scryfall.io/normal/front/0/8/08b7224b-adb9-4c31-b0bb-1c498f2922fb.jpg?1783927853",
+      "synergy": null,
+      "explanation": "**Instant draw** : draws 4, discards 2 — fills the graveyard for recursion spells.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Dismiss into Dream",
+      "img": "https://cards.scryfall.io/normal/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935",
+      "synergy": 0.1082835268784945,
+      "explanation": "**Combo finisher** : spells that target creatures destroy them instead — with Hinata's discount, every removal nukes a board.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Icy Blast",
+      "img": "https://cards.scryfall.io/normal/front/b/0/b098f029-6b5d-49e4-9a81-f497ebbdb5ce.jpg?1783939087",
+      "synergy": 0.6073356813142784,
+      "explanation": "**X-spell tap** : taps X creatures (X targets with Hinata = discount); stalls the board.",
+      "in_main_hs": true
+     },
+     {
+      "name": "Compulsive Research",
+      "img": "https://cards.scryfall.io/normal/front/a/2/a247ab59-7749-4d37-87f6-f90f44cd54f4.jpg?1783907108",
+      "synergy": 0.06090048655339131,
+      "explanation": "**Card draw** : draws 3, discards 2 — cheap refill.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Metallurgic Summonings",
+      "img": "https://cards.scryfall.io/normal/front/3/a/3a769d7e-c749-4845-ba87-808f0386df80.jpg?1783927564",
+      "synergy": 0.46386968048655286,
+      "explanation": "**Token engine** : each instant/sorcery makes an Artifact Creature, then can cast from graveyard — spellslinger pay-off + recursion.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Paradoxical Outcome",
+      "img": "https://cards.scryfall.io/normal/front/1/7/17e50157-bf49-4c5f-9b8a-bf73484e63a5.jpg?1783937215",
+      "synergy": 0.2200294463105493,
+      "explanation": "**Value bounce** : returns your artifacts to draw cards — loops with mana rocks.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Prismatic Lens",
+      "img": "https://cards.scryfall.io/normal/front/7/4/74e8d3a8-5937-4108-b2fe-23e049379345.jpg?1783911890",
+      "synergy": null,
+      "explanation": "**Mana rock** : adds any color — budget fixing.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Myriad Landscape",
+      "img": "https://cards.scryfall.io/normal/front/a/0/a0e2098f-1d94-491a-a7e9-a45a9f69e3a8.jpg?1783906009",
+      "synergy": null,
+      "explanation": "**Land ramp** : taps for 2 basics — budget fixing + ramp.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Azorius Signet",
+      "img": "https://cards.scryfall.io/normal/front/4/1/41c50b99-4a29-4bef-8d41-c548c8a61dac.jpg?1783907017",
+      "synergy": 0.20171349582792608,
+      "explanation": "**Mana rock** : adds W or U — the format's best budget ramp.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Izzet Signet",
+      "img": "https://cards.scryfall.io/normal/front/2/c/2c747a97-9070-4c1e-b7b7-52637fbb30e1.jpg?1783907010",
+      "synergy": 0.22539986092033154,
+      "explanation": "**Mana rock** : adds U or R — the format's best budget ramp.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Mind Stone",
+      "img": "https://cards.scryfall.io/normal/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.jpg?1785759375",
+      "synergy": -0.021312214720136474,
+      "explanation": "**Mana rock** : adds colorless, cycles for a card late.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Unwind",
+      "img": "https://cards.scryfall.io/normal/front/9/7/97da6607-9131-4f8b-8af3-63439a59b78b.jpg?1783935018",
+      "synergy": 0.4018741333124235,
+      "explanation": "**Free counter + untap** : counters a spell, untaps 3 lands — leaves mana open.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Sunbird's Invocation",
+      "img": "https://cards.scryfall.io/normal/front/7/5/75c1eb6a-2183-4f60-b075-f7289df35be7.jpg?1783927539",
+      "synergy": 0.08665914860401114,
+      "explanation": "**Cascade-like engine** : each spell reveals cards until a spell with lower CMC — free spells cascade into more spells.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Boros Signet",
+      "img": "https://cards.scryfall.io/normal/front/4/9/49c37c0e-d363-4033-a069-710241cd9923.jpg?1783907016",
+      "synergy": 0.13071499668192188,
+      "explanation": "**Mana rock** : adds R or W — the format's best budget ramp.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Mystic Retrieval",
+      "img": "https://cards.scryfall.io/normal/front/8/0/806e5536-103b-4d6c-83b4-8659a55b25b5.jpg?1783908161",
+      "synergy": 0.05403774099712364,
+      "explanation": "**Recursion** : returns an instant/sorcery from graveyard, flashback doubles it.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Temple of Triumph",
+      "img": "https://cards.scryfall.io/normal/front/d/0/d0e763f7-25b8-444f-8722-614297d0663f.jpg?1783903716",
+      "synergy": -0.04361609997415866,
+      "explanation": "**Scry land** : enters tapped but scries — smoother draws.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Evolving Wilds",
+      "img": "https://cards.scryfall.io/normal/front/c/0/c0318a48-30e4-4ef7-be3d-5e561c5ce428.jpg?1783903203",
+      "synergy": -0.038942472139045364,
+      "explanation": "**Land fixer** : fetches any basic — budget fixing.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Sejiri Shelter // Sejiri Glacier",
+      "img": "",
+      "synergy": null,
+      "explanation": "**Protection land** : instant-speed hexproof/indestructible or a land — flexible slot.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Jwari Disruption // Jwari Ruins",
+      "img": "",
+      "synergy": null,
+      "explanation": "**Spell land** : counterspell or a land — flexible utility land.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Ondu Inversion // Ondu Skyruins",
+      "img": "",
+      "synergy": null,
+      "explanation": "**Wipe land** : board wipe or a land — flexible reset.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Open into Wonder",
+      "img": "https://cards.scryfall.io/normal/front/a/9/a921ff16-2cd1-4080-80a9-dd73c4eda5c7.jpg?1783929482",
+      "synergy": 0.4149004731914495,
+      "explanation": "**X-spell draw + unblockable** : draws X cards and makes X creatures unblockable — finisher enabler.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Fire Diamond",
+      "img": "https://cards.scryfall.io/normal/front/5/a/5a561484-438b-4ce9-911e-97078ac5b0fa.jpg?1783922676",
+      "synergy": null,
+      "explanation": "**Mana rock** : adds R — budget ramp.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Generous Gift",
+      "img": "https://cards.scryfall.io/normal/front/c/3/c3f9b454-97e9-4c77-b37a-e974221ae385.jpg?1783903247",
+      "synergy": -0.022037966115600216,
+      "explanation": "**Universal removal** : turns anything into a 3/3 Elephant — answer to anything, multi-target with Hinata.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Comet Storm",
+      "img": "https://cards.scryfall.io/normal/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714",
+      "synergy": 0.6199500142403658,
+      "explanation": "**X-spell finisher** : deals X damage split between any targets — with Hinata + Thaumaturge, lethal for pennies.",
+      "in_main_hs": true
+     },
+     {
+      "name": "Jaya's Immolating Inferno",
+      "img": "https://cards.scryfall.io/normal/front/3/6/365336b4-92ee-429d-8f18-4624cba5469d.jpg?1783928712",
+      "synergy": 0.1406129650591545,
+      "explanation": "**X-spell finisher** : X damage to each of X targets — the ultimate multi-target burn with Hinata.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Saw It Coming",
+      "img": "https://cards.scryfall.io/normal/front/8/7/877a1bb9-5eae-453a-bec0-a9de20ea6815.jpg?1783928256",
+      "synergy": null,
+      "explanation": "**Counterspell** : foretell keeps it cheap and hidden.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Curse of the Swine",
+      "img": "https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795",
+      "synergy": 0.7663796855154269,
+      "explanation": "**Exile removal** : turns X creatures into 2/2 Boars — X targets with Hinata = mass removal.",
+      "in_main_hs": true
+     },
+     {
+      "name": "Sejiri Refuge",
+      "img": "https://cards.scryfall.io/normal/front/b/4/b474bfdd-e0b2-4b96-b8eb-84ced9ac5a06.jpg?1783928291",
+      "synergy": null,
+      "explanation": "**Budget land** : enters tapped, gains 1 life.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Return to Dust",
+      "img": "https://cards.scryfall.io/normal/front/3/c/3c3745c2-5509-4d6b-8f49-5cb93374edea.jpg?1783909632",
+      "synergy": 0.08734474543974934,
+      "explanation": "**Exile removal** : exiles 2 artifacts/enchantments (2 targets = discount with Hinata).",
+      "in_main_hs": false
+     },
+     {
+      "name": "Feather, the Redeemed",
+      "img": "https://cards.scryfall.io/normal/front/e/4/e4a2d2c6-8eaa-4760-b620-921b807baa2e.jpg?1783933396",
+      "synergy": 0.4527828841993361,
+      "explanation": "**Recursion engine** : returns targeted spells to hand — makes cantrips/pumps repeatable.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Zaffai, Thunder Conductor",
+      "img": "https://cards.scryfall.io/normal/front/e/a/ea1ab937-8647-4c83-99d5-6a40dffa4c9b.jpg?1783927615",
+      "synergy": 0.3859403476177899,
+      "explanation": "**Spell payoff** : magecraft — scry + big spell damage; 5+ CMC spells deal 5 to the table.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Reconstruct History",
+      "img": "https://cards.scryfall.io/normal/front/3/e/3e565e38-43d5-482e-a911-ce525dfee74f.jpg?1783927298",
+      "synergy": 0.4219629330386081,
+      "explanation": "**Recursion** : returns an instant, sorcery and artifact from graveyard — massive value.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Lorehold Campus",
+      "img": "https://cards.scryfall.io/normal/front/b/6/b6ad08da-c9e8-4061-a4a6-032d6957a403.jpg?1783903727",
+      "synergy": null,
+      "explanation": "**Budget land** : tapped, can cycle for W or R.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Prismari Campus",
+      "img": "https://cards.scryfall.io/normal/front/7/c/7c464dee-dd89-4955-ae40-8bb74e9ff42a.jpg?1783903723",
+      "synergy": null,
+      "explanation": "**Budget land** : tapped, can cycle for U or R.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Radiant Scrollwielder",
+      "img": "https://cards.scryfall.io/normal/front/c/8/c8152ab0-c6fc-4568-b837-4e84129e7b57.jpg?1783927297",
+      "synergy": 0.13942386221209585,
+      "explanation": "**Recursion + lifegain** : exiles instants/sorceries from graveyard to cast again; spells heal.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Semester's End",
+      "img": "https://cards.scryfall.io/normal/front/d/b/db2bb091-ac6d-4c99-bdf6-70ffb6291ef0.jpg?1783915447",
+      "synergy": 0.2712729743261835,
+      "explanation": "**Protection** : blinks your creatures (saves them) or buffs them — combat trick + save.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Elementalist's Palette",
+      "img": "https://cards.scryfall.io/normal/front/f/8/f892e316-95c9-4e68-8eb0-96f71a862f2b.jpg?1783903740",
+      "synergy": 0.1929047181648918,
+      "explanation": "**Mana rock + charge** : adds any color, stores counters for X-spells — X-spell enabler.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Commander's Insight",
+      "img": "https://cards.scryfall.io/normal/front/1/a/1a40e4da-a631-4423-b70f-701b27b09f79.jpg?1783903823",
+      "synergy": null,
+      "explanation": "**Card draw** : draws X+1 where X = number of targets — multi-target draw with Hinata.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Aether Gale",
+      "img": "https://cards.scryfall.io/normal/front/4/e/4e336e87-e5af-46a0-8caf-5d9ad8d671fd.jpg?1783903794",
+      "synergy": 0.43584002445400316,
+      "explanation": "**Bounce removal** : returns 6 nonland permanents (6 targets = huge discount with Hinata).",
+      "in_main_hs": false
+     },
+     {
+      "name": "Temple of Epiphany",
+      "img": "https://cards.scryfall.io/normal/front/c/c/cc63cd97-de9e-4d31-babb-aaad1277169e.jpg?1783903716",
+      "synergy": -0.019619399658951597,
+      "explanation": "**Scry land** : enters tapped but scries — smoother draws.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Deekah, Fractal Theorist",
+      "img": "https://cards.scryfall.io/normal/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791",
+      "synergy": 0.3245442869876764,
+      "explanation": "**Token engine** : magecraft makes a Fractal token with power = spell's mana value — huge tokens.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Command Tower",
+      "img": "https://cards.scryfall.io/normal/front/0/5/0548fb60-c843-4f8f-a029-6f10efc63a41.jpg?1783903206",
+      "synergy": -0.009578354028167646,
+      "explanation": "**Best land** : adds any color — auto-include.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Step Through",
+      "img": "https://cards.scryfall.io/normal/front/7/1/716534cb-aa89-4de7-9aa5-8d8aa4422a6a.jpg?1783926869",
+      "synergy": 0.0670578260577056,
+      "explanation": "**Wizard tutor** : finds a Wizard (Talrand, Deekah, Zaffai…) and can be cast via wizardcycling.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Liquimetal Torque",
+      "img": "https://cards.scryfall.io/normal/front/1/3/13c6101a-da40-4785-8ccb-4e779bbbdb55.jpg?1783926804",
+      "synergy": null,
+      "explanation": "**Mana rock + enabler** : makes permanents artifacts — turns removal into universal answers.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Said // Done",
+      "img": "https://cards.scryfall.io/normal/front/4/3/43ab3ed2-2b50-4488-a21f-60965222970a.jpg?1783926872",
+      "synergy": null,
+      "explanation": "**Draw + counterspell** : both halves in one card — flexible.",
+      "in_main_hs": false
+     },
+     {
+      "name": "You Find the Villains' Lair",
+      "img": "https://cards.scryfall.io/normal/front/c/6/c6704458-6e9e-4795-a56d-25b68fbf9672.jpg?1783926504",
+      "synergy": null,
+      "explanation": "**Modal removal** : counterspell, destroy creature, or draw — choose per situation.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Smoke Spirits' Aid",
+      "img": "https://cards.scryfall.io/normal/front/e/4/e492a245-46ba-438e-8d81-4626faa49bff.jpg?1783923991",
+      "synergy": 0.42094783786597806,
+      "explanation": "**X-spell pump** : gives X creatures +1/+1 and flying — go-wide finisher with Hinata.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Temple of Enlightenment",
+      "img": "https://cards.scryfall.io/normal/front/d/d/dd139d4d-3a40-4015-93de-c838c64156c6.jpg?1783906003",
+      "synergy": -0.040304180481452734,
+      "explanation": "**Scry land** : enters tapped but scries — smoother draws.",
+      "in_main_hs": false
+     },
+     {
+      "name": "March of Swirling Mist",
+      "img": "https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901",
+      "synergy": 0.7121819036472575,
+      "explanation": "**Protection** : X creatures phase out (X targets = discount); saves your board from wipes.",
+      "in_main_hs": true
+     },
+     {
+      "name": "Marble Diamond",
+      "img": "https://cards.scryfall.io/normal/front/0/9/0930f71c-c3c8-4bdd-8468-6a61349cc8ca.jpg?1783922673",
+      "synergy": null,
+      "explanation": "**Mana rock** : adds W — budget ramp.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Sky Diamond",
+      "img": "https://cards.scryfall.io/normal/front/d/4/d47abfb2-9bcf-485c-9bd4-2c09b714eb32.jpg?1783922666",
+      "synergy": null,
+      "explanation": "**Mana rock** : adds U — budget ramp.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Ash Barrens",
+      "img": "https://cards.scryfall.io/normal/front/e/8/e8510205-4baa-4f1c-bf64-5d931e2ddf48.jpg?1783904155",
+      "synergy": null,
+      "explanation": "**Land fixer** : cycles for a basic — budget fixing.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Deep Analysis",
+      "img": "https://cards.scryfall.io/normal/front/1/a/1a297bae-f259-4fc7-b76a-285f972d69e3.jpg?1783903240",
+      "synergy": 0.1561165429665199,
+      "explanation": "**Card draw** : draws 2, flashback makes it 4 total — efficient.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Young Pyromancer",
+      "img": "https://cards.scryfall.io/normal/front/c/0/c0d74ecd-a595-4012-81b4-083264b40c94.jpg?1783907139",
+      "synergy": 0.295793099843756,
+      "explanation": "**Token engine** : each instant/sorcery makes a 1/1 Elemental — the classic spellslinger engine.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Elsha of the Infinite",
+      "img": "https://cards.scryfall.io/normal/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837",
+      "synergy": 0.17845560641921981,
+      "explanation": "**Topdeck engine** : plays instants/sorceries from the top of the library — free spells with prowess payoff.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Exotic Orchard",
+      "img": "https://cards.scryfall.io/normal/front/d/1/d11c5fe0-1528-4c94-a8cc-42bcab9d7487.jpg?1785759427",
+      "synergy": 0.01334677903931436,
+      "explanation": "**Budget land** : copies opponents' colors — fixing.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Mystic Monastery",
+      "img": "https://cards.scryfall.io/normal/front/b/c/bc23343a-3a01-4975-8430-17bf15fa639d.jpg?1783903198",
+      "synergy": 0.01204209264615086,
+      "explanation": "**Budget tri-land** : enters tapped, fixes Jeskai.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Island",
+      "img": "https://cards.scryfall.io/normal/front/f/3/f3cc07cd-cc79-4745-b0b7-eade60175cc3.jpg?1785981645",
+      "synergy": 0.007451399579549656,
+      "explanation": "**Basic** : blue mana — the core of the draw/counter shell.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Mountain",
+      "img": "https://cards.scryfall.io/normal/front/2/a/2a844b96-6616-4c39-8f4f-5d14a3b2bd55.jpg?1785981666",
+      "synergy": 0.002036005264385077,
+      "explanation": "**Basic** : red mana — the core of the burn shell.",
+      "in_main_hs": false
+     },
+     {
+      "name": "Plains",
+      "img": "https://cards.scryfall.io/normal/front/8/a/8ab0f4c0-b331-4c57-b68f-2e24bb5ba06c.jpg?1785981632",
+      "synergy": -0.002045628061991378,
+      "explanation": "**Basic** : white mana — the core of the protection/flex shell.",
+      "in_main_hs": false
+     }
+    ]
+   },
+   "verdict": {
+    "favored": "Spellslinger & X Spells — co-favorites",
+    "score_spellslinger": 4,
+    "score_xspells": 4,
+    "score_control": 4,
+    "text": [
+     "**Spellslinger (606) and X Spells (539) are co-favorites**: 4 of the deck's cards sit in each plan's EDHREC High Synergy pool (Curse of the Swine, March of Swirling Mist, Comet Storm + Thaumaturge/Icy Blast) — the list is built exactly around Hinata's multi-target discount.",
+     "**The list is a budget spellslinger core**: 36 instants/sorceries (43% of nonland cards), 5 token engines (Young Pyromancer, Talrand, Murmuring Mystic, Deekah, Metallurgic Summonings) and 3 recursion engines (Feather, Radiant Scrollwielder, Mystic Retrieval) — the classic Jeskai storm-ish shell.",
+     "**Structural notes**: 22 lands (below the 36-38 target) but 13 ramp pieces (12 rocks + Myriad Landscape) compensate; only 3 dedicated draw spells but Whirlwind of Thought + token engines provide repeatable value; 11 interaction pieces with 5 counterspells — control plan viable.",
+     "**Biggest gap**: no commander protection (only March of Swirling Mist / Semester's End as one-shots) — Hinata removed = deck slows a lot; and the X-burn finishers need the commander alive."
+    ]
+   },
+   "structure": {
+    "avg_cmc_nonland": 3.26,
+    "roles": [
+     {
+      "role": "Lands",
+      "slots": 22,
+      "ideal": "36-38",
+      "status": "under"
+     },
+     {
+      "role": "Ramp / Acceleration",
+      "slots": 13,
+      "ideal": "10-12",
+      "status": "over"
+     },
+     {
+      "role": "Card Advantage / Draw",
+      "slots": 3,
+      "ideal": "10-12",
+      "status": "under"
+     },
+     {
+      "role": "Interaction / Removal",
+      "slots": 11,
+      "ideal": "10-12",
+      "status": "ok"
+     },
+     {
+      "role": "Engines / Synergies",
+      "slots": 10,
+      "ideal": "30-35",
+      "status": "under"
+     },
+     {
+      "role": "Wincons / Finishers",
+      "slots": 2,
+      "ideal": "30-35",
+      "status": "under"
+     },
+     {
+      "role": "Flex / Personal Slots",
+      "slots": 23,
+      "ideal": "3-5",
+      "status": "over"
+     },
+     {
+      "role": "Board Wipes",
+      "slots": 0,
+      "ideal": "2-3",
+      "status": "under"
+     }
+    ],
+    "summary": [
+     "**Structure**: 22 lands · 13 ramp · 11 interaction · 10 engines · 23 flex · avg CMC 3.26 (nonland).",
+     "**Low-to-the-ground spellslinger**: cheap instants/sorceries (median 2) fuel the token engines.",
+     "**Gaps**: only 22 lands (target 36-38) — the curve is low but greedy X-spells need mana; no dedicated board wipes (Ondu Inversion is the only reset, as a land); draw is thin (3 dedicated spells) but Whirlwind of Thought + engines compensate."
+    ]
+   }
+  }
+ }
+}

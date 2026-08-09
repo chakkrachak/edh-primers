@@ -53,16 +53,27 @@ def cardify(text, card_names, img_of=None):
                  'mercy', 'saint', 'prophet', 'priest', 'monk', 'sky', 'sea', 'earth'}
     # noms complets + formes courtes (avant virgule), triés par longueur décroissante.
     # short→full permet de retrouver l'image d'un badge au prénom (Adeline → Adeline, Resplendent Cathar).
+    # Les formes courtes AMBIGUËS (même prénom pour plusieurs cartes — ex. 5× « Kaito » dans
+    # Yuriko) sont EXCLUES : sans ça la résolution dépend de l'ordre du set Python (non
+    # déterministe, et le badge pointerait une carte arbitraire).
     variants = set()
+    short_counts = {}
+    for n in card_names:
+        if not n:
+            continue
+        short = n.split(',')[0].strip()
+        if len(short) >= 4:
+            short_counts[short] = short_counts.get(short, 0) + 1
     short_to_full = {}
     for n in card_names:
         if not n:
             continue
         variants.add(n)
         short = n.split(',')[0].strip()
-        if len(short) >= 4 and short.lower() not in BAD_SHORT:
+        if (len(short) >= 4 and short.lower() not in BAD_SHORT
+                and short_counts.get(short, 0) == 1):
             variants.add(short)
-            short_to_full.setdefault(short, n)
+            short_to_full[short] = n
     names = sorted(variants, key=len, reverse=True)
     # img_of élargi : nom exact, puis forme courte → nom complet (Adeline → Adeline, Resplendent Cathar)
     def img_lookup(name):
@@ -109,9 +120,67 @@ def syn_cls(score):
         return ""
     return "syn-hi" if score >= 0.7 else ("syn-mid" if score >= 0.4 else "syn-lo")
 
+def _merge_fiche(d, slug, kind):
+    """Fusionne la fiche L2 du commander (data/cache/l2/commanders/<slug>.json) dans les
+    données du rapport si elle existe. kind = 'primer' (build_one) ou 'eval' (build_precon).
+    La fiche centralise les données commander-level ; le JSON deck/precon garde les textes
+    IA spécifiques. Sans fiche : fallback silencieux sur l'ancien format."""
+    try:
+        from fiche import load_fiche
+        fiche = load_fiche(slug)
+        if not fiche:
+            return
+        cmdr = fiche['commander']
+        if kind == 'primer':
+            # --- commander sheet depuis la fiche ---
+            d['commander_name'] = cmdr['name']
+            d['type_line'] = cmdr.get('type_line', d.get('type_line', ''))
+            d['color_id'] = cmdr.get('color_id', d.get('color_id', ''))
+            d['rarity'] = cmdr.get('rarity', d.get('rarity', ''))
+            d['legality'] = cmdr.get('legality', d.get('legality', ''))
+            d['power'] = cmdr.get('power', d.get('power', ''))
+            d['toughness'] = cmdr.get('toughness', d.get('toughness', ''))
+            d['oracle_text'] = cmdr.get('oracle', d.get('oracle_text', ''))
+            d['mana_cost_html'] = mana_symbols(cmdr.get('mana_cost', ''))
+            # --- données cartes depuis la fiche (imgs/oracle/card_meta/synergy/combos) ---
+            if fiche.get('imgs'):
+                d['imgs'] = fiche['imgs']
+            if fiche.get('oracle'):
+                d['oracle'] = fiche['oracle']
+            if fiche.get('card_meta'):
+                d['card_meta'] = fiche['card_meta']
+            if fiche.get('synergy'):
+                d['synergy'] = fiche['synergy']
+            if fiche.get('combos') is not None:
+                d['combos'] = fiche['combos']
+            # --- contenu IA spécifique primer (si présent dans la fiche) ---
+            pc = fiche.get('content', {}).get('primer', {})
+            for k in ('quick_read', 'plan_title', 'plan_html', 'plan_cards',
+                      'source_html', 'combos_note', 'explanations',
+                      'cat_synopsis', 'cat_order', 'mana_cost_html', 'extra_table_rows'):
+                if pc.get(k):
+                    d[k] = pc[k]
+        else:
+            # --- eval : commander + données + contenu depuis la fiche ---
+            d['commander'] = cmdr
+            for k in ('imgs', 'oracle', 'card_meta', 'synergy', 'hs_imgs', 'type_recs'):
+                if fiche.get(k):
+                    d[k] = fiche[k]
+            if fiche.get('combos') is not None:
+                d['combos'] = fiche['combos']
+            if fiche.get('plans'):
+                d['plans'] = fiche['plans']
+            ec = fiche.get('content', {}).get('eval', {})
+            for k in ('cards', 'verdict', 'structure'):
+                if ec.get(k):
+                    d[k] = ec[k]
+    except Exception as e:
+        print(f'  ⚠️ _merge_fiche({slug}, {kind}) : {e} (fallback ancien format)')
+
 def build_one(slug):
     with open(f'{DATA_DIR}/{slug}.json', encoding='utf-8') as f:
         d = json.load(f)
+    _merge_fiche(d, slug, 'primer')
 
     # --- normalize synergy keys (HTML entities) ---
     synergy = {H.unescape(str(k)): v for k, v in (d['synergy'] or {}).items()}
@@ -441,6 +510,7 @@ def build_precon(slug):
     """Rend une évaluation de deck (precon) : data/precons/<slug>.json + templates/precon.html."""
     with open(f'{PRECON_DIR}/{slug}.json', encoding='utf-8') as f:
         d = json.load(f)
+    _merge_fiche(d, slug, 'eval')
 
     cmdr = d['commander']
     # images globales : cartes du deck + cartes de combos (pour les blocs combo)
@@ -516,7 +586,7 @@ def build_precon(slug):
             score = c.get('synergy')
             cards_by_role[role].append({
                 'name': c['name'], 'img': c['img'],
-                'explanation': cardify(c.get('explanation', ''), all_names, img_of),
+                'explanation': cardify(bold(c.get('explanation', '')), all_names, img_of),
                 'synergy': f'{score:.2f}' if score is not None else None,
                 'syn_cls': syn_cls(score),
             })
@@ -571,7 +641,7 @@ def build_precon(slug):
                 'img': (card_info or {}).get('img', ''),
                 'synergy': f'{score:.2f}' if score is not None else None,
                 'syn_cls': syn_cls(score),
-                'explanation': expl,
+                'explanation': cardify(bold(expl), all_names, img_of),
             })
         hs_len = max(len(p.get('high_synergy', [])), 1)
         pct = int(round(len(p.get('deck_matches', [])) / hs_len * 100))
