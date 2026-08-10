@@ -566,8 +566,16 @@ def detect_upgrades(d):
             n = h if isinstance(h, str) else h.get('name', '')
             syn = None if isinstance(h, str) else h.get('synergy')
             if n and n not in deck_names:
-                # texte L2 par plan : « **Rôle** : explication » (rédigé dans la fiche)
-                txt = (card_plan_texts.get(n, {}) or {}).get(p['tag'], '')
+                # texte L2 par plan : « **Rôle** : explication » (rédigé dans la fiche).
+                # Fallback hiérarchique : texte du plan → texte général __general__ →
+                # premier texte dispo (toute carte affichée doit avoir un texte — user 2026-08-10).
+                card_texts = card_plan_texts.get(n, {}) or {}
+                txt = card_texts.get(p['tag'], '') or card_texts.get('__general__', '')
+                if not txt:
+                    for v in card_texts.values():
+                        if v:
+                            txt = v
+                            break
                 pool.append({
                     'name': n, 'img': hs_imgs.get(n, ''),
                     'synergy': f'{syn:.2f}' if syn is not None else None,
@@ -603,7 +611,7 @@ def detect_upgrades(d):
             exec_steps = [s.strip() for s in re.split(r'\.\s*|\n', desc) if s.strip()]
             combo_cards.append({
                 'combo': ' + '.join(names),
-                'title': cb.get('title', ''),
+                'title': cb.get('title') or ' + '.join(names),
                 'missing': [{'name': n, 'img': hs_imgs.get(n, '')} for n in missing],
                 'in_deck': [n for n in names if n in deck_names],
                 'popularity': cb.get('popularity', 0),
@@ -788,8 +796,14 @@ def build_precon(slug):
             score = (card_info or {}).get('synergy')
             expl = (card_info or {}).get('explanation', '')
             # texte de synergie spécifique au plan (triplet général+plan+carte) s'il existe,
-            # sinon fallback sur l'explication générale de la carte
-            plan_text = (d.get('card_plan_texts', {}).get(mname) or {}).get(p['tag'])
+            # sinon fallback général __general__ → premier texte dispo → explication deck
+            card_texts = (d.get('card_plan_texts', {}).get(mname) or {})
+            plan_text = card_texts.get(p['tag'], '') or card_texts.get('__general__', '')
+            if not plan_text:
+                for v in card_texts.values():
+                    if v:
+                        plan_text = v
+                        break
             if plan_text:
                 expl = plan_text
             match_cards.append({

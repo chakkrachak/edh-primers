@@ -1932,8 +1932,8 @@
     "name": "Joshua, Phoenix's Dominant",
     "synergy": "0.44",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "When Joshua enters, discard up to two cards, then draw that many cards.\n{3}{R}{W}, {T}: Exile Joshua, then return it to the battlefield transformed under its owner's control. Activate only as a sorcery. // (As this Saga enters and after your draw step, add a lore counter.)\nI, II — Rising Flames — Phoenix deals 2 damage to each opponent.\nIII — Flames of Rebirth — Return any number of target creature cards with total mana value 6 or less from your graveyard to the battlefield. Exile Phoenix, then return it to the battlefield (front face up).\nFlying, lifelink",
+    "type_line": "Legendary Creature — Human Noble Wizard // Legendary Enchantment Creature — Saga Phoenix"
    },
    {
     "name": "Aurelia, the Warleader",
@@ -1974,36 +1974,36 @@
     "name": "Sister Hospitaller",
     "synergy": "0.4",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "Medicus Ministorum — When this creature enters, return target creature card from your graveyard to the battlefield. You gain life equal to its mana value.",
+    "type_line": "Creature — Human Cleric"
    },
    {
     "name": "Twilight Diviner",
     "synergy": "0.36",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "When this creature enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\nWhenever one or more other creatures you control enter, if they entered or were cast from a graveyard, create a token that's a copy of one of them. This ability triggers only once each turn.",
+    "type_line": "Creature — Elf Cleric"
    },
    {
     "name": "Squall, SeeD Mercenary",
     "synergy": "0.35",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "Rough Divide — Whenever a creature you control attacks alone, it gains double strike until end of turn.\nWhenever Squall deals combat damage to a player, return target permanent card with mana value 3 or less from your graveyard to the battlefield.",
+    "type_line": "Legendary Creature — Human Knight Mercenary"
    },
    {
     "name": "Loran of the Third Path",
     "synergy": "0.31",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "Vigilance\nWhen Loran enters, destroy up to one target artifact or enchantment.\n{T}: You and target opponent each draw a card.",
+    "type_line": "Legendary Creature — Human Artificer"
    },
    {
     "name": "Summon: Knights of Round",
     "synergy": "0.35",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after V.)\nI, II, III, IV — Create three 2/2 white Knight creature tokens.\nV — Ultimate End — Other creatures you control get +2/+2 until end of turn. Put an indestructible counter on each of them.\nIndestructible",
+    "type_line": "Enchantment Creature — Saga Knight"
    },
    {
     "name": "Fear of Missing Out",
@@ -2016,8 +2016,8 @@
     "name": "Luminous Broodmoth",
     "synergy": "0.33",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "Flying\nWhenever a creature you control without flying dies, return it to the battlefield under its owner's control with a flying counter on it.",
+    "type_line": "Creature — Insect"
    },
    {
     "name": "Summon: Esper Valigarmanda",
@@ -2030,22 +2030,22 @@
     "name": "Selfless Spirit",
     "synergy": "0.29",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "Flying\nSacrifice this creature: Creatures you control gain indestructible until end of turn.",
+    "type_line": "Creature — Spirit Cleric"
    },
    {
     "name": "Accursed Marauder",
     "synergy": "0.32",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "When this creature enters, each player sacrifices a nontoken creature of their choice.",
+    "type_line": "Creature — Zombie Warrior"
    },
    {
     "name": "Braids, Arisen Nightmare",
     "synergy": "0.3",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "At the beginning of your end step, you may sacrifice an artifact, creature, enchantment, land, or planeswalker. If you do, each opponent may sacrifice a permanent of their choice that shares a card type with it. For each opponent who doesn't, that player loses 2 life and you draw a card.",
+    "type_line": "Legendary Creature — Nightmare"
    },
    {
     "name": "Kefka, Dancing Mad",
@@ -2058,22 +2058,22 @@
     "name": "Grave Researcher",
     "synergy": "0.26",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "At the beginning of your upkeep, surveil 1. Then if there are three or more creature cards in your graveyard, this creature becomes prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.) // Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to that card's mana value.",
+    "type_line": "Creature — Troll Warlock // Sorcery"
    },
    {
     "name": "Witch Enchanter",
     "synergy": "0.22",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "When this creature enters, destroy target artifact or enchantment an opponent controls. // As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {W}.",
+    "type_line": "Creature — Human Warlock // Land"
    },
    {
     "name": "Pinnacle Monk",
     "synergy": "0.26",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhen this creature enters, return target instant or sorcery card from your graveyard to your hand. // As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {R}.",
+    "type_line": "Creature — Djinn Monk // Land"
    },
    {
     "name": "Edgar, Master Machinist",
@@ -2086,8 +2086,8 @@
     "name": "Vile Entomber",
     "synergy": "0.23",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhen this creature enters, search your library for a card, put that card into your graveyard, then shuffle.",
+    "type_line": "Creature — Zombie Warlock"
    }
   ],
   "Instants": [
@@ -2137,8 +2137,8 @@
     "name": "Entomb",
     "synergy": "0.22",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "Search your library for a card, put that card into your graveyard, then shuffle.",
+    "type_line": "Instant"
    }
   ],
   "Sorceries": [
@@ -2146,15 +2146,15 @@
     "name": "Faithless Looting",
     "synergy": "0.36",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "Draw two cards, then discard two cards.\nFlashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+    "type_line": "Sorcery"
    },
    {
     "name": "Buried Alive",
     "synergy": "0.42",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "Search your library for up to three creature cards, put them into your graveyard, then shuffle.",
+    "type_line": "Sorcery"
    },
    {
     "name": "Rejoin the Fight",
@@ -2188,8 +2188,8 @@
     "name": "Victimize",
     "synergy": "0.26",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "Choose two target creature cards in your graveyard. Sacrifice a creature. If you do, return the chosen cards to the battlefield tapped.",
+    "type_line": "Sorcery"
    },
    {
     "name": "Snort",
@@ -2213,8 +2213,8 @@
     "name": "Ripples of Undeath",
     "synergy": "0.37",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "At the beginning of your first main phase, mill three cards. Then you may pay {1} and 3 life. If you do, put a card from among those cards into your hand.",
+    "type_line": "Enchantment"
    }
   ],
   "Utility Lands": [
@@ -2415,15 +2415,15 @@
     "name": "Witch Enchanter",
     "synergy": "0.22",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "When this creature enters, destroy target artifact or enchantment an opponent controls. // As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {W}.",
+    "type_line": "Creature — Human Warlock // Land"
    },
    {
     "name": "Pinnacle Monk",
     "synergy": "0.26",
     "img": "",
-    "oracle": "",
-    "type_line": ""
+    "oracle": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nWhen this creature enters, return target instant or sorcery card from your graveyard to your hand. // As this land enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {R}.",
+    "type_line": "Creature — Djinn Monk // Land"
    }
   ]
  }

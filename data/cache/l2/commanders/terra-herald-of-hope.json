@@ -12638,6 +12638,15 @@
    "Graveyard": "**Recursion** : rebuys the best equipment each turn.",
    "Self-Mill": "**Mill synergy** : equipment in the yard become resources.",
    "Mill": "**Mill payoff** : turns milled equipment into board presence."
+  },
+  "Alesha, Who Laughs at Fate": {
+   "__general__": "**Aggro reanimator** : on attack, recurs a small creature from the yard — a 2/2 flyer that keeps the pressure on."
+  },
+  "General Leo Cristophe": {
+   "__general__": "**Reanimation payoff** : pumps and protects your reanimated army while gaining life — a Mill-plan engine."
+  },
+  "Ripples of Undeath": {
+   "__general__": "**Yard filler** : mills several cards and gains life — fuels the reanimation plan at instant speed."
   }
  },
  "content": {
