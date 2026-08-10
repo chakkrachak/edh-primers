@@ -548,3 +548,6 @@ h2[data-collapse].collapsed::before { content: '\25B8 '; }
   font-weight: 700;
   vertical-align: 1px;
 }
+
+/* Détail d'un groupe combiné dans la structure (ex. Engines + Wincons) */
+.score-detail { font-size: 11px; color: #8a94b8; font-weight: 400; }

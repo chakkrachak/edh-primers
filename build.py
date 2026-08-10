@@ -366,10 +366,20 @@ def build_one(slug, plan_tag=None):
         if not cards:
             continue
         cat_names = [c['name'] for c in cards]
+        target = ROLE_TARGETS[role]
+        # option B : clarifier les targets combinés (ex. « 30-35 (Engines + Wincons combined) »)
+        m = re.search(r'\((.+?)\s+combined\)', target)
+        if m:
+            members = [x.strip() for x in m.group(1).split('+')]
+            target_display = (f"{target.split('(')[0].strip()} — shared quota "
+                              f"across {', '.join(members)} (total, not per role)")
+        else:
+            target_display = target
         categories.append({
             'title': ROLE_TITLES[role],
             'synopsis': ROLE_SYNOPSES[role],
-            'target': ROLE_TARGETS[role],
+            'target': target,
+            'target_display': target_display,
             'copy_btn': copy_btn(cat_names),
             'cards': cards,
             'n': len(cards),
@@ -822,21 +832,86 @@ def build_precon(slug):
             if any(k in n for k in kws):
                 return key
         return None
-    roles = []
-    for r in structure.get('roles', []):
-        lo, hi = r['ideal'].split('-')
-        lo, hi = int(lo), int(hi)
-        key = _map_role(r['role'])
-        if key is None:
-            # ligne IA sans correspondance : garder les slots rédigés
-            slots = r.get('slots', 0)
-            status = r.get('status', 'ok')
+    # --- groupes combinés détectés depuis ROLE_TARGETS (« 30-35 (A + B combined) ») ---
+    import re as _re
+    combined = {}          # rôle → nom du groupe
+    group_members = {}     # nom du groupe → [rôles]
+    for role in ROLE_ORDER:
+        m = _re.search(r'\((.+?)\s+combined\)', ROLE_TARGETS[role])
+        if m:
+            members = [x.strip() for x in m.group(1).split('+')]
+            members = [x for x in members if x in ROLE_ORDER]
+            if members:
+                gname = ' + '.join(members)
+                combined[role] = gname
+                group_members.setdefault(gname, [])
+                for mm in members:
+                    if mm not in group_members[gname]:
+                        group_members[gname].append(mm)
+    # ordre d'affichage : les rôles non combinés + les groupes (à la position du 1er membre)
+    display_order = []
+    seen_groups = set()
+    for role in ROLE_ORDER:
+        g = combined.get(role)
+        if g:
+            if g not in seen_groups:
+                seen_groups.add(g)
+                display_order.append(('group', g))
         else:
-            slots = role_slots[key]
-            status = 'under' if slots < lo else ('over' if slots > hi else 'ok')
+            display_order.append(('role', role))
+    # ideal d'un groupe = target du premier membre (sans le suffixe combiné)
+    def _group_ideal(gname):
+        first = group_members[gname][0]
+        return ROLE_TARGETS[first].split('(')[0].strip()
+    roles = []
+    # noms éditoriaux IA : {role_key: nom_affiché} depuis structure.roles
+    ia_names = {}
+    for r in structure.get('roles', []):
+        k = _map_role(r['role'])
+        if k:
+            ia_names.setdefault(k, r['role'])
+    # si un nom IA couvre plusieurs membres d'un groupe (ex. « Synergies/Wincons »), il
+    # représente le groupe entier → ne pas le recombiner avec les noms individuels.
+    # Détection : le nom contient un séparateur (/ ou +) et des mots-clés de ≥2 membres.
+    for gname, members in group_members.items():
+        for r in structure.get('roles', []):
+            n = r['role'].lower()
+            if ('/' not in n and '+' not in n) or len(members) < 2:
+                continue
+            hits = set()
+            for m in members:
+                for kw in ROLE_KEYWORDS[m]:
+                    if kw in n:
+                        hits.add(m)  # un membre par mot-clé, pas un hit par kw
+            if len(hits) >= 2:
+                ia_names[gname] = r['role']
+                for m in members:
+                    ia_names.pop(m, None)
+    for kind, name in display_order:
+        if kind == 'group':
+            members = group_members[name]
+            slots = sum(role_slots[m] for m in members)
+            ideal = _group_ideal(name)
+            detail = ' + '.join(f'{role_slots[m]} {m.lower()}' for m in members)
+            # nom éditorial : un nom IA couvrant le groupe entier, sinon fusion des membres
+            if name in ia_names:
+                display_name = ia_names[name]
+            else:
+                ia_parts = [ia_names.get(m, m) for m in members]
+                display_name = ' + '.join(ia_parts) if all(ia_parts) else name
+        else:
+            members = [name]
+            slots = role_slots[name]
+            ideal = ROLE_TARGETS[name].split('(')[0].strip()
+            detail = ''
+            display_name = ia_names.get(name, name)
+        lo, hi = ideal.split('-')
+        lo, hi = int(lo), int(hi)
+        status = 'under' if slots < lo else ('over' if slots > hi else 'ok')
         span = max(hi - lo, 1)
         roles.append({
-            'role': r['role'], 'slots': slots, 'ideal': r['ideal'], 'status': status,
+            'role': display_name, 'slots': slots, 'ideal': ideal, 'status': status,
+            'detail': detail,
             'pct': max(0, min(100, int(round(slots / (hi * 1.4) * 100)))),
             'fill_cls': 'fill-under' if status == 'under' else ('fill-over' if status == 'over' else ''),
         })

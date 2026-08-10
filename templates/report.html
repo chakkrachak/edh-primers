@@ -38,7 +38,7 @@
 
 {% for cat in categories %}
 <div class="category collapsible" data-collapse="{% if loop.index <= 2 %}expanded{% else %}collapsed{% endif %}"><h3>{{ cat.title }} {{ cat.copy_btn }}</h3>
-<div class="summary">🎯 Build target: {{ cat.target }} — {{ cat.synopsis }}</div>
+<div class="summary">🎯 Build target: {{ cat.target_display }} — {{ cat.synopsis }}</div>
 <div class="card-grid">
 {% for card in cat.cards %}
     <div class="card-block">

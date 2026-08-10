@@ -119,7 +119,7 @@
 <div class="verdict">
 <div class="verdict-scores">
 {% for r in structure.roles %}
-<div class="score-row"><span class="score-name">{{ r.role }}</span><div class="score-bar"><div class="score-fill {{ r.fill_cls }}" style="width: {{ r.pct }}%"></div></div><span class="score-val">{{ r.slots }} / {{ r.ideal }}</span></div>
+<div class="score-row"><span class="score-name">{{ r.role }}{% if r.detail %}<span class="score-detail"> ({{ r.detail }})</span>{% endif %}</span><div class="score-bar"><div class="score-fill {{ r.fill_cls }}" style="width: {{ r.pct }}%"></div></div><span class="score-val">{{ r.slots }} / {{ r.ideal }}</span></div>
 {% endfor %}
 </div>
 <p><strong>Average CMC (non-land): {{ structure.avg_cmc|safe }} — {% if structure.avg_cmc_num > 3.2 %}⚠️ above the ≤ 3.2 golden rule{% else %}✅ within the ≤ 3.2 golden rule{% endif %}</strong></p>
