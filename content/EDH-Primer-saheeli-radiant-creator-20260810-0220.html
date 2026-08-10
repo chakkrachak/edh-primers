@@ -13,6 +13,7 @@
 <li><a href="#s2">Chosen Game Plan</a></li>
 <li><a href="#s3">Cards by Role (8)</a></li>
 <li><a href="#s4">Relevant Combos (11)</a></li>
+<li class="toc-top"><a href="#top">↑ Back to top</a></li>
 </ol></div>
 
 <h2 id="s1">1. Commander Sheet <button class="copy-btn" data-copy="Saheeli, Radiant Creator" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h2>
@@ -883,7 +884,7 @@
 <div class="warning"><strong>⚠️ Note</strong>: 284 raw combos found (search across 26 key pieces) → 146 Temur-compatible → 26 relevant (overlap ≥ 2/3 with the EDHREC pool, 2-4 cards, popularity ≥ 100) → 11 mechanical families (duplicate loops merged). 138 combos discarded off-color. Produces/Prerequisites/Execution reproduce Commander Spellbook content verbatim.</div>
 
 <p class="report-footer">
-Report v2 generated on 2026-08-10 01:57 · Sources: Scryfall API (names, Oracle texts, images, official symbols) · EDHREC (data, synergy scores) · Commander Spellbook (combos) · EDHREC Articles (guides)<br>
+Report v2 generated on 2026-08-10 02:20 · Sources: Scryfall API (names, Oracle texts, images, official symbols) · EDHREC (data, synergy scores) · Commander Spellbook (combos) · EDHREC Articles (guides)<br>
 All images and symbols come from the official Scryfall servers. Explanations are verified against the Oracle texts. Combo Produces/Prerequisites/Execution sections reproduce Commander Spellbook content verbatim (unmodified, in English).</p>
 
 <div id="modal" onclick="closeModal()">
@@ -919,5 +920,11 @@ function copyText(text){
   if(navigator.clipboard && window.isSecureContext){ navigator.clipboard.writeText(text).then(function(){ done(btn); }, fallback); }
   else{ fallback(); }
 }
+</script>
+<a href="#top" id="backTop" title="Back to top" aria-label="Back to top">↑</a>
+<script>
+window.addEventListener('scroll', function(){
+  document.getElementById('backTop').classList.toggle('show', window.scrollY > 400);
+}, {passive:true});
 </script>
 </body></html>

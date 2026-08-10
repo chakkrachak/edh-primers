@@ -13,6 +13,7 @@
 <li><a href="#s2">Chosen Game Plan</a></li>
 <li><a href="#s3">Cards by Role (7)</a></li>
 <li><a href="#s4">Relevant Combos (14)</a></li>
+<li class="toc-top"><a href="#top">↑ Back to top</a></li>
 </ol></div>
 
 <h2 id="s1">1. Commander Sheet <button class="copy-btn" data-copy="Slogurk, the Overslime" onclick="copyText(this.getAttribute('data-copy'))" title="Copy card list">📋</button></h2>
@@ -826,7 +827,7 @@
 <div class="warning"><strong>⚠️ Note</strong>: 92 Simic combos set aside (insufficient overlap, 5+ cards, low popularity, or variants of the same family) and 181 off-color. Produces/Prerequisites/Execution reproduce Commander Spellbook content verbatim (unmodified, in English).</div>
 
 <p class="report-footer">
-Report v2 generated on 2026-08-10 01:57 · Sources: Scryfall API (names, Oracle texts, images, official symbols) · EDHREC (data, synergy scores) · Commander Spellbook (combos) · EDHREC Articles (guides)<br>
+Report v2 generated on 2026-08-10 02:20 · Sources: Scryfall API (names, Oracle texts, images, official symbols) · EDHREC (data, synergy scores) · Commander Spellbook (combos) · EDHREC Articles (guides)<br>
 All images and symbols come from the official Scryfall servers. Explanations are verified against the Oracle texts. Combo Produces/Prerequisites/Execution sections reproduce Commander Spellbook content verbatim (unmodified, in English).</p>
 
 <div id="modal" onclick="closeModal()">
@@ -862,5 +863,11 @@ function copyText(text){
   if(navigator.clipboard && window.isSecureContext){ navigator.clipboard.writeText(text).then(function(){ done(btn); }, fallback); }
   else{ fallback(); }
 }
+</script>
+<a href="#top" id="backTop" title="Back to top" aria-label="Back to top">↑</a>
+<script>
+window.addEventListener('scroll', function(){
+  document.getElementById('backTop').classList.toggle('show', window.scrollY > 400);
+}, {passive:true});
 </script>
 </body></html>

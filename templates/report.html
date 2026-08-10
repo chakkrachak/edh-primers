@@ -13,6 +13,7 @@
 <li><a href="#s2">Chosen Game Plan</a></li>
 <li><a href="#s3">Cards by Role ({{ n_categories }})</a></li>
 <li><a href="#s4">Relevant Combos ({{ n_combos }})</a></li>
+<li class="toc-top"><a href="#top">↑ Back to top</a></li>
 </ol></div>
 
 <h2 id="s1">1. Commander Sheet {{ copy_btn_cmd }}</h2>
@@ -113,5 +114,11 @@ function copyText(text){
   if(navigator.clipboard && window.isSecureContext){ navigator.clipboard.writeText(text).then(function(){ done(btn); }, fallback); }
   else{ fallback(); }
 }
+</script>
+<a href="#top" id="backTop" title="Back to top" aria-label="Back to top">↑</a>
+<script>
+window.addEventListener('scroll', function(){
+  document.getElementById('backTop').classList.toggle('show', window.scrollY > 400);
+}, {passive:true});
 </script>
 </body></html>

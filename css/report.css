@@ -11,6 +11,7 @@
 }
 .back-link a:hover { text-decoration: underline; }
 * { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
 
 body {
   background: linear-gradient(160deg, #10101c, var(--bg-3) 60%, #16213e);
@@ -491,3 +492,29 @@ ul.quick-read li strong { color: var(--accent-green); }
   border-bottom: 1px dashed rgba(255,212,121,.5);
 }
 
+
+/* Back to top (user request, 2026-08-10) */
+.toc-top { list-style: none; margin-top: 4px; }
+.toc-top a { color: var(--accent-blue); font-weight: 700; text-decoration: none; font-size: 12.5px; }
+.toc-top a:hover { text-decoration: underline; }
+#backTop {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--accent-blue);
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  display: none;
+  place-items: center;
+  box-shadow: 0 2px 12px rgba(0,0,0,.4);
+  z-index: 50;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity .25s, transform .15s;
+}
+#backTop.show { display: grid; opacity: 1; }
+#backTop:hover { transform: translateY(-2px); }

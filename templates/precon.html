@@ -16,6 +16,7 @@
 <li><a href="#s5">Filler Cards ({{ n_fillers }})</a></li>
 <li><a href="#s6">Upgrades ({{ n_upgrades_hs }} + {{ n_upgrades_utility }} + {{ n_upgrades_combos }})</a></li>
 <li><a href="#s7">Verdict</a></li>
+<li class="toc-top"><a href="#top">↑ Back to top</a></li>
 </ol></div>
 
 <h2 id="s1">1. Commander Sheet {{ copy_btn_cmd }}</h2>
@@ -211,5 +212,11 @@ function copyText(text){
     document.body.appendChild(ta); ta.select(); try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); }
   if(navigator.clipboard && window.isSecureContext){ navigator.clipboard.writeText(text).then(()=>{}, fallback); } else { fallback(); }
 }
+</script>
+<a href="#top" id="backTop" title="Back to top" aria-label="Back to top">↑</a>
+<script>
+window.addEventListener('scroll', function(){
+  document.getElementById('backTop').classList.toggle('show', window.scrollY > 400);
+}, {passive:true});
 </script>
 </body></html>
