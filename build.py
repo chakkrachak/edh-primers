@@ -292,7 +292,7 @@ def build_one(slug, plan_tag=None):
     ctx = {
         'commander_name': d['commander_name'],
         'plan_title': d['plan_title'],
-        'n_combos': len(d['combos']),
+        'n_combos': len(chosen.get('combos', []) or []) if (plan_tag and 'chosen' in dir() and chosen) else len(d['combos']),
         'copy_btn_cmd': copy_btn([d['commander_name']]),
         'copy_btn_plan': copy_btn(d['plan_cards']),
         'commander_big': big_card(commander_img, d['commander_name'], 260),
@@ -394,8 +394,12 @@ def build_one(slug, plan_tag=None):
     ctx['n_categories'] = len(categories)
 
     # --- combos ---
+    # primer --plan : ne montrer que les combos du plan choisi (sinon tous)
+    plan_combos_src = d['combos']
+    if plan_tag and 'chosen' in dir() and chosen:
+        plan_combos_src = chosen.get('combos', []) or []
     combos = []
-    for c in d['combos']:
+    for c in plan_combos_src:
         names = [u['card']['name'] for u in c.get('uses', [])]
         pop = c.get('popularity') or 0
         identity = c.get('identity') or ''
