@@ -679,6 +679,7 @@ def build_precon(slug):
             cimg = c.get('img') or d.get('imgs', {}).get(c['name'], '')
             cards_by_role[role].append({
                 'name': c['name'], 'img': cimg,
+                'quantity': c.get('quantity', 1) or 1,
                 'explanation': cardify(bold(c.get('explanation', '')), all_names, img_of),
                 'synergy': f'{score:.2f}' if score is not None else None,
                 'syn_cls': syn_cls(score),
@@ -695,9 +696,11 @@ def build_precon(slug):
             'target': ROLE_TARGETS[role],
             'copy_btn': copy_btn(names), 'cards': cards,
             'n': len(cards),
+            'n_qty': sum(c.get('quantity', 1) or 1 for c in cards),
         })
     ctx['categories'] = categories
     ctx['n_cards'] = sum(c['n'] for c in categories)
+    ctx['n_cards_qty'] = sum(c['n_qty'] for c in categories)
     ctx['n_total'] = n_total
     ctx['n_categories'] = len(categories)
 
@@ -788,16 +791,54 @@ def build_precon(slug):
     }
 
     # --- structure analysis (build principles) ---
+    # Les slots sont RECALCULÉS au build en EXEMPLAIRES (quantités des cartes —
+    # les basic lands en multiple comptent réellement), jamais pré-rédigés.
+    # Le nom IA de chaque ligne est mappé vers un/plusieurs rôles ROLE_ORDER.
     structure = d.get('structure', {})
+    # quantités par carte (défaut 1)
+    qty_of = {}
+    for cat in d['cards'].values():
+        for c in cat:
+            qty_of[c['name']] = c.get('quantity', 1) or 1
+    role_slots = {r: 0 for r in ROLE_ORDER}
+    for cat in d['cards'].values():
+        for c in cat:
+            meta = d.get('card_meta', {}).get(c['name'], {})
+            oracle_txt = d.get('oracle', {}).get(c['name'], '')
+            role = assign_role(c['name'], meta, oracle_txt,
+                               is_engine_hint=c['name'] in hs_names,
+                               is_combo_piece=c['name'] in combo_pieces)
+            role_slots[role] += qty_of.get(c['name'], 1)
+    ROLE_KEYWORDS = {
+        'Lands': ['land'], 'Ramp': ['ramp', 'acceleration'],
+        'CardAdvantage': ['draw', 'card advantage'],
+        'Interaction': ['interaction', 'removal'], 'Wipes': ['wipe', 'board wipes'],
+        'Engines': ['engine', 'synergie'], 'Wincons': ['wincon', 'finisher'],
+        'Flex': ['flex', 'personal'],
+    }
+    def _map_role(name):
+        n = (name or '').lower()
+        for key, kws in ROLE_KEYWORDS.items():
+            if any(k in n for k in kws):
+                return key
+        return None
     roles = []
     for r in structure.get('roles', []):
         lo, hi = r['ideal'].split('-')
         lo, hi = int(lo), int(hi)
+        key = _map_role(r['role'])
+        if key is None:
+            # ligne IA sans correspondance : garder les slots rédigés
+            slots = r.get('slots', 0)
+            status = r.get('status', 'ok')
+        else:
+            slots = role_slots[key]
+            status = 'under' if slots < lo else ('over' if slots > hi else 'ok')
         span = max(hi - lo, 1)
         roles.append({
-            'role': r['role'], 'slots': r['slots'], 'ideal': r['ideal'], 'status': r['status'],
-            'pct': max(0, min(100, int(round(r['slots'] / (hi * 1.4) * 100)))),
-            'fill_cls': 'fill-under' if r['status'] == 'under' else ('fill-over' if r['status'] == 'over' else ''),
+            'role': r['role'], 'slots': slots, 'ideal': r['ideal'], 'status': status,
+            'pct': max(0, min(100, int(round(slots / (hi * 1.4) * 100)))),
+            'fill_cls': 'fill-under' if status == 'under' else ('fill-over' if status == 'over' else ''),
         })
     ctx['structure'] = {
         'roles': roles,

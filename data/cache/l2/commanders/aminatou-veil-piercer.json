@@ -2848,154 +2848,176 @@
       "img": "https://cards.scryfall.io/normal/front/2/7/27e2477d-4f04-408d-8c39-8a886ac81f44.jpg?1783909661",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "A growing horror for an enchantment deck: it gets +1/+1 for each enchantment you control, and with Aminatou's miracle discount you can cast it out of nowhere."
+      "explanation": "A growing horror for an enchantment deck: it gets +1/+1 for each enchantment you control, and with Aminatou's miracle discount you can cast it out of nowhere.",
+      "quantity": 1
      },
      {
       "name": "Archetype of Imagination",
       "img": "https://cards.scryfall.io/normal/front/2/0/204972f7-8111-4e7d-97c4-53bcdc222230.jpg?1783909628",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Gives your enchantments' creatures flying and takes it away from opponents — the evasion that lets your enchantress payoffs connect."
+      "explanation": "Gives your enchantments' creatures flying and takes it away from opponents — the evasion that lets your enchantress payoffs connect.",
+      "quantity": 1
      },
      {
       "name": "Arvinox, the Mind Flail",
       "img": "https://cards.scryfall.io/normal/front/f/8/f81e3110-857c-4074-9c55-7e87c22051c9.jpg?1783909623",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Exiles the top of opponents' libraries and lets you cast their spells — card advantage tied to the enchantment count via its nightmare scaling."
+      "explanation": "Exiles the top of opponents' libraries and lets you cast their spells — card advantage tied to the enchantment count via its nightmare scaling.",
+      "quantity": 1
      },
      {
       "name": "Athreos, Shroud-Veiled",
       "img": "https://cards.scryfall.io/normal/front/f/5/f50ffa76-f704-4d53-a15c-8316b07c1d12.jpg?1783909597",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "A god who puts coin counters on creatures and returns them when they die — recurring your enchantresses and big threats over and over."
+      "explanation": "A god who puts coin counters on creatures and returns them when they die — recurring your enchantresses and big threats over and over.",
+      "quantity": 1
      },
      {
       "name": "Auramancer",
       "img": "https://cards.scryfall.io/normal/front/d/0/d0957032-6d98-4cac-889b-890e9bfe1f86.jpg?1783909633",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Returns an enchantment from your graveyard to hand — key recursion for the Enchantress plan when your auras or payoffs get destroyed."
+      "explanation": "Returns an enchantment from your graveyard to hand — key recursion for the Enchantress plan when your auras or payoffs get destroyed.",
+      "quantity": 1
      },
      {
       "name": "Burnished Hart",
       "img": "https://cards.scryfall.io/normal/front/6/5/65ebbff0-fbe6-4310-a33f-e00bb2534979.jpg?1783909049",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Sacrifices to ramp two basics — colorless fixing that gets you to the 5-6 mana the big enchantments need."
+      "explanation": "Sacrifices to ramp two basics — colorless fixing that gets you to the 5-6 mana the big enchantments need.",
+      "quantity": 1
      },
      {
       "name": "Demon of Fate's Design",
       "img": "https://cards.scryfall.io/normal/front/0/d/0d3668fe-78d9-4c2c-8c83-5cace9d39e03.jpg?1783909621",
       "synergy": 0.71,
       "in_main_hs": true,
-      "explanation": "A flying demon that exiles cards from graveyards and grows from enchantments — both a beater and a graveyard-hate engine for the miracle plan."
+      "explanation": "A flying demon that exiles cards from graveyards and grows from enchantments — both a beater and a graveyard-hate engine for the miracle plan.",
+      "quantity": 1
      },
      {
       "name": "Doomwake Giant",
       "img": "https://cards.scryfall.io/normal/front/0/b/0be3f848-ba01-4890-a3a1-ed0dfb564632.jpg?1783903786",
       "synergy": 0.68,
       "in_main_hs": true,
-      "explanation": "Constellation: each enchantment you play makes all opponents' creatures -1/-1 — mass removal stapled to your Enchantress engine."
+      "explanation": "Constellation: each enchantment you play makes all opponents' creatures -1/-1 — mass removal stapled to your Enchantress engine.",
+      "quantity": 1
      },
      {
       "name": "Dream Eater",
       "img": "https://cards.scryfall.io/normal/front/c/7/c721d449-fc77-4d86-8baf-158181e37087.jpg?1783909628",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Flash flyer that surveils 4 and bounces a nonland permanent on entry — instant-speed disruption that feeds the topdeck plan."
+      "explanation": "Flash flyer that surveils 4 and bounces a nonland permanent on entry — instant-speed disruption that feeds the topdeck plan.",
+      "quantity": 1
      },
      {
       "name": "Fear of Sleep Paralysis",
       "img": "https://cards.scryfall.io/normal/front/8/4/845e9d68-11a9-4759-a031-13464d337e12.jpg?1783909663",
       "synergy": 0.67,
       "in_main_hs": true,
-      "explanation": "An enchantment creature that gets +1/+1 per enchantment and can tap a defender each turn — enchantress synergy plus combat control."
+      "explanation": "An enchantment creature that gets +1/+1 per enchantment and can tap a defender each turn — enchantress synergy plus combat control.",
+      "quantity": 1
      },
      {
       "name": "Mesa Enchantress",
       "img": "https://cards.scryfall.io/normal/front/c/4/c4f9e9fc-8b89-40ee-9b20-10e4a23e6333.jpg?1783909643",
       "synergy": 0.69,
       "in_main_hs": true,
-      "explanation": "The classic Enchantress: draw a card whenever you cast an enchantment — THE engine card of the plan, with every enchantment cantripping."
+      "explanation": "The classic Enchantress: draw a card whenever you cast an enchantment — THE engine card of the plan, with every enchantment cantripping.",
+      "quantity": 1
      },
      {
       "name": "Metamorphosis Fanatic",
       "img": "https://cards.scryfall.io/normal/front/1/6/16448d95-ee21-4def-b880-26f6f159c213.jpg?1783909658",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Sacrifices itself to reanimate an enchantment from your graveyard — recursion for the miracle plan."
+      "explanation": "Sacrifices itself to reanimate an enchantment from your graveyard — recursion for the miracle plan.",
+      "quantity": 1
      },
      {
       "name": "Moon-Blessed Cleric",
       "img": "https://cards.scryfall.io/normal/front/0/5/0555e095-8c6f-4436-80fe-99b641fad2df.jpg?1783909642",
       "synergy": 0.69,
       "in_main_hs": true,
-      "explanation": "A cleric that tutors any enchantment from your deck to your hand — the toolbox piece that finds your best enchantress payoff."
+      "explanation": "A cleric that tutors any enchantment from your deck to your hand — the toolbox piece that finds your best enchantress payoff.",
+      "quantity": 1
      },
      {
       "name": "Nightmare Shepherd",
       "img": "https://cards.scryfall.io/normal/front/c/0/c03c1ad6-3122-4267-80d6-94ecf1ff3884.jpg?1783909617",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "When your creatures die, it makes a copy token that exiles itself at end of turn — value from deaths without losing the enchantment synergy."
+      "explanation": "When your creatures die, it makes a copy token that exiles itself at end of turn — value from deaths without losing the enchantment synergy.",
+      "quantity": 1
      },
      {
       "name": "Ondu Spiritdancer",
       "img": "https://cards.scryfall.io/normal/front/e/e/ee1c6432-54d7-4b57-a554-f7194d74e03c.jpg?1783909632",
       "synergy": 0.7,
       "in_main_hs": true,
-      "explanation": "Draw a card whenever an Aura enters and creates a copy of it — doubles your auras and your draw, an enchantress all-star."
+      "explanation": "Draw a card whenever an Aura enters and creates a copy of it — doubles your auras and your draw, an enchantress all-star.",
+      "quantity": 1
      },
      {
       "name": "Phenomenon Investigators",
       "img": "https://cards.scryfall.io/normal/front/5/7/57195155-6bdf-43c3-9f2e-11c31aef6b9c.jpg?1783909653",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Whenever you draw a card, investigate — with the enchantress draw engine, you drown in Clue tokens."
+      "explanation": "Whenever you draw a card, investigate — with the enchantress draw engine, you drown in Clue tokens.",
+      "quantity": 1
      },
      {
       "name": "Prognostic Sphinx",
       "img": "https://cards.scryfall.io/normal/front/d/9/d9d36763-2975-4b5c-aeda-2d0159cb5191.jpg?1783909624",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Flying, can be made hexproof, and lets you scry 3 when it attacks — evasion + topdeck control that fuels miracle."
+      "explanation": "Flying, can be made hexproof, and lets you scry 3 when it attacks — evasion + topdeck control that fuels miracle.",
+      "quantity": 1
      },
      {
       "name": "Soaring Lightbringer",
       "img": "https://cards.scryfall.io/normal/front/f/c/fc7895bf-a5fe-45bd-bc57-c4abe0703900.jpg?1783909663",
       "synergy": 0.59,
       "in_main_hs": true,
-      "explanation": "A flyer that exiles a graveyard when it enters and returns from the graveyard when a creature dies — recurring graveyard hate."
+      "explanation": "A flyer that exiles a graveyard when it enters and returns from the graveyard when a creature dies — recurring graveyard hate.",
+      "quantity": 1
      },
      {
       "name": "Solemn Simulacrum",
       "img": "https://cards.scryfall.io/normal/front/d/a/daafd816-f7c1-4630-9e5c-a1e5db570a35.jpg?1783903212",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Ramps a basic, draws a card, and replaces itself when it dies — the standard colorless value creature."
+      "explanation": "Ramps a basic, draws a card, and replaces itself when it dies — the standard colorless value creature.",
+      "quantity": 1
      },
      {
       "name": "Starfield Mystic",
       "img": "https://cards.scryfall.io/normal/front/e/8/e8f2fcb4-8d06-49ac-9c70-9c54d77c6d86.jpg?1783903798",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Enchantments you cast cost {1} less and it has vigilance — mana discount that accelerates the enchantment engine."
+      "explanation": "Enchantments you cast cost {1} less and it has vigilance — mana discount that accelerates the enchantment engine.",
+      "quantity": 1
      },
      {
       "name": "The Master of Keys",
       "img": "https://cards.scryfall.io/normal/front/3/5/3545341b-dacc-4ac8-976e-39754a62bbc3.jpg?1783909663",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "The precon's alternate commander: opens Rooms and reanimates enchantments from the graveyard — a second enchantment engine in the 99."
+      "explanation": "The precon's alternate commander: opens Rooms and reanimates enchantments from the graveyard — a second enchantment engine in the 99.",
+      "quantity": 1
      },
      {
       "name": "Verge Rangers",
       "img": "https://cards.scryfall.io/normal/front/c/6/c63a5253-b3b7-48d0-8c2c-700fbd0e4c3f.jpg?1783909629",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Vigilance plus land ramp when it enters — fixing that helps cast the expensive enchantments on curve."
+      "explanation": "Vigilance plus land ramp when it enters — fixing that helps cast the expensive enchantments on curve.",
+      "quantity": 1
      }
     ],
     "Instants": [
@@ -3004,63 +3026,72 @@
       "img": "https://cards.scryfall.io/normal/front/5/e/5eb843ef-b223-40d0-a461-54b16d188d0e.jpg?1783903242",
       "synergy": 0.43,
       "in_main_hs": true,
-      "explanation": "Counters a spell and replaces itself — the budget counterspell that doesn't lose you card advantage."
+      "explanation": "Counters a spell and replaces itself — the budget counterspell that doesn't lose you card advantage.",
+      "quantity": 1
      },
      {
       "name": "Brainstorm",
       "img": "https://cards.scryfall.io/normal/front/b/5/b5545882-6963-4729-b2c6-fb4bdc75ffcc.jpg?1783904806",
       "synergy": 0.67,
       "in_main_hs": true,
-      "explanation": "Draws 3 and puts 2 back — the best topdeck-control cantrip: it sets up miracles and keeps your best cards."
+      "explanation": "Draws 3 and puts 2 back — the best topdeck-control cantrip: it sets up miracles and keeps your best cards.",
+      "quantity": 1
      },
      {
       "name": "Inkshield",
       "img": "https://cards.scryfall.io/normal/front/3/3/3362ade8-d585-40be-8486-382cad6efaf8.jpg?1783903751",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Fogs all combat damage and makes a flying 2/1 token per damage prevented — the surprise blocker that turns a lost combat into a board."
+      "explanation": "Fogs all combat damage and makes a flying 2/1 token per damage prevented — the surprise blocker that turns a lost combat into a board.",
+      "quantity": 1
      },
      {
       "name": "Otherworldly Gaze",
       "img": "https://cards.scryfall.io/normal/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg?1783909625",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Surveils 3 for one mana — cheap topdeck setup that also fills the graveyard for miracle recursion."
+      "explanation": "Surveils 3 for one mana — cheap topdeck setup that also fills the graveyard for miracle recursion.",
+      "quantity": 1
      },
      {
       "name": "Return to Dust",
       "img": "https://cards.scryfall.io/normal/front/3/c/3c3745c2-5509-4d6b-8f49-5cb93374edea.jpg?1783909632",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Exiles two artifacts/enchantments at instant speed — the catch-all answer for the table's engines."
+      "explanation": "Exiles two artifacts/enchantments at instant speed — the catch-all answer for the table's engines.",
+      "quantity": 1
      },
      {
       "name": "Swords to Plowshares",
       "img": "https://cards.scryfall.io/normal/front/b/4/b4e9c870-23c0-413a-ae39-265f09da16d1.jpg?1783903243",
       "synergy": 0.08,
       "in_main_hs": true,
-      "explanation": "Exiles any creature for one mana — the format's best removal, here to protect your enchantress board."
+      "explanation": "Exiles any creature for one mana — the format's best removal, here to protect your enchantress board.",
+      "quantity": 1
      },
      {
       "name": "Telling Time",
       "img": "https://cards.scryfall.io/normal/front/c/2/c2616749-699b-4928-8984-aba630d3397a.jpg?1783909641",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Looks at the top 3 and picks one for hand or top — topdeck setup that keeps miracles live."
+      "explanation": "Looks at the top 3 and picks one for hand or top — topdeck setup that keeps miracles live.",
+      "quantity": 1
      },
      {
       "name": "Thirst for Meaning",
       "img": "https://cards.scryfall.io/normal/front/b/9/b91bd773-b36b-4a7a-a9e4-3a07cff90646.jpg?1783909622",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Draws 3, discards an enchantment — the precon's signature draw that fills the graveyard for recursion."
+      "explanation": "Draws 3, discards an enchantment — the precon's signature draw that fills the graveyard for recursion.",
+      "quantity": 1
      },
      {
       "name": "Utter End",
       "img": "https://cards.scryfall.io/normal/front/1/8/1819a0af-0775-431d-9637-13f8f10830f5.jpg?1783909636",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Exiles any nonland permanent — flexible removal for anything that threatens the plan."
+      "explanation": "Exiles any nonland permanent — flexible removal for anything that threatens the plan.",
+      "quantity": 1
      }
     ],
     "Sorceries": [
@@ -3069,63 +3100,72 @@
       "img": "https://cards.scryfall.io/normal/front/5/0/503448da-d14f-4759-85b6-0db2e90e0241.jpg?1783909645",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Exiles the top 8 and casts all nonland cards from among them for free — the ultimate topdeck payoff, casting your whole deck for free."
+      "explanation": "Exiles the top 8 and casts all nonland cards from among them for free — the ultimate topdeck payoff, casting your whole deck for free.",
+      "quantity": 1
      },
      {
       "name": "Diabolic Vision",
       "img": "https://cards.scryfall.io/normal/front/c/3/c360753a-af32-4f1d-a1c7-c3f3c075ecc0.jpg?1783909637",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Surveils 5 then draws — massive topdeck setup that makes the next miracle almost guaranteed."
+      "explanation": "Surveils 5 then draws — massive topdeck setup that makes the next miracle almost guaranteed.",
+      "quantity": 1
      },
      {
       "name": "Entreat the Angels",
       "img": "https://cards.scryfall.io/normal/front/f/f/ff4411bc-ed4e-4d54-9e1b-21fc77b0e415.jpg?1783909633",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "A miracle sorcery: creates X 4/4 Angel tokens, but its miracle cost makes it 5 cheaper — the perfect Aminatou payoff."
+      "explanation": "A miracle sorcery: creates X 4/4 Angel tokens, but its miracle cost makes it 5 cheaper — the perfect Aminatou payoff.",
+      "quantity": 1
      },
      {
       "name": "Ponder",
       "img": "https://cards.scryfall.io/normal/front/d/c/dc69f960-68ba-4315-8146-6a7a82047503.jpg?1783907102",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Top 3 manipulation + draw — the cantrip that sets up your miracle draws."
+      "explanation": "Top 3 manipulation + draw — the cantrip that sets up your miracle draws.",
+      "quantity": 1
      },
      {
       "name": "Portent",
       "img": "https://cards.scryfall.io/normal/front/5/b/5b360632-9c81-4b9c-8b9f-ac0b51c974a0.jpg?1783909642",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Top 3 manipulation + draw at next upkeep — like Ponder but plays around the miracle timing even better."
+      "explanation": "Top 3 manipulation + draw at next upkeep — like Ponder but plays around the miracle timing even better.",
+      "quantity": 1
      },
      {
       "name": "Read the Bones",
       "img": "https://cards.scryfall.io/normal/front/b/3/b3198f96-f9d8-494f-a556-24ce3ad3895d.jpg?1783909615",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Draws 2, loses 2 life, and scries 2 — solid card advantage with topdeck setup."
+      "explanation": "Draws 2, loses 2 life, and scries 2 — solid card advantage with topdeck setup.",
+      "quantity": 1
      },
      {
       "name": "Redress Fate",
       "img": "https://cards.scryfall.io/normal/front/1/9/19f56096-f692-4719-af38-6a4955f2b65c.jpg?1783909662",
       "synergy": 0.75,
       "in_main_hs": true,
-      "explanation": "Returns an enchantment from your graveyard and creates a token copy of it — recursion + doubling for the enchantress engine."
+      "explanation": "Returns an enchantment from your graveyard and creates a token copy of it — recursion + doubling for the enchantress engine.",
+      "quantity": 1
      },
      {
       "name": "Terminus",
       "img": "https://cards.scryfall.io/normal/front/4/c/4c53c684-37f9-4b95-88be-a42b9600c47c.jpg?1783909643",
       "synergy": 0.59,
       "in_main_hs": true,
-      "explanation": "A miracle board wipe: puts all creatures on the bottom of libraries for just {W} with the miracle discount — the cleanest reset."
+      "explanation": "A miracle board wipe: puts all creatures on the bottom of libraries for just {W} with the miracle discount — the cleanest reset.",
+      "quantity": 1
      },
      {
       "name": "Time Wipe",
       "img": "https://cards.scryfall.io/normal/front/e/b/eb4b75e6-3080-412b-bf40-b6029ea8bbfe.jpg?1783907017",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Bounces your own creatures and wipes the rest — asymmetric wipe that keeps your enchantress creatures."
+      "explanation": "Bounces your own creatures and wipes the rest — asymmetric wipe that keeps your enchantress creatures.",
+      "quantity": 1
      }
     ],
     "Artifacts": [
@@ -3134,49 +3174,56 @@
       "img": "https://cards.scryfall.io/normal/front/1/c/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd.jpg?1783903222",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "The best mana rock: one mana of any color in your commander's identity."
+      "explanation": "The best mana rock: one mana of any color in your commander's identity.",
+      "quantity": 1
      },
      {
       "name": "Azorius Signet",
       "img": "https://cards.scryfall.io/normal/front/4/1/41c50b99-4a29-4bef-8d41-c548c8a61dac.jpg?1783907017",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Filters to W/U — fixing for the Esper manabase."
+      "explanation": "Filters to W/U — fixing for the Esper manabase.",
+      "quantity": 1
      },
      {
       "name": "Brainstone",
       "img": "https://cards.scryfall.io/normal/front/6/e/6e86ad39-2a90-466d-b188-056216429f4e.jpg?1783909587",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Draws 3 and puts 2 back for {2} — an artifact Brainstorm that sets up miracles on demand."
+      "explanation": "Draws 3 and puts 2 back for {2} — an artifact Brainstorm that sets up miracles on demand.",
+      "quantity": 1
      },
      {
       "name": "Commander's Sphere",
       "img": "https://cards.scryfall.io/normal/front/a/0/a0d50603-e31f-4cd7-b4b6-49847d99eb2e.jpg?1783904531",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Ramp that draws a card when sacrificed — replaces itself in the endgame."
+      "explanation": "Ramp that draws a card when sacrificed — replaces itself in the endgame.",
+      "quantity": 1
      },
      {
       "name": "Mind Stone",
       "img": "https://cards.scryfall.io/normal/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.jpg?1785759375",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "A 2-mana rock that draws when sacrificed — efficient ramp with late-game value."
+      "explanation": "A 2-mana rock that draws when sacrificed — efficient ramp with late-game value.",
+      "quantity": 1
      },
      {
       "name": "Orzhov Signet",
       "img": "https://cards.scryfall.io/normal/front/9/0/90894726-1940-4291-a05c-b85cefbfa344.jpg?1783907008",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Filters to W/B — fixing for the Esper manabase."
+      "explanation": "Filters to W/B — fixing for the Esper manabase.",
+      "quantity": 1
      },
      {
       "name": "Sol Ring",
       "img": "https://cards.scryfall.io/normal/front/9/1/91fdb56b-54d5-4272-8319-505ff987fe9b.jpg?1783903215",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "The best ramp in the format: two colorless on turn 1."
+      "explanation": "The best ramp in the format: two colorless on turn 1.",
+      "quantity": 1
      }
     ],
     "Enchantments": [
@@ -3185,105 +3232,120 @@
       "img": "https://cards.scryfall.io/normal/front/6/0/606fe87c-d17b-4fa7-8e82-e7002d8229ef.jpg?1783909499",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "A Room that exiles a creature (then returns it) and loots — the precon's room synergies with The Master of Keys."
+      "explanation": "A Room that exiles a creature (then returns it) and loots — the precon's room synergies with The Master of Keys.",
+      "quantity": 1
      },
      {
       "name": "Cast Out",
       "img": "https://cards.scryfall.io/normal/front/4/b/4b491874-4be1-496a-bf04-abe1f5af4482.jpg?1783909633",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Flash enchantment that exiles any nonland permanent and cycles — flexible removal that also plays with enchantress."
+      "explanation": "Flash enchantment that exiles any nonland permanent and cycles — flexible removal that also plays with enchantress.",
+      "quantity": 1
      },
      {
       "name": "Cramped Vents // Access Maze",
       "img": "https://cards.scryfall.io/normal/front/7/b/7ba1e27e-ed0d-438c-9ec6-a48a04718512.jpg?1783909659",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "A Room that damages and taps, plus a man-land side — flexibility from one card."
+      "explanation": "A Room that damages and taps, plus a man-land side — flexibility from one card.",
+      "quantity": 1
      },
      {
       "name": "Extravagant Replication",
       "img": "https://cards.scryfall.io/normal/front/6/a/6a41dfae-bc7e-4105-8f7e-fd0109197ad8.jpg?1783909081",
       "synergy": 0.75,
       "in_main_hs": true,
-      "explanation": "Makes a token copy of an artifact/enchantment each upkeep — doubles your best enchantment every turn."
+      "explanation": "Makes a token copy of an artifact/enchantment each upkeep — doubles your best enchantment every turn.",
+      "quantity": 1
      },
      {
       "name": "Life Insurance",
       "img": "https://cards.scryfall.io/normal/front/6/0/60e1921e-6c98-4c60-88f4-8fbb6f30236e.jpg?1783909592",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Draws a card and makes a token when your creatures die — value from the deaths the deck suffers."
+      "explanation": "Draws a card and makes a token when your creatures die — value from the deaths the deck suffers.",
+      "quantity": 1
      },
      {
       "name": "Mirrormade",
       "img": "https://cards.scryfall.io/normal/front/a/2/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b.jpg?1783909627",
       "synergy": 0.56,
       "in_main_hs": true,
-      "explanation": "Enters as a copy of any artifact/enchantment — a second copy of your best engine."
+      "explanation": "Enters as a copy of any artifact/enchantment — a second copy of your best engine.",
+      "quantity": 1
      },
      {
       "name": "Monologue Tax",
       "img": "https://cards.scryfall.io/normal/front/e/e/ee68d390-11cb-4617-a9ee-6e8cf7ff0e55.jpg?1783903246",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Whenever an opponent casts their second spell, makes a Treasure — passive ramp in a reactive game."
+      "explanation": "Whenever an opponent casts their second spell, makes a Treasure — passive ramp in a reactive game.",
+      "quantity": 1
      },
      {
       "name": "One with the Multiverse",
       "img": "https://cards.scryfall.io/normal/front/1/c/1c85ae22-ccd0-4649-a736-1915043daae7.jpg?1783909627",
       "synergy": 0.8,
       "in_main_hs": true,
-      "explanation": "The topdeck engine: play from the top of your library and get a free copy trigger — the ultimate payoff for the topdeck/miracle plan."
+      "explanation": "The topdeck engine: play from the top of your library and get a free copy trigger — the ultimate payoff for the topdeck/miracle plan.",
+      "quantity": 1
      },
      {
       "name": "Secret Arcade // Dusty Parlor",
       "img": "https://cards.scryfall.io/normal/front/f/e/fe050c16-9be5-42ef-988f-0531a8bb2352.jpg?1783909661",
       "synergy": 0.6,
       "in_main_hs": true,
-      "explanation": "A Room that makes tokens and a man-land — board presence from enchantments."
+      "explanation": "A Room that makes tokens and a man-land — board presence from enchantments.",
+      "quantity": 1
      },
      {
       "name": "Shark Typhoon",
       "img": "https://cards.scryfall.io/normal/front/2/b/2b2accb1-d77b-4633-9d0c-b972d9c014bb.jpg?1783909622",
       "synergy": 0.73,
       "in_main_hs": true,
-      "explanation": "Creates a Shark token with power equal to mana spent whenever you cast a noncreature spell — every spell becomes a flying threat."
+      "explanation": "Creates a Shark token with power equal to mana spent whenever you cast a noncreature spell — every spell becomes a flying threat.",
+      "quantity": 1
      },
      {
       "name": "Sigil of the Empty Throne",
       "img": "https://cards.scryfall.io/normal/front/6/8/6875be24-1515-488f-a899-929c8e480dfd.jpg?1783909633",
       "synergy": 0.73,
       "in_main_hs": true,
-      "explanation": "Creates a 4/4 Angel whenever you cast an enchantment — the enchantress plan's token army."
+      "explanation": "Creates a 4/4 Angel whenever you cast an enchantment — the enchantress plan's token army.",
+      "quantity": 1
      },
      {
       "name": "Sphere of Safety",
       "img": "https://cards.scryfall.io/normal/front/5/c/5c4e3031-ffc2-4d4d-a9f9-e85820059315.jpg?1783909633",
       "synergy": 0.77,
       "in_main_hs": true,
-      "explanation": "Attackers must pay {1} per enchantment you control — the pillow-fort wall that makes the table look elsewhere."
+      "explanation": "Attackers must pay {1} per enchantment you control — the pillow-fort wall that makes the table look elsewhere.",
+      "quantity": 1
      },
      {
       "name": "Spirit-Sister's Call",
       "img": "https://cards.scryfall.io/normal/front/b/c/bc495d03-9340-47cd-afc2-82a1677e69df.jpg?1783909590",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Sacrifices an enchantment to reanimate another on death — recursion for the enchantress engine."
+      "explanation": "Sacrifices an enchantment to reanimate another on death — recursion for the enchantress engine.",
+      "quantity": 1
      },
      {
       "name": "The Eldest Reborn",
       "img": "https://cards.scryfall.io/normal/front/4/d/4d29351e-5608-40e8-8220-6c9635d48ad4.jpg?1783909619",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "A saga that makes opponents sacrifice, discards, and reanimates your best creature — value over three turns."
+      "explanation": "A saga that makes opponents sacrifice, discards, and reanimates your best creature — value over three turns.",
+      "quantity": 1
      },
      {
       "name": "Timely Ward",
       "img": "https://cards.scryfall.io/normal/front/d/6/d61f8db1-0148-47bd-ae97-9aedccb83813.jpg?1783909630",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "A flash aura that gives indestructible and vigilance to a creature — combat protection for your enchantress payoffs."
+      "explanation": "A flash aura that gives indestructible and vigilance to a creature — combat protection for your enchantress payoffs.",
+      "quantity": 1
      }
     ],
     "UtilityLands": [
@@ -3292,14 +3354,16 @@
       "img": "https://cards.scryfall.io/normal/front/5/5/55b5b094-9d2d-4d96-b90c-78fecdae725a.jpg?1783903734",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Exiles a graveyard on entry — the free graveyard hate that protects your plan from reanimator decks."
+      "explanation": "Exiles a graveyard on entry — the free graveyard hate that protects your plan from reanimator decks.",
+      "quantity": 1
      },
      {
       "name": "Hall of Heliod's Generosity",
       "img": "https://cards.scryfall.io/normal/front/f/0/f08dfd99-59fa-4a6c-bd69-c647f639de4d.jpg?1783909573",
       "synergy": 0.76,
       "in_main_hs": true,
-      "explanation": "Puts an enchantment from your graveyard on top of your library — a land that fuels the miracle plan every turn."
+      "explanation": "Puts an enchantment from your graveyard on top of your library — a land that fuels the miracle plan every turn.",
+      "quantity": 1
      }
     ],
     "ManaBase": [
@@ -3308,168 +3372,192 @@
       "img": "https://cards.scryfall.io/normal/front/4/2/42e0aa15-639a-4e88-9bd8-ce5e7c7d7649.jpg?1783906017",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Painland W/U — fixing for the Esper manabase."
+      "explanation": "Painland W/U — fixing for the Esper manabase.",
+      "quantity": 1
      },
      {
       "name": "Arcane Sanctum",
       "img": "https://cards.scryfall.io/normal/front/c/7/c75eeb97-3249-4762-84b0-387f27fb255f.jpg?1783909581",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Enters tapped and adds W/U/B — tri-color fixing."
+      "explanation": "Enters tapped and adds W/U/B — tri-color fixing.",
+      "quantity": 1
      },
      {
       "name": "Ash Barrens",
       "img": "https://cards.scryfall.io/normal/front/e/8/e8510205-4baa-4f1c-bf64-5d931e2ddf48.jpg?1783904155",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Basic landcycling for {1} — finds the basic you need, then replaces itself in the cycle."
+      "explanation": "Basic landcycling for {1} — finds the basic you need, then replaces itself in the cycle.",
+      "quantity": 1
      },
      {
       "name": "Azorius Chancery",
       "img": "https://cards.scryfall.io/normal/front/5/0/50ef0ac3-e911-4d67-a751-8d86160ae843.jpg?1783909580",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Bounceland W/U — returns a land, giving repeated ETB value with landfall-style recursion."
+      "explanation": "Bounceland W/U — returns a land, giving repeated ETB value with landfall-style recursion.",
+      "quantity": 1
      },
      {
       "name": "Caves of Koilos",
       "img": "https://cards.scryfall.io/normal/front/a/8/a8a57915-5226-4d3c-ae8e-a55c50f3c131.jpg?1783903734",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Painland W/B — fixing for the Esper manabase."
+      "explanation": "Painland W/B — fixing for the Esper manabase.",
+      "quantity": 1
      },
      {
       "name": "Command Tower",
       "img": "https://cards.scryfall.io/normal/front/0/5/0548fb60-c843-4f8f-a029-6f10efc63a41.jpg?1783903206",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "The best land in the format: any color of your commander's identity."
+      "explanation": "The best land in the format: any color of your commander's identity.",
+      "quantity": 1
      },
      {
       "name": "Dimir Aqueduct",
       "img": "https://cards.scryfall.io/normal/front/8/4/84bf9d60-64b8-4209-acfe-e07eefc6bf1f.jpg?1783909578",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Bounceland U/B — repeated landfall-style value."
+      "explanation": "Bounceland U/B — repeated landfall-style value.",
+      "quantity": 1
      },
      {
       "name": "Evolving Wilds",
       "img": "https://cards.scryfall.io/normal/front/c/0/c0318a48-30e4-4ef7-be3d-5e561c5ce428.jpg?1783903203",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Sacrifices to find a basic — the standard fixing fetch."
+      "explanation": "Sacrifices to find a basic — the standard fixing fetch.",
+      "quantity": 1
      },
      {
       "name": "Halimar Depths",
       "img": "https://cards.scryfall.io/normal/front/6/3/63eb18e0-c723-4de4-8498-c5362c75b2b4.jpg?1783909574",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Enters tapped and scries 3 — land-based topdeck setup that fuels miracles."
+      "explanation": "Enters tapped and scries 3 — land-based topdeck setup that fuels miracles.",
+      "quantity": 1
      },
      {
       "name": "Island",
       "img": "https://cards.scryfall.io/normal/front/f/3/f3cc07cd-cc79-4745-b0b7-eade60175cc3.jpg?1785981645",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "The basic blue source."
+      "explanation": "The basic blue source.",
+      "quantity": 4
      },
      {
       "name": "Obscura Storefront",
       "img": "https://cards.scryfall.io/normal/front/d/8/d8eaf8d2-8029-49d9-a94b-a72dc31fc81f.jpg?1783909570",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Enters tapped, adds W/U/B or cycles — flexible Esper fixing."
+      "explanation": "Enters tapped, adds W/U/B or cycles — flexible Esper fixing.",
+      "quantity": 1
      },
      {
       "name": "Orzhov Basilica",
       "img": "https://cards.scryfall.io/normal/front/9/c/9c7c08fc-b6ee-498c-8ab6-fd6be27c9d97.jpg?1783909569",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Bounceland W/B — repeated land-value."
+      "explanation": "Bounceland W/B — repeated land-value.",
+      "quantity": 1
      },
      {
       "name": "Plains",
       "img": "https://cards.scryfall.io/normal/front/8/a/8ab0f4c0-b331-4c57-b68f-2e24bb5ba06c.jpg?1785981632",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "The basic white source."
+      "explanation": "The basic white source.",
+      "quantity": 5
      },
      {
       "name": "Swamp",
       "img": "https://cards.scryfall.io/normal/front/b/7/b7387103-1df1-4fd0-9e91-1544509792c7.jpg?1785981659",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "The basic black source."
+      "explanation": "The basic black source.",
+      "quantity": 5
      },
      {
       "name": "Tainted Field",
       "img": "https://cards.scryfall.io/normal/front/c/6/c6eeab6f-a738-4005-91c2-a5f81df5c569.jpg?1783909567",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "W/B if you control a Swamp — conditional fixing that's almost always on."
+      "explanation": "W/B if you control a Swamp — conditional fixing that's almost always on.",
+      "quantity": 1
      },
      {
       "name": "Tainted Isle",
       "img": "https://cards.scryfall.io/normal/front/7/0/70e8e7e2-e9ea-4358-805e-c5110c8d8443.jpg?1783909566",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "U/B if you control a Swamp — conditional fixing."
+      "explanation": "U/B if you control a Swamp — conditional fixing.",
+      "quantity": 1
      },
      {
       "name": "Temple of Deceit",
       "img": "https://cards.scryfall.io/normal/front/e/1/e18748ce-e52e-4cd1-89d4-cd2578a0d574.jpg?1783908897",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Enters tapped, scries 1 — topdeck setup on a land."
+      "explanation": "Enters tapped, scries 1 — topdeck setup on a land.",
+      "quantity": 1
      },
      {
       "name": "Temple of Enlightenment",
       "img": "https://cards.scryfall.io/normal/front/d/d/dd139d4d-3a40-4015-93de-c838c64156c6.jpg?1783906003",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Enters tapped, scries 1 — topdeck setup on a land."
+      "explanation": "Enters tapped, scries 1 — topdeck setup on a land.",
+      "quantity": 1
      },
      {
       "name": "Temple of Silence",
       "img": "https://cards.scryfall.io/normal/front/f/7/f7d3770f-cde6-4e29-8cbf-fe841634a5d7.jpg?1783903716",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Enters tapped, scries 1 — topdeck setup on a land."
+      "explanation": "Enters tapped, scries 1 — topdeck setup on a land.",
+      "quantity": 1
      },
      {
       "name": "Terramorphic Expanse",
       "img": "https://cards.scryfall.io/normal/front/a/8/a81f924b-0527-4311-8120-9bfff71524f6.jpg?1783903191",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Sacrifices to find a basic — Evolving Wilds' twin."
+      "explanation": "Sacrifices to find a basic — Evolving Wilds' twin.",
+      "quantity": 1
      },
      {
       "name": "Thriving Heath",
       "img": "https://cards.scryfall.io/normal/front/b/b/bb089097-1eed-4e72-a715-579ddd8307a0.jpg?1783903089",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Enters tapped, adds W or a chosen color — flexible fixing."
+      "explanation": "Enters tapped, adds W or a chosen color — flexible fixing.",
+      "quantity": 1
      },
      {
       "name": "Thriving Isle",
       "img": "https://cards.scryfall.io/normal/front/5/8/58a3b5a5-eba0-4b4e-869a-5387ec7dd2b8.jpg?1783903089",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Enters tapped, adds U or a chosen color — flexible fixing."
+      "explanation": "Enters tapped, adds U or a chosen color — flexible fixing.",
+      "quantity": 1
      },
      {
       "name": "Thriving Moor",
       "img": "https://cards.scryfall.io/normal/front/5/d/5d5eea5f-b9e8-4a10-8e7f-c42493a728cd.jpg?1783903088",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Enters tapped, adds B or a chosen color — flexible fixing."
+      "explanation": "Enters tapped, adds B or a chosen color — flexible fixing.",
+      "quantity": 1
      },
      {
       "name": "Underground River",
       "img": "https://cards.scryfall.io/normal/front/5/e/5e50c8d5-6b22-4fc6-87ea-3d7d77ced17f.jpg?1783909555",
       "synergy": null,
       "in_main_hs": false,
-      "explanation": "Painland U/B — fixing for the Esper manabase."
+      "explanation": "Painland U/B — fixing for the Esper manabase.",
+      "quantity": 1
      }
     ]
    },
@@ -3478,11 +3566,10 @@
     "score_enchantress": 10,
     "score_topdeck": 10,
     "text": [
-     "**Enchantress (2,872 decks) and Topdeck (2,108) are co-favorites**: 10 of the deck's cards sit in both plans' EDHREC High Synergy pools — the two dominant archetypes.",
-     "**The list is built around Aminatou's miracle ability**: 15 enchantments + 8 enchantress payoffs (Mesa Enchantress, Ondu Spiritdancer, Sigil of the Empty Throne, One with the Multiverse, Sphere of Safety).",
-     "**Control (282) and Pillow Fort (154) are supported by the same cards**: Sphere of Safety, Shark Typhoon, the removal suite.",
-     "**Tokens/Combo are accessory plans**: Sigil of the Empty Throne and Extravagant Replication make tokens, but the list has no other token payoffs.",
-     "**Conclusion**: a classic Enchantress/Miracles control deck — Enchantress and Topdeck co-favorites, with Pillow Fort as the natural secondary plan."
+     "**Dominant plan**: Enchantress (2,872 decks) — the deck's core is a miracle/enchantress engine with Aminatou's +1 as topdeck control.",
+     "**High-synergy coverage**: 10 of the deck's cards sit in each major plan's EDHREC High Synergy pool (Enchantress, Topdeck).",
+     "**Lands**: 37 in 99 cards (23 unique + 14 basics) — on target; 11 ramp pieces (9 rocks + Sol Ring + Starfield Mystic).",
+     "**Weaknesses**: slow average CMC 4.03, only 4 interaction slots and 1 wipe (fragile against fast boards), 19 synergies below the 30-35 target."
     ]
    },
    "structure": {
@@ -3532,13 +3619,13 @@
      }
     ],
     "summary": [
-     "**Solid base**: 36 lands, 10 ramp (rocks CMC ≤ 2), 12 interaction, 2 wipes — all within the ideal ranges.",
-     "**Average CMC 4.03**: ⚠️ above the ≤ 3.2 golden rule — the top of the curve is loaded with 5-8 mana enchantments (One with the Multiverse, Extravagant Replication, Aminatou's Augury).",
-     "**Synergies/wincons at 25/30-35**: several 5-6 mana creatures are value engines rather than dedicated finishers.",
-     "**Only 1 flex slot** (ideal 3-5).",
-     "**Upgrade path**: cut the weakest 5-6 mana engines for 2-3 rocks/cantrips at 2-3 mana and 2-3 dedicated finishers — bring the curve under 3.5 while keeping the enchantress core."
+     "**Structure**: 37 lands · 11 ramp · 13 draw · 4 interaction · 1 wipe · 19 synergies/wincons · 12 flex · 99 cards (88 unique).",
+     "**Average CMC 4.03** (nonland) — on the slower side for an enchantress topdeck shell.",
+     "**Gaps**: interaction is thin (4 slots vs 10-12 target — mostly enchantment-based answers); only 1 dedicated wipe (Terminus; Time Wipe double-counts as a finisher); synergies at 19 vs the 30-35 target, though the enchantress draw engine compensates."
     ]
-   }
+   },
+   "deck_size": 99,
+   "deck_size_unique": 88
   }
  }
 }

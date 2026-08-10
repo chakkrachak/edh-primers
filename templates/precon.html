@@ -11,7 +11,7 @@
 <div class="toc"><h3 class="toc-h3">📑 Table of Contents</h3><ol>
 <li><a href="#s1">Commander Sheet</a></li>
 <li><a href="#s2">Game Plans &amp; High Synergy ({{ plans|length }})</a></li>
-<li><a href="#s3">Deck Cards by Role ({{ n_cards }} unique)</a></li>
+<li><a href="#s3">Deck Cards by Role ({{ n_cards }} unique, {{ n_cards_qty }} cards)</a></li>
 <li><a href="#s4">Structure Analysis</a></li>
 <li><a href="#s5">Filler Cards ({{ n_fillers }})</a></li>
 <li><a href="#s6">Upgrades ({{ n_upgrades_hs }} + {{ n_upgrades_utility }} + {{ n_upgrades_combos }})</a></li>
@@ -91,18 +91,18 @@
 </div>
 {% endfor %}
 
-<h2 id="s3" data-collapse="expanded">3. Deck Cards by Role ({{ n_cards }} unique)</h2>
+<h2 id="s3" data-collapse="expanded">3. Deck Cards by Role ({{ n_cards }} unique, {{ n_cards_qty }} cards)</h2>
 <p class="report-sub">Every card of the list, grouped by ROLE/FUNCTION (Engines → Wincons → Flex → Card Advantage → Ramp → Wipes → Interaction → Lands) — not by card type. Cards in the commander's EDHREC High Synergy / Top Cards pool carry the synergy badge. 📋 copies a role's card names.</p>
 
 {% for cat in categories %}
 <div class="category collapsible" data-collapse="{% if loop.index <= 2 %}expanded{% else %}collapsed{% endif %}"><h3>{{ cat.title }} {{ cat.copy_btn }}</h3>
-<div class="summary">🎯 Build target: {{ cat.target }} — {{ cat.synopsis|safe }} — <strong>{{ cat.n }} cards</strong>.</div>
+<div class="summary">🎯 Build target: {{ cat.target }} — {{ cat.synopsis|safe }} — <strong>{{ cat.n_qty }} cards</strong>{% if cat.n != cat.n_qty %} ({{ cat.n }} unique){% endif %}.</div>
 <div class="card-grid">
 {% for card in cat.cards %}
     <div class="card-block">
       <img src="{{ card.img }}" data-large="{{ card.img }}" data-name="{{ card.name|escape }}" loading="lazy" onclick="openModal(this)"/>
       <div class="cb-body">
-        <div class="cb-name">{{ card.name|escape }}</div>
+        <div class="cb-name">{{ card.name|escape }}{% if card.quantity and card.quantity > 1 %} <span class="qty-badge" title="{{ card.quantity }} copies">×{{ card.quantity }}</span>{% endif %}</div>
         {% if card.synergy %}
         <div class="cb-syn"><span class="syn {{ card.syn_cls }}" title="EDHREC synergy score (share of this commander's decks playing the card)">synergy {{ card.synergy }}</span></div>
         {% endif %}

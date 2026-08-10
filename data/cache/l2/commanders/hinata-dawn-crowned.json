@@ -4874,588 +4874,672 @@
       "img": "https://cards.scryfall.io/normal/front/f/6/f6bb1ffc-2251-4655-b8f9-4c8047dd5d5f.jpg?1785497556",
       "synergy": 0.20637347303729228,
       "explanation": "**Spellslinger burn** : each instant/sorcery pings every opponent for 2 — with 36 spells, it drains the table passively.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Release the Gremlins",
       "img": "https://cards.scryfall.io/normal/front/d/4/d4ba75be-2428-45aa-bf02-75c379a5dfa2.jpg?1783936750",
       "synergy": 0.07905964042244741,
       "explanation": "**X-spell finisher** : X gremlins + artifact destruction; X targets make it cheap with Hinata, and the horde attacks.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Rewind",
       "img": "https://cards.scryfall.io/normal/front/b/8/b832abcc-9ffd-47bf-827a-01b303c610ee.jpg?1783930724",
       "synergy": 0.22141642137009995,
       "explanation": "**Free counterspell** : counters a spell and untaps 4 lands — a \"free\" answer that leaves mana up for another spell.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Opportunity",
       "img": "https://cards.scryfall.io/normal/front/4/9/49233196-82e4-44c4-86f0-6eb2db7293a3.jpg?1783934832",
       "synergy": null,
       "explanation": "**Draw 4** : instant-speed card advantage that refills after a counter war.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Jace's Sanctum",
       "img": "https://cards.scryfall.io/normal/front/8/1/8148adc6-7946-4abd-8601-b1f4cd6916c2.jpg?1783932779",
       "synergy": 0.047177717317893164,
       "explanation": "**Spell discount** : instants/sorceries cost {1} less — a second mini-Hinata for non-targeted spells.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Oona's Grace",
       "img": "https://cards.scryfall.io/normal/front/e/2/e2128105-de04-4f51-81c7-37f30cf324d4.jpg?1783932778",
       "synergy": null,
       "explanation": "**Recursive draw** : retrace lets you pitch lands late game for cards, feeding your graveyard synergies.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Shreds of Sanity",
       "img": "https://cards.scryfall.io/normal/front/7/8/782e5600-ac63-4f90-acbe-49c04d2840ee.jpg?1783937454",
       "synergy": 0.06741289354252268,
       "explanation": "**Flashback recursion** : casts an instant and a sorcery from your graveyard — the deck reuses its best spells.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Terramorphic Expanse",
       "img": "https://cards.scryfall.io/normal/front/a/8/a81f924b-0527-4311-8120-9bfff71524f6.jpg?1783903191",
       "synergy": -0.009184822846633023,
       "explanation": "**Land fixer** : fetches any basic — budget fixing that thins the deck.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Crush Contraband",
       "img": "https://cards.scryfall.io/normal/front/0/8/08c5cdbe-2142-4ddc-b9b5-35ca60eb9970.jpg?1783923967",
       "synergy": 0.21108691176078803,
       "explanation": "**Flexible removal** : exiles an artifact OR enchantment, and with two targets Hinata discounts it further.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Murmuring Mystic",
       "img": "https://cards.scryfall.io/normal/front/9/e/9e68dcc2-bba4-4efa-97bb-3ed892037595.jpg?1783911941",
       "synergy": 0.08356995563532886,
       "explanation": "**Token engine** : each instant/sorcery makes a 1/1 flying Spirit — spellslinger pay-off that blocks flyers.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Baral's Expertise",
       "img": "https://cards.scryfall.io/normal/front/d/5/d5beecd5-4267-454d-87db-24d476e1f352.jpg?1783907109",
       "synergy": 0.5562313126988843,
       "explanation": "**Bounce + free cast** : returns up to 3 nonland permanents (3 targets = nearly free with Hinata), then casts a free card.",
-      "in_main_hs": true
+      "in_main_hs": true,
+      "quantity": 1
      },
      {
       "name": "Midnight Clock",
       "img": "https://cards.scryfall.io/normal/front/0/b/0b3c33b7-5b15-4b61-bfd6-1ffa823eb28a.jpg?1783911941",
       "synergy": 0.05853393819123132,
       "explanation": "**Ramp + wheel** : rocks to 12 counters, then draws 7 — late-game reload.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Battlefield Thaumaturge",
       "img": "https://cards.scryfall.io/normal/front/4/6/467ffc93-b107-457c-af04-a1b682a4b886.jpg?1783939450",
       "synergy": 0.5761443863939251,
       "explanation": "**Discount enabler** : each spell you cast costs {1} less per creature it targets — stacks with Hinata for X-burn.",
-      "in_main_hs": true
+      "in_main_hs": true,
+      "quantity": 1
      },
      {
       "name": "Launch the Fleet",
       "img": "https://cards.scryfall.io/normal/front/b/c/bc3e52c0-2f79-4537-8f1c-70b68836bac0.jpg?1783939456",
       "synergy": 0.19553869781938335,
       "explanation": "**X-spell token maker** : X Soldiers with haste for {X}{W}; X targets + Hinata = a huge board for pennies.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Pull from the Deep",
       "img": "https://cards.scryfall.io/normal/front/a/0/a051b622-fa1d-4694-aef7-0fcdd7bff8d2.jpg?1783939444",
       "synergy": 0.13265096609176316,
       "explanation": "**Recursion** : returns an instant and a sorcery — value from the graveyard.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Negate",
       "img": "https://cards.scryfall.io/normal/front/5/2/52d58fe4-6070-4022-9cd7-c35a11b44525.jpg?1783904112",
       "synergy": 0.3962815008122053,
       "explanation": "**Cheap counter** : answers noncreature spells; with Hinata it costs {1} less when it targets.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Prismatic Boon",
       "img": "https://cards.scryfall.io/normal/front/f/b/fb774a9b-d29f-4f41-9fb8-a0189205e16f.jpg?1783947050",
       "synergy": 0.25892122005306345,
       "explanation": "**Color fixer on a stick** : adds any color to your mana pool; multi-target discounts with Hinata.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Whirlwind of Thought",
       "img": "https://cards.scryfall.io/normal/front/a/3/a3069683-0ff5-49e5-b7ae-f5bd40a4a32f.jpg?1783903222",
       "synergy": 0.5089940302638084,
       "explanation": "**Draw engine** : each noncreature spell draws a card — THE spellslinger card-advantage engine.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Talrand, Sky Summoner",
       "img": "https://cards.scryfall.io/normal/front/1/b/1be3ed47-072e-481a-b3d9-dc232ac4b24f.jpg?1783911937",
       "synergy": 0.35468963879564475,
       "explanation": "**Token engine** : every instant/sorcery makes a 2/2 Drake — the deck's best blocker/attacker generator.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Thriving Heath",
       "img": "https://cards.scryfall.io/normal/front/b/b/bb089097-1eed-4e72-a715-579ddd8307a0.jpg?1783903089",
       "synergy": null,
       "explanation": "**Budget tri-land** : enters tapped but fixes white — reliable budget mana.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Thriving Bluff",
       "img": "https://cards.scryfall.io/normal/front/8/2/82c96473-d7b9-48dc-9569-cdb649c78463.jpg?1783903090",
       "synergy": null,
       "explanation": "**Budget tri-land** : enters tapped but fixes red — reliable budget mana.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Thriving Isle",
       "img": "https://cards.scryfall.io/normal/front/5/8/58a3b5a5-eba0-4b4e-869a-5387ec7dd2b8.jpg?1783903089",
       "synergy": null,
       "explanation": "**Budget tri-land** : enters tapped but fixes blue — reliable budget mana.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Channeled Force",
       "img": "https://cards.scryfall.io/normal/front/8/9/8918d24e-8ae8-4028-9f06-ba6fafcc717e.jpg?1783931027",
       "synergy": null,
       "explanation": "**Card draw + removal** : discard cards to draw more and deal damage — flexible instant.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Neutralize",
       "img": "https://cards.scryfall.io/normal/front/0/4/0430da3c-9460-4b62-ae28-2e7e6f4d06a4.jpg?1783931073",
       "synergy": null,
       "explanation": "**Counterspell with cycling** : counters a spell or cycles away late.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Careful Consideration",
       "img": "https://cards.scryfall.io/normal/front/0/8/08b7224b-adb9-4c31-b0bb-1c498f2922fb.jpg?1783927853",
       "synergy": null,
       "explanation": "**Instant draw** : draws 4, discards 2 — fills the graveyard for recursion spells.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Dismiss into Dream",
       "img": "https://cards.scryfall.io/normal/front/a/f/af4cd7fe-639c-45a5-97af-9529904e3975.jpg?1783939935",
       "synergy": 0.1082835268784945,
       "explanation": "**Combo finisher** : spells that target creatures destroy them instead — with Hinata's discount, every removal nukes a board.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Icy Blast",
       "img": "https://cards.scryfall.io/normal/front/b/0/b098f029-6b5d-49e4-9a81-f497ebbdb5ce.jpg?1783939087",
       "synergy": 0.6073356813142784,
       "explanation": "**X-spell tap** : taps X creatures (X targets with Hinata = discount); stalls the board.",
-      "in_main_hs": true
+      "in_main_hs": true,
+      "quantity": 1
      },
      {
       "name": "Compulsive Research",
       "img": "https://cards.scryfall.io/normal/front/a/2/a247ab59-7749-4d37-87f6-f90f44cd54f4.jpg?1783907108",
       "synergy": 0.06090048655339131,
       "explanation": "**Card draw** : draws 3, discards 2 — cheap refill.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Metallurgic Summonings",
       "img": "https://cards.scryfall.io/normal/front/3/a/3a769d7e-c749-4845-ba87-808f0386df80.jpg?1783927564",
       "synergy": 0.46386968048655286,
       "explanation": "**Token engine** : each instant/sorcery makes an Artifact Creature, then can cast from graveyard — spellslinger pay-off + recursion.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Paradoxical Outcome",
       "img": "https://cards.scryfall.io/normal/front/1/7/17e50157-bf49-4c5f-9b8a-bf73484e63a5.jpg?1783937215",
       "synergy": 0.2200294463105493,
       "explanation": "**Value bounce** : returns your artifacts to draw cards — loops with mana rocks.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Prismatic Lens",
       "img": "https://cards.scryfall.io/normal/front/7/4/74e8d3a8-5937-4108-b2fe-23e049379345.jpg?1783911890",
       "synergy": null,
       "explanation": "**Mana rock** : adds any color — budget fixing.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Myriad Landscape",
       "img": "https://cards.scryfall.io/normal/front/a/0/a0e2098f-1d94-491a-a7e9-a45a9f69e3a8.jpg?1783906009",
       "synergy": null,
       "explanation": "**Land ramp** : taps for 2 basics — budget fixing + ramp.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Azorius Signet",
       "img": "https://cards.scryfall.io/normal/front/4/1/41c50b99-4a29-4bef-8d41-c548c8a61dac.jpg?1783907017",
       "synergy": 0.20171349582792608,
       "explanation": "**Mana rock** : adds W or U — the format's best budget ramp.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Izzet Signet",
       "img": "https://cards.scryfall.io/normal/front/2/c/2c747a97-9070-4c1e-b7b7-52637fbb30e1.jpg?1783907010",
       "synergy": 0.22539986092033154,
       "explanation": "**Mana rock** : adds U or R — the format's best budget ramp.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Mind Stone",
       "img": "https://cards.scryfall.io/normal/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.jpg?1785759375",
       "synergy": -0.021312214720136474,
       "explanation": "**Mana rock** : adds colorless, cycles for a card late.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Unwind",
       "img": "https://cards.scryfall.io/normal/front/9/7/97da6607-9131-4f8b-8af3-63439a59b78b.jpg?1783935018",
       "synergy": 0.4018741333124235,
       "explanation": "**Free counter + untap** : counters a spell, untaps 3 lands — leaves mana open.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Sunbird's Invocation",
       "img": "https://cards.scryfall.io/normal/front/7/5/75c1eb6a-2183-4f60-b075-f7289df35be7.jpg?1783927539",
       "synergy": 0.08665914860401114,
       "explanation": "**Cascade-like engine** : each spell reveals cards until a spell with lower CMC — free spells cascade into more spells.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Boros Signet",
       "img": "https://cards.scryfall.io/normal/front/4/9/49c37c0e-d363-4033-a069-710241cd9923.jpg?1783907016",
       "synergy": 0.13071499668192188,
       "explanation": "**Mana rock** : adds R or W — the format's best budget ramp.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Mystic Retrieval",
       "img": "https://cards.scryfall.io/normal/front/8/0/806e5536-103b-4d6c-83b4-8659a55b25b5.jpg?1783908161",
       "synergy": 0.05403774099712364,
       "explanation": "**Recursion** : returns an instant/sorcery from graveyard, flashback doubles it.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Temple of Triumph",
       "img": "https://cards.scryfall.io/normal/front/d/0/d0e763f7-25b8-444f-8722-614297d0663f.jpg?1783903716",
       "synergy": -0.04361609997415866,
       "explanation": "**Scry land** : enters tapped but scries — smoother draws.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Evolving Wilds",
       "img": "https://cards.scryfall.io/normal/front/c/0/c0318a48-30e4-4ef7-be3d-5e561c5ce428.jpg?1783903203",
       "synergy": -0.038942472139045364,
       "explanation": "**Land fixer** : fetches any basic — budget fixing.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Sejiri Shelter // Sejiri Glacier",
       "img": "",
       "synergy": null,
       "explanation": "**Protection land** : instant-speed hexproof/indestructible or a land — flexible slot.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Jwari Disruption // Jwari Ruins",
       "img": "",
       "synergy": null,
       "explanation": "**Spell land** : counterspell or a land — flexible utility land.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Ondu Inversion // Ondu Skyruins",
       "img": "",
       "synergy": null,
       "explanation": "**Wipe land** : board wipe or a land — flexible reset.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Open into Wonder",
       "img": "https://cards.scryfall.io/normal/front/a/9/a921ff16-2cd1-4080-80a9-dd73c4eda5c7.jpg?1783929482",
       "synergy": 0.4149004731914495,
       "explanation": "**X-spell draw + unblockable** : draws X cards and makes X creatures unblockable — finisher enabler.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Fire Diamond",
       "img": "https://cards.scryfall.io/normal/front/5/a/5a561484-438b-4ce9-911e-97078ac5b0fa.jpg?1783922676",
       "synergy": null,
       "explanation": "**Mana rock** : adds R — budget ramp.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Generous Gift",
       "img": "https://cards.scryfall.io/normal/front/c/3/c3f9b454-97e9-4c77-b37a-e974221ae385.jpg?1783903247",
       "synergy": -0.022037966115600216,
       "explanation": "**Universal removal** : turns anything into a 3/3 Elephant — answer to anything, multi-target with Hinata.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Comet Storm",
       "img": "https://cards.scryfall.io/normal/front/b/b/bb5f586d-6bf0-4590-ad73-2d46b2a45b1a.jpg?1783928714",
       "synergy": 0.6199500142403658,
       "explanation": "**X-spell finisher** : deals X damage split between any targets — with Hinata + Thaumaturge, lethal for pennies.",
-      "in_main_hs": true
+      "in_main_hs": true,
+      "quantity": 1
      },
      {
       "name": "Jaya's Immolating Inferno",
       "img": "https://cards.scryfall.io/normal/front/3/6/365336b4-92ee-429d-8f18-4624cba5469d.jpg?1783928712",
       "synergy": 0.1406129650591545,
       "explanation": "**X-spell finisher** : X damage to each of X targets — the ultimate multi-target burn with Hinata.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Saw It Coming",
       "img": "https://cards.scryfall.io/normal/front/8/7/877a1bb9-5eae-453a-bec0-a9de20ea6815.jpg?1783928256",
       "synergy": null,
       "explanation": "**Counterspell** : foretell keeps it cheap and hidden.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Curse of the Swine",
       "img": "https://cards.scryfall.io/normal/front/9/1/91eb9067-0bc7-4497-ba9c-c1ea41e5a379.jpg?1783903795",
       "synergy": 0.7663796855154269,
       "explanation": "**Exile removal** : turns X creatures into 2/2 Boars — X targets with Hinata = mass removal.",
-      "in_main_hs": true
+      "in_main_hs": true,
+      "quantity": 1
      },
      {
       "name": "Sejiri Refuge",
       "img": "https://cards.scryfall.io/normal/front/b/4/b474bfdd-e0b2-4b96-b8eb-84ced9ac5a06.jpg?1783928291",
       "synergy": null,
       "explanation": "**Budget land** : enters tapped, gains 1 life.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Return to Dust",
       "img": "https://cards.scryfall.io/normal/front/3/c/3c3745c2-5509-4d6b-8f49-5cb93374edea.jpg?1783909632",
       "synergy": 0.08734474543974934,
       "explanation": "**Exile removal** : exiles 2 artifacts/enchantments (2 targets = discount with Hinata).",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Feather, the Redeemed",
       "img": "https://cards.scryfall.io/normal/front/e/4/e4a2d2c6-8eaa-4760-b620-921b807baa2e.jpg?1783933396",
       "synergy": 0.4527828841993361,
       "explanation": "**Recursion engine** : returns targeted spells to hand — makes cantrips/pumps repeatable.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Zaffai, Thunder Conductor",
       "img": "https://cards.scryfall.io/normal/front/e/a/ea1ab937-8647-4c83-99d5-6a40dffa4c9b.jpg?1783927615",
       "synergy": 0.3859403476177899,
       "explanation": "**Spell payoff** : magecraft — scry + big spell damage; 5+ CMC spells deal 5 to the table.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Reconstruct History",
       "img": "https://cards.scryfall.io/normal/front/3/e/3e565e38-43d5-482e-a911-ce525dfee74f.jpg?1783927298",
       "synergy": 0.4219629330386081,
       "explanation": "**Recursion** : returns an instant, sorcery and artifact from graveyard — massive value.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Lorehold Campus",
       "img": "https://cards.scryfall.io/normal/front/b/6/b6ad08da-c9e8-4061-a4a6-032d6957a403.jpg?1783903727",
       "synergy": null,
       "explanation": "**Budget land** : tapped, can cycle for W or R.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Prismari Campus",
       "img": "https://cards.scryfall.io/normal/front/7/c/7c464dee-dd89-4955-ae40-8bb74e9ff42a.jpg?1783903723",
       "synergy": null,
       "explanation": "**Budget land** : tapped, can cycle for U or R.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Radiant Scrollwielder",
       "img": "https://cards.scryfall.io/normal/front/c/8/c8152ab0-c6fc-4568-b837-4e84129e7b57.jpg?1783927297",
       "synergy": 0.13942386221209585,
       "explanation": "**Recursion + lifegain** : exiles instants/sorceries from graveyard to cast again; spells heal.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Semester's End",
       "img": "https://cards.scryfall.io/normal/front/d/b/db2bb091-ac6d-4c99-bdf6-70ffb6291ef0.jpg?1783915447",
       "synergy": 0.2712729743261835,
       "explanation": "**Protection** : blinks your creatures (saves them) or buffs them — combat trick + save.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Elementalist's Palette",
       "img": "https://cards.scryfall.io/normal/front/f/8/f892e316-95c9-4e68-8eb0-96f71a862f2b.jpg?1783903740",
       "synergy": 0.1929047181648918,
       "explanation": "**Mana rock + charge** : adds any color, stores counters for X-spells — X-spell enabler.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Commander's Insight",
       "img": "https://cards.scryfall.io/normal/front/1/a/1a40e4da-a631-4423-b70f-701b27b09f79.jpg?1783903823",
       "synergy": null,
       "explanation": "**Card draw** : draws X+1 where X = number of targets — multi-target draw with Hinata.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Aether Gale",
       "img": "https://cards.scryfall.io/normal/front/4/e/4e336e87-e5af-46a0-8caf-5d9ad8d671fd.jpg?1783903794",
       "synergy": 0.43584002445400316,
       "explanation": "**Bounce removal** : returns 6 nonland permanents (6 targets = huge discount with Hinata).",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Temple of Epiphany",
       "img": "https://cards.scryfall.io/normal/front/c/c/cc63cd97-de9e-4d31-babb-aaad1277169e.jpg?1783903716",
       "synergy": -0.019619399658951597,
       "explanation": "**Scry land** : enters tapped but scries — smoother draws.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Deekah, Fractal Theorist",
       "img": "https://cards.scryfall.io/normal/front/1/8/186e15a7-d97e-40df-adaa-96d9bd64f3ca.jpg?1783903791",
       "synergy": 0.3245442869876764,
       "explanation": "**Token engine** : magecraft makes a Fractal token with power = spell's mana value — huge tokens.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Command Tower",
       "img": "https://cards.scryfall.io/normal/front/0/5/0548fb60-c843-4f8f-a029-6f10efc63a41.jpg?1783903206",
       "synergy": -0.009578354028167646,
       "explanation": "**Best land** : adds any color — auto-include.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Step Through",
       "img": "https://cards.scryfall.io/normal/front/7/1/716534cb-aa89-4de7-9aa5-8d8aa4422a6a.jpg?1783926869",
       "synergy": 0.0670578260577056,
       "explanation": "**Wizard tutor** : finds a Wizard (Talrand, Deekah, Zaffai…) and can be cast via wizardcycling.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Liquimetal Torque",
       "img": "https://cards.scryfall.io/normal/front/1/3/13c6101a-da40-4785-8ccb-4e779bbbdb55.jpg?1783926804",
       "synergy": null,
       "explanation": "**Mana rock + enabler** : makes permanents artifacts — turns removal into universal answers.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Said // Done",
       "img": "https://cards.scryfall.io/normal/front/4/3/43ab3ed2-2b50-4488-a21f-60965222970a.jpg?1783926872",
       "synergy": null,
       "explanation": "**Draw + counterspell** : both halves in one card — flexible.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "You Find the Villains' Lair",
       "img": "https://cards.scryfall.io/normal/front/c/6/c6704458-6e9e-4795-a56d-25b68fbf9672.jpg?1783926504",
       "synergy": null,
       "explanation": "**Modal removal** : counterspell, destroy creature, or draw — choose per situation.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Smoke Spirits' Aid",
       "img": "https://cards.scryfall.io/normal/front/e/4/e492a245-46ba-438e-8d81-4626faa49bff.jpg?1783923991",
       "synergy": 0.42094783786597806,
       "explanation": "**X-spell pump** : gives X creatures +1/+1 and flying — go-wide finisher with Hinata.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Temple of Enlightenment",
       "img": "https://cards.scryfall.io/normal/front/d/d/dd139d4d-3a40-4015-93de-c838c64156c6.jpg?1783906003",
       "synergy": -0.040304180481452734,
       "explanation": "**Scry land** : enters tapped but scries — smoother draws.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "March of Swirling Mist",
       "img": "https://cards.scryfall.io/normal/front/1/0/100171d8-7436-44c8-b4cb-0101ffa05c25.jpg?1783923901",
       "synergy": 0.7121819036472575,
       "explanation": "**Protection** : X creatures phase out (X targets = discount); saves your board from wipes.",
-      "in_main_hs": true
+      "in_main_hs": true,
+      "quantity": 1
      },
      {
       "name": "Marble Diamond",
       "img": "https://cards.scryfall.io/normal/front/0/9/0930f71c-c3c8-4bdd-8468-6a61349cc8ca.jpg?1783922673",
       "synergy": null,
       "explanation": "**Mana rock** : adds W — budget ramp.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Sky Diamond",
       "img": "https://cards.scryfall.io/normal/front/d/4/d47abfb2-9bcf-485c-9bd4-2c09b714eb32.jpg?1783922666",
       "synergy": null,
       "explanation": "**Mana rock** : adds U — budget ramp.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Ash Barrens",
       "img": "https://cards.scryfall.io/normal/front/e/8/e8510205-4baa-4f1c-bf64-5d931e2ddf48.jpg?1783904155",
       "synergy": null,
       "explanation": "**Land fixer** : cycles for a basic — budget fixing.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Deep Analysis",
       "img": "https://cards.scryfall.io/normal/front/1/a/1a297bae-f259-4fc7-b76a-285f972d69e3.jpg?1783903240",
       "synergy": 0.1561165429665199,
       "explanation": "**Card draw** : draws 2, flashback makes it 4 total — efficient.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Young Pyromancer",
       "img": "https://cards.scryfall.io/normal/front/c/0/c0d74ecd-a595-4012-81b4-083264b40c94.jpg?1783907139",
       "synergy": 0.295793099843756,
       "explanation": "**Token engine** : each instant/sorcery makes a 1/1 Elemental — the classic spellslinger engine.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Elsha of the Infinite",
       "img": "https://cards.scryfall.io/normal/front/c/0/c0728027-a1ec-4814-87c4-10c3baced0e0.jpg?1783921837",
       "synergy": 0.17845560641921981,
       "explanation": "**Topdeck engine** : plays instants/sorceries from the top of the library — free spells with prowess payoff.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Exotic Orchard",
       "img": "https://cards.scryfall.io/normal/front/d/1/d11c5fe0-1528-4c94-a8cc-42bcab9d7487.jpg?1785759427",
       "synergy": 0.01334677903931436,
       "explanation": "**Budget land** : copies opponents' colors — fixing.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Mystic Monastery",
       "img": "https://cards.scryfall.io/normal/front/b/c/bc23343a-3a01-4975-8430-17bf15fa639d.jpg?1783903198",
       "synergy": 0.01204209264615086,
       "explanation": "**Budget tri-land** : enters tapped, fixes Jeskai.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 1
      },
      {
       "name": "Island",
       "img": "https://cards.scryfall.io/normal/front/f/3/f3cc07cd-cc79-4745-b0b7-eade60175cc3.jpg?1785981645",
       "synergy": 0.007451399579549656,
       "explanation": "**Basic** : blue mana — the core of the draw/counter shell.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 8
      },
      {
       "name": "Mountain",
       "img": "https://cards.scryfall.io/normal/front/2/a/2a844b96-6616-4c39-8f4f-5d14a3b2bd55.jpg?1785981666",
       "synergy": 0.002036005264385077,
       "explanation": "**Basic** : red mana — the core of the burn shell.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 5
      },
      {
       "name": "Plains",
       "img": "https://cards.scryfall.io/normal/front/8/a/8ab0f4c0-b331-4c57-b68f-2e24bb5ba06c.jpg?1785981632",
       "synergy": -0.002045628061991378,
       "explanation": "**Basic** : white mana — the core of the protection/flex shell.",
-      "in_main_hs": false
+      "in_main_hs": false,
+      "quantity": 5
      }
     ]
    },
@@ -5465,10 +5549,10 @@
     "score_xspells": 4,
     "score_control": 4,
     "text": [
-     "**Spellslinger (606) and X Spells (539) are co-favorites**: 4 of the deck's cards sit in each plan's EDHREC High Synergy pool (Curse of the Swine, March of Swirling Mist, Comet Storm + Thaumaturge/Icy Blast) — the list is built exactly around Hinata's multi-target discount.",
-     "**The list is a budget spellslinger core**: 36 instants/sorceries (43% of nonland cards), 5 token engines (Young Pyromancer, Talrand, Murmuring Mystic, Deekah, Metallurgic Summonings) and 3 recursion engines (Feather, Radiant Scrollwielder, Mystic Retrieval) — the classic Jeskai storm-ish shell.",
-     "**Structural notes**: 22 lands (below the 36-38 target) but 13 ramp pieces (12 rocks + Myriad Landscape) compensate; only 3 dedicated draw spells but Whirlwind of Thought + token engines provide repeatable value; 11 interaction pieces with 5 counterspells — control plan viable.",
-     "**Biggest gap**: no commander protection (only March of Swirling Mist / Semester's End as one-shots) — Hinata removed = deck slows a lot; and the X-burn finishers need the commander alive."
+     "**Strong plans**: 4 of the deck's cards sit in each major plan's EDHREC High Synergy pool (Curse of the Swine, March of Swirling Mist, Comet Storm, Battlefield Thaumaturge).",
+     "**Spellslinger core**: 36 instants/sorceries (43% of nonland cards), 5 token engines (Guttersnipe, Deekah, Talrand, Murmuring Mystic, Young Pyromancer).",
+     "**Lands**: 37 in 99 cards (22 unique + 15 basics) — on target after counting basics; 11 ramp pieces (10 rocks + Sol Ring).",
+     "**Weaknesses**: no commander protection (only Whirlwind of Thought + cheap counters), draw is thin, only 2 wipes."
     ]
    },
    "structure": {
@@ -5524,11 +5608,13 @@
      }
     ],
     "summary": [
-     "**Structure**: 22 lands · 13 ramp · 11 interaction · 10 engines · 23 flex · avg CMC 3.26 (nonland).",
-     "**Low-to-the-ground spellslinger**: cheap instants/sorceries (median 2) fuel the token engines.",
-     "**Gaps**: only 22 lands (target 36-38) — the curve is low but greedy X-spells need mana; no dedicated board wipes (Ondu Inversion is the only reset, as a land); draw is thin (3 dedicated spells) but Whirlwind of Thought + engines compensate."
+     "**Structure**: 37 lands · 11 ramp · 12 interaction · 16 engines · 8 wincons · 2 wipes · 99 cards (84 unique).",
+     "**Low-to-the-ground spellslinger**: cheap instants/sorceries (median 2) fuel the token engines (16 engine slots).",
+     "**Gaps**: no dedicated draw beyond 13 card-advantage slots (Whirlwind of Thought + engines compensate); 2 wipes only (Ondu Inversion as a land + 1 more); 37 lands hit the 36-38 target once basics are counted."
     ]
-   }
+   },
+   "deck_size": 99,
+   "deck_size_unique": 84
   }
  }
 }

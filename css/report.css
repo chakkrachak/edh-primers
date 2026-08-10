@@ -534,3 +534,17 @@ h2[data-collapse].collapsed::before { content: '\25B8 '; }
 .collapsible > h3::before { content: '\25BE '; color: var(--accent-blue); }
 .collapsible.collapsed > h3::before { content: '\25B8 '; }
 .collapsible.collapsed > *:not(:first-child) { display: none; }
+
+/* Badge quantité (basic lands multi-exemplaires, user request 2026-08-10) */
+.qty-badge {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 0 6px;
+  border-radius: 8px;
+  background: rgba(121,192,255,.15);
+  border: 1px solid rgba(121,192,255,.35);
+  color: #79c0ff;
+  font-size: 10.5px;
+  font-weight: 700;
+  vertical-align: 1px;
+}

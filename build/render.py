@@ -45,12 +45,25 @@ def _eval_expr(expr, ctx):
 def _truthy(cond, ctx):
     cond = cond.strip()
     try:
-        if re.search(r'==|!=|>=|<=|>|<| and | or | not ', cond):
+        if re.search(r'==|!=|>=|<=|>|<|\band\b|\bor\b|\bnot\b', cond):
+            KEYWORDS = {'and', 'or', 'not', 'True', 'False', 'None'}
+            # protéger les littéraux string entre quotes avant substitution
+            strings = {}
+            def stash(m):
+                k = f'__S{len(strings)}__'
+                strings[k] = m.group(0)
+                return k
+            cond2 = re.sub(r"'[^']*'|\"[^\"]*\"", stash, cond)
+
             def sub_lookup(m):
                 key = m.group(0).strip()
+                if key in KEYWORDS or key in strings:
+                    return key  # mots-clés Python et littéraux : ne pas remplacer
                 v = _lookup(key, ctx)
                 return repr(v) if isinstance(v, str) else str(v)
-            expr = re.sub(r'[A-Za-z_][\w.]*', sub_lookup, cond)
+            expr = re.sub(r'[A-Za-z_][\w.]*', sub_lookup, cond2)
+            for k, v in strings.items():
+                expr = expr.replace(k, v)
             return bool(eval(expr, {"__builtins__": {}}))
     except Exception:
         pass
