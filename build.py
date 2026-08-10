@@ -189,9 +189,31 @@ def _merge_fiche(d, slug, kind):
                     # écrasement perd les type_line du deck → assign_role classe des Ramp/Lands
                     # en Flex → faux fillers (incident 2026-08-10, 79 fillers sur Korvold Lands).
                     if isinstance(d.get(k), dict) and isinstance(fiche[k], dict):
-                        merged = dict(fiche[k])
-                        merged.update({kk: vv for kk, vv in d[k].items() if kk not in merged})
-                        d[k] = merged
+                        if k == 'type_recs':
+                            # type_recs = dict {Type: [cartas]}: merger au niveau des cartes —
+                            # garder les explications rédigées du JSON (user 2026-08-10),
+                            # compléter avec les cartes de la fiche absentes du JSON.
+                            merged = {}
+                            for ctype, clist in fiche[k].items():
+                                by_name = {}
+                                # d'abord la fiche, puis le JSON (les explications rédigées
+                                # du JSON gagnent si la fiche n'en a pas)
+                                for c in clist:
+                                    by_name[c.get('name')] = c
+                                for c in d[k].get(ctype, []):
+                                    cur = by_name.get(c.get('name'))
+                                    if cur is None or (c.get('explanation') and not cur.get('explanation')):
+                                        by_name[c.get('name')] = c
+                                merged[ctype] = list(by_name.values())
+                            # + les types présents seulement dans le JSON
+                            for ctype in d[k]:
+                                if ctype not in merged:
+                                    merged[ctype] = d[k][ctype]
+                            d[k] = merged
+                        else:
+                            merged = dict(fiche[k])
+                            merged.update({kk: vv for kk, vv in d[k].items() if kk not in merged})
+                            d[k] = merged
                     else:
                         d[k] = fiche[k]
             if fiche.get('combos') is not None:
@@ -674,6 +696,7 @@ def detect_upgrades(d):
                 'synergy': c.get('synergy'),
                 'syn_cls': syn_cls(float(c['synergy'])) if c.get('synergy') else '',
                 'oracle': c.get('oracle', ''),
+                'explanation': c.get('explanation', ''),
             })
     utility_upgrades = []
     for role in ROLE_ORDER:
@@ -800,10 +823,14 @@ def build_precon(slug):
 
     # --- upgrades : HS manquantes + pièces de combos absentes + recs par utilité ---
     upgrades = detect_upgrades(d)
-    # enrichir : explication (oracle) des cartes recommandées + cardify des détails de combos
+    # enrichir : explication (rédigée si dispo, sinon oracle) des cartes recommandées +
+    # cardify des détails de combos
     for u in upgrades['utility']:
         for c in u['cards']:
-            c['explanation'] = cardify(bold(c.get('oracle', '')), all_names, img_of) if c.get('oracle') else ''
+            # explication rédigée (champ 'explanation' du JSON, user 2026-08-10 : pas
+            # d'oracle brut comme explication) sinon fallback oracle
+            txt = c.get('explanation', '') or c.get('oracle', '')
+            c['explanation'] = cardify(bold(txt), all_names, img_of) if txt else ''
     for u in upgrades['hs']:
         for c in u['cards']:
             c['explanation'] = cardify(bold(c.get('explanation', '')), all_names, img_of) if c.get('explanation') else ''
@@ -1166,7 +1193,9 @@ def build_index():
     for dpath in sorted(glob.glob(f'{PRECON_DIR}/*.json')):
         with open(dpath, encoding='utf-8') as f:
             d = json.load(f)
-        eval_slug_by_name[d.get('commander', {}).get('name', '')] = d.get('precon_slug', '')
+        eval_slug_by_name[d.get('display_name', d.get('commander', {}).get('name', ''))] = d.get('precon_slug', '')
+        # + alias commander.name (les index legacy utilisent le nom du commander)
+        eval_slug_by_name.setdefault(d.get('commander', {}).get('name', ''), d.get('precon_slug', ''))
     for name in idx.get('evals_order', []):
         slug = eval_slug_by_name.get(name)
         if not slug:
@@ -1195,7 +1224,7 @@ def build_index():
                                             for c in cat if c['name'] == nm), '')} for nm, _ in hs[:6]]
         evals.append({
             'href': path.replace(f'{OUT_DIR}/', 'content/'),
-            'name': name,
+            'name': deck.get('display_name', name),
             'img': img,
             'pips': pips_for(letters),
             'colors': letters,

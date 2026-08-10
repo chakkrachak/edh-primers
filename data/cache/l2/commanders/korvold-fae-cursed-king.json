@@ -8865,6 +8865,18 @@
   },
   "Orcish Lumberjack": {
    "Lands Matter": "**Forest sacrifice** : sacrifice a Forest for {R}{G}{R}{G} — early burst mana that doubles as sac fodder."
+  },
+  "Xorn": {
+   "Treasure": "**Treasure doubler** : doubles every Treasure you make — the treasure plan's force multiplier."
+  },
+  "Zulaport Cutthroat": {
+   "Aristocrats": "**Drain payoff** : every creature death drains 1 — the aristocrats damage dealer."
+  },
+  "Ashnod's Altar": {
+   "Aristocrats": "**Free sac outlet** : creatures become {C}{C} — the classic loop enabler."
+  },
+  "Viscera Seer": {
+   "Aristocrats": "**Sac outlet** : sacrifice a creature to scry 1 — the cheapest loop enabler."
   }
  }
 }

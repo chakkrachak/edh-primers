@@ -2,7 +2,7 @@
  "precon_name": "Korvold Lands Bracket 4 (Moxfield)",
  "precon_slug": "korvold-lands-bracket-4",
  "commander": {
-  "name": "Korvold, Fae-Cursed King — Bracket 4",
+  "name": "Korvold, Fae-Cursed King",
   "mana_cost": "{2}{B}{R}{G}",
   "type_line": "Legendary Creature — Dragon Noble",
   "power": "4",
@@ -5884,35 +5884,40 @@
     "synergy": "0.27",
     "img": "https://cards.scryfall.io/normal/front/8/4/848c1951-90fa-4f01-9aed-76f1afcd9995.jpg?1783903774",
     "oracle": "Flying, haste\nWhenever this creature attacks or becomes the target of a spell, create a Treasure token.\nTreasures you control have \"{T}, Sacrifice this artifact: Add two mana of any one color.\"",
-    "type_line": "Creature — Dragon"
+    "type_line": "Creature — Dragon",
+    "explanation": "**Treasure engine** : a Treasure per attack + Treasure mana doubles — the plan's top-end."
    },
    {
     "name": "Professional Face-Breaker",
     "synergy": "0.26",
     "img": "https://cards.scryfall.io/normal/front/4/2/42acbf52-b137-44f0-a815-2817fe8d2da2.jpg?1783923119",
     "oracle": "Menace\nWhenever one or more creatures you control deal combat damage to a player, create a Treasure token.\nSacrifice a Treasure: Exile the top card of your library. You may play that card this turn.",
-    "type_line": "Creature — Human Warrior"
+    "type_line": "Creature — Human Warrior",
+    "explanation": "**Treasure attacker** : a Treasure per combat damage — the treasure plan's pressure engine."
    },
    {
     "name": "Viscera Seer",
     "synergy": "0.23",
     "img": "https://cards.scryfall.io/normal/front/f/5/f511830b-1c1f-4d30-aa5d-4314726d142e.jpg?1783903780",
     "oracle": "Sacrifice a creature: Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
-    "type_line": "Creature — Vampire Wizard"
+    "type_line": "Creature — Vampire Wizard",
+    "explanation": "**Sac outlet** : sacrifice a creature to scry 1 — the cheapest loop enabler."
    },
    {
     "name": "Ruthless Technomancer",
     "synergy": "0.27",
     "img": "https://cards.scryfall.io/normal/front/d/d/dddeb5cc-b535-4484-8a0e-ce32c4c09000.jpg?1783923986",
     "oracle": "When this creature enters, you may sacrifice another creature you control. If you do, create a number of Treasure tokens equal to that creature's power.\n{2}{B}, Sacrifice X artifacts: Return target creature card with power X or less from your graveyard to the battlefield. X can't be 0.",
-    "type_line": "Creature — Human Wizard"
+    "type_line": "Creature — Human Wizard",
+    "explanation": "**Treasure reanimation** : sacs a creature to reanimate a bigger one with treasures — combo support for the sac plan."
    },
    {
     "name": "Zulaport Cutthroat",
     "synergy": "0.22",
     "img": "https://cards.scryfall.io/normal/front/c/4/c43609fb-3cee-44e0-98d0-3ecaba1d5767.jpg?1783903779",
     "oracle": "Whenever this creature or another creature you control dies, each opponent loses 1 life and you gain 1 life.",
-    "type_line": "Creature — Human Rogue Ally"
+    "type_line": "Creature — Human Rogue Ally",
+    "explanation": "**Drain payoff** : every creature death drains 1 — the aristocrats damage dealer."
    },
    {
     "name": "Ragavan, Nimble Pilferer",
@@ -5926,28 +5931,32 @@
     "synergy": "0.22",
     "img": "https://cards.scryfall.io/normal/front/f/7/f73fdf76-e3a6-49d0-bfb0-4b7cdbd4271e.jpg?1783926470",
     "oracle": "If you would create one or more Treasure tokens, instead create those tokens plus an additional Treasure token.",
-    "type_line": "Creature — Elemental"
+    "type_line": "Creature — Elemental",
+    "explanation": "**Treasure doubler** : doubles every Treasure made — the treasure plan's force multiplier."
    },
    {
     "name": "Old Gnawbone",
     "synergy": "0.21",
     "img": "https://cards.scryfall.io/normal/front/7/7/77ceba8b-de19-4db8-b5a7-f5df49bf241f.jpg?1783926458",
     "oracle": "Flying\nWhenever a creature you control deals combat damage to a player, create that many Treasure tokens.",
-    "type_line": "Legendary Creature — Dragon"
+    "type_line": "Legendary Creature — Dragon",
+    "explanation": "**Treasure payoff** : a Treasure per combat damage from your creatures — massive mana."
    },
    {
     "name": "Reassembling Skeleton",
     "synergy": "0.21",
     "img": "https://cards.scryfall.io/normal/front/4/d/4d431445-d7db-4ce1-b422-41494d9be1b4.jpg?1783907080",
     "oracle": "{1}{B}: Return this card from your graveyard to the battlefield tapped.",
-    "type_line": "Creature — Skeleton Warrior"
+    "type_line": "Creature — Skeleton Warrior",
+    "explanation": "**Recursive fodder** : returns from the graveyard — infinite sac fodder for the loops."
    },
    {
     "name": "Squee, the Immortal",
     "synergy": "0.2",
     "img": "https://cards.scryfall.io/normal/front/a/8/a8232acd-4645-489c-8cf1-4efdc75d9322.jpg?1783923257",
     "oracle": "You may cast this card from your graveyard or from exile.",
-    "type_line": "Legendary Creature — Goblin"
+    "type_line": "Legendary Creature — Goblin",
+    "explanation": "**Recursive fodder** : casts itself from the yard — endless loop piece."
    }
   ],
   "Utility Artifacts": [
@@ -5956,14 +5965,16 @@
     "synergy": "0.25",
     "img": "https://cards.scryfall.io/normal/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605",
     "oracle": "Sacrifice a creature: Add {C}{C}.",
-    "type_line": "Artifact"
+    "type_line": "Artifact",
+    "explanation": "**Free sac outlet** : sacrifices creatures for {C}{C} — the classic mana-generating loop piece."
    },
    {
     "name": "Bootleggers' Stash",
     "synergy": "0.23",
     "img": "https://cards.scryfall.io/normal/front/8/0/80b5b7e1-52c2-4453-b3c0-efe2cebad6ce.jpg?1783923109",
     "oracle": "Lands you control have \"{T}: Create a Treasure token.\"",
-    "type_line": "Artifact"
+    "type_line": "Artifact",
+    "explanation": "**Treasure lands** : lands tap for Treasures — the lands-treasure crossover engine."
    }
   ],
   "Enchantments": [
@@ -5972,8 +5983,10 @@
     "synergy": "0.2",
     "img": "https://cards.scryfall.io/normal/front/7/9/79b0e035-8716-469d-99ae-a530cd96ef09.jpg?1783935756",
     "oracle": "Whenever a creature an opponent controls dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nAt the beginning of your upkeep, if you control ten or more Treasures, you win the game.",
-    "type_line": "Enchantment"
+    "type_line": "Enchantment",
+    "explanation": "**Treasure wincon** : a Treasure per opponent creature death — a real alt-wincon for the treasure engine."
    }
   ]
- }
+ },
+ "display_name": "Korvold, Fae-Cursed King — Bracket 4"
 }
