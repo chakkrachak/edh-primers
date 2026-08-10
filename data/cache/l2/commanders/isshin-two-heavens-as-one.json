@@ -5637,6 +5637,27 @@
    "Attack Triggers": "**Trigger ramp** : the attack trigger that ramps — doubled by Isshin into 2 lands per swing.",
    "Extra Combats": "**Extra ramp** : each extra combat = 2 more basics — the mana base snowballs.",
    "Equipment": "**Equipment value** : the equipment payoff — +1/+1 and ramp 2 per combat on any equipped attacker."
+  },
+  "Captain Lannery Storm": {
+   "Aggro": "**Treasure attacker** : first strike + a Treasure on connect — the aggro plan's ramp that doubles attack triggers.",
+   "Attack Triggers": "**Double treasure** : with Isshin, each connect makes TWO Treasures — the attack-trigger engine's mana."
+  },
+  "Etali, Primal Storm": {
+   "Attack Triggers": "**Double free casts** : with Isshin, each attack flips the top card TWICE and casts both — the attack-trigger plan's jackpot.",
+   "Extra Combats": "**Value machine** : each extra combat trigger re-flips — the extra-combat plan's repeatable payoff."
+  },
+  "Hero of Bladehold": {
+   "Aggro": "**Go-wide** : two 1/1 Soldiers + first strike to your attackers — the aggro plan's board builder.",
+   "Tokens": "**Token generator** : 2 Soldiers per attack (doubled by Isshin to 4) — the token plan's engine.",
+   "Attack Triggers": "**Double tokens** : Isshin doubles the Soldier count — a 4/4 army every combat."
+  },
+  "Mardu Ascendancy": {
+   "Aggro": "**Token on attack** : a 1/1 per attacker — the aggro plan's wide-board engine.",
+   "Attack Triggers": "**Isshin doubler** : every attacker makes a token twice — the attack-trigger plan's swarm."
+  },
+  "Skyknight Vanguard": {
+   "Aggro": "**Flying token** : a 1/1 flying on attack — the aggro plan's evasive pressure.",
+   "Tokens": "**Token engine** : doubled by Isshin to 2 tokens per attack — the token plan's flyer."
   }
  },
  "content": {

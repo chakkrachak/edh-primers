@@ -3357,6 +3357,28 @@
    "Artifacts": "**Artifact tutor** : an Equipment tutor stapled to the commander.",
    "Aggro": "**Aggro engine** : draw per equipped attacker and double triggers push the clock.",
    "Modified Creatures": "**Modified general** : equipped Cloud and his equipment trigger twice — the ultimate modified creature."
+  },
+  "Buster Sword": {
+   "Equipment": "**Stat stick** : +3/+0 with vigilance-on-connect — the biggest single boost for the equipment plan (auto-equips off Cloud for free).",
+   "Voltron": "**One-shot boost** : the classic 7-power swing enabler — with double strike and a free equip, it ends games.",
+   "Artifacts": "**Artifact payoff** : a huge equip cost that the artifact-ramp plan pays easily; vigilance keeps the attacker safe.",
+   "Aggro": "**Big beater** : +3/+0 turns any creature into a real threat — the aggro plan's premium equipment.",
+   "Modified Creatures": "**Modified trigger** : equipping it counts as modifying — feeds Cloud's modified-creature payoffs."
+  },
+  "Cid, Freeflier Pilot": {
+   "Equipment": "**Equip reducer** : equipment you control have equip {0} — the equipment plan's core cost reducer.",
+   "Voltron": "**Free equips** : every equipment re-equips for free, letting you move the whole suit onto Cloud each combat.",
+   "Artifacts": "**Artifact synergy** : makes every equipment a free-to-move piece — the artifact plan's engine.",
+   "Aggro": "**Tempo** : free re-equips mean attacks connect every turn — the aggro plan's pressure piece.",
+   "Modified Creatures": "**Modified enabler** : moving equipment triggers modified continuously."
+  },
+  "Professor Hojo": {
+   "Equipment": "**Equip discount** : reduces equip costs — the equipment plan's enabler.",
+   "Modified Creatures": "**Modified payoff** : counts and rewards modified creatures — the plan's dedicated engine."
+  },
+  "Sram, Senior Edificer": {
+   "Artifacts": "**Draw engine** : every aura/equipment/vehicle you cast draws a card — the artifact plan's card advantage.",
+   "Aggro": "**Cantrip equip** : each equipment draws — the aggro plan never runs out of gas."
   }
  },
  "content": {

@@ -5763,7 +5763,8 @@
   },
   "Sylvan Safekeeper": {
    "Lands Matter": "**Land sac outlet** : sac lands for hexproof — protection for your key pieces.",
-   "Voltron": "**Voltron shield** : hexproof for Slogurk — the kill is protected."
+   "Voltron": "**Voltron shield** : hexproof for Slogurk — the kill is protected.",
+   "Mill": "**Land sac outlet** : sacrifices a land for hexproof — feeds Slogurk's +1/+1 and protects the mill engine."
   },
   "Harrow": {
    "Self-Mill": "**Self-mill ramp** : sac a land, ramp 2, fill the yard.",

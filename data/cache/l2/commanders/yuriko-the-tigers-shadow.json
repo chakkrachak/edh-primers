@@ -7340,6 +7340,34 @@
   "Temporal Trespass": {
    "cEDH": "**cEDH finisher** : delve extra turn — the competitive closer.",
    "Tempo": "**Tempo finisher** : a free turn to win."
+  },
+  "Faerie Seer": {
+   "Tempo": "**Ninjutsu enabler** : a 1-drop flyer that scries — the tempo plan's opener.",
+   "Aggro": "**Cheap evasive** : unblockable-ish early pressure for ninjutsu."
+  },
+  "Mistblade Shinobi": {
+   "Ninjutsu": "**Bounce** : on ninjutsu, returns a creature — the ninjutsu plan's tempo removal.",
+   "Ninjas": "**Ninja payoff** : repeatable bounce keeps the table clear.",
+   "Tempo": "**Tempo swing** : bounce + Yuriko drain — the tempo plan's engine.",
+   "Aggro": "**Aggro removal** : bounces blockers while you hit."
+  },
+  "Moon-Circuit Hacker": {
+   "Ninjutsu": "**Draw ninja** : draws on ninjutsu — the ninjutsu plan's card advantage.",
+   "Ninjas": "**Ninja draw** : the tribal plan's cantrip ninja.",
+   "Tempo": "**Draw + drain** : replaces itself and flips big cards with Yuriko.",
+   "Aggro": "**Aggro draw** : keeps the hand full while attacking."
+  },
+  "Ornithopter": {
+   "Ninjutsu": "**Free ninjutsu enabler** : a 0-mana flyer — the ninjutsu plan's cheapest unlock.",
+   "cEDH": "**Free unlock** : enables turn-1 ninjutsu lines — the cEDH plan's opener.",
+   "Tempo": "**Free evasive** : the tempo plan's costless enabler.",
+   "Aggro": "**0-mana attacker** : the aggro plan's opener."
+  },
+  "Prosperous Thief": {
+   "Ninjutsu": "**Treasure ninja** : makes a Treasure on ninjutsu — the ninjutsu plan's ramp.",
+   "Ninjas": "**Ninja ramp** : the tribal plan's mana engine.",
+   "Tempo": "**Treasure tempo** : accelerates while draining with Yuriko.",
+   "Aggro": "**Aggro ramp** : treasures fund more ninjutsu."
   }
  },
  "content": {

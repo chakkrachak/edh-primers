@@ -6286,6 +6286,10 @@
   "Panharmonicon": {
    "Blink": "**Blink doubler** : doubles ALL ETB triggers — the blink payoff.",
    "Combo": "**Combo amplifier** : doubles the loop triggers."
+  },
+  "Wishclaw Talisman": {
+   "Control": "**Tutor tax** : fetches the exact answer for {1}, then hands the Talisman to an opponent — a control staple that trades the repeatable tutor for tempo.",
+   "Combo": "**Combo tutor** : grabs the missing piece for {1}; the downside (opponent gets it) rarely matters on the combo turn."
   }
  },
  "content": {

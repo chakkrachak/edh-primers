@@ -4960,7 +4960,8 @@
    "Legends": "**Legend control** : the legend that protects your turn — flash and no instants.",
    "Historic": "**Historic control** : a walker that locks the stack.",
    "Planeswalkers": "**Walker core** : the superfriends linchpin — untap, flash, lock.",
-   "Combo": "**Combo shield** : protects the win from instant-speed interaction."
+   "Combo": "**Combo shield** : protects the win from instant-speed interaction.",
+   "cEDH": "**Flash + lock** : opponents cast at sorcery speed, and Teferi protects your combo — the cEDH plan's staple."
   },
   "Agatha's Soul Cauldron": {
    "Historic": "**Historic engine** : exile creatures for their abilities — the value engine.",
@@ -4978,6 +4979,22 @@
   "Ragavan, Nimble Pilferer": {
    "cEDH": "**cEDH ramp** : the one-drop that ramps and steals.",
    "Combo": "**Combo fuel** : treasures and card theft for lines."
+  },
+  "Emiel the Blessed": {
+   "Historic": "**Blink** : flickers legendary creatures for value — the historic plan's ETB engine.",
+   "cEDH": "**Infinite mana outlet** : with a mana dork + untap piece, blinks forever — the cEDH plan's combo piece.",
+   "Combo": "**Combo core** : infinite blink loops with any ETB creature — the combo plan's engine."
+  },
+  "Kinnan, Bonder Prodigy": {
+   "Historic": "**Mana doubler** : historic spells cost {2} less and dorks tap for 2 — the historic plan's ramp.",
+   "cEDH": "**Fast mana** : turn-2 acceleration and dork doubling — the cEDH plan's enabler.",
+   "Combo": "**Combo ramp** : makes infinite-mana loops trivial with untap effects."
+  },
+  "Tyvar, Jubilant Brawler": {
+   "Legends": "**Legend untap** : untaps each legendary creature — the legends plan's combat engine.",
+   "Historic": "**Untap + draw** : legend ramp and card draw — the historic plan's utility.",
+   "cEDH": "**Untap piece** : enables infinite mana with dorks — the cEDH plan's combo support.",
+   "Combo": "**Untap engine** : the combo plan's mana loop enabler."
   }
  },
  "content": {

@@ -5117,6 +5117,25 @@
   "Rise of the Dark Realms": {
    "Mill": "**Mill finisher** : reanimate EVERY creature from every yard — the ultimate payoff.",
    "Self-Mill": "**Self-mill finisher** : your whole yard hits the board."
+  },
+  "Locke, Treasure Hunter": {
+   "Reanimator": "**Self-mill + draw** : mills on entry — the reanimator plan's setup.",
+   "Graveyard": "**Mill engine** : fills the yard while drawing — the graveyard plan's card advantage.",
+   "Self-Mill": "**Mill payoff** : mills and draws — the self-mill plan's core.",
+   "Aggro": "**Aggro enabler** : cheap body that fuels the yard for reanimation.",
+   "Mill": "**Mill support** : consistent self-mill."
+  },
+  "Meteor Golem": {
+   "Reanimator": "**Reanimation target** : destroys any permanent on entry — the reanimator plan's premium reanimate.",
+   "Graveyard": "**Value reanimate** : a 7-mana removal spell for 2-3 from the yard.",
+   "Self-Mill": "**Mill payoff** : a game-changing body the mill plan can cheat out.",
+   "Aggro": "**Board answer** : the aggro plan's removal-on-a-stick."
+  },
+  "Siegfried, Famed Swordsman": {
+   "Reanimator": "**Equipment value** : recurs equipment from the yard — the reanimator plan's engine.",
+   "Graveyard": "**Recursion** : rebuys the best equipment each turn.",
+   "Self-Mill": "**Mill synergy** : equipment in the yard become resources.",
+   "Mill": "**Mill payoff** : turns milled equipment into board presence."
   }
  },
  "content": {

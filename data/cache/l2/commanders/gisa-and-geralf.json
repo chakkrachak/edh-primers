@@ -5030,6 +5030,27 @@
    "Graveyard": "**Yard bomb** : every graveyard's Zombies enter under your control.",
    "Mill": "**Mill payoff** : the milled pile becomes your board.",
    "Tokens": "**Token army** : every Zombie ever milled or died comes back."
+  },
+  "Cemetery Reaper": {
+   "Zombies": "**Zombie anthem** : pumps zombies and exiles graveyards to make more — the tribal plan's lord.",
+   "Reanimator": "**Graveyard hate + value** : exiles opposing graveyards while building your zombie count.",
+   "Graveyard": "**Mill payoff** : turns milled zombies into 2/2s — the graveyard plan's engine.",
+   "Tokens": "**Token generator** : exiling creatures from graveyards makes 2/2 Zombie tokens."
+  },
+  "Diregraf Colossus": {
+   "Zombies": "**Zombie lord** : grows per zombie, and each zombie cast makes a 2/2 — the tribal plan's scaling threat.",
+   "Mill": "**Mill payoff** : every zombie cast from the yard or hand makes a token — the mill plan's payoff."
+  },
+  "Fleshbag Marauder": {
+   "Zombies": "**Sacrifice edict** : each player sacrifices a creature — removal that also fills the graveyard.",
+   "Reanimator": "**Recurring edict** : cast from the graveyard repeatedly — the reanimator plan's repeatable removal.",
+   "Graveyard": "**Value sac** : dies to feed the graveyard while clearing the board."
+  },
+  "Undead Augur": {
+   "Zombies": "**Draw on death** : every zombie death draws a card — the tribal plan's engine.",
+   "Reanimator": "**Loop draw** : each reanimated zombie that dies draws — the reanimator plan's velocity.",
+   "Graveyard": "**Mill draw** : with mass mill, every zombie dying draws — the graveyard plan's card advantage.",
+   "Mill": "**Self-mill payoff** : zombie deaths from mill fuel the draw."
   }
  },
  "content": {

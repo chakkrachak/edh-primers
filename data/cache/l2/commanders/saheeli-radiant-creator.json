@@ -4631,6 +4631,29 @@
    "Tokens": "**Token walker** : the token army's walker payoff.",
    "Clones": "**Clone target** : the best permanent to copy.",
    "Artificers": "**Artificer walker** : supports the creature plan."
+  },
+  "Academy Ruins": {
+   "Energy": "**Artifact recursion** : returns key artifacts (energy engines) from the graveyard — the energy plan's resilience.",
+   "Artifacts": "**Recursion** : rebuys the best artifact each turn — the artifact plan's late game.",
+   "Tokens": "**Engine rebuy** : recycles token-makers and copy targets.",
+   "Clones": "**Copy target recursion** : brings back the clone targets (Saheeli combo pieces).",
+   "Artificers": "**Value land** : rebuys the artificer engine pieces."
+  },
+  "Attune with Aether": {
+   "Energy": "**Energy ramp** : fetch a basic + gain energy — the energy plan's turn-1 setup.",
+   "Artifacts": "**Basic fetch** : fixes mana for the artifact plan.",
+   "Artificers": "**Early energy** : the artificer plan's first energy source."
+  },
+  "Peema Trailblazer": {
+   "Energy": "**Energy pay-off** : a big trampler that grows with energy — the energy plan's beater.",
+   "Tokens": "**Untap engine** : untaps artifact creatures — the token plan's combat trick.",
+   "Clones": "**Energy copy** : a large copy target for the clone plan."
+  },
+  "Whirler Virtuoso": {
+   "Energy": "**Thopter maker** : turns energy into 1/1 Thopters — the energy plan's token outlet.",
+   "Artifacts": "**Artifact tokens** : Thopters are artifacts — the artifact plan's board.",
+   "Tokens": "**Token engine** : 3 energy per Thopter — the token plan's flyer swarm.",
+   "Artificers": "**Artificer payoff** : the signature energy-to-token converter."
   }
  },
  "content": {

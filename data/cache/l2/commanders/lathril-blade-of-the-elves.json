@@ -6222,6 +6222,10 @@
    "Aggro": "**Aggro draw** : every Elf replaces itself while pumping.",
    "Ramp": "**Ramp draw** : refill during the big turns.",
    "Tokens": "**Token draw** : tokens count as Elf casts — draw and grow."
+  },
+  "Elven Ambush": {
+   "Elves": "**Instant elfball** : makes X 1/1 Elves at instant speed — the elf tribal plan's explosive board.",
+   "Tokens": "**Token burst** : X Elf tokens for X mana — the token plan's instant-speed army."
   }
  },
  "content": {

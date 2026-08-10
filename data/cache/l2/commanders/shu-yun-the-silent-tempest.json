@@ -3581,7 +3581,8 @@
    "Voltron": "**Rebound unblockable** : unblockable twice (rebound) with a pump — two clean hits.",
    "Spellslinger": "**Cantrip chain** : rebound gives two prowess triggers.",
    "Prowess": "**Prowess fuel** : unblockable + double trigger for the mentor army.",
-   "Aggro": "**Aggro trick** : a guaranteed hit this turn and next."
+   "Aggro": "**Aggro trick** : a guaranteed hit this turn and next.",
+   "Sunforger": "**Sunforger target** : a 2-mana unblockable pump fetchable with Sunforger — the plan's tutoring payoff."
   },
   "Emerge Unscathed": {
    "Voltron": "**Protection** : makes Shu Yun unblockable + protection from a color — the kill-turn save.",
@@ -3624,6 +3625,26 @@
   "Fists of Flame": {
    "Prowess": "**Prowess payoff** : double strike + pump for the mentor.",
    "Sunforger": "**Sunforger finisher** : the double-strike tutor target."
+  },
+  "Balmor, Battlemage Captain": {
+   "Spellslinger": "**Spells pump** : each instant/sorcery pumps creatures and grants flying — the spellslinger plan's anthem.",
+   "Prowess": "**Prowess lord** : all your creatures get prowess — the prowess plan's force multiplier.",
+   "Aggro": "**Anthem** : every spell you cast grows the whole team — the aggro plan's burst."
+  },
+  "Gods Willing": {
+   "Voltron": "**Protection** : hexproof + scry for one mana — keeps Shu Yun alive through removal.",
+   "Prowess": "**Prowess trigger** : a one-mana spell that protects — the prowess plan's answer.",
+   "Sunforger": "**Sunforger answer** : fetchable protection at instant speed."
+  },
+  "Shadow Rift": {
+   "Voltron": "**Unblockable** : makes Shu Yun unblockable for {U} — the voltron plan's evasion.",
+   "Spellslinger": "**Cantrip + evasion** : draws while making the attacker unblockable.",
+   "Aggro": "**Evasion** : the aggro plan's cheap finisher enabler."
+  },
+  "Titan's Strength": {
+   "Voltron": "**Pump** : +3/+1 and scry — the voltron plan's damage boost.",
+   "Spellslinger": "**Spell payoff** : a cheap pump that triggers prowess and spellslinger effects.",
+   "Sunforger": "**Sunforger fetch** : a 1-mana pump fetchable for the finishing blow."
   }
  },
  "content": {
