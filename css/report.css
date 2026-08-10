@@ -525,14 +525,14 @@ ul.quick-read li strong { color: var(--accent-green); }
 #backTop:hover { transform: translateY(-2px); }
 
 /* Sections & sous-sections collapsables (user request, 2026-08-10) */
-h2[data-collapse] { cursor: pointer; user-select: none; }
-h2[data-collapse]::before { content: '\25BE '; color: var(--accent-blue); }
-h2[data-collapse].collapsed::before { content: '\25B8 '; }
+h2[data-collapse] { cursor: pointer; user-select: none; position: relative; padding-right: 26px; }
+h2[data-collapse]::after { content: '\25BE'; color: var(--accent-blue); position: absolute; right: 6px; top: 50%; transform: translateY(-50%); }
+h2[data-collapse].collapsed::after { content: '\25B8'; }
 .collapse-body.collapsed { display: none; }
 
-.collapsible > h3 { cursor: pointer; user-select: none; }
-.collapsible > h3::before { content: '\25BE '; color: var(--accent-blue); }
-.collapsible.collapsed > h3::before { content: '\25B8 '; }
+.collapsible > h3 { cursor: pointer; user-select: none; position: relative; padding-right: 26px; }
+.collapsible > h3::after { content: '\25BE'; color: var(--accent-blue); position: absolute; right: 6px; top: 50%; transform: translateY(-50%); }
+.collapsible.collapsed > h3::after { content: '\25B8'; }
 .collapsible.collapsed > *:not(:first-child) { display: none; }
 
 /* Badge quantité (basic lands multi-exemplaires, user request 2026-08-10) */

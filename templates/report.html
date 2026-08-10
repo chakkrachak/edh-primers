@@ -36,7 +36,7 @@
 <p class="report-sub">Each explanation is verified against the official Oracle text (Scryfall). The "synergy 0.xx" badge is the EDHREC score: share of decks playing this card. Cards are grouped by ROLE/FUNCTION (Engines → Wincons → Flex → Card Advantage → Ramp → Wipes → Interaction → Lands), not by card type. 📋 copies the category's card list.</p>
 
 {% for cat in categories %}
-<div class="category collapsible" data-collapse="{% if loop.index <= 2 %}expanded{% else %}collapsed{% endif %}"><h3>{{ cat.title }} {{ cat.copy_btn }}</h3>
+<div class="category collapsible" data-collapse="expanded"><h3>{{ cat.title }} {{ cat.copy_btn }}</h3>
 <div class="summary">🎯 Build target: {{ cat.target_display }} — {{ cat.synopsis }}</div>
 <div class="card-grid">
 {% for card in cat.cards %}
@@ -54,7 +54,7 @@
 </div></div>
 {% endfor %}
 
-<h2 id="s4" data-collapse="collapsed">4. Relevant Combos ({{ n_combos }})</h2>
+<h2 id="s4" data-collapse="expanded">4. Relevant Combos ({{ n_combos }})</h2>
 <p class="report-sub">Filter: color-identity compatible + overlap with the EDHREC card pool + 2-4 cards + popularity ≥ 100. 📋 copies the combo's card list.</p>
 
 {% for combo in combos %}

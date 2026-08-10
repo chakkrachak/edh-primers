@@ -41,7 +41,7 @@
 </div>
 
 {% for p in plans %}
-<div class="category collapsible" id="plan-{{ p.tag_slug }}" data-collapse="{% if p.decks > 500 %}expanded{% else %}collapsed{% endif %}"><h3>{% if p.decks > 500 %}👑{% else %}🎯{% endif %} {{ p.tag }} — {{ p.decks }} decks</h3>
+<div class="category collapsible" id="plan-{{ p.tag_slug }}" data-collapse="expanded"><h3>{% if p.decks > 500 %}👑{% else %}🎯{% endif %} {{ p.tag }} — {{ p.decks }} decks</h3>
 <div class="plan-desc">
 <p><strong>📖 Game plan</strong></p>
 <ul>
@@ -70,7 +70,7 @@
 {% if p.combos %}
 <div class="plan-combos"><strong>🔗 Combos (Commander Spellbook)</strong>
 {% for c in p.combos %}
-<div class="combo collapsible" data-collapse="collapsed">
+<div class="combo collapsible" data-collapse="expanded">
 <h3>🔗 {{ c.title }} {{ c.copy_btn }}</h3>
 <div class="meta">{% if c.in_deck %}in the precon: {{ c.in_deck|join(', ') }}{% else %}upgrade cards{% endif %}{% if c.identity %} · Identity {{ c.identity|escape }}{% endif %} · Popularity: {{ c.popularity }} decks</div>
 <div class="center">{{ c.bigs|safe }}</div>
@@ -94,7 +94,7 @@
 <p class="report-sub">Every card of the list, grouped by ROLE/FUNCTION (Engines → Wincons → Flex → Card Advantage → Ramp → Wipes → Interaction → Lands) — not by card type. Cards in the commander's EDHREC High Synergy / Top Cards pool carry the synergy badge. 📋 copies a role's card names.</p>
 
 {% for cat in categories %}
-<div class="category collapsible" data-collapse="{% if loop.index <= 2 %}expanded{% else %}collapsed{% endif %}"><h3>{{ cat.title }} {{ cat.copy_btn }}</h3>
+<div class="category collapsible" data-collapse="collapsed"><h3>{{ cat.title }} {{ cat.copy_btn }}</h3>
 <div class="summary">🎯 Build target: {{ cat.target }} — {{ cat.synopsis|safe }} — <strong>{{ cat.n_qty }} cards</strong>{% if cat.n != cat.n_qty %} ({{ cat.n }} unique){% endif %}.</div>
 <div class="card-grid">
 {% for card in cat.cards %}
@@ -148,7 +148,7 @@
 <p>✅ No filler cards detected — every non-land card serves a structural role or a major game plan.</p>
 {% endif %}
 
-<h2 id="s6" data-collapse="collapsed">6. Upgrades ({{ n_upgrades_hs }} high-synergy + {{ n_upgrades_combos }} combos)</h2>
+<h2 id="s6" data-collapse="expanded">6. Upgrades ({{ n_upgrades_hs }} high-synergy + {{ n_upgrades_combos }} combos)</h2>
 <p class="report-sub">The strongest cards you are NOT playing: High-Synergy cards from the major game plans missing from the deck, and pieces that would unlock combos from Commander Spellbook.</p>
 
 <h3>🏆 Missing High-Synergy cards</h3>
@@ -183,7 +183,7 @@
 
 <h3>🔗 Missing combo pieces</h3>
 {% for c in upgrades.combos %}
-<div class="combo collapsible" data-collapse="collapsed">
+<div class="combo collapsible" data-collapse="expanded">
 <h3>🔗 {{ c.title }} 📋</h3>
 <div class="combo-upgrade">
 <div class="center">{{ c.bigs|safe }}</div>
