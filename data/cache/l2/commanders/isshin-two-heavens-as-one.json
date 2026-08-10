@@ -2699,7 +2699,502 @@
     "Fervent Charge",
     "Sword of the Animist"
    ],
-   "combos": []
+   "combos": [
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 3337,
+        "name": "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+        "oracleId": "c0957e5e-c71b-439c-931c-9f55d2f76ace",
+        "spoiler": false,
+        "faces": 2,
+        "typeLine": "Enchantment — Saga // Enchantment Creature — Goblin Shaman",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.png?1783923875",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+        "layoutRotationFront": null,
+        "imageUriBackPng": "https://cards.scryfall.io/png/back/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.png?1783923875",
+        "imageUriBackLarge": "https://cards.scryfall.io/large/back/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+        "imageUriBackNormal": "https://cards.scryfall.io/normal/back/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+        "imageUriBackSmall": "https://cards.scryfall.io/small/back/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+        "imageUriBackArtCrop": "https://cards.scryfall.io/art_crop/back/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875"
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2105,
+        "name": "Combat Celebrant",
+        "oracleId": "5e15ff93-99a0-4000-918e-4bd2c257188d",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Human Warrior",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/2/8/28b63c3d-2e55-4343-b49a-11fa602ec473.png?1783936491",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/2/8/28b63c3d-2e55-4343-b49a-11fa602ec473.jpg?1783936491",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/2/8/28b63c3d-2e55-4343-b49a-11fa602ec473.jpg?1783936491",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/2/8/28b63c3d-2e55-4343-b49a-11fa602ec473.jpg?1783936491",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/2/8/28b63c3d-2e55-4343-b49a-11fa602ec473.jpg?1783936491",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 4737,
+        "name": "Captain Lannery Storm",
+        "oracleId": "235bf0ba-658c-463f-b112-7478ba27bd7b",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Legendary Creature — Human Pirate",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/0/60a457e2-6cc7-47f0-9a24-df5459395358.png?1783911922",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/0/60a457e2-6cc7-47f0-9a24-df5459395358.jpg?1783911922",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/0/60a457e2-6cc7-47f0-9a24-df5459395358.jpg?1783911922",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/0/60a457e2-6cc7-47f0-9a24-df5459395358.jpg?1783911922",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/0/60a457e2-6cc7-47f0-9a24-df5459395358.jpg?1783911922",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "identity": "R",
+     "popularity": 895,
+     "produces": [
+      {
+       "name": "Infinite combat phases"
+      },
+      {
+       "name": "Infinite creature tokens with haste"
+      },
+      {
+       "name": "Infinite death triggers"
+      },
+      {
+       "name": "Infinite creature ETB"
+      },
+      {
+       "name": "Infinite creature LTB"
+      },
+      {
+       "name": "Infinite creature sacrifice triggers"
+      }
+     ],
+     "notablePrerequisites": "Reflection of Kiki-Jiki and Captain Lannery Storm do not have summoning sickness.\nCaptain Lannery Storm cannot be blocked and killed by an opponent.",
+     "easyPrerequisites": "",
+     "description": "Activate Reflection of KIki-Jiki by paying {1} and tapping it, creating a token copy of Combat Celebrant with haste.\nDeclare Captain Lannery Storm and Combat Celebrant token as an attackers, choosing to exert Combat Celebbrant as it attacks.\nThe token triggers, untapping all other creatures you control and causing you to get an additional combat phase after this one.\nCaptain Lannery Storm deals combat damage to a player, causing you to create a Treasure token.\nActivate a Treasure token by tapping and sacrificing it, adding {R}.\nRepeat."
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 3398,
+        "name": "Hellkite Charger",
+        "oracleId": "d4f28a4b-d821-4132-bdec-4c528318f8e2",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Dragon",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.png?1783915650",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 7121,
+        "name": "Fire Nation Palace",
+        "oracleId": "f2000fb8-39c6-4ad6-a020-5245faaa1eba",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Land",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.png?1783904912",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 7122,
+        "name": "Windcrag Siege",
+        "oracleId": "64df560a-905f-45d1-bc70-14d99e3112d3",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.png?1783907290",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "with \"Mardu\" chosen",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "identity": "RW",
+     "popularity": 872,
+     "produces": [
+      {
+       "name": "Infinite combat phases"
+      },
+      {
+       "name": "Infinite red mana"
+      }
+     ],
+     "notablePrerequisites": "An opponent cannot block and kill Hellkite Charger",
+     "easyPrerequisites": "",
+     "description": "Activate Fire Nation Palace's second ability by paying {1}{R} and tapping it, giving Hellkite Charger firebending 4 until end of turn.\nDeclare Hellkite Charger as an attacker, triggering it and its firebending ability twice.\nResolve both Hellkite Charger firebending triggers, adding eight {R}.\nResolve the first Hellkite Charger trigger, choosing not to pay.\nResolve the second Hellkite Charger trigger, causing you to pay {5}{R}{R} to untap all attacking creatures and to get an additional combat phase after this one.\nRepeat from step 2."
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 3259,
+        "name": "Breath of Fury",
+        "oracleId": "fdaa0faf-e7ee-48b3-9330-de0fc3792ad3",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment — Aura",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.png?1783937066",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "attached to another creature you control ",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 178,
+        "name": "Adeline, Resplendent Cathar",
+        "oracleId": "38515f89-348b-4cf3-b7bd-1f6fe4ce2fba",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Legendary Creature — Human Knight",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.png?1783907131",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 1879,
+        "name": "Rising of the Day",
+        "oracleId": "434a20f8-3f87-4004-9155-0f196fc2257e",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.png?1783916282",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "identity": "RW",
+     "popularity": 595,
+     "produces": [
+      {
+       "name": "Infinite combat damage"
+      },
+      {
+       "name": "Infinite combat phases"
+      },
+      {
+       "name": "Infinite death triggers"
+      },
+      {
+       "name": "Infinite creature ETB"
+      },
+      {
+       "name": "Infinite creature LTB"
+      },
+      {
+       "name": "Infinite mana creatures you control can produce"
+      },
+      {
+       "name": "Infinite creature sacrifice triggers"
+      },
+      {
+       "name": "Infinite untap of creatures you control"
+      },
+      {
+       "name": "Infinite creature tokens with haste"
+      },
+      {
+       "name": "Infinitely powerful creature"
+      }
+     ],
+     "notablePrerequisites": "An opponent cannot block creatures you control.",
+     "easyPrerequisites": "",
+     "description": "Declare the creature with Breath of Fury attached and Adeline as attackers.\nAdeline triggers, creating a creature token.\nDeal combat damage using the creature that has Breath of Fury attached. \nBreath of Fury triggers, causing you to sacrifice the creature it is attached to, then attach Breath of Fury to the creature token, then causing you to untap all creatures you control and to get an additional combat phase after this one.\nRepeat each combat phase."
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 5324,
+        "name": "Anim Pakal, Thousandth Moon",
+        "oracleId": "05551d91-50c6-46d1-86a4-cd3d177d0923",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Legendary Creature — Human Soldier",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.png?1783913734",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 4050,
+        "name": "Phyrexian Altar",
+        "oracleId": "8d02b297-97c4-4379-9862-0a462400f66f",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Artifact",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.png?1783921789",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 3750,
+        "name": "Aggravated Assault",
+        "oracleId": "20129459-a386-41eb-899d-1aede3427300",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.png?1783945060",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "identity": "RW",
+     "popularity": 514,
+     "produces": [
+      {
+       "name": "Infinite colored mana"
+      },
+      {
+       "name": "Infinite combat phases"
+      },
+      {
+       "name": "Infinite death triggers"
+      },
+      {
+       "name": "Infinite creature ETB"
+      },
+      {
+       "name": "Infinite creature LTB"
+      },
+      {
+       "name": "Infinite creature sacrifice triggers"
+      },
+      {
+       "name": "Infinite untap of creatures you control"
+      },
+      {
+       "name": "Infinite mana creatures you control can produce"
+      }
+     ],
+     "notablePrerequisites": "You control a non-Gnome creature that does not have summoning sickness. Anim Pakal has at least four +1/+1 counters on it. An opponent cannot block and kill creatures you control.",
+     "easyPrerequisites": "",
+     "description": "Declare any non-Gnome creature you control as an attacker.\r\nAnim Pakal triggers, putting a +1/+1 counter on itself, then creating at least five 1/1 Gnome artifact creature tokens that are tapped and attacking.\r\nMove to your postcombat main phase.\r\nActivate Phyrexian Altar five times by saacrificing five Gnomes, adding {R}{R}{R}{R}{R}.\r\nActivate Aggravated Assault by paying {3}{R}{R}, causing you to untap all creatures you control and to get an additional combat and main phase after this one.\r\nRepeat."
+    }
+   ]
   },
   {
    "tag": "Tokens",
@@ -2765,7 +3260,380 @@
     "Commissar Severina Raine",
     "Otharri, Suns' Glory"
    ],
-   "combos": []
+   "combos": [
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 3398,
+        "name": "Hellkite Charger",
+        "oracleId": "d4f28a4b-d821-4132-bdec-4c528318f8e2",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Dragon",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.png?1783915650",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 7121,
+        "name": "Fire Nation Palace",
+        "oracleId": "f2000fb8-39c6-4ad6-a020-5245faaa1eba",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Land",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.png?1783904912",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 7122,
+        "name": "Windcrag Siege",
+        "oracleId": "64df560a-905f-45d1-bc70-14d99e3112d3",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.png?1783907290",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "with \"Mardu\" chosen",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "identity": "RW",
+     "popularity": 872,
+     "produces": [
+      {
+       "name": "Infinite combat phases"
+      },
+      {
+       "name": "Infinite red mana"
+      }
+     ],
+     "notablePrerequisites": "An opponent cannot block and kill Hellkite Charger",
+     "easyPrerequisites": "",
+     "description": "Activate Fire Nation Palace's second ability by paying {1}{R} and tapping it, giving Hellkite Charger firebending 4 until end of turn.\nDeclare Hellkite Charger as an attacker, triggering it and its firebending ability twice.\nResolve both Hellkite Charger firebending triggers, adding eight {R}.\nResolve the first Hellkite Charger trigger, choosing not to pay.\nResolve the second Hellkite Charger trigger, causing you to pay {5}{R}{R} to untap all attacking creatures and to get an additional combat phase after this one.\nRepeat from step 2."
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 3259,
+        "name": "Breath of Fury",
+        "oracleId": "fdaa0faf-e7ee-48b3-9330-de0fc3792ad3",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment — Aura",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.png?1783937066",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "attached to another creature you control ",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 178,
+        "name": "Adeline, Resplendent Cathar",
+        "oracleId": "38515f89-348b-4cf3-b7bd-1f6fe4ce2fba",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Legendary Creature — Human Knight",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.png?1783907131",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 1879,
+        "name": "Rising of the Day",
+        "oracleId": "434a20f8-3f87-4004-9155-0f196fc2257e",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.png?1783916282",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "identity": "RW",
+     "popularity": 595,
+     "produces": [
+      {
+       "name": "Infinite combat damage"
+      },
+      {
+       "name": "Infinite combat phases"
+      },
+      {
+       "name": "Infinite death triggers"
+      },
+      {
+       "name": "Infinite creature ETB"
+      },
+      {
+       "name": "Infinite creature LTB"
+      },
+      {
+       "name": "Infinite mana creatures you control can produce"
+      },
+      {
+       "name": "Infinite creature sacrifice triggers"
+      },
+      {
+       "name": "Infinite untap of creatures you control"
+      },
+      {
+       "name": "Infinite creature tokens with haste"
+      },
+      {
+       "name": "Infinitely powerful creature"
+      }
+     ],
+     "notablePrerequisites": "An opponent cannot block creatures you control.",
+     "easyPrerequisites": "",
+     "description": "Declare the creature with Breath of Fury attached and Adeline as attackers.\nAdeline triggers, creating a creature token.\nDeal combat damage using the creature that has Breath of Fury attached. \nBreath of Fury triggers, causing you to sacrifice the creature it is attached to, then attach Breath of Fury to the creature token, then causing you to untap all creatures you control and to get an additional combat phase after this one.\nRepeat each combat phase."
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 5324,
+        "name": "Anim Pakal, Thousandth Moon",
+        "oracleId": "05551d91-50c6-46d1-86a4-cd3d177d0923",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Legendary Creature — Human Soldier",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.png?1783913734",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 4050,
+        "name": "Phyrexian Altar",
+        "oracleId": "8d02b297-97c4-4379-9862-0a462400f66f",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Artifact",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.png?1783921789",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 3750,
+        "name": "Aggravated Assault",
+        "oracleId": "20129459-a386-41eb-899d-1aede3427300",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.png?1783945060",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "identity": "RW",
+     "popularity": 514,
+     "produces": [
+      {
+       "name": "Infinite colored mana"
+      },
+      {
+       "name": "Infinite combat phases"
+      },
+      {
+       "name": "Infinite death triggers"
+      },
+      {
+       "name": "Infinite creature ETB"
+      },
+      {
+       "name": "Infinite creature LTB"
+      },
+      {
+       "name": "Infinite creature sacrifice triggers"
+      },
+      {
+       "name": "Infinite untap of creatures you control"
+      },
+      {
+       "name": "Infinite mana creatures you control can produce"
+      }
+     ],
+     "notablePrerequisites": "You control a non-Gnome creature that does not have summoning sickness. Anim Pakal has at least four +1/+1 counters on it. An opponent cannot block and kill creatures you control.",
+     "easyPrerequisites": "",
+     "description": "Declare any non-Gnome creature you control as an attacker.\r\nAnim Pakal triggers, putting a +1/+1 counter on itself, then creating at least five 1/1 Gnome artifact creature tokens that are tapped and attacking.\r\nMove to your postcombat main phase.\r\nActivate Phyrexian Altar five times by saacrificing five Gnomes, adding {R}{R}{R}{R}{R}.\r\nActivate Aggravated Assault by paying {3}{R}{R}, causing you to untap all creatures you control and to get an additional combat and main phase after this one.\r\nRepeat."
+    }
+   ]
   },
   {
    "tag": "Attack Triggers",
@@ -2830,7 +3698,502 @@
     "Fervent Charge",
     "Anim Pakal, Thousandth Moon"
    ],
-   "combos": []
+   "combos": [
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 3337,
+        "name": "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+        "oracleId": "c0957e5e-c71b-439c-931c-9f55d2f76ace",
+        "spoiler": false,
+        "faces": 2,
+        "typeLine": "Enchantment — Saga // Enchantment Creature — Goblin Shaman",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.png?1783923875",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+        "layoutRotationFront": null,
+        "imageUriBackPng": "https://cards.scryfall.io/png/back/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.png?1783923875",
+        "imageUriBackLarge": "https://cards.scryfall.io/large/back/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+        "imageUriBackNormal": "https://cards.scryfall.io/normal/back/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+        "imageUriBackSmall": "https://cards.scryfall.io/small/back/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875",
+        "imageUriBackArtCrop": "https://cards.scryfall.io/art_crop/back/2/4/24c0d87b-0049-4beb-b9cb-6f813b7aa7dc.jpg?1783923875"
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 2105,
+        "name": "Combat Celebrant",
+        "oracleId": "5e15ff93-99a0-4000-918e-4bd2c257188d",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Human Warrior",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/2/8/28b63c3d-2e55-4343-b49a-11fa602ec473.png?1783936491",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/2/8/28b63c3d-2e55-4343-b49a-11fa602ec473.jpg?1783936491",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/2/8/28b63c3d-2e55-4343-b49a-11fa602ec473.jpg?1783936491",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/2/8/28b63c3d-2e55-4343-b49a-11fa602ec473.jpg?1783936491",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/2/8/28b63c3d-2e55-4343-b49a-11fa602ec473.jpg?1783936491",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 4737,
+        "name": "Captain Lannery Storm",
+        "oracleId": "235bf0ba-658c-463f-b112-7478ba27bd7b",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Legendary Creature — Human Pirate",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/0/60a457e2-6cc7-47f0-9a24-df5459395358.png?1783911922",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/0/60a457e2-6cc7-47f0-9a24-df5459395358.jpg?1783911922",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/0/60a457e2-6cc7-47f0-9a24-df5459395358.jpg?1783911922",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/0/60a457e2-6cc7-47f0-9a24-df5459395358.jpg?1783911922",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/0/60a457e2-6cc7-47f0-9a24-df5459395358.jpg?1783911922",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "identity": "R",
+     "popularity": 895,
+     "produces": [
+      {
+       "name": "Infinite combat phases"
+      },
+      {
+       "name": "Infinite creature tokens with haste"
+      },
+      {
+       "name": "Infinite death triggers"
+      },
+      {
+       "name": "Infinite creature ETB"
+      },
+      {
+       "name": "Infinite creature LTB"
+      },
+      {
+       "name": "Infinite creature sacrifice triggers"
+      }
+     ],
+     "notablePrerequisites": "Reflection of Kiki-Jiki and Captain Lannery Storm do not have summoning sickness.\nCaptain Lannery Storm cannot be blocked and killed by an opponent.",
+     "easyPrerequisites": "",
+     "description": "Activate Reflection of KIki-Jiki by paying {1} and tapping it, creating a token copy of Combat Celebrant with haste.\nDeclare Captain Lannery Storm and Combat Celebrant token as an attackers, choosing to exert Combat Celebbrant as it attacks.\nThe token triggers, untapping all other creatures you control and causing you to get an additional combat phase after this one.\nCaptain Lannery Storm deals combat damage to a player, causing you to create a Treasure token.\nActivate a Treasure token by tapping and sacrificing it, adding {R}.\nRepeat."
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 3398,
+        "name": "Hellkite Charger",
+        "oracleId": "d4f28a4b-d821-4132-bdec-4c528318f8e2",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Dragon",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.png?1783915650",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 7121,
+        "name": "Fire Nation Palace",
+        "oracleId": "f2000fb8-39c6-4ad6-a020-5245faaa1eba",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Land",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.png?1783904912",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 7122,
+        "name": "Windcrag Siege",
+        "oracleId": "64df560a-905f-45d1-bc70-14d99e3112d3",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.png?1783907290",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "with \"Mardu\" chosen",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "identity": "RW",
+     "popularity": 872,
+     "produces": [
+      {
+       "name": "Infinite combat phases"
+      },
+      {
+       "name": "Infinite red mana"
+      }
+     ],
+     "notablePrerequisites": "An opponent cannot block and kill Hellkite Charger",
+     "easyPrerequisites": "",
+     "description": "Activate Fire Nation Palace's second ability by paying {1}{R} and tapping it, giving Hellkite Charger firebending 4 until end of turn.\nDeclare Hellkite Charger as an attacker, triggering it and its firebending ability twice.\nResolve both Hellkite Charger firebending triggers, adding eight {R}.\nResolve the first Hellkite Charger trigger, choosing not to pay.\nResolve the second Hellkite Charger trigger, causing you to pay {5}{R}{R} to untap all attacking creatures and to get an additional combat phase after this one.\nRepeat from step 2."
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 3259,
+        "name": "Breath of Fury",
+        "oracleId": "fdaa0faf-e7ee-48b3-9330-de0fc3792ad3",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment — Aura",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.png?1783937066",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "attached to another creature you control ",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 178,
+        "name": "Adeline, Resplendent Cathar",
+        "oracleId": "38515f89-348b-4cf3-b7bd-1f6fe4ce2fba",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Legendary Creature — Human Knight",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.png?1783907131",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 1879,
+        "name": "Rising of the Day",
+        "oracleId": "434a20f8-3f87-4004-9155-0f196fc2257e",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.png?1783916282",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "identity": "RW",
+     "popularity": 595,
+     "produces": [
+      {
+       "name": "Infinite combat damage"
+      },
+      {
+       "name": "Infinite combat phases"
+      },
+      {
+       "name": "Infinite death triggers"
+      },
+      {
+       "name": "Infinite creature ETB"
+      },
+      {
+       "name": "Infinite creature LTB"
+      },
+      {
+       "name": "Infinite mana creatures you control can produce"
+      },
+      {
+       "name": "Infinite creature sacrifice triggers"
+      },
+      {
+       "name": "Infinite untap of creatures you control"
+      },
+      {
+       "name": "Infinite creature tokens with haste"
+      },
+      {
+       "name": "Infinitely powerful creature"
+      }
+     ],
+     "notablePrerequisites": "An opponent cannot block creatures you control.",
+     "easyPrerequisites": "",
+     "description": "Declare the creature with Breath of Fury attached and Adeline as attackers.\nAdeline triggers, creating a creature token.\nDeal combat damage using the creature that has Breath of Fury attached. \nBreath of Fury triggers, causing you to sacrifice the creature it is attached to, then attach Breath of Fury to the creature token, then causing you to untap all creatures you control and to get an additional combat phase after this one.\nRepeat each combat phase."
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 5324,
+        "name": "Anim Pakal, Thousandth Moon",
+        "oracleId": "05551d91-50c6-46d1-86a4-cd3d177d0923",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Legendary Creature — Human Soldier",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.png?1783913734",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 4050,
+        "name": "Phyrexian Altar",
+        "oracleId": "8d02b297-97c4-4379-9862-0a462400f66f",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Artifact",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.png?1783921789",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 3750,
+        "name": "Aggravated Assault",
+        "oracleId": "20129459-a386-41eb-899d-1aede3427300",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.png?1783945060",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "identity": "RW",
+     "popularity": 514,
+     "produces": [
+      {
+       "name": "Infinite colored mana"
+      },
+      {
+       "name": "Infinite combat phases"
+      },
+      {
+       "name": "Infinite death triggers"
+      },
+      {
+       "name": "Infinite creature ETB"
+      },
+      {
+       "name": "Infinite creature LTB"
+      },
+      {
+       "name": "Infinite creature sacrifice triggers"
+      },
+      {
+       "name": "Infinite untap of creatures you control"
+      },
+      {
+       "name": "Infinite mana creatures you control can produce"
+      }
+     ],
+     "notablePrerequisites": "You control a non-Gnome creature that does not have summoning sickness. Anim Pakal has at least four +1/+1 counters on it. An opponent cannot block and kill creatures you control.",
+     "easyPrerequisites": "",
+     "description": "Declare any non-Gnome creature you control as an attacker.\r\nAnim Pakal triggers, putting a +1/+1 counter on itself, then creating at least five 1/1 Gnome artifact creature tokens that are tapped and attacking.\r\nMove to your postcombat main phase.\r\nActivate Phyrexian Altar five times by saacrificing five Gnomes, adding {R}{R}{R}{R}{R}.\r\nActivate Aggravated Assault by paying {3}{R}{R}, causing you to untap all creatures you control and to get an additional combat and main phase after this one.\r\nRepeat."
+    }
+   ]
   },
   {
    "tag": "Extra Combats",
@@ -2897,7 +4260,468 @@
     "Fervent Charge",
     "Iroas, God of Victory"
    ],
-   "combos": []
+   "combos": [
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 4364,
+        "name": "Aurelia, the Warleader",
+        "oracleId": "0f5a3a09-2f07-4774-9e0f-e99d9a444166",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Legendary Creature — Angel",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.png?1783908915",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 1692,
+        "name": "Helm of the Host",
+        "oracleId": "83b43aba-bf9c-4da2-967d-9daa632e97d2",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Legendary Artifact — Equipment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.png?1783903218",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/7/0/70ffc71f-328d-421d-926b-6f2e45ffb812.jpg?1783903218",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "identity": "RW",
+     "popularity": 30431,
+     "produces": [
+      {
+       "name": "Infinite combat phases"
+      },
+      {
+       "name": "Infinite creature tokens with haste"
+      },
+      {
+       "name": "Infinite creature ETB"
+      },
+      {
+       "name": "Infinite mana creatures you control can produce"
+      },
+      {
+       "name": "Infinite untap of creatures you control"
+      }
+     ],
+     "notablePrerequisites": "Helm attached to Aurelia.",
+     "easyPrerequisites": "",
+     "description": "At the beginning of your combat phase, Helm of the Host triggers, creating a nonlegendary token copy of Aurelia.\nDeclare the token Aurelia as an attacker.\nThe token Aurelia triggers, causing you to untap all creatures you control and get an additional combat phase after this one.\nRepeat each combat phase."
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 3398,
+        "name": "Hellkite Charger",
+        "oracleId": "d4f28a4b-d821-4132-bdec-4c528318f8e2",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Dragon",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.png?1783915650",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/8/6836c646-83ff-4bf8-96dd-4cbdd6c7e861.jpg?1783915650",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 7121,
+        "name": "Fire Nation Palace",
+        "oracleId": "f2000fb8-39c6-4ad6-a020-5245faaa1eba",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Land",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.png?1783904912",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/9/c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c.jpg?1783904912",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 7122,
+        "name": "Windcrag Siege",
+        "oracleId": "64df560a-905f-45d1-bc70-14d99e3112d3",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.png?1783907290",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/3/1/31a8329b-23a1-4c49-a579-a5da8d01435a.jpg?1783907290",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "with \"Mardu\" chosen",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "identity": "RW",
+     "popularity": 872,
+     "produces": [
+      {
+       "name": "Infinite combat phases"
+      },
+      {
+       "name": "Infinite red mana"
+      }
+     ],
+     "notablePrerequisites": "An opponent cannot block and kill Hellkite Charger",
+     "easyPrerequisites": "",
+     "description": "Activate Fire Nation Palace's second ability by paying {1}{R} and tapping it, giving Hellkite Charger firebending 4 until end of turn.\nDeclare Hellkite Charger as an attacker, triggering it and its firebending ability twice.\nResolve both Hellkite Charger firebending triggers, adding eight {R}.\nResolve the first Hellkite Charger trigger, choosing not to pay.\nResolve the second Hellkite Charger trigger, causing you to pay {5}{R}{R} to untap all attacking creatures and to get an additional combat phase after this one.\nRepeat from step 2."
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 3259,
+        "name": "Breath of Fury",
+        "oracleId": "fdaa0faf-e7ee-48b3-9330-de0fc3792ad3",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment — Aura",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.png?1783937066",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "attached to another creature you control ",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 178,
+        "name": "Adeline, Resplendent Cathar",
+        "oracleId": "38515f89-348b-4cf3-b7bd-1f6fe4ce2fba",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Legendary Creature — Human Knight",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.png?1783907131",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1783907131",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 1879,
+        "name": "Rising of the Day",
+        "oracleId": "434a20f8-3f87-4004-9155-0f196fc2257e",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.png?1783916282",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/d/4/d4fbcac6-8ac9-44a8-9d1a-03d0799ac253.jpg?1783916282",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "identity": "RW",
+     "popularity": 595,
+     "produces": [
+      {
+       "name": "Infinite combat damage"
+      },
+      {
+       "name": "Infinite combat phases"
+      },
+      {
+       "name": "Infinite death triggers"
+      },
+      {
+       "name": "Infinite creature ETB"
+      },
+      {
+       "name": "Infinite creature LTB"
+      },
+      {
+       "name": "Infinite mana creatures you control can produce"
+      },
+      {
+       "name": "Infinite creature sacrifice triggers"
+      },
+      {
+       "name": "Infinite untap of creatures you control"
+      },
+      {
+       "name": "Infinite creature tokens with haste"
+      },
+      {
+       "name": "Infinitely powerful creature"
+      }
+     ],
+     "notablePrerequisites": "An opponent cannot block creatures you control.",
+     "easyPrerequisites": "",
+     "description": "Declare the creature with Breath of Fury attached and Adeline as attackers.\nAdeline triggers, creating a creature token.\nDeal combat damage using the creature that has Breath of Fury attached. \nBreath of Fury triggers, causing you to sacrifice the creature it is attached to, then attach Breath of Fury to the creature token, then causing you to untap all creatures you control and to get an additional combat phase after this one.\nRepeat each combat phase."
+    },
+    {
+     "uses": [
+      {
+       "card": {
+        "id": 5324,
+        "name": "Anim Pakal, Thousandth Moon",
+        "oracleId": "05551d91-50c6-46d1-86a4-cd3d177d0923",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Legendary Creature — Human Soldier",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.png?1783913734",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/8/6/868856b7-8875-43c1-8249-0f8fb2c8319b.jpg?1783913734",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 4050,
+        "name": "Phyrexian Altar",
+        "oracleId": "8d02b297-97c4-4379-9862-0a462400f66f",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Artifact",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.png?1783921789",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/9/5/95d9f93c-50a8-41a9-be98-d1900bf1c12f.jpg?1783921789",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 3750,
+        "name": "Aggravated Assault",
+        "oracleId": "20129459-a386-41eb-899d-1aede3427300",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.png?1783945060",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627.jpg?1783945060",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "identity": "RW",
+     "popularity": 514,
+     "produces": [
+      {
+       "name": "Infinite colored mana"
+      },
+      {
+       "name": "Infinite combat phases"
+      },
+      {
+       "name": "Infinite death triggers"
+      },
+      {
+       "name": "Infinite creature ETB"
+      },
+      {
+       "name": "Infinite creature LTB"
+      },
+      {
+       "name": "Infinite creature sacrifice triggers"
+      },
+      {
+       "name": "Infinite untap of creatures you control"
+      },
+      {
+       "name": "Infinite mana creatures you control can produce"
+      }
+     ],
+     "notablePrerequisites": "You control a non-Gnome creature that does not have summoning sickness. Anim Pakal has at least four +1/+1 counters on it. An opponent cannot block and kill creatures you control.",
+     "easyPrerequisites": "",
+     "description": "Declare any non-Gnome creature you control as an attacker.\r\nAnim Pakal triggers, putting a +1/+1 counter on itself, then creating at least five 1/1 Gnome artifact creature tokens that are tapped and attacking.\r\nMove to your postcombat main phase.\r\nActivate Phyrexian Altar five times by saacrificing five Gnomes, adding {R}{R}{R}{R}{R}.\r\nActivate Aggravated Assault by paying {3}{R}{R}, causing you to untap all creatures you control and to get an additional combat and main phase after this one.\r\nRepeat."
+    }
+   ]
   },
   {
    "tag": "Equipment",
