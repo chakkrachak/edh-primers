@@ -2838,6 +2838,15 @@
    "Pillow Fort": "**THE pillow-fort card** : the definitive tax wall of the plan — every enchantment stacks the toll.",
    "Tokens": "**Board shield** : protects your token army — attackers pay through the wall to reach the Angels.",
    "Combo": "**Combo protection** : while you assemble the loop, the wall buys you all the time in the world."
+  },
+  "Doomwake Giant": {
+   "Enchantress": "**Constellation payoff** : every enchantment you play shrinks opponents' creatures — with the enchantress engine, it drains the table's board state turn after turn."
+  },
+  "Fear of Sleep Paralysis": {
+   "Tokens": "**Eerie token engine** : triggers whenever an enchantment enters (or you fulfill the eerie) — a flying body that rewards the enchantment-heavy token plan."
+  },
+  "Sensei's Divining Top": {
+   "Combo": "**Topdeck manipulator** : rearranges the top 3 to set up the exact draw — with Elsha/Displacer Kitten loops it becomes an infinite draw engine."
   }
  },
  "content": {

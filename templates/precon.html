@@ -152,13 +152,17 @@
 <p class="report-sub">The strongest cards you are NOT playing: High-Synergy cards from the major game plans missing from the deck, and pieces that would unlock combos from Commander Spellbook.</p>
 
 <h3>🏆 Missing High-Synergy cards</h3>
+<p class="report-sub">The top EDHREC cards for each major game plan that are NOT in the deck — with what each brings to that plan.</p>
 {% for p in upgrades.hs %}
 <h4>{{ p.tag }} — {{ p.decks }} decks</h4>
-<div class="upgrade-grid">
+<div class="card-grid">
 {% for c in p.cards %}
-<div class="filler-chip" title="{{ c.name|escape }}">
+<div class="card-block">
 <img src="{{ c.img }}" data-large="{{ c.img }}" data-name="{{ c.name|escape }}" loading="lazy" onclick="openModal(this)"/>
-<div class="cb-name">{{ c.name|escape }} {% if c.synergy %}<span class="cb-syn {{ c.syn_cls }}">syn {{ c.synergy }}</span>{% endif %}</div>
+<div class="cb-body">
+<div class="cb-name">{{ c.name|escape }}{% if c.synergy %} <span class="cb-syn {{ c.syn_cls }}">syn {{ c.synergy }}</span>{% endif %}</div>
+{% if c.explanation %}<div class="cb-expl">{{ c.explanation|safe }}</div>{% endif %}
+</div>
 </div>
 {% endfor %}
 </div>
@@ -183,7 +187,7 @@
 
 <h3>🔗 Missing combo pieces</h3>
 {% for c in upgrades.combos %}
-<div class="combo collapsible" data-collapse="expanded">
+<div class="combo collapsible" data-collapse="collapsed">
 <h3>🔗 {{ c.title }} 📋</h3>
 <div class="combo-upgrade">
 <div class="center">{{ c.bigs|safe }}</div>

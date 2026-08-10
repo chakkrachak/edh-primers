@@ -540,6 +540,7 @@ def detect_upgrades(d):
 
     # 1. HS manquantes par plan (plans du plus grand au plus petit)
     plans = sorted(d.get('plans', []), key=lambda p: -p.get('decks', 0))
+    card_plan_texts = d.get('card_plan_texts', {})
     hs_upgrades = []
     for p in plans:
         pool = []
@@ -547,10 +548,13 @@ def detect_upgrades(d):
             n = h if isinstance(h, str) else h.get('name', '')
             syn = None if isinstance(h, str) else h.get('synergy')
             if n and n not in deck_names:
+                # texte L2 par plan : « **Rôle** : explication » (rédigé dans la fiche)
+                txt = (card_plan_texts.get(n, {}) or {}).get(p['tag'], '')
                 pool.append({
                     'name': n, 'img': hs_imgs.get(n, ''),
                     'synergy': f'{syn:.2f}' if syn is not None else None,
                     'syn_cls': syn_cls(syn),
+                    'explanation': txt,
                 })
         if pool:
             hs_upgrades.append({'tag': p['tag'], 'decks': p['decks'], 'cards': pool})
@@ -737,6 +741,9 @@ def build_precon(slug):
     for u in upgrades['utility']:
         for c in u['cards']:
             c['explanation'] = cardify(bold(c.get('oracle', '')), all_names, img_of) if c.get('oracle') else ''
+    for u in upgrades['hs']:
+        for c in u['cards']:
+            c['explanation'] = cardify(bold(c.get('explanation', '')), all_names, img_of) if c.get('explanation') else ''
     for c in upgrades['combos']:
         c['produces'] = [cardify(p, all_names, img_of) for p in c.get('produces', [])]
         c['prereq_bullets'] = [cardify(b, all_names, img_of) for b in c.get('prereq_bullets', [])]

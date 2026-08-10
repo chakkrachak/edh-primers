@@ -189,7 +189,17 @@
   "Mountain": "({T}: Add {R}.)",
   "Plains": "({T}: Add {W}.)",
   "Kykar, Wind's Fury": "Flying\nWhenever you cast a noncreature spell, create a 1/1 white Spirit creature token with flying.\nSacrifice a Spirit: Add {R}.",
-  "Shark Typhoon": "Whenever you cast a noncreature spell, create an X/X blue Shark creature token with flying, where X is that spell's mana value.\nCycling {X}{1}{U} ({X}{1}{U}, Discard this card: Draw a card.)\nWhen you cycle this card, create an X/X blue Shark creature token with flying."
+  "Shark Typhoon": "Whenever you cast a noncreature spell, create an X/X blue Shark creature token with flying, where X is that spell's mana value.\nCycling {X}{1}{U} ({X}{1}{U}, Discard this card: Draw a card.)\nWhen you cycle this card, create an X/X blue Shark creature token with flying.",
+  "Aurelia's Fury": "Aurelia's Fury deals X damage divided as you choose among any number of targets. Tap each creature dealt damage this way. Players dealt damage this way can't cast noncreature spells this turn.",
+  "Crackle with Power": "Crackle with Power deals five times X damage to each of up to X targets.",
+  "Disorder in the Court": "Exile X target creatures, then investigate X times. Return the exiled cards to the battlefield tapped under their owners' control at the beginning of the next end step. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
+  "Distorting Wake": "Return X target nonland permanents to their owners' hands.",
+  "Dualcaster Mage": "Flash\nWhen this creature enters, copy target instant or sorcery spell. You may choose new targets for the copy.",
+  "Heliod's Intervention": "Choose one —\n• Destroy X target artifacts and/or enchantments.\n• Target player gains twice X life.",
+  "Magma Opus": "Magma Opus deals 4 damage divided as you choose among any number of targets. Tap two target permanents. Create a 4/4 blue and red Elemental creature token. Draw two cards.\n{U/R}{U/R}, Discard this card: Create a Treasure token.",
+  "Reality Spasm": "Choose one —\n• Tap X target permanents.\n• Untap X target permanents.",
+  "Sublime Epiphany": "Choose one or more —\n• Counter target spell.\n• Counter target activated or triggered ability.\n• Return target nonland permanent to its owner's hand.\n• Create a token that's a copy of target creature you control.\n• Target player draws a card.",
+  "Voracious Bibliophile": "Flying, vigilance\nWhenever you cast a spell with one or more targets, draw that many cards."
  },
  "card_meta": {
   "Guttersnipe": {
@@ -4865,6 +4875,76 @@
    "X Spells": "**X-spell tap** : taps X creatures (X targets = discount) — with enough mana, the whole table's attacks are gone.",
    "Control": "**Time-buyer** : taps the biggest threats for a turn — the control plan's way to survive until the late game.",
    "Burn": "**Attack tapper** : taps down blockers so your X-burn and pings connect for lethal."
+  },
+  "Aurelia's Fury": {
+   "Spellslinger": "**Multi-target burn** : X damage split across any number of targets — every target is a {1} discount off the spell, so a table-wide Aurelia's Fury costs almost nothing.",
+   "X Spells": "**Mass tap + lockdown** : X targets = X discount — tap every attacker and lock opponents out of noncreature spells for the turn.",
+   "Control": "**Tax-backed lockdown** : with Hinata up, opponents' taxed spells get countered or tapped; the can't-cast-noncreatures clause shuts down their turn.",
+   "Tokens": "**Pseudo-board wipe** : taps the whole token army while your own creatures survive — Hinata's discount makes the X affordable.",
+   "Combo": "**Combo protection** : taps problem permanents and stops opponents' instant-speed answers on the combo turn.",
+   "Burn": "**Split burn** : X damage across any targets — a discount-fueled finisher that also taps blockers.",
+   "Storm": "**Storm enabler** : a cheap multi-target spell that adds storm count while locking the table out of countermagic."
+  },
+  "Baral's Expertise": {
+   "Storm": "**Free spell chain** : returns up to 3 pieces (3 targets = big discount) then casts a free spell — a storm-count rocket."
+  },
+  "Crackle with Power": {
+   "Burn": "**Table burn** : five times X damage to each of up to X targets — with Hinata's discount, a lethal X for a fraction of the mana."
+  },
+  "Disorder in the Court": {
+   "X Spells": "**Mass exile + clues** : exiles X creatures (X targets = discount), returns them tapped next end step, and investigates X times — tempo plus card draw."
+  },
+  "Distorting Wake": {
+   "Spellslinger": "**Mass bounce** : returns X nonland permanents (X targets = discount) — a board reset that feeds spellslinger triggers.",
+   "X Spells": "**Board reset** : X targets = X discount — bounce the whole table for a few mana, then replay your spells.",
+   "Control": "**Tempo reset** : bounces opposing boards while your low-cost spells rebuild faster — a control staple with Hinata's discount.",
+   "Tokens": "**Fog-style reset** : clears the token threat while your engines rebuild next turn.",
+   "Combo": "**Answer clearer** : bounces stax pieces and problem permanents on the combo turn.",
+   "Burn": "**Reset + replay** : bounce the table, then burn with the spells you replay.",
+   "Storm": "**Storm churn** : a big multi-target bounce that adds to the chain while clearing the way."
+  },
+  "Dualcaster Mage": {
+   "Combo": "**Copy engine** : with a flicker/twinflame effect, copies any instant/sorcery infinitely — a classic 2-card wincon with Hinata's discount feeding the copies."
+  },
+  "Heliod's Intervention": {
+   "Spellslinger": "**Modular removal** : destroys X artifacts/enchantments (X targets = discount) or gains 2X life — an instant-speed answer that always fits the mana.",
+   "X Spells": "**X-scaled hate** : X targets = X discount — blow up the whole stax board for pennies, or bank huge life.",
+   "Control": "**Enchantment/artifact wipe** : the best answer to stax and pillow-fort boards, discount-priced.",
+   "Tokens": "**Anti-enchantress** : clears the enchantress engine that fuels opposing token decks.",
+   "Combo": "**Hate removal** : strips the stax pieces that would stop your combo.",
+   "Burn": "**Life buffer + hate** : gains 2X life to survive the race while removing their engines.",
+   "Storm": "**Utility piece** : a cheap multi-target spell that clears blockers/enchantments mid-chain."
+  },
+  "Kykar, Wind's Fury": {
+   "Tokens": "**Spirit engine** : every noncreature spell makes a 1/1 Spirit — with 36 instants/sorceries, Kykar alone floods the board and ramps your red mana."
+  },
+  "Magma Opus": {
+   "Spellslinger": "**One-card army** : 4 damage split, taps 2 permanents, makes a 4/4, draws 2 — four effects for one spell, each target feeding Hinata's discount.",
+   "Tokens": "**Token + value** : creates a 4/4 Elemental, draws 2, and clears the way — the token plan's top-end payoff."
+  },
+  "Reality Spasm": {
+   "Spellslinger": "**Untap engine** : untaps X permanents (X targets = discount) — infinite mana/storm setups or a tap-down that feeds the spellslinger chain.",
+   "X Spells": "**X-scale untap/tap** : X targets = X discount — the classic infinite-mana enabler or a full-table tap.",
+   "Control": "**Tempo tap** : taps X blockers/attackers for a discount — a one-sided fog.",
+   "Tokens": "**Untap + overrun** : untaps your token makers to churn more tokens, or taps their board.",
+   "Combo": "**Combo core** : the untap mode is the engine behind infinite mana loops (Soulfire Grand Master etc.).",
+   "Burn": "**Tap + recur** : taps blockers so Guttersnipe pings connect.",
+   "Storm": "**Storm fuel** : a multi-target spell that untaps mana rocks for the next big spell."
+  },
+  "Sublime Epiphany": {
+   "Spellslinger": "**One-card blowout** : counter a spell, counter an ability, bounce a permanent, copy your best creature, and draw — five modes for one spell.",
+   "X Spells": "**Massive value** : every mode is a target for Hinata's discount — a 6-CMC spell that plays like a table reset.",
+   "Control": "**Ultimate control** : counters + bounce + copy + draw in one — the control plan's premium instant.",
+   "Tokens": "**Copy payoff** : copies your best token engine and protects it from the same spell.",
+   "Combo": "**Combo shield** : counters the answers AND copies your key piece on the combo turn.",
+   "Burn": "**Counter + copy** : protects the burn commander while copying your biggest ping trigger.",
+   "Storm": "**Storm finisher** : five modes add to the chain and protect the win."
+  },
+  "Voracious Bibliophile": {
+   "Control": "**Target draw** : draws a card for every target of every spell — with Hinata's multi-target discount spells, this becomes a draw engine.",
+   "Tokens": "**Draw + flyer** : a 4/5 flying vigilance that turns multi-target spells into card advantage for the token swarm.",
+   "Combo": "**Combo dig** : draws into pieces with every targeted spell — the combo turn fuels itself.",
+   "Storm": "**Storm draw** : every targeted spell in the chain draws cards — the storm payoff that keeps the hand full."
   }
  },
  "content": {
