@@ -1430,7 +1430,7 @@
     </div>
 
     <div class="card-block">
-      <img src="" data-large="" data-name="Sejiri Shelter // Sejiri Glacier" loading="lazy" onclick="openModal(this)"/>
+      <img src="https://cards.scryfall.io/normal/front/f/2/f25d56f9-aa54-4657-9ac9-e93fbba3e715.jpg?1783929413" data-large="https://cards.scryfall.io/normal/front/f/2/f25d56f9-aa54-4657-9ac9-e93fbba3e715.jpg?1783929413" data-name="Sejiri Shelter // Sejiri Glacier" loading="lazy" onclick="openModal(this)"/>
       <div class="cb-body">
         <div class="cb-name">Sejiri Shelter // Sejiri Glacier</div>
         
@@ -1439,7 +1439,7 @@
     </div>
 
     <div class="card-block">
-      <img src="" data-large="" data-name="Jwari Disruption // Jwari Ruins" loading="lazy" onclick="openModal(this)"/>
+      <img src="https://cards.scryfall.io/normal/front/3/0/301750a7-d1fd-435e-bfa8-9d2fb22ad627.jpg?1783929400" data-large="https://cards.scryfall.io/normal/front/3/0/301750a7-d1fd-435e-bfa8-9d2fb22ad627.jpg?1783929400" data-name="Jwari Disruption // Jwari Ruins" loading="lazy" onclick="openModal(this)"/>
       <div class="cb-body">
         <div class="cb-name">Jwari Disruption // Jwari Ruins</div>
         
@@ -1448,7 +1448,7 @@
     </div>
 
     <div class="card-block">
-      <img src="" data-large="" data-name="Ondu Inversion // Ondu Skyruins" loading="lazy" onclick="openModal(this)"/>
+      <img src="https://cards.scryfall.io/normal/front/b/6/b6e6be8c-41c3-4348-a8dd-b40ceb24e9b4.jpg?1783929416" data-large="https://cards.scryfall.io/normal/front/b/6/b6e6be8c-41c3-4348-a8dd-b40ceb24e9b4.jpg?1783929416" data-name="Ondu Inversion // Ondu Skyruins" loading="lazy" onclick="openModal(this)"/>
       <div class="cb-body">
         <div class="cb-name">Ondu Inversion // Ondu Skyruins</div>
         
@@ -2037,8 +2037,35 @@ function copyText(text){
 </script>
 <a href="#top" id="backTop" title="Back to top" aria-label="Back to top">↑</a>
 <script>
-window.addEventListener('scroll', function(){
-  document.getElementById('backTop').classList.toggle('show', window.scrollY > 400);
-}, {passive:true});
+(function(){
+  // Bouton flottant : visible après 400px de scroll
+  var btn = document.getElementById('backTop');
+  window.addEventListener('scroll', function(){
+    btn.classList.toggle('show', window.scrollY > 400);
+  }, {passive:true});
+  // Smooth scroll JS explicite — le smooth CSS natif casse les ancres sur les
+  // très longues pages (images lazy → reflow pendant l'animation → cible ratée).
+  function smoothTo(el){
+    if(!el){ return; }
+    var y = (el === document.body) ? 0 : el.getBoundingClientRect().top + window.scrollY;
+    var start = window.scrollY, diff = y - start, t0 = null;
+    var dur = Math.min(900, Math.max(300, Math.abs(diff) * 0.12));
+    function step(ts){
+      if(t0 === null){ t0 = ts; }
+      var p = Math.min((ts - t0) / dur, 1);
+      var ease = p < 0.5 ? 4*p*p*p : 1 - Math.pow(-2*p+2, 3)/2;
+      window.scrollTo(0, Math.round(start + diff * ease));
+      if(p < 1){ requestAnimationFrame(step); }
+    }
+    requestAnimationFrame(step);
+  }
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('a[href^="#"]');
+    if(!a){ return; }
+    var id = a.getAttribute('href').slice(1);
+    var el = id === 'top' ? document.body : document.getElementById(id);
+    if(el){ e.preventDefault(); smoothTo(el); }
+  });
+})();
 </script>
 </body></html>

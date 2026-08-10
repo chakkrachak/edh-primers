@@ -674,8 +674,11 @@ def build_precon(slug):
                                is_combo_piece=c['name'] in combo_pieces)
             role_of[c['name']] = role
             score = c.get('synergy')
+            # img : carte du deck, sinon fiche imgs (fallback MDFC/Rooms dont le nom
+            # complet « // » n'est pas dans les cartes du deck)
+            cimg = c.get('img') or d.get('imgs', {}).get(c['name'], '')
             cards_by_role[role].append({
-                'name': c['name'], 'img': c['img'],
+                'name': c['name'], 'img': cimg,
                 'explanation': cardify(bold(c.get('explanation', '')), all_names, img_of),
                 'synergy': f'{score:.2f}' if score is not None else None,
                 'syn_cls': syn_cls(score),
@@ -733,7 +736,7 @@ def build_precon(slug):
                 expl = plan_text
             match_cards.append({
                 'name': mname,
-                'img': (card_info or {}).get('img', ''),
+                'img': (card_info or {}).get('img') or d.get('imgs', {}).get(mname, ''),
                 'synergy': f'{score:.2f}' if score is not None else None,
                 'syn_cls': syn_cls(score),
                 'explanation': cardify(bold(expl), all_names, img_of),

@@ -11,15 +11,20 @@
 }
 .back-link a:hover { text-decoration: underline; }
 * { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
+/* NB : PAS de scroll-behavior:smooth ici — le smooth natif casse la navigation par
+   ancre sur les très longues pages (images lazy → reflow pendant l'animation → la
+   cible n'est jamais atteinte). Le smooth est géré par JS (smooth-scroll.js). */
+/* Réserve l'espace des cartes (Scryfall normal = 488x680, ratio 61:85) dès le parse :
+   le lazy loading ne change plus la hauteur de page pendant le scroll → les ancres
+   du TOC arrivent pile à la section ciblée. */
+img:not(.ms):not(#modalImg) { aspect-ratio: 61 / 85; }
 
 body {
   background: linear-gradient(160deg, #10101c, var(--bg-3) 60%, #16213e);
   color: var(--text);
   font-family: var(--font);
   padding: 28px;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1200px;  margin: 0 auto;
   line-height: 1.55;
 }
 
