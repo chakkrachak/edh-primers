@@ -113,9 +113,10 @@ def render(template, ctx):
                 body = ''.join(blk[3]) if isinstance(blk[3], list) else blk[3]
                 seq = _lookup(blk[2], ctx) or []
                 parts = []
-                for item in seq:
+                for i, item in enumerate(seq, 1):
                     sub = dict(ctx)
                     sub[blk[1]] = item
+                    sub['loop'] = {'index': i, 'first': i == 1, 'last': i == len(seq)}
                     parts.append(render(body, sub))
                 result = ''.join(parts)
                 if stack:

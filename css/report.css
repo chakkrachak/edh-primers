@@ -523,3 +523,14 @@ ul.quick-read li strong { color: var(--accent-green); }
 }
 #backTop.show { display: grid; opacity: 1; }
 #backTop:hover { transform: translateY(-2px); }
+
+/* Sections & sous-sections collapsables (user request, 2026-08-10) */
+h2[data-collapse] { cursor: pointer; user-select: none; }
+h2[data-collapse]::before { content: '\25BE '; color: var(--accent-blue); }
+h2[data-collapse].collapsed::before { content: '\25B8 '; }
+.collapse-body.collapsed { display: none; }
+
+.collapsible > h3 { cursor: pointer; user-select: none; }
+.collapsible > h3::before { content: '\25BE '; color: var(--accent-blue); }
+.collapsible.collapsed > h3::before { content: '\25B8 '; }
+.collapsible.collapsed > *:not(:first-child) { display: none; }

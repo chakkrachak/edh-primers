@@ -19,7 +19,7 @@
 <li class="toc-top"><a href="#top">↑ Back to top</a></li>
 </ol></div>
 
-<h2 id="s1">1. Commander Sheet {{ copy_btn_cmd }}</h2>
+<h2 id="s1" data-collapse="expanded">1. Commander Sheet {{ copy_btn_cmd }}</h2>
 <div class="sheet">
 <div class="sheet-img">{{ commander_big }}</div>
 <div class="sheet-info">
@@ -30,7 +30,7 @@
 </div>
 </div>
 
-<h2 id="s2">2. Game Plans &amp; High Synergy</h2>
+<h2 id="s2" data-collapse="expanded">2. Game Plans &amp; High Synergy</h2>
 <p class="report-sub">All EDHREC archetypes for {{ commander_name|escape }}, ranked by deck count. For each major plan: the deck's cards that sit in that plan's EDHREC High Synergy pool — the cards of THIS list that actually answer the plan.</p>
 <div class="category"><h3>🏷️ All EDHREC game plans</h3>
 <div class="summary">Every archetype registered for this commander on EDHREC, with the number of decks built around it. Enchantress and Topdeck dominate by an order of magnitude.</div>
@@ -42,7 +42,7 @@
 </div>
 
 {% for p in plans %}
-<div class="category" id="plan-{{ p.tag_slug }}"><h3>{% if p.decks > 500 %}👑{% else %}🎯{% endif %} {{ p.tag }} — {{ p.decks }} decks</h3>
+<div class="category collapsible" id="plan-{{ p.tag_slug }}" data-collapse="{% if p.decks > 500 %}expanded{% else %}collapsed{% endif %}"><h3>{% if p.decks > 500 %}👑{% else %}🎯{% endif %} {{ p.tag }} — {{ p.decks }} decks</h3>
 <div class="plan-desc">
 <p><strong>📖 Game plan</strong></p>
 <ul>
@@ -71,7 +71,7 @@
 {% if p.combos %}
 <div class="plan-combos"><strong>🔗 Combos (Commander Spellbook)</strong>
 {% for c in p.combos %}
-<div class="combo">
+<div class="combo collapsible" data-collapse="collapsed">
 <h3>🔗 {{ c.title }} {{ c.copy_btn }}</h3>
 <div class="meta">{% if c.in_deck %}in the precon: {{ c.in_deck|join(', ') }}{% else %}upgrade cards{% endif %}{% if c.identity %} · Identity {{ c.identity|escape }}{% endif %} · Popularity: {{ c.popularity }} decks</div>
 <div class="center">{{ c.bigs|safe }}</div>
@@ -91,11 +91,11 @@
 </div>
 {% endfor %}
 
-<h2 id="s3">3. Deck Cards by Role ({{ n_cards }} unique)</h2>
+<h2 id="s3" data-collapse="expanded">3. Deck Cards by Role ({{ n_cards }} unique)</h2>
 <p class="report-sub">Every card of the list, grouped by ROLE/FUNCTION (Engines → Wincons → Flex → Card Advantage → Ramp → Wipes → Interaction → Lands) — not by card type. Cards in the commander's EDHREC High Synergy / Top Cards pool carry the synergy badge. 📋 copies a role's card names.</p>
 
 {% for cat in categories %}
-<div class="category"><h3>{{ cat.title }} {{ cat.copy_btn }}</h3>
+<div class="category collapsible" data-collapse="{% if loop.index <= 2 %}expanded{% else %}collapsed{% endif %}"><h3>{{ cat.title }} {{ cat.copy_btn }}</h3>
 <div class="summary">🎯 Build target: {{ cat.target }} — {{ cat.synopsis|safe }} — <strong>{{ cat.n }} cards</strong>.</div>
 <div class="card-grid">
 {% for card in cat.cards %}
@@ -114,7 +114,7 @@
 </div>
 {% endfor %}
 
-<h2 id="s4">4. Structure Analysis (build principles)</h2>
+<h2 id="s4" data-collapse="expanded">4. Structure Analysis (build principles)</h2>
 <p class="report-sub">The list assessed against the ideal 100-card Commander build: 36-38 lands · 10-12 ramp · 10-12 draw · 10-12 interaction · 2-3 wipes · 30-35 synergies/wincons · 3-5 flex · avg CMC ≤ 3.2.</p>
 <div class="verdict">
 <div class="verdict-scores">
@@ -128,7 +128,7 @@
 </ul>
 </div>
 
-<h2 id="s5">5. Filler Cards ({{ n_fillers }})</h2>
+<h2 id="s5" data-collapse="collapsed">5. Filler Cards ({{ n_fillers }})</h2>
 <p class="report-sub">Cards that do NOT serve any major game plan and dilute it. A card is flagged as filler when it hits <strong>at least 2 of these criteria</strong>:</p>
 <ul class="filler-criteria">
 <li><strong>No High-Synergy match</strong> : absent from every major plan's EDHREC High Synergy pool — it answers none of the commander's main game plans.</li>
@@ -149,7 +149,7 @@
 <p>✅ No filler cards detected — every non-land card serves a structural role or a major game plan.</p>
 {% endif %}
 
-<h2 id="s6">6. Upgrades ({{ n_upgrades_hs }} high-synergy + {{ n_upgrades_combos }} combos)</h2>
+<h2 id="s6" data-collapse="collapsed">6. Upgrades ({{ n_upgrades_hs }} high-synergy + {{ n_upgrades_combos }} combos)</h2>
 <p class="report-sub">The strongest cards you are NOT playing: High-Synergy cards from the major game plans missing from the deck, and pieces that would unlock combos from Commander Spellbook.</p>
 
 <h3>🏆 Missing High-Synergy cards</h3>
@@ -187,7 +187,7 @@
 </div>
 {% endfor %}
 
-<h2 id="s7">7. Verdict</h2>
+<h2 id="s7" data-collapse="expanded">7. Verdict</h2>
 <div class="verdict">
 <h3>🎯 {{ verdict.favored|escape }}</h3>
 <div class="verdict-scores">
@@ -243,6 +243,38 @@ function copyText(text){
     var id = a.getAttribute('href').slice(1);
     var el = id === 'top' ? document.body : document.getElementById(id);
     if(el){ e.preventDefault(); smoothTo(el); }
+  });
+  // Sections/sous-sections collapsables (user request, 2026-08-10)
+  // 1) sections : enveloppe le corps de chaque h2[data-collapse] jusqu'au h2 suivant
+  document.querySelectorAll('h2[data-collapse]').forEach(function(h){
+    var body = document.createElement('div');
+    body.className = 'collapse-body';
+    var el = h.nextElementSibling;
+    while(el && el.tagName !== 'H2'){
+      var next = el.nextElementSibling;
+      body.appendChild(el);
+      el = next;
+    }
+    if(body.children.length){ h.parentNode.insertBefore(body, h.nextSibling); }
+    if(h.dataset.collapse === 'collapsed'){ h.classList.add('collapsed'); body.classList.add('collapsed'); }
+    h.addEventListener('click', function(ev){
+      if(ev.target.closest('button, a')){ return; }  // laisser les boutons 📋 et liens
+      var b = h.nextElementSibling;
+      if(b && b.classList.contains('collapse-body')){
+        b.classList.toggle('collapsed');
+        h.classList.toggle('collapsed');
+      }
+    });
+  });
+  // 2) sous-sections : clic sur h3 dans .collapsible → toggle le conteneur
+  document.querySelectorAll('.collapsible').forEach(function(box){
+    var h3 = box.querySelector(':scope > h3');
+    if(!h3){ return; }
+    if(box.dataset.collapse === 'collapsed'){ box.classList.add('collapsed'); }
+    h3.addEventListener('click', function(ev){
+      if(ev.target.closest('button, a')){ return; }
+      box.classList.toggle('collapsed');
+    });
   });
 })();
 </script>

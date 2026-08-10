@@ -16,7 +16,7 @@
 <li class="toc-top"><a href="#top">↑ Back to top</a></li>
 </ol></div>
 
-<h2 id="s1">1. Commander Sheet {{ copy_btn_cmd }}</h2>
+<h2 id="s1" data-collapse="expanded">1. Commander Sheet {{ copy_btn_cmd }}</h2>
 <div class="sheet">
 <div class="sheet-img">{{ commander_big }}</div>
 <div class="sheet-info">
@@ -27,17 +27,17 @@
 </div>
 </div>
 
-<h2 id="s2">2. Chosen Game Plan: {{ plan_title|escape }} {{ copy_btn_plan }}</h2>
+<h2 id="s2" data-collapse="expanded">2. Chosen Game Plan: {{ plan_title|escape }} {{ copy_btn_plan }}</h2>
 <div class="plan chosen">
 {{ plan_html|safe }}
 <div class="source"><strong>📰 Secondary source</strong>: {{ source_html|safe }}</div>
 </div>
 
-<h2 id="s3">3. Cards by Role ({{ n_categories }})</h2>
+<h2 id="s3" data-collapse="expanded">3. Cards by Role ({{ n_categories }})</h2>
 <p class="report-sub">Each explanation is verified against the official Oracle text (Scryfall). The "synergy 0.xx" badge is the EDHREC score: share of decks playing this card. Cards are grouped by ROLE/FUNCTION (Engines → Wincons → Flex → Card Advantage → Ramp → Wipes → Interaction → Lands), not by card type. 📋 copies the category's card list.</p>
 
 {% for cat in categories %}
-<div class="category"><h3>{{ cat.title }} {{ cat.copy_btn }}</h3>
+<div class="category collapsible" data-collapse="{% if loop.index <= 2 %}expanded{% else %}collapsed{% endif %}"><h3>{{ cat.title }} {{ cat.copy_btn }}</h3>
 <div class="summary">🎯 Build target: {{ cat.target }} — {{ cat.synopsis }}</div>
 <div class="card-grid">
 {% for card in cat.cards %}
@@ -55,7 +55,7 @@
 </div></div>
 {% endfor %}
 
-<h2 id="s4">4. Relevant Combos ({{ n_combos }})</h2>
+<h2 id="s4" data-collapse="collapsed">4. Relevant Combos ({{ n_combos }})</h2>
 <p class="report-sub">Filter: color-identity compatible + overlap with the EDHREC card pool + 2-4 cards + popularity ≥ 100. 📋 copies the combo's card list.</p>
 
 {% for combo in combos %}
@@ -145,6 +145,38 @@ function copyText(text){
     var id = a.getAttribute('href').slice(1);
     var el = id === 'top' ? document.body : document.getElementById(id);
     if(el){ e.preventDefault(); smoothTo(el); }
+  });
+  // Sections/sous-sections collapsables (user request, 2026-08-10)
+  // 1) sections : enveloppe le corps de chaque h2[data-collapse] jusqu'au h2 suivant
+  document.querySelectorAll('h2[data-collapse]').forEach(function(h){
+    var body = document.createElement('div');
+    body.className = 'collapse-body';
+    var el = h.nextElementSibling;
+    while(el && el.tagName !== 'H2'){
+      var next = el.nextElementSibling;
+      body.appendChild(el);
+      el = next;
+    }
+    if(body.children.length){ h.parentNode.insertBefore(body, h.nextSibling); }
+    if(h.dataset.collapse === 'collapsed'){ h.classList.add('collapsed'); body.classList.add('collapsed'); }
+    h.addEventListener('click', function(ev){
+      if(ev.target.closest('button, a')){ return; }  // laisser les boutons 📋 et liens
+      var b = h.nextElementSibling;
+      if(b && b.classList.contains('collapse-body')){
+        b.classList.toggle('collapsed');
+        h.classList.toggle('collapsed');
+      }
+    });
+  });
+  // 2) sous-sections : clic sur h3 dans .collapsible → toggle le conteneur
+  document.querySelectorAll('.collapsible').forEach(function(box){
+    var h3 = box.querySelector(':scope > h3');
+    if(!h3){ return; }
+    if(box.dataset.collapse === 'collapsed'){ box.classList.add('collapsed'); }
+    h3.addEventListener('click', function(ev){
+      if(ev.target.closest('button, a')){ return; }
+      box.classList.toggle('collapsed');
+    });
   });
 })();
 </script>
