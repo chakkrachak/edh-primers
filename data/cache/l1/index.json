@@ -681,27 +681,27 @@
  },
  "ec4a33b833ab6467": {
   "source": "edhrec",
-  "fetched_at": 1786318470,
+  "fetched_at": 1786365436,
   "ttl_days": 7
  },
  "a16aed9f8de5ceb1": {
   "source": "edhrec",
-  "fetched_at": 1786318472,
+  "fetched_at": 1786365437,
   "ttl_days": 7
  },
  "984e088529e1d58a": {
   "source": "edhrec",
-  "fetched_at": 1786318473,
+  "fetched_at": 1786365438,
   "ttl_days": 7
  },
  "4896c87f06d00e22": {
   "source": "edhrec",
-  "fetched_at": 1786318474,
+  "fetched_at": 1786365439,
   "ttl_days": 7
  },
  "b0ddefa14afcb1e0": {
   "source": "edhrec",
-  "fetched_at": 1786318475,
+  "fetched_at": 1786365440,
   "ttl_days": 7
  },
  "985b6dac0cf44ccd": {
@@ -992,6 +992,111 @@
  "3ec1c40e8a72171a": {
   "source": "scryfall",
   "fetched_at": 1786355903,
+  "ttl_days": 30
+ },
+ "95c20a71eb101ecc": {
+  "source": "edhrec",
+  "fetched_at": 1786365183,
+  "ttl_days": 7
+ },
+ "85c5ec1022797fad": {
+  "source": "edhrec",
+  "fetched_at": 1786365183,
+  "ttl_days": 7
+ },
+ "f46853f882abf35b": {
+  "source": "edhrec",
+  "fetched_at": 1786365184,
+  "ttl_days": 7
+ },
+ "9febc4d8c690b904": {
+  "source": "edhrec",
+  "fetched_at": 1786365185,
+  "ttl_days": 7
+ },
+ "8ea1799bfb1770e3": {
+  "source": "scryfall",
+  "fetched_at": 1786365425,
+  "ttl_days": 30
+ },
+ "1ab90178bf917b3a": {
+  "source": "scryfall",
+  "fetched_at": 1786365426,
+  "ttl_days": 30
+ },
+ "019067e53ac1f8e7": {
+  "source": "spellbook",
+  "fetched_at": 1786365450,
+  "ttl_days": 7
+ },
+ "da9e112df74cf28b": {
+  "source": "spellbook",
+  "fetched_at": 1786365451,
+  "ttl_days": 7
+ },
+ "daed5322ff56534f": {
+  "source": "spellbook",
+  "fetched_at": 1786365452,
+  "ttl_days": 7
+ },
+ "c30ba9b36960ab77": {
+  "source": "spellbook",
+  "fetched_at": 1786365453,
+  "ttl_days": 7
+ },
+ "e83bc5d33736e24e": {
+  "source": "spellbook",
+  "fetched_at": 1786365454,
+  "ttl_days": 7
+ },
+ "2ae2f326e8e1a184": {
+  "source": "spellbook",
+  "fetched_at": 1786365454,
+  "ttl_days": 7
+ },
+ "7f80fae0526741b7": {
+  "source": "spellbook",
+  "fetched_at": 1786365455,
+  "ttl_days": 7
+ },
+ "8eb0c582dcde9949": {
+  "source": "spellbook",
+  "fetched_at": 1786365456,
+  "ttl_days": 7
+ },
+ "0be98d03fa2932bb": {
+  "source": "spellbook",
+  "fetched_at": 1786365457,
+  "ttl_days": 7
+ },
+ "2342a99300aa02a2": {
+  "source": "spellbook",
+  "fetched_at": 1786365458,
+  "ttl_days": 7
+ },
+ "39470864248794fc": {
+  "source": "spellbook",
+  "fetched_at": 1786365459,
+  "ttl_days": 7
+ },
+ "205763c0734f2f24": {
+  "source": "spellbook",
+  "fetched_at": 1786365459,
+  "ttl_days": 7
+ },
+ "769d0c334294020f": {
+  "source": "spellbook",
+  "fetched_at": 1786365460,
+  "ttl_days": 7
+ },
+ "057c7343965d7f7f": {
+  "source": "spellbook",
+  "fetched_at": 1786365461,
+  "ttl_days": 7
+ },
+ "e56f32c721bef09a": {
+  "source": "scryfall",
+  "fetched_at": 1786365540,
   "ttl_days": 30
  }
 }

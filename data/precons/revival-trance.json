@@ -1,0 +1,2421 @@
+{
+ "precon_name": "Revival Trance (FINAL FANTASY VI)",
+ "precon_slug": "revival-trance",
+ "commander": {
+  "name": "Terra, Herald of Hope",
+  "mana_cost": "{R}{W}{B}",
+  "type_line": "Legendary Creature — Human Wizard Warrior",
+  "power": "2",
+  "toughness": "4",
+  "set": "FIC",
+  "set_name": "Final Fantasy Commander",
+  "oracle": "Trance — At the beginning of combat on your turn, mill two cards. Terra gains flying until end of turn.\nWhenever Terra deals combat damage to a player, you may pay {2}. When you do, return target creature card with power 3 or less from your graveyard to the battlefield tapped.",
+  "img": "https://cards.scryfall.io/normal/front/5/a/5aa1a2d7-6133-41a9-9662-9008d1309935.jpg?1783906373",
+  "rarity": "mythic",
+  "legality": "legal"
+ },
+ "cards": {
+  "Deck": [
+   {
+    "name": "Celes, Rune Knight",
+    "img": "https://cards.scryfall.io/normal/front/3/0/30584c53-533b-4dc7-b07c-8600164a99b3.jpg?1783906375",
+    "synergy": 0.7463468676147684,
+    "explanation": "**Reanimator core** : mills on entry and re-casts a creature from the yard every turn — the deck's engine and its HS #1.",
+    "in_main_hs": true
+   },
+   {
+    "name": "Stitcher's Supplier",
+    "img": "https://cards.scryfall.io/normal/front/2/e/2edcde06-b326-476e-884d-770187c785fe.jpg?1783907080",
+    "synergy": 0.6642782107474041,
+    "explanation": "**Mill on death** : mills three and blocks early — the deck's cheapest mill engine.",
+    "in_main_hs": true
+   },
+   {
+    "name": "Reanimate",
+    "img": "https://cards.scryfall.io/normal/front/3/6/368b6903-5fc4-43e7-bd44-46b8107c8bb4.jpg?1783909614",
+    "synergy": 0.6435477568580158,
+    "explanation": "**Cheap reanimation** : 1 mana to steal the best creature from any graveyard — the plan's most efficient spell.",
+    "in_main_hs": true
+   },
+   {
+    "name": "Priest of Fell Rites",
+    "img": "https://cards.scryfall.io/normal/front/d/1/d116329d-6de7-402c-821d-e9aeba9ad2b1.jpg?1783926812",
+    "synergy": 0.6023949999221069,
+    "explanation": "**Unearth reanimator** : unearths any creature from the yard, then exile-returns itself as a flying 3/1 — repeatable reanimation.",
+    "in_main_hs": true
+   },
+   {
+    "name": "Rise of the Dark Realms",
+    "img": "https://cards.scryfall.io/normal/front/8/6/8645bf0c-631f-4003-bd24-3e069ae23513.jpg?1783909071",
+    "synergy": 0.5594732563081616,
+    "explanation": "**Mass reanimation** : every creature in every graveyard enters under your control — the ultimate finisher.",
+    "in_main_hs": true
+   },
+   {
+    "name": "Anger",
+    "img": "https://cards.scryfall.io/normal/front/e/8/e886a604-e3ce-4c6a-b63e-2c7f910a177a.jpg?1783903778",
+    "synergy": 0.5593101152841241,
+    "explanation": "**Haste enabler** : in the graveyard it gives all your reanimated creatures haste — turns every reanimation into an immediate attack.",
+    "in_main_hs": true
+   },
+   {
+    "name": "Stitch Together",
+    "img": "https://cards.scryfall.io/normal/front/8/4/8423c98d-4cb6-4a70-8bf2-3ac24c025c4e.jpg?1783934297",
+    "synergy": 0.5511997389939393,
+    "explanation": "**Threshold reanimate** : 2 mana for the strongest reanimation in the deck once the yard is full.",
+    "in_main_hs": true
+   },
+   {
+    "name": "General Leo Cristophe",
+    "img": "https://cards.scryfall.io/normal/front/3/9/39384ab7-54da-43e3-8fbc-5c171b7ca7f4.jpg?1783906369",
+    "synergy": 0.5384629901788421,
+    "explanation": "**Reanimation payoff** : buffs your reanimated creatures and gains life — a synergy engine for the plan.",
+    "in_main_hs": true
+   },
+   {
+    "name": "Meteor Golem",
+    "img": "https://cards.scryfall.io/normal/front/a/1/a1a1cfec-72ca-499b-b621-fa2d8502ea20.jpg?1783903217",
+    "synergy": 0.5335799219845256,
+    "explanation": "**Reanimation target** : destroys any permanent on entry — a 7-mana answer reanimated for 2.",
+    "in_main_hs": true
+   },
+   {
+    "name": "Locke, Treasure Hunter",
+    "img": "https://cards.scryfall.io/normal/front/4/2/42cd66f2-0704-4c8e-b5de-6df93f4a8bed.jpg?1783906344",
+    "synergy": 0.5260321985571604,
+    "explanation": "**Mill + draw** : mills on entry and draws — the plan's velocity engine.",
+    "in_main_hs": true
+   },
+   {
+    "name": "Siegfried, Famed Swordsman",
+    "img": "https://cards.scryfall.io/normal/front/6/9/69dadb0c-413e-4658-9cdc-23a65df7a800.jpg?1783906357",
+    "synergy": 0.5199688393990957,
+    "explanation": "**Equipment recursion** : returns equipment from the yard and cheats equip costs — a value engine for the reanimator plan.",
+    "in_main_hs": true
+   },
+   {
+    "name": "Angel of the Ruins",
+    "img": "https://cards.scryfall.io/normal/front/4/a/4ad8d899-5901-4fc8-b4f0-adcc0d97fc6e.jpg?1783906047",
+    "synergy": 0,
+    "explanation": "**Land ramp** : destroys a land and fetches two Plains on entry — ramp + removal.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Archfiend of Depravity",
+    "img": "https://cards.scryfall.io/normal/front/0/e/0ec85db7-c8ec-4730-b692-c140977436aa.jpg?1783936156",
+    "synergy": 0,
+    "explanation": "**Table control** : opponents keep only 2 creatures — softens boards before your reanimation.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Banon, the Returners' Leader",
+    "img": "https://cards.scryfall.io/normal/front/6/3/63e84ece-b129-457d-84ed-b4280120f08b.jpg?1783906347",
+    "synergy": 0,
+    "explanation": "**Draw engine** : draws on combat damage — the deck's repeatable card advantage.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Combustible Gearhulk",
+    "img": "https://cards.scryfall.io/normal/front/c/8/c80e620e-bece-4c48-9dd6-7bcdacabf521.jpg?1783909612",
+    "synergy": 0,
+    "explanation": "**Draw or burn** : risky but high-value card advantage.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Cyan, Vengeful Samurai",
+    "img": "https://cards.scryfall.io/normal/front/a/1/a1e779b4-32dd-406b-8b68-48f6df458005.jpg?1783906370",
+    "synergy": 0,
+    "explanation": "**Landfall ramp** : fetches a basic on attack — combat ramp.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Edgar, Master Machinist",
+    "img": "https://cards.scryfall.io/normal/front/0/9/098a8025-6454-45d8-abe3-2c3dada3f582.jpg?1783906346",
+    "synergy": 0,
+    "explanation": "**Artifact value** : makes artifact tokens and recurs them — utility for the deck's artifacts.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Flayer of the Hatebound",
+    "img": "https://cards.scryfall.io/normal/front/6/2/620e8ec3-aeea-498b-a54a-acd922c4bb60.jpg?1783932755",
+    "synergy": 0,
+    "explanation": "**Undying synergy** : 4 damage per reanimated creature — a great reanimator payoff in Flex.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Gau, Feral Youth",
+    "img": "https://cards.scryfall.io/normal/front/8/9/89175ce1-0746-4ba1-970e-617d134b0527.jpg?1783906357",
+    "synergy": 0,
+    "explanation": "**Flexible body** : adapts into a beater — a flex creature slot.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Gogo, Mysterious Mime",
+    "img": "https://cards.scryfall.io/normal/front/0/d/0db05dc8-03f8-4ab4-9ca3-2aaaa0099eb4.jpg?1783906356",
+    "synergy": 0,
+    "explanation": "**Copycat** : copies abilities of creatures in graveyards — reanimator synergy.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Interceptor, Shadow's Hound",
+    "img": "https://cards.scryfall.io/normal/front/3/0/30be9a07-5803-4bef-9313-391c926bfcec.jpg?1783906358",
+    "synergy": 0,
+    "explanation": "**Flash threat** : instant-speed flyer that interacts — flexible.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Kefka, Dancing Mad",
+    "img": "https://cards.scryfall.io/normal/front/2/1/21cfc161-11b8-4253-a872-3b08a13b6991.jpg?1783906346",
+    "synergy": 0,
+    "explanation": "**Board flip** : destroys all nonland permanents and mills — a reset that feeds the reanimator plan.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Millikin",
+    "img": "https://cards.scryfall.io/normal/front/c/2/c2073453-4108-4039-a8c2-0f94dd7bf237.jpg?1783903738",
+    "synergy": 0,
+    "explanation": "**Mill dork** : taps to mill one — an early mill engine that also ramps.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Mog, Moogle Warrior",
+    "img": "https://cards.scryfall.io/normal/front/e/9/e9cb8ac9-64a0-455d-a8dd-1579ee321bbd.jpg?1783906344",
+    "synergy": 0,
+    "explanation": "**Draw on entry** : cantrip creature — smooths the curve.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Morbid Opportunist",
+    "img": "https://cards.scryfall.io/normal/front/0/8/08838865-a9b6-4323-96a2-0d3a7aba9d3d.jpg?1783903784",
+    "synergy": 0,
+    "explanation": "**Draw on death** : each creature death draws a card — engine draw.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Palace Jailer",
+    "img": "https://cards.scryfall.io/normal/front/3/a/3a8c2a84-e0f2-4611-af3d-42f4578ad4e3.jpg?1783903243",
+    "synergy": 0,
+    "explanation": "**Exile + monarch** : removes a creature and gives card advantage.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Pitiless Plunderer",
+    "img": "https://cards.scryfall.io/normal/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869",
+    "synergy": 0,
+    "explanation": "**Treasure engine** : a Treasure per sacrificed creature — the deck's best ramp.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Ruin Grinder",
+    "img": "https://cards.scryfall.io/normal/front/5/6/56dd8c18-052b-4684-8ffa-f7d49af25759.jpg?1783927591",
+    "synergy": 0,
+    "explanation": "**Land ramp + mill** : fetches basics and mills — dual purpose.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Sabin, Master Monk",
+    "img": "https://cards.scryfall.io/normal/front/4/3/43bacd07-fdaf-4ce4-bf7a-dda55a99d460.jpg?1783906355",
+    "synergy": 0,
+    "explanation": "**Value attacker** : draws and deals — combat card advantage.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Sepulchral Primordial",
+    "img": "https://cards.scryfall.io/normal/front/2/e/2ed2b1d9-3c23-4f2e-b816-6f2bea74b797.jpg?1783929474",
+    "synergy": 0,
+    "explanation": "**Mass steal** : reanimates a creature from each opponent's yard — huge swing.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Setzer, Wandering Gambler",
+    "img": "https://cards.scryfall.io/normal/front/5/e/5e3e5b0f-c702-4671-ad95-ab0cda1ab83d.jpg?1783906343",
+    "synergy": 0,
+    "explanation": "**Treasure payoff** : makes Treasures from combat damage.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Shadow, Mysterious Assassin",
+    "img": "https://cards.scryfall.io/normal/front/f/8/f88d81d9-8ded-4c20-8237-2218046595fb.jpg?1783906358",
+    "synergy": 0,
+    "explanation": "**Evasion finisher** : unblockable and hits hard — closes games after the board is cleared.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Solemn Simulacrum",
+    "img": "https://cards.scryfall.io/normal/front/d/a/daafd816-f7c1-4630-9e5c-a1e5db570a35.jpg?1783903212",
+    "synergy": 0,
+    "explanation": "**Ramp + draw** : fetches a basic and cantrips — premium ramp.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Strago and Relm",
+    "img": "https://cards.scryfall.io/normal/front/a/8/a8c971d0-9ac4-4b34-ae19-1152c1c9dac1.jpg?1783906354",
+    "synergy": 0,
+    "explanation": "**Damage payoff** : deals damage equal to your graveyard's creatures — a classic reanimator finisher.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Summon: Esper Valigarmanda",
+    "img": "https://cards.scryfall.io/normal/front/7/f/7f0298b4-c7ca-49b8-baaa-b9fad4c2bfd5.jpg?1783906354",
+    "synergy": 0,
+    "explanation": "**Pseudo-reanimate** : summons a dragon from the yard — big reanimator spell.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Sun Titan",
+    "img": "https://cards.scryfall.io/normal/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797",
+    "synergy": 0,
+    "explanation": "**Recursion lord** : returns small permanents on attack — the deck's recursive value.",
+    "in_main_hs": false
+   },
+   {
+    "name": "The Warring Triad",
+    "img": "https://cards.scryfall.io/normal/front/9/9/99fd1cd5-4740-4a0f-b773-3d3b66861d77.jpg?1783906340",
+    "synergy": 0,
+    "explanation": "**Trio engine** : three legendary modes — flex value.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Umaro, Raging Yeti",
+    "img": "https://cards.scryfall.io/normal/front/3/1/31aed8e9-44be-4e7c-85ac-a084eaecaea7.jpg?1783906353",
+    "synergy": 0,
+    "explanation": "**Value beater** : a big Yeti that draws when creatures enter — reanimator synergy.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Legions to Ashes",
+    "img": "https://cards.scryfall.io/normal/front/9/4/94faea39-4540-4adc-b9bd-78fefd09ecdf.jpg?1783920028",
+    "synergy": 0,
+    "explanation": "**Exile removal** : exiles a creature and its ilk — clean answers.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Night's Whisper",
+    "img": "https://cards.scryfall.io/normal/front/e/8/e8399c2e-ecc8-41c9-a690-a0eeafb27f77.jpg?1785497515",
+    "synergy": 0,
+    "explanation": "**Efficient draw** : 2 mana, 2 cards — standard card advantage.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Rejoin the Fight",
+    "img": "https://cards.scryfall.io/normal/front/f/3/f3140950-1ce2-41b8-91f9-da53bfbee963.jpg?1783906358",
+    "synergy": 0,
+    "explanation": "**Recursion spell** : returns a creature — backup reanimation.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Ruinous Ultimatum",
+    "img": "https://cards.scryfall.io/normal/front/5/0/50c1d6ca-7789-46b5-bc89-85cc3915cb85.jpg?1783931018",
+    "synergy": 0,
+    "explanation": "**Mass removal** : destroys all nonland permanents — the deck's reset.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Snort",
+    "img": "https://cards.scryfall.io/normal/front/4/6/46f1179d-6e48-46ed-ab41-abddace7b5d4.jpg?1783906354",
+    "synergy": 0,
+    "explanation": "**Snow yeti** : part of the MDFC — flexible beatdown.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Tragic Arrogance",
+    "img": "https://cards.scryfall.io/normal/front/9/5/956d4728-e7a3-43f4-a350-86eca1b95d06.jpg?1783903243",
+    "synergy": 0,
+    "explanation": "**Board reset** : each player keeps one of each type — wipes while keeping your best.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Ash Barrens",
+    "img": "https://cards.scryfall.io/normal/front/e/8/e8510205-4baa-4f1c-bf64-5d931e2ddf48.jpg?1783904155",
+    "synergy": 0,
+    "explanation": "**Fetch land** : cycles into a basic — deck thinning.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Battlefield Forge",
+    "img": "https://cards.scryfall.io/normal/front/c/4/c47c1bf5-f11e-4f86-b20b-5d899a11dc56.jpg?1783903735",
+    "synergy": 0,
+    "explanation": "**Pain land** : untapped R/W with life cost.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Clifftop Retreat",
+    "img": "https://cards.scryfall.io/normal/front/4/a/4a7f7767-1959-4812-8654-0a22634096b1.jpg?1783903206",
+    "synergy": 0,
+    "explanation": "**R/W fixing** : conditional untapped.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Command Tower",
+    "img": "https://cards.scryfall.io/normal/front/0/5/0548fb60-c843-4f8f-a029-6f10efc63a41.jpg?1783903206",
+    "synergy": 0,
+    "explanation": "**Perfect fixing** : any color — the best land in the deck.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Demolition Field",
+    "img": "https://cards.scryfall.io/normal/front/0/c/0c7e51b6-4898-4632-b39c-3ce438caa882.jpg?1783908902",
+    "synergy": 0,
+    "explanation": "**Land removal** : destroys a land and ramps you.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Desolate Mire",
+    "img": "https://cards.scryfall.io/normal/front/6/a/6a261c7d-38a4-4000-97b2-76e7ab9989c5.jpg?1783903733",
+    "synergy": 0,
+    "explanation": "**W/B utility** : colored fixing.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Dragonskull Summit",
+    "img": "https://cards.scryfall.io/normal/front/d/2/d20e433a-eb62-4301-bc20-bfe27468b033.jpg?1783903203",
+    "synergy": 0,
+    "explanation": "**R/B fixing** : conditional untapped.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Evolving Wilds",
+    "img": "https://cards.scryfall.io/normal/front/c/0/c0318a48-30e4-4ef7-be3d-5e561c5ce428.jpg?1783903203",
+    "synergy": 0,
+    "explanation": "**Basic fetch** : fixes colors at sorcery speed.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Exotic Orchard",
+    "img": "https://cards.scryfall.io/normal/front/d/1/d11c5fe0-1528-4c94-a8cc-42bcab9d7487.jpg?1785759427",
+    "synergy": 0,
+    "explanation": "**Color fixing** : copies opponents' colors — reliable in multiplayer.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Fetid Heath",
+    "img": "https://cards.scryfall.io/normal/front/f/4/f465ded8-0d38-42ac-bafc-a12185013c5d.jpg?1783903732",
+    "synergy": 0,
+    "explanation": "**W/B fixing** : untapped color pair.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Foreboding Ruins",
+    "img": "https://cards.scryfall.io/normal/front/7/6/76fdf6be-e13b-49ee-9d50-8625edb49951.jpg?1783903200",
+    "synergy": 0,
+    "explanation": "**B/W fixing** : conditional untapped.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Furycalm Snarl",
+    "img": "https://cards.scryfall.io/normal/front/a/f/afc12892-4978-4442-ace5-c4dea5c0ee00.jpg?1783903200",
+    "synergy": 0,
+    "explanation": "**R/W fixing** : conditional untapped.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Geothermal Bog",
+    "img": "https://cards.scryfall.io/normal/front/6/d/6da04570-5d3c-4e9f-a9c1-20589a4bcc24.jpg?1783909575",
+    "synergy": 0,
+    "explanation": "**R/B fixing** : a basic-land pair.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Graven Cairns",
+    "img": "https://cards.scryfall.io/normal/front/7/4/74a13fea-4f48-428b-b42b-4ba63d4752ed.jpg?1783909574",
+    "synergy": 0,
+    "explanation": "**Filter land** : R/B filter — reliable fixing.",
+    "in_main_hs": false
+   },
+   {
+    "name": "High Market",
+    "img": "https://cards.scryfall.io/normal/front/8/9/894aa6b6-0d08-4c43-8734-9cb7b31359c6.jpg?1783903727",
+    "synergy": 0,
+    "explanation": "**Sac outlet** : sacrifice a creature for life — utility for the plan.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Isolated Chapel",
+    "img": "https://cards.scryfall.io/normal/front/7/8/78814c92-b52c-462a-866f-3e7da9db9f70.jpg?1783903727",
+    "synergy": 0,
+    "explanation": "**W/B fixing** : conditional untapped.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Mountain",
+    "img": "https://cards.scryfall.io/normal/front/2/a/2a844b96-6616-4c39-8f4f-5d14a3b2bd55.jpg?1785981666",
+    "synergy": 0,
+    "explanation": "**Basic land** : red mana.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Nomad Outpost",
+    "img": "https://cards.scryfall.io/normal/front/a/6/a68fbeaa-941f-4d53-becd-f93ed22b9a54.jpg?1783907273",
+    "synergy": 0,
+    "explanation": "**Triland** : W/R/B — excellent fixing.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Path of Ancestry",
+    "img": "https://cards.scryfall.io/normal/front/b/1/b1aaa7b0-1cac-4a92-b880-7ef1ac00618f.jpg?1785759407",
+    "synergy": 0,
+    "explanation": "**Scry land** : fixes and scries on cast — tribal support.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Plains",
+    "img": "https://cards.scryfall.io/normal/front/8/a/8ab0f4c0-b331-4c57-b68f-2e24bb5ba06c.jpg?1785981632",
+    "synergy": 0,
+    "explanation": "**Basic land** : white mana.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Rogue's Passage",
+    "img": "https://cards.scryfall.io/normal/front/4/4/4493b62b-f354-47ff-9dcf-cc6e29de77c6.jpg?1785497634",
+    "synergy": 0,
+    "explanation": "**Unblockable land** : makes a creature unblockable — finisher enabler.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Rugged Prairie",
+    "img": "https://cards.scryfall.io/normal/front/6/b/6bd21c9e-de16-4ee9-ae16-6e82b490109d.jpg?1783903721",
+    "synergy": 0,
+    "explanation": "**Filter land** : R/W filter — reliable fixing.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Sacred Peaks",
+    "img": "https://cards.scryfall.io/normal/front/e/e/ee2d6798-b19d-4628-bb57-05663ab4af68.jpg?1783903721",
+    "synergy": 0,
+    "explanation": "**W/R fixing** : basic-land pair.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Shadowblood Ridge",
+    "img": "https://cards.scryfall.io/normal/front/d/7/d7af1d6b-ff13-4886-a212-4a6e09153475.jpg?1783909568",
+    "synergy": 0,
+    "explanation": "**Filter land** : R/B filter.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Shineshadow Snarl",
+    "img": "https://cards.scryfall.io/normal/front/7/a/7a198106-4d31-4e10-884a-bdf2316f8088.jpg?1783903721",
+    "synergy": 0,
+    "explanation": "**W/B fixing** : conditional untapped.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Smoldering Marsh",
+    "img": "https://cards.scryfall.io/normal/front/d/7/d707c477-440f-417c-970a-0e7426a58045.jpg?1783903193",
+    "synergy": 0,
+    "explanation": "**R/B fixing** : conditional untapped (shock-free).",
+    "in_main_hs": false
+   },
+   {
+    "name": "Sulfurous Springs",
+    "img": "https://cards.scryfall.io/normal/front/e/e/eedb9df2-20d3-4cfd-8aed-336edc37d5a9.jpg?1783906003",
+    "synergy": 0,
+    "explanation": "**Pain land** : untapped R/B with life cost.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Sunlit Marsh",
+    "img": "https://cards.scryfall.io/normal/front/f/a/fa447616-db24-4729-bf66-7f72aba0272d.jpg?1783903720",
+    "synergy": 0,
+    "explanation": "**W/B fixing** : basic-land pair.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Sunscorched Divide",
+    "img": "https://cards.scryfall.io/normal/front/e/a/eae999f9-9c58-4609-8ade-aca0acf07519.jpg?1783903718",
+    "synergy": 0,
+    "explanation": "**W/R fixing** : conditional untapped.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Swamp",
+    "img": "https://cards.scryfall.io/normal/front/b/7/b7387103-1df1-4fd0-9e91-1544509792c7.jpg?1785981659",
+    "synergy": 0,
+    "explanation": "**Basic land** : black mana.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Bedevil",
+    "img": "https://cards.scryfall.io/normal/front/9/8/985b9779-b8f6-4d7e-9490-5d2b91ee8db2.jpg?1783903227",
+    "synergy": 0,
+    "explanation": "**Flexible removal** : artifact, creature or planeswalker — premium answer.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Big Score",
+    "img": "https://cards.scryfall.io/normal/front/3/3/3383a939-4ab3-4546-9995-6c65cd3f4441.jpg?1783903010",
+    "synergy": 0,
+    "explanation": "**Treasure ramp** : makes Treasures and draws — instant speed.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Crackling Doom",
+    "img": "https://cards.scryfall.io/normal/front/a/6/a66e5673-e34b-46e8-a0e4-55f3ee20f99a.jpg?1783921847",
+    "synergy": 0,
+    "explanation": "**Edict removal** : each opponent sacrifices the strongest creature — efficient multi-removal.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Espers to Magicite",
+    "img": "https://cards.scryfall.io/normal/front/6/c/6cb18871-dd23-4ce8-a535-16adefae63c0.jpg?1783906359",
+    "synergy": 0,
+    "explanation": "**Mass bounce** : returns all nonland permanents — a reset that buys time.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Laughing Mad",
+    "img": "https://cards.scryfall.io/normal/front/c/d/cd5b9daf-6325-4eb4-a069-4a8cc7807884.jpg?1783906603",
+    "synergy": 0,
+    "explanation": "**Mill + draw** : mills and draws — feeds the plan.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Mortify",
+    "img": "https://cards.scryfall.io/normal/front/8/8/88e85619-3a7d-48c2-b9b0-20718c913696.jpg?1783908910",
+    "synergy": 0,
+    "explanation": "**Creature/enchantment removal** : standard Mardu answer.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Arcane Signet",
+    "img": "https://cards.scryfall.io/normal/front/1/c/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd.jpg?1783903222",
+    "synergy": 0,
+    "explanation": "**Standard rock** : any color mana — core ramp.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Coin of Fate",
+    "img": "https://cards.scryfall.io/normal/front/c/d/cde3765f-e25c-4d16-b361-448167ed8736.jpg?1783906369",
+    "synergy": 0,
+    "explanation": "**Topdeck gamble** : flips to draw or reanimate — a flex slot with upside.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Commander's Sphere",
+    "img": "https://cards.scryfall.io/normal/front/a/0/a0d50603-e31f-4cd7-b4b6-49847d99eb2e.jpg?1783904531",
+    "synergy": 0,
+    "explanation": "**Filtering rock** : mana + draw when sacrificed.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Key to the City",
+    "img": "https://cards.scryfall.io/normal/front/f/2/f2103bba-f367-45ed-9b2c-bf31bb2926a5.jpg?1783927512",
+    "synergy": 0,
+    "explanation": "**Evasion + draw** : makes attackers unblockable and cycles — interaction + velocity.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Mind Stone",
+    "img": "https://cards.scryfall.io/normal/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.jpg?1785759375",
+    "synergy": 0,
+    "explanation": "**Cheap rock** : 2-mana ramp + cantrip when cracked.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Phoenix Down",
+    "img": "https://cards.scryfall.io/normal/front/6/2/62e299b0-9ef6-49d3-aa79-384325fed89e.jpg?1783906645",
+    "synergy": 0,
+    "explanation": "**Instant reanimation** : returns a creature from the yard — protection + recursion.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Sol Ring",
+    "img": "https://cards.scryfall.io/normal/front/9/1/91fdb56b-54d5-4272-8319-505ff987fe9b.jpg?1783903215",
+    "synergy": 0,
+    "explanation": "**Fast mana** : the best rock in the format.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Swiftfoot Boots",
+    "img": "https://cards.scryfall.io/normal/front/0/3/03f7e9fc-8e59-45c1-90fc-1d04d929b292.jpg?1785759388",
+    "synergy": 0,
+    "explanation": "**Protection** : hexproof + haste for your reanimated threats.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Talisman of Conviction",
+    "img": "https://cards.scryfall.io/normal/front/a/3/a365885c-f7d9-4ea1-9125-5265055e5570.jpg?1783903211",
+    "synergy": 0,
+    "explanation": "**Color rock** : R/W mana — standard.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Talisman of Indulgence",
+    "img": "https://cards.scryfall.io/normal/front/c/c/ccacf88d-407d-465d-958a-1389b7d700e6.jpg?1783903211",
+    "synergy": 0,
+    "explanation": "**Color rock** : R/B mana — standard.",
+    "in_main_hs": false
+   },
+   {
+    "name": "The Falcon, Airship Restored",
+    "img": "https://cards.scryfall.io/normal/front/0/8/080fc2be-d463-4e8e-ba42-8f3cb0c95ed3.jpg?1783906359",
+    "synergy": 0,
+    "explanation": "**Flying threat** : evasive beater — closes games.",
+    "in_main_hs": false
+   },
+   {
+    "name": "Wayfarer's Bauble",
+    "img": "https://cards.scryfall.io/normal/front/b/2/b279f268-c37e-4a2d-8195-74f4881226fc.jpg?1785497631",
+    "synergy": 0,
+    "explanation": "**Land ramp** : sacrifices for a basic — slow but reliable.",
+    "in_main_hs": false
+   }
+  ]
+ },
+ "plans": [
+  {
+   "tag": "Reanimator",
+   "decks": 1996,
+   "description": [
+    "**Core mechanic** : Terra fills her own graveyard (Trance: mill 2 + flying at combat) then reanimates threats for free.",
+    "**Engine** : Celes, Stitcher's Supplier and Priest of Fell Rites mill; Reanimate and Karmic Guide bring back the board.",
+    "**Payoff** : free reanimation of big threats every turn."
+   ],
+   "win": [
+    "**Reanimate** : a threat reanimated each turn.",
+    "**Drain** : ETB drain reanimated.",
+    "**Beats** : flying trample beaters."
+   ],
+   "high_synergy": [
+    {
+     "name": "Celes, Rune Knight",
+     "synergy": 0.7463468676147684
+    },
+    {
+     "name": "Stitcher's Supplier",
+     "synergy": 0.6642782107474041
+    },
+    {
+     "name": "Reanimate",
+     "synergy": 0.6435477568580158
+    },
+    {
+     "name": "Priest of Fell Rites",
+     "synergy": 0.6023949999221069
+    },
+    {
+     "name": "Karmic Guide",
+     "synergy": 0.5771866169157064
+    },
+    {
+     "name": "Anger",
+     "synergy": 0.5593101152841241
+    },
+    {
+     "name": "Stitch Together",
+     "synergy": 0.5511997389939393
+    },
+    {
+     "name": "Meteor Golem",
+     "synergy": 0.5335799219845256
+    },
+    {
+     "name": "Locke, Treasure Hunter",
+     "synergy": 0.5260321985571604
+    },
+    {
+     "name": "Siegfried, Famed Swordsman",
+     "synergy": 0.5199688393990957
+    }
+   ],
+   "deck_matches": [
+    "Celes, Rune Knight",
+    "Stitcher's Supplier",
+    "Reanimate",
+    "Priest of Fell Rites",
+    "Anger",
+    "Stitch Together",
+    "Meteor Golem",
+    "Locke, Treasure Hunter",
+    "Siegfried, Famed Swordsman"
+   ]
+  },
+  {
+   "tag": "Graveyard",
+   "decks": 585,
+   "description": [
+    "**Core mechanic** : graveyard value — mill, reanimation and flashback.",
+    "**Engine** : self-mill into graveyard payoff.",
+    "**Payoff** : value from the yard."
+   ],
+   "win": [
+    "**Reanimate** : big threats back.",
+    "**Drain** : Gray Merchant-style.",
+    "**Beats** : reanimated army."
+   ],
+   "high_synergy": [
+    {
+     "name": "Celes, Rune Knight",
+     "synergy": 0.7943703410419306
+    },
+    {
+     "name": "Stitcher's Supplier",
+     "synergy": 0.7081462887838189
+    },
+    {
+     "name": "Reanimate",
+     "synergy": 0.6641385110159043
+    },
+    {
+     "name": "Priest of Fell Rites",
+     "synergy": 0.6437246678048809
+    },
+    {
+     "name": "Anger",
+     "synergy": 0.6229202415195009
+    },
+    {
+     "name": "Siegfried, Famed Swordsman",
+     "synergy": 0.6111753725919302
+    },
+    {
+     "name": "Stitch Together",
+     "synergy": 0.5989507966648366
+    },
+    {
+     "name": "Karmic Guide",
+     "synergy": 0.5770478778992119
+    },
+    {
+     "name": "Locke, Treasure Hunter",
+     "synergy": 0.572935956899275
+    },
+    {
+     "name": "Meteor Golem",
+     "synergy": 0.5694816399503718
+    }
+   ],
+   "deck_matches": [
+    "Celes, Rune Knight",
+    "Stitcher's Supplier",
+    "Reanimate",
+    "Priest of Fell Rites",
+    "Anger",
+    "Siegfried, Famed Swordsman",
+    "Stitch Together",
+    "Locke, Treasure Hunter",
+    "Meteor Golem"
+   ]
+  },
+  {
+   "tag": "Self-Mill",
+   "decks": 567,
+   "description": [
+    "**Core mechanic** : self-mill to fuel reanimation and Terra's Trance.",
+    "**Engine** : Stitcher's Supplier, Celes and mill spells.",
+    "**Payoff** : a full graveyard of threats."
+   ],
+   "win": [
+    "**Mass reanimate** : Karmic Guide / Priest of Fell Rites.",
+    "**Beats** : flying army.",
+    "**Drain** : ETB drains."
+   ],
+   "high_synergy": [
+    {
+     "name": "Celes, Rune Knight",
+     "synergy": 0.7975030206691721
+    },
+    {
+     "name": "Stitcher's Supplier",
+     "synergy": 0.7289304429013063
+    },
+    {
+     "name": "Reanimate",
+     "synergy": 0.6591459726900326
+    },
+    {
+     "name": "Priest of Fell Rites",
+     "synergy": 0.6465194039329504
+    },
+    {
+     "name": "Siegfried, Famed Swordsman",
+     "synergy": 0.6315100384136043
+    },
+    {
+     "name": "Stitch Together",
+     "synergy": 0.6123546767353834
+    },
+    {
+     "name": "Anger",
+     "synergy": 0.596058214657474
+    },
+    {
+     "name": "Locke, Treasure Hunter",
+     "synergy": 0.5872622377943171
+    },
+    {
+     "name": "Meteor Golem",
+     "synergy": 0.5782185820206472
+    },
+    {
+     "name": "Rise of the Dark Realms",
+     "synergy": 0.5594732563081616
+    }
+   ],
+   "deck_matches": [
+    "Celes, Rune Knight",
+    "Stitcher's Supplier",
+    "Reanimate",
+    "Priest of Fell Rites",
+    "Siegfried, Famed Swordsman",
+    "Stitch Together",
+    "Anger",
+    "Locke, Treasure Hunter",
+    "Meteor Golem",
+    "Rise of the Dark Realms"
+   ]
+  },
+  {
+   "tag": "Aggro",
+   "decks": 348,
+   "description": [
+    "**Core mechanic** : aggressive reanimation — Trance flying + reanimated threats.",
+    "**Engine** : early mill into early reanimation.",
+    "**Payoff** : a fast flying beatdown."
+   ],
+   "win": [
+    "**Early beats** : reanimated threat turn 3-4.",
+    "**Flying** : Terra's Trance evasion.",
+    "**Drain** : ETB value."
+   ],
+   "high_synergy": [
+    {
+     "name": "Celes, Rune Knight",
+     "synergy": 0.6786852086754018
+    },
+    {
+     "name": "Stitcher's Supplier",
+     "synergy": 0.6090009896385197
+    },
+    {
+     "name": "Karmic Guide",
+     "synergy": 0.5860664455384691
+    },
+    {
+     "name": "Reanimate",
+     "synergy": 0.5800241579360339
+    },
+    {
+     "name": "Alesha, Who Laughs at Fate",
+     "synergy": 0.560534140550367
+    },
+    {
+     "name": "Priest of Fell Rites",
+     "synergy": 0.5422805180848692
+    },
+    {
+     "name": "Anger",
+     "synergy": 0.5198403711982512
+    },
+    {
+     "name": "Ripples of Undeath",
+     "synergy": 0.5137724894961695
+    },
+    {
+     "name": "Locke, Treasure Hunter",
+     "synergy": 0.5120816381395341
+    },
+    {
+     "name": "Meteor Golem",
+     "synergy": 0.5040380796792254
+    }
+   ],
+   "deck_matches": [
+    "Celes, Rune Knight",
+    "Stitcher's Supplier",
+    "Reanimate",
+    "Priest of Fell Rites",
+    "Anger",
+    "Locke, Treasure Hunter",
+    "Meteor Golem"
+   ]
+  },
+  {
+   "tag": "Mill",
+   "decks": 331,
+   "description": [
+    "**Core mechanic** : mill the table while filling your own yard.",
+    "**Engine** : mill spells and Terra's self-mill.",
+    "**Payoff** : opponents deck out while you reanimate."
+   ],
+   "win": [
+    "**Deck-out** : mill the table.",
+    "**Reanimate** : your milled threats.",
+    "**Beats** : flying army."
+   ],
+   "high_synergy": [
+    {
+     "name": "Celes, Rune Knight",
+     "synergy": 0.767498334991002
+    },
+    {
+     "name": "Stitcher's Supplier",
+     "synergy": 0.7036636281078047
+    },
+    {
+     "name": "Reanimate",
+     "synergy": 0.6733672145044265
+    },
+    {
+     "name": "Priest of Fell Rites",
+     "synergy": 0.6213165287804278
+    },
+    {
+     "name": "Stitch Together",
+     "synergy": 0.6131166241237154
+    },
+    {
+     "name": "Anger",
+     "synergy": 0.6053614324199063
+    },
+    {
+     "name": "Locke, Treasure Hunter",
+     "synergy": 0.5957280099921023
+    },
+    {
+     "name": "Siegfried, Famed Swordsman",
+     "synergy": 0.5764714672060712
+    },
+    {
+     "name": "General Leo Cristophe",
+     "synergy": 0.5384629901788421
+    },
+    {
+     "name": "Rise of the Dark Realms",
+     "synergy": 0.5310680708032782
+    }
+   ],
+   "deck_matches": [
+    "Celes, Rune Knight",
+    "Stitcher's Supplier",
+    "Reanimate",
+    "Priest of Fell Rites",
+    "Stitch Together",
+    "Anger",
+    "Locke, Treasure Hunter",
+    "Siegfried, Famed Swordsman",
+    "General Leo Cristophe",
+    "Rise of the Dark Realms"
+   ]
+  }
+ ],
+ "verdict": {
+  "favored": "Reanimator",
+  "score_reanimator": 9,
+  "score_graveyard": 9,
+  "score_selfmill": 10,
+  "score_aggro": 7,
+  "score_mill": 10,
+  "text": [
+   "**Reanimator (1,996) is the clear favorite**: 9 of the deck's 92 cards sit in its EDHREC High Synergy pool (Celes, Rune Knight, Reanimate, Priest of Fell Rites, Anger, Stitch Together, Stitcher's Supplier, Meteor Golem, Locke, Siegfried) — the plan the precon was built for.",
+   "**Self-Mill (567) and Mill (331) are co-second**: 10/10 pool overlap each — the deck's mill package (Millikin, Stitcher's Supplier, Laughing Mad, Rise of the Dark Realms) feeds the yard directly.",
+   "**Aggro (348) is incidental**: 7/10 overlap via the haste package (Anger) and the evasive attackers — the deck attacks because it reanimates, not the reverse.",
+   "**Structural gaps**: only 6 interaction slots (under the 10-12 ideal) and 1 wipe (Ruinous Ultimatum) — the deck is a race to its reanimation targets, vulnerable to graveyard hate (a single Bojuka Bog-style answer hurts).",
+   "**Speed concern**: average nonland CMC 3.74 (ideal ≤ 3.2) with 14 ramp slots — the curve is heavy but the ramp mostly compensates; expect the deck to be strong turns 5-7, weaker before."
+  ]
+ },
+ "structure": {
+  "avg_cmc_nonland": 3.74,
+  "roles": [
+   {
+    "role": "Lands",
+    "slots": 37,
+    "ideal": "36-38",
+    "status": "ok"
+   },
+   {
+    "role": "Ramp / Acceleration",
+    "slots": 14,
+    "ideal": "10-12",
+    "status": "over"
+   },
+   {
+    "role": "Card Advantage / Draw",
+    "slots": 9,
+    "ideal": "10-12",
+    "status": "under"
+   },
+   {
+    "role": "Interaction / Removal",
+    "slots": 6,
+    "ideal": "10-12",
+    "status": "under"
+   },
+   {
+    "role": "Engines / Synergies",
+    "slots": 11,
+    "ideal": "30-35",
+    "status": "under"
+   },
+   {
+    "role": "Wincons / Finishers",
+    "slots": 3,
+    "ideal": "in Engines",
+    "status": "under"
+   },
+   {
+    "role": "Wipes",
+    "slots": 1,
+    "ideal": "2-3",
+    "status": "under"
+   },
+   {
+    "role": "Flex",
+    "slots": 18,
+    "ideal": "3-5",
+    "status": "over"
+   }
+  ]
+ },
+ "card_meta": {
+  "Angel of the Ruins": {
+   "type_line": "Artifact Creature — Angel",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Anger": {
+   "type_line": "Creature — Incarnation",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Archfiend of Depravity": {
+   "type_line": "Creature — Demon",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Banon, the Returners' Leader": {
+   "type_line": "Legendary Creature — Human Cleric Rebel",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Celes, Rune Knight": {
+   "type_line": "Legendary Creature — Human Wizard Knight",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Combustible Gearhulk": {
+   "type_line": "Artifact Creature — Construct",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Cyan, Vengeful Samurai": {
+   "type_line": "Legendary Creature — Human Samurai",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Edgar, Master Machinist": {
+   "type_line": "Legendary Creature — Human Artificer Noble",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Flayer of the Hatebound": {
+   "type_line": "Creature — Devil",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Gau, Feral Youth": {
+   "type_line": "Legendary Creature — Human Berserker",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "General Leo Cristophe": {
+   "type_line": "Legendary Creature — Human Soldier",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Gogo, Mysterious Mime": {
+   "type_line": "Legendary Creature — Wizard",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Interceptor, Shadow's Hound": {
+   "type_line": "Legendary Creature — Dog",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Kefka, Dancing Mad": {
+   "type_line": "Legendary Creature — Human Wizard",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Locke, Treasure Hunter": {
+   "type_line": "Legendary Creature — Human Rogue",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Meteor Golem": {
+   "type_line": "Artifact Creature — Golem",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Millikin": {
+   "type_line": "Artifact Creature — Construct",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Mog, Moogle Warrior": {
+   "type_line": "Legendary Creature — Moogle Warrior",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Morbid Opportunist": {
+   "type_line": "Creature — Human Rogue",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Palace Jailer": {
+   "type_line": "Creature — Human Soldier",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Pitiless Plunderer": {
+   "type_line": "Creature — Human Pirate",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Priest of Fell Rites": {
+   "type_line": "Creature — Human Warlock",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Ruin Grinder": {
+   "type_line": "Artifact Creature — Construct",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Sabin, Master Monk": {
+   "type_line": "Legendary Creature — Human Noble Monk",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Sepulchral Primordial": {
+   "type_line": "Creature — Avatar",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Setzer, Wandering Gambler": {
+   "type_line": "Legendary Creature — Human Rogue Pilot",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Shadow, Mysterious Assassin": {
+   "type_line": "Legendary Creature — Human Assassin",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Siegfried, Famed Swordsman": {
+   "type_line": "Legendary Creature — Human Warrior Rogue",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Solemn Simulacrum": {
+   "type_line": "Artifact Creature — Golem",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Stitcher's Supplier": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Strago and Relm": {
+   "type_line": "Legendary Creature — Human Wizard",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Summon: Esper Valigarmanda": {
+   "type_line": "Enchantment Creature — Saga Drake",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Sun Titan": {
+   "type_line": "Creature — Giant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "The Warring Triad": {
+   "type_line": "Legendary Artifact Creature — God",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Umaro, Raging Yeti": {
+   "type_line": "Legendary Creature — Yeti Berserker",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Legions to Ashes": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Night's Whisper": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Reanimate": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Rejoin the Fight": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Rise of the Dark Realms": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Ruinous Ultimatum": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Snort": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Stitch Together": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Tragic Arrogance": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Ash Barrens": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Battlefield Forge": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Clifftop Retreat": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Command Tower": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Demolition Field": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Desolate Mire": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Dragonskull Summit": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Evolving Wilds": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Exotic Orchard": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Fetid Heath": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Foreboding Ruins": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Furycalm Snarl": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Geothermal Bog": {
+   "type_line": "Land — Swamp Mountain",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Graven Cairns": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "High Market": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Isolated Chapel": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Mountain": {
+   "type_line": "Basic Land — Mountain",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Nomad Outpost": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Path of Ancestry": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Plains": {
+   "type_line": "Basic Land — Plains",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Rogue's Passage": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Rugged Prairie": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Sacred Peaks": {
+   "type_line": "Land — Mountain Plains",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Shadowblood Ridge": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Shineshadow Snarl": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Smoldering Marsh": {
+   "type_line": "Land — Swamp Mountain",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Sulfurous Springs": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Sunlit Marsh": {
+   "type_line": "Land — Plains Swamp",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Sunscorched Divide": {
+   "type_line": "Land",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Swamp": {
+   "type_line": "Basic Land — Swamp",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Bedevil": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Big Score": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Crackling Doom": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Espers to Magicite": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Laughing Mad": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Mortify": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Arcane Signet": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Coin of Fate": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Commander's Sphere": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Key to the City": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Mind Stone": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Phoenix Down": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Sol Ring": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Swiftfoot Boots": {
+   "type_line": "Artifact — Equipment",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Talisman of Conviction": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Talisman of Indulgence": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "The Falcon, Airship Restored": {
+   "type_line": "Legendary Artifact — Vehicle",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Wayfarer's Bauble": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Amulet of Vigor": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Ashnod's Altar": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Aurelia, the Warleader": {
+   "type_line": "Legendary Creature — Angel",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Breath of Fury": {
+   "type_line": "Enchantment — Aura",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Fear of Missing Out": {
+   "type_line": "Enchantment Creature — Nightmare",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Goblin Bombardment": {
+   "type_line": "Enchantment",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Karmic Guide": {
+   "type_line": "Creature — Angel Spirit",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Murderous Redcap": {
+   "type_line": "Creature — Goblin Assassin",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Terra, Herald of Hope": {
+   "type_line": "Legendary Creature — Human Wizard Warrior",
+   "produced_mana": "",
+   "keywords": []
+  }
+ },
+ "oracle": {
+  "Angel of the Ruins": "Flying\nWhen this creature enters, exile up to two target artifacts and/or enchantments.\nPlainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)",
+  "Anger": "Haste\nAs long as this card is in your graveyard and you control a Mountain, creatures you control have haste.",
+  "Archfiend of Depravity": "Flying\nAt the beginning of each opponent's end step, that player chooses up to two creatures they control, then sacrifices the rest.",
+  "Banon, the Returners' Leader": "Pray — Once during each of your turns, you may cast a creature spell from among cards in your graveyard that were put there from anywhere other than the battlefield this turn.\nWhenever you attack, you may pay {1} and discard a card. If you do, draw a card.",
+  "Celes, Rune Knight": "When Celes enters, discard any number of cards, then draw that many cards plus one.\nWhenever one or more other creatures you control enter, if one or more of them entered from a graveyard or was cast from a graveyard, put a +1/+1 counter on each creature you control.",
+  "Combustible Gearhulk": "First strike\nWhen this creature enters, target opponent may have you draw three cards. If the player doesn't, you mill three cards, then this creature deals damage to that player equal to the total mana value of those cards.",
+  "Cyan, Vengeful Samurai": "This spell costs {1} less to cast for each creature card in your graveyard.\nDouble strike\nWhenever one or more creature cards leave your graveyard, put a +1/+1 counter on Cyan.",
+  "Edgar, Master Machinist": "Once during each of your turns, you may cast an artifact spell from your graveyard. If you cast a spell this way, that artifact enters tapped.\nTools — Whenever Edgar attacks, it gets +X/+0 until end of turn, where X is the greatest mana value among artifacts you control.",
+  "Flayer of the Hatebound": "Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)\nWhenever this creature or another creature enters from your graveyard, that creature deals damage equal to its power to any target.",
+  "Gau, Feral Youth": "Rage — Whenever Gau attacks, put a +1/+1 counter on it.\nAt the beginning of each end step, if a card left your graveyard this turn, Gau deals damage equal to its power to each opponent.",
+  "General Leo Cristophe": "When General Leo Cristophe enters, return up to one target creature card with mana value 3 or less from your graveyard to the battlefield. Then put a +1/+1 counter on General Leo Cristophe for each creature you control.",
+  "Gogo, Mysterious Mime": "At the beginning of combat on your turn, you may have Gogo become a copy of another target creature you control until end of turn, except its name is Gogo, Mysterious Mime. If you do, Gogo and that creature each get +2/+0 and gain haste until end of turn and attack this turn if able.",
+  "Interceptor, Shadow's Hound": "Menace\nAssassins you control have menace.\nWhenever you attack with one or more legendary creatures, you may pay {2}{B}. If you do, return this card from your graveyard to the battlefield tapped and attacking.",
+  "Kefka, Dancing Mad": "During your turn, Kefka has indestructible.\nAt the beginning of your end step, exile a card at random from each opponent's graveyard. You may cast any number of spells from among cards exiled this way without paying their mana costs. Then each player who owns a spell you cast this way loses life equal to its mana value.",
+  "Locke, Treasure Hunter": "Locke can't be blocked by creatures with greater power.\nMug — Whenever Locke attacks, each player mills a card. If a land card was milled this way, create a Treasure token. Until end of turn, you may cast a spell from among those cards.",
+  "Meteor Golem": "When this creature enters, destroy target nonland permanent an opponent controls.",
+  "Millikin": "{T}, Mill a card: Add {C}. (To mill a card, put the top card of your library into your graveyard.)",
+  "Mog, Moogle Warrior": "Lifelink\nDance — At the beginning of your end step, each player may discard a card. Each player who discarded a card this way draws a card. If a creature card was discarded this way, you create a 1/2 white Moogle creature token with lifelink. Then if a noncreature card was discarded this way, put a +1/+1 counter on each Moogle you control.",
+  "Morbid Opportunist": "Whenever one or more other creatures die, draw a card. This ability triggers only once each turn.",
+  "Palace Jailer": "When this creature enters, you become the monarch.\nWhen this creature enters, exile target creature an opponent controls until an opponent becomes the monarch.",
+  "Pitiless Plunderer": "Whenever another creature you control dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+  "Priest of Fell Rites": "{T}, Pay 3 life, Sacrifice this creature: Return target creature card from your graveyard to the battlefield. Activate only as a sorcery.\nUnearth {3}{W}{B} ({3}{W}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
+  "Ruin Grinder": "Menace\nWhen this creature dies, each player may discard their hand and draw seven cards.\nMountaincycling {2} ({2}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.)",
+  "Sabin, Master Monk": "Double strike\nBlitz—{2}{R}{R}, Discard a card. (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)\nYou may cast this card from your graveyard using its blitz ability.",
+  "Sepulchral Primordial": "Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)\nWhen this creature enters, for each opponent, you may put up to one target creature card from that player's graveyard onto the battlefield under your control.",
+  "Setzer, Wandering Gambler": "When Setzer enters, create The Blackjack, a legendary 3/3 colorless Vehicle artifact token with flying and crew 2.\nWhenever a Vehicle you control deals combat damage to a player, flip a coin.\nWhenever you win a coin flip, create two tapped Treasure tokens.",
+  "Shadow, Mysterious Assassin": "Deathtouch\nThrow — Whenever Shadow deals combat damage to a player, you may sacrifice another nonland permanent. If you do, draw two cards and each opponent loses life equal to the mana value of the sacrificed permanent.",
+  "Siegfried, Famed Swordsman": "Menace\nWhen Siegfried enters, mill three cards. Then put X +1/+1 counters on Siegfried, where X is twice the number of creature cards in your graveyard.",
+  "Solemn Simulacrum": "When this creature enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.\nWhen this creature dies, you may draw a card.",
+  "Stitcher's Supplier": "When this creature enters or dies, mill three cards. (Put the top three cards of your library into your graveyard.)",
+  "Strago and Relm": "Sketch and Lore — {2}{R}, {T}: Target opponent exiles cards from the top of their library until they exile an instant, sorcery, or creature card. You may cast that card without paying its mana cost. If you cast a creature spell this way, it gains haste and \"At the beginning of the end step, sacrifice this creature.\" Activate only as a sorcery.",
+  "Summon: Esper Valigarmanda": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nI — Exile an instant or sorcery card from each graveyard.\nII, III, IV — Add {R} for each lore counter on this Saga. You may cast an instant or sorcery card exiled with this Saga, and mana of any type can be spent to cast that spell.\nFlying, haste",
+  "Sun Titan": "Vigilance\nWhenever this creature enters or attacks, you may return target permanent card with mana value 3 or less from your graveyard to the battlefield.",
+  "The Warring Triad": "Flying, trample, haste\nAs long as there are fewer than eight cards in your graveyard, The Warring Triad isn't a creature.\n{T}, Mill a card: Target player adds one mana of any color.",
+  "Umaro, Raging Yeti": "Trample\nAt the beginning of combat on your turn, choose one at random —\n• Other creatures you control get +3/+0 and gain trample until end of turn.\n• Discard your hand, then draw four cards.\n• Umaro deals 5 damage to any target.",
+  "Legions to Ashes": "Exile target nonland permanent an opponent controls and all tokens that player controls with the same name as that permanent.",
+  "Night's Whisper": "You draw two cards and lose 2 life.",
+  "Reanimate": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to that card's mana value.",
+  "Rejoin the Fight": "Mill three cards. Then starting with the next opponent in turn order, each opponent chooses a creature card in your graveyard that hasn't been chosen. Return each card chosen this way to the battlefield under your control.",
+  "Rise of the Dark Realms": "Put all creature cards from all graveyards onto the battlefield under your control.",
+  "Ruinous Ultimatum": "Destroy all nonland permanents your opponents control.",
+  "Snort": "Each player may discard their hand and draw five cards. Then Snort deals 5 damage to each opponent who discarded their hand this way.\nFlashback {5}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+  "Stitch Together": "Return target creature card from your graveyard to your hand.\nThreshold — Return that card from your graveyard to the battlefield instead if there are seven or more cards in your graveyard.",
+  "Tragic Arrogance": "For each player, you choose from among the permanents that player controls an artifact, a creature, an enchantment, and a planeswalker. Then each player sacrifices all other nonland permanents they control.",
+  "Ash Barrens": "{T}: Add {C}.\nBasic landcycling {1} ({1}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+  "Battlefield Forge": "{T}: Add {C}.\n{T}: Add {R} or {W}. This land deals 1 damage to you.",
+  "Clifftop Retreat": "This land enters tapped unless you control a Mountain or a Plains.\n{T}: Add {R} or {W}.",
+  "Command Tower": "{T}: Add one mana of any color in your commander's color identity.",
+  "Demolition Field": "{T}: Add {C}.\n{2}, {T}, Sacrifice this land: Destroy target nonbasic land an opponent controls. That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle.",
+  "Desolate Mire": "{1}, {T}: Add {W}{B}.",
+  "Dragonskull Summit": "This land enters tapped unless you control a Swamp or a Mountain.\n{T}: Add {B} or {R}.",
+  "Evolving Wilds": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+  "Exotic Orchard": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+  "Fetid Heath": "{T}: Add {C}.\n{W/B}, {T}: Add {W}{W}, {W}{B}, or {B}{B}.",
+  "Foreboding Ruins": "As this land enters, you may reveal a Swamp or Mountain card from your hand. If you don't, this land enters tapped.\n{T}: Add {B} or {R}.",
+  "Furycalm Snarl": "As this land enters, you may reveal a Mountain or Plains card from your hand. If you don't, this land enters tapped.\n{T}: Add {R} or {W}.",
+  "Geothermal Bog": "({T}: Add {B} or {R}.)\nThis land enters tapped.",
+  "Graven Cairns": "{T}: Add {C}.\n{B/R}, {T}: Add {B}{B}, {B}{R}, or {R}{R}.",
+  "High Market": "{T}: Add {C}.\n{T}, Sacrifice a creature: You gain 1 life.",
+  "Isolated Chapel": "This land enters tapped unless you control a Plains or a Swamp.\n{T}: Add {W} or {B}.",
+  "Mountain": "({T}: Add {R}.)",
+  "Nomad Outpost": "This land enters tapped.\n{T}: Add {R}, {W}, or {B}.",
+  "Path of Ancestry": "This land enters tapped.\n{T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+  "Plains": "({T}: Add {W}.)",
+  "Rogue's Passage": "{T}: Add {C}.\n{4}, {T}: Target creature can't be blocked this turn.",
+  "Rugged Prairie": "{T}: Add {C}.\n{R/W}, {T}: Add {R}{R}, {R}{W}, or {W}{W}.",
+  "Sacred Peaks": "({T}: Add {R} or {W}.)\nThis land enters tapped.",
+  "Shadowblood Ridge": "{1}, {T}: Add {B}{R}.",
+  "Shineshadow Snarl": "As this land enters, you may reveal a Plains or Swamp card from your hand. If you don't, this land enters tapped.\n{T}: Add {W} or {B}.",
+  "Smoldering Marsh": "({T}: Add {B} or {R}.)\nThis land enters tapped unless you control two or more basic lands.",
+  "Sulfurous Springs": "{T}: Add {C}.\n{T}: Add {B} or {R}. This land deals 1 damage to you.",
+  "Sunlit Marsh": "({T}: Add {W} or {B}.)\nThis land enters tapped.",
+  "Sunscorched Divide": "{1}, {T}: Add {R}{W}.",
+  "Swamp": "({T}: Add {B}.)",
+  "Bedevil": "Destroy target artifact, creature, or planeswalker.",
+  "Big Score": "As an additional cost to cast this spell, discard a card.\nDraw two cards and create two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+  "Crackling Doom": "Crackling Doom deals 2 damage to each opponent. Each opponent sacrifices a creature with the greatest power among creatures that player controls.",
+  "Espers to Magicite": "Exile each opponent's graveyard. When you do, choose up to one target creature card exiled this way. Create a token that's a copy of that card, except it's an artifact and it loses all other card types.",
+  "Laughing Mad": "As an additional cost to cast this spell, discard a card.\nDraw two cards.\nFlashback {3}{R} (You may cast this card from your graveyard for its flashback cost and any additional costs. Then exile it.)",
+  "Mortify": "Destroy target creature or enchantment.",
+  "Arcane Signet": "{T}: Add one mana of any color in your commander's color identity.",
+  "Coin of Fate": "When this artifact enters, surveil 1.\n{3}{W}, {T}, Exile two creature cards from your graveyard, Sacrifice this artifact: An opponent chooses one of the exiled cards. You put that card on the bottom of your library and return the other to the battlefield tapped. You become the monarch.",
+  "Commander's Sphere": "{T}: Add one mana of any color in your commander's color identity.\nSacrifice this artifact: Draw a card.",
+  "Key to the City": "{T}, Discard a card: Up to one target creature can't be blocked this turn.\nWhenever this artifact becomes untapped, you may pay {2}. If you do, draw a card.",
+  "Mind Stone": "{T}: Add {C}.\n{1}, {T}, Sacrifice this artifact: Draw a card.",
+  "Phoenix Down": "{1}{W}, {T}, Exile this artifact: Choose one —\n• Return target creature card with mana value 4 or less from your graveyard to the battlefield tapped.\n• Exile target Skeleton, Spirit, or Zombie.",
+  "Sol Ring": "{T}: Add {C}{C}.",
+  "Swiftfoot Boots": "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control.)\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+  "Talisman of Conviction": "{T}: Add {C}.\n{T}: Add {R} or {W}. This artifact deals 1 damage to you.",
+  "Talisman of Indulgence": "{T}: Add {C}.\n{T}: Add {B} or {R}. This artifact deals 1 damage to you.",
+  "The Falcon, Airship Restored": "Flying\nWhenever The Falcon deals combat damage to a player, you may sacrifice it. When you do, return target creature card from your graveyard to the battlefield.\n{4}{B}: Return this card from your graveyard to the battlefield tapped.\nCrew 2",
+  "Wayfarer's Bauble": "{2}, {T}, Sacrifice this artifact: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+  "Amulet of Vigor": "Whenever a permanent you control enters tapped, untap it.",
+  "Ashnod's Altar": "Sacrifice a creature: Add {C}{C}.",
+  "Aurelia, the Warleader": "Flying, vigilance, haste\nWhenever Aurelia attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase.",
+  "Breath of Fury": "Enchant creature you control\nWhen enchanted creature deals combat damage to a player, sacrifice it and attach this Aura to a creature you control. If you do, untap all creatures you control and after this phase, there is an additional combat phase.",
+  "Fear of Missing Out": "When this creature enters, discard a card, then draw a card.\nDelirium — Whenever this creature attacks for the first time each turn, if there are four or more card types among cards in your graveyard, untap target creature. After this phase, there is an additional combat phase.",
+  "Goblin Bombardment": "Sacrifice a creature: This enchantment deals 1 damage to any target.",
+  "Karmic Guide": "Flying, protection from black\nEcho {3}{W}{W} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)\nWhen this creature enters, return target creature card from your graveyard to the battlefield.",
+  "Murderous Redcap": "When this creature enters, it deals damage equal to its power to any target.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
+  "Terra, Herald of Hope": "Trance — At the beginning of combat on your turn, mill two cards. Terra gains flying until end of turn.\nWhenever Terra deals combat damage to a player, you may pay {2}. When you do, return target creature card with power 3 or less from your graveyard to the battlefield tapped."
+ },
+ "hs_imgs": {
+  "Celes, Rune Knight": "https://cards.scryfall.io/normal/front/3/0/30584c53-533b-4dc7-b07c-8600164a99b3.jpg?1783906375",
+  "Stitcher's Supplier": "https://cards.scryfall.io/normal/front/2/e/2edcde06-b326-476e-884d-770187c785fe.jpg?1783907080",
+  "Reanimate": "https://cards.scryfall.io/normal/front/3/6/368b6903-5fc4-43e7-bd44-46b8107c8bb4.jpg?1783909614",
+  "Priest of Fell Rites": "https://cards.scryfall.io/normal/front/d/1/d116329d-6de7-402c-821d-e9aeba9ad2b1.jpg?1783926812",
+  "Karmic Guide": "https://cards.scryfall.io/normal/front/b/2/b26d50dd-54a1-43ce-9884-3999f698d97b.jpg?1783903811",
+  "Anger": "https://cards.scryfall.io/normal/front/e/8/e886a604-e3ce-4c6a-b63e-2c7f910a177a.jpg?1783903778",
+  "Stitch Together": "https://cards.scryfall.io/normal/front/8/4/8423c98d-4cb6-4a70-8bf2-3ac24c025c4e.jpg?1783934297",
+  "Meteor Golem": "https://cards.scryfall.io/normal/front/a/1/a1a1cfec-72ca-499b-b621-fa2d8502ea20.jpg?1783903217",
+  "Locke, Treasure Hunter": "https://cards.scryfall.io/normal/front/4/2/42cd66f2-0704-4c8e-b5de-6df93f4a8bed.jpg?1783906344",
+  "Siegfried, Famed Swordsman": "https://cards.scryfall.io/normal/front/6/9/69dadb0c-413e-4658-9cdc-23a65df7a800.jpg?1783906357",
+  "Rise of the Dark Realms": "https://cards.scryfall.io/normal/front/8/6/8645bf0c-631f-4003-bd24-3e069ae23513.jpg?1783909071",
+  "Alesha, Who Laughs at Fate": "",
+  "Ripples of Undeath": "",
+  "General Leo Cristophe": "https://cards.scryfall.io/normal/front/3/9/39384ab7-54da-43e3-8fbc-5c171b7ca7f4.jpg?1783906369",
+  "Shadow, Mysterious Assassin": "https://cards.scryfall.io/normal/front/f/8/f88d81d9-8ded-4c20-8237-2218046595fb.jpg?1783906358",
+  "Gau, Feral Youth": "https://cards.scryfall.io/normal/front/8/9/89175ce1-0746-4ba1-970e-617d134b0527.jpg?1783906357",
+  "Pitiless Plunderer": "https://cards.scryfall.io/normal/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869",
+  "Mog, Moogle Warrior": "https://cards.scryfall.io/normal/front/e/9/e9cb8ac9-64a0-455d-a8dd-1579ee321bbd.jpg?1783906344",
+  "Joshua, Phoenix's Dominant": "",
+  "Aurelia, the Warleader": "https://cards.scryfall.io/normal/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+  "The Warring Triad": "https://cards.scryfall.io/normal/front/9/9/99fd1cd5-4740-4a0f-b773-3d3b66861d77.jpg?1783906340",
+  "Sun Titan": "https://cards.scryfall.io/normal/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797",
+  "Millikin": "https://cards.scryfall.io/normal/front/c/2/c2073453-4108-4039-a8c2-0f94dd7bf237.jpg?1783903738",
+  "Cyan, Vengeful Samurai": "https://cards.scryfall.io/normal/front/a/1/a1e779b4-32dd-406b-8b68-48f6df458005.jpg?1783906370",
+  "Sister Hospitaller": "",
+  "Twilight Diviner": "",
+  "Squall, SeeD Mercenary": "",
+  "Loran of the Third Path": "",
+  "Summon: Knights of Round": "",
+  "Fear of Missing Out": "https://cards.scryfall.io/normal/front/9/d/9d48aaff-46ab-411b-9456-171d4709f951.jpg?1783909470",
+  "Luminous Broodmoth": "",
+  "Summon: Esper Valigarmanda": "https://cards.scryfall.io/normal/front/7/f/7f0298b4-c7ca-49b8-baaa-b9fad4c2bfd5.jpg?1783906354",
+  "Selfless Spirit": "",
+  "Accursed Marauder": "",
+  "Braids, Arisen Nightmare": "",
+  "Kefka, Dancing Mad": "https://cards.scryfall.io/normal/front/2/1/21cfc161-11b8-4253-a872-3b08a13b6991.jpg?1783906346",
+  "Grave Researcher": "",
+  "Witch Enchanter": "",
+  "Pinnacle Monk": "",
+  "Professional Face-Breaker": "",
+  "Edgar, Master Machinist": "https://cards.scryfall.io/normal/front/0/9/098a8025-6454-45d8-abe3-2c3dada3f582.jpg?1783906346",
+  "Vile Entomber": "",
+  "Palace Jailer": "https://cards.scryfall.io/normal/front/3/a/3a8c2a84-e0f2-4611-af3d-42f4578ad4e3.jpg?1783903243",
+  "Boromir, Warden of the Tower": "",
+  "Sabin, Master Monk": "https://cards.scryfall.io/normal/front/4/3/43bacd07-fdaf-4ce4-bf7a-dda55a99d460.jpg?1783906355",
+  "Archfiend of Depravity": "https://cards.scryfall.io/normal/front/0/e/0ec85db7-c8ec-4730-b692-c140977436aa.jpg?1783936156",
+  "Flayer of the Hatebound": "https://cards.scryfall.io/normal/front/6/2/620e8ec3-aeea-498b-a54a-acd922c4bb60.jpg?1783932755",
+  "Blade Historian": "",
+  "Strago and Relm": "https://cards.scryfall.io/normal/front/a/8/a8c971d0-9ac4-4b34-ae19-1152c1c9dac1.jpg?1783906354",
+  "Ravenous Chupacabra": "",
+  "Dauthi Voidwalker": "",
+  "Sephiroth, Fabled SOLDIER": "",
+  "Chainer, Nightmare Adept": "",
+  "Havoc Eater": "",
+  "Esper Sentinel": "",
+  "Fury": "",
+  "Gaius van Baelsar": "",
+  "Sepulchral Primordial": "https://cards.scryfall.io/normal/front/2/e/2ed2b1d9-3c23-4f2e-b816-6f2bea74b797.jpg?1783929474",
+  "Plaguecrafter": "",
+  "Viscera Seer": "",
+  "Setzer, Wandering Gambler": "https://cards.scryfall.io/normal/front/5/e/5e3e5b0f-c702-4671-ad95-ab0cda1ab83d.jpg?1783906343",
+  "Interceptor, Shadow's Hound": "https://cards.scryfall.io/normal/front/3/0/30be9a07-5803-4bef-9313-391c926bfcec.jpg?1783906358",
+  "Gray Merchant of Asphodel": "",
+  "Solitude": "",
+  "Big Score": "https://cards.scryfall.io/normal/front/3/3/3383a939-4ab3-4546-9995-6c65cd3f4441.jpg?1783903010",
+  "Laughing Mad": "https://cards.scryfall.io/normal/front/c/d/cd5b9daf-6325-4eb4-a069-4a8cc7807884.jpg?1783906603",
+  "Swords to Plowshares": "",
+  "Bedevil": "https://cards.scryfall.io/normal/front/9/8/985b9779-b8f6-4d7e-9490-5d2b91ee8db2.jpg?1783903227",
+  "Mortify": "https://cards.scryfall.io/normal/front/8/8/88e85619-3a7d-48c2-b9b0-20718c913696.jpg?1783908910",
+  "Crackling Doom": "https://cards.scryfall.io/normal/front/a/6/a66e5673-e34b-46e8-a0e4-55f3ee20f99a.jpg?1783921847",
+  "Path to Exile": "",
+  "Espers to Magicite": "https://cards.scryfall.io/normal/front/6/c/6cb18871-dd23-4ce8-a535-16adefae63c0.jpg?1783906359",
+  "Entomb": "",
+  "Thrill of Possibility": "",
+  "Anguished Unmaking": "",
+  "Deflecting Swat": "",
+  "Deadly Dispute": "",
+  "Deadly Rollick": "",
+  "Demand Answers": "",
+  "Boros Charm": "",
+  "Dark Ritual": "",
+  "Akroma's Will": "",
+  "Generous Gift": "",
+  "Restoration Magic": "",
+  "Fell the Profane": "",
+  "Stroke of Midnight": "",
+  "Malakir Rebirth": "",
+  "Chaos Warp": "",
+  "Flawless Maneuver": "",
+  "Untimely Malfunction": "",
+  "Flare of Fortitude": "",
+  "Faithless Looting": "",
+  "Buried Alive": "",
+  "Rejoin the Fight": "https://cards.scryfall.io/normal/front/f/3/f3140950-1ce2-41b8-91f9-da53bfbee963.jpg?1783906358",
+  "Tragic Arrogance": "https://cards.scryfall.io/normal/front/9/5/956d4728-e7a3-43f4-a350-86eca1b95d06.jpg?1783903243",
+  "Night's Whisper": "https://cards.scryfall.io/normal/front/e/8/e8399c2e-ecc8-41c9-a690-a0eeafb27f77.jpg?1785497515",
+  "Legions to Ashes": "https://cards.scryfall.io/normal/front/9/4/94faea39-4540-4adc-b9bd-78fefd09ecdf.jpg?1783920028",
+  "Victimize": "",
+  "Snort": "https://cards.scryfall.io/normal/front/4/6/46f1179d-6e48-46ed-ab41-abddace7b5d4.jpg?1783906354",
+  "Sevinne's Reclamation": "",
+  "Living Death": "",
+  "Blasphemous Act": "",
+  "Damn": "",
+  "Toxic Deluge": "",
+  "Cathartic Reunion": "",
+  "Unearth": "",
+  "Diabolic Intent": "",
+  "Pursue the Past": "",
+  "Resentful Revelation": "",
+  "Dread Return": "",
+  "Lively Dirge": "",
+  "Unmarked Grave": "",
+  "Vandalblast": "",
+  "Lightning Greaves": "",
+  "Phoenix Down": "https://cards.scryfall.io/normal/front/6/2/62e299b0-9ef6-49d3-aa79-384325fed89e.jpg?1783906645",
+  "Wayfarer's Bauble": "https://cards.scryfall.io/normal/front/b/2/b279f268-c37e-4a2d-8195-74f4881226fc.jpg?1785497631",
+  "Ashnod's Altar": "https://cards.scryfall.io/normal/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605",
+  "The Falcon, Airship Restored": "https://cards.scryfall.io/normal/front/0/8/080fc2be-d463-4e8e-ba42-8f3cb0c95ed3.jpg?1783906359",
+  "Coin of Fate": "https://cards.scryfall.io/normal/front/c/d/cde3765f-e25c-4d16-b361-448167ed8736.jpg?1783906369",
+  "Ark of Hunger": "",
+  "Altar of Dementia": "",
+  "Skullclamp": "",
+  "Brass's Tunnel-Grinder": "",
+  "Phyrexian Altar": "",
+  "Crucible of Worlds": "",
+  "Brotherhood Regalia": "",
+  "Whispersilk Cloak": "",
+  "Teval's Judgment": "",
+  "Animate Dead": "",
+  "Goblin Bombardment": "https://cards.scryfall.io/normal/front/e/2/e262f55e-9239-4a97-a19e-9b08fb34502e.jpg?1783926784",
+  "Smile at Death": "",
+  "Necromancy": "",
+  "Black Market Connections": "",
+  "Phyrexian Arena": "",
+  "Dihada, Binder of Wills": "",
+  "Rogue's Passage": "https://cards.scryfall.io/normal/front/4/4/4493b62b-f354-47ff-9dcf-cc6e29de77c6.jpg?1785497634",
+  "High Market": "https://cards.scryfall.io/normal/front/8/9/894aa6b6-0d08-4c43-8734-9cb7b31359c6.jpg?1783903727",
+  "Phyrexian Tower": "",
+  "Bojuka Bog": "",
+  "Takenuma, Abandoned Mire": "",
+  "Midgar, City of Mako": "",
+  "Urborg, Tomb of Yawgmoth": "",
+  "Shizo, Death's Storehouse": "",
+  "Arena of Glory": "",
+  "Vault of the Archangel": "",
+  "Access Tunnel": "",
+  "Sol Ring": "https://cards.scryfall.io/normal/front/9/1/91fdb56b-54d5-4272-8319-505ff987fe9b.jpg?1783903215",
+  "Arcane Signet": "https://cards.scryfall.io/normal/front/1/c/1cad1bd2-7c56-4ce0-99a6-b2a49c1288dd.jpg?1783903222",
+  "Talisman of Indulgence": "https://cards.scryfall.io/normal/front/c/c/ccacf88d-407d-465d-958a-1389b7d700e6.jpg?1783903211",
+  "Talisman of Conviction": "https://cards.scryfall.io/normal/front/a/3/a365885c-f7d9-4ea1-9125-5265055e5570.jpg?1783903211",
+  "Mind Stone": "https://cards.scryfall.io/normal/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.jpg?1785759375",
+  "Talisman of Hierarchy": "",
+  "Commander's Sphere": "https://cards.scryfall.io/normal/front/a/0/a0d50603-e31f-4cd7-b4b6-49847d99eb2e.jpg?1783904531",
+  "Fellwar Stone": "",
+  "Orzhov Signet": "",
+  "Rakdos Signet": "",
+  "Boros Signet": "",
+  "The Soul Stone": "",
+  "Plains": "https://cards.scryfall.io/normal/front/8/a/8ab0f4c0-b331-4c57-b68f-2e24bb5ba06c.jpg?1785981632",
+  "Swamp": "https://cards.scryfall.io/normal/front/b/7/b7387103-1df1-4fd0-9e91-1544509792c7.jpg?1785981659",
+  "Mountain": "https://cards.scryfall.io/normal/front/2/a/2a844b96-6616-4c39-8f4f-5d14a3b2bd55.jpg?1785981666",
+  "Command Tower": "https://cards.scryfall.io/normal/front/0/5/0548fb60-c843-4f8f-a029-6f10efc63a41.jpg?1783903206",
+  "Exotic Orchard": "https://cards.scryfall.io/normal/front/d/1/d11c5fe0-1528-4c94-a8cc-42bcab9d7487.jpg?1785759427",
+  "Isolated Chapel": "https://cards.scryfall.io/normal/front/7/8/78814c92-b52c-462a-866f-3e7da9db9f70.jpg?1783903727",
+  "Dragonskull Summit": "https://cards.scryfall.io/normal/front/d/2/d20e433a-eb62-4301-bc20-bfe27468b033.jpg?1783903203",
+  "Clifftop Retreat": "https://cards.scryfall.io/normal/front/4/a/4a7f7767-1959-4812-8654-0a22634096b1.jpg?1783903206",
+  "Battlefield Forge": "https://cards.scryfall.io/normal/front/c/4/c47c1bf5-f11e-4f86-b20b-5d899a11dc56.jpg?1783903735",
+  "Sulfurous Springs": "https://cards.scryfall.io/normal/front/e/e/eedb9df2-20d3-4cfd-8aed-336edc37d5a9.jpg?1783906003",
+  "Nomad Outpost": "https://cards.scryfall.io/normal/front/a/6/a68fbeaa-941f-4d53-becd-f93ed22b9a54.jpg?1783907273",
+  "Fetid Heath": "https://cards.scryfall.io/normal/front/f/4/f465ded8-0d38-42ac-bafc-a12185013c5d.jpg?1783903732",
+  "Rugged Prairie": "https://cards.scryfall.io/normal/front/6/b/6bd21c9e-de16-4ee9-ae16-6e82b490109d.jpg?1783903721",
+  "Smoldering Marsh": "https://cards.scryfall.io/normal/front/d/7/d707c477-440f-417c-970a-0e7426a58045.jpg?1783903193",
+  "Graven Cairns": "https://cards.scryfall.io/normal/front/7/4/74a13fea-4f48-428b-b42b-4ba63d4752ed.jpg?1783909574",
+  "Path of Ancestry": "https://cards.scryfall.io/normal/front/b/1/b1aaa7b0-1cac-4a92-b880-7ef1ac00618f.jpg?1785759407",
+  "Shineshadow Snarl": "https://cards.scryfall.io/normal/front/7/a/7a198106-4d31-4e10-884a-bdf2316f8088.jpg?1783903721",
+  "Foreboding Ruins": "https://cards.scryfall.io/normal/front/7/6/76fdf6be-e13b-49ee-9d50-8625edb49951.jpg?1783903200",
+  "Furycalm Snarl": "https://cards.scryfall.io/normal/front/a/f/afc12892-4978-4442-ace5-c4dea5c0ee00.jpg?1783903200",
+  "Shadowblood Ridge": "https://cards.scryfall.io/normal/front/d/7/d7af1d6b-ff13-4886-a212-4a6e09153475.jpg?1783909568",
+  "Desolate Mire": "https://cards.scryfall.io/normal/front/6/a/6a261c7d-38a4-4000-97b2-76e7ab9989c5.jpg?1783903733",
+  "Sunscorched Divide": "https://cards.scryfall.io/normal/front/e/a/eae999f9-9c58-4609-8ade-aca0acf07519.jpg?1783903718",
+  "Godless Shrine": "",
+  "Sacred Foundry": "",
+  "Blood Crypt": "",
+  "Evolving Wilds": "https://cards.scryfall.io/normal/front/c/0/c0318a48-30e4-4ef7-be3d-5e561c5ce428.jpg?1783903203",
+  "Demolition Field": "https://cards.scryfall.io/normal/front/0/c/0c7e51b6-4898-4632-b39c-3ce438caa882.jpg?1783908902",
+  "Sunlit Marsh": "https://cards.scryfall.io/normal/front/f/a/fa447616-db24-4729-bf66-7f72aba0272d.jpg?1783903720",
+  "Sacred Peaks": "https://cards.scryfall.io/normal/front/e/e/ee2d6798-b19d-4628-bb57-05663ab4af68.jpg?1783903721",
+  "Geothermal Bog": "https://cards.scryfall.io/normal/front/6/d/6da04570-5d3c-4e9f-a9c1-20589a4bcc24.jpg?1783909575",
+  "Ash Barrens": "https://cards.scryfall.io/normal/front/e/8/e8510205-4baa-4f1c-bf64-5d931e2ddf48.jpg?1783904155",
+  "Bloodstained Mire": "",
+  "Savai Triome": "",
+  "Marsh Flats": "",
+  "Arid Mesa": "",
+  "Caves of Koilos": "",
+  "Vault of Champions": "",
+  "Luxury Suite": "",
+  "Spectator Seating": "",
+  "Raucous Theater": "",
+  "Shadowy Backstreet": "",
+  "Elegant Parlor": "",
+  "Shattered Sanctum": "",
+  "Sundown Pass": "",
+  "Haunted Ridge": "",
+  "Blazemire Verge": "",
+  "Bleachbone Verge": "",
+  "Sunbillow Verge": "",
+  "Terra, Herald of Hope": "https://cards.scryfall.io/normal/front/5/a/5aa1a2d7-6133-41a9-9662-9008d1309935.jpg?1783906373",
+  "Amulet of Vigor": "https://cards.scryfall.io/normal/front/9/9/997bc933-ac30-477b-a4e1-5333b796a99d.jpg?1783942040",
+  "Murderous Redcap": "https://cards.scryfall.io/normal/front/a/c/acadf575-2076-4f0c-b66e-994898adf375.jpg?1783933770",
+  "Breath of Fury": "https://cards.scryfall.io/normal/front/a/1/a1fce58d-d754-4532-b4d0-4bb3cf108090.jpg?1783937066"
+ },
+ "type_recs": {
+  "Creatures": [
+   {
+    "name": "Shadow, Mysterious Assassin",
+    "synergy": "0.49",
+    "img": "https://cards.scryfall.io/normal/front/f/8/f88d81d9-8ded-4c20-8237-2218046595fb.jpg?1783906358",
+    "oracle": "Deathtouch\nThrow — Whenever Shadow deals combat damage to a player, you may sacrifice another nonland permanent. If you do, draw two cards and each opponent loses life equal to the mana value of the sacrificed permanent.",
+    "type_line": "Legendary Creature — Human Assassin"
+   },
+   {
+    "name": "Gau, Feral Youth",
+    "synergy": "0.48",
+    "img": "https://cards.scryfall.io/normal/front/8/9/89175ce1-0746-4ba1-970e-617d134b0527.jpg?1783906357",
+    "oracle": "Rage — Whenever Gau attacks, put a +1/+1 counter on it.\nAt the beginning of each end step, if a card left your graveyard this turn, Gau deals damage equal to its power to each opponent.",
+    "type_line": "Legendary Creature — Human Berserker"
+   },
+   {
+    "name": "Pitiless Plunderer",
+    "synergy": "0.33",
+    "img": "https://cards.scryfall.io/normal/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869",
+    "oracle": "Whenever another creature you control dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+    "type_line": "Creature — Human Pirate"
+   },
+   {
+    "name": "Mog, Moogle Warrior",
+    "synergy": "0.45",
+    "img": "https://cards.scryfall.io/normal/front/e/9/e9cb8ac9-64a0-455d-a8dd-1579ee321bbd.jpg?1783906344",
+    "oracle": "Lifelink\nDance — At the beginning of your end step, each player may discard a card. Each player who discarded a card this way draws a card. If a creature card was discarded this way, you create a 1/2 white Moogle creature token with lifelink. Then if a noncreature card was discarded this way, put a +1/+1 counter on each Moogle you control.",
+    "type_line": "Legendary Creature — Moogle Warrior"
+   },
+   {
+    "name": "Joshua, Phoenix's Dominant",
+    "synergy": "0.44",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   },
+   {
+    "name": "Aurelia, the Warleader",
+    "synergy": "0.3",
+    "img": "https://cards.scryfall.io/normal/front/b/c/bc6ffc1c-575b-4116-83c9-d13b29886c35.jpg?1783908915",
+    "oracle": "Flying, vigilance, haste\nWhenever Aurelia attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase.",
+    "type_line": "Legendary Creature — Angel"
+   },
+   {
+    "name": "The Warring Triad",
+    "synergy": "0.43",
+    "img": "https://cards.scryfall.io/normal/front/9/9/99fd1cd5-4740-4a0f-b773-3d3b66861d77.jpg?1783906340",
+    "oracle": "Flying, trample, haste\nAs long as there are fewer than eight cards in your graveyard, The Warring Triad isn't a creature.\n{T}, Mill a card: Target player adds one mana of any color.",
+    "type_line": "Legendary Artifact Creature — God"
+   },
+   {
+    "name": "Sun Titan",
+    "synergy": "0.36",
+    "img": "https://cards.scryfall.io/normal/front/3/d/3d6eacf2-f6c7-4ede-b5a5-7463602699ae.jpg?1783903797",
+    "oracle": "Vigilance\nWhenever this creature enters or attacks, you may return target permanent card with mana value 3 or less from your graveyard to the battlefield.",
+    "type_line": "Creature — Giant"
+   },
+   {
+    "name": "Millikin",
+    "synergy": "0.43",
+    "img": "https://cards.scryfall.io/normal/front/c/2/c2073453-4108-4039-a8c2-0f94dd7bf237.jpg?1783903738",
+    "oracle": "{T}, Mill a card: Add {C}. (To mill a card, put the top card of your library into your graveyard.)",
+    "type_line": "Artifact Creature — Construct"
+   },
+   {
+    "name": "Cyan, Vengeful Samurai",
+    "synergy": "0.41",
+    "img": "https://cards.scryfall.io/normal/front/a/1/a1e779b4-32dd-406b-8b68-48f6df458005.jpg?1783906370",
+    "oracle": "This spell costs {1} less to cast for each creature card in your graveyard.\nDouble strike\nWhenever one or more creature cards leave your graveyard, put a +1/+1 counter on Cyan.",
+    "type_line": "Legendary Creature — Human Samurai"
+   },
+   {
+    "name": "Sister Hospitaller",
+    "synergy": "0.4",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   },
+   {
+    "name": "Twilight Diviner",
+    "synergy": "0.36",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   },
+   {
+    "name": "Squall, SeeD Mercenary",
+    "synergy": "0.35",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   },
+   {
+    "name": "Loran of the Third Path",
+    "synergy": "0.31",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   },
+   {
+    "name": "Summon: Knights of Round",
+    "synergy": "0.35",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   },
+   {
+    "name": "Fear of Missing Out",
+    "synergy": "0.35",
+    "img": "https://cards.scryfall.io/normal/front/9/d/9d48aaff-46ab-411b-9456-171d4709f951.jpg?1783909470",
+    "oracle": "When this creature enters, discard a card, then draw a card.\nDelirium — Whenever this creature attacks for the first time each turn, if there are four or more card types among cards in your graveyard, untap target creature. After this phase, there is an additional combat phase.",
+    "type_line": "Enchantment Creature — Nightmare"
+   },
+   {
+    "name": "Luminous Broodmoth",
+    "synergy": "0.33",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   },
+   {
+    "name": "Summon: Esper Valigarmanda",
+    "synergy": "0.34",
+    "img": "https://cards.scryfall.io/normal/front/7/f/7f0298b4-c7ca-49b8-baaa-b9fad4c2bfd5.jpg?1783906354",
+    "oracle": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nI — Exile an instant or sorcery card from each graveyard.\nII, III, IV — Add {R} for each lore counter on this Saga. You may cast an instant or sorcery card exiled with this Saga, and mana of any type can be spent to cast that spell.\nFlying, haste",
+    "type_line": "Enchantment Creature — Saga Drake"
+   },
+   {
+    "name": "Selfless Spirit",
+    "synergy": "0.29",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   },
+   {
+    "name": "Accursed Marauder",
+    "synergy": "0.32",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   },
+   {
+    "name": "Braids, Arisen Nightmare",
+    "synergy": "0.3",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   },
+   {
+    "name": "Kefka, Dancing Mad",
+    "synergy": "0.3",
+    "img": "https://cards.scryfall.io/normal/front/2/1/21cfc161-11b8-4253-a872-3b08a13b6991.jpg?1783906346",
+    "oracle": "During your turn, Kefka has indestructible.\nAt the beginning of your end step, exile a card at random from each opponent's graveyard. You may cast any number of spells from among cards exiled this way without paying their mana costs. Then each player who owns a spell you cast this way loses life equal to its mana value.",
+    "type_line": "Legendary Creature — Human Wizard"
+   },
+   {
+    "name": "Grave Researcher",
+    "synergy": "0.26",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   },
+   {
+    "name": "Witch Enchanter",
+    "synergy": "0.22",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   },
+   {
+    "name": "Pinnacle Monk",
+    "synergy": "0.26",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   },
+   {
+    "name": "Edgar, Master Machinist",
+    "synergy": "0.25",
+    "img": "https://cards.scryfall.io/normal/front/0/9/098a8025-6454-45d8-abe3-2c3dada3f582.jpg?1783906346",
+    "oracle": "Once during each of your turns, you may cast an artifact spell from your graveyard. If you cast a spell this way, that artifact enters tapped.\nTools — Whenever Edgar attacks, it gets +X/+0 until end of turn, where X is the greatest mana value among artifacts you control.",
+    "type_line": "Legendary Creature — Human Artificer Noble"
+   },
+   {
+    "name": "Vile Entomber",
+    "synergy": "0.23",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   }
+  ],
+  "Instants": [
+   {
+    "name": "Big Score",
+    "synergy": "0.4",
+    "img": "https://cards.scryfall.io/normal/front/3/3/3383a939-4ab3-4546-9995-6c65cd3f4441.jpg?1783903010",
+    "oracle": "As an additional cost to cast this spell, discard a card.\nDraw two cards and create two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+    "type_line": "Instant"
+   },
+   {
+    "name": "Laughing Mad",
+    "synergy": "0.43",
+    "img": "https://cards.scryfall.io/normal/front/c/d/cd5b9daf-6325-4eb4-a069-4a8cc7807884.jpg?1783906603",
+    "oracle": "As an additional cost to cast this spell, discard a card.\nDraw two cards.\nFlashback {3}{R} (You may cast this card from your graveyard for its flashback cost and any additional costs. Then exile it.)",
+    "type_line": "Instant"
+   },
+   {
+    "name": "Bedevil",
+    "synergy": "0.39",
+    "img": "https://cards.scryfall.io/normal/front/9/8/985b9779-b8f6-4d7e-9490-5d2b91ee8db2.jpg?1783903227",
+    "oracle": "Destroy target artifact, creature, or planeswalker.",
+    "type_line": "Instant"
+   },
+   {
+    "name": "Mortify",
+    "synergy": "0.3",
+    "img": "https://cards.scryfall.io/normal/front/8/8/88e85619-3a7d-48c2-b9b0-20718c913696.jpg?1783908910",
+    "oracle": "Destroy target creature or enchantment.",
+    "type_line": "Instant"
+   },
+   {
+    "name": "Crackling Doom",
+    "synergy": "0.25",
+    "img": "https://cards.scryfall.io/normal/front/a/6/a66e5673-e34b-46e8-a0e4-55f3ee20f99a.jpg?1783921847",
+    "oracle": "Crackling Doom deals 2 damage to each opponent. Each opponent sacrifices a creature with the greatest power among creatures that player controls.",
+    "type_line": "Instant"
+   },
+   {
+    "name": "Espers to Magicite",
+    "synergy": "0.27",
+    "img": "https://cards.scryfall.io/normal/front/6/c/6cb18871-dd23-4ce8-a535-16adefae63c0.jpg?1783906359",
+    "oracle": "Exile each opponent's graveyard. When you do, choose up to one target creature card exiled this way. Create a token that's a copy of that card, except it's an artifact and it loses all other card types.",
+    "type_line": "Instant"
+   },
+   {
+    "name": "Entomb",
+    "synergy": "0.22",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   }
+  ],
+  "Sorceries": [
+   {
+    "name": "Faithless Looting",
+    "synergy": "0.36",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   },
+   {
+    "name": "Buried Alive",
+    "synergy": "0.42",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   },
+   {
+    "name": "Rejoin the Fight",
+    "synergy": "0.38",
+    "img": "https://cards.scryfall.io/normal/front/f/3/f3140950-1ce2-41b8-91f9-da53bfbee963.jpg?1783906358",
+    "oracle": "Mill three cards. Then starting with the next opponent in turn order, each opponent chooses a creature card in your graveyard that hasn't been chosen. Return each card chosen this way to the battlefield under your control.",
+    "type_line": "Sorcery"
+   },
+   {
+    "name": "Tragic Arrogance",
+    "synergy": "0.33",
+    "img": "https://cards.scryfall.io/normal/front/9/5/956d4728-e7a3-43f4-a350-86eca1b95d06.jpg?1783903243",
+    "oracle": "For each player, you choose from among the permanents that player controls an artifact, a creature, an enchantment, and a planeswalker. Then each player sacrifices all other nonland permanents they control.",
+    "type_line": "Sorcery"
+   },
+   {
+    "name": "Night's Whisper",
+    "synergy": "0.22",
+    "img": "https://cards.scryfall.io/normal/front/e/8/e8399c2e-ecc8-41c9-a690-a0eeafb27f77.jpg?1785497515",
+    "oracle": "You draw two cards and lose 2 life.",
+    "type_line": "Sorcery"
+   },
+   {
+    "name": "Legions to Ashes",
+    "synergy": "0.33",
+    "img": "https://cards.scryfall.io/normal/front/9/4/94faea39-4540-4adc-b9bd-78fefd09ecdf.jpg?1783920028",
+    "oracle": "Exile target nonland permanent an opponent controls and all tokens that player controls with the same name as that permanent.",
+    "type_line": "Sorcery"
+   },
+   {
+    "name": "Victimize",
+    "synergy": "0.26",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   },
+   {
+    "name": "Snort",
+    "synergy": "0.27",
+    "img": "https://cards.scryfall.io/normal/front/4/6/46f1179d-6e48-46ed-ab41-abddace7b5d4.jpg?1783906354",
+    "oracle": "Each player may discard their hand and draw five cards. Then Snort deals 5 damage to each opponent who discarded their hand this way.\nFlashback {5}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+    "type_line": "Sorcery"
+   }
+  ],
+  "Utility Artifacts": [
+   {
+    "name": "Phoenix Down",
+    "synergy": "0.24",
+    "img": "https://cards.scryfall.io/normal/front/6/2/62e299b0-9ef6-49d3-aa79-384325fed89e.jpg?1783906645",
+    "oracle": "{1}{W}, {T}, Exile this artifact: Choose one —\n• Return target creature card with mana value 4 or less from your graveyard to the battlefield tapped.\n• Exile target Skeleton, Spirit, or Zombie.",
+    "type_line": "Artifact"
+   }
+  ],
+  "Enchantments": [
+   {
+    "name": "Ripples of Undeath",
+    "synergy": "0.37",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   }
+  ],
+  "Utility Lands": [
+   {
+    "name": "Rogue's Passage",
+    "synergy": "0.37",
+    "img": "https://cards.scryfall.io/normal/front/4/4/4493b62b-f354-47ff-9dcf-cc6e29de77c6.jpg?1785497634",
+    "oracle": "{T}: Add {C}.\n{4}, {T}: Target creature can't be blocked this turn.",
+    "type_line": "Land"
+   },
+   {
+    "name": "High Market",
+    "synergy": "0.51",
+    "img": "https://cards.scryfall.io/normal/front/8/9/894aa6b6-0d08-4c43-8734-9cb7b31359c6.jpg?1783903727",
+    "oracle": "{T}: Add {C}.\n{T}, Sacrifice a creature: You gain 1 life.",
+    "type_line": "Land"
+   }
+  ],
+  "Mana Artifacts": [
+   {
+    "name": "Talisman of Indulgence",
+    "synergy": "0.31",
+    "img": "https://cards.scryfall.io/normal/front/c/c/ccacf88d-407d-465d-958a-1389b7d700e6.jpg?1783903211",
+    "oracle": "{T}: Add {C}.\n{T}: Add {B} or {R}. This artifact deals 1 damage to you.",
+    "type_line": "Artifact"
+   },
+   {
+    "name": "Talisman of Conviction",
+    "synergy": "0.25",
+    "img": "https://cards.scryfall.io/normal/front/a/3/a365885c-f7d9-4ea1-9125-5265055e5570.jpg?1783903211",
+    "oracle": "{T}: Add {C}.\n{T}: Add {R} or {W}. This artifact deals 1 damage to you.",
+    "type_line": "Artifact"
+   },
+   {
+    "name": "Mind Stone",
+    "synergy": "0.27",
+    "img": "https://cards.scryfall.io/normal/front/b/3/b30a8f92-ce42-4b27-a893-bcf97fde228d.jpg?1785759375",
+    "oracle": "{T}: Add {C}.\n{1}, {T}, Sacrifice this artifact: Draw a card.",
+    "type_line": "Artifact"
+   }
+  ],
+  "Lands": [
+   {
+    "name": "Exotic Orchard",
+    "synergy": "0.25",
+    "img": "https://cards.scryfall.io/normal/front/d/1/d11c5fe0-1528-4c94-a8cc-42bcab9d7487.jpg?1785759427",
+    "oracle": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+    "type_line": "Land"
+   },
+   {
+    "name": "Isolated Chapel",
+    "synergy": "0.23",
+    "img": "https://cards.scryfall.io/normal/front/7/8/78814c92-b52c-462a-866f-3e7da9db9f70.jpg?1783903727",
+    "oracle": "This land enters tapped unless you control a Plains or a Swamp.\n{T}: Add {W} or {B}.",
+    "type_line": "Land"
+   },
+   {
+    "name": "Dragonskull Summit",
+    "synergy": "0.23",
+    "img": "https://cards.scryfall.io/normal/front/d/2/d20e433a-eb62-4301-bc20-bfe27468b033.jpg?1783903203",
+    "oracle": "This land enters tapped unless you control a Swamp or a Mountain.\n{T}: Add {B} or {R}.",
+    "type_line": "Land"
+   },
+   {
+    "name": "Clifftop Retreat",
+    "synergy": "0.24",
+    "img": "https://cards.scryfall.io/normal/front/4/a/4a7f7767-1959-4812-8654-0a22634096b1.jpg?1783903206",
+    "oracle": "This land enters tapped unless you control a Mountain or a Plains.\n{T}: Add {R} or {W}.",
+    "type_line": "Land"
+   },
+   {
+    "name": "Battlefield Forge",
+    "synergy": "0.3",
+    "img": "https://cards.scryfall.io/normal/front/c/4/c47c1bf5-f11e-4f86-b20b-5d899a11dc56.jpg?1783903735",
+    "oracle": "{T}: Add {C}.\n{T}: Add {R} or {W}. This land deals 1 damage to you.",
+    "type_line": "Land"
+   },
+   {
+    "name": "Sulfurous Springs",
+    "synergy": "0.41",
+    "img": "https://cards.scryfall.io/normal/front/e/e/eedb9df2-20d3-4cfd-8aed-336edc37d5a9.jpg?1783906003",
+    "oracle": "{T}: Add {C}.\n{T}: Add {B} or {R}. This land deals 1 damage to you.",
+    "type_line": "Land"
+   },
+   {
+    "name": "Fetid Heath",
+    "synergy": "0.42",
+    "img": "https://cards.scryfall.io/normal/front/f/4/f465ded8-0d38-42ac-bafc-a12185013c5d.jpg?1783903732",
+    "oracle": "{T}: Add {C}.\n{W/B}, {T}: Add {W}{W}, {W}{B}, or {B}{B}.",
+    "type_line": "Land"
+   },
+   {
+    "name": "Rugged Prairie",
+    "synergy": "0.44",
+    "img": "https://cards.scryfall.io/normal/front/6/b/6bd21c9e-de16-4ee9-ae16-6e82b490109d.jpg?1783903721",
+    "oracle": "{T}: Add {C}.\n{R/W}, {T}: Add {R}{R}, {R}{W}, or {W}{W}.",
+    "type_line": "Land"
+   },
+   {
+    "name": "Smoldering Marsh",
+    "synergy": "0.25",
+    "img": "https://cards.scryfall.io/normal/front/d/7/d707c477-440f-417c-970a-0e7426a58045.jpg?1783903193",
+    "oracle": "({T}: Add {B} or {R}.)\nThis land enters tapped unless you control two or more basic lands.",
+    "type_line": "Land — Swamp Mountain"
+   },
+   {
+    "name": "Graven Cairns",
+    "synergy": "0.49",
+    "img": "https://cards.scryfall.io/normal/front/7/4/74a13fea-4f48-428b-b42b-4ba63d4752ed.jpg?1783909574",
+    "oracle": "{T}: Add {C}.\n{B/R}, {T}: Add {B}{B}, {B}{R}, or {R}{R}.",
+    "type_line": "Land"
+   },
+   {
+    "name": "Path of Ancestry",
+    "synergy": "0.21",
+    "img": "https://cards.scryfall.io/normal/front/b/1/b1aaa7b0-1cac-4a92-b880-7ef1ac00618f.jpg?1785759407",
+    "oracle": "This land enters tapped.\n{T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+    "type_line": "Land"
+   },
+   {
+    "name": "Shineshadow Snarl",
+    "synergy": "0.41",
+    "img": "https://cards.scryfall.io/normal/front/7/a/7a198106-4d31-4e10-884a-bdf2316f8088.jpg?1783903721",
+    "oracle": "As this land enters, you may reveal a Plains or Swamp card from your hand. If you don't, this land enters tapped.\n{T}: Add {W} or {B}.",
+    "type_line": "Land"
+   },
+   {
+    "name": "Foreboding Ruins",
+    "synergy": "0.39",
+    "img": "https://cards.scryfall.io/normal/front/7/6/76fdf6be-e13b-49ee-9d50-8625edb49951.jpg?1783903200",
+    "oracle": "As this land enters, you may reveal a Swamp or Mountain card from your hand. If you don't, this land enters tapped.\n{T}: Add {B} or {R}.",
+    "type_line": "Land"
+   },
+   {
+    "name": "Furycalm Snarl",
+    "synergy": "0.39",
+    "img": "https://cards.scryfall.io/normal/front/a/f/afc12892-4978-4442-ace5-c4dea5c0ee00.jpg?1783903200",
+    "oracle": "As this land enters, you may reveal a Mountain or Plains card from your hand. If you don't, this land enters tapped.\n{T}: Add {R} or {W}.",
+    "type_line": "Land"
+   },
+   {
+    "name": "Shadowblood Ridge",
+    "synergy": "0.34",
+    "img": "https://cards.scryfall.io/normal/front/d/7/d7af1d6b-ff13-4886-a212-4a6e09153475.jpg?1783909568",
+    "oracle": "{1}, {T}: Add {B}{R}.",
+    "type_line": "Land"
+   },
+   {
+    "name": "Desolate Mire",
+    "synergy": "0.37",
+    "img": "https://cards.scryfall.io/normal/front/6/a/6a261c7d-38a4-4000-97b2-76e7ab9989c5.jpg?1783903733",
+    "oracle": "{1}, {T}: Add {W}{B}.",
+    "type_line": "Land"
+   },
+   {
+    "name": "Sunscorched Divide",
+    "synergy": "0.4",
+    "img": "https://cards.scryfall.io/normal/front/e/a/eae999f9-9c58-4609-8ade-aca0acf07519.jpg?1783903718",
+    "oracle": "{1}, {T}: Add {R}{W}.",
+    "type_line": "Land"
+   },
+   {
+    "name": "Demolition Field",
+    "synergy": "0.35",
+    "img": "https://cards.scryfall.io/normal/front/0/c/0c7e51b6-4898-4632-b39c-3ce438caa882.jpg?1783908902",
+    "oracle": "{T}: Add {C}.\n{2}, {T}, Sacrifice this land: Destroy target nonbasic land an opponent controls. That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle.",
+    "type_line": "Land"
+   },
+   {
+    "name": "Sunlit Marsh",
+    "synergy": "0.31",
+    "img": "https://cards.scryfall.io/normal/front/f/a/fa447616-db24-4729-bf66-7f72aba0272d.jpg?1783903720",
+    "oracle": "({T}: Add {W} or {B}.)\nThis land enters tapped.",
+    "type_line": "Land — Plains Swamp"
+   },
+   {
+    "name": "Sacred Peaks",
+    "synergy": "0.31",
+    "img": "https://cards.scryfall.io/normal/front/e/e/ee2d6798-b19d-4628-bb57-05663ab4af68.jpg?1783903721",
+    "oracle": "({T}: Add {R} or {W}.)\nThis land enters tapped.",
+    "type_line": "Land — Mountain Plains"
+   },
+   {
+    "name": "Geothermal Bog",
+    "synergy": "0.31",
+    "img": "https://cards.scryfall.io/normal/front/6/d/6da04570-5d3c-4e9f-a9c1-20589a4bcc24.jpg?1783909575",
+    "oracle": "({T}: Add {B} or {R}.)\nThis land enters tapped.",
+    "type_line": "Land — Swamp Mountain"
+   },
+   {
+    "name": "Ash Barrens",
+    "synergy": "0.25",
+    "img": "https://cards.scryfall.io/normal/front/e/8/e8510205-4baa-4f1c-bf64-5d931e2ddf48.jpg?1783904155",
+    "oracle": "{T}: Add {C}.\nBasic landcycling {1} ({1}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+    "type_line": "Land"
+   },
+   {
+    "name": "Witch Enchanter",
+    "synergy": "0.22",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   },
+   {
+    "name": "Pinnacle Monk",
+    "synergy": "0.26",
+    "img": "",
+    "oracle": "",
+    "type_line": ""
+   }
+  ]
+ }
+}
