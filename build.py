@@ -555,7 +555,8 @@ def detect_upgrades(d):
         if pool:
             hs_upgrades.append({'tag': p['tag'], 'decks': p['decks'], 'cards': pool})
 
-    # 2. Pièces de combos absentes (pour les combos des plans)
+    # 2. Pièces de combos absentes (pour les combos des plans) — avec le détail complet
+    #    du combo (Produces/Prerequisites/Execution) pour l'affichage collapsed.
     seen = set()
     combo_cards = []
     for p in plans:
@@ -573,12 +574,22 @@ def detect_upgrades(d):
             if key in seen:
                 continue
             seen.add(key)
+            produces = produces_of(cb)
+            desc = cb.get('description') or ''
+            prereq = cb.get('notablePrerequisites') or cb.get('easyPrerequisites') or ''
+            prereq_bullets = [s.strip() for s in re.split(r'[.;]\s*|\n', prereq) if s.strip()]
+            exec_steps = [s.strip() for s in re.split(r'\.\s*|\n', desc) if s.strip()]
             combo_cards.append({
                 'combo': ' + '.join(names),
                 'title': cb.get('title', ''),
                 'missing': [{'name': n, 'img': hs_imgs.get(n, '')} for n in missing],
                 'in_deck': [n for n in names if n in deck_names],
                 'popularity': cb.get('popularity', 0),
+                'produces': produces,
+                'prereq_bullets': prereq_bullets,
+                'exec_steps': exec_steps,
+                'identity': cb.get('identity', ''),
+                'bigs': ''.join(big_card(hs_imgs.get(n, '') or d.get('imgs', {}).get(n, ''), n, 110) for n in names),
             })
 
     # 3. Recommandations par type (EDHREC) ≥ 0.30 synergie, absentes du deck, GROUPÉES PAR
@@ -595,6 +606,7 @@ def detect_upgrades(d):
                 'img': c.get('img') or hs_imgs.get(c['name'], ''),
                 'synergy': c.get('synergy'),
                 'syn_cls': syn_cls(float(c['synergy'])) if c.get('synergy') else '',
+                'oracle': c.get('oracle', ''),
             })
     utility_upgrades = []
     for role in ROLE_ORDER:
@@ -721,6 +733,14 @@ def build_precon(slug):
 
     # --- upgrades : HS manquantes + pièces de combos absentes + recs par utilité ---
     upgrades = detect_upgrades(d)
+    # enrichir : explication (oracle) des cartes recommandées + cardify des détails de combos
+    for u in upgrades['utility']:
+        for c in u['cards']:
+            c['explanation'] = cardify(bold(c.get('oracle', '')), all_names, img_of) if c.get('oracle') else ''
+    for c in upgrades['combos']:
+        c['produces'] = [cardify(p, all_names, img_of) for p in c.get('produces', [])]
+        c['prereq_bullets'] = [cardify(b, all_names, img_of) for b in c.get('prereq_bullets', [])]
+        c['exec_steps'] = [cardify(s, all_names, img_of) for s in c.get('exec_steps', [])]
     ctx['upgrades'] = upgrades
     ctx['n_upgrades_hs'] = sum(len(p['cards']) for p in upgrades['hs'])
     ctx['n_upgrades_combos'] = len(upgrades['combos'])

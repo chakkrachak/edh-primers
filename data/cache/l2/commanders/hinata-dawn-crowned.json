@@ -187,7 +187,9 @@
   "Mystic Monastery": "This land enters tapped.\n{T}: Add {U}, {R}, or {W}.",
   "Island": "({T}: Add {U}.)",
   "Mountain": "({T}: Add {R}.)",
-  "Plains": "({T}: Add {W}.)"
+  "Plains": "({T}: Add {W}.)",
+  "Kykar, Wind's Fury": "Flying\nWhenever you cast a noncreature spell, create a 1/1 white Spirit creature token with flying.\nSacrifice a Spirit: Add {R}.",
+  "Shark Typhoon": "Whenever you cast a noncreature spell, create an X/X blue Shark creature token with flying, where X is that spell's mana value.\nCycling {X}{1}{U} ({X}{1}{U}, Discard this card: Draw a card.)\nWhen you cycle this card, create an X/X blue Shark creature token with flying."
  },
  "card_meta": {
   "Guttersnipe": {
@@ -4748,7 +4750,7 @@
     "name": "Kykar, Wind's Fury",
     "synergy": "0.43",
     "img": "https://cards.scryfall.io/normal/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1783915615",
-    "oracle": "",
+    "oracle": "Flying\nWhenever you cast a noncreature spell, create a 1/1 white Spirit creature token with flying.\nSacrifice a Spirit: Add {R}.",
     "type_line": ""
    },
    {
@@ -4824,7 +4826,7 @@
     "name": "Shark Typhoon",
     "synergy": "0.36",
     "img": "https://cards.scryfall.io/normal/front/2/b/2b2accb1-d77b-4633-9d0c-b972d9c014bb.jpg?1783909622",
-    "oracle": "",
+    "oracle": "Whenever you cast a noncreature spell, create an X/X blue Shark creature token with flying, where X is that spell's mana value.\nCycling {X}{1}{U} ({X}{1}{U}, Discard this card: Draw a card.)\nWhen you cycle this card, create an X/X blue Shark creature token with flying.",
     "type_line": ""
    }
   ]
