@@ -1000,52 +1000,94 @@ def build_index():
         if not slug:
             print(f"⚠️ index: pas de deck JSON pour {name}")
             continue
-        # newest report for this slug (seulement le plan signature — pas les variantes --plan)
-        files = sorted(glob.glob(f'{OUT_DIR}/EDH-Primer-{slug}-20*.html'))
-        if not files:
+        # TOUS les rapports du slug : le plan signature + chaque variante --plan
+        # (user 2026-08-10 : « dès qu'un primer est généré, il doit apparaître dans l'index »).
+        files = sorted(glob.glob(f'{OUT_DIR}/EDH-Primer-{slug}-*.html'))
+        # exclure les fichiers non-<slug> (autres commandants dont le slug est préfixe)
+        files = [f for f in files if os.path.basename(f).startswith(f'EDH-Primer-{slug}-')]
+        # le plan signature : nom exact <slug>-<ts>.html (pas de segment plan entre slug et ts)
+        signature = [f for f in files if re.match(rf'^EDH-Primer-{re.escape(slug)}-\d{{8}}-\d{{4}}\.html$', os.path.basename(f))]
+        variants = [f for f in files if f not in signature]
+        # trier : signature en premier, puis variantes par nom
+        ordered = sorted(signature) + sorted(variants)
+        if not ordered:
             print(f"⚠️ index: pas de rapport pour {name}")
             continue
-        path = files[-1]
-        html = open(path, encoding='utf-8').read()
-        # commander art
-        m = re.search(r'<div class="big-card" style="width:260px;"><img src="([^"]+)"', html)
-        img = m.group(1) if m else ''
-        if not img:
-            m = re.search(r'<img src="(https://cards\.scryfall\.io/[^"]+)"[^>]*data-name="[^"]*"[^>]*/>', html)
-            img = m.group(1) if m else ''
-        # pips + colors from color identity
-        m = re.search(r'<strong>Color identity</strong></td><td>([^<]+)</td>', html)
-        ci = m.group(1) if m else ''
-        letters = _color_letters(ci)
-        # high synergy thumbs — the commander's EDHREC High Synergy pool, sorted by synergy
-        # score descending (most synergistic first). Read from the deck JSON, not the HTML.
-        thumbs = []
+        # données commander (thumbs depuis le pool HS de la fiche — format fiche L2)
         dpath = f'{DATA_DIR}/{slug}.json'
+        deck = None
         if os.path.exists(dpath):
             with open(dpath, encoding='utf-8') as f:
                 deck = json.load(f)
-            hs_pool = dict(deck.get('explanations', {}).get('HighSynergy', []))
-            syn = deck.get('synergy', {})
+        # thumbs : pool HS de la fiche L2 (plans[0].high_synergy) trié par synergie desc,
+        # fallback data/decks explanations['HighSynergy'] (format legacy)
+        thumbs = []
+        hs_pool = []
+        if deck:
+            if deck.get('plans'):
+                hs_pool = [h if isinstance(h, str) else h.get('name', '')
+                           for h in deck['plans'][0].get('high_synergy', [])]
+            elif deck.get('explanations', {}).get('HighSynergy'):
+                hs_pool = dict(deck['explanations'].get('HighSynergy', []))
+        if not hs_pool:
+            # la fiche L2 centralise les plans — les lire directement
+            from fiche import load_fiche
+            fiche = load_fiche(slug)
+            if fiche and fiche.get('plans'):
+                hs_pool = [h if isinstance(h, str) else h.get('name', '')
+                           for h in fiche['plans'][0].get('high_synergy', [])]
+        if hs_pool:
+            syn = (deck or {}).get('synergy', {})
+            if not syn:
+                from fiche import load_fiche
+                fiche = load_fiche(slug)
+                if fiche:
+                    syn = fiche.get('synergy', {})
             scored = []
             for nm in hs_pool:
                 s = syn.get(nm, {})
                 score = s.get('synergy') if isinstance(s, dict) else s
                 scored.append((nm, score if isinstance(score, (int, float)) else -1))
             scored.sort(key=lambda x: x[1], reverse=True)
+            imgs = (deck or {}).get('imgs', {})
+            if not imgs:
+                from fiche import load_fiche
+                fiche = load_fiche(slug)
+                if fiche:
+                    imgs = fiche.get('imgs', {})
             for nm, _ in scored[:6]:
-                thumbs.append({'name': nm, 'img': deck.get('imgs', {}).get(nm, '')})
-        cards.append({
-            'href': path.replace(f'{OUT_DIR}/', 'content/'),
-            'name': name,
-            'img': img,
-            'pips': pips_for(letters),
-            'colors': letters,
-            'kind': 'primer',
-            'plan': idx['plans'].get(name, ''),
-            'desc': idx['descriptions'].get(name, ''),
-            'thumbs': thumbs,
-        })
-        print(f"✓ index: {name} (pips={len(pips_for(letters))}, thumbs={len(thumbs)})")
+                thumbs.append({'name': nm, 'img': imgs.get(nm, '')})
+        for path in ordered:
+            html = open(path, encoding='utf-8').read()
+            # commander art (du HTML)
+            m = re.search(r'<div class="big-card" style="width:260px;"><img src="([^"]+)"', html)
+            img = m.group(1) if m else ''
+            if not img:
+                m = re.search(r'<img src="(https://cards\.scryfall\.io/[^"]+)"[^>]*data-name="[^"]*"[^>]*/>', html)
+                img = m.group(1) if m else ''
+            # pips + colors from color identity (du HTML si dispo, sinon du JSON)
+            m = re.search(r'<strong>Color identity</strong></td><td>([^<]+)</td>', html)
+            ci = m.group(1) if m else (deck.get('color_id', '') if deck else '')
+            letters = _color_letters(ci)
+            # nom affiché : signature = commander, variante = « Commander — Plan »
+            base = os.path.basename(path)
+            display_name = name
+            vm = re.match(rf'^EDH-Primer-{re.escape(slug)}-(.+?)-\d{{8}}-\d{{4}}\.html$', base)
+            if vm:
+                plan_label = vm.group(1).replace('-', ' ').title()
+                display_name = f'{name} — {plan_label}'
+            cards.append({
+                'href': path.replace(f'{OUT_DIR}/', 'content/'),
+                'name': display_name,
+                'img': img,
+                'pips': pips_for(letters),
+                'colors': letters,
+                'kind': 'primer',
+                'plan': idx['plans'].get(name, ''),
+                'desc': idx['descriptions'].get(name, ''),
+                'thumbs': thumbs,
+            })
+            print(f"✓ index: {display_name} (pips={len(pips_for(letters))}, thumbs={len(thumbs)})")
 
     # --- evaluations (precons) ---
     evals = []

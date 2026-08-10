@@ -1,10 +1,10 @@
 {
  "page_title": "EDH Primers — Commander Deck Reports",
  "meta_description": "Complete Commander EDH deck reports: Scryfall, EDHREC, Commander Spellbook.",
- "og_description": "11 Commander deck reports + 1 precon evaluation",
+ "og_description": "14 Commander deck reports + 2 precon evaluations",
  "header_title": "EDH <span class=\"accent\">Primers</span>",
  "header_sub": "Complete Commander deck reports — Scryfall · EDHREC · Commander Spellbook",
- "count_label": "13 documents analyzed",
+ "count_label": "16 documents analyzed",
  "footer": "Data: <a href=\"https://scryfall.com\">Scryfall</a> · <a href=\"https://edhrec.com\">EDHREC</a> · <a href=\"https://commanderspellbook.com\">Commander Spellbook</a>",
  "decks_order": [
   "Aminatou, the Fateshifter",
