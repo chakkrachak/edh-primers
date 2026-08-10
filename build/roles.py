@@ -97,6 +97,7 @@ PATTERNS = [
     # --- Card Advantage (fallback pioche) ---
     ('draw', r'draws? (?:a|two|three|four|five|six|seven|eight|x) cards?|draw cards equal|you may draw|whenever .* draw a card', 'CardAdvantage'),
     ('scry_top', r'scry|look at the top|investigat', 'CardAdvantage'),
+    ('draw_alt', r'reveal the top card of your library and put that card into your hand|skip your draw step', 'CardAdvantage'),
     # --- Engines de doublage (fin de liste — avant fallback) ---
     ('doubling', r'twice that many|double the number of tokens|two of those tokens', 'Engines'),
 ]

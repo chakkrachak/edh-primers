@@ -1,10 +1,10 @@
 {
  "page_title": "EDH Primers — Commander Deck Reports",
  "meta_description": "Complete Commander EDH deck reports: Scryfall, EDHREC, Commander Spellbook.",
- "og_description": "14 Commander deck reports + 3 precon evaluations",
+ "og_description": "14 Commander deck reports + 4 precon evaluations",
  "header_title": "EDH <span class=\"accent\">Primers</span>",
  "header_sub": "Complete Commander deck reports — Scryfall · EDHREC · Commander Spellbook",
- "count_label": "17 documents analyzed",
+ "count_label": "18 documents analyzed",
  "footer": "Data: <a href=\"https://scryfall.com\">Scryfall</a> · <a href=\"https://edhrec.com\">EDHREC</a> · <a href=\"https://commanderspellbook.com\">Commander Spellbook</a>",
  "decks_order": [
   "Aminatou, the Fateshifter",
@@ -51,16 +51,19 @@
  "evals_order": [
   "Aminatou, Veil Piercer",
   "Hinata, Dawn-Crowned",
-  "Terra, Herald of Hope"
+  "Terra, Herald of Hope",
+  "Korvold, Fae-Cursed King — Bracket 4"
  ],
  "eval_plans": {
   "Aminatou, Veil Piercer": "MIRACLE WORKER — Enchantress & Topdeck (co-favorites)",
   "Hinata, Dawn-Crowned": "HINATA BUDGET — Spellslinger & X Spells (co-favorites)",
-  "Terra, Herald of Hope": "REVIVAL TRANCE — Reanimator (dominant)"
+  "Terra, Herald of Hope": "REVIVAL TRANCE — Reanimator (dominant)",
+  "Korvold, Fae-Cursed King — Bracket 4": "KORVOLD LANDS BRACKET 4 — Lands Matter & Combo (co-favorites)"
  },
  "eval_descriptions": {
   "Aminatou, Veil Piercer": "Precon evaluation: the Duskmourn Miracle Worker list analyzed against EDHREC game plans — 88 unique cards, 6 archetypes ranked, high-synergy overlap per plan, combos and build-structure verdict.",
   "Hinata, Dawn-Crowned": "Deck-list evaluation: the Moxfield Hinata Budget spellslinger analyzed against EDHREC game plans — 84 unique cards, 7 archetypes ranked, high-synergy overlap per plan, combos and build-structure verdict.",
-  "Terra, Herald of Hope": "Precon evaluation: the Final Fantasy VI Revival Trance list analyzed against EDHREC game plans — 92 unique cards, 5 archetypes ranked, high-synergy overlap per plan, combos and build-structure verdict."
+  "Terra, Herald of Hope": "Precon evaluation: the Final Fantasy VI Revival Trance list analyzed against EDHREC game plans — 92 unique cards, 5 archetypes ranked, high-synergy overlap per plan, combos and build-structure verdict.",
+  "Korvold, Fae-Cursed King — Bracket 4": "Deck-list evaluation: the Moxfield Korvold Lands Bracket 4 list analyzed against EDHREC game plans — 99 unique cards, 6 archetypes ranked, high-synergy overlap per plan (Lands Matter 9/10, Combo 9/10), combos and build-structure verdict (glass-cannon cEDH)."
  }
 }

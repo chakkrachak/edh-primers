@@ -184,14 +184,41 @@ def _merge_fiche(d, slug, kind):
             for k in ('imgs', 'oracle', 'card_meta', 'synergy', 'hs_imgs', 'type_recs',
                       'card_plan_texts'):
                 if fiche.get(k):
-                    d[k] = fiche[k]
+                    # MERGE (compléter), pas écraser : le deck évalué peut avoir PLUS de cartes
+                    # que la fiche (ex. Korvold Lands 99 cartes vs fiche 43 card_meta) — un
+                    # écrasement perd les type_line du deck → assign_role classe des Ramp/Lands
+                    # en Flex → faux fillers (incident 2026-08-10, 79 fillers sur Korvold Lands).
+                    if isinstance(d.get(k), dict) and isinstance(fiche[k], dict):
+                        merged = dict(fiche[k])
+                        merged.update({kk: vv for kk, vv in d[k].items() if kk not in merged})
+                        d[k] = merged
+                    else:
+                        d[k] = fiche[k]
             if fiche.get('combos') is not None:
                 d['combos'] = fiche['combos']
             if fiche.get('plans'):
-                d['plans'] = fiche['plans']
+                # Fusionner les plans : la fiche apporte description/win/high_synergy rédigés,
+                # le JSON d'éval apporte ses deck_matches + combos (les pièces du deck ÉVALUÉ —
+                # les combos de la fiche sont ceux du primer, pas du deck).
+                fiche_plans = {p.get('tag'): p for p in fiche['plans']}
+                json_plans = {p.get('tag'): p for p in d.get('plans', [])}
+                merged_plans = []
+                for tag in fiche_plans:
+                    fp = fiche_plans[tag]
+                    jp = json_plans.get(tag, {})
+                    merged_plans.append({
+                        'tag': tag,
+                        'decks': fp.get('decks', jp.get('decks', 0)),
+                        'description': fp.get('description', jp.get('description', [])),
+                        'win': fp.get('win', jp.get('win', [])),
+                        'high_synergy': fp.get('high_synergy', jp.get('high_synergy', [])),
+                        'deck_matches': jp.get('deck_matches', fp.get('deck_matches', [])),
+                        'combos': jp.get('combos', fp.get('combos', [])),
+                    })
+                d['plans'] = merged_plans
             ec = fiche.get('content', {}).get('eval', {})
             for k in ('cards', 'verdict', 'structure'):
-                if ec.get(k):
+                if ec.get(k) and not d.get(k):
                     d[k] = ec[k]
     except Exception as e:
         print(f'  ⚠️ _merge_fiche({slug}, {kind}) : {e} (fallback ancien format)')
@@ -522,9 +549,19 @@ def detect_fillers(d, role_of, oracle_get):
             all_hs.add(h if isinstance(h, str) else h.get('name', ''))
 
     fillers = []
+    # pièces de combos des plans : une carte qui sert un combo n'est JAMAIS un filler
+    # (elle répond au plan Combo — incident 2026-08-10, Korvold Lands : Underworld Breach,
+    # LED, Lotus Petal, Reanimate étaient flaggés fillers car Flex sans score EDHREC).
+    combo_pieces = set()
+    for p in d.get('plans', []):
+        for cb in p.get('combos', []):
+            for u in cb.get('uses', []):
+                combo_pieces.add(u['card']['name'])
     for cat in d['cards'].values():
         for c in cat:
             name = c['name']
+            if name in combo_pieces:
+                continue
             meta = d.get('card_meta', {}).get(name, {})
             if 'Land' in (meta.get('type_line', '') or ''):
                 continue  # les lands ne sont jamais des fillers
@@ -781,6 +818,18 @@ def build_precon(slug):
 
     # --- plans ---
     plans = []
+    # Le merge eval remplace d['plans'] par ceux de la FICHE (deck_matches du primer !).
+    # Recalculer deck_matches = pool HS ∩ cartes du deck ÉVALUÉ (user 2026-08-10 :
+    # les matchs de la section 2 doivent refléter CE deck, pas le primer).
+    eval_deck_names = set()
+    for cat in d['cards'].values():
+        for c in cat:
+            eval_deck_names.add(c['name'])
+    eval_deck_names.add(d['commander']['name'])
+    for p in d['plans']:
+        pool_names = [h if isinstance(h, str) else h.get('name', '')
+                      for h in p.get('high_synergy', [])]
+        p['deck_matches'] = [n for n in pool_names if n in eval_deck_names]
     for p in d['plans']:
         match_cards = []
         for mname in p.get('deck_matches', []):

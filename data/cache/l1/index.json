@@ -826,27 +826,27 @@
  },
  "621aed7c797d3104": {
   "source": "edhrec",
-  "fetched_at": 1786353893,
+  "fetched_at": 1786368141,
   "ttl_days": 7
  },
  "0c0d608e303bf610": {
   "source": "edhrec",
-  "fetched_at": 1786353893,
+  "fetched_at": 1786368143,
   "ttl_days": 7
  },
  "ebaf8ee008bad7cd": {
   "source": "edhrec",
-  "fetched_at": 1786353893,
+  "fetched_at": 1786368144,
   "ttl_days": 7
  },
  "74c173cb5cb48cf7": {
   "source": "edhrec",
-  "fetched_at": 1786353893,
+  "fetched_at": 1786368145,
   "ttl_days": 7
  },
  "272555cdea4f1ca2": {
   "source": "edhrec",
-  "fetched_at": 1786353894,
+  "fetched_at": 1786368146,
   "ttl_days": 7
  },
  "e94209bd56caf18a": {
@@ -986,7 +986,7 @@
  },
  "ddb146f5a868a950": {
   "source": "edhrec",
-  "fetched_at": 1786355894,
+  "fetched_at": 1786368147,
   "ttl_days": 7
  },
  "3ec1c40e8a72171a": {
@@ -1112,6 +1112,81 @@
  "6269ce77cef47718": {
   "source": "scryfall",
   "fetched_at": 1786367442,
+  "ttl_days": 30
+ },
+ "710472683653eaa7": {
+  "source": "scryfall",
+  "fetched_at": 1786368120,
+  "ttl_days": 30
+ },
+ "e9aadba902b90631": {
+  "source": "scryfall",
+  "fetched_at": 1786368121,
+  "ttl_days": 30
+ },
+ "00fba32ebdfb3e26": {
+  "source": "spellbook",
+  "fetched_at": 1786368168,
+  "ttl_days": 7
+ },
+ "ece3e0336abdc64a": {
+  "source": "spellbook",
+  "fetched_at": 1786368169,
+  "ttl_days": 7
+ },
+ "7c2aedd6694e0912": {
+  "source": "spellbook",
+  "fetched_at": 1786368170,
+  "ttl_days": 7
+ },
+ "8a4d7e37beea311f": {
+  "source": "spellbook",
+  "fetched_at": 1786368171,
+  "ttl_days": 7
+ },
+ "c5221a2af995149c": {
+  "source": "spellbook",
+  "fetched_at": 1786368172,
+  "ttl_days": 7
+ },
+ "65b16738f076ab9d": {
+  "source": "spellbook",
+  "fetched_at": 1786368174,
+  "ttl_days": 7
+ },
+ "b9ea17fa3d9f2378": {
+  "source": "spellbook",
+  "fetched_at": 1786368174,
+  "ttl_days": 7
+ },
+ "61d18fb9234010f8": {
+  "source": "scryfall",
+  "fetched_at": 1786368225,
+  "ttl_days": 30
+ },
+ "f03882d9f2cf19f6": {
+  "source": "scryfall",
+  "fetched_at": 1786368328,
+  "ttl_days": 30
+ },
+ "1feec08e93f5c4b6": {
+  "source": "scryfall",
+  "fetched_at": 1786368330,
+  "ttl_days": 30
+ },
+ "e1bbe207d4a22ccb": {
+  "source": "scryfall",
+  "fetched_at": 1786368332,
+  "ttl_days": 30
+ },
+ "5337aa82c890c37f": {
+  "source": "scryfall",
+  "fetched_at": 1786368333,
+  "ttl_days": 30
+ },
+ "36a0ffeb32b097ef": {
+  "source": "scryfall",
+  "fetched_at": 1786369591,
   "ttl_days": 30
  }
 }
