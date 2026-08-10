@@ -5376,6 +5376,331 @@
    ],
    "mana_cost_html": "<img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> (4 mana)",
    "extra_table_rows": ""
+  },
+  "primer_by_plan": {
+   "Zombies": {
+    "quick_read": [
+     "**Self-mill** : mills four cards on entry — fills the graveyard every time.",
+     "**Recursion** : cast a Zombie from the graveyard each turn — the horde never dies.",
+     "**Resilience** : every sacrifice or board wipe is temporary — they all come back."
+    ],
+    "plan_title": "🧟 ZOMBIE TRIBAL — The signature plan (1,179 decks)",
+    "plan_html": "<h3>🧟 ZOMBIE TRIBAL <span class=\"badge\">CHOSEN PLAN</span></h3>\n    <p>The dominant plan for Gisa and Geralf (1,179 Zombie decks, 488 Reanimator, 257 Graveyard on EDHREC).</p>\n<div class=\"plan-block\"><span class=\"plan-badge\">How it plays</span>\n<ul>\n<li><strong>Undying horde</strong> : an army of Zombies that never dies — every loss is temporary.</li>\n<li><strong>Self-mill</strong> : mills four cards on entry and lets you <strong>re-cast a Zombie from the graveyard every turn</strong>.</li>\n<li><strong>Death as a resource</strong> : Zombies' deaths trigger drain, draw and tokens.</li>\n</ul></div><div class=\"plan-block\"><span class=\"plan-badge\">Core loop</span>\n<ul>\n<li><strong>Graveyard → battlefield</strong> : Gisa and Geralf, Havengul Lich and Liliana cast Zombies from the graveyard.</li>\n<li><strong>Free + doubled</strong> : Rooftop Storm makes them free; Necroduality doubles every Zombie that enters.</li>\n<li><strong>Altars</strong> : Ashnod's and Phyrexian Altar turn sacrifices into mana.</li>\n</ul></div><div class=\"plan-block\"><span class=\"plan-badge\">Win conditions</span>\n<ul>\n<li><strong>Overrun</strong> : the lord-buffed horde (Diregraf Captain, Death Baron, Liliana's Mastery) in combat.</li>\n<li><strong>Drain loop</strong> : Gray Merchant of Asphodel reanimated repeatedly.</li>\n<li><strong>Infinite sacrifice</strong> : Gravecrawler + altar, Mikaeus + undying.</li>\n</ul></div>",
+    "plan_cards": [
+     "Diregraf Captain",
+     "Lord of the Accursed",
+     "Rooftop Storm",
+     "Zombie Apocalypse"
+    ],
+    "source_html": "<em>“EDHREC Guide to Zombies in Commander”</em> (Sikora, EDHREC Articles — the reference guide for the type): “Zombies make more Zombies. Then some more Zombies. And then a few more Zombies for good measure. Then they swing and win in a turn or two.” The guide confirms the type’s strength: Zombies are “nigh impossible to keep clear off the board” thanks to their recursion — “any of the important Zombies will just come back later.” Applied to Gisa and Geralf: every lord, every engine (Rooftop Storm, Necroduality, Diregraf Captain) is a must-kill, but everything comes back from the graveyard — that is the deck’s thesis.",
+    "combos_note": "375 raw combos found (search across 29 key pieces) → 169 Dimir-compatible → 47 relevant (overlap ≥ 2/3 with the EDHREC pool, 2-4 cards, popularity ≥ 100) → 13 mechanical families (the Gravecrawler+altar loops, Mikaeus+undying, Rooftop Storm engines). Produces/Prerequisites/Execution reproduce Commander Spellbook content verbatim.",
+    "explanations": {
+     "HighSynergy": [
+      [
+       "Diregraf Captain",
+       "The perfect Zombie lord: other Zombies you control get +1/+1, and whenever another Zombie dies, each opponent loses 1 life. With Gisa and Geralf re-casting a Zombie every turn, every sacrifice or board wipe becomes a drain."
+      ],
+      [
+       "Lord of the Accursed",
+       "A classic lord: other Zombies you control get +1/+1. <img src=\"https://svgs.scryfall.io/card-symbols/1.svg\" alt=\"1\" title=\"1\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: all Zombies gain <strong>menace</strong> until end of turn — the horde becomes hard to block."
+      ],
+      [
+       "Gray Merchant of Asphodel",
+       "The iconic black finisher: on entry, each opponent loses X life (X = your devotion to black) and you gain that much. Recursed every turn by Gisa and Geralf, it drains the table over and over."
+      ],
+      [
+       "Champion of the Perished",
+       "A 1-drop that grows: whenever another Zombie enters, it gets a +1/+1 counter. With Gisa and Geralf re-casting a Zombie each turn (often with a bonus token), it becomes a monster fast."
+      ],
+      [
+       "Rooftop Storm",
+       "The deck's engine: you may pay <img src=\"https://svgs.scryfall.io/card-symbols/0.svg\" alt=\"0\" title=\"0\" class=\"ms\"/> rather than the mana cost for Zombie creature spells. Combined with Gisa and Geralf, that is one free Zombie from the graveyard every turn — the key piece of the infinite combos."
+      ],
+      [
+       "Zombie Apocalypse",
+       "The bomb: return <strong>all Zombie creature cards from your graveyard</strong> to the battlefield tapped, then destroy all Humans. After a board wipe, it is the mass return that ends the game."
+      ]
+     ],
+     "TopCards": [
+      [
+       "Liliana, Untouched by Death",
+       "The Zombie Liliana: +1 mills three (with a drain if a Zombie is milled), −2 gives -X/-X (X = Zombies you control), and most importantly <strong>−3: cast Zombie spells from your graveyard this turn</strong> — a second Gisa and Geralf."
+      ],
+      [
+       "Gravecrawler",
+       "The combo card par excellence: it can be cast from the graveyard as long as you control a Zombie, for <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/>. With an altar (Ashnod's, Phyrexian) or Carrion Feeder, it is an infinitely recastable Zombie."
+      ],
+      [
+       "Midnight Reaper",
+       "Whenever a nontoken creature you control dies, you lose 1 life and draw a card. The aristocrats draw engine — every Zombie death moves you forward."
+      ],
+      [
+       "Havengul Lich",
+       "A third Gisa and Geralf: <img src=\"https://svgs.scryfall.io/card-symbols/1.svg\" alt=\"1\" title=\"1\" class=\"ms\"/> lets you cast any creature card from a graveyard this turn. With Rooftop Storm, it becomes another infinite-combo engine."
+      ],
+      [
+       "Vengeful Dead",
+       "Whenever this creature or another Zombie dies, each opponent loses 1 life. The passive drain that turns your sacrifice loops into direct damage."
+      ],
+      [
+       "Death Baron",
+       "Skeletons and other Zombies you control get +1/+1 and have <strong>deathtouch</strong> — any amount of damage kills the blocker. The horde becomes impossible to block profitably."
+      ]
+     ],
+     "Creatures": [
+      [
+       "Unbreathing Horde",
+       "Enters with a +1/+1 counter for each other Zombie you control and each Zombie card in your graveyard — in this deck it often arrives as a 6/6 or bigger. Damage is prevented by removing counters: a wall."
+      ],
+      [
+       "Gleaming Overseer",
+       "On entry: amass Zombies 1. And <strong>your Zombie tokens have hexproof and menace</strong> — protection for the horde."
+      ],
+      [
+       "Laboratory Drudge",
+       "At each end step, draw a card if you cast a spell from a graveyard or activated an ability of a card in a graveyard this turn. With Gisa and Geralf active every turn, this is nearly guaranteed draw."
+      ],
+      [
+       "Eternal Skylord",
+       "On entry: amass Zombies 2. And <strong>your Zombie tokens have flying</strong> — the horde flies over blockers."
+      ],
+      [
+       "Wilhelt, the Rotcleaver",
+       "Whenever another Zombie you control dies without decayed, create a 2/2 Zombie token with decayed; at end of turn, sacrifice a Zombie to draw. A sub-commander that turns deaths into tokens AND cards."
+      ],
+      [
+       "Vizier of the Scorpion",
+       "On entry: amass Zombies 1. And <strong>your Zombie tokens have deathtouch</strong> — every token threatens any creature."
+      ]
+     ],
+     "Instants": [
+      [
+       "Lazotep Plating",
+       "Amass Zombies 1, and <strong>you and your permanents gain hexproof until end of turn</strong>. The anti-targeting protection that leaves a token behind."
+      ],
+      [
+       "Sinister Sabotage",
+       "Counter target spell, then <strong>surveil 1</strong> — you choose to put the card into your graveyard, fueling Gisa and Geralf. Counterspell + graveyard filling in one."
+      ],
+      [
+       "Undermine",
+       "Counter target spell and its controller loses 3 life. The punitive counterspell — 3 free damage with every counter."
+      ],
+      [
+       "Murder",
+       "Destroy target creature. The basic, efficient black removal."
+      ],
+      [
+       "Cruel Revival",
+       "Destroy target non-Zombie creature (it can't be regenerated) AND return up to one Zombie card from your graveyard to your hand. Removal + recursion in one card."
+      ],
+      [
+       "Village Rites",
+       "As an additional cost, sacrifice a creature (a Zombie, conveniently): draw two cards. The classic conversion of a dead Zombie into card advantage."
+      ]
+     ],
+     "Sorceries": [
+      [
+       "Necrotic Hex",
+       "Each player sacrifices six creatures of their choice, then you create six tapped 2/2 Zombie tokens. The asymmetric board wipe: you lose too, but you get an army back."
+      ],
+      [
+       "Necromantic Selection",
+       "Destroy all creatures, then return one of them to the battlefield under your control (as an additional black Zombie). Exile Necromantic Selection. A wipe that gives you the best corpse."
+      ],
+      [
+       "Crippling Fear",
+       "Choose a creature type: creatures of other types get -3/-3. With 'Zombie' chosen, all non-Zombies die and your horde survives."
+      ],
+      [
+       "Distant Melody",
+       "Choose a creature type: draw a card for each permanent you control of that type. With 10+ Zombies on board, this is a massive draw."
+      ],
+      [
+       "Buried Alive",
+       "Search your library for up to <strong>three creature cards</strong> and put them into your graveyard. The deck's tutor: load Gravecrawler, Gray Merchant and a big Zombie, ready to be re-cast."
+      ],
+      [
+       "Pilfered Plans",
+       "Target player mills two cards, and you draw two cards. Mill + draw: you fill graveyards (yours and theirs) while advancing."
+      ]
+     ],
+     "Artifacts": [
+      [
+       "Grimoire of the Dead",
+       "The end-game tome: with three study counters, sacrifice it to put <strong>all creature cards from all graveyards</strong> onto the battlefield under your control (as black Zombies)."
+      ],
+      [
+       "Wayfarer's Bauble",
+       "A 2-mana artifact that sacrifices itself to search for a basic land, put onto the battlefield tapped. The colorless ramp that fixes blue-black mana."
+      ],
+      [
+       "Ashnod's Altar",
+       "Sacrifice a creature: add <img src=\"https://svgs.scryfall.io/card-symbols/C.svg\" alt=\"C\" title=\"C\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/C.svg\" alt=\"C\" title=\"C\" class=\"ms\"/>. The classic altar: each sacrificed Zombie gives 2 colorless mana — the piece of the infinite-mana combos with Gravecrawler."
+      ],
+      [
+       "Bontu's Monument",
+       "Black creature spells you cast cost <img src=\"https://svgs.scryfall.io/card-symbols/1.svg\" alt=\"1\" title=\"1\" class=\"ms\"/> less, and each creature spell makes each opponent lose 1 life while you gain 1. Discount + passive drain."
+      ],
+      [
+       "Essence Anchor",
+       "At your upkeep: surveil 1 (fills the graveyard). And <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: create a 2/2 Zombie Druid token if a card left your graveyard this turn — with Gisa and Geralf, that is nearly permanent."
+      ],
+      [
+       "Phyrexian Altar",
+       "Sacrifice a creature: add one mana of any color. The colored-mana altar — the perfect partner for Gravecrawler for infinite deaths and infinite mana."
+      ]
+     ],
+     "Enchantments": [
+      [
+       "Open the Graves",
+       "Whenever a nontoken creature you control dies, create a 2/2 black Zombie token. The replacement engine: your deaths become Zombies."
+      ],
+      [
+       "Liliana's Mastery",
+       "Zombies you control get +1/+1, and on entry create two 2/2 Zombie tokens. An enchantment-lord that arrives with its own army."
+      ],
+      [
+       "Necroduality",
+       "Whenever a nontoken Zombie you control enters, create a token <strong>copy</strong> of that creature. Every Zombie cast or reanimated doubles — including those re-cast by Gisa and Geralf. The strongest card in the deck."
+      ],
+      [
+       "Endless Ranks of the Dead",
+       "At your upkeep, create X 2/2 Zombie tokens, where X is half the number of Zombies you control (rounded down). The horde grows exponentially."
+      ],
+      [
+       "Vampiric Rites",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/1.svg\" alt=\"1\" title=\"1\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/>, sacrifice a creature: you gain 1 life and draw a card. The conversion of Zombie → draw + life, at will."
+      ],
+      [
+       "Secrets of the Dead",
+       "Whenever you cast a spell from your graveyard, draw a card. With Gisa and Geralf casting a Zombie from the graveyard every turn, this is permanent free draw."
+      ]
+     ],
+     "Planeswalkers": [
+      [
+       "Liliana, Death's Majesty",
+       "+1: create a 2/2 Zombie token and mill two. −3: return a creature from your graveyard to the battlefield (as an additional black Zombie). −7: destroy all non-Zombie creatures. A complete reanimation machine."
+      ],
+      [
+       "Liliana, Dreadhorde General",
+       "Whenever a creature you control dies, draw a card. +1: Zombie token 2/2. −4: each player sacrifices two creatures. −9: each opponent sacrifices all but one permanent of each type. Value over time."
+      ],
+      [
+       "Liliana, the Last Hope",
+       "+1: a creature gets -2/-1. −2: mill two, then return a creature from your graveyard to your hand. −7: emblem that creates X 2/2 Zombie tokens at end of turn. The cheap recursion engine."
+      ]
+     ],
+     "UtilityLands": [
+      [
+       "Unholy Grotto",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: put a Zombie card from your graveyard on top of your library. The land that makes every Zombie inexhaustible — a perfect complement to Gisa and Geralf."
+      ],
+      [
+       "Crypt of Agadeem",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> for <strong>each black creature card in your graveyard</strong>. In a deck that mills heavily, this is a black-mana mine."
+      ],
+      [
+       "Accursed Duneyard",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: regenerate target Zombie (or other listed type). The land that protects your commander or a lord from destruction."
+      ],
+      [
+       "Phyrexian Tower",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, sacrifice a creature: add <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/>. The land sacrifices a Zombie for 2 black mana — a quiet, efficient combo piece."
+      ],
+      [
+       "Mortuary Mire",
+       "Enters tapped; on entry you may put a creature card from your graveyard on top of your library. <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/>. Recursion on a land."
+      ],
+      [
+       "Nephalia Drownyard",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/1.svg\" alt=\"1\" title=\"1\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: target player mills three cards. The land that fills graveyards — yours (Gisa and Geralf) and your opponents'."
+      ]
+     ],
+     "ManaBase": [
+      [
+       "Dismal Backwater",
+       "Enters tapped, you gain 1 life. <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: <img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/> or <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/>. The basic lifegain fixer — played in 3,923 decks."
+      ],
+      [
+       "Choked Estuary",
+       "Enters tapped unless you reveal an Island or Swamp. <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: <img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/> or <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/>. The efficient fixer — played in 5,284 decks."
+      ],
+      [
+       "Sunken Hollow",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: <img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/> or <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/>. Enters tapped unless you control two or more basic lands. The Battle for Zendikar 'shock' without damage."
+      ],
+      [
+       "Temple of Deceit",
+       "Enters tapped, then <strong>scry 1</strong>. <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: <img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/> or <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/>. The temple that filters your draw while fixing mana."
+      ],
+      [
+       "Dimir Signet",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/1.svg\" alt=\"1\" title=\"1\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/>. The blue-black mana rock, played in 4,846 decks."
+      ],
+      [
+       "Heraldic Banner",
+       "Choose a color on entry: creatures of that color get +1/+0, and <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add one mana of that color. Lord + rock in one card — with black chosen, the whole horde gets +1/+0."
+      ]
+     ]
+    },
+    "cat_synopsis": {
+     "HighSynergy": [
+      "🌟 High Synergy Cards",
+      "The heart of the deck: lords, drains and the Rooftop Storm engine — played in the majority of the 1,179 Zombie decks."
+     ],
+     "TopCards": [
+      "🔥 Top Cards",
+      "The most played cards: Gravecrawler, Liliana and the combo engines."
+     ],
+     "Creatures": [
+      "🧝 Creatures",
+      "The horde: lords, amass, tokens and creatures that fill the graveyard."
+     ],
+     "Instants": [
+      "⚡ Instants",
+      "Counterspells, removal and sacrifices that turn Zombies into cards."
+     ],
+     "Sorceries": [
+      "📜 Sorceries",
+      "Asymmetric board wipes, graveyard tutor and mass draw."
+     ],
+     "Artifacts": [
+      "⚔️ Artifacts",
+      "The sacrifice altars (combo pieces) and colorless ramp."
+     ],
+     "Enchantments": [
+      "🌿 Enchantments",
+      "The engines: Zombie doubling, token-per-death and draw from the graveyard."
+     ],
+     "Planeswalkers": [
+      "🔮 Planeswalkers",
+      "The three Lilianas: tokens, mill and reanimation."
+     ],
+     "UtilityLands": [
+      "🏰 Utility Lands",
+      "Recursion, sacrifice and mill lands."
+     ],
+     "ManaBase": [
+      "🌲 Lands / Mana Base",
+      "Dimir fixing: lifegain lands, temples and rocks."
+     ]
+    },
+    "cat_order": [
+     "HighSynergy",
+     "TopCards",
+     "Creatures",
+     "Instants",
+     "Sorceries",
+     "Artifacts",
+     "Enchantments",
+     "Planeswalkers",
+     "UtilityLands",
+     "ManaBase"
+    ],
+    "mana_cost_html": "<img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> (4 mana)",
+    "extra_table_rows": ""
+   }
   }
  }
 }

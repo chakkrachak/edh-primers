@@ -6551,6 +6551,331 @@
    ],
    "mana_cost_html": "<img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/> (4 mana)",
    "extra_table_rows": ""
+  },
+  "primer_by_plan": {
+   "Elves": {
+    "quick_read": [
+     "**Token army** : creates a token with every combat hit — wide board in a few swings.",
+     "**Drain gun** : her activation drains 10 life per opponent from the token army.",
+     "**Elfball synergy** : Elvish Archdruid / Priest of Titania / Imperious Perfect multiply mana and tokens."
+    ],
+    "plan_title": "🧝 ELFBALL — Elf Tribal (5,242 decks)",
+    "plan_html": "<h3>🧝 ELFBALL <span class=\"badge\">CHOSEN PLAN</span></h3>\n    <p>The dominant plan for Lathril (5,242 Elf decks on EDHREC).</p>\n<div class=\"plan-block\"><span class=\"plan-badge\">How it plays</span>\n<ul>\n<li><strong>Cheap elves</strong> : a maximum of 1-3 mana Elves that boost each other.</li>\n<li><strong>Free tokens</strong> : Lathril is your token generator — every point of combat damage creates that many 1/1 Elf Warriors.</li>\n<li><strong>Lords scale</strong> : the more Elves you have, the bigger your lords get.</li>\n</ul></div><div class=\"plan-block\"><span class=\"plan-badge\">Core loop</span>\n<ul>\n<li><strong>Elf ramp</strong> : Priest of Titania, Elvish Archdruid produce mana → chain 5-6 Elves per turn.</li>\n<li><strong>Drain</strong> : activate Lathril with ten Elves to drain 10 life from each opponent (<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, tap ten untapped Elves you control).</li>\n</ul></div><div class=\"plan-block\"><span class=\"plan-badge\">Win conditions</span>\n<ul>\n<li><strong>Mass drain</strong> : repeated Lathril activations.</li>\n<li><strong>Overrun</strong> : Craterhoof Behemoth, Ezuri, Renegade Leader.</li>\n<li><strong>Infinite mana</strong> : Staff of Domination, Umbral Mantle.</li>\n</ul></div>",
+    "plan_cards": [
+     "Elvish Archdruid",
+     "Priest of Titania",
+     "Ezuri, Renegade Leader",
+     "Craterhoof Behemoth"
+    ],
+    "source_html": "<em>“Building Lathril, Blade of the Elves on a $40 Budget”</em> (EDHREC Articles — the budget reference guide): the guide stresses the importance of <strong>evasion for Lathril</strong> (Cultist of the Absolute, Demonic Embrace, Zephyr Boots, Rope + Vorrac Battlehorns to make her unblockable), <strong>card advantage</strong> (Realmwalker, Miara, Champions of the Perfect, Pact of the Serpent as massive draw) and <strong>value engines</strong> to roll out the elf army before striking.",
+    "combos_note": "117 Golgari combos were set aside (insufficient overlap with the deck's card pool, 5+ cards, or popularity too low) and 194 are out of color identity. Produces/Prerequisites/Execution reproduce Commander Spellbook content verbatim (unmodified, in English).",
+    "explanations": {
+     "HighSynergy": [
+      [
+       "Elvish Archdruid",
+       "The elfball engine in one card: other Elf creatures you control get +1/+1, and <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/> adds <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/> for each Elf you control — a lord and a dork at once, the heart of the ramp."
+      ],
+      [
+       "Priest of Titania",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/> adds <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/> for each Elf on the battlefield — the biggest dork in the deck and the key piece of the infinite-mana combos (Staff of Domination, Umbral Mantle)."
+      ],
+      [
+       "Elvish Warmaster",
+       "Whenever one or more other Elves you control enter, create a 1/1 Elf Warrior token (this ability triggers only once each turn); <img src=\"https://svgs.scryfall.io/card-symbols/5.svg\" alt=\"5\" title=\"5\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/> gives your Elves +2/+2 and deathtouch until end of turn — token engine and finisher in one."
+      ],
+      [
+       "Imperious Perfect",
+       "Other Elves you control get +1/+1, and <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/> creates a 1/1 Elf Warrior token — lord and token generator in one card."
+      ],
+      [
+       "Marwyn, the Nurturer",
+       "Whenever another Elf you control enters, put a +1/+1 counter on Marwyn; <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/> adds <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/> equal to her power — she grows into a giant dork and a Staff of Domination / Umbral Mantle combo piece."
+      ],
+      [
+       "Beast Whisperer",
+       "Whenever you cast a creature spell, draw a card — the card advantage that feeds the elfball roll."
+      ]
+     ],
+     "TopCards": [
+      [
+       "Leaf-Crowned Visionary",
+       "Other Elves you control get +1/+1, and whenever you cast an Elf spell you may pay <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/> to draw a card — a lord with conditional draw."
+      ],
+      [
+       "Lys Alana Huntmaster",
+       "Whenever you cast an Elf spell, you may create a 1/1 Elf Warrior token — a passive token generator."
+      ],
+      [
+       "Llanowar Elves",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/> adds <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/> — the 1-mana dork that accelerates Lathril to a turn-3 cast."
+      ],
+      [
+       "Elvish Mystic",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/> adds <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/> — the second 1-mana dork."
+      ],
+      [
+       "Ezuri, Renegade Leader",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/> regenerates another target Elf; <img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/> gives Elf creatures you control +3/+3 and trample until end of turn — the tribal overrun."
+      ],
+      [
+       "Skemfar Shadowsage",
+       "On entry, choose one: each opponent loses X life or you gain X life, where X is the greatest number of creatures you control that have a creature type in common — a mass drain in the late game."
+      ]
+     ],
+     "Creatures": [
+      [
+       "Craterhoof Behemoth",
+       "Haste; when it enters, creatures you control gain trample and get +X/+X where X is the number of creatures you control — THE finisher."
+      ],
+      [
+       "Circle of Dreams Druid",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/> adds <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/> for each creature you control — a second Priest of Titania, even wider."
+      ],
+      [
+       "Elvish Champion",
+       "Other Elf creatures get +1/+1 and have <strong>forestwalk</strong> — unblockable against players who control a Forest."
+      ],
+      [
+       "Timberwatch Elf",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: target creature gets +X/+X until end of turn, where X is the number of Elves on the battlefield — a massive targeted pump."
+      ],
+      [
+       "Realmwalker",
+       "Changeling; as it enters choose a creature type, and you may look at the top card of your library and cast creature spells of the chosen type from the top — a passive tutor."
+      ],
+      [
+       "Allosaurus Shepherd",
+       "This spell can't be countered, nor can your green spells; <img src=\"https://svgs.scryfall.io/card-symbols/4.svg\" alt=\"4\" title=\"4\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/> makes each Elf creature you control a 5/5 Dinosaur — an alternative overrun."
+      ]
+     ],
+     "Instants": [
+      [
+       "Heroic Intervention",
+       "Permanents you control gain <strong>hexproof and indestructible</strong> until end of turn — protects the whole board."
+      ],
+      [
+       "Chord of Calling",
+       "Convoke; search your library for a creature card with mana value X or less and put it onto the battlefield — an instant-speed tutor that fetches Craterhoof or a combo piece."
+      ],
+      [
+       "Beast Within",
+       "Destroy target permanent; its controller creates a 3/3 Beast token — flexible removal for anything."
+      ],
+      [
+       "Assassin's Trophy",
+       "Destroy target permanent an opponent controls; they may search for a basic land — the efficient 2-mana removal."
+      ],
+      [
+       "Vitalize",
+       "Untap all creatures you control — a second Lathril activation in the same turn."
+      ],
+      [
+       "Return of the Wildspeaker",
+       "Choose one: draw cards equal to the greatest power among non-Human creatures you control, or give those creatures +3/+3 until end of turn."
+      ]
+     ],
+     "Sorceries": [
+      [
+       "Finale of Devastation",
+       "Search your library and/or graveyard for a creature card with mana value X or less and put it onto the battlefield; if X is 10 or more, creatures you control get +X/+X and haste — tutor and finisher in one."
+      ],
+      [
+       "Green Sun's Zenith",
+       "Search your library for a green creature card with mana value X or less, put it onto the battlefield, then shuffle the Zenith back into its owner's library — a reusable tutor."
+      ],
+      [
+       "Triumph of the Hordes",
+       "Until end of turn, creatures you control get +1/+1 and gain <strong>trample and infect</strong> — 10 poison counters win the game."
+      ],
+      [
+       "Pact of the Serpent",
+       "Choose a creature type: target player draws X cards and loses X life, where X is the number of creatures of that type they control — against an elf-filled table it's massive draw."
+      ],
+      [
+       "Overrun",
+       "Creatures you control get +3/+3 and gain trample until end of turn — the budget finisher."
+      ],
+      [
+       "Cultivate",
+       "Search your library for up to two basic land cards, put one onto the battlefield tapped and the other into your hand — standard ramp."
+      ]
+     ],
+     "Artifacts": [
+      [
+       "Skullclamp",
+       "Equipped creature gets +1/-1; whenever it dies, draw two cards — equip a 1/1 token and draw 2."
+      ],
+      [
+       "The Great Henge",
+       "Costs <img src=\"https://svgs.scryfall.io/card-symbols/X.svg\" alt=\"X\" title=\"X\" class=\"ms\"/> less where X is the greatest power among creatures you control; <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/> adds <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/> and 2 life; each nontoken creature entering gets a +1/+1 counter and draws a card — the complete engine."
+      ],
+      [
+       "Sol Ring",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/> adds <img src=\"https://svgs.scryfall.io/card-symbols/C.svg\" alt=\"C\" title=\"C\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/C.svg\" alt=\"C\" title=\"C\" class=\"ms\"/> — the universal ramp."
+      ],
+      [
+       "Vanquisher's Banner",
+       "As it enters choose a creature type: creatures of that type get +1/+1, and you draw whenever you cast one — lord and draw in one."
+      ],
+      [
+       "Herald's Horn",
+       "Creature spells of the chosen type cost <img src=\"https://svgs.scryfall.io/card-symbols/1.svg\" alt=\"1\" title=\"1\" class=\"ms\"/> less, and at your upkeep you look at the top card — discount and filtering."
+      ],
+      [
+       "Coat of Arms",
+       "Each creature gets +1/+1 for each other creature on the battlefield that shares a creature type — the most violent boost with a full elf board."
+      ]
+     ],
+     "Enchantments": [
+      [
+       "Beastmaster Ascension",
+       "Whenever a creature you control attacks, put a quest counter on it; as long as it has seven or more quest counters, creatures you control get +5/+5 — the quest that kills."
+      ],
+      [
+       "Sylvan Library",
+       "At your draw step you may draw two extra cards; for each of them, pay 4 life or put it back on top — quality draw."
+      ],
+      [
+       "Doubling Season",
+       "If an effect would create one or more tokens under your control, it creates twice that many; same for counters — every Lathril hit creates 2X tokens."
+      ],
+      [
+       "Parallel Lives",
+       "If an effect would create one or more tokens under your control, it creates twice that many — the budget little brother of Doubling Season."
+      ],
+      [
+       "Guardian Project",
+       "Whenever a nontoken creature you control enters, if it doesn't share a name with another creature you control or a creature card in your graveyard, draw a card — Beast Whisperer's twin."
+      ],
+      [
+       "Concordant Crossroads",
+       "All creatures have haste — for 1 mana, attack the turn everything comes down."
+      ]
+     ],
+     "Planeswalkers": [
+      [
+       "Tyvar Kell",
+       "Elves you control have <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: Add <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/>; +1 puts a +1/+1 counter on an Elf, untaps it and gives it deathtouch; 0 creates an Elf Warrior token; −6 gives an emblem that draws two cards per Elf spell — the tribal ultimate."
+      ],
+      [
+       "Freyalise, Llanowar's Fury",
+       "+2 creates an Elf Druid token with <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: Add <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/>; −2 destroys an artifact or enchantment; −6 draws a card for each green creature you control."
+      ],
+      [
+       "Tyvar, Jubilant Brawler",
+       "You may activate abilities of creatures you control as though they had haste; +1 untaps a creature; −2 mills three cards, then returns a creature with mana value 2 or less from your graveyard to the battlefield."
+      ]
+     ],
+     "UtilityLands": [
+      [
+       "Wirewood Lodge",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/> adds <img src=\"https://svgs.scryfall.io/card-symbols/C.svg\" alt=\"C\" title=\"C\" class=\"ms\"/>; <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/> untaps target Elf — untap Lathril for an extra activation and a piece of the Argothian Elder combos."
+      ],
+      [
+       "Nykthos, Shrine to Nyx",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add an amount of mana of a chosen color equal to your devotion to that color — massive green-devotion mana."
+      ],
+      [
+       "Yavimaya, Cradle of Growth",
+       "Each land is a Forest in addition to its other land types — turns on Elvish Champion's forestwalk."
+      ],
+      [
+       "Three Tree City",
+       "As it enters choose a creature type; <img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/> adds mana of a chosen color equal to the number of creatures of that type you control — the modern tribal land."
+      ],
+      [
+       "Bojuka Bog",
+       "Enters tapped; on entry exile target player's graveyard; <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/> adds <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> — free anti-recursion."
+      ],
+      [
+       "Rogue's Passage",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/4.svg\" alt=\"4\" title=\"4\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: target creature can't be blocked this turn — guarantees Lathril's hit."
+      ]
+     ],
+     "ManaBase": [
+      [
+       "Command Tower",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/> adds one mana of any color in your commander's color identity — the best land in the format."
+      ],
+      [
+       "Overgrown Tomb",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/> adds <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> or <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/>; pay 2 life or this land enters tapped — the Golgari shockland."
+      ],
+      [
+       "Gilt-Leaf Palace",
+       "Reveal an Elf card from your hand or this land enters tapped; <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/> adds <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> or <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/> — the tribal dual land."
+      ],
+      [
+       "Cavern of Souls",
+       "Choose a creature type: <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/> adds one mana of any color, spendable only on creature spells of that type, and those spells can't be countered — uncounterable key Elves."
+      ],
+      [
+       "Woodland Cemetery",
+       "Enters tapped unless you control a Swamp or a Forest; <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/> adds <img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> or <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/> — the Golgari checkland."
+      ],
+      [
+       "Verdant Catacombs",
+       "Pay 1 life, sacrifice this land: search your library for a Swamp or Forest card — the green fetch."
+      ]
+     ]
+    },
+    "cat_synopsis": {
+     "HighSynergy": [
+      "🌟 High Synergy Cards",
+      "The heart of the deck: the elfball mana engines and lords — played in the majority of the 5,242 Elf decks."
+     ],
+     "TopCards": [
+      "🔥 Top Cards",
+      "The most played cards: the 1-mana dorks, Ezuri's overrun and Lathril's token/drain support."
+     ],
+     "Creatures": [
+      "🧝 Creatures",
+      "The tribe: lords, finishers and creatures that turn Elves into mana and tokens."
+     ],
+     "Instants": [
+      "⚡ Instants",
+      "Protection (Heroic Intervention), instant-speed tutors and flexible removal."
+     ],
+     "Sorceries": [
+      "📜 Sorceries",
+      "Tutors that double as finishers, the infect win and mass draw."
+     ],
+     "Artifacts": [
+      "⚔️ Artifacts",
+      "The mana engines: Sol Ring, The Great Henge and the tribal banners."
+     ],
+     "Enchantments": [
+      "🌿 Enchantments",
+      "Token doubling, quest counters and draw engines."
+     ],
+     "Planeswalkers": [
+      "🔮 Planeswalkers",
+      "The three planeswalkers: Elf tokens, untap and card advantage."
+     ],
+     "UtilityLands": [
+      "🏰 Utility Lands",
+      "Untap, devotion and anti-graveyard lands."
+     ],
+     "ManaBase": [
+      "🌲 Lands / Mana Base",
+      "Golgari fixing: shockland, checkland, tribal lands and fetches."
+     ]
+    },
+    "cat_order": [
+     "HighSynergy",
+     "TopCards",
+     "Creatures",
+     "Instants",
+     "Sorceries",
+     "Artifacts",
+     "Enchantments",
+     "Planeswalkers",
+     "UtilityLands",
+     "ManaBase"
+    ],
+    "mana_cost_html": "<img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/> (4 mana)",
+    "extra_table_rows": ""
+   }
   }
  }
 }

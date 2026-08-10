@@ -5658,6 +5658,18 @@
   "Skyknight Vanguard": {
    "Aggro": "**Flying token** : a 1/1 flying on attack — the aggro plan's evasive pressure.",
    "Tokens": "**Token engine** : doubled by Isshin to 2 tokens per attack — the token plan's flyer."
+  },
+  "Caesar, Legion's Emperor": {
+   "Tokens": "**Token army** : on attack, sacrifices a creature to make that many 1/1 tokens — the token plan's engine that also triggers Isshin twice."
+  },
+  "Commissar Severina Raine": {
+   "Tokens": "**Token drain** : whenever it attacks, each opponent loses life equal to your tokens — the token swarm's finisher."
+  },
+  "Zurgo Stormrender": {
+   "Tokens": "**Token payoff** : pumps your attackers per token — the go-wide plan's anthem."
+  },
+  "Otharri, Suns' Glory": {
+   "Tokens": "**Rebel token engine** : on attack, makes a Rebel token — doubled by Isshin, the token plan's repeatable generator."
   }
  },
  "content": {
@@ -5960,6 +5972,388 @@
    ],
    "mana_cost_html": "<img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/W.svg\" alt=\"W\" title=\"W\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> (3 mana)",
    "extra_table_rows": "<tr><td><strong>Power / Toughness</strong></td><td>3 / 4</td></tr>"
+  },
+  "primer_by_plan": {
+   "Attack Triggers": {
+    "quick_read": [
+     "**Double triggers** : every \"whenever X attacks\" trigger on your permanents fires twice.",
+     "**Go wide** : token-makers (Adeline, Krenko, Anim Pakal) explode the board each combat.",
+     "**Value attacks** : attack triggers draw (Chivalric Alliance), ramp (Sword of the Animist, Curse of Opulence) and drain (Commissar Severina Raine).",
+     "**Finish** : Fervent Charge pumps or infinite-combat combos (Hellkite Charger + Fire Nation Palace)."
+    ],
+    "plan_title": "⚔️ ATTACK TRIGGERS — The signature plan (1,204 decks)",
+    "plan_html": "<h3>⚔️ ATTACK TRIGGERS <span class=\"badge\">CHOSEN PLAN</span></h3>\n    <p>The dominant plan for Isshin (1,204 Attack Triggers decks, 1,389 Aggro, 1,316 Tokens on EDHREC).</p>\n<div class=\"plan-block\"><span class=\"plan-badge\">How it plays</span>\n<ul>\n<li><strong>Double triggers</strong> : Isshin doubles every attack-triggered ability — each trigger fires twice.</li>\n<li><strong>Go wide</strong> : attack with token-makers (Adeline, Krenko, Anim Pakal, Caesar) and the board explodes.</li>\n<li><strong>Value attacks</strong> : attack triggers also draw (Chivalric Alliance), ramp (Sword of the Animist, Curse of Opulence) and drain (Commissar Severina Raine).</li>\n</ul></div><div class=\"plan-block\"><span class=\"plan-badge\">Core loop</span>\n<ul>\n<li><strong>Loop</strong> : attack → doubled triggers → more tokens/draw/ramp → attack again.</li>\n<li><strong>Multipliers</strong> : Windcrag Siege is a second Isshin (quadruple triggers); Aurelia, the Warleader adds extra combat phases.</li>\n</ul></div><div class=\"plan-block\"><span class=\"plan-badge\">Win conditions</span>\n<ul>\n<li><strong>Pump</strong> : the go-wide board boosted by Fervent Charge / Akroma's Will.</li>\n<li><strong>Drain</strong> : Brutal Hordechief and Commissar Severina Raine.</li>\n<li><strong>Infinite combats</strong> : Hellkite Charger + Fire Nation Palace, Aggravated Assault lines.</li>\n</ul></div>",
+    "plan_cards": [
+     "Adeline, Resplendent Cathar",
+     "Krenko, Tin Street Kingpin",
+     "Windcrag Siege",
+     "Sword of the Animist"
+    ],
+    "source_html": "<em>“Breaking Down Tradition: Isshin, Two Heavens as One”</em> (Evan Moss, EDHREC Articles — guest deck tech on Isshin): the guide frames Isshin as “a value engine that wants you to attack” and notes that “Isshin decks tend to run pretty similarly — attack, create tokens, ramp, attack some more.” His key insight for our plan: keep the aggressive core but stack <strong>repeatable attack triggers</strong> (card advantage on attack, Treasure ramp on attack, protection to keep the attackers alive) so every combat step generates value. The guide’s emphasis on protecting your attacking engine maps onto our protection suite (Flawless Maneuver, Akroma’s Will) and its ramp advice onto the attack-ramp package (Sword of the Animist, Captain Lannery Storm).",
+    "combos_note": "125 raw combos found (search across 21 key pieces) → 61 Mardu-compatible → 9 with overlap ≥ 2/3 with the EDHREC pool → 7 relevant (2-4 cards, popularity ≥ 100). The signature loops: Hellkite Charger + Fire Nation Palace (infinite combats), Aggravated Assault + Burakos or Anim Pakal + altar. Produces/Prerequisites/Execution reproduce Commander Spellbook content verbatim.",
+    "explanations": {
+     "HighSynergy": [
+      [
+       "Adeline, Resplendent Cathar",
+       "Vigilance, power equal to your creature count, and <strong>whenever you attack, create a 1/1 Human token per opponent</strong> — tapped and attacking. Isshin doubles the trigger: two tokens per opponent, every combat. The deck's #1 engine."
+      ],
+      [
+       "Krenko, Tin Street Kingpin",
+       "<strong>Whenever Krenko attacks, it gets +1/+1, then creates Goblin tokens equal to its power</strong>. Isshin doubles it: two counters and double the tokens. A one-man go-wide army."
+      ],
+      [
+       "Windcrag Siege",
+       "A second Isshin: in <strong>Mardu mode, attack-triggered abilities of your permanents trigger an additional time</strong>. Stack it with Isshin for quadruple triggers on your best attackers."
+      ],
+      [
+       "Sword of the Animist",
+       "Equipped creature gets +1/+1 and <strong>whenever it attacks, search for a basic land</strong>. Isshin doubles the trigger: ramp 2 lands per combat on a 3-mana commander."
+      ],
+      [
+       "Anim Pakal, Thousandth Moon",
+       "<strong>Whenever you attack with non-Gnome creatures, it gets +1/+1, then creates X Gnome tokens</strong> (X = counters), tapped and attacking. Doubled by Isshin: exponential token growth."
+      ],
+      [
+       "Fervent Charge",
+       "<strong>Whenever a creature you control attacks, it gets +2/+2 until end of turn</strong> — doubled by Isshin into +4/+4. The pump engine that makes every attack lethal."
+      ]
+     ],
+     "TopCards": [
+      [
+       "Swords to Plowshares",
+       "Exile target creature; its controller gains life equal to its power. The white removal benchmark — clean answer to anything."
+      ],
+      [
+       "Path to Exile",
+       "Exile target creature; its controller may search for a basic land. Second white removal, nearly free."
+      ],
+      [
+       "Ruinous Ultimatum",
+       "<strong>Destroy all nonland permanents your opponents control</strong> — the asymmetrical board wipe that keeps your attackers."
+      ],
+      [
+       "Lightning Greaves",
+       "Haste + shroud — deploy and swing immediately, and opponents can't target your attacker. Equip 0 re-attaches free."
+      ],
+      [
+       "Aurelia, the Warleader",
+       "Flying, vigilance, haste; <strong>first attack each turn gives an additional combat phase</strong>. With Isshin, every attacker's triggers fire twice per extra combat."
+      ],
+      [
+       "Aurelia, the Law Above",
+       "Flying, vigilance, haste; <strong>draw a card when any player attacks with 3+ creatures</strong>, and deal 3 to each opponent at 5+. Isshin doesn't double it (player-triggered) but it loves your go-wide board."
+      ]
+     ],
+     "Creatures": [
+      [
+       "Caesar, Legion's Emperor",
+       "<strong>Whenever you attack, you may sacrifice another creature</strong>: create two hasted Soldier tokens attacking, or draw and lose life, or drain 3. Isshin doubles the trigger — two sacrifices per combat."
+      ],
+      [
+       "Brutal Hordechief",
+       "<strong>Whenever a creature you control attacks, defending player loses 1 life and you gain 1</strong> — doubled by Isshin into 2 per attacker. The activated ability also forces blocks your way."
+      ],
+      [
+       "Otharri, Suns' Glory",
+       "Flying, lifelink, haste; <strong>whenever it attacks, get an experience counter and create that many Rebel tokens</strong> — doubled by Isshin. Snowballing token army with lifelink."
+      ],
+      [
+       "Iroas, God of Victory",
+       "Indestructible god: <strong>your creatures have menace</strong> and all combat damage to your attackers is prevented — the combat unlosable engine."
+      ],
+      [
+       "Commissar Severina Raine",
+       "<strong>Whenever it attacks, each opponent loses X life (X = other attackers)</strong> — doubled by Isshin. In a go-wide board, that's massive drain every combat."
+      ],
+      [
+       "Sun Titan",
+       "Vigilance; <strong>whenever it enters or attacks, return a permanent with mana value 3 or less from your graveyard</strong> — Isshin doubles the attack trigger, giving two recursions per combat."
+      ]
+     ],
+     "Instants": [
+      [
+       "Anguished Unmaking",
+       "Exile target nonland permanent for 3 life — the catch-all answer to anything (planeswalkers, enchantments, artifacts)."
+      ],
+      [
+       "Akroma's Will",
+       "<strong>If you control a commander, choose both</strong>: flying+vigilance+double strike OR lifelink+indestructible+protection. The all-in finisher for your attack."
+      ],
+      [
+       "Flawless Maneuver",
+       "<strong>Free if you control a commander</strong>: your creatures gain indestructible until end of turn. The protection spell that saves your board from a wipe."
+      ],
+      [
+       "Despark",
+       "Exile target permanent with mana value 4 or greater — clean removal for commanders and bombs at 2 mana."
+      ],
+      [
+       "Chaos Warp",
+       "Shuffle target permanent into its owner's library, then they reveal the top card and may put it onto the battlefield — the red answer to anything."
+      ]
+     ],
+     "Sorceries": [
+      [
+       "Blasphemous Act",
+       "<strong>Costs {1} less per creature on the battlefield</strong> — in a go-wide game it's nearly {R}. Deals 13 damage to each creature: the wipe that clears everyone else."
+      ],
+      [
+       "Damn",
+       "Destroy target creature (can't be regenerated), with an overload to destroy ALL creatures. Flexible single-target or wipe."
+      ],
+      [
+       "Vandalblast",
+       "Destroy target artifact, or overload to destroy all artifacts your opponents control — the artifact wipe."
+      ],
+      [
+       "Night's Whisper",
+       "Draw two cards for 2 life — the efficient black draw."
+      ],
+      [
+       "Painful Truths",
+       "Converge: <strong>draw X and lose X life where X = colors spent</strong> — in Mardu that's 3 cards for 3 life."
+      ]
+     ],
+     "Artifacts": [
+      [
+       "Skullclamp",
+       "Equipped creature gets +1/-1; <strong>whenever it dies, draw two cards</strong>. Equip {1}. Sacrifice your 1/1 tokens to Skullclamp for massive card advantage."
+      ],
+      [
+       "Dolmen Gate",
+       "<strong>Prevent all combat damage that would be dealt to attacking creatures you control</strong> — swing freely, your attackers survive every block."
+      ],
+      [
+       "Diamond Pick-Axe",
+       "Indestructible Equipment: equipped creature gets +1/+1 and <strong>\"Whenever this creature attacks, create a Treasure\"</strong> — Isshin doubles the Treasure per combat."
+      ],
+      [
+       "Infantry Shield",
+       "Equipped creature has menace and <strong>mobilize X (X = its power): create X hasted Warrior tokens on attack</strong> — Isshin doubles the tokens."
+      ],
+      [
+       "Helm of the Host",
+       "<strong>At the beginning of combat, create a nonlegendary copy of the equipped creature with haste</strong> — a second Isshin that doubles your triggers."
+      ]
+     ],
+     "Enchantments": [
+      [
+       "Reconnaissance",
+       "{0}: remove target attacking creature from combat and untap it — <strong>save your attackers after damage while keeping triggers</strong>. The classic combat trick."
+      ],
+      [
+       "Rising of the Day",
+       "<strong>Creatures you control have haste</strong> and legendary creatures get +1/+0 — everything swings the turn it lands."
+      ],
+      [
+       "Curse of Opulence",
+       "Enchant player: <strong>whenever enchanted player is attacked, create a Gold token</strong> — Isshin doubles the Gold per attacker. Ramp from your own attacks."
+      ],
+      [
+       "Within Range",
+       "Create two Warrior tokens on entry, and <strong>whenever you attack, each opponent loses life equal to creatures attacking them</strong> — go-wide drain."
+      ],
+      [
+       "Chivalric Alliance",
+       "<strong>Whenever you attack with 2+ creatures, draw a card</strong> — your go-wide attacks become card advantage."
+      ]
+     ],
+     "Planeswalkers": [
+      [
+       "Elspeth, Storm Slayer",
+       "<strong>Doubles tokens created under your control</strong>; +1 makes a Soldier, 0 puts +1/+1 on each creature, −7 is a mass anthem emblem. Token engine on legs."
+      ],
+      [
+       "The Eternal Wanderer",
+       "+1: exile an artifact/creature and return it under its owner's control at your next end step; −2: each player attacks with one creature. Flexible control walker."
+      ]
+     ],
+     "UtilityLands": [
+      [
+       "Rogue's Passage",
+       "{4}, {T}: target creature can't be blocked this turn — guarantee your best attacker's trigger connects."
+      ],
+      [
+       "Bojuka Bog",
+       "Enters tapped; <strong>on entry, exile target player's graveyard</strong> — the free graveyard hate."
+      ],
+      [
+       "Hanweir Battlements",
+       "{R}, {T}: target creature gains haste; {3}{R}{R}, {T}: meld with Hanweir Garrison. Speed for your attackers."
+      ],
+      [
+       "Vault of the Archangel",
+       "{2}{W}{B}, {T}: <strong>your creatures gain deathtouch and lifelink until end of turn</strong> — the combat blowout activation."
+      ],
+      [
+       "Minas Tirith",
+       "Enters untapped if you control a legendary; {1}{W}, {T}: <strong>draw a card if you attacked with 2+ creatures</strong> — with Isshin's go-wide plan, nearly always on."
+      ]
+     ],
+     "ManaBase": [
+      [
+       "Plains",
+       "({T}: add {W}.) The basic white source."
+      ],
+      [
+       "Mountain",
+       "({T}: add {R}.) The basic red source."
+      ],
+      [
+       "Swamp",
+       "({T}: add {B}.) The basic black source."
+      ],
+      [
+       "Command Tower",
+       "{T}: add one mana of any color in your commander's color identity — the format's best land."
+      ],
+      [
+       "Sol Ring",
+       "{T}: add {C}{C} — the format's best ramp, in every deck."
+      ],
+      [
+       "Arcane Signet",
+       "{T}: add one mana of any color in your commander's color identity — the best mana rock."
+      ]
+     ]
+    },
+    "cat_synopsis": {
+     "HighSynergy": [
+      "🌟 High Synergy Cards",
+      "The heart of the deck: attackers and engines whose triggers Isshin doubles — token makers, land ramp and a second Isshin (Windcrag Siege)."
+     ],
+     "TopCards": [
+      "🔥 Top Cards",
+      "The most played cards: removal, haste boots and the extra-combat Warleaders."
+     ],
+     "Creatures": [
+      "🧝 Creatures",
+      "The attackers: token generators, drains and recursion — every attack trigger doubled."
+     ],
+     "Instants": [
+      "⚡ Instants",
+      "Removal and protection that keep the go-wide board alive."
+     ],
+     "Sorceries": [
+      "📜 Sorceries",
+      "Board wipes that clear opponents while your attackers survive, plus draw."
+     ],
+     "Artifacts": [
+      "⚔️ Artifacts",
+      "Equipment that turns attacks into cards (Skullclamp), Treasures (Diamond Pick-Axe) and tokens (Infantry Shield)."
+     ],
+     "Enchantments": [
+      "🌿 Enchantments",
+      "Combat tricks, haste and attack-trigger draw — the value engines."
+     ],
+     "Planeswalkers": [
+      "🔮 Planeswalkers",
+      "Token doubling (Elspeth) and flexible control (Eternal Wanderer)."
+     ],
+     "UtilityLands": [
+      "🏰 Utility Lands",
+      "Unblockable, graveyard hate, haste and combat blowouts on lands."
+     ],
+     "ManaBase": [
+      "🌲 Lands / Mana Base",
+      "Mardu fixing: basics, Command Tower, Sol Ring and Arcane Signet."
+     ]
+    },
+    "cat_order": [
+     "HighSynergy",
+     "TopCards",
+     "Creatures",
+     "Instants",
+     "Sorceries",
+     "Artifacts",
+     "Enchantments",
+     "Planeswalkers",
+     "UtilityLands",
+     "ManaBase"
+    ],
+    "mana_cost_html": "<img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/W.svg\" alt=\"W\" title=\"W\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> (3 mana)",
+    "extra_table_rows": "<tr><td><strong>Power / Toughness</strong></td><td>3 / 4</td></tr>"
+   },
+   "Tokens": {
+    "explanations": {
+     "Engines": [
+      [
+       "Krenko, Tin Street Kingpin",
+       "**Token factory** : power-based token generation doubled — the widest token producer of the deck."
+      ],
+      [
+       "Adeline, Resplendent Cathar",
+       "**Token leader** : the #1 token engine — two Humans per opponent per combat, plus her own scaling power."
+      ],
+      [
+       "Anim Pakal, Thousandth Moon",
+       "**Token engine** : X Gnomes per attack where X = her counters, doubled — a token army that feeds itself."
+      ],
+      [
+       "Hero of Bladehold",
+       "**Token generator** : 2 Soldiers per attack (doubled by Isshin to 4) — the token plan's engine."
+      ],
+      [
+       "Windcrag Siege",
+       "**Token doubler** : all your token-makers trigger twice per attack — the board doubles every combat."
+      ],
+      [
+       "Caesar, Legion's Emperor",
+       "**Token army** : on attack, sacrifices a creature to make that many 1/1 tokens — the token plan's engine that also triggers Isshin twice."
+      ],
+      [
+       "Skyknight Vanguard",
+       "**Token engine** : doubled by Isshin to 2 tokens per attack — the token plan's flyer."
+      ],
+      [
+       "Otharri, Suns' Glory",
+       "**Rebel token engine** : on attack, makes a Rebel token — doubled by Isshin, the token plan's repeatable generator."
+      ]
+     ],
+     "Wincons": [
+      [
+       "Isshin, Two Heavens as One",
+       "**The engine himself** : every attack trigger fires twice — the whole token swarm revolves around this ability."
+      ],
+      [
+       "Commissar Severina Raine",
+       "**Token drain** : whenever it attacks, each opponent loses life equal to your tokens — the token swarm's finisher."
+      ],
+      [
+       "Zurgo Stormrender",
+       "**Token payoff** : pumps your attackers per token — the go-wide plan's anthem."
+      ]
+     ],
+     "CardAdvantage": [],
+     "Ramp": [],
+     "Interaction": []
+    },
+    "cat_order": [
+     "Engines",
+     "Wincons",
+     "CardAdvantage",
+     "Ramp",
+     "Interaction"
+    ],
+    "quick_read": [
+     "**Double triggers** : every \"whenever X attacks\" trigger on your permanents fires twice.",
+     "**Go wide** : token-makers (Adeline, Krenko, Anim Pakal) explode the board each combat.",
+     "**Value attacks** : attack triggers draw (Chivalric Alliance), ramp (Sword of the Animist, Curse of Opulence) and drain (Commissar Severina Raine).",
+     "**Finish** : Fervent Charge pumps or infinite-combat combos (Hellkite Charger + Fire Nation Palace)."
+    ],
+    "source_html": "<em>“Breaking Down Tradition: Isshin, Two Heavens as One”</em> (Evan Moss, EDHREC Articles — guest deck tech on Isshin): the guide frames Isshin as “a value engine that wants you to attack” and notes that “Isshin decks tend to run pretty similarly — attack, create tokens, ramp, attack some more.” His key insight for our plan: keep the aggressive core but stack <strong>repeatable attack triggers</strong> (card advantage on attack, Treasure ramp on attack, protection to keep the attackers alive) so every combat step generates value. The guide’s emphasis on protecting your attacking engine maps onto our protection suite (Flawless Maneuver, Akroma’s Will) and its ramp advice onto the attack-ramp package (Sword of the Animist, Captain Lannery Storm).",
+    "combos_note": "Combos for the Tokens plan — 3 from Commander Spellbook.",
+    "plan_cards": [
+     "Krenko, Tin Street Kingpin",
+     "Adeline, Resplendent Cathar",
+     "Anim Pakal, Thousandth Moon",
+     "Windcrag Siege",
+     "Caesar, Legion's Emperor",
+     "Commissar Severina Raine"
+    ],
+    "mana_cost_html": "<img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/W.svg\" alt=\"W\" title=\"W\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/B.svg\" alt=\"B\" title=\"B\" class=\"ms\"/> (3 mana)",
+    "extra_table_rows": "<tr><td><strong>Power / Toughness</strong></td><td>3 / 4</td></tr>"
+   }
   }
  }
 }

@@ -120,7 +120,7 @@ def syn_cls(score):
         return ""
     return "syn-hi" if score >= 0.7 else ("syn-mid" if score >= 0.4 else "syn-lo")
 
-def _merge_fiche(d, slug, kind):
+def _merge_fiche(d, slug, kind, plan_tag=None):
     """Fusionne la fiche L2 du commander (data/cache/l2/commanders/<slug>.json) dans les
     données du rapport si elle existe. kind = 'primer' (build_one) ou 'eval' (build_precon).
     La fiche centralise les données commander-level ; le JSON deck/precon garde les textes
@@ -172,7 +172,17 @@ def _merge_fiche(d, slug, kind):
             if fiche.get('card_plan_texts'):
                 d['card_plan_texts'] = fiche['card_plan_texts']
             # --- contenu IA spécifique primer (si présent dans la fiche) ---
+            # Nouveau schéma (2026-08-10, option A validée) : content.primer_by_plan[tag] =
+            # le content.primer DÉDIÉ à un plan (explanations/cat_order/combos_note du bon plan).
+            # Le plan demandé (plan_tag) charge le sien ; le défaut charge le plan signature
+            # (content.primer legacy) ; fallback : content.primer par défaut.
             pc = fiche.get('content', {}).get('primer', {})
+            pbp = fiche.get('content', {}).get('primer_by_plan', {})
+            if plan_tag and pbp.get(plan_tag):
+                pc = pbp[plan_tag]
+            elif plan_tag and pbp:
+                # fallback : le premier content.primer par plan dispo (sinon legacy)
+                pc = next(iter(pbp.values())) or pc
             for k in ('quick_read', 'plan_title', 'plan_html', 'plan_cards',
                       'source_html', 'combos_note', 'explanations',
                       'cat_synopsis', 'cat_order', 'mana_cost_html', 'extra_table_rows'):
@@ -302,7 +312,7 @@ def _plan_html_from(plan, commander_name, imgs=None, plan_texts=None, all_names=
 def build_one(slug, plan_tag=None):
     with open(f'{DATA_DIR}/{slug}.json', encoding='utf-8') as f:
         d = json.load(f)
-    _merge_fiche(d, slug, 'primer')
+    _merge_fiche(d, slug, 'primer', plan_tag=plan_tag)
     # --- plan alternatif (--plan <tag>) : générer depuis les plans structurés de la fiche ---
     if plan_tag and d.get('plans'):
         # ajouter les rivaux (tous les autres plans) pour le contexte chiffré

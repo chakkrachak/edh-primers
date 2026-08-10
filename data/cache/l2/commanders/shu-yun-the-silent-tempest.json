@@ -3958,6 +3958,319 @@
    ],
    "mana_cost_html": "<img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/> (3 mana)",
    "extra_table_rows": "<tr><td><strong>Power / Toughness</strong></td><td>3 / 2</td></tr>"
+  },
+  "primer_by_plan": {
+   "Voltron": {
+    "quick_read": [
+     "**Prowess pump** : every noncreature spell pumps him (+1/+1).",
+     "**Double strike** : {R/W}{R/W} grants double strike to any creature — usually himself.",
+     "**Cantrip shell** : 1-mana unblockable cantrips (Slip Through Space, Distortion Strike) chain into a one-shot machine."
+    ],
+    "plan_title": "⚔️ VOLTRON — The signature plan (96 decks)",
+    "plan_html": "<h3>⚔️ VOLTRON <span class=\"badge\">CHOSEN PLAN</span></h3>\n    <p>The dominant plan for Shu Yun (96 Voltron decks, 94 Spellslinger, 62 Prowess on EDHREC).</p>\n<div class=\"plan-block\"><span class=\"plan-badge\">How it plays</span>\n<ul>\n<li><strong>Open mana</strong> : cast Shu Yun on turn 3, then keep {R/W}{R/W} up every turn.</li>\n<li><strong>One spell = threat</strong> : any noncreature spell (cantrip, pump, protection) makes him unblockable (Slip Through Space, Distortion Strike, Aqueous Form) and grants double strike.</li>\n<li><strong>Prowess</strong> : each spell also pumps him.</li>\n</ul></div><div class=\"plan-block\"><span class=\"plan-badge\">Core loop</span>\n<ul>\n<li><strong>Cantrip chain</strong> : cantrip → draw + prowess + unblockable → swing with double strike → commander damage.</li>\n<li><strong>Rebound</strong> : Distortion Strike and Emerge Unscathed cast twice; Feather, the Redeemed returns target spells to hand each turn.</li>\n<li><strong>Draw</strong> : Whirlwind of Thought turns every spell into a card.</li>\n</ul></div><div class=\"plan-block\"><span class=\"plan-badge\">Win conditions</span>\n<ul>\n<li><strong>21 damage</strong> : two swings with double strike + Unleash Fury / Brute Force / Legion Leadership.</li>\n<li><strong>Multipliers</strong> : Inquisitor's Flail and Runechanter's Pike; Jeska, Thrice Reborn makes it triple.</li>\n<li><strong>Tutor</strong> : Sunforger fetches the finisher or the protection.</li>\n</ul></div>",
+    "plan_cards": [
+     "Slip Through Space",
+     "Distortion Strike",
+     "Unleash Fury",
+     "Aqueous Form"
+    ],
+    "source_html": "<em>“Building Monk Typal With Shu Yun, the Silent Tempest”</em> (EDHREC Articles — deck tech on Shu Yun): the guide calls Shu Yun “maybe not the strongest Monk commander, but… the most aggressive” and stresses that the ability to “give out double strike to any creature” is what makes him fun and versatile. Its core advice maps 1:1 onto our Voltron plan: play <strong>cheap cantripping noncreature spells</strong> (“We want spells that cantrip, like Opt”) so every spell triggers prowess and leaves mana up to activate double strike, and use evasive creatures that “make solid use of our commander’s ability to grant double strike.”",
+    "combos_note": "221 raw combos found (search across 26 key pieces incl. Sunforger) → 96 Jeskai-compatible → strict ≥ 2/3 overlap yielded only 1 combo → low-yield relaxation (2-card combos with 1/2 overlap where the in-pool card is a key piece) → 4 relevant: the Jeskai Ascendancy engine (with Invasion of Segovia, Retraction Helix, Underworld Breach+Frantic Search) and the Zada copy chain. Produces/Prerequisites/Execution reproduce Commander Spellbook content verbatim.",
+    "explanations": {
+     "HighSynergy": [
+      [
+       "Slip Through Space",
+       "<strong>Target creature can't be blocked this turn. Draw a card.</strong> Devoid — the #1 Shu Yun cantrip: unblockable + replace itself, and prowess boosts Shu Yun."
+      ],
+      [
+       "Distortion Strike",
+       "+1/+0, <strong>can't be blocked, and rebound</strong> — cast it twice (now + rebound next upkeep) for two prowess triggers and two unblockable turns."
+      ],
+      [
+       "Emerge Unscathed",
+       "<strong>Protection from a color of your choice + rebound</strong> — dodge removal twice while triggering prowess both times."
+      ],
+      [
+       "Unleash Fury",
+       "<strong>Double the power of target creature</strong> — on a prowess-buffed Shu Yun with double strike, that's lethal commander damage in one swing."
+      ],
+      [
+       "Aqueous Form",
+       "<strong>Can't be blocked</strong> and scry 1 on every attack — the repeatable unblockable engine for Shu Yun."
+      ],
+      [
+       "Artful Dodge",
+       "<strong>Can't be blocked this turn, flashback {U}</strong> — two unblockable uses for two prowess triggers."
+      ]
+     ],
+     "TopCards": [
+      [
+       "Whirlwind of Thought",
+       "<strong>Whenever you cast a noncreature spell, draw a card</strong> — every cantrip now draws twice; the deck's card engine."
+      ],
+      [
+       "Swiftfoot Boots",
+       "<strong>Hexproof and haste</strong> — deploy Shu Yun and swing the same turn, safe from targeted removal. Equip {1}."
+      ],
+      [
+       "Swords to Plowshares",
+       "Exile target creature; its controller gains life equal to its power — the white removal benchmark."
+      ],
+      [
+       "Jeskai Ascendancy",
+       "<strong>Whenever you cast a noncreature spell: creatures you control get +1/+1 and untap; you may draw then discard</strong> — the engine that pumps the team and digs to the combo."
+      ],
+      [
+       "Expedite",
+       "<strong>Haste + draw a card</strong> — a cantrip that lets Shu Yun swing immediately."
+      ],
+      [
+       "Path to Exile",
+       "Exile target creature; its controller may search for a basic land — second white removal."
+      ]
+     ],
+     "Creatures": [
+      [
+       "Monastery Mentor",
+       "Prowess; <strong>whenever you cast a noncreature spell, create a 1/1 Monk token with prowess</strong> — the go-wide engine that also swings for commander damage."
+      ],
+      [
+       "Feather, the Redeemed",
+       "Flying; <strong>instants/sorceries that target your creature return to hand instead of the graveyard</strong> — recast your cantrips every turn, Shu Yun's best friend."
+      ],
+      [
+       "Storm-Kiln Artist",
+       "<strong>+1/+0 per artifact; magecraft: create a Treasure</strong> — every cantrip ramps you while the creature grows."
+      ],
+      [
+       "Kykar, Wind's Fury",
+       "Flying; <strong>noncreature spell → Spirit token; sacrifice a Spirit: add {R}</strong> — token + ramp engine in one."
+      ],
+      [
+       "Archmage Emeritus",
+       "<strong>Magecraft: whenever you cast or copy an instant or sorcery, draw a card</strong> — a cantrip chain draws the whole deck."
+      ],
+      [
+       "Young Pyromancer",
+       "<strong>Whenever you cast an instant or sorcery, create a 1/1 Elemental</strong> — the classic token engine."
+      ]
+     ],
+     "Instants": [
+      [
+       "Brute Force",
+       "<strong>+3/+3 until end of turn</strong> — a one-mana pump that pushes Shu Yun past the 21 commander-damage line."
+      ],
+      [
+       "Fists of Flame",
+       "Draw a card; <strong>trample and +1/+0 for each card drawn this turn</strong> — the finisher that scales with your cantrip count."
+      ],
+      [
+       "Counterspell",
+       "Counter target spell — the blue safety net for your Voltron turn."
+      ],
+      [
+       "Leap",
+       "<strong>Flying until end of turn, draw a card</strong> — a cantrip that also dodges ground blockers."
+      ],
+      [
+       "Legion Leadership",
+       "<strong>Double target creature's power and give it first strike</strong> (or MDFC land) — an extra double-power effect for Shu Yun."
+      ],
+      [
+       "Loran's Escape",
+       "<strong>Hexproof + indestructible until end of turn, scry 1</strong> — the protection cantrip."
+      ]
+     ],
+     "Sorceries": [
+      [
+       "Crash Through",
+       "<strong>Creatures you control gain trample; draw a card</strong> — the cantrip that pushes damage through blockers."
+      ],
+      [
+       "Preordain",
+       "<strong>Scry 2, then draw</strong> — the classic blue cantrip."
+      ],
+      [
+       "Ponder",
+       "<strong>Look at top 3, reorder, draw; may shuffle</strong> — the other classic cantrip."
+      ],
+      [
+       "Enter the Enigma",
+       "<strong>Can't be blocked this turn; draw a card</strong> — another unblockable cantrip."
+      ],
+      [
+       "Gitaxian Probe",
+       "<strong>Look at target player's hand, draw a card</strong> — a free (2 life) cantrip that sees everything."
+      ],
+      [
+       "Serum Visions",
+       "<strong>Draw a card, scry 2</strong> — the third classic cantrip."
+      ]
+     ],
+     "Artifacts": [
+      [
+       "Runechanter's Pike",
+       "<strong>First strike and +X/+0 where X = instant/sorceries in your graveyard</strong> — with a graveyard full of cantrips, Shu Yun one-shots. Equip {2}."
+      ],
+      [
+       "Inquisitor's Flail",
+       "<strong>Equipped creature deals double combat damage</strong> — stacks with Shu Yun's double strike for 4× damage."
+      ],
+      [
+       "Sunforger",
+       "<strong>+4/+0; {R}{W}, unattach: tutor a red/white instant with MV ≤ 4 and cast it free</strong> — fetch Unleash Fury or protection at will."
+      ],
+      [
+       "Wayfarer's Bauble",
+       "{2}, {T}, sacrifice: search for a basic land — 1-mana ramp."
+      ],
+      [
+       "Leering Emblem",
+       "<strong>Whenever you cast a spell, equipped creature gets +2/+2</strong> — every cantrip pumps Shu Yun even more. Equip {2}."
+      ]
+     ],
+     "Enchantments": [
+      [
+       "Combat Research",
+       "Enchanted creature: <strong>\"Whenever it deals combat damage to a player, draw a card\"; if legendary, +1/+1 and ward {1}</strong> — the perfect Shu Yun aura."
+      ],
+      [
+       "Staggering Insight",
+       "<strong>+1/+1, lifelink, and draw on combat damage</strong> — lifegain + card advantage on Shu Yun."
+      ],
+      [
+       "Curiosity",
+       "<strong>Whenever enchanted creature deals damage to an opponent, you may draw a card</strong> — repeatable draw on an unblockable Shu Yun."
+      ],
+      [
+       "Spirit Mantle",
+       "<strong>+1/+1 and protection from creatures</strong> — Shu Yun can't be blocked or targeted by creatures."
+      ],
+      [
+       "Cartouche of Knowledge",
+       "Draw a card on entry; <strong>+1/+1 and flying</strong> — aura cantrip that dodges ground blockers."
+      ]
+     ],
+     "Planeswalkers": [
+      [
+       "Saheeli, Sublime Artificer",
+       "<strong>Noncreature spell → Servo token; −2: copy an artifact/creature</strong> — token engine + copy utility."
+      ],
+      [
+       "Jeska, Thrice Reborn",
+       "<strong>0: until your next turn, target creature deals triple damage</strong> — triple commander damage with Shu Yun."
+      ],
+      [
+       "Narset of the Ancient Way",
+       "+1: gain 2 life, add {U}/{R}/{W} for noncreature spells; −2: draw and discard — walker cantrip engine."
+      ]
+     ],
+     "UtilityLands": [
+      [
+       "Rogue's Passage",
+       "{4}, {T}: <strong>target creature can't be blocked this turn</strong> — guarantee Shu Yun connects."
+      ],
+      [
+       "Slayers' Stronghold",
+       "{R}{W}, {T}: <strong>+2/+0, vigilance and haste</strong> — pump + haste from a land."
+      ],
+      [
+       "Mystic Sanctuary",
+       "On entry (if untapped): <strong>put an instant/sorcery from your graveyard on top</strong> — recur your key spells."
+      ],
+      [
+       "Reliquary Tower",
+       "<strong>No maximum hand size</strong> — hold your cantrip chains."
+      ],
+      [
+       "Access Tunnel",
+       "{3}, {T}: <strong>creature with power 3 or less can't be blocked</strong> — Shu Yun (3 power) unblockable from a land."
+      ]
+     ],
+     "ManaBase": [
+      [
+       "Island",
+       "({T}: add {U}.) The basic blue source."
+      ],
+      [
+       "Mountain",
+       "({T}: add {R}.) The basic red source."
+      ],
+      [
+       "Plains",
+       "({T}: add {W}.) The basic white source."
+      ],
+      [
+       "Command Tower",
+       "{T}: add one mana of any color in your commander's color identity — the format's best land."
+      ],
+      [
+       "Arcane Signet",
+       "{T}: add one mana of any color in your commander's color identity — the best mana rock."
+      ],
+      [
+       "Sol Ring",
+       "{T}: add {C}{C} — the format's best ramp."
+      ]
+     ]
+    },
+    "cat_synopsis": {
+     "HighSynergy": [
+      "🌟 High Synergy Cards",
+      "The Voltron core: unblockable cantrips (Slip Through Space, Distortion Strike) and pump spells that trigger prowess and double strike."
+     ],
+     "TopCards": [
+      "🔥 Top Cards",
+      "The most played cards: the draw engine (Whirlwind of Thought), protection (Swiftfoot Boots) and removal."
+     ],
+     "Creatures": [
+      "🧝 Creatures",
+      "Prowess/magecraft engines: token makers and cantrip recursion that fuel the spell chain."
+     ],
+     "Instants": [
+      "⚡ Instants",
+      "Pump, protection and counterspells — the spells that push Shu Yun past 21 commander damage."
+     ],
+     "Sorceries": [
+      "📜 Sorceries",
+      "The cantrip suite: Opt-class draw that digs while triggering prowess."
+     ],
+     "Artifacts": [
+      "⚔️ Artifacts",
+      "Equipment that multiplies damage (Pike, Flail) and tutors (Sunforger)."
+     ],
+     "Enchantments": [
+      "🌿 Enchantments",
+      "Auras that draw on combat damage and protect Shu Yun."
+     ],
+     "Planeswalkers": [
+      "🔮 Planeswalkers",
+      "Utility walkers: token engines, triple damage (Jeska) and cantrip support."
+     ],
+     "UtilityLands": [
+      "🏰 Utility Lands",
+      "Unblockable lands and recursion for your key spells."
+     ],
+     "ManaBase": [
+      "🌲 Lands / Mana Base",
+      "Jeskai fixing: basics, Command Tower, rocks."
+     ]
+    },
+    "cat_order": [
+     "HighSynergy",
+     "TopCards",
+     "Creatures",
+     "Instants",
+     "Sorceries",
+     "Artifacts",
+     "Enchantments",
+     "Planeswalkers",
+     "UtilityLands",
+     "ManaBase"
+    ],
+    "mana_cost_html": "<img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/> (3 mana)",
+    "extra_table_rows": "<tr><td><strong>Power / Toughness</strong></td><td>3 / 2</td></tr>"
+   }
   }
  }
 }

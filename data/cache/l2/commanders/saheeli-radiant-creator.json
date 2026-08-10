@@ -4975,6 +4975,327 @@
    ],
    "mana_cost_html": "<img src=\"https://svgs.scryfall.io/card-symbols/1.svg\" alt=\"1\" title=\"1\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/> (4 mana)",
    "extra_table_rows": "<tr><td><strong>Power / Toughness</strong></td><td>4/4</td></tr>"
+  },
+  "primer_by_plan": {
+   "Energy": {
+    "quick_read": [
+     "**Energy engine** : every Artificer or artifact spell gives an energy counter.",
+     "**Copy factory** : at the beginning of combat, 3 energy = a hasty 5/5 token copy of an artifact or creature.",
+     "**Artifact synergies** : Aetherworks Marvel, Decoction Module and Generatorium loop energy."
+    ],
+    "plan_title": "⚡ ENERGY — The signature plan (1,209 decks)",
+    "plan_html": "<h3>⚡ ENERGY <span class=\"badge\">CHOSEN PLAN</span></h3>\n    <p>The dominant plan for Saheeli, Radiant Creator (1,209 Energy decks, 745 Artifacts, 288 Tokens on EDHREC).</p>\n<div class=\"plan-block\"><span class=\"plan-badge\">How it plays</span>\n<ul>\n<li><strong>Energy on every spell</strong> : each Artificer or artifact spell gives an energy counter.</li>\n<li><strong>Passive stockpile</strong> : energy accumulates, then pays for massive <strong>outlets</strong> (Aetherworks Marvel, Roil Cartographer, Architect of the Untamed).</li>\n<li><strong>Self-fueling</strong> : the artifacts you cast also provide the 3 <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> for Saheeli's hasty 5/5 copy each combat.</li>\n</ul></div><div class=\"plan-block\"><span class=\"plan-badge\">Core loop</span>\n<ul>\n<li><strong>Energy economy</strong> : Decoction Module, Gonti's Aether Heart and Era of Innovation turn every permanent entering into <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>.</li>\n<li><strong>Explosion</strong> : Izzet Generatorium (+1 <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> per gain) and Aether Refinery (doubling) multiply production.</li>\n<li><strong>Payoff</strong> : Nissa, Worldsoul Speaker turns 8 <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> into free permanent spells.</li>\n</ul></div><div class=\"plan-block\"><span class=\"plan-badge\">Win conditions</span>\n<ul>\n<li><strong>Infinite combats</strong> : Lightning Runner (8 <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> = extra combat) copied or backed by Aetherwind Basker.</li>\n<li><strong>Infinite turns</strong> : Gonti's Aether Heart recurred by Academy Ruins and copied as a 5/5.</li>\n<li><strong>Finisher</strong> : Aetherflux Conduit (50 <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> = 7 cards + free spells).</li>\n</ul></div>",
+    "plan_cards": [
+     "Aetherworks Marvel",
+     "Decoction Module",
+     "Nissa, Worldsoul Speaker",
+     "Lightning Runner"
+    ],
+    "source_html": "<em>&ldquo;Building Modern Boros Energy In Commander&rdquo;</em> (Kara Blinebry, EDHREC Articles, March 19, 2026 — a guide to converting a Modern deck into EDH): the guide validates the plan through its insight on the energy economy — <strong>&ldquo;nearly every card in Boros Energy is a must-kill threat by itself&rdquo;</strong>. Transposed to Saheeli: every engine piece (Decoction Module, Gonti&rsquo;s Aether Heart, Era of Innovation) is a must-kill — protect them, and energy production snowballs into infinite combats and turns.",
+    "combos_note": "284 raw combos found (search across 26 key pieces) → 146 Temur-compatible → 26 relevant (overlap ≥ 2/3 with the EDHREC pool, 2-4 cards, popularity ≥ 100) → 11 mechanical families (duplicate loops merged). 138 combos discarded off-color. Produces/Prerequisites/Execution reproduce Commander Spellbook content verbatim.",
+    "explanations": {
+     "HighSynergy": [
+      [
+       "Aetherworks Marvel",
+       "The big <strong>energy outlet</strong>: whenever a permanent you control is put into a graveyard, you get <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>, and <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, pay six <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> makes you look at the top six cards of your library and cast a spell from among them without paying its mana cost. With Saheeli copying your artifacts, each 5/5 copy that dies fuels the Marvel."
+      ],
+      [
+       "Decoction Module",
+       "Whenever a creature you control enters, you get <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>. Then <img src=\"https://svgs.scryfall.io/card-symbols/4.svg\" alt=\"4\" title=\"4\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/> returns a creature you control to its owner's hand — you re-cast your trigger creatures and regain energy on every pass. One of the most played engines (8,518 decks)."
+      ],
+      [
+       "Nissa, Worldsoul Speaker",
+       "<strong>Landfall</strong>: each land entering = <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>. Above all: you may pay eight <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> <em>rather than the mana cost</em> of permanent spells you cast — the best way to turn your energy reserve into free permanents (Saheeli, Marvel, big artifacts)."
+      ],
+      [
+       "Aetherflux Conduit",
+       "Whenever you cast a spell, you get <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> equal to the mana spent. Then <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, pay <strong>fifty <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/></strong>: draw seven cards and cast spells from your hand without paying their mana costs. The brutal endgame once the energy loop runs at full tilt."
+      ],
+      [
+       "Izzet Generatorium",
+       "Energy multiplier: each <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> you would get becomes <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> + 1. And once you have paid or lost four or more <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> this turn, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: draw a card. With the Module/Heart loops, every iteration pays for itself and more."
+      ],
+      [
+       "Lightning Runner",
+       "<strong>Double strike, haste</strong>. Whenever it attacks: <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>, then you may pay eight <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> to untap all creatures you control and get an <strong>additional combat phase</strong> after this one. The deck's infinite-combat engine."
+      ]
+     ],
+     "TopCards": [
+      [
+       "Rogue Refiner",
+       "On entry: draw a card and get <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>. A perfect energy cantrip to fill Saheeli's reserve as early as turn 3."
+      ],
+      [
+       "Architect of the Untamed",
+       "<strong>Landfall</strong>: each land = <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>. Pay eight <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>: create a <strong>6/6 Beast artifact creature</strong> token. The endgame army, fueled by lands and doubled by Parallel Lives."
+      ],
+      [
+       "Roil Cartographer",
+       "Landfall: each land = <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>. <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, pay six <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>: <strong>draw three cards</strong>. The energy → cards conversion, exactly what keeps the machine running."
+      ],
+      [
+       "Panharmonicon",
+       "If an artifact or creature entering causes a triggered ability of a permanent you control to trigger, that ability triggers <strong>an additional time</strong>. With Saheeli, each 5/5 copy triggers Modules, Hearts and other ETBs twice — the energy loops run wild."
+      ],
+      [
+       "Solemn Simulacrum",
+       "Searches a basic land on entry, draws a card when it dies. Basic colorless value: it dies (Aetherworks Marvel loves that) and copies beautifully as a 5/5 via Saheeli."
+      ],
+      [
+       "Aether Refinery",
+       "You get <strong>twice</strong> the energy. <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: get <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>, then pay any amount of <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> to create an X/X black Aetherborn creature token. A multiplier AND a mana → creature outlet."
+      ]
+     ],
+     "Creatures": [
+      [
+       "Rampaging Aetherhood",
+       "<strong>Trample, ward <img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/></strong>. At the beginning of your upkeep, you get <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> equal to its power, then you may pay any amount of <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> to put that many +1/+1 counters on it. It grows while producing the energy that grows it."
+      ],
+      [
+       "Pia Nalaar, Chief Mechanic",
+       "Whenever one or more artifact creatures you control deal combat damage to a player, you get <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>. At your end step, pay any amount of <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> to create an X/X Vehicle artifact token named Nalaar Aetherjet with flying and crew 2. Your token armies become squadrons."
+      ],
+      [
+       "Ornithopter of Paradise",
+       "<strong>Flying</strong> and <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add one mana of any color. A flying fixer that is also an ideal target for Saheeli's 5/5 copies."
+      ],
+      [
+       "Sai, Master Thopterist",
+       "Whenever you cast an artifact spell, create a 1/1 Thopter artifact creature token with flying. <img src=\"https://svgs.scryfall.io/card-symbols/1.svg\" alt=\"1\" title=\"1\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/>, sacrifice two artifacts: draw a card. The token generator + draw engine that feeds the whole strategy."
+      ],
+      [
+       "Stridehangar Automaton",
+       "Thopters you control get +1/+1, and whenever one or more artifact tokens would be created under your control, an <strong>additional Thopter</strong> is created instead. The essential token multiplier for the army."
+      ],
+      [
+       "Aetherwind Basker",
+       "<strong>Trample</strong>. On entry and whenever it attacks, you get <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> for <strong>each creature you control</strong>. The massive energy source behind the infinite combats with Lightning Runner."
+      ]
+     ],
+     "Instants": [
+      [
+       "Electrosiphon",
+       "Counter target spell and get <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> equal to its mana value. A counterspell that pays: you counter AND fill the reserve."
+      ],
+      [
+       "Glimmer of Genius",
+       "Scry 2, then draw two cards. You get <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>. Dig + energy in a single spell."
+      ],
+      [
+       "Tune the Narrative",
+       "Draw a card. You get <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>. The 1-mana cantrip that feeds Saheeli as early as turn 2."
+      ],
+      [
+       "Reality Shift",
+       "Exile target creature; its controller manifests the top card of their library (a 2/2 face-down creature). Efficient blue removal, even against commanders."
+      ],
+      [
+       "Arcane Denial",
+       "Counter target spell; its controller draws up to two cards at the beginning of the next turn's upkeep, and you draw one too. The most fair-play counterspell — and one of the best."
+      ],
+      [
+       "Chaos Warp",
+       "The ultimate red removal: shuffle any permanent into its owner's library, who reveals the top card — if it's a permanent, it enters the battlefield. Deals with what blue cannot touch."
+      ]
+     ],
+     "Sorceries": [
+      [
+       "Confiscation Coup",
+       "Choose target artifact or creature: you get <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>, then you may pay <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> equal to that permanent's mana value to <strong>gain control of it</strong>. Theft + energy, perfect against opponents' artifacts."
+      ],
+      [
+       "Chain Reaction",
+       "Deals X damage to each creature, where X is the number of creatures on the battlefield. The red board wipe: cast it when your token army survives better than everyone else's."
+      ],
+      [
+       "One with the Machine",
+       "Draw cards equal to the greatest mana value among artifacts you control. With Aetherworks Marvel (4) or a big artifact on board, that is a massive draw."
+      ],
+      [
+       "Wheel of Potential",
+       "Get <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>, then you may pay any amount of <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>: each player exiles their hand and draws a number of cards equal to the amount paid. If seven or more <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> was paid this way, you may play cards you own exiled this way until the end of your next turn — a wheel that pays energy."
+      ],
+      [
+       "Explosive Vegetation",
+       "Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle. The classic ramp to reach 6-7 mana and cast the engines."
+      ],
+      [
+       "Farseek",
+       "Search your library for a Plains, Island, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle. The 2-mana ramp — in Temur, it fetches your Islands and Mountains."
+      ]
+     ],
+     "Artifacts": [
+      [
+       "Adaptive Omnitool",
+       "Equipped creature gets +1/+1 for each artifact you control, and whenever it attacks, look at the top six cards of your library to reveal an artifact card into your hand. An artifact tutor on a stick — huge with your artifact armies."
+      ],
+      [
+       "Retrofitter Foundry",
+       "The token chain: <img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/>,<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/> → 1/1 Servo, sacrifice a Servo → Thopter with flying, sacrifice a Thopter → <strong>4/4 Construct</strong>. The factory that feeds Sai, Stridehangar and the token combos."
+      ],
+      [
+       "Stone Idol Generator",
+       "Whenever a creature you control attacks, you get <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>. <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, pay six <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>: create a <strong>6/12 Construct with trample</strong>. The big finisher + combat energy engine (infinite-combat combo with Lightning Runner)."
+      ],
+      [
+       "Conjurer's Closet",
+       "At the beginning of your end step, you may exile target creature you control, then return that card to the battlefield under your control. Re-triggers all your ETBs — more energy and recycled 5/5 copies."
+      ],
+      [
+       "Esoteric Duplicator",
+       "Whenever you sacrifice this artifact or another artifact, you may pay <img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/>: at the beginning of the next end step, create a token that's a <strong>copy</strong> of that artifact. Your temporary Saheeli copies become permanent — the heart of the Copy plan."
+      ],
+      [
+       "Sundial of the Infinite",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/1.svg\" alt=\"1\" title=\"1\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: <strong>end the turn</strong>, exiling abilities on the stack and ending \"until end of turn\" effects. The ultimate answer to the sacrifice of Saheeli's 5/5 copies: they survive past the end step."
+      ]
+     ],
+     "Enchantments": [
+      [
+       "Era of Innovation",
+       "Whenever an artifact or Artificer you control enters, you may pay <img src=\"https://svgs.scryfall.io/card-symbols/1.svg\" alt=\"1\" title=\"1\" class=\"ms\"/>: if you do, you get <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>. Pay six <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>, sacrifice this enchantment: draw three cards. The deck's passive energy engine."
+      ],
+      [
+       "Thopter Spy Network",
+       "At the beginning of your upkeep, if you control an artifact, create a 1/1 Thopter with flying. And whenever one or more artifact creatures you control deal combat damage to a player, draw a card. Tokens + draw in one card."
+      ],
+      [
+       "Aether Revolt",
+       "<strong>Revolt</strong>: as long as a permanent left the battlefield under your control this turn, your noncombat damage sources deal 2 more damage. And whenever you get one or more <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>, this enchantment deals that much damage to any target — your energy loops become a damage machine."
+      ],
+      [
+       "Primal Prayers",
+       "On entry: <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>. You may cast creature spells with mana value 3 or less by paying <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/> rather than their mana cost — and if you cast a spell this way, you may cast it as though it had flash. A mana saver for your key small creatures."
+      ],
+      [
+       "Parallel Lives",
+       "If an effect would create one or more tokens under your control, it creates <strong>twice that many</strong> instead. All your Thopters, Servos, Beasts and 5/5 copies double — the army explodes."
+      ],
+      [
+       "Doubling Season",
+       "Doubles tokens <strong>and</strong> counters. With Saheeli: two 5/5 copies instead of one; with Rampaging Aetherhood, its +1/+1 counters double too. Expensive but devastating."
+      ]
+     ],
+     "Planeswalkers": [
+      [
+       "Saheeli, Sublime Artificer",
+       "Whenever you cast a noncreature spell, create a 1/1 Servo artifact creature token. −2: target artifact you control becomes a copy of another artifact or creature you control until end of turn, except it's an artifact in addition to its other types. A second \"copy\" effect in the command zone, in the perfect colors."
+      ],
+      [
+       "Saheeli, Filigree Master",
+       "+1: Scry 1, you may tap an untapped artifact you control to draw a card. −2: create two 1/1 Thopter tokens with flying that gain haste. −4: an emblem with \"Artifact creatures you control get +1/+1\" and \"Artifact spells you cast cost <img src=\"https://svgs.scryfall.io/card-symbols/1.svg\" alt=\"1\" title=\"1\" class=\"ms\"/> less to cast\". Incredible token value for 4 mana."
+      ]
+     ],
+     "UtilityLands": [
+      [
+       "Treasure Vault",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/C.svg\" alt=\"C\" title=\"C\" class=\"ms\"/>. <img src=\"https://svgs.scryfall.io/card-symbols/X.svg\" alt=\"X\" title=\"X\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/X.svg\" alt=\"X\" title=\"X\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, sacrifice this land: create X Treasure tokens. With spare colorless mana, a Treasure reserve for the big casts."
+      ],
+      [
+       "HELIOS One",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/C.svg\" alt=\"C\" title=\"C\" class=\"ms\"/>. <img src=\"https://svgs.scryfall.io/card-symbols/1.svg\" alt=\"1\" title=\"1\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: you get <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>. <img src=\"https://svgs.scryfall.io/card-symbols/3.svg\" alt=\"3\" title=\"3\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, pay X <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>, sacrifice this land: <strong>destroy target nonland permanent with mana value X</strong>. A land that produces energy AND removal."
+      ],
+      [
+       "Seat of the Synod",
+       "Artifact land: <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/>. Counts as an artifact for Sai, Stridehangar, Urza and your artifact spells — free blue fixing."
+      ],
+      [
+       "Great Furnace",
+       "Artifact land: <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/>. The red counterpart of Seat of the Synod: red mana that is also an artifact."
+      ],
+      [
+       "Tree of Tales",
+       "Artifact land: <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/>. The third of the Temur trio: green mana that counts as an artifact."
+      ],
+      [
+       "Archway of Innovation",
+       "Enters tapped unless you control an Island. <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/>. <img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: the next spell you cast this turn has <strong>improvise</strong> — your artifacts can help pay for it. Blue colorless ramp."
+      ]
+     ],
+     "ManaBase": [
+      [
+       "Aether Hub",
+       "On entry: <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>. <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/C.svg\" alt=\"C\" title=\"C\" class=\"ms\"/>, or <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, pay <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>: add one mana of any color. The fixing + energy land, played in 8,545 decks (synergy 0.85)."
+      ],
+      [
+       "Solar Transformer",
+       "Enters tapped; on entry you get <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>. <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/C.svg\" alt=\"C\" title=\"C\" class=\"ms\"/>, or <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>, pay <img src=\"https://svgs.scryfall.io/card-symbols/E.svg\" alt=\"E\" title=\"E\" class=\"ms\"/>: add one mana of any color. An energy fixer that fills the reserve (synergy 0.78)."
+      ],
+      [
+       "Aetheric Amplifier",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add one mana of any color. <img src=\"https://svgs.scryfall.io/card-symbols/4.svg\" alt=\"4\" title=\"4\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: <strong>double the number of each kind of counter</strong> on target permanent or that you have — your energy counters double, your +1/+1 counters too."
+      ],
+      [
+       "Command Tower",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add one mana of any color in your commander's color identity. The best Temur land, present in 9,218 decks."
+      ],
+      [
+       "Ketria Triome",
+       "<img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/>, <img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/> or <img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/>. Enters tapped, with cycling <img src=\"https://svgs.scryfall.io/card-symbols/3.svg\" alt=\"3\" title=\"3\" class=\"ms\"/>. Full three-color fixing, cycleable late game."
+      ],
+      [
+       "Sulfur Falls",
+       "Enters tapped unless you control an Island or a Mountain. <img src=\"https://svgs.scryfall.io/card-symbols/T.svg\" alt=\"T\" title=\"T\" class=\"ms\"/>: add <img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/> or <img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/>. The basic blue-red fixer."
+      ]
+     ]
+    },
+    "cat_synopsis": {
+     "HighSynergy": [
+      "🌟 High Synergy Cards",
+      "The core of the Energy engine: the cards that produce, multiply and spend energy — played in the vast majority of the 1,209 Energy decks."
+     ],
+     "TopCards": [
+      "🔥 Top Cards",
+      "The most played cards: artifact value, energy landfall and trigger multipliers."
+     ],
+     "Creatures": [
+      "🧝 Creatures",
+      "Artificer and artifact creatures: Thopters, massive energy producers and token engines."
+     ],
+     "Instants": [
+      "⚡ Instants",
+      "Counterspells and draw that generate energy along the way."
+     ],
+     "Sorceries": [
+      "📜 Sorceries",
+      "Mass removal, permanent theft and ramp."
+     ],
+     "Artifacts": [
+      "⚔️ Artifacts",
+      "Utility tools: token chain, blinking, artifact tutor and the answer to copy-sacrifice."
+     ],
+     "Enchantments": [
+      "🌿 Enchantments",
+      "The passive engines: doubling energy, doubling tokens and turning energy into damage."
+     ],
+     "Planeswalkers": [
+      "🔮 Planeswalkers",
+      "The two Saheeli planeswalkers: spare tokens and copy effects in the command zone."
+     ],
+     "UtilityLands": [
+      "🏰 Utility Lands",
+      "Artifact lands, energy generators and permanent destruction on a land."
+     ],
+     "ManaBase": [
+      "🌲 Lands / Mana Base",
+      "Temur fixing: energy lands and rocks that also produce mana of any color."
+     ]
+    },
+    "cat_order": [
+     "HighSynergy",
+     "TopCards",
+     "Creatures",
+     "Instants",
+     "Sorceries",
+     "Artifacts",
+     "Enchantments",
+     "Planeswalkers",
+     "UtilityLands",
+     "ManaBase"
+    ],
+    "mana_cost_html": "<img src=\"https://svgs.scryfall.io/card-symbols/1.svg\" alt=\"1\" title=\"1\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/U.svg\" alt=\"U\" title=\"U\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/> (4 mana)",
+    "extra_table_rows": "<tr><td><strong>Power / Toughness</strong></td><td>4/4</td></tr>"
+   }
   }
  }
 }

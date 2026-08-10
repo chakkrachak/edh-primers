@@ -3686,6 +3686,313 @@
    ],
    "mana_cost_html": "<img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/W.svg\" alt=\"W\" title=\"W\" class=\"ms\"/> (4 mana)",
    "extra_table_rows": ""
+  },
+  "primer_by_plan": {
+   "Equipment": {
+    "quick_read": [
+     "**Free equip** : it equips for free on entry — every Equipment in hand hits the board immediately.",
+     "**Draw engine** : draws massively on attack (1 card per equipped creature).",
+     "**Treasures** : past 7 power every attack generates Treasures — ramp from combat damage.",
+     "**Naya package** : access to the best Equipment support (Puresteel Paladin, Tifa, Colossus Hammer)."
+    ],
+    "plan_title": "⚔️ VOLTRON EQUIPMENT — The signature plan (2,760 Equipment decks)",
+    "plan_html": "<h3>⚔️ VOLTRON EQUIPMENT <span class=\"badge\">CHOSEN PLAN</span></h3>\n    <p>The dominant plan for Cloud (2,760 Equipment decks + 1,568 Voltron on EDHREC).</p>\n<div class=\"plan-block\"><span class=\"plan-badge\">How it plays</span>\n<ul>\n<li><strong>Free equip</strong> : Cloud equips for free on entry — every Equipment in hand hits the board immediately.</li>\n<li><strong>Draw per attacker</strong> : each attack draws a card per equipped attacking creature.</li>\n<li><strong>War machine</strong> : Colossus Hammer (+10/+10), Champion's Helm (+2/+2 + hexproof) push Cloud past 7 power → Treasures.</li>\n</ul></div><div class=\"plan-block\"><span class=\"plan-badge\">Core loop</span>\n<ul>\n<li><strong>Draw engine</strong> : Puresteel Paladin (free equip with Metalcraft), Sigarda's Aid / Forge Anew (free flash equips).</li>\n<li><strong>Doubling</strong> : Cloud, Midgar Mercenary doubles the triggers.</li>\n</ul></div><div class=\"plan-block\"><span class=\"plan-badge\">Win conditions</span>\n<ul>\n<li><strong>One-shot</strong> : commander damage from Colossus Hammer.</li>\n<li><strong>Infinite combats</strong> : Aggravated Assault + Sword of Feast and Famine, Aurelia + Helm of the Host.</li>\n<li><strong>Extra phases</strong> : Tifa / Aurelia combat phases.</li>\n</ul></div>",
+    "plan_cards": [
+     "Puresteel Paladin",
+     "Colossus Hammer",
+     "Champion's Helm",
+     "Lightning Greaves"
+    ],
+    "source_html": "<em>“EDHREC Guide to Equipment in Commander”</em> (Cooper Gottfried, edhrec.com): the official EDHREC guide identifies <strong>4 pillars</strong> of an Equipment deck: ① the <strong>equipment</strong> themselves (cheap-to-equip weapons — Mask of Memory, Lavaspur Boots — or powerful finishers), ② the <strong>free-equip engines</strong> (Puresteel Paladin, Sigarda’s Aid, Brass Squire, Forge Anew), ③ <strong>card draw</strong> tied to attacking with equipped creatures, and ④ <strong>protection</strong> (hexproof, indestructible, boots). The guide’s core insight: an Equipment deck lives and dies by its ability to re-equip fast after a wipe — Cloud’s free self-equip on entry plus Puresteel Paladin make it one of the best shells for that exact engine.",
+    "combos_note": "110 Naya combos discarded (insufficient overlap, 5+ cards, low popularity, or off-plan pieces) plus 66 off-color ones. Kept 4: the infinite-combat engines. Produces/Prerequisites/Execution reproduce Commander Spellbook content verbatim.",
+    "explanations": {
+     "HighSynergy": [
+      [
+       "Puresteel Paladin",
+       "Draw a card whenever an Equipment enters, and with Metalcraft (3+ artifacts) all your Equipment have equip {0} — the free draw/equip engine."
+      ],
+      [
+       "Colossus Hammer",
+       "Equipped creature gets +10/+10 (and loses flying). Cloud equips for free on entry → an immediate 14/14 threat. Equip {8} is expensive, but Puresteel Paladin makes it free."
+      ],
+      [
+       "Conqueror's Flail",
+       "Equipped creature gets +1/+1 for each color among permanents you control, and while it is equipped, opponents can't cast spells during your turn — a lock piece."
+      ],
+      [
+       "Red XIII, Proud Warrior",
+       "Vigilance, trample; your other modified creatures (equipped, enchanted, or with counters) gain them too. On entry, returns an Equipment."
+      ],
+      [
+       "Tifa, Martial Artist",
+       "Melee, and whenever a creature with power 7+ deals combat damage, untap all your creatures and there is an additional combat phase — the finisher enabler."
+      ],
+      [
+       "Sword of the Animist",
+       "+1/+1, and whenever the equipped creature attacks, search for a basic land and put it onto the battlefield tapped — Cloud ramps one land per combat."
+      ]
+     ],
+     "TopCards": [
+      [
+       "Nature's Lore",
+       "Search your library for a Forest and put it onto the battlefield (untapped) — 2-mana ramp."
+      ],
+      [
+       "Bugenhagen, Wise Elder",
+       "At your upkeep, if you control a creature with power 7+ (equipped Cloud!), draw a card. And {T}: add one mana of any color."
+      ],
+      [
+       "Cloud, Midgar Mercenary",
+       "On entry, search your library for an Equipment and put it into your hand. While equipped, Cloud's and his Equipment's triggered abilities trigger an additional time — a second Cloud engine."
+      ],
+      [
+       "Cultivate",
+       "Search for up to two basic lands: one onto the battlefield tapped, one to hand."
+      ],
+      [
+       "Champion's Helm",
+       "+2/+2; while the equipped creature is legendary (Cloud!), it has hexproof — protection from targeted spells."
+      ],
+      [
+       "Lightning Greaves",
+       "Equipped creature has haste and shroud (can't be targeted by ANYONE, including you). Haste to strike immediately, but equip can't target it afterwards."
+      ]
+     ],
+     "Creatures": [
+      [
+       "Halvar, God of Battle",
+       "Your enchanted or equipped creatures have double strike. At the start of each combat, you may move an Aura/Equipment for free — the combat buff engine."
+      ],
+      [
+       "Kellan, the Fae-Blooded",
+       "Double strike; your other creatures get +1/+0 per Aura/Equipment attached to Kellan. On entry, search for an Aura or Equipment."
+      ],
+      [
+       "Aurelia, the Warleader",
+       "Flying, vigilance, haste. When she attacks for the first time each turn, untap your creatures and there is an additional combat phase — the combat doubler."
+      ],
+      [
+       "Stoneforge Mystic",
+       "On entry, search for an Equipment. {1}{W}, {T}: put an Equipment from your hand onto the battlefield — tutor + free deploy."
+      ],
+      [
+       "Danitha Capashen, Paragon",
+       "First strike, vigilance, lifelink. Aura and Equipment spells you cast cost {1} less — the tribal discount."
+      ],
+      [
+       "Bastion Protector",
+       "Commander creatures you control (Cloud!) get +2/+2 and have indestructible — the ultimate bodyguard."
+      ]
+     ],
+     "Instants": [
+      [
+       "Swords to Plowshares",
+       "Exile target creature; its controller gains life equal to its power. The white removal benchmark."
+      ],
+      [
+       "Path to Exile",
+       "Exile target creature; its controller may search for a basic land. Second white removal."
+      ],
+      [
+       "Heroic Intervention",
+       "Your permanents gain hexproof and indestructible until end of turn — protects the whole equipped board."
+      ],
+      [
+       "Boros Charm",
+       "Choose one: 4 damage to a player/planeswalker, indestructible for your permanents, or double strike for a creature — the indestructible mode saves Cloud."
+      ],
+      [
+       "Flawless Maneuver",
+       "Free if you control a commander — your creatures gain indestructible. The protection free-spell."
+      ],
+      [
+       "Akroma's Will",
+       "If you control a commander as you cast it, choose two modes: flying+vigilance+double strike, or lifelink+indestructible+protection from each color — the all-in finisher."
+      ]
+     ],
+     "Sorceries": [
+      [
+       "Cultivate",
+       "Search for up to two basic lands: one tapped, one to hand."
+      ],
+      [
+       "Nature's Lore",
+       "Search for a Forest and put it onto the battlefield (untapped)."
+      ],
+      [
+       "Three Visits",
+       "Search for a Forest and put it onto the battlefield (untapped) — the upgraded Nature's Lore."
+      ],
+      [
+       "Rampant Growth",
+       "Search for a basic land and put it tapped."
+      ],
+      [
+       "Open the Armory",
+       "Search for an Aura or Equipment — flexible tutor."
+      ],
+      [
+       "Steelshaper's Gift",
+       "Search for an Equipment — the deck's most direct tutor."
+      ]
+     ],
+     "Artifacts": [
+      [
+       "Lightning Greaves",
+       "Haste + shroud — see Top Cards."
+      ],
+      [
+       "Colossus Hammer",
+       "+10/+10 — see High Synergy."
+      ],
+      [
+       "Champion's Helm",
+       "+2/+2 + hexproof if legendary — see Top Cards."
+      ],
+      [
+       "Helm of the Host",
+       "At the beginning of combat, create a nonlegendary token copy of the equipped creature with haste — doubles Cloud every combat."
+      ],
+      [
+       "Sword of Feast and Famine",
+       "+2/+2, protection from black and green. On contact: opponent discards a card and you untap all your lands — the infinite-combat combo piece."
+      ],
+      [
+       "Sword of Hearth and Home",
+       "+2/+2, protection from green and white. On contact: exile a creature you own, then search for a basic land — blink + ramp."
+      ]
+     ],
+     "Enchantments": [
+      [
+       "Forge Anew",
+       "On entry, return an Equipment from your graveyard to the battlefield. During YOUR turn, equip at instant speed and the first equip each turn is free — the recursion engine."
+      ],
+      [
+       "Sigarda's Aid",
+       "Your Aura/Equipment spells have flash, and whenever an Equipment enters you may attach it for free — equip at instant speed."
+      ],
+      [
+       "Fighter Class",
+       "On entry, search for an Equipment. Level 2: equipping costs {2} less. Level 3: an attacking creature forces a single blocker — the combat enforcer."
+      ],
+      [
+       "Aggravated Assault",
+       "{3}{R}{R}: untap all your creatures, then an additional combat phase follows this main phase. Combos with Sword of Feast and Famine: contact → untap lands → repeat for infinite combats."
+      ],
+      [
+       "Annie Joins Up",
+       "On entry: 5 damage to a creature/planeswalker. Then your legendary creatures' triggered abilities trigger an additional time — doubles Cloud's draw triggers."
+      ],
+      [
+       "Strong Back",
+       "Equipping the enchanted creature costs {3} less, and it gets +2/+2 for each Aura and Equipment attached — grows with every piece."
+      ]
+     ],
+     "UtilityLands": [
+      [
+       "Rogue's Passage",
+       "{4}, {T}: target creature can't be blocked this turn — guarantees Cloud's contact."
+      ],
+      [
+       "Slayers' Stronghold",
+       "{R}{W}, {T}: a creature gets +2/+0, vigilance and haste — combat buff."
+      ],
+      [
+       "Kessig Wolf Run",
+       "{X}{R}{G}, {T}: a creature gets +X/+0 and trample — the surprise finisher."
+      ],
+      [
+       "Urza's Saga",
+       "Three-step Saga: colorless mana, a 0/0 Construct token that grows with your artifacts, then search for an artifact with cost ≤ 1 — finds Sol Ring et al."
+      ],
+      [
+       "Scavenger Grounds",
+       "{2}, {T}, sacrifice a Desert: exile all graveyards — anti-recursion."
+      ],
+      [
+       "Reliquary Tower",
+       "No maximum hand size — keeps your massive draws."
+      ]
+     ],
+     "ManaBase": [
+      [
+       "Command Tower",
+       "{T}: add one mana of any color in your commander's color identity — the format's best land."
+      ],
+      [
+       "Stomping Ground",
+       "{T}: add {R} or {G} — red/green shockland, enters untapped for 2 life."
+      ],
+      [
+       "Temple Garden",
+       "{T}: add {G} or {W} — green/white shockland."
+      ],
+      [
+       "Sacred Foundry",
+       "{T}: add {R} or {W} — red/white shockland."
+      ],
+      [
+       "Wooded Foothills",
+       "Pay 1 life, sacrifice: search for a Mountain or Forest — red/green fetch."
+      ],
+      [
+       "Windswept Heath",
+       "Pay 1 life, sacrifice: search for a Forest or Plains — green/white fetch."
+      ]
+     ]
+    },
+    "cat_synopsis": {
+     "HighSynergy": [
+      "🌟 High Synergy Cards",
+      "The heart of the deck: free-equip engines, the +10/+10 hammer and the combat lock pieces."
+     ],
+     "TopCards": [
+      "🔥 Top Cards",
+      "The most played cards: ramp, the draw engine and the protection boots."
+     ],
+     "Creatures": [
+      "🧝 Creatures",
+      "The support creatures: tutors, combat doublers and bodyguards."
+     ],
+     "Instants": [
+      "⚡ Instants",
+      "White removal and protection spells that keep Cloud alive."
+     ],
+     "Sorceries": [
+      "📜 Sorceries",
+      "Ramp and Equipment tutors."
+     ],
+     "Artifacts": [
+      "⚔️ Artifacts",
+      "The weapons and boots: hammers, swords and the doubling Helm."
+     ],
+     "Enchantments": [
+      "🌿 Enchantments",
+      "Free-equip engines, recursion and the infinite-combat piece."
+     ],
+     "UtilityLands": [
+      "🏰 Utility Lands",
+      "Unblockable, combat buffs and graveyard hate lands."
+     ],
+     "ManaBase": [
+      "🌲 Lands / Mana Base",
+      "Naya fixing: shocks, fetches and Command Tower."
+     ]
+    },
+    "cat_order": [
+     "HighSynergy",
+     "TopCards",
+     "Creatures",
+     "Instants",
+     "Sorceries",
+     "Artifacts",
+     "Enchantments",
+     "UtilityLands",
+     "ManaBase"
+    ],
+    "mana_cost_html": "<img src=\"https://svgs.scryfall.io/card-symbols/2.svg\" alt=\"2\" title=\"2\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/R.svg\" alt=\"R\" title=\"R\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/G.svg\" alt=\"G\" title=\"G\" class=\"ms\"/><img src=\"https://svgs.scryfall.io/card-symbols/W.svg\" alt=\"W\" title=\"W\" class=\"ms\"/> (4 mana)",
+    "extra_table_rows": ""
+   }
   }
  }
 }

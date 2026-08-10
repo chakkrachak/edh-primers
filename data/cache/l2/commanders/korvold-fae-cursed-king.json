@@ -61,7 +61,14 @@
   "Aftermath Analyst": "https://cards.scryfall.io/normal/front/6/6/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259.jpg?1783906036",
   "Squandered Resources": "https://cards.scryfall.io/normal/front/f/c/fcddbea7-3025-47b1-a597-2d2b2711fb81.jpg?1783946976",
   "Zuran Orb": "https://cards.scryfall.io/normal/front/6/1/618c8ecc-686d-41de-b9b1-1a7ee9cc7c14.jpg?1783926775",
-  "Orcish Lumberjack": "https://cards.scryfall.io/normal/front/1/4/14fb947c-563e-4811-98de-e25bd141a6e5.jpg?1783939269"
+  "Orcish Lumberjack": "https://cards.scryfall.io/normal/front/1/4/14fb947c-563e-4811-98de-e25bd141a6e5.jpg?1783939269",
+  "Lumra, Bellow of the Woods": "https://cards.scryfall.io/normal/front/a/e/ae4f3aaf-3960-48cd-b34b-32e4ae5ae088.jpg?1785161492",
+  "Shifting Woodland": "https://cards.scryfall.io/normal/front/0/5/059164e1-894d-4586-9800-e60d6fbd6eb6.jpg?1783911237",
+  "Spelunking": "https://cards.scryfall.io/normal/front/d/3/d3be4257-2316-4a2e-b347-f71c0368a947.jpg?1783913740",
+  "Springheart Nantuko": "https://cards.scryfall.io/normal/front/5/4/54a3ea87-005e-4985-b2a5-21711d0b71c0.jpg?1783911255",
+  "Life from the Loam": "https://cards.scryfall.io/normal/front/c/d/cdb6432f-3f56-4c92-b09a-2a5b64620c04.jpg?1783907137",
+  "Crop Rotation": "https://cards.scryfall.io/normal/front/5/2/523414cb-f8db-407a-808a-01454e03d8b9.jpg?1783918448",
+  "Six": "https://cards.scryfall.io/normal/front/f/9/f9246b68-580f-4f53-883d-7900880e4b0d.jpg?1783911256"
  },
  "oracle": {
   "Academy Manufactor": "If you would create a Clue, Food, or Treasure token, instead create one of each.",
@@ -6702,6 +6709,1384 @@
       "cardmarket": "5.27"
      },
      "variantCount": 21
+    },
+    {
+     "id": "3875-5702--143",
+     "status": "OK",
+     "uses": [
+      {
+       "card": {
+        "id": 5702,
+        "name": "Springheart Nantuko",
+        "oracleId": "8a3ad2ef-8bcb-40c0-85de-f03328c2b644",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment Creature — Insect Monk",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/5/4/54a3ea87-005e-4985-b2a5-21711d0b71c0.png?1783911255",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/5/4/54a3ea87-005e-4985-b2a5-21711d0b71c0.jpg?1783911255",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/5/4/54a3ea87-005e-4985-b2a5-21711d0b71c0.jpg?1783911255",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/5/4/54a3ea87-005e-4985-b2a5-21711d0b71c0.jpg?1783911255",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/5/4/54a3ea87-005e-4985-b2a5-21711d0b71c0.jpg?1783911255",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "H"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 3875,
+        "name": "Tireless Provisioner",
+        "oracleId": "ab8d5f5c-1976-4f77-8ed2-8d28ee666741",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Elf Scout",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/1/a1e048e0-19d2-4076-892d-f8b3104dee37.png?1783917135",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/1/a1e048e0-19d2-4076-892d-f8b3104dee37.jpg?1783917135",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/1/a1e048e0-19d2-4076-892d-f8b3104dee37.jpg?1783917135",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/1/a1e048e0-19d2-4076-892d-f8b3104dee37.jpg?1783917135",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/1/a1e048e0-19d2-4076-892d-f8b3104dee37.jpg?1783917135",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "requires": [
+      {
+       "template": {
+        "id": 143,
+        "name": "Card that Earthbends",
+        "scryfallQuery": "o:\"earthbend\" -!\"Avatar Aang\"",
+        "scryfallApi": "https://api.scryfall.com/cards/search?q=%28o%3A%22earthbend%22+-%21%22Avatar+Aang%22%29+legal%3Acommander"
+       },
+       "zoneLocations": [
+        "H",
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1
+      }
+     ],
+     "produces": [
+      {
+       "feature": {
+        "id": 119,
+        "name": "Infinite landfall triggers",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 719,
+        "name": "Infinite tapped land tokens",
+        "uncountable": true,
+        "status": "S"
+       },
+       "quantity": 1
+      }
+     ],
+     "of": [
+      {
+       "id": 31771
+      }
+     ],
+     "includes": [
+      {
+       "id": 31771
+      }
+     ],
+     "identity": "G",
+     "manaNeeded": "{2}{G} plus enough mana to animate the land",
+     "manaValueNeeded": 3,
+     "easyPrerequisites": "You have a land card in hand.\nYou are able to play a land this turn.",
+     "notablePrerequisites": "",
+     "description": "Earthbend a land, thus animating it.\nCast Springheart Nantuko for its bestow cost by paying {1}{G}, attaching it to the animated land.\nPlay any land.\nWhen the land enters the battlefield, Springheart Nantuko and Tireless Provisioner trigger.\nResolve the Tireless Provisioner trigger, creating a Treasure token.\nHolding priority, activate the Treasure by tapping and sacrificing it, adding {G}.\nResolve the Springheart Nantuko trigger, causing you to pay {1}{G} to create a token copy of the land it is attached to.\nWhen the land token enters the battlefield, Tireless Provisioner and Springheart Nantuko trigger.\nHolding priority, activate the land token by tapping it, adding at least {1}.\nRepeat from step 5.",
+     "notes": "",
+     "popularity": 89370,
+     "spoiler": false,
+     "bracketTag": "E",
+     "legalities": {
+      "commander": true,
+      "pauperCommanderMain": false,
+      "pauperCommander": false,
+      "oathbreaker": true,
+      "predh": false,
+      "standardBrawl": false,
+      "brawl": true,
+      "competitiveBrawl": true,
+      "alchemy": false,
+      "vintage": true,
+      "legacy": true,
+      "premodern": false,
+      "modern": true,
+      "pioneer": false,
+      "standard": false,
+      "pauper": false
+     },
+     "prices": {
+      "tcgplayer": "7.41",
+      "cardkingdom": "10.98",
+      "cardmarket": "5.68"
+     },
+     "variantCount": 4
+    },
+    {
+     "id": "3470-5702--143",
+     "status": "OK",
+     "uses": [
+      {
+       "card": {
+        "id": 5702,
+        "name": "Springheart Nantuko",
+        "oracleId": "8a3ad2ef-8bcb-40c0-85de-f03328c2b644",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment Creature — Insect Monk",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/5/4/54a3ea87-005e-4985-b2a5-21711d0b71c0.png?1783911255",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/5/4/54a3ea87-005e-4985-b2a5-21711d0b71c0.jpg?1783911255",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/5/4/54a3ea87-005e-4985-b2a5-21711d0b71c0.jpg?1783911255",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/5/4/54a3ea87-005e-4985-b2a5-21711d0b71c0.jpg?1783911255",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/5/4/54a3ea87-005e-4985-b2a5-21711d0b71c0.jpg?1783911255",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "H"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 3470,
+        "name": "Lotus Cobra",
+        "oracleId": "8ad91f64-ccab-4edc-bd54-b2ee9267d614",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Snake",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.png?1783929336",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.jpg?1783929336",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.jpg?1783929336",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.jpg?1783929336",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.jpg?1783929336",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "requires": [
+      {
+       "template": {
+        "id": 143,
+        "name": "Card that Earthbends",
+        "scryfallQuery": "o:\"earthbend\" -!\"Avatar Aang\"",
+        "scryfallApi": "https://api.scryfall.com/cards/search?q=%28o%3A%22earthbend%22+-%21%22Avatar+Aang%22%29+legal%3Acommander"
+       },
+       "zoneLocations": [
+        "H",
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1
+      }
+     ],
+     "produces": [
+      {
+       "feature": {
+        "id": 119,
+        "name": "Infinite landfall triggers",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 719,
+        "name": "Infinite tapped land tokens",
+        "uncountable": true,
+        "status": "S"
+       },
+       "quantity": 1
+      }
+     ],
+     "of": [
+      {
+       "id": 31771
+      }
+     ],
+     "includes": [
+      {
+       "id": 31771
+      }
+     ],
+     "identity": "G",
+     "manaNeeded": "{2}{G} plus enough mana to animate the land",
+     "manaValueNeeded": 3,
+     "easyPrerequisites": "You have a land card in hand.\nYou are able to play a land this turn.",
+     "notablePrerequisites": "",
+     "description": "Earthbend a land, thus animating it.\nCast Springheart Nantuko for its bestow cost by paying {1}{G}, attaching it to the animated land.\nPlay any land.\nWhen the land enters the battlefield, Springheart Nantuko and Lotus Cobra trigger.\nResolve the Lotus Cobra trigger, adding {G}.\nResolve the Springheart Nantuko trigger, causing you to pay {1}{G} to create a token copy of the land it is attached to.\nWhen the land token enters the battlefield, Lotus Cobra and Springheart Nantuko trigger.\nHolding priority, activate the land token by tapping it, adding at least {1}.\nRepeat from step 5.",
+     "notes": "",
+     "popularity": 85110,
+     "spoiler": false,
+     "bracketTag": "E",
+     "legalities": {
+      "commander": true,
+      "pauperCommanderMain": false,
+      "pauperCommander": false,
+      "oathbreaker": true,
+      "predh": false,
+      "standardBrawl": false,
+      "brawl": true,
+      "competitiveBrawl": true,
+      "alchemy": false,
+      "vintage": true,
+      "legacy": true,
+      "premodern": false,
+      "modern": true,
+      "pioneer": false,
+      "standard": false,
+      "pauper": false
+     },
+     "prices": {
+      "tcgplayer": "11.07",
+      "cardkingdom": "14.48",
+      "cardmarket": "10.05"
+     },
+     "variantCount": 4
+    },
+    {
+     "id": "3470-5720-5721-6620",
+     "status": "OK",
+     "uses": [
+      {
+       "card": {
+        "id": 5720,
+        "name": "Shifting Woodland",
+        "oracleId": "7c2a4fe5-43e8-4e20-bef2-0278d18afc4b",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Land",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/0/5/059164e1-894d-4586-9800-e60d6fbd6eb6.png?1783911237",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/0/5/059164e1-894d-4586-9800-e60d6fbd6eb6.jpg?1783911237",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/0/5/059164e1-894d-4586-9800-e60d6fbd6eb6.jpg?1783911237",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/0/5/059164e1-894d-4586-9800-e60d6fbd6eb6.jpg?1783911237",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/0/5/059164e1-894d-4586-9800-e60d6fbd6eb6.jpg?1783911237",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 5721,
+        "name": "Aftermath Analyst",
+        "oracleId": "374e54d8-8e73-4268-9dde-c28c77bbbf32",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Elf Detective",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/6/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259.png?1783906036",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/6/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259.jpg?1783906036",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/6/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259.jpg?1783906036",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/6/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259.jpg?1783906036",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/6/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259.jpg?1783906036",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "G"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 3470,
+        "name": "Lotus Cobra",
+        "oracleId": "8ad91f64-ccab-4edc-bd54-b2ee9267d614",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Snake",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.png?1783929336",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.jpg?1783929336",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.jpg?1783929336",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.jpg?1783929336",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.jpg?1783929336",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 6620,
+        "name": "Sylvan Safekeeper",
+        "oracleId": "bddf8f4a-3149-4dd6-a9e5-7747e7e45a1c",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Human Wizard",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/8/3/83036e21-21ea-4324-aa07-11757f80c417.png?1783911211",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/8/3/83036e21-21ea-4324-aa07-11757f80c417.jpg?1783911211",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/8/3/83036e21-21ea-4324-aa07-11757f80c417.jpg?1783911211",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/8/3/83036e21-21ea-4324-aa07-11757f80c417.jpg?1783911211",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/8/3/83036e21-21ea-4324-aa07-11757f80c417.jpg?1783911211",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "requires": [],
+     "produces": [
+      {
+       "feature": {
+        "id": 3,
+        "name": "Infinite creature LTB",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 5,
+        "name": "Infinite colored mana",
+        "uncountable": true,
+        "status": "S"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 6,
+        "name": "Infinite creature sacrifice triggers",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 7,
+        "name": "Infinite death triggers",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 119,
+        "name": "Infinite landfall triggers",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      }
+     ],
+     "of": [
+      {
+       "id": 27299
+      }
+     ],
+     "includes": [
+      {
+       "id": 26311
+      },
+      {
+       "id": 27299
+      }
+     ],
+     "identity": "G",
+     "manaNeeded": "{5}{G}{G}{G}",
+     "manaValueNeeded": 8,
+     "easyPrerequisites": "",
+     "notablePrerequisites": "There are at least four card types among cards in your graveyard.\nYou control at least eight lands.",
+     "description": "Activate Sylvan Safekeeper by sacrificing any land except Shifting Woodland\nRepeat step 1 until you control no other lands except Shifting Woodland.\nActivate Shifting Woodland's second ability by paying {2}{G}{G}, causing it to become a copy of Aftermath Analyst until end of turn.\nActivate Shifting Woodland by paying {3}{G} and sacrificing it, returning it and all other land cards from your graveyard to the battlefield tapped.\nWhen the lands enter the battlefield, Lotus Cobra triggers that many times, adding {G} for each land that entered the battlefield this way.\nRepeat.\nResolve all Sylvan Safekeeper abilities.",
+     "notes": "If you control nine or more lands, this combo will net infinite mana due to Lotus Cobra's trigger.",
+     "popularity": 27648,
+     "spoiler": false,
+     "bracketTag": "E",
+     "legalities": {
+      "commander": true,
+      "pauperCommanderMain": false,
+      "pauperCommander": false,
+      "oathbreaker": true,
+      "predh": false,
+      "standardBrawl": false,
+      "brawl": true,
+      "competitiveBrawl": true,
+      "alchemy": false,
+      "vintage": true,
+      "legacy": true,
+      "premodern": false,
+      "modern": true,
+      "pioneer": false,
+      "standard": false,
+      "pauper": false
+     },
+     "prices": {
+      "tcgplayer": "17.49",
+      "cardkingdom": "24.46",
+      "cardmarket": "19.47"
+     },
+     "variantCount": 9
+    },
+    {
+     "id": "3875-5720-5721-6620",
+     "status": "OK",
+     "uses": [
+      {
+       "card": {
+        "id": 5720,
+        "name": "Shifting Woodland",
+        "oracleId": "7c2a4fe5-43e8-4e20-bef2-0278d18afc4b",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Land",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/0/5/059164e1-894d-4586-9800-e60d6fbd6eb6.png?1783911237",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/0/5/059164e1-894d-4586-9800-e60d6fbd6eb6.jpg?1783911237",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/0/5/059164e1-894d-4586-9800-e60d6fbd6eb6.jpg?1783911237",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/0/5/059164e1-894d-4586-9800-e60d6fbd6eb6.jpg?1783911237",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/0/5/059164e1-894d-4586-9800-e60d6fbd6eb6.jpg?1783911237",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 5721,
+        "name": "Aftermath Analyst",
+        "oracleId": "374e54d8-8e73-4268-9dde-c28c77bbbf32",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Elf Detective",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/6/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259.png?1783906036",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/6/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259.jpg?1783906036",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/6/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259.jpg?1783906036",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/6/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259.jpg?1783906036",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/6/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259.jpg?1783906036",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "G"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 3875,
+        "name": "Tireless Provisioner",
+        "oracleId": "ab8d5f5c-1976-4f77-8ed2-8d28ee666741",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Elf Scout",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/1/a1e048e0-19d2-4076-892d-f8b3104dee37.png?1783917135",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/1/a1e048e0-19d2-4076-892d-f8b3104dee37.jpg?1783917135",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/1/a1e048e0-19d2-4076-892d-f8b3104dee37.jpg?1783917135",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/1/a1e048e0-19d2-4076-892d-f8b3104dee37.jpg?1783917135",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/1/a1e048e0-19d2-4076-892d-f8b3104dee37.jpg?1783917135",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 6620,
+        "name": "Sylvan Safekeeper",
+        "oracleId": "bddf8f4a-3149-4dd6-a9e5-7747e7e45a1c",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Human Wizard",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/8/3/83036e21-21ea-4324-aa07-11757f80c417.png?1783911211",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/8/3/83036e21-21ea-4324-aa07-11757f80c417.jpg?1783911211",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/8/3/83036e21-21ea-4324-aa07-11757f80c417.jpg?1783911211",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/8/3/83036e21-21ea-4324-aa07-11757f80c417.jpg?1783911211",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/8/3/83036e21-21ea-4324-aa07-11757f80c417.jpg?1783911211",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "requires": [],
+     "produces": [
+      {
+       "feature": {
+        "id": 2408,
+        "name": "Infinite artifact ETB",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 2409,
+        "name": "Infinite artifact LTB",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 2419,
+        "name": "Infinite artifact sacrifice triggers",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 587,
+        "name": "Infinite artifact tokens",
+        "uncountable": true,
+        "status": "C"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 3,
+        "name": "Infinite creature LTB",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 5,
+        "name": "Infinite colored mana",
+        "uncountable": true,
+        "status": "S"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 6,
+        "name": "Infinite creature sacrifice triggers",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 7,
+        "name": "Infinite death triggers",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 14,
+        "name": "Infinite lifegain triggers",
+        "uncountable": true,
+        "status": "C"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 15,
+        "name": "Infinite lifegain",
+        "uncountable": true,
+        "status": "S"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 91,
+        "name": "Infinite Treasure tokens",
+        "uncountable": true,
+        "status": "S"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 119,
+        "name": "Infinite landfall triggers",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 688,
+        "name": "Infinite Food tokens",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      }
+     ],
+     "of": [
+      {
+       "id": 27300
+      }
+     ],
+     "includes": [
+      {
+       "id": 26302
+      },
+      {
+       "id": 26311
+      },
+      {
+       "id": 26300
+      },
+      {
+       "id": 27300
+      }
+     ],
+     "identity": "G",
+     "manaNeeded": "{5}{G}{G}{G}",
+     "manaValueNeeded": 8,
+     "easyPrerequisites": "",
+     "notablePrerequisites": "There are at least four card types among cards in your graveyard.\nYou control at least eight lands.",
+     "description": "Activate Sylvan Safekeeper by sacrificing any land except Shifting Woodland\nRepeat step 1 until you control no other lands except Shifting Woodland.\nActivate Shifting Woodland's second ability by paying {2}{G}{G}, causing it to become a copy of Aftermath Analyst until end of turn.\nActivate Shifting Woodland by paying {3}{G} and sacrificing it, returning it and all other land cards from your graveyard to the battlefield tapped.\nWhen the lands enter the battlefield, Tireless Provisioner triggers that many times, creating a Treasure token for each land that entered the battlefield this way.\nActivate eight Treasures by tapping and sacrificing them, adding {5}{G}{G}{G}.\nRepeat.\nResolve all Sylvan Safekeeper abilities.",
+     "notes": "If you control nine or more lands, this combo will net infinite Treasure tokens and/or Food tokens due to Tireless Provisioner's trigger.",
+     "popularity": 23849,
+     "spoiler": false,
+     "bracketTag": "E",
+     "legalities": {
+      "commander": true,
+      "pauperCommanderMain": false,
+      "pauperCommander": false,
+      "oathbreaker": true,
+      "predh": false,
+      "standardBrawl": false,
+      "brawl": true,
+      "competitiveBrawl": true,
+      "alchemy": false,
+      "vintage": true,
+      "legacy": true,
+      "premodern": false,
+      "modern": true,
+      "pioneer": false,
+      "standard": false,
+      "pauper": false
+     },
+     "prices": {
+      "tcgplayer": "13.83",
+      "cardkingdom": "20.96",
+      "cardmarket": "15.10"
+     },
+     "variantCount": 9
+    },
+    {
+     "id": "5478-5720-5721-6620",
+     "status": "OK",
+     "uses": [
+      {
+       "card": {
+        "id": 5720,
+        "name": "Shifting Woodland",
+        "oracleId": "7c2a4fe5-43e8-4e20-bef2-0278d18afc4b",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Land",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/0/5/059164e1-894d-4586-9800-e60d6fbd6eb6.png?1783911237",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/0/5/059164e1-894d-4586-9800-e60d6fbd6eb6.jpg?1783911237",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/0/5/059164e1-894d-4586-9800-e60d6fbd6eb6.jpg?1783911237",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/0/5/059164e1-894d-4586-9800-e60d6fbd6eb6.jpg?1783911237",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/0/5/059164e1-894d-4586-9800-e60d6fbd6eb6.jpg?1783911237",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 5721,
+        "name": "Aftermath Analyst",
+        "oracleId": "374e54d8-8e73-4268-9dde-c28c77bbbf32",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Elf Detective",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/6/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259.png?1783906036",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/6/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259.jpg?1783906036",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/6/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259.jpg?1783906036",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/6/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259.jpg?1783906036",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/6/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259.jpg?1783906036",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "G"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 5478,
+        "name": "Spelunking",
+        "oracleId": "2962fe4c-bf48-454b-8a6b-0f8253352ae8",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/d/3/d3be4257-2316-4a2e-b347-f71c0368a947.png?1783913740",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/d/3/d3be4257-2316-4a2e-b347-f71c0368a947.jpg?1783913740",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/d/3/d3be4257-2316-4a2e-b347-f71c0368a947.jpg?1783913740",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/d/3/d3be4257-2316-4a2e-b347-f71c0368a947.jpg?1783913740",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/d/3/d3be4257-2316-4a2e-b347-f71c0368a947.jpg?1783913740",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 6620,
+        "name": "Sylvan Safekeeper",
+        "oracleId": "bddf8f4a-3149-4dd6-a9e5-7747e7e45a1c",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Human Wizard",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/8/3/83036e21-21ea-4324-aa07-11757f80c417.png?1783911211",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/8/3/83036e21-21ea-4324-aa07-11757f80c417.jpg?1783911211",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/8/3/83036e21-21ea-4324-aa07-11757f80c417.jpg?1783911211",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/8/3/83036e21-21ea-4324-aa07-11757f80c417.jpg?1783911211",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/8/3/83036e21-21ea-4324-aa07-11757f80c417.jpg?1783911211",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "requires": [],
+     "produces": [
+      {
+       "feature": {
+        "id": 3,
+        "name": "Infinite creature LTB",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 6,
+        "name": "Infinite creature sacrifice triggers",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 7,
+        "name": "Infinite death triggers",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 28,
+        "name": "Infinite mana lands you control can produce",
+        "uncountable": true,
+        "status": "S"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 119,
+        "name": "Infinite landfall triggers",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 24,
+        "name": "Infinite card draw",
+        "uncountable": true,
+        "status": "S"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 61,
+        "name": "Infinite draw triggers",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      }
+     ],
+     "of": [
+      {
+       "id": 28460
+      }
+     ],
+     "includes": [
+      {
+       "id": 26876
+      },
+      {
+       "id": 28081
+      },
+      {
+       "id": 28460
+      },
+      {
+       "id": 32438
+      },
+      {
+       "id": 32441
+      }
+     ],
+     "identity": "G",
+     "manaNeeded": "{5}{G}{G}{G}",
+     "manaValueNeeded": 8,
+     "easyPrerequisites": "",
+     "notablePrerequisites": "There are at least four card types among cards in your graveyard.\nLands you control and/or land cards in your graveyard that enter the battlefield untapped can tap to produce at least {5}{G}{G}{G}.",
+     "description": "Activate Sylvan Safekeeper by sacrificing any land except Shifting Woodland.\nRepeat step 1 until you control no other lands except Shifting Woodland.\nActivate Shifting Woodland's second ability by paying {2}{G}{G}, causing it to become a copy of Aftermath Analyst until end of turn.\nActivate Shifting Woodland by paying {3}{G} and sacrificing it, returning it and all other land cards from your graveyard to the battlefield untapped due to Spelunking.\nActivate any number of lands by tapping them, adding at least {5}{G}{G}{G}.\nRepeat.\nResolve all Sylvan Safekeeper abilities.",
+     "notes": "",
+     "popularity": 18088,
+     "spoiler": false,
+     "bracketTag": "E",
+     "legalities": {
+      "commander": true,
+      "pauperCommanderMain": false,
+      "pauperCommander": false,
+      "oathbreaker": true,
+      "predh": false,
+      "standardBrawl": false,
+      "brawl": true,
+      "competitiveBrawl": true,
+      "alchemy": false,
+      "vintage": true,
+      "legacy": true,
+      "premodern": false,
+      "modern": true,
+      "pioneer": false,
+      "standard": false,
+      "pauper": false
+     },
+     "prices": {
+      "tcgplayer": "16.34",
+      "cardkingdom": "21.96",
+      "cardmarket": "16.70"
+     },
+     "variantCount": 54
+    },
+    {
+     "id": "1315-3470-5531-5702",
+     "status": "OK",
+     "uses": [
+      {
+       "card": {
+        "id": 5531,
+        "name": "Lumra, Bellow of the Woods",
+        "oracleId": "97a84e9d-bfc4-4ca2-b1e8-908dba56ccdb",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Legendary Creature — Elemental Bear",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/e/ae4f3aaf-3960-48cd-b34b-32e4ae5ae088.png?1785161492",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/e/ae4f3aaf-3960-48cd-b34b-32e4ae5ae088.jpg?1785161492",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/e/ae4f3aaf-3960-48cd-b34b-32e4ae5ae088.jpg?1785161492",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/e/ae4f3aaf-3960-48cd-b34b-32e4ae5ae088.jpg?1785161492",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/e/ae4f3aaf-3960-48cd-b34b-32e4ae5ae088.jpg?1785161492",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 5702,
+        "name": "Springheart Nantuko",
+        "oracleId": "8a3ad2ef-8bcb-40c0-85de-f03328c2b644",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Enchantment Creature — Insect Monk",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/5/4/54a3ea87-005e-4985-b2a5-21711d0b71c0.png?1783911255",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/5/4/54a3ea87-005e-4985-b2a5-21711d0b71c0.jpg?1783911255",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/5/4/54a3ea87-005e-4985-b2a5-21711d0b71c0.jpg?1783911255",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/5/4/54a3ea87-005e-4985-b2a5-21711d0b71c0.jpg?1783911255",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/5/4/54a3ea87-005e-4985-b2a5-21711d0b71c0.jpg?1783911255",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "attached to Lumra",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 1315,
+        "name": "Zuran Orb",
+        "oracleId": "08cb8a30-9cb4-4517-bee5-8848aa60d1a2",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Artifact",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/1/618c8ecc-686d-41de-b9b1-1a7ee9cc7c14.png?1783926775",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/1/618c8ecc-686d-41de-b9b1-1a7ee9cc7c14.jpg?1783926775",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/1/618c8ecc-686d-41de-b9b1-1a7ee9cc7c14.jpg?1783926775",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/1/618c8ecc-686d-41de-b9b1-1a7ee9cc7c14.jpg?1783926775",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/1/618c8ecc-686d-41de-b9b1-1a7ee9cc7c14.jpg?1783926775",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      },
+      {
+       "card": {
+        "id": 3470,
+        "name": "Lotus Cobra",
+        "oracleId": "8ad91f64-ccab-4edc-bd54-b2ee9267d614",
+        "spoiler": false,
+        "faces": 1,
+        "typeLine": "Creature — Snake",
+        "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.png?1783929336",
+        "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.jpg?1783929336",
+        "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.jpg?1783929336",
+        "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.jpg?1783929336",
+        "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.jpg?1783929336",
+        "layoutRotationFront": null,
+        "imageUriBackPng": null,
+        "imageUriBackLarge": null,
+        "imageUriBackNormal": null,
+        "imageUriBackSmall": null,
+        "imageUriBackArtCrop": null
+       },
+       "zoneLocations": [
+        "B"
+       ],
+       "battlefieldCardState": "",
+       "exileCardState": "",
+       "libraryCardState": "",
+       "graveyardCardState": "",
+       "mustBeCommander": false,
+       "quantity": 1,
+       "usedFace": null
+      }
+     ],
+     "requires": [],
+     "produces": [
+      {
+       "feature": {
+        "id": 3,
+        "name": "Infinite creature LTB",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 4,
+        "name": "Infinite creature ETB",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 7,
+        "name": "Infinite death triggers",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 10,
+        "name": "Infinite self-mill",
+        "uncountable": true,
+        "status": "S"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 14,
+        "name": "Infinite lifegain triggers",
+        "uncountable": true,
+        "status": "C"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 15,
+        "name": "Infinite lifegain",
+        "uncountable": true,
+        "status": "S"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 119,
+        "name": "Infinite landfall triggers",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 28,
+        "name": "Infinite mana lands you control can produce",
+        "uncountable": true,
+        "status": "S"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 5,
+        "name": "Infinite colored mana",
+        "uncountable": true,
+        "status": "S"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 1871,
+        "name": "Put all lands from your library and graveyard onto the battlefield tapped",
+        "uncountable": true,
+        "status": "H"
+       },
+       "quantity": 1
+      },
+      {
+       "feature": {
+        "id": 173,
+        "name": "Infinite untap of lands you control",
+        "uncountable": true,
+        "status": "C"
+       },
+       "quantity": 1
+      }
+     ],
+     "of": [
+      {
+       "id": 29862
+      }
+     ],
+     "includes": [
+      {
+       "id": 26311
+      },
+      {
+       "id": 27521
+      },
+      {
+       "id": 28081
+      },
+      {
+       "id": 26318
+      },
+      {
+       "id": 29862
+      },
+      {
+       "id": 30965
+      },
+      {
+       "id": 31074
+      }
+     ],
+     "identity": "G",
+     "manaNeeded": "{1}{G}",
+     "manaValueNeeded": 2,
+     "easyPrerequisites": "You have at least two lands between the battlefield and your graveyard.\nYou have a land card in hand.\nYou are able to play a land this turn",
+     "notablePrerequisites": "",
+     "description": "Play any land.\nWhen the land enters the battlefield, Springheart Nantuko triggers.\nHolding priority, activate Zuran Orb by sacrificing a land.\nRepeat step 3 until you control no lands.\nResolve the Springheart Nantuko trigger, causing you to pay {1}{G} to create a token copy of Lumra.\nPut the token Lumra into your graveyard due to the legend rule.\nThe Lumra token's enter-the-battlefield ability triggers, causing you to mill four cards and returning all lands from your graveyard to the battlefield.\nWhen the lands enter the battlefield, Springheart Nantuko and Lotus Cobra trigger that many times.\nResolve all Lotus Cobra triggers, adding {G} for each trigger.\nResolve all but one Springheart Nantuko trigger, choosing not to pay and creating that many 1/1 Insect creature tokens.\nRepeat from step 3.",
+     "notes": "",
+     "popularity": 17020,
+     "spoiler": false,
+     "bracketTag": "E",
+     "legalities": {
+      "commander": true,
+      "pauperCommanderMain": false,
+      "pauperCommander": false,
+      "oathbreaker": true,
+      "predh": false,
+      "standardBrawl": false,
+      "brawl": true,
+      "competitiveBrawl": true,
+      "alchemy": false,
+      "vintage": true,
+      "legacy": true,
+      "premodern": false,
+      "modern": true,
+      "pioneer": false,
+      "standard": false,
+      "pauper": false
+     },
+     "prices": {
+      "tcgplayer": "35.66",
+      "cardkingdom": "47.26",
+      "cardmarket": "35.37"
+     },
+     "variantCount": 32
     }
    ]
   }
@@ -8477,7 +9862,14 @@
   "Aftermath Analyst": "https://cards.scryfall.io/normal/front/6/6/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259.jpg?1783906036",
   "Squandered Resources": "https://cards.scryfall.io/normal/front/f/c/fcddbea7-3025-47b1-a597-2d2b2711fb81.jpg?1783946976",
   "Zuran Orb": "https://cards.scryfall.io/normal/front/6/1/618c8ecc-686d-41de-b9b1-1a7ee9cc7c14.jpg?1783926775",
-  "Orcish Lumberjack": "https://cards.scryfall.io/normal/front/1/4/14fb947c-563e-4811-98de-e25bd141a6e5.jpg?1783939269"
+  "Orcish Lumberjack": "https://cards.scryfall.io/normal/front/1/4/14fb947c-563e-4811-98de-e25bd141a6e5.jpg?1783939269",
+  "Lumra, Bellow of the Woods": "https://cards.scryfall.io/normal/front/a/e/ae4f3aaf-3960-48cd-b34b-32e4ae5ae088.jpg?1785161492",
+  "Shifting Woodland": "https://cards.scryfall.io/normal/front/0/5/059164e1-894d-4586-9800-e60d6fbd6eb6.jpg?1783911237",
+  "Spelunking": "https://cards.scryfall.io/normal/front/d/3/d3be4257-2316-4a2e-b347-f71c0368a947.jpg?1783913740",
+  "Springheart Nantuko": "https://cards.scryfall.io/normal/front/5/4/54a3ea87-005e-4985-b2a5-21711d0b71c0.jpg?1783911255",
+  "Life from the Loam": "https://cards.scryfall.io/normal/front/c/d/cdb6432f-3f56-4c92-b09a-2a5b64620c04.jpg?1783907137",
+  "Crop Rotation": "https://cards.scryfall.io/normal/front/5/2/523414cb-f8db-407a-808a-01454e03d8b9.jpg?1783918448",
+  "Six": "https://cards.scryfall.io/normal/front/f/9/f9246b68-580f-4f53-883d-7900880e4b0d.jpg?1783911256"
  },
  "type_recs": {
   "Creatures": [
@@ -8762,6 +10154,312 @@
    ],
    "mana_cost_html": "<img src=\"https://svgs.scryfall.io/card-symbols/2}{B}{R}{G.svg\" alt=\"{2}{B}{R}{G}\" title=\"{2}{B}{R}{G}\" class=\"ms\">",
    "extra_table_rows": ""
+  },
+  "primer_by_plan": {
+   "Sacrifice": {
+    "quick_read": [
+     "**Sacrifice value engine** : every permanent you sacrifice draws a card and grows Korvold — the whole deck loops sac outlets, fodder and payoffs.",
+     "**Two dominant plans** : Sacrifice (1,626 decks) and Treasure (1,589) — the treasure generators ARE the best sac fodder, so the plans merge naturally.",
+     "**Combo-ready** : Pitiless Plunderer + Ashnod's Altar + any recursive creature = infinite mana, and Korvold's draw finds the pieces."
+    ],
+    "plan_title": "",
+    "plan_html": "",
+    "plan_cards": [],
+    "source_html": "<em>\"two of the most powerful payoffs for one of the strongest strategies in Commander… Aristocrats decks are a core part of Commander's identity, and they can count on absurdly strong cards like Korvold to lead their engines.\"</em> — \"The Five Best Titan Triggers in Commander\" (EDHREC Articles, 2026)",
+    "combos_note": "8 combos from Commander Spellbook (2 involving Korvold 👑), filtered to Jund identity + ≥2/3 overlap with the recommended pool + popularity ≥ 100.",
+    "explanations": {
+     "Engines": [
+      [
+       "Academy Manufactor",
+       "**Token multiplier** : every treasure ALSO makes a Clue and Food — triple the fodder for Korvold's sac trigger and triple the velocity."
+      ],
+      [
+       "Ashnod's Altar",
+       "**Free sac outlet** : sacrifice any creature for {C}{C} — the classic mana-generating outlet that feeds Korvold's draw trigger."
+      ],
+      [
+       "Birds of Paradise",
+       "**Mana dork** : any color mana turn 1 — acceleration that also becomes sac fodder later."
+      ],
+      [
+       "Chatterfang, Squirrel General",
+       "**Squirrel payoff** : each treasure makes a Squirrel too — every treasure becomes sac fodder AND mana."
+      ],
+      [
+       "Goldspan Dragon",
+       "**Treasure doubling** : each treasure makes a Treasure on attack — the plan's top-end mana engine."
+      ],
+      [
+       "Mayhem Devil",
+       "**Drain payoff** : EVERY sacrifice pings 1 damage to any target — the sac plan's core damage dealer (each loop cycle burns the table)."
+      ],
+      [
+       "Mirkwood Bats",
+       "**Treasure drain** : each token you sacrifice drains 1 — a second Mayhem Devil for the treasure plan."
+      ],
+      [
+       "Pitiless Plunderer",
+       "**Treasure per sac** : every non-token permanent sacrificed makes a Treasure — the engine that pays for itself."
+      ],
+      [
+       "Professional Face-Breaker",
+       "**Attack for treasure** : connects make Treasures — the plan's aggressive mana engine."
+      ],
+      [
+       "Ragavan, Nimble Pilferer",
+       "**Early value** : turn-1 monkey — first-strike connects exile opponents' cards and make treasures for the sac engine."
+      ],
+      [
+       "Tireless Provisioner",
+       "**Landfall treasure** : each land makes a Treasure AND a Food — the plan's land-based generator."
+      ],
+      [
+       "Viscera Seer",
+       "**Free sac outlet** : sacrifice a creature to scry 1 — the cheapest way to trigger Korvold every turn."
+      ],
+      [
+       "Warren Soultrader",
+       "**Free sac outlet** : sacrifice a creature for 1 life and a treasure — the cheapest outlet that also ramps."
+      ],
+      [
+       "Xorn",
+       "**Treasure doubler** : treasures make an extra treasure — doubles the mana AND the sac triggers."
+      ]
+     ],
+     "Wincons": [
+      [
+       "Animation Module",
+       "**Counter engine** : with a sac outlet, makes +1/+1 counters on every creature — the Korvold combo core (infinite counters + draw)."
+      ],
+      [
+       "Gravecrawler",
+       "**Recursive fodder** : casts itself from the graveyard — the aristocrats loop piece that never stays dead."
+      ],
+      [
+       "Hazel's Brewmaster",
+       "**Token value** : Food and treasure synergies — a topdeck engine for the sac plan."
+      ],
+      [
+       "Korvold, Fae-Cursed King",
+       "**The engine himself** : every sacrifice draws a card and pumps him — the whole deck revolves around this trigger."
+      ],
+      [
+       "Reassembling Skeleton",
+       "**Endless sac target** : returns from graveyard for 2 mana — infinite loop fodder with any outlet."
+      ],
+      [
+       "Revel in Riches",
+       "**Treasure wincon** : 10 treasures at your upkeep = win the game — a real alternative closing line."
+      ],
+      [
+       "Ruthless Technomancer",
+       "**Sac payoff** : sacrifices artifacts/creatures for mana and reanimates — value recursion."
+      ],
+      [
+       "There and Back Again",
+       "**Saga payoff** : makes a 4/4 Dragon and treasures — a one-card value engine that feeds the sac plan."
+      ],
+      [
+       "Zulaport Cutthroat",
+       "**Drain payoff** : every time one of your creatures dies, each opponent loses 1 — the aristocrats damage dealer."
+      ]
+     ],
+     "Flex": [
+      [
+       "Squee, the Immortal",
+       "**Free recursion** : returns from graveyard at instant speed — endless sac fodder in the loops."
+      ]
+     ],
+     "CardAdvantage": [
+      [
+       "Deadly Dispute",
+       "**Sac + draw + treasure** : sacrifice a token, draw 2, make a treasure — the plan's premium velocity spell."
+      ],
+      [
+       "Diabolic Intent",
+       "**Sacrifice tutor** : sac a creature to tutor ANY card — finds the engine piece or finisher."
+      ],
+      [
+       "Eldritch Evolution",
+       "**Creature tutor** : sacrifice a creature to tutor any creature with mana value +2 — finds the engine or finisher."
+      ]
+     ],
+     "Ramp": [
+      [
+       "Bootleggers' Stash",
+       "**Land treasure** : your lands make treasures on tap — turns land drops into mana AND sac fuel."
+      ],
+      [
+       "Culling the Weak",
+       "**Free mana** : sacrifice a creature for {B}{B}{B} — turns a dork into a burst that feeds the sac plan's big plays."
+      ],
+      [
+       "Dark Ritual",
+       "**Mana burst** : {B}{B}{B} on turn 1-2 — accelerates Korvold or a key sac piece ahead of curve."
+      ],
+      [
+       "Old Gnawbone",
+       "**Treasure on damage** : every combat damage makes that many treasures — the plan's biggest mana engine."
+      ],
+      [
+       "Sakura-Tribe Elder",
+       "**Land ramp + fodder** : sacrifices itself for a basic — ramp that also triggers Korvold's draw."
+      ],
+      [
+       "Tinder Wall",
+       "**Free sac** : sacrifice Tinder Wall for {R}{R} — a ritual that also feeds the sac trigger."
+      ]
+     ],
+     "Interaction": [
+      [
+       "Deflecting Swat",
+       "**Free redirect** : redirects any spell or ability targeting your stuff — protects the engine for {R}."
+      ],
+      [
+       "Veil of Summer",
+       "**Protection** : one mana answers counters and black/blue removal aimed at the engine — keeps the sac chain alive."
+      ]
+     ]
+    },
+    "cat_synopsis": {
+     "Engines": "The Plan-A core: repeatable engines tied to the commander.",
+     "Wincons": "Combo pieces, finishers and game-closing beats.",
+     "Flex": "Pet cards, off-role picks and personal slots.",
+     "CardAdvantage": "Draw engines, cantrips and tutors.",
+     "Ramp": "Mana rocks, dorks, land-search spells, treasures, cost reduction.",
+     "Interaction": "Targeted removal, counterspells and cheap protection."
+    },
+    "cat_order": [
+     "Engines",
+     "Wincons",
+     "Flex",
+     "CardAdvantage",
+     "Ramp",
+     "Interaction"
+    ],
+    "mana_cost_html": "<img src=\"https://svgs.scryfall.io/card-symbols/2}{B}{R}{G.svg\" alt=\"{2}{B}{R}{G}\" title=\"{2}{B}{R}{G}\" class=\"ms\">",
+    "extra_table_rows": ""
+   },
+   "Lands Matter": {
+    "explanations": {
+     "Engines": [
+      [
+       "Tireless Provisioner",
+       "**Landfall engine** : every land makes a Food AND a Treasure — the land plan's terminal value generator (each land = 2 tokens + 2 sac triggers)."
+      ],
+      [
+       "Lotus Cobra",
+       "**Landfall ramp** : every land makes a mana of any color — acceleration that turns land drops into tempo."
+      ],
+      [
+       "Aftermath Analyst",
+       "**Land recursion** : returns sacrificed lands from graveyard — the engine that makes land-sac infinite."
+      ],
+      [
+       "Exploration",
+       "**Extra land drop** : play an extra land each turn — doubles landfall triggers and Korvold sac fodder."
+      ],
+      [
+       "Squandered Resources",
+       "**Land sacrifice** : sacrifice any land for {B}{G} — turns every land into mana AND a Korvold trigger; the combo enabler."
+      ],
+      [
+       "Sylvan Safekeeper",
+       "**Land sac outlet** : sacrifices a land for hexproof — protects Korvold while triggering his draw, and the sacrificed land recurs via fetches."
+      ],
+      [
+       "Zuran Orb",
+       "**Land sacrifice** : sacrifice a land for 2 life — free land sac outlet that triggers Korvold every time."
+      ],
+      [
+       "Orcish Lumberjack",
+       "**Forest sacrifice** : sacrifice a Forest for {R}{G}{R}{G} — early burst mana that doubles as sac fodder."
+      ],
+      [
+       "Icetill Explorer",
+       "**Land tutor** : explores and fetches a land — recursion that feeds the land-sac loop."
+      ],
+      [
+       "Mayhem Devil",
+       "**Land-sac drain** : every fetchland or Zuran Orb you sacrifice pings — landfall becomes table-wide damage with Korvold's loop."
+      ]
+     ],
+     "Wincons": [
+      [
+       "Korvold, Fae-Cursed King",
+       "**The engine himself** : every land sacrificed draws a card and pumps him — the whole deck revolves around this trigger."
+      ],
+      [
+       "Lumra, Bellow of the Woods",
+       "**Land recursion + payoff** : returns lands from the yard and grows from them — a huge ramp finisher."
+      ],
+      [
+       "Springheart Nantuko",
+       "**Landfall loop** : makes a copy token per landfall — the infinite-loop finisher of the land plan."
+      ]
+     ],
+     "Flex": [],
+     "CardAdvantage": [
+      [
+       "Life from the Loam",
+       "**Loam engine** : returns 3 lands from the yard — the classic lands recursion and draw engine."
+      ],
+      [
+       "Crop Rotation",
+       "**Land tutor** : fetches ANY land (Gaea’s Cradle, Shifting Woodland) — finds the engine piece."
+      ],
+      [
+       "Six",
+       "**Land recursion** : returns lands from the yard each turn — Loam on a body."
+      ]
+     ],
+     "Ramp": [
+      [
+       "Sakura-Tribe Elder",
+       "**Land ramp + fodder** : sacrifices itself for a basic — ramp that also triggers Korvold’s draw."
+      ],
+      [
+       "Birds of Paradise",
+       "**Mana dork** : any color mana turn 1 — acceleration that also becomes sac fodder later."
+      ]
+     ],
+     "Interaction": [
+      [
+       "Veil of Summer",
+       "**Protection** : one mana answers counters and black/blue removal aimed at the engine — keeps the sac chain alive."
+      ],
+      [
+       "Deflecting Swat",
+       "**Redirect** : protects the engine for {R}."
+      ]
+     ]
+    },
+    "cat_order": [
+     "Engines",
+     "Wincons",
+     "Flex",
+     "CardAdvantage",
+     "Ramp",
+     "Interaction"
+    ],
+    "quick_read": [
+     "**Sacrifice value engine** : every permanent you sacrifice draws a card and grows Korvold — the whole deck loops sac outlets, fodder and payoffs.",
+     "**Two dominant plans** : Sacrifice (1,626 decks) and Treasure (1,589) — the treasure generators ARE the best sac fodder, so the plans merge naturally.",
+     "**Combo-ready** : Pitiless Plunderer + Ashnod's Altar + any recursive creature = infinite mana, and Korvold's draw finds the pieces."
+    ],
+    "source_html": "<em>\"two of the most powerful payoffs for one of the strongest strategies in Commander… Aristocrats decks are a core part of Commander's identity, and they can count on absurdly strong cards like Korvold to lead their engines.\"</em> — \"The Five Best Titan Triggers in Commander\" (EDHREC Articles, 2026)",
+    "combos_note": "Combos for the Lands Matter plan — 2 from Commander Spellbook.",
+    "plan_cards": [
+     "Tireless Provisioner",
+     "Sylvan Safekeeper",
+     "Lotus Cobra",
+     "Exploration",
+     "Icetill Explorer",
+     "Aftermath Analyst"
+    ],
+    "mana_cost_html": "<img src=\"https://svgs.scryfall.io/card-symbols/2}{B}{R}{G.svg\" alt=\"{2}{B}{R}{G}\" title=\"{2}{B}{R}{G}\" class=\"ms\">",
+    "extra_table_rows": ""
+   }
   }
  },
  "card_plan_texts": {

@@ -1188,5 +1188,35 @@
   "source": "scryfall",
   "fetched_at": 1786369591,
   "ttl_days": 30
+ },
+ "2d3174398ca4bbbb": {
+  "source": "spellbook",
+  "fetched_at": 1786374456,
+  "ttl_days": 7
+ },
+ "a3ee57dadbd20bf2": {
+  "source": "spellbook",
+  "fetched_at": 1786374457,
+  "ttl_days": 7
+ },
+ "0e34de461496cb6c": {
+  "source": "spellbook",
+  "fetched_at": 1786374458,
+  "ttl_days": 7
+ },
+ "5310bfce5177cf72": {
+  "source": "spellbook",
+  "fetched_at": 1786374559,
+  "ttl_days": 7
+ },
+ "1227387321111fd7": {
+  "source": "scryfall",
+  "fetched_at": 1786374567,
+  "ttl_days": 30
+ },
+ "be61edd80716a126": {
+  "source": "scryfall",
+  "fetched_at": 1786374800,
+  "ttl_days": 30
  }
 }
