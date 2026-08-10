@@ -344,18 +344,24 @@ def build_one(slug, plan_tag=None):
     from roles import assign_role, ROLE_ORDER, ROLE_TITLES, ROLE_SYNOPSES, ROLE_TARGETS
     cards_by_role = {r: [] for r in ROLE_ORDER}
     for name, info in flat.items():
-        meta = d.get('card_meta', {}).get(name, {})
-        oracle_txt = oracle_of(name)
-        role = assign_role(name, meta, oracle_txt,
-                           is_engine_hint=name in hs_pool,
-                           is_combo_piece=name in combo_pieces)
+        # la catégorie source (si c'est un rôle ROLE_ORDER : rôle manuel/éditorial prioritaire —
+        # ex. les fiches rédigées avec overrides), sinon assign_role automatique
+        src = info.get('source_cat')
+        if src in ROLE_ORDER:
+            role = src
+        else:
+            meta = d.get('card_meta', {}).get(name, {})
+            oracle_txt = oracle_of(name)
+            role = assign_role(name, meta, oracle_txt,
+                               is_engine_hint=name in hs_pool,
+                               is_combo_piece=name in combo_pieces)
         img = d['imgs'].get(name, '')
         score = syn_of(name)
         cards_by_role[role].append({
             'name': name,
             'img': img,
             'img_large': img.replace('/normal/', '/large/'),
-            'explanation': cardify(info['explanation'], all_names, img_of),
+            'explanation': cardify(bold(info['explanation']), all_names, img_of),
             'synergy': f'{score:.2f}' if score is not None else None,
             'syn_cls': syn_cls(score) if score is not None else '',
         })

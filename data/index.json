@@ -1,60 +1,63 @@
 {
-  "page_title": "EDH Primers — Commander Deck Reports",
-  "meta_description": "Complete Commander EDH deck reports: Scryfall, EDHREC, Commander Spellbook.",
-  "og_description": "11 Commander deck reports + 1 precon evaluation",
-  "header_title": "EDH <span class=\"accent\">Primers</span>",
-  "header_sub": "Complete Commander deck reports — Scryfall · EDHREC · Commander Spellbook",
-  "count_label": "12 documents analyzed",
-  "footer": "Data: <a href=\"https://scryfall.com\">Scryfall</a> · <a href=\"https://edhrec.com\">EDHREC</a> · <a href=\"https://commanderspellbook.com\">Commander Spellbook</a>",
-  "decks_order": [
-    "Aminatou, the Fateshifter",
-    "Cloud, Ex-SOLDIER",
-    "Gisa and Geralf",
-    "Isshin, Two Heavens as One",
-    "Lathril, Blade of the Elves",
-    "Saheeli, Radiant Creator",
-    "Shu Yun, the Silent Tempest",
-    "Sisay, Weatherlight Captain",
-    "Slogurk, the Overslime",
-    "Terra, Herald of Hope",
-    "Yuriko, the Tiger's Shadow"
-  ],
-  "plans": {
-    "Aminatou, the Fateshifter": "BLINK / FLICKER",
-    "Cloud, Ex-SOLDIER": "VOLTRON EQUIPMENT",
-    "Gisa and Geralf": "🧟 ZOMBIE TRIBAL — The signature plan (1,179 decks)",
-    "Isshin, Two Heavens as One": "⚔️ ATTACK TRIGGERS — The signature plan (1,204 decks)",
-    "Lathril, Blade of the Elves": "ELFBALL (ELF TRIBAL)",
-    "Saheeli, Radiant Creator": "⚡ ENERGY — The signature plan (1,209 decks)",
-    "Shu Yun, the Silent Tempest": "⚔️ VOLTRON — The signature plan (96 decks)",
-    "Sisay, Weatherlight Captain": "🏛️ LEGENDS / TOOLBOX — The signature plan (1,419 decks)",
-    "Slogurk, the Overslime": "LANDS MATTER / LOAM",
-    "Terra, Herald of Hope": "REANIMATOR (AGGRO REANIMATION)",
-    "Yuriko, the Tiger's Shadow": "NINJUTSU TRIBAL"
-  },
-  "descriptions": {
-    "Aminatou, the Fateshifter": "The Esper flicker queen. Her −1 exiles a permanent you own and returns it — cascading ETB triggers. Her +1 controls the top of libraries, and her −6 resets the table.",
-    "Cloud, Ex-SOLDIER": "The ultimate equipment-voltron general: equips for free on entry, draws a card per equipped attacker, and makes Treasures past 7 power.",
-    "Gisa and Geralf": "The Zombie tribal / reanimator commander: mills four on entry and re-casts a Zombie from the graveyard each turn. The horde never dies.",
-    "Isshin, Two Heavens as One": "The attack-trigger doubler: every \"whenever X attacks\" trigger fires twice. Go wide with token-makers (Adeline, Krenko), draw, ramp and drain on every combat.",
-    "Lathril, Blade of the Elves": "A Golgari Elf tribal commander who builds an army of tokens on contact, then drains 10 life per activation — elfball at its finest.",
-    "Saheeli, Radiant Creator": "The energy queen: every artifact/Artificer spell gives an energy counter, and 3 energy at combat = a hasty 5/5 copy. Energy value engine.",
-    "Shu Yun, the Silent Tempest": "The Voltron cantrip commander: every noncreature spell pumps him and can grant double strike — 3 spells turn the 3/2 into an unblockable one-shot machine.",
-    "Sisay, Weatherlight Captain": "The legendary toolbox tutor: grows +1/+1 per color among your legends, then {W}{U}{B}{R}{G} fetches any legendary permanent onto the battlefield — answer anything with the right legend.",
-    "Slogurk, the Overslime": "A unique Simic lands-matter commander: every land that dies or is milled makes it grow (+1/+1). Sacrifice and replay your lands for value.",
-    "Terra, Herald of Hope": "A Mardu reanimation commander who fills her own graveyard (Trance: mill 2 + flying at combat) then reanimates threats for free.",
-    "Yuriko, the Tiger's Shadow": "A Dimir aggro/control ninjutsu commander who returns from the command zone at will for ~2 mana, flipping high-cost cards to drain the table."
-  },
-  "evals_order": [
-    "Aminatou, Veil Piercer",
-    "Hinata, Dawn-Crowned"
-  ],
-  "eval_plans": {
-    "Aminatou, Veil Piercer": "MIRACLE WORKER — Enchantress & Topdeck (co-favorites)",
-    "Hinata, Dawn-Crowned": "HINATA BUDGET — Spellslinger & X Spells (co-favorites)"
-  },
-  "eval_descriptions": {
-    "Aminatou, Veil Piercer": "Precon evaluation: the Duskmourn Miracle Worker list analyzed against EDHREC game plans — 88 unique cards, 6 archetypes ranked, high-synergy overlap per plan, combos and build-structure verdict.",
-    "Hinata, Dawn-Crowned": "Deck-list evaluation: the Moxfield Hinata Budget spellslinger analyzed against EDHREC game plans — 84 unique cards, 7 archetypes ranked, high-synergy overlap per plan, combos and build-structure verdict."
-  }
+ "page_title": "EDH Primers — Commander Deck Reports",
+ "meta_description": "Complete Commander EDH deck reports: Scryfall, EDHREC, Commander Spellbook.",
+ "og_description": "11 Commander deck reports + 1 precon evaluation",
+ "header_title": "EDH <span class=\"accent\">Primers</span>",
+ "header_sub": "Complete Commander deck reports — Scryfall · EDHREC · Commander Spellbook",
+ "count_label": "13 documents analyzed",
+ "footer": "Data: <a href=\"https://scryfall.com\">Scryfall</a> · <a href=\"https://edhrec.com\">EDHREC</a> · <a href=\"https://commanderspellbook.com\">Commander Spellbook</a>",
+ "decks_order": [
+  "Aminatou, the Fateshifter",
+  "Cloud, Ex-SOLDIER",
+  "Gisa and Geralf",
+  "Isshin, Two Heavens as One",
+  "Lathril, Blade of the Elves",
+  "Saheeli, Radiant Creator",
+  "Shu Yun, the Silent Tempest",
+  "Sisay, Weatherlight Captain",
+  "Slogurk, the Overslime",
+  "Terra, Herald of Hope",
+  "Yuriko, the Tiger's Shadow",
+  "Korvold, Fae-Cursed King"
+ ],
+ "plans": {
+  "Aminatou, the Fateshifter": "BLINK / FLICKER",
+  "Cloud, Ex-SOLDIER": "VOLTRON EQUIPMENT",
+  "Gisa and Geralf": "🧟 ZOMBIE TRIBAL — The signature plan (1,179 decks)",
+  "Isshin, Two Heavens as One": "⚔️ ATTACK TRIGGERS — The signature plan (1,204 decks)",
+  "Lathril, Blade of the Elves": "ELFBALL (ELF TRIBAL)",
+  "Saheeli, Radiant Creator": "⚡ ENERGY — The signature plan (1,209 decks)",
+  "Shu Yun, the Silent Tempest": "⚔️ VOLTRON — The signature plan (96 decks)",
+  "Sisay, Weatherlight Captain": "🏛️ LEGENDS / TOOLBOX — The signature plan (1,419 decks)",
+  "Slogurk, the Overslime": "LANDS MATTER / LOAM",
+  "Terra, Herald of Hope": "REANIMATOR (AGGRO REANIMATION)",
+  "Yuriko, the Tiger's Shadow": "NINJUTSU TRIBAL",
+  "Korvold, Fae-Cursed King": "Sacrifice"
+ },
+ "descriptions": {
+  "Aminatou, the Fateshifter": "The Esper flicker queen. Her −1 exiles a permanent you own and returns it — cascading ETB triggers. Her +1 controls the top of libraries, and her −6 resets the table.",
+  "Cloud, Ex-SOLDIER": "The ultimate equipment-voltron general: equips for free on entry, draws a card per equipped attacker, and makes Treasures past 7 power.",
+  "Gisa and Geralf": "The Zombie tribal / reanimator commander: mills four on entry and re-casts a Zombie from the graveyard each turn. The horde never dies.",
+  "Isshin, Two Heavens as One": "The attack-trigger doubler: every \"whenever X attacks\" trigger fires twice. Go wide with token-makers (Adeline, Krenko), draw, ramp and drain on every combat.",
+  "Lathril, Blade of the Elves": "A Golgari Elf tribal commander who builds an army of tokens on contact, then drains 10 life per activation — elfball at its finest.",
+  "Saheeli, Radiant Creator": "The energy queen: every artifact/Artificer spell gives an energy counter, and 3 energy at combat = a hasty 5/5 copy. Energy value engine.",
+  "Shu Yun, the Silent Tempest": "The Voltron cantrip commander: every noncreature spell pumps him and can grant double strike — 3 spells turn the 3/2 into an unblockable one-shot machine.",
+  "Sisay, Weatherlight Captain": "The legendary toolbox tutor: grows +1/+1 per color among your legends, then {W}{U}{B}{R}{G} fetches any legendary permanent onto the battlefield — answer anything with the right legend.",
+  "Slogurk, the Overslime": "A unique Simic lands-matter commander: every land that dies or is milled makes it grow (+1/+1). Sacrifice and replay your lands for value.",
+  "Terra, Herald of Hope": "A Mardu reanimation commander who fills her own graveyard (Trance: mill 2 + flying at combat) then reanimates threats for free.",
+  "Yuriko, the Tiger's Shadow": "A Dimir aggro/control ninjutsu commander who returns from the command zone at will for ~2 mana, flipping high-cost cards to drain the table.",
+  "Korvold, Fae-Cursed King": "Every sacrifice draws a card and grows the dragon — the classic Jund sac engine with treasure generators as the perfect fodder. Mayhem Devil drains, Pitiless Plunderer loops, and Korvold closes in two hits."
+ },
+ "evals_order": [
+  "Aminatou, Veil Piercer",
+  "Hinata, Dawn-Crowned"
+ ],
+ "eval_plans": {
+  "Aminatou, Veil Piercer": "MIRACLE WORKER — Enchantress & Topdeck (co-favorites)",
+  "Hinata, Dawn-Crowned": "HINATA BUDGET — Spellslinger & X Spells (co-favorites)"
+ },
+ "eval_descriptions": {
+  "Aminatou, Veil Piercer": "Precon evaluation: the Duskmourn Miracle Worker list analyzed against EDHREC game plans — 88 unique cards, 6 archetypes ranked, high-synergy overlap per plan, combos and build-structure verdict.",
+  "Hinata, Dawn-Crowned": "Deck-list evaluation: the Moxfield Hinata Budget spellslinger analyzed against EDHREC game plans — 84 unique cards, 7 archetypes ranked, high-synergy overlap per plan, combos and build-structure verdict."
+ }
 }

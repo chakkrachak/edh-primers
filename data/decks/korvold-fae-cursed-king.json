@@ -1,0 +1,3066 @@
+{
+ "deck_slug": "korvold-fae-cursed-king",
+ "commander_name": "Korvold, Fae-Cursed King",
+ "imgs": {
+  "Academy Manufactor": "https://cards.scryfall.io/normal/front/7/6/76480f4d-ad6d-4ed6-82c6-fa12abc22557.jpg?1783911891",
+  "Ashnod's Altar": "https://cards.scryfall.io/normal/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605",
+  "Birds of Paradise": "https://cards.scryfall.io/normal/front/4/9/492c2f9a-51e7-4e0f-9899-23bf43ea988b.jpg?1783903230",
+  "Bootleggers' Stash": "https://cards.scryfall.io/normal/front/8/0/80b5b7e1-52c2-4453-b3c0-efe2cebad6ce.jpg?1783923109",
+  "Chatterfang, Squirrel General": "https://cards.scryfall.io/normal/front/1/7/1785cf85-1ac0-4246-9b89-1a8221a8e1b2.jpg?1783926835",
+  "Culling the Weak": "https://cards.scryfall.io/normal/front/5/0/50c33f18-0a5c-4e46-ab0d-6e450915594f.jpg?1783946521",
+  "Dark Ritual": "https://cards.scryfall.io/normal/front/1/1/11e12a84-e7be-4afc-a230-c2e644743fa8.jpg?1783903013",
+  "Deadly Dispute": "https://cards.scryfall.io/normal/front/d/8/d86fa72c-25c1-43ef-9cb0-fe76f7568ed3.jpg?1783903013",
+  "Deflecting Swat": "https://cards.scryfall.io/normal/front/b/4/b4b36435-55b3-4615-8812-af41d4fc64d9.jpg?1783915656",
+  "Diabolic Intent": "https://cards.scryfall.io/normal/front/d/7/d72ab698-de67-4ca8-8e42-b05346bf52fa.jpg?1783920094",
+  "Eldritch Evolution": "https://cards.scryfall.io/normal/front/6/0/606caf13-c0d3-4a61-9a1a-32f13b6448ab.jpg?1783908101",
+  "Goldspan Dragon": "https://cards.scryfall.io/normal/front/8/4/848c1951-90fa-4f01-9aed-76f1afcd9995.jpg?1783903774",
+  "Korvold, Fae-Cursed King": "https://cards.scryfall.io/normal/front/6/0/607c1793-8e5a-4ebf-87c6-7f9c99bbd29a.jpg?1783906027",
+  "Mayhem Devil": "https://cards.scryfall.io/normal/front/6/7/674f3a8a-4552-4289-b92a-06ce158f115c.jpg?1783906026",
+  "Mirkwood Bats": "https://cards.scryfall.io/normal/front/1/5/15f035df-784a-4dc8-b7f5-77139a4e6e99.jpg?1783916303",
+  "Old Gnawbone": "https://cards.scryfall.io/normal/front/7/7/77ceba8b-de19-4db8-b5a7-f5df49bf241f.jpg?1783926458",
+  "Pitiless Plunderer": "https://cards.scryfall.io/normal/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869",
+  "Professional Face-Breaker": "https://cards.scryfall.io/normal/front/4/2/42acbf52-b137-44f0-a815-2817fe8d2da2.jpg?1783923119",
+  "Ragavan, Nimble Pilferer": "https://cards.scryfall.io/normal/front/a/9/a9738cda-adb1-47fb-9f4c-ecd930228c4d.jpg?1783926839",
+  "Reassembling Skeleton": "https://cards.scryfall.io/normal/front/4/d/4d431445-d7db-4ce1-b422-41494d9be1b4.jpg?1783907080",
+  "Revel in Riches": "https://cards.scryfall.io/normal/front/7/9/79b0e035-8716-469d-99ae-a530cd96ef09.jpg?1783935756",
+  "Ruthless Technomancer": "https://cards.scryfall.io/normal/front/d/d/dddeb5cc-b535-4484-8a0e-ce32c4c09000.jpg?1783923986",
+  "Squee, the Immortal": "https://cards.scryfall.io/normal/front/a/8/a8232acd-4645-489c-8cf1-4efdc75d9322.jpg?1783923257",
+  "Tinder Wall": "https://cards.scryfall.io/normal/front/1/e/1e62598f-0a91-4cfd-9a28-c3bda61c9ead.jpg?1783942601",
+  "Tireless Provisioner": "https://cards.scryfall.io/normal/front/a/1/a1e048e0-19d2-4076-892d-f8b3104dee37.jpg?1783917135",
+  "Veil of Summer": "https://cards.scryfall.io/normal/front/a/a/aa686c34-1c11-469f-93c2-f9891aea521f.jpg?1783932955",
+  "Viscera Seer": "https://cards.scryfall.io/normal/front/f/5/f511830b-1c1f-4d30-aa5d-4314726d142e.jpg?1783903780",
+  "Warren Soultrader": "https://cards.scryfall.io/normal/front/b/3/b334e4c6-d316-4141-8889-f95afcc04701.jpg?1784634565",
+  "Xorn": "https://cards.scryfall.io/normal/front/f/7/f73fdf76-e3a6-49d0-bfb0-4b7cdbd4271e.jpg?1783926470",
+  "Zulaport Cutthroat": "https://cards.scryfall.io/normal/front/c/4/c43609fb-3cee-44e0-98d0-3ecaba1d5767.jpg?1783903779",
+  "Animation Module": "https://cards.scryfall.io/normal/front/3/4/34bdc973-db45-46a6-ac48-ce88fb59920a.jpg?1783937163",
+  "Hazel's Brewmaster": "https://cards.scryfall.io/normal/front/5/2/52af8b70-a9c8-40d7-99da-fa51dc293688.jpg?1783910733",
+  "Sakura-Tribe Elder": "https://cards.scryfall.io/normal/front/7/a/7a8b1c49-8594-426d-b585-41140235bb0e.jpg?1783903761",
+  "There and Back Again": "https://cards.scryfall.io/normal/front/9/3/939b0bd0-24ea-45de-a2d3-37bbf6a3e6f9.jpg?1783916275",
+  "Gravecrawler": "https://cards.scryfall.io/normal/front/6/9/6987d609-ba0f-42bf-9b61-bdfb943c03b5.jpg?1783907138"
+ },
+ "oracle": {
+  "Academy Manufactor": "If you would create a Clue, Food, or Treasure token, instead create one of each.",
+  "Ashnod's Altar": "Sacrifice a creature: Add {C}{C}.",
+  "Birds of Paradise": "Flying\n{T}: Add one mana of any color.",
+  "Bootleggers' Stash": "Lands you control have \"{T}: Create a Treasure token.\"",
+  "Chatterfang, Squirrel General": "Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)\nIf one or more tokens would be created under your control, those tokens plus that many 1/1 green Squirrel creature tokens are created instead.\n{B}, Sacrifice X Squirrels: Target creature gets +X/-X until end of turn.",
+  "Culling the Weak": "As an additional cost to cast this spell, sacrifice a creature.\nAdd {B}{B}{B}{B}.",
+  "Dark Ritual": "Add {B}{B}{B}.",
+  "Deadly Dispute": "As an additional cost to cast this spell, sacrifice an artifact or creature.\nDraw two cards and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+  "Deflecting Swat": "If you control a commander, you may cast this spell without paying its mana cost.\nYou may choose new targets for target spell or ability.",
+  "Diabolic Intent": "As an additional cost to cast this spell, sacrifice a creature.\nSearch your library for a card, put that card into your hand, then shuffle.",
+  "Eldritch Evolution": "As an additional cost to cast this spell, sacrifice a creature.\nSearch your library for a creature card with mana value X or less, where X is 2 plus the sacrificed creature's mana value. Put that card onto the battlefield, then shuffle. Exile Eldritch Evolution.",
+  "Goldspan Dragon": "Flying, haste\nWhenever this creature attacks or becomes the target of a spell, create a Treasure token.\nTreasures you control have \"{T}, Sacrifice this artifact: Add two mana of any one color.\"",
+  "Korvold, Fae-Cursed King": "Flying\nWhenever Korvold enters or attacks, sacrifice another permanent.\nWhenever you sacrifice a permanent, put a +1/+1 counter on Korvold and draw a card.",
+  "Mayhem Devil": "Whenever a player sacrifices a permanent, this creature deals 1 damage to any target.",
+  "Mirkwood Bats": "Flying\nWhenever you create or sacrifice a token, each opponent loses 1 life.",
+  "Old Gnawbone": "Flying\nWhenever a creature you control deals combat damage to a player, create that many Treasure tokens.",
+  "Pitiless Plunderer": "Whenever another creature you control dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+  "Professional Face-Breaker": "Menace\nWhenever one or more creatures you control deal combat damage to a player, create a Treasure token.\nSacrifice a Treasure: Exile the top card of your library. You may play that card this turn.",
+  "Ragavan, Nimble Pilferer": "Whenever Ragavan deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card.\nDash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+  "Reassembling Skeleton": "{1}{B}: Return this card from your graveyard to the battlefield tapped.",
+  "Revel in Riches": "Whenever a creature an opponent controls dies, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nAt the beginning of your upkeep, if you control ten or more Treasures, you win the game.",
+  "Ruthless Technomancer": "When this creature enters, you may sacrifice another creature you control. If you do, create a number of Treasure tokens equal to that creature's power.\n{2}{B}, Sacrifice X artifacts: Return target creature card with power X or less from your graveyard to the battlefield. X can't be 0.",
+  "Squee, the Immortal": "You may cast this card from your graveyard or from exile.",
+  "Tinder Wall": "Defender (This creature can't attack.)\nSacrifice this creature: Add {R}{R}.\n{R}, Sacrifice this creature: It deals 2 damage to target creature it's blocking.",
+  "Tireless Provisioner": "Landfall — Whenever a land you control enters, create a Food token or a Treasure token. (Food is an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\" Treasure is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+  "Veil of Summer": "Draw a card if an opponent has cast a blue or black spell this turn. Spells you control can't be countered this turn. You and permanents you control gain hexproof from blue and from black until end of turn. (You and they can't be the targets of blue or black spells or abilities your opponents control.)",
+  "Viscera Seer": "Sacrifice a creature: Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+  "Warren Soultrader": "Pay 1 life, Sacrifice another creature: Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+  "Xorn": "If you would create one or more Treasure tokens, instead create those tokens plus an additional Treasure token.",
+  "Zulaport Cutthroat": "Whenever this creature or another creature you control dies, each opponent loses 1 life and you gain 1 life.",
+  "Animation Module": "Whenever one or more +1/+1 counters are put on a permanent you control, you may pay {1}. If you do, create a 1/1 colorless Servo artifact creature token.\n{3}, {T}: Choose a counter on target permanent or player. Give that permanent or player another counter of that kind.",
+  "Hazel's Brewmaster": "Menace\nWhenever this creature enters or attacks, exile up to one target card from a graveyard and create a Food token.\nFoods you control have all activated abilities of all creature cards exiled with this creature.",
+  "Sakura-Tribe Elder": "Sacrifice this creature: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+  "There and Back Again": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Up to one target creature can't block for as long as you control this Saga. The Ring tempts you.\nII — Search your library for a Mountain card, put it onto the battlefield, then shuffle.\nIII — Create Smaug, a legendary 6/6 red Dragon creature token with flying, haste, and \"When Smaug dies, create fourteen Treasure tokens.\"",
+  "Gravecrawler": "This creature can't block.\nYou may cast this card from your graveyard as long as you control a Zombie."
+ },
+ "synergy": {
+  "Mayhem Devil": {
+   "synergy": 0.4876321776734905
+  },
+  "Diabolic Intent": {
+   "synergy": 0.570821267362956
+  },
+  "Dark Ritual": {
+   "synergy": 0.5410607100778385
+  },
+  "Warren Soultrader": {
+   "synergy": 0.4956497684032217
+  },
+  "Veil of Summer": {
+   "synergy": 0.1711645063366926
+  },
+  "Culling the Weak": {
+   "synergy": 0.17015141713159745
+  },
+  "Ragavan, Nimble Pilferer": {
+   "synergy": 0.23934501503448036
+  },
+  "Tinder Wall": {
+   "synergy": 0.16922841724635512
+  },
+  "Pitiless Plunderer": {
+   "synergy": 0.5146088870463246
+  },
+  "Eldritch Evolution": {
+   "synergy": 0.17030029272584085
+  },
+  "Academy Manufactor": {
+   "synergy": 0.5035139058576429
+  },
+  "Tireless Provisioner": {
+   "synergy": 0.5107472269789184
+  },
+  "Goldspan Dragon": {
+   "synergy": 0.2701504262323599
+  },
+  "Chatterfang, Squirrel General": {
+   "synergy": 0.49415342445031707
+  },
+  "Xorn": {
+   "synergy": 0.22327271841431143
+  },
+  "Professional Face-Breaker": {
+   "synergy": 0.2561987945728954
+  },
+  "Mirkwood Bats": {
+   "synergy": 0.4768312758202867
+  },
+  "Deadly Dispute": {
+   "synergy": 0.3781174484651347
+  },
+  "Zulaport Cutthroat": {
+   "synergy": 0.2217682877558677
+  },
+  "Ashnod's Altar": {
+   "synergy": 0.2493353774894297
+  },
+  "Viscera Seer": {
+   "synergy": 0.23058403262740707
+  },
+  "Deflecting Swat": {
+   "synergy": 0.19900264758651495
+  },
+  "Birds of Paradise": {
+   "synergy": 0.4589429883549898
+  },
+  "Ruthless Technomancer": {
+   "synergy": 0.26697925118946914
+  },
+  "Blood Artist": {
+   "synergy": 0.18409541291906623
+  },
+  "Mahadi, Emporium Master": {
+   "synergy": 0.19611613108169462
+  },
+  "Ziatora, the Incinerator": {
+   "synergy": 0.14356699669323328
+  },
+  "Old Gnawbone": {
+   "synergy": 0.20745520828516156
+  },
+  "Delighted Halfling": {
+   "synergy": 0.13515416527449614
+  },
+  "Braids, Arisen Nightmare": {
+   "synergy": 0.06022216541900796
+  },
+  "Reassembling Skeleton": {
+   "synergy": 0.2108189912366834
+  },
+  "Squee, the Immortal": {
+   "synergy": 0.20102656075666778
+  },
+  "Mazirek, Kraul Death Priest": {
+   "synergy": 0.08870112727895602
+  },
+  "Springbloom Druid": {
+   "synergy": 0.10961313001484159
+  },
+  "Marionette Apprentice": {
+   "synergy": 0.17749132785098332
+  },
+  "Icetill Explorer": {
+   "synergy": 0.04137446365214062
+  },
+  "Sylvan Safekeeper": {
+   "synergy": 0.10740893683513321
+  },
+  "Deathrite Shaman": {
+   "synergy": 0.1131756911825351
+  },
+  "Scute Swarm": {
+   "synergy": 0.06805387124868542
+  },
+  "Orcish Lumberjack": {
+   "synergy": 0.12184182579706744
+  },
+  "Grim Hireling": {
+   "synergy": 0.15318728576566892
+  },
+  "Hexing Squelcher": {
+   "synergy": 0.10426696305985134
+  },
+  "Ramunap Excavator": {
+   "synergy": 0.05523878186898229
+  },
+  "Six": {
+   "synergy": 0.053209338669050865
+  },
+  "Llanowar Elves": {
+   "synergy": 0.028872224222466852
+  },
+  "Simian Spirit Guide": {
+   "synergy": 0.12525728426829835
+  },
+  "Prossh, Skyraider of Kher": {
+   "synergy": 0.14693333412915233
+  },
+  "Aftermath Analyst": {
+   "synergy": -0.008814489927125801
+  },
+  "Tireless Tracker": {
+   "synergy": 0.07842789476530172
+  },
+  "Ancient Copper Dragon": {
+   "synergy": 0.11999240757017882
+  },
+  "Crime Novelist": {
+   "synergy": 0.12172044740144898
+  },
+  "Elvish Spirit Guide": {
+   "synergy": 0.11871230838951652
+  },
+  "The Gitrog Monster": {
+   "synergy": -0.03218447421682466
+  },
+  "Gilded Goose": {
+   "synergy": 0.12847432576538445
+  },
+  "Lotus Cobra": {
+   "synergy": 0.024809303445857772
+  },
+  "Elves of Deep Shadow": {
+   "synergy": 0.05078512921502916
+  },
+  "Nadier's Nightblade": {
+   "synergy": 0.08932150216347698
+  },
+  "Horizon Explorer": {
+   "synergy": -0.04499064883324756
+  },
+  "Plaguecrafter": {
+   "synergy": 0.09341924025974326
+  },
+  "Szarel, Genesis Shepherd": {
+   "synergy": -0.011507066994621076
+  },
+  "Haywire Mite": {
+   "synergy": 0.06528160662411865
+  },
+  "Evendo Brushrazer": {
+   "synergy": -0.018212001417107757
+  },
+  "Jolene, the Plunder Queen": {
+   "synergy": 0.07138626733656522
+  },
+  "Solemn Simulacrum": {
+   "synergy": -0.017095665193698345
+  },
+  "Atsushi, the Blazing Sky": {
+   "synergy": 0.040010605421153506
+  },
+  "The Cabbage Merchant": {
+   "synergy": 0.09453785275583222
+  },
+  "Beast Within": {
+   "synergy": -0.03658644042604958
+  },
+  "Heroic Intervention": {
+   "synergy": 0.06104580512060043
+  },
+  "Abrupt Decay": {
+   "synergy": 0.17672562137679382
+  },
+  "Chaos Warp": {
+   "synergy": -0.007950035428556573
+  },
+  "Terminate": {
+   "synergy": -0.07691420112340264
+  },
+  "Deadly Rollick": {
+   "synergy": 0.070403039969897
+  },
+  "Pyroblast": {
+   "synergy": 0.14561369049841288
+  },
+  "Red Elemental Blast": {
+   "synergy": 0.14479726811521337
+  },
+  "Noxious Revival": {
+   "synergy": 0.1307230383981557
+  },
+  "Village Rites": {
+   "synergy": 0.0986184747862048
+  },
+  "Entomb": {
+   "synergy": 0.05886200339959838
+  },
+  "Big Score": {
+   "synergy": 0.08787068917077072
+  },
+  "Putrefy": {
+   "synergy": -0.0901753937804099
+  },
+  "Entish Restoration": {
+   "synergy": 0.07035991121804316
+  },
+  "Roiling Regrowth": {
+   "synergy": 0.029999148187002292
+  },
+  "Cabal Ritual": {
+   "synergy": 0.09419054123923423
+  },
+  "Rain of Filth": {
+   "synergy": 0.09808524340653525
+  },
+  "Ad Nauseam": {
+   "synergy": 0.0956102361954092
+  },
+  "Unexpected Windfall": {
+   "synergy": 0.06545014796923854
+  },
+  "Nature's Claim": {
+   "synergy": 0.04003376287979186
+  },
+  "Tear Asunder": {
+   "synergy": -0.052536121974251185
+  },
+  "Final Fortune": {
+   "synergy": 0.07603535819550558
+  },
+  "Saw in Half": {
+   "synergy": 0.038328901461705006
+  },
+  "Redirect Lightning": {
+   "synergy": 0.049947628229562085
+  },
+  "Autumn's Veil": {
+   "synergy": 0.058442885994202935
+  },
+  "Fling": {
+   "synergy": 0.02053975724464513
+  },
+  "Malakir Rebirth": {
+   "synergy": -0.019000936416883357
+  },
+  "Infernal Grasp": {
+   "synergy": -0.08047573999586097
+  },
+  "Bedevil": {
+   "synergy": 0.010120996132780169
+  },
+  "Rakdos Charm": {
+   "synergy": -0.09124673715773315
+  },
+  "Tamiyo's Safekeeping": {
+   "synergy": 0.014940423980152918
+  },
+  "Bolt Bend": {
+   "synergy": 0.03226127942977788
+  },
+  "Revitalizing Repast": {
+   "synergy": -0.032599618318121956
+  },
+  "Lightning Bolt": {
+   "synergy": 0.021567364546508636
+  },
+  "Tibalt's Trickery": {
+   "synergy": 0.022202503788475617
+  },
+  "Artifact Mutation": {
+   "synergy": 0.011264750357974238
+  },
+  "Summoner's Pact": {
+   "synergy": 0.05068030526811031
+  },
+  "Untimely Malfunction": {
+   "synergy": 0.011228343373709856
+  },
+  "Corrupted Conviction": {
+   "synergy": 0.018120187699988848
+  },
+  "Tainted Pact": {
+   "synergy": 0.04401624220305539
+  },
+  "Legolas's Quick Reflexes": {
+   "synergy": 0.03328214939769661
+  },
+  "Force of Vigor": {
+   "synergy": 0.028816411165174933
+  },
+  "Blasphemous Act": {
+   "synergy": -0.0627364333879104
+  },
+  "Farseek": {
+   "synergy": -0.14591860903676246
+  },
+  "Victimize": {
+   "synergy": 0.11553558988444643
+  },
+  "Cultivate": {
+   "synergy": -0.11890324566570992
+  },
+  "Nature's Lore": {
+   "synergy": -0.10797028742312492
+  },
+  "Culling Ritual": {
+   "synergy": 0.14420190382331788
+  },
+  "Toxic Deluge": {
+   "synergy": 0.06325714200914648
+  },
+  "Three Visits": {
+   "synergy": -0.041083946106897
+  },
+  "Rampant Growth": {
+   "synergy": -0.12756058760990674
+  },
+  "Brass's Bounty": {
+   "synergy": 0.13584667197115272
+  },
+  "Finale of Devastation": {
+   "synergy": 0.1137354214648168
+  },
+  "Kodama's Reach": {
+   "synergy": -0.07403844432966206
+  },
+  "Jeska's Will": {
+   "synergy": 0.07361645883809001
+  },
+  "Imperial Seal": {
+   "synergy": 0.10279026409510345
+  },
+  "Life from the Loam": {
+   "synergy": 0.015149059608281251
+  },
+  "Nature's Rhythm": {
+   "synergy": 0.09203706396353659
+  },
+  "Chandra's Ignition": {
+   "synergy": -0.00337104361179405
+  },
+  "Splendid Reclamation": {
+   "synergy": -0.043154509646144215
+  },
+  "Rite of Flame": {
+   "synergy": 0.08051023135593019
+  },
+  "Green Sun's Zenith": {
+   "synergy": 0.058617616810421685
+  },
+  "Blasphemous Edict": {
+   "synergy": 0.04028907406744444
+  },
+  "Blood Money": {
+   "synergy": 0.06119508511965133
+  },
+  "Crux of Fate": {
+   "synergy": 0.06853357540744817
+  },
+  "Torment of Hailfire": {
+   "synergy": 0.04000256980091586
+  },
+  "Chain of Smog": {
+   "synergy": 0.07421400437274464
+  },
+  "Unearth": {
+   "synergy": 0.06665888832764517
+  },
+  "Vandalblast": {
+   "synergy": -0.0024712518701150016
+  },
+  "Scapeshift": {
+   "synergy": 0.006359656748915005
+  },
+  "Beseech the Mirror": {
+   "synergy": 0.05557139031613076
+  },
+  "Wheel of Fortune": {
+   "synergy": 0.03955337796696658
+  },
+  "Praetor's Grasp": {
+   "synergy": 0.058906861170057764
+  },
+  "Planar Engineering": {
+   "synergy": 0.002156355231788712
+  },
+  "Lively Dirge": {
+   "synergy": 0.0382871059203856
+  },
+  "Dread Return": {
+   "synergy": 0.020631916049684104
+  },
+  "Bala Ged Recovery": {
+   "synergy": -0.0202721188118285
+  },
+  "Damnation": {
+   "synergy": 0.004060179492294182
+  },
+  "Ominous Harvest": {
+   "synergy": 0.04881654277976941
+  },
+  "Faithless Looting": {
+   "synergy": -0.11553331031651493
+  },
+  "Lich-Knights' Conquest": {
+   "synergy": 0.029305365591387137
+  },
+  "Planetary Annihilation": {
+   "synergy": -0.06006791302444953
+  },
+  "Skyshroud Claim": {
+   "synergy": -0.05427061652175742
+  },
+  "Swiftfoot Boots": {
+   "synergy": 0.08378213507544427
+  },
+  "Bootleggers' Stash": {
+   "synergy": 0.22984723661948459
+  },
+  "The Reaver Cleaver": {
+   "synergy": 0.15220272339747953
+  },
+  "Phyrexian Altar": {
+   "synergy": 0.14674544636609296
+  },
+  "Exploration Broodship": {
+   "synergy": 0.0018031569156082838
+  },
+  "Skullclamp": {
+   "synergy": 0.004138619517950026
+  },
+  "Hearthhull, the Worldseed": {
+   "synergy": 0.08808930328745752
+  },
+  "Crucible of Worlds": {
+   "synergy": 0.022852744093397034
+  },
+  "Wishclaw Talisman": {
+   "synergy": 0.08124091991994684
+  },
+  "The One Ring": {
+   "synergy": 0.06773002395050579
+  },
+  "Cauldron of Essence": {
+   "synergy": 0.029684815813713045
+  },
+  "Zuran Orb": {
+   "synergy": -0.015475541268867007
+  },
+  "Witch's Oven": {
+   "synergy": 0.08709762568122202
+  },
+  "Conduit of Worlds": {
+   "synergy": -0.010452290532952394
+  },
+  "Bolas's Citadel": {
+   "synergy": 0.06327410462372571
+  },
+  "Vexing Bauble": {
+   "synergy": 0.06887781076145932
+  },
+  "Nuka-Cola Vending Machine": {
+   "synergy": 0.06189141342382862
+  },
+  "Grinding Station": {
+   "synergy": 0.05748918161126916
+  },
+  "Wayfarer's Bauble": {
+   "synergy": 0.035974834570839116
+  },
+  "Animation Module": {
+   "synergy": 0.051750875476454884
+  },
+  "Defense Grid": {
+   "synergy": 0.04081499613448555
+  },
+  "Revel in Riches": {
+   "synergy": 0.20346749569862338
+  },
+  "Black Market Connections": {
+   "synergy": 0.17214332608497657
+  },
+  "Goblin Bombardment": {
+   "synergy": 0.1485005995875282
+  },
+  "Awakening Zone": {
+   "synergy": 0.19971609736579599
+  },
+  "Rhythm of the Wild": {
+   "synergy": 0.03700453786449262
+  },
+  "Doubling Season": {
+   "synergy": 0.11315075724414242
+  },
+  "Animate Dead": {
+   "synergy": 0.07820650874432436
+  },
+  "Exploration": {
+   "synergy": 0.053949804229719206
+  },
+  "Food Chain": {
+   "synergy": 0.09475749403377048
+  },
+  "Parallel Lives": {
+   "synergy": 0.067796763817941
+  },
+  "Moldervine Reclamation": {
+   "synergy": 0.051777060598189
+  },
+  "Squandered Resources": {
+   "synergy": 0.07302716688676011
+  },
+  "Bastion of Remembrance": {
+   "synergy": 0.06326379713679953
+  },
+  "Necropotence": {
+   "synergy": 0.08080238463624069
+  },
+  "Sylvan Library": {
+   "synergy": 0.03136534583174916
+  },
+  "Dictate of Erebos": {
+   "synergy": 0.053404138208164115
+  },
+  "Rain of Riches": {
+   "synergy": 0.05497207009270854
+  },
+  "Bitterblossom": {
+   "synergy": 0.06784536116872805
+  },
+  "Alchemist's Talent": {
+   "synergy": 0.05716432240557748
+  },
+  "Grave Pact": {
+   "synergy": 0.044227891345484174
+  },
+  "Chthonian Nightmare": {
+   "synergy": 0.062055297487011676
+  },
+  "Carpet of Flowers": {
+   "synergy": 0.048544007142288945
+  },
+  "Obsessive Pursuit": {
+   "synergy": 0.05219329481532591
+  },
+  "The Meathook Massacre": {
+   "synergy": 0.025980652478454498
+  },
+  "Curse of Opulence": {
+   "synergy": 0.032213596377725154
+  },
+  "Riveteers Ascendancy": {
+   "synergy": -0.05235580560766465
+  },
+  "Dreadhorde Invasion": {
+   "synergy": 0.04941944612077471
+  },
+  "Descent into Avernus": {
+   "synergy": 0.010817854927231911
+  },
+  "Fable of the Mirror-Breaker": {
+   "synergy": 0.03795620732828446
+  },
+  "Impact Tremors": {
+   "synergy": -0.007375771467921843
+  },
+  "Stimulus Package": {
+   "synergy": 0.0365577067301745
+  },
+  "There and Back Again": {
+   "synergy": 0.03954056112850922
+  },
+  "Liliana, Dreadhorde General": {
+   "synergy": 0.059534116667463235
+  },
+  "Reliquary Tower": {
+   "synergy": 0.16691495435332582
+  },
+  "Boseiju, Who Endures": {
+   "synergy": 0.11185796014654273
+  },
+  "Phyrexian Tower": {
+   "synergy": 0.1911357332856748
+  },
+  "Bojuka Bog": {
+   "synergy": -0.06761201798293182
+  },
+  "Yavimaya, Cradle of Growth": {
+   "synergy": 0.05296612320610797
+  },
+  "Urborg, Tomb of Yawgmoth": {
+   "synergy": 0.051545929101926624
+  },
+  "Shifting Woodland": {
+   "synergy": 0.07024694544537256
+  },
+  "Treasure Vault": {
+   "synergy": 0.14509151183525495
+  },
+  "Rogue's Passage": {
+   "synergy": 0.009513713719576933
+  },
+  "Emergence Zone": {
+   "synergy": 0.11450980401610462
+  },
+  "Field of the Dead": {
+   "synergy": 0.030862204820415504
+  },
+  "Lotus Field": {
+   "synergy": 0.03768024223988381
+  },
+  "Eumidian Hatchery": {
+   "synergy": -0.03304708344238631
+  },
+  "Strip Mine": {
+   "synergy": 0.023412443033410682
+  },
+  "Gaea's Cradle": {
+   "synergy": 0.05981646322074202
+  },
+  "High Market": {
+   "synergy": 0.049728002153207364
+  },
+  "Urza's Saga": {
+   "synergy": 0.03579951577367133
+  },
+  "City of Traitors": {
+   "synergy": 0.06482430412758702
+  },
+  "Dryad Arbor": {
+   "synergy": 0.03830466905282111
+  },
+  "Takenuma, Abandoned Mire": {
+   "synergy": -0.022285811895208396
+  },
+  "Kessig Wolf Run": {
+   "synergy": -0.10685282327148833
+  },
+  "Command Beacon": {
+   "synergy": 0.019468846748818637
+  },
+  "Dakmor Salvage": {
+   "synergy": -0.07937865673610889
+  },
+  "Kher Keep": {
+   "synergy": 0.029258830740937894
+  },
+  "Sol Ring": {
+   "synergy": 0.08277733903448092
+  },
+  "Arcane Signet": {
+   "synergy": 0.04623654262207266
+  },
+  "Lotus Petal": {
+   "synergy": 0.19563431875243198
+  },
+  "Fellwar Stone": {
+   "synergy": 0.06112266728693218
+  },
+  "Talisman of Resilience": {
+   "synergy": 0.02596523584363522
+  },
+  "Talisman of Indulgence": {
+   "synergy": 0.021834332792084535
+  },
+  "Thought Vessel": {
+   "synergy": 0.07749142540603143
+  },
+  "Mox Diamond": {
+   "synergy": 0.09253006835307905
+  },
+  "Commander's Sphere": {
+   "synergy": 0.030800912776467224
+  },
+  "Talisman of Impulse": {
+   "synergy": -0.004639081571307546
+  },
+  "Lion's Eye Diamond": {
+   "synergy": 0.08303734858015013
+  },
+  "Mox Opal": {
+   "synergy": 0.06340506981320337
+  },
+  "Golgari Signet": {
+   "synergy": -0.012537349423436248
+  },
+  "Rakdos Signet": {
+   "synergy": -0.00830835993801013
+  },
+  "Mind Stone": {
+   "synergy": 0.03698354911170615
+  },
+  "Gruul Signet": {
+   "synergy": -0.016982041591595567
+  },
+  "Chromatic Lantern": {
+   "synergy": 0.001586578743060528
+  },
+  "Grim Monolith": {
+   "synergy": 0.04146303245111614
+  },
+  "Forest": {
+   "synergy": -0.03881022162780956
+  },
+  "Command Tower": {
+   "synergy": 0.012085102166096706
+  },
+  "Swamp": {
+   "synergy": -0.03825784280882816
+  },
+  "Mountain": {
+   "synergy": -0.07393018688205055
+  },
+  "Stomping Ground": {
+   "synergy": 0.14260835294795
+  },
+  "Overgrown Tomb": {
+   "synergy": 0.12381993967502797
+  },
+  "Blood Crypt": {
+   "synergy": 0.1342739264515284
+  },
+  "Bloodstained Mire": {
+   "synergy": 0.1869370788173742
+  },
+  "Wooded Foothills": {
+   "synergy": 0.17897782607552437
+  },
+  "Verdant Catacombs": {
+   "synergy": 0.18600471887719477
+  },
+  "Exotic Orchard": {
+   "synergy": -0.059523263825072614
+  },
+  "Ziatora's Proving Ground": {
+   "synergy": -0.03113859311898448
+  },
+  "Fabled Passage": {
+   "synergy": 0.145959679944844
+  },
+  "Evolving Wilds": {
+   "synergy": 0.06305449902267346
+  },
+  "Cinder Glade": {
+   "synergy": -0.15292354487821108
+  },
+  "Terramorphic Expanse": {
+   "synergy": 0.048473252598961736
+  },
+  "Smoldering Marsh": {
+   "synergy": -0.14748343839496508
+  },
+  "Undergrowth Stadium": {
+   "synergy": 0.010413320810522375
+  },
+  "Woodland Cemetery": {
+   "synergy": -0.07419883990885934
+  },
+  "Dragonskull Summit": {
+   "synergy": -0.059966493285042555
+  },
+  "Savage Lands": {
+   "synergy": -0.14383443149085678
+  },
+  "Windswept Heath": {
+   "synergy": 0.167235557458112
+  },
+  "Luxury Suite": {
+   "synergy": 0.022063993709128926
+  },
+  "Spire Garden": {
+   "synergy": 0.00046407511291529646
+  },
+  "Marsh Flats": {
+   "synergy": 0.16905889354500447
+  },
+  "Misty Rainforest": {
+   "synergy": 0.15622644520535497
+  },
+  "Polluted Delta": {
+   "synergy": 0.16153991406040002
+  },
+  "Llanowar Wastes": {
+   "synergy": -0.04611288537491731
+  },
+  "Arid Mesa": {
+   "synergy": 0.15543169358269518
+  },
+  "Riveteers Overlook": {
+   "synergy": -0.06590579380302922
+  },
+  "Rootbound Crag": {
+   "synergy": -0.09973134756421684
+  },
+  "Bayou": {
+   "synergy": 0.09968494614228024
+  },
+  "Taiga": {
+   "synergy": 0.09731301254672524
+  },
+  "Badlands": {
+   "synergy": 0.09786936466980482
+  },
+  "Scalding Tarn": {
+   "synergy": 0.14059097723762104
+  },
+  "Twisted Landscape": {
+   "synergy": -0.005953422090289179
+  },
+  "Karplusan Forest": {
+   "synergy": -0.05735969917971931
+  },
+  "Sulfurous Springs": {
+   "synergy": -0.04781114915602569
+  },
+  "City of Brass": {
+   "synergy": 0.11366174367292116
+  },
+  "Mana Confluence": {
+   "synergy": 0.11334129047372571
+  },
+  "Myriad Landscape": {
+   "synergy": 0.0022625626914829222
+  },
+  "Vernal Fen": {
+   "synergy": -0.12417491405856182
+  },
+  "Prismatic Vista": {
+   "synergy": 0.09379962972591951
+  },
+  "Rockfall Vale": {
+   "synergy": -0.054387122717029446
+  },
+  "Gemstone Caverns": {
+   "synergy": 0.10767988160858344
+  },
+  "Underground Mortuary": {
+   "synergy": -0.0318097594921562
+  },
+  "Deathcap Glade": {
+   "synergy": -0.027436221973763386
+  },
+  "Haunted Ridge": {
+   "synergy": -0.014559107678335098
+  },
+  "Temple of Malady": {
+   "synergy": -0.007219633243320769
+  },
+  "Raucous Theater": {
+   "synergy": -0.040359988071075464
+  }
+ },
+ "combos": [
+  {
+   "id": "3000-4871",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 3000,
+      "name": "Chatterfang, Squirrel General",
+      "oracleId": "f15b3b76-d38a-48db-bb44-3296183c8641",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Squirrel Warrior",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/1/7/1785cf85-1ac0-4246-9b89-1a8221a8e1b2.png?1783926835",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/1/7/1785cf85-1ac0-4246-9b89-1a8221a8e1b2.jpg?1783926835",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/1/7/1785cf85-1ac0-4246-9b89-1a8221a8e1b2.jpg?1783926835",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/1/7/1785cf85-1ac0-4246-9b89-1a8221a8e1b2.jpg?1783926835",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/1/7/1785cf85-1ac0-4246-9b89-1a8221a8e1b2.jpg?1783926835",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 4871,
+      "name": "Pitiless Plunderer",
+      "oracleId": "a784481f-eccb-4112-bb38-04a659319660",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Human Pirate",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.png?1783913869",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "feature": {
+      "id": 2408,
+      "name": "Infinite artifact ETB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 2409,
+      "name": "Infinite artifact LTB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 2419,
+      "name": "Infinite artifact sacrifice triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 587,
+      "name": "Infinite artifact tokens",
+      "uncountable": true,
+      "status": "C"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 5,
+      "name": "Infinite colored mana",
+      "uncountable": true,
+      "status": "S"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 7,
+      "name": "Infinite death triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 4,
+      "name": "Infinite creature ETB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 3,
+      "name": "Infinite creature LTB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 6,
+      "name": "Infinite creature sacrifice triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 91,
+      "name": "Infinite Treasure tokens",
+      "uncountable": true,
+      "status": "S"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 1492,
+      "name": "Reduce the toughness of creatures opponents control to 0",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    }
+   ],
+   "of": [
+    {
+     "id": 8443
+    }
+   ],
+   "includes": [
+    {
+     "id": 26311
+    },
+    {
+     "id": 26302
+    },
+    {
+     "id": 8443
+    },
+    {
+     "id": 31074
+    }
+   ],
+   "identity": "BG",
+   "manaNeeded": "{B}",
+   "manaValueNeeded": 1,
+   "easyPrerequisites": "",
+   "notablePrerequisites": "You control an additional Squirrel.",
+   "description": "Activate Chatterfang by paying {B} and sacrificing another Squirrel.\nWhen the Squirrel dies, Pitiless Plunderer triggers, creating a 1/1 Squirrel creature token and a Treasure token.\nActivate a Treasure token by tapping and sacrificing it, adding {B}.\nRepeat.\nResolve all Chatterfang abilities, causing any number of target creatures to get +1/-1 until end of turn any number of times.",
+   "notes": "If you control additional Squirrels, you can sacrifice them as well to get infinite Treasure tokens.",
+   "popularity": 61873,
+   "spoiler": false,
+   "bracketTag": "S",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": true,
+    "competitiveBrawl": true,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": true,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "15.20",
+    "cardkingdom": "20.48",
+    "cardmarket": "8.70"
+   },
+   "variantCount": 1
+  },
+  {
+   "id": "1580-2034-4871",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 4871,
+      "name": "Pitiless Plunderer",
+      "oracleId": "a784481f-eccb-4112-bb38-04a659319660",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Human Pirate",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.png?1783913869",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 2034,
+      "name": "Ashnod's Altar",
+      "oracleId": "4d18bcba-a346-445e-a182-6cc30b7e066d",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Artifact",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.png?1783915605",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 1580,
+      "name": "Reassembling Skeleton",
+      "oracleId": "9dbc3530-b278-4c8d-b2cc-a09dfac9d5e5",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Skeleton Warrior",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/4/d/4d431445-d7db-4ce1-b422-41494d9be1b4.png?1783907080",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/4/d/4d431445-d7db-4ce1-b422-41494d9be1b4.jpg?1783907080",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/4/d/4d431445-d7db-4ce1-b422-41494d9be1b4.jpg?1783907080",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/4/d/4d431445-d7db-4ce1-b422-41494d9be1b4.jpg?1783907080",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/4/d/4d431445-d7db-4ce1-b422-41494d9be1b4.jpg?1783907080",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "G"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "feature": {
+      "id": 11,
+      "name": "Infinite colorless mana",
+      "uncountable": true,
+      "status": "S"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 7,
+      "name": "Infinite death triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 4,
+      "name": "Infinite creature ETB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 3,
+      "name": "Infinite creature LTB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 6,
+      "name": "Infinite creature sacrifice triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    }
+   ],
+   "of": [
+    {
+     "id": 30204
+    }
+   ],
+   "includes": [
+    {
+     "id": 26301
+    },
+    {
+     "id": 26870
+    },
+    {
+     "id": 30204
+    },
+    {
+     "id": 31074
+    }
+   ],
+   "identity": "B",
+   "manaNeeded": "",
+   "manaValueNeeded": 0,
+   "easyPrerequisites": "",
+   "notablePrerequisites": "",
+   "description": "Activate Ashnod's Altar by sacrificing Reassembling Skeleton, adding {C}{C}.\nWhen Reassembling Skeleton dies, Pitiless Plunderer triggers, creating a Treasure token.\nActivate the Treasure token by tapping and sacrificing it, adding {B}.\nActivate Reassembling Skeleton by paying {1}{B}, returning it from your graveyard to the battlefield tapped.\nRepeat.",
+   "notes": "",
+   "popularity": 60211,
+   "spoiler": false,
+   "bracketTag": "E",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": true,
+    "competitiveBrawl": true,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": false,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "17.96",
+    "cardkingdom": "23.83",
+    "cardmarket": "12.34"
+   },
+   "variantCount": 9
+  },
+  {
+   "id": "1385-2577-5670",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 5670,
+      "name": "Warren Soultrader",
+      "oracleId": "ace86e56-efde-4eb7-8815-71456a4c3abe",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Zombie Goblin Wizard",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/b/3/b334e4c6-d316-4141-8889-f95afcc04701.png?1784634565",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/b/3/b334e4c6-d316-4141-8889-f95afcc04701.jpg?1784634565",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/b/3/b334e4c6-d316-4141-8889-f95afcc04701.jpg?1784634565",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/b/3/b334e4c6-d316-4141-8889-f95afcc04701.jpg?1784634565",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/b/3/b334e4c6-d316-4141-8889-f95afcc04701.jpg?1784634565",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 2577,
+      "name": "Gravecrawler",
+      "oracleId": "09ff28b1-b6c9-48e6-b12e-2f0e644f709f",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Zombie",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/9/6987d609-ba0f-42bf-9b61-bdfb943c03b5.png?1783907138",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/9/6987d609-ba0f-42bf-9b61-bdfb943c03b5.jpg?1783907138",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/9/6987d609-ba0f-42bf-9b61-bdfb943c03b5.jpg?1783907138",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/9/6987d609-ba0f-42bf-9b61-bdfb943c03b5.jpg?1783907138",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/9/6987d609-ba0f-42bf-9b61-bdfb943c03b5.jpg?1783907138",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 1385,
+      "name": "Zulaport Cutthroat",
+      "oracleId": "76b003e0-15af-4f22-bdf2-1ade5430964a",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Human Rogue Ally",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/4/c43609fb-3cee-44e0-98d0-3ecaba1d5767.png?1783903779",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/4/c43609fb-3cee-44e0-98d0-3ecaba1d5767.jpg?1783903779",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/4/c43609fb-3cee-44e0-98d0-3ecaba1d5767.jpg?1783903779",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/4/c43609fb-3cee-44e0-98d0-3ecaba1d5767.jpg?1783903779",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/4/c43609fb-3cee-44e0-98d0-3ecaba1d5767.jpg?1783903779",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "feature": {
+      "id": 7,
+      "name": "Infinite death triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 4,
+      "name": "Infinite creature ETB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 14,
+      "name": "Infinite lifegain triggers",
+      "uncountable": true,
+      "status": "C"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 26,
+      "name": "Infinite lifeloss",
+      "uncountable": true,
+      "status": "S"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 3,
+      "name": "Infinite creature LTB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 6,
+      "name": "Infinite creature sacrifice triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 17,
+      "name": "Infinite storm count",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    }
+   ],
+   "of": [
+    {
+     "id": 27267
+    }
+   ],
+   "includes": [
+    {
+     "id": 27807
+    },
+    {
+     "id": 29947
+    },
+    {
+     "id": 27267
+    },
+    {
+     "id": 31074
+    }
+   ],
+   "identity": "B",
+   "manaNeeded": "",
+   "manaValueNeeded": 0,
+   "easyPrerequisites": "",
+   "notablePrerequisites": "Your life total is at least 2.",
+   "description": "Activate Warren Soultrader by paying 1 life and sacrificing Gravecrawler.\nWhen Gravecrawler dies, Zulaport Cutthroat triggers, causing you to gain 1 life and each opponent to lose 1 life.\nResolve the Warren Soultrader ability, creating a Treasure token.\nActivate the Treasure by tapping and sacrificing it, adding {B}.\nCast Gravecrawler from your graveyard by paying {B}.\nRepeat.",
+   "notes": "",
+   "popularity": 37870,
+   "spoiler": false,
+   "bracketTag": "E",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": false,
+    "competitiveBrawl": false,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": true,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "16.44",
+    "cardkingdom": "24.97",
+    "cardmarket": "15.50"
+   },
+   "variantCount": 29
+  },
+  {
+   "id": "1385-3000-5670",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 5670,
+      "name": "Warren Soultrader",
+      "oracleId": "ace86e56-efde-4eb7-8815-71456a4c3abe",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Zombie Goblin Wizard",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/b/3/b334e4c6-d316-4141-8889-f95afcc04701.png?1784634565",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/b/3/b334e4c6-d316-4141-8889-f95afcc04701.jpg?1784634565",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/b/3/b334e4c6-d316-4141-8889-f95afcc04701.jpg?1784634565",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/b/3/b334e4c6-d316-4141-8889-f95afcc04701.jpg?1784634565",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/b/3/b334e4c6-d316-4141-8889-f95afcc04701.jpg?1784634565",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 1385,
+      "name": "Zulaport Cutthroat",
+      "oracleId": "76b003e0-15af-4f22-bdf2-1ade5430964a",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Human Rogue Ally",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/c/4/c43609fb-3cee-44e0-98d0-3ecaba1d5767.png?1783903779",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/c/4/c43609fb-3cee-44e0-98d0-3ecaba1d5767.jpg?1783903779",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/c/4/c43609fb-3cee-44e0-98d0-3ecaba1d5767.jpg?1783903779",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/c/4/c43609fb-3cee-44e0-98d0-3ecaba1d5767.jpg?1783903779",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/c/4/c43609fb-3cee-44e0-98d0-3ecaba1d5767.jpg?1783903779",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 3000,
+      "name": "Chatterfang, Squirrel General",
+      "oracleId": "f15b3b76-d38a-48db-bb44-3296183c8641",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Squirrel Warrior",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/1/7/1785cf85-1ac0-4246-9b89-1a8221a8e1b2.png?1783926835",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/1/7/1785cf85-1ac0-4246-9b89-1a8221a8e1b2.jpg?1783926835",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/1/7/1785cf85-1ac0-4246-9b89-1a8221a8e1b2.jpg?1783926835",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/1/7/1785cf85-1ac0-4246-9b89-1a8221a8e1b2.jpg?1783926835",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/1/7/1785cf85-1ac0-4246-9b89-1a8221a8e1b2.jpg?1783926835",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "feature": {
+      "id": 2408,
+      "name": "Infinite artifact ETB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 2409,
+      "name": "Infinite artifact LTB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 2419,
+      "name": "Infinite artifact sacrifice triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 587,
+      "name": "Infinite artifact tokens",
+      "uncountable": true,
+      "status": "C"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 3,
+      "name": "Infinite creature LTB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 4,
+      "name": "Infinite creature ETB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 5,
+      "name": "Infinite colored mana",
+      "uncountable": true,
+      "status": "S"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 6,
+      "name": "Infinite creature sacrifice triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 7,
+      "name": "Infinite death triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 14,
+      "name": "Infinite lifegain triggers",
+      "uncountable": true,
+      "status": "C"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 26,
+      "name": "Infinite lifeloss",
+      "uncountable": true,
+      "status": "S"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 91,
+      "name": "Infinite Treasure tokens",
+      "uncountable": true,
+      "status": "S"
+     },
+     "quantity": 1
+    }
+   ],
+   "of": [
+    {
+     "id": 27806
+    }
+   ],
+   "includes": [
+    {
+     "id": 26302
+    },
+    {
+     "id": 26311
+    },
+    {
+     "id": 27807
+    },
+    {
+     "id": 27806
+    },
+    {
+     "id": 29947
+    },
+    {
+     "id": 31074
+    }
+   ],
+   "identity": "BG",
+   "manaNeeded": "",
+   "manaValueNeeded": 0,
+   "easyPrerequisites": "",
+   "notablePrerequisites": "You control at least one additional creature.\nYour life total is at least 2.",
+   "description": "Activate Warren Soultrader by paying 1 life and sacrificing another creature.\nWhen the creature dies, Zulaport Cutthroat triggers, causing you to gain 1 life and each opponent to lose 1 life.\nResolve the Warren Soultrader ability, creating a Treasure token and a 1/1 Squirrel creature token.\nRepeat.",
+   "notes": "",
+   "popularity": 26615,
+   "spoiler": false,
+   "bracketTag": "E",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": true,
+    "competitiveBrawl": true,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": true,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "27.54",
+    "cardkingdom": "37.97",
+    "cardmarket": "20.61"
+   },
+   "variantCount": 91
+  },
+  {
+   "id": "1478-3875-5856",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 5856,
+      "name": "Hazel's Brewmaster",
+      "oracleId": "e8180024-1979-4677-9a0d-e08d4b7c825a",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Squirrel Warlock",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/5/2/52af8b70-a9c8-40d7-99da-fa51dc293688.png?1783910733",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/5/2/52af8b70-a9c8-40d7-99da-fa51dc293688.jpg?1783910733",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/5/2/52af8b70-a9c8-40d7-99da-fa51dc293688.jpg?1783910733",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/5/2/52af8b70-a9c8-40d7-99da-fa51dc293688.jpg?1783910733",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/5/2/52af8b70-a9c8-40d7-99da-fa51dc293688.jpg?1783910733",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 3875,
+      "name": "Tireless Provisioner",
+      "oracleId": "ab8d5f5c-1976-4f77-8ed2-8d28ee666741",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Elf Scout",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/a/1/a1e048e0-19d2-4076-892d-f8b3104dee37.png?1783917135",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/a/1/a1e048e0-19d2-4076-892d-f8b3104dee37.jpg?1783917135",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/a/1/a1e048e0-19d2-4076-892d-f8b3104dee37.jpg?1783917135",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/a/1/a1e048e0-19d2-4076-892d-f8b3104dee37.jpg?1783917135",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/a/1/a1e048e0-19d2-4076-892d-f8b3104dee37.jpg?1783917135",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 1478,
+      "name": "Sakura-Tribe Elder",
+      "oracleId": "e3afc704-220f-498f-9eaa-0821b17dc24c",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Snake Shaman",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/7/a/7a8b1c49-8594-426d-b585-41140235bb0e.png?1783903761",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/7/a/7a8b1c49-8594-426d-b585-41140235bb0e.jpg?1783903761",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/7/a/7a8b1c49-8594-426d-b585-41140235bb0e.jpg?1783903761",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/7/a/7a8b1c49-8594-426d-b585-41140235bb0e.jpg?1783903761",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/7/a/7a8b1c49-8594-426d-b585-41140235bb0e.jpg?1783903761",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "E"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "exiled by Hazel's Brewmaster",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "feature": {
+      "id": 78,
+      "name": "Near-infinite landfall triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 903,
+      "name": "Put all basic lands from your library onto the battlefield tapped",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    }
+   ],
+   "of": [
+    {
+     "id": 32779
+    }
+   ],
+   "includes": [
+    {
+     "id": 32779
+    }
+   ],
+   "identity": "BG",
+   "manaNeeded": "{G}",
+   "manaValueNeeded": 1,
+   "easyPrerequisites": "You control a Food.",
+   "notablePrerequisites": "",
+   "description": "Activate a Food using Sakura-Tribe Elder's ability by sacrificing it, searching your library for a basic land card and putting it onto the battlefield tapped.\nWhen the land enters, Tireless Provisioner triggers, creating a Food token\nRepeat.",
+   "notes": "",
+   "popularity": 6224,
+   "spoiler": false,
+   "bracketTag": "E",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": false,
+    "competitiveBrawl": false,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": false,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "6.18",
+    "cardkingdom": "8.77",
+    "cardmarket": "4.28"
+   },
+   "variantCount": 1
+  },
+  {
+   "id": "974-2612-4231",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 4231,
+      "name": "Academy Manufactor",
+      "oracleId": "f36d1d8b-8303-44a9-ab56-531931641ea2",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Artifact Creature — Assembly-Worker",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/7/6/76480f4d-ad6d-4ed6-82c6-fa12abc22557.png?1783911891",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/7/6/76480f4d-ad6d-4ed6-82c6-fa12abc22557.jpg?1783911891",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/7/6/76480f4d-ad6d-4ed6-82c6-fa12abc22557.jpg?1783911891",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/7/6/76480f4d-ad6d-4ed6-82c6-fa12abc22557.jpg?1783911891",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/7/6/76480f4d-ad6d-4ed6-82c6-fa12abc22557.jpg?1783911891",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 2612,
+      "name": "Mirkwood Bats",
+      "oracleId": "0636b6c3-0662-420a-b30d-f0a14e7c512d",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Bat",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/1/5/15f035df-784a-4dc8-b7f5-77139a4e6e99.png?1783916303",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/1/5/15f035df-784a-4dc8-b7f5-77139a4e6e99.jpg?1783916303",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/1/5/15f035df-784a-4dc8-b7f5-77139a4e6e99.jpg?1783916303",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/1/5/15f035df-784a-4dc8-b7f5-77139a4e6e99.jpg?1783916303",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/1/5/15f035df-784a-4dc8-b7f5-77139a4e6e99.jpg?1783916303",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 974,
+      "name": "There and Back Again",
+      "oracleId": "de4e5120-b958-4dcb-ad78-d0f726b7a881",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Enchantment — Saga",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/9/3/939b0bd0-24ea-45de-a2d3-37bbf6a3e6f9.png?1783916275",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/9/3/939b0bd0-24ea-45de-a2d3-37bbf6a3e6f9.jpg?1783916275",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/9/3/939b0bd0-24ea-45de-a2d3-37bbf6a3e6f9.jpg?1783916275",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/9/3/939b0bd0-24ea-45de-a2d3-37bbf6a3e6f9.jpg?1783916275",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/9/3/939b0bd0-24ea-45de-a2d3-37bbf6a3e6f9.jpg?1783916275",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "feature": {
+      "id": 49,
+      "name": "Near-infinite lifeloss",
+      "uncountable": true,
+      "status": "S"
+     },
+     "quantity": 1
+    }
+   ],
+   "of": [
+    {
+     "id": 29200
+    }
+   ],
+   "includes": [
+    {
+     "id": 29200
+    }
+   ],
+   "identity": "BR",
+   "manaNeeded": "",
+   "manaValueNeeded": 0,
+   "easyPrerequisites": "",
+   "notablePrerequisites": "You have a way to kill a creature.\nThere and Back Again has exactly two lore counters on it.",
+   "description": "At the beginning of your precombat main phase, There and Back Again triggers, putting a lore counter on it.\nThere and Back Again's third chapter ability triggers, creating a legendary 6/6 Smaug creature token and causing you to sacrifice There and Back Again.\nMirkwood Bats triggers, causing each opponent to lose 1 life.\nKill the Smaug token, triggering its ability creating fourteen Treasure, fourteen Clue and fourteen Food tokens.\nMirkwood Bats triggers 42 times, causing each opponent to lose 42 life.\nIf desired, activate the Treasures by tapping and sacrificing them, adding fourteen mana of any color(s).\nIf you sacrificed the Treasures, Mirkwood Bats triggers fourteen times, causing each opponent to lose 14 life.",
+   "notes": "",
+   "popularity": 4082,
+   "spoiler": false,
+   "bracketTag": "E",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": true,
+    "competitiveBrawl": true,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": true,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "14.20",
+    "cardkingdom": "18.77",
+    "cardmarket": "7.10"
+   },
+   "variantCount": 1
+  },
+  {
+   "id": "2034-3284-3490",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 3284,
+      "name": "Korvold, Fae-Cursed King",
+      "oracleId": "9ae669dd-7e60-4649-b96e-35da28be641a",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Dragon Noble",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/0/607c1793-8e5a-4ebf-87c6-7f9c99bbd29a.png?1783906027",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/0/607c1793-8e5a-4ebf-87c6-7f9c99bbd29a.jpg?1783906027",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/0/607c1793-8e5a-4ebf-87c6-7f9c99bbd29a.jpg?1783906027",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/0/607c1793-8e5a-4ebf-87c6-7f9c99bbd29a.jpg?1783906027",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/0/607c1793-8e5a-4ebf-87c6-7f9c99bbd29a.jpg?1783906027",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 3490,
+      "name": "Animation Module",
+      "oracleId": "af42079b-a3c0-448c-9bb2-b915252e87a9",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Artifact",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/3/4/34bdc973-db45-46a6-ac48-ce88fb59920a.png?1783937163",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/3/4/34bdc973-db45-46a6-ac48-ce88fb59920a.jpg?1783937163",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/3/4/34bdc973-db45-46a6-ac48-ce88fb59920a.jpg?1783937163",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/3/4/34bdc973-db45-46a6-ac48-ce88fb59920a.jpg?1783937163",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/3/4/34bdc973-db45-46a6-ac48-ce88fb59920a.jpg?1783937163",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 2034,
+      "name": "Ashnod's Altar",
+      "oracleId": "4d18bcba-a346-445e-a182-6cc30b7e066d",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Artifact",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.png?1783915605",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/3/c/3c0f7157-a375-499c-92c7-d47d2e95dbad.jpg?1783915605",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "feature": {
+      "id": 24,
+      "name": "Infinite card draw",
+      "uncountable": true,
+      "status": "S"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 138,
+      "name": "Near-infinite colorless mana",
+      "uncountable": true,
+      "status": "S"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 60,
+      "name": "Near-infinite creature ETB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 61,
+      "name": "Infinite draw triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 79,
+      "name": "Near-infinite creature LTB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 134,
+      "name": "Near-infinite death triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 136,
+      "name": "Near-infinite creature sacrifice triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 2284,
+      "name": "Near-infinite +1/+1 counters on a creature",
+      "uncountable": true,
+      "status": "C"
+     },
+     "quantity": 1
+    }
+   ],
+   "of": [
+    {
+     "id": 993
+    }
+   ],
+   "includes": [
+    {
+     "id": 993
+    },
+    {
+     "id": 26876
+    },
+    {
+     "id": 27932
+    }
+   ],
+   "identity": "BRG",
+   "manaNeeded": "",
+   "manaValueNeeded": 0,
+   "easyPrerequisites": "You control an additional creature.",
+   "notablePrerequisites": "",
+   "description": "Activate Ashnod's Altar by sacrificing another creature you control, adding {C}{C}.\nWhen the creature dies, Korvold's second ability triggers, putting a +1/+1 counter on it and draw a card.\nAnimation Module triggers, causing you to pay {1} to create a 1/1 Servo artifact creature token.\nRepeat.",
+   "notes": "",
+   "popularity": 908,
+   "spoiler": false,
+   "bracketTag": "S",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": true,
+    "competitiveBrawl": true,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": false,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "17.46",
+    "cardkingdom": "21.77",
+    "cardmarket": "11.84"
+   },
+   "variantCount": 4
+  },
+  {
+   "id": "2292-3284-3490-4871",
+   "status": "OK",
+   "uses": [
+    {
+     "card": {
+      "id": 3284,
+      "name": "Korvold, Fae-Cursed King",
+      "oracleId": "9ae669dd-7e60-4649-b96e-35da28be641a",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Legendary Creature — Dragon Noble",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/6/0/607c1793-8e5a-4ebf-87c6-7f9c99bbd29a.png?1783906027",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/6/0/607c1793-8e5a-4ebf-87c6-7f9c99bbd29a.jpg?1783906027",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/6/0/607c1793-8e5a-4ebf-87c6-7f9c99bbd29a.jpg?1783906027",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/6/0/607c1793-8e5a-4ebf-87c6-7f9c99bbd29a.jpg?1783906027",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/6/0/607c1793-8e5a-4ebf-87c6-7f9c99bbd29a.jpg?1783906027",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 3490,
+      "name": "Animation Module",
+      "oracleId": "af42079b-a3c0-448c-9bb2-b915252e87a9",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Artifact",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/3/4/34bdc973-db45-46a6-ac48-ce88fb59920a.png?1783937163",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/3/4/34bdc973-db45-46a6-ac48-ce88fb59920a.jpg?1783937163",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/3/4/34bdc973-db45-46a6-ac48-ce88fb59920a.jpg?1783937163",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/3/4/34bdc973-db45-46a6-ac48-ce88fb59920a.jpg?1783937163",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/3/4/34bdc973-db45-46a6-ac48-ce88fb59920a.jpg?1783937163",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 4871,
+      "name": "Pitiless Plunderer",
+      "oracleId": "a784481f-eccb-4112-bb38-04a659319660",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Human Pirate",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.png?1783913869",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    },
+    {
+     "card": {
+      "id": 2292,
+      "name": "Viscera Seer",
+      "oracleId": "f82a4e85-526d-4456-b700-7760043a31be",
+      "spoiler": false,
+      "faces": 1,
+      "typeLine": "Creature — Vampire Wizard",
+      "imageUriFrontPng": "https://cards.scryfall.io/png/front/f/5/f511830b-1c1f-4d30-aa5d-4314726d142e.png?1783903780",
+      "imageUriFrontLarge": "https://cards.scryfall.io/large/front/f/5/f511830b-1c1f-4d30-aa5d-4314726d142e.jpg?1783903780",
+      "imageUriFrontNormal": "https://cards.scryfall.io/normal/front/f/5/f511830b-1c1f-4d30-aa5d-4314726d142e.jpg?1783903780",
+      "imageUriFrontSmall": "https://cards.scryfall.io/small/front/f/5/f511830b-1c1f-4d30-aa5d-4314726d142e.jpg?1783903780",
+      "imageUriFrontArtCrop": "https://cards.scryfall.io/art_crop/front/f/5/f511830b-1c1f-4d30-aa5d-4314726d142e.jpg?1783903780",
+      "layoutRotationFront": null,
+      "imageUriBackPng": null,
+      "imageUriBackLarge": null,
+      "imageUriBackNormal": null,
+      "imageUriBackSmall": null,
+      "imageUriBackArtCrop": null
+     },
+     "zoneLocations": [
+      "B"
+     ],
+     "battlefieldCardState": "",
+     "exileCardState": "",
+     "libraryCardState": "",
+     "graveyardCardState": "",
+     "mustBeCommander": false,
+     "quantity": 1,
+     "usedFace": null
+    }
+   ],
+   "requires": [],
+   "produces": [
+    {
+     "feature": {
+      "id": 2423,
+      "name": "Near-infinite artifact ETB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 2424,
+      "name": "Near-infinite artifact LTB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 2425,
+      "name": "Near-infinite artifact sacrifice triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 24,
+      "name": "Infinite card draw",
+      "uncountable": true,
+      "status": "S"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 60,
+      "name": "Near-infinite creature ETB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 61,
+      "name": "Infinite draw triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 79,
+      "name": "Near-infinite creature LTB",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 134,
+      "name": "Near-infinite death triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 136,
+      "name": "Near-infinite creature sacrifice triggers",
+      "uncountable": true,
+      "status": "H"
+     },
+     "quantity": 1
+    },
+    {
+     "feature": {
+      "id": 2284,
+      "name": "Near-infinite +1/+1 counters on a creature",
+      "uncountable": true,
+      "status": "C"
+     },
+     "quantity": 1
+    }
+   ],
+   "of": [
+    {
+     "id": 31340
+    }
+   ],
+   "includes": [
+    {
+     "id": 26876
+    },
+    {
+     "id": 26337
+    },
+    {
+     "id": 31340
+    }
+   ],
+   "identity": "BRG",
+   "manaNeeded": "",
+   "manaValueNeeded": 0,
+   "easyPrerequisites": "You control an additional creature.",
+   "notablePrerequisites": "",
+   "description": "Activate Viscera Seer by sacrificing another creature you control\nWhen the creature dies, Pitiless Plunderer and Korvold's second ability trigger.\nResolve the Pitiless Plunderer trigger, creating a Treasure token.\nHolding priority, activate the Treasure by tapping and sacrificing it, adding {1}.\nResolve the Korvold trigger, putting a +1/+1 counter on it and draw a card.\nAnimation Module triggers, causing you to pay {1} to create a 1/1 Servo artifact creature token.\nResolve the Viscera Seer ability.\nRepeat.",
+   "notes": "",
+   "popularity": 561,
+   "spoiler": false,
+   "bracketTag": "E",
+   "legalities": {
+    "commander": true,
+    "pauperCommanderMain": false,
+    "pauperCommander": false,
+    "oathbreaker": true,
+    "predh": false,
+    "standardBrawl": false,
+    "brawl": false,
+    "competitiveBrawl": false,
+    "alchemy": false,
+    "vintage": true,
+    "legacy": true,
+    "premodern": false,
+    "modern": true,
+    "pioneer": false,
+    "standard": false,
+    "pauper": false
+   },
+   "prices": {
+    "tcgplayer": "6.37",
+    "cardkingdom": "10.26",
+    "cardmarket": "5.27"
+   },
+   "variantCount": 21
+  }
+ ],
+ "explanations": {
+  "Engines": [
+   [
+    "Academy Manufactor",
+    "**Token multiplier** : every treasure ALSO makes a Clue and Food — triple the fodder for Korvold's sac trigger and triple the velocity."
+   ],
+   [
+    "Ashnod's Altar",
+    "**Free sac outlet** : sacrifice any creature for {C}{C} — the classic mana-generating outlet that feeds Korvold's draw trigger."
+   ],
+   [
+    "Birds of Paradise",
+    "**Mana dork** : any color mana turn 1 — acceleration that also becomes sac fodder later."
+   ],
+   [
+    "Chatterfang, Squirrel General",
+    "**Squirrel payoff** : each treasure makes a Squirrel too — every treasure becomes sac fodder AND mana."
+   ],
+   [
+    "Goldspan Dragon",
+    "**Treasure doubling** : each treasure makes a Treasure on attack — the plan's top-end mana engine."
+   ],
+   [
+    "Mayhem Devil",
+    "**Drain payoff** : EVERY sacrifice pings 1 damage to any target — the sac plan's core damage dealer (each loop cycle burns the table)."
+   ],
+   [
+    "Mirkwood Bats",
+    "**Treasure drain** : each token you sacrifice drains 1 — a second Mayhem Devil for the treasure plan."
+   ],
+   [
+    "Pitiless Plunderer",
+    "**Treasure per sac** : every non-token permanent sacrificed makes a Treasure — the engine that pays for itself."
+   ],
+   [
+    "Professional Face-Breaker",
+    "**Attack for treasure** : connects make Treasures — the plan's aggressive mana engine."
+   ],
+   [
+    "Ragavan, Nimble Pilferer",
+    "**Early value** : turn-1 monkey — first-strike connects exile opponents' cards and make treasures for the sac engine."
+   ],
+   [
+    "Tireless Provisioner",
+    "**Landfall treasure** : each land makes a Treasure AND a Food — the plan's land-based generator."
+   ],
+   [
+    "Viscera Seer",
+    "**Free sac outlet** : sacrifice a creature to scry 1 — the cheapest way to trigger Korvold every turn."
+   ],
+   [
+    "Warren Soultrader",
+    "**Free sac outlet** : sacrifice a creature for 1 life and a treasure — the cheapest outlet that also ramps."
+   ],
+   [
+    "Xorn",
+    "**Treasure doubler** : treasures make an extra treasure — doubles the mana AND the sac triggers."
+   ]
+  ],
+  "Wincons": [
+   [
+    "Animation Module",
+    "**Counter engine** : with a sac outlet, makes +1/+1 counters on every creature — the Korvold combo core (infinite counters + draw)."
+   ],
+   [
+    "Gravecrawler",
+    "**Recursive fodder** : casts itself from the graveyard — the aristocrats loop piece that never stays dead."
+   ],
+   [
+    "Hazel's Brewmaster",
+    "**Token value** : Food and treasure synergies — a topdeck engine for the sac plan."
+   ],
+   [
+    "Korvold, Fae-Cursed King",
+    "**The engine himself** : every sacrifice draws a card and pumps him — the whole deck revolves around this trigger."
+   ],
+   [
+    "Reassembling Skeleton",
+    "**Endless sac target** : returns from graveyard for 2 mana — infinite loop fodder with any outlet."
+   ],
+   [
+    "Revel in Riches",
+    "**Treasure wincon** : 10 treasures at your upkeep = win the game — a real alternative closing line."
+   ],
+   [
+    "Ruthless Technomancer",
+    "**Sac payoff** : sacrifices artifacts/creatures for mana and reanimates — value recursion."
+   ],
+   [
+    "There and Back Again",
+    "**Saga payoff** : makes a 4/4 Dragon and treasures — a one-card value engine that feeds the sac plan."
+   ],
+   [
+    "Zulaport Cutthroat",
+    "**Drain payoff** : every time one of your creatures dies, each opponent loses 1 — the aristocrats damage dealer."
+   ]
+  ],
+  "Flex": [
+   [
+    "Squee, the Immortal",
+    "**Free recursion** : returns from graveyard at instant speed — endless sac fodder in the loops."
+   ]
+  ],
+  "CardAdvantage": [
+   [
+    "Deadly Dispute",
+    "**Sac + draw + treasure** : sacrifice a token, draw 2, make a treasure — the plan's premium velocity spell."
+   ],
+   [
+    "Diabolic Intent",
+    "**Sacrifice tutor** : sac a creature to tutor ANY card — finds the engine piece or finisher."
+   ],
+   [
+    "Eldritch Evolution",
+    "**Creature tutor** : sacrifice a creature to tutor any creature with mana value +2 — finds the engine or finisher."
+   ]
+  ],
+  "Ramp": [
+   [
+    "Bootleggers' Stash",
+    "**Land treasure** : your lands make treasures on tap — turns land drops into mana AND sac fuel."
+   ],
+   [
+    "Culling the Weak",
+    "**Free mana** : sacrifice a creature for {B}{B}{B} — turns a dork into a burst that feeds the sac plan's big plays."
+   ],
+   [
+    "Dark Ritual",
+    "**Mana burst** : {B}{B}{B} on turn 1-2 — accelerates Korvold or a key sac piece ahead of curve."
+   ],
+   [
+    "Old Gnawbone",
+    "**Treasure on damage** : every combat damage makes that many treasures — the plan's biggest mana engine."
+   ],
+   [
+    "Sakura-Tribe Elder",
+    "**Land ramp + fodder** : sacrifices itself for a basic — ramp that also triggers Korvold's draw."
+   ],
+   [
+    "Tinder Wall",
+    "**Free sac** : sacrifice Tinder Wall for {R}{R} — a ritual that also feeds the sac trigger."
+   ]
+  ],
+  "Interaction": [
+   [
+    "Deflecting Swat",
+    "**Free redirect** : redirects any spell or ability targeting your stuff — protects the engine for {R}."
+   ],
+   [
+    "Veil of Summer",
+    "**Protection** : one mana answers counters and black/blue removal aimed at the engine — keeps the sac chain alive."
+   ]
+  ]
+ },
+ "cat_synopsis": {
+  "Engines": "The Plan-A core: repeatable engines tied to the commander.",
+  "Wincons": "Combo pieces, finishers and game-closing beats.",
+  "Flex": "Pet cards, off-role picks and personal slots.",
+  "CardAdvantage": "Draw engines, cantrips and tutors.",
+  "Ramp": "Mana rocks, dorks, land-search spells, treasures, cost reduction.",
+  "Interaction": "Targeted removal, counterspells and cheap protection."
+ },
+ "cat_order": [
+  "Engines",
+  "Wincons",
+  "Flex",
+  "CardAdvantage",
+  "Ramp",
+  "Interaction"
+ ],
+ "plan_title": "🔥 SACRIFICE — The signature plan (1,626 decks)",
+ "plan_html": "<h3>🎯 Sacrifice <span class=\"badge\">CHOSEN PLAN</span></h3>\n<p>The Sacrifice plan for Korvold, Fae-Cursed King (1,626 decks on EDHREC), vs Treasure (1,589), Aristocrats (868).</p>\n<div class=\"plan-block\"><span class=\"plan-badge\">How it plays</span>\n<ul><li><strong>Core mechanic</strong> : Korvold turns every permanent you sacrifice into a +1/+1 counter AND a card — the classic Jund sac engine (Mayhem Devil pings, Viscera Seer/Ashnod's Altar fuel the loop).</li><li><strong>Engine</strong> : sacrifice outlets + token/fetch fodder + draw-on-sac triggers (Korvold himself, Grim Haruspex-type effects).</li><li><strong>Payoff</strong> : a giant flying Korvold that draws into more sac fodder every turn.</li></ul></div>\n<div class=\"plan-block\"><span class=\"plan-badge\">Win conditions</span>\n<ul><li><strong>Draw into value</strong> : every sacrifice replaces itself — keep the engine fed and never run out of gas.</li><li><strong>Commander damage</strong> : a 10/10+ flying Korvold closes in 2 hits.</li><li><strong>Mayhem Devil drain</strong> : each sacrifice pings the table for 1-2, finishing low life totals.</li></ul></div>\n<div class=\"plan-block\"><span class=\"plan-badge\">High Synergy matches</span>\n<div class=\"card-grid\">\n<div class=\"card-block\">\n<img src=\"https://cards.scryfall.io/normal/front/6/7/674f3a8a-4552-4289-b92a-06ce158f115c.jpg?1783906026\" data-large=\"https://cards.scryfall.io/normal/front/6/7/674f3a8a-4552-4289-b92a-06ce158f115c.jpg?1783906026\" data-name=\"Mayhem Devil\" loading=\"lazy\" onclick=\"openModal(this)\"/>\n<div class=\"cb-body\">\n<div class=\"cb-name\">Mayhem Devil <span class=\"plan-tag\">Sacrifice</span></div>\n<div class=\"cb-expl\"><strong>Drain payoff</strong> : EVERY sacrifice pings 1 damage to any target — the sac plan's core damage dealer (each loop cycle burns the table).</div>\n</div></div>\n<div class=\"card-block\">\n<img src=\"https://cards.scryfall.io/normal/front/d/7/d72ab698-de67-4ca8-8e42-b05346bf52fa.jpg?1783920094\" data-large=\"https://cards.scryfall.io/normal/front/d/7/d72ab698-de67-4ca8-8e42-b05346bf52fa.jpg?1783920094\" data-name=\"Diabolic Intent\" loading=\"lazy\" onclick=\"openModal(this)\"/>\n<div class=\"cb-body\">\n<div class=\"cb-name\">Diabolic Intent <span class=\"plan-tag\">Sacrifice</span></div>\n<div class=\"cb-expl\"><strong>Sacrifice tutor</strong> : sac a creature to tutor ANY card — finds the engine piece or finisher.</div>\n</div></div>\n<div class=\"card-block\">\n<img src=\"https://cards.scryfall.io/normal/front/1/1/11e12a84-e7be-4afc-a230-c2e644743fa8.jpg?1783903013\" data-large=\"https://cards.scryfall.io/normal/front/1/1/11e12a84-e7be-4afc-a230-c2e644743fa8.jpg?1783903013\" data-name=\"Dark Ritual\" loading=\"lazy\" onclick=\"openModal(this)\"/>\n<div class=\"cb-body\">\n<div class=\"cb-name\">Dark Ritual <span class=\"plan-tag\">Sacrifice</span></div>\n<div class=\"cb-expl\"><strong>Mana burst</strong> : {B}{B}{B} on turn 1-2 — accelerates Korvold or a key sac piece ahead of curve.</div>\n</div></div>\n<div class=\"card-block\">\n<img src=\"https://cards.scryfall.io/normal/front/b/3/b334e4c6-d316-4141-8889-f95afcc04701.jpg?1784634565\" data-large=\"https://cards.scryfall.io/normal/front/b/3/b334e4c6-d316-4141-8889-f95afcc04701.jpg?1784634565\" data-name=\"Warren Soultrader\" loading=\"lazy\" onclick=\"openModal(this)\"/>\n<div class=\"cb-body\">\n<div class=\"cb-name\">Warren Soultrader <span class=\"plan-tag\">Sacrifice</span></div>\n<div class=\"cb-expl\"><strong>Free sac outlet</strong> : sacrifice a creature for 1 life and a treasure — the cheapest outlet that also ramps.</div>\n</div></div>\n<div class=\"card-block\">\n<img src=\"https://cards.scryfall.io/normal/front/a/a/aa686c34-1c11-469f-93c2-f9891aea521f.jpg?1783932955\" data-large=\"https://cards.scryfall.io/normal/front/a/a/aa686c34-1c11-469f-93c2-f9891aea521f.jpg?1783932955\" data-name=\"Veil of Summer\" loading=\"lazy\" onclick=\"openModal(this)\"/>\n<div class=\"cb-body\">\n<div class=\"cb-name\">Veil of Summer <span class=\"plan-tag\">Sacrifice</span></div>\n<div class=\"cb-expl\"><strong>Protection</strong> : one mana answers counters and black/blue removal aimed at the engine — keeps the sac chain alive.</div>\n</div></div>\n<div class=\"card-block\">\n<img src=\"https://cards.scryfall.io/normal/front/5/0/50c33f18-0a5c-4e46-ab0d-6e450915594f.jpg?1783946521\" data-large=\"https://cards.scryfall.io/normal/front/5/0/50c33f18-0a5c-4e46-ab0d-6e450915594f.jpg?1783946521\" data-name=\"Culling the Weak\" loading=\"lazy\" onclick=\"openModal(this)\"/>\n<div class=\"cb-body\">\n<div class=\"cb-name\">Culling the Weak <span class=\"plan-tag\">Sacrifice</span></div>\n<div class=\"cb-expl\"><strong>Free mana</strong> : sacrifice a creature for {B}{B}{B} — turns a dork into a burst that feeds the sac plan's big plays.</div>\n</div></div>\n<div class=\"card-block\">\n<img src=\"https://cards.scryfall.io/normal/front/a/9/a9738cda-adb1-47fb-9f4c-ecd930228c4d.jpg?1783926839\" data-large=\"https://cards.scryfall.io/normal/front/a/9/a9738cda-adb1-47fb-9f4c-ecd930228c4d.jpg?1783926839\" data-name=\"Ragavan, Nimble Pilferer\" loading=\"lazy\" onclick=\"openModal(this)\"/>\n<div class=\"cb-body\">\n<div class=\"cb-name\">Ragavan, Nimble Pilferer <span class=\"plan-tag\">Sacrifice</span></div>\n<div class=\"cb-expl\"><strong>Early value</strong> : turn-1 monkey — first-strike connects exile opponents' cards and make treasures for the sac engine.</div>\n</div></div>\n<div class=\"card-block\">\n<img src=\"https://cards.scryfall.io/normal/front/1/e/1e62598f-0a91-4cfd-9a28-c3bda61c9ead.jpg?1783942601\" data-large=\"https://cards.scryfall.io/normal/front/1/e/1e62598f-0a91-4cfd-9a28-c3bda61c9ead.jpg?1783942601\" data-name=\"Tinder Wall\" loading=\"lazy\" onclick=\"openModal(this)\"/>\n<div class=\"cb-body\">\n<div class=\"cb-name\">Tinder Wall <span class=\"plan-tag\">Sacrifice</span></div>\n<div class=\"cb-expl\"><strong>Free sac</strong> : sacrifice Tinder Wall for {R}{R} — a ritual that also feeds the sac trigger.</div>\n</div></div>\n<div class=\"card-block\">\n<img src=\"https://cards.scryfall.io/normal/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869\" data-large=\"https://cards.scryfall.io/normal/front/5/b/5b5cd187-857a-44dd-8595-a52857a0b753.jpg?1783913869\" data-name=\"Pitiless Plunderer\" loading=\"lazy\" onclick=\"openModal(this)\"/>\n<div class=\"cb-body\">\n<div class=\"cb-name\">Pitiless Plunderer <span class=\"plan-tag\">Sacrifice</span></div>\n<div class=\"cb-expl\"><strong>Treasure per sac</strong> : every non-token permanent sacrificed makes a Treasure — the engine that pays for itself.</div>\n</div></div>\n</div></div>",
+ "plan_cards": [
+  "Mayhem Devil",
+  "Diabolic Intent",
+  "Dark Ritual",
+  "Warren Soultrader",
+  "Veil of Summer",
+  "Culling the Weak"
+ ],
+ "source_html": "<em>\"two of the most powerful payoffs for one of the strongest strategies in Commander… Aristocrats decks are a core part of Commander's identity, and they can count on absurdly strong cards like Korvold to lead their engines.\"</em> — \"The Five Best Titan Triggers in Commander\" (EDHREC Articles, 2026)",
+ "combos_note": "8 combos from Commander Spellbook (2 involving Korvold 👑), filtered to Jund identity + ≥2/3 overlap with the recommended pool + popularity ≥ 100.",
+ "mana_cost_html": "<img src=\"https://svgs.scryfall.io/card-symbols/2}{B}{R}{G.svg\" alt=\"{2}{B}{R}{G}\" title=\"{2}{B}{R}{G}\" class=\"ms\">",
+ "type_line": "Legendary Creature — Dragon Noble",
+ "color_id": "BGR",
+ "rarity": "mythic",
+ "legality": "legal",
+ "oracle_text": "Flying\nWhenever Korvold enters or attacks, sacrifice another permanent.\nWhenever you sacrifice a permanent, put a +1/+1 counter on Korvold and draw a card.",
+ "quick_read": [
+  "**Sacrifice value engine** : every permanent you sacrifice draws a card and grows Korvold — the whole deck loops sac outlets, fodder and payoffs.",
+  "**Two dominant plans** : Sacrifice (1,626 decks) and Treasure (1,589) — the treasure generators ARE the best sac fodder, so the plans merge naturally.",
+  "**Combo-ready** : Pitiless Plunderer + Ashnod's Altar + any recursive creature = infinite mana, and Korvold's draw finds the pieces."
+ ],
+ "extra_table_rows": "",
+ "card_meta": {
+  "Academy Manufactor": {
+   "type_line": "Artifact Creature — Assembly-Worker",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Ashnod's Altar": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Birds of Paradise": {
+   "type_line": "Creature — Bird",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Bootleggers' Stash": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Chatterfang, Squirrel General": {
+   "type_line": "Legendary Creature — Squirrel Warrior",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Culling the Weak": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Dark Ritual": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Deadly Dispute": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Deflecting Swat": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Diabolic Intent": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Eldritch Evolution": {
+   "type_line": "Sorcery",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Goldspan Dragon": {
+   "type_line": "Creature — Dragon",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Korvold, Fae-Cursed King": {
+   "type_line": "Legendary Creature — Dragon Noble",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Mayhem Devil": {
+   "type_line": "Creature — Devil",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Mirkwood Bats": {
+   "type_line": "Creature — Bat",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Old Gnawbone": {
+   "type_line": "Legendary Creature — Dragon",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Pitiless Plunderer": {
+   "type_line": "Creature — Human Pirate",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Professional Face-Breaker": {
+   "type_line": "Creature — Human Warrior",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Ragavan, Nimble Pilferer": {
+   "type_line": "Legendary Creature — Monkey Pirate",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Reassembling Skeleton": {
+   "type_line": "Creature — Skeleton Warrior",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Revel in Riches": {
+   "type_line": "Enchantment",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Ruthless Technomancer": {
+   "type_line": "Creature — Human Wizard",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Squee, the Immortal": {
+   "type_line": "Legendary Creature — Goblin",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Tinder Wall": {
+   "type_line": "Creature — Plant Wall",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Tireless Provisioner": {
+   "type_line": "Creature — Elf Scout",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Veil of Summer": {
+   "type_line": "Instant",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Viscera Seer": {
+   "type_line": "Creature — Vampire Wizard",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Warren Soultrader": {
+   "type_line": "Creature — Zombie Goblin Wizard",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Xorn": {
+   "type_line": "Creature — Elemental",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Zulaport Cutthroat": {
+   "type_line": "Creature — Human Rogue Ally",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Animation Module": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Hazel's Brewmaster": {
+   "type_line": "Creature — Squirrel Warlock",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Sakura-Tribe Elder": {
+   "type_line": "Creature — Snake Shaman",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "There and Back Again": {
+   "type_line": "Enchantment — Saga",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Gravecrawler": {
+   "type_line": "Creature — Zombie",
+   "produced_mana": "",
+   "keywords": []
+  }
+ },
+ "power": "4",
+ "toughness": "4"
+}
