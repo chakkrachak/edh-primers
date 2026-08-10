@@ -334,6 +334,14 @@ def build_one(slug, plan_tag=None):
             combo_pieces.add(u['card']['name'])
     # Tous les noms de cartes connus (deck + commander + pièces de combos) pour les badges
     all_names = set(flat.keys()) | {d['commander_name']} | combo_pieces
+    # + toutes les cartes des plans structurés (pools HS / deck_matches) — les noms cités
+    # dans la grille High Synergy matches et les descriptions doivent être badgés (user,
+    # 2026-08-10 : « il manque des badges images sur les noms de cartes » dans les variantes).
+    for p in d.get('plans', []):
+        for h in p.get('high_synergy', []):
+            all_names.add(h if isinstance(h, str) else h.get('name', ''))
+        for m in p.get('deck_matches', []):
+            all_names.add(m)
     img_of = d['imgs'].get
     # --- cardify des textes (noms de cartes → badges cliquables) ---
     ctx['quick_read'] = [cardify(b, all_names, img_of) for b in ctx['quick_read']]

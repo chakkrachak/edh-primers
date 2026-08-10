@@ -53,7 +53,15 @@
   "Hazel's Brewmaster": "https://cards.scryfall.io/normal/front/5/2/52af8b70-a9c8-40d7-99da-fa51dc293688.jpg?1783910733",
   "Sakura-Tribe Elder": "https://cards.scryfall.io/normal/front/7/a/7a8b1c49-8594-426d-b585-41140235bb0e.jpg?1783903761",
   "There and Back Again": "https://cards.scryfall.io/normal/front/9/3/939b0bd0-24ea-45de-a2d3-37bbf6a3e6f9.jpg?1783916275",
-  "Gravecrawler": "https://cards.scryfall.io/normal/front/6/9/6987d609-ba0f-42bf-9b61-bdfb943c03b5.jpg?1783907138"
+  "Gravecrawler": "https://cards.scryfall.io/normal/front/6/9/6987d609-ba0f-42bf-9b61-bdfb943c03b5.jpg?1783907138",
+  "Sylvan Safekeeper": "https://cards.scryfall.io/normal/front/8/3/83036e21-21ea-4324-aa07-11757f80c417.jpg?1783911211",
+  "Lotus Cobra": "https://cards.scryfall.io/normal/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.jpg?1783929336",
+  "Exploration": "https://cards.scryfall.io/normal/front/5/b/5b372045-a4a0-44c8-96ec-1e201d61ed26.jpg?1783918444",
+  "Icetill Explorer": "https://cards.scryfall.io/normal/front/d/9/d9482aab-6ddf-48e1-84fa-b13d5ff81e69.jpg?1783905935",
+  "Aftermath Analyst": "https://cards.scryfall.io/normal/front/6/6/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259.jpg?1783906036",
+  "Squandered Resources": "https://cards.scryfall.io/normal/front/f/c/fcddbea7-3025-47b1-a597-2d2b2711fb81.jpg?1783946976",
+  "Zuran Orb": "https://cards.scryfall.io/normal/front/6/1/618c8ecc-686d-41de-b9b1-1a7ee9cc7c14.jpg?1783926775",
+  "Orcish Lumberjack": "https://cards.scryfall.io/normal/front/1/4/14fb947c-563e-4811-98de-e25bd141a6e5.jpg?1783939269"
  },
  "oracle": {
   "Academy Manufactor": "If you would create a Clue, Food, or Treasure token, instead create one of each.",
@@ -90,7 +98,15 @@
   "Hazel's Brewmaster": "Menace\nWhenever this creature enters or attacks, exile up to one target card from a graveyard and create a Food token.\nFoods you control have all activated abilities of all creature cards exiled with this creature.",
   "Sakura-Tribe Elder": "Sacrifice this creature: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
   "There and Back Again": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Up to one target creature can't block for as long as you control this Saga. The Ring tempts you.\nII — Search your library for a Mountain card, put it onto the battlefield, then shuffle.\nIII — Create Smaug, a legendary 6/6 red Dragon creature token with flying, haste, and \"When Smaug dies, create fourteen Treasure tokens.\"",
-  "Gravecrawler": "This creature can't block.\nYou may cast this card from your graveyard as long as you control a Zombie."
+  "Gravecrawler": "This creature can't block.\nYou may cast this card from your graveyard as long as you control a Zombie.",
+  "Sylvan Safekeeper": "Sacrifice a land: Target creature you control gains shroud until end of turn. (It can't be the target of spells or abilities.)",
+  "Lotus Cobra": "Landfall — Whenever a land you control enters, add one mana of any color.",
+  "Exploration": "You may play an additional land on each of your turns.",
+  "Icetill Explorer": "You may play an additional land on each of your turns.\nYou may play lands from your graveyard.\nLandfall — Whenever a land you control enters, mill a card.",
+  "Aftermath Analyst": "When this creature enters, mill three cards. (Put the top three cards of your library into your graveyard.)\n{3}{G}, Sacrifice this creature: Return all land cards from your graveyard to the battlefield tapped.",
+  "Squandered Resources": "Sacrifice a land: Add one mana of any type the sacrificed land could produce.",
+  "Zuran Orb": "Sacrifice a land: You gain 2 life.",
+  "Orcish Lumberjack": "{T}, Sacrifice a Forest: Add three mana in any combination of {R} and/or {G}."
  },
  "card_meta": {
   "Academy Manufactor": {
@@ -267,6 +283,46 @@
    "type_line": "Creature — Zombie",
    "produced_mana": "",
    "keywords": []
+  },
+  "Sylvan Safekeeper": {
+   "type_line": "Creature — Human Wizard",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Lotus Cobra": {
+   "type_line": "Creature — Snake",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Exploration": {
+   "type_line": "Enchantment",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Icetill Explorer": {
+   "type_line": "Creature — Insect Scout",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Aftermath Analyst": {
+   "type_line": "Creature — Elf Detective",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Squandered Resources": {
+   "type_line": "Enchantment",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Zuran Orb": {
+   "type_line": "Artifact",
+   "produced_mana": "",
+   "keywords": []
+  },
+  "Orcish Lumberjack": {
+   "type_line": "Creature — Orc",
+   "produced_mana": "",
+   "keywords": []
   }
  },
  "synergy": {
@@ -376,10 +432,10 @@
    "synergy": 0.17749132785098332
   },
   "Icetill Explorer": {
-   "synergy": 0.04137446365214062
+   "synergy": 0.47265206144940525
   },
   "Sylvan Safekeeper": {
-   "synergy": 0.10740893683513321
+   "synergy": 0.5956253096682128
   },
   "Deathrite Shaman": {
    "synergy": 0.1131756911825351
@@ -388,7 +444,7 @@
    "synergy": 0.06805387124868542
   },
   "Orcish Lumberjack": {
-   "synergy": 0.12184182579706744
+   "synergy": 0.4176021099726146
   },
   "Grim Hireling": {
    "synergy": 0.15318728576566892
@@ -412,7 +468,7 @@
    "synergy": 0.14693333412915233
   },
   "Aftermath Analyst": {
-   "synergy": -0.008814489927125801
+   "synergy": 0.4725970571599112
   },
   "Tireless Tracker": {
    "synergy": 0.07842789476530172
@@ -433,7 +489,7 @@
    "synergy": 0.12847432576538445
   },
   "Lotus Cobra": {
-   "synergy": 0.024809303445857772
+   "synergy": 0.5903939422515347
   },
   "Elves of Deep Shadow": {
    "synergy": 0.05078512921502916
@@ -751,7 +807,7 @@
    "synergy": 0.029684815813713045
   },
   "Zuran Orb": {
-   "synergy": -0.015475541268867007
+   "synergy": 0.4227801185062152
   },
   "Witch's Oven": {
    "synergy": 0.08709762568122202
@@ -802,7 +858,7 @@
    "synergy": 0.07820650874432436
   },
   "Exploration": {
-   "synergy": 0.053949804229719206
+   "synergy": 0.5102054312656832
   },
   "Food Chain": {
    "synergy": 0.09475749403377048
@@ -814,7 +870,7 @@
    "synergy": 0.051777060598189
   },
   "Squandered Resources": {
-   "synergy": 0.07302716688676011
+   "synergy": 0.4570562064847237
   },
   "Bastion of Remembrance": {
    "synergy": 0.06326379713679953
@@ -8413,7 +8469,15 @@
   "Hazel's Brewmaster": "https://cards.scryfall.io/normal/front/5/2/52af8b70-a9c8-40d7-99da-fa51dc293688.jpg?1783910733",
   "Sakura-Tribe Elder": "https://cards.scryfall.io/normal/front/7/a/7a8b1c49-8594-426d-b585-41140235bb0e.jpg?1783903761",
   "There and Back Again": "https://cards.scryfall.io/normal/front/9/3/939b0bd0-24ea-45de-a2d3-37bbf6a3e6f9.jpg?1783916275",
-  "Gravecrawler": "https://cards.scryfall.io/normal/front/6/9/6987d609-ba0f-42bf-9b61-bdfb943c03b5.jpg?1783907138"
+  "Gravecrawler": "https://cards.scryfall.io/normal/front/6/9/6987d609-ba0f-42bf-9b61-bdfb943c03b5.jpg?1783907138",
+  "Sylvan Safekeeper": "https://cards.scryfall.io/normal/front/8/3/83036e21-21ea-4324-aa07-11757f80c417.jpg?1783911211",
+  "Lotus Cobra": "https://cards.scryfall.io/normal/front/a/4/a4b759f0-901f-4be3-93fa-224609b08d48.jpg?1783929336",
+  "Exploration": "https://cards.scryfall.io/normal/front/5/b/5b372045-a4a0-44c8-96ec-1e201d61ed26.jpg?1783918444",
+  "Icetill Explorer": "https://cards.scryfall.io/normal/front/d/9/d9482aab-6ddf-48e1-84fa-b13d5ff81e69.jpg?1783905935",
+  "Aftermath Analyst": "https://cards.scryfall.io/normal/front/6/6/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259.jpg?1783906036",
+  "Squandered Resources": "https://cards.scryfall.io/normal/front/f/c/fcddbea7-3025-47b1-a597-2d2b2711fb81.jpg?1783946976",
+  "Zuran Orb": "https://cards.scryfall.io/normal/front/6/1/618c8ecc-686d-41de-b9b1-1a7ee9cc7c14.jpg?1783926775",
+  "Orcish Lumberjack": "https://cards.scryfall.io/normal/front/1/4/14fb947c-563e-4811-98de-e25bd141a6e5.jpg?1783939269"
  },
  "type_recs": {
   "Creatures": [
