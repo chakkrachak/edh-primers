@@ -160,6 +160,7 @@ section { margin-bottom: 44px; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top;
   display: block;
   transition: transform .35s;
 }
@@ -255,18 +256,32 @@ footer {
 }
 footer a { color: var(--accent-blue); text-decoration: none; }
 
-@media (max-width: 900px) {
+/* ============ MODE ORDI 1 COLONNE (600–1000px) : image à gauche + desc à droite ============ */
+@media (max-width: 1000px) {
   .grid { grid-template-columns: 1fr; }
+  .card { flex-direction: row; }
+  .card-art {
+    flex: 0 0 140px;
+    width: 140px;
+    border-radius: var(--radius) 0 0 var(--radius);
+  }
+  body { padding: 20px; }
+}
+
+/* ============ MODE TÉLÉPHONE (< 600px) : image au-dessus + desc en dessous, image ENTIÈRE ============ */
+@media (max-width: 600px) {
+  body { padding: 14px; }
   .card { flex-direction: column; }
   .card-art {
     flex: none;
-    width: 100%;
-    border-radius: var(--radius) var(--radius) 0 0;
+    width: 55%;
+    max-width: 200px;
+    align-self: center;
     aspect-ratio: 63 / 88;
-    max-height: 260px;
+    border-radius: var(--radius) var(--radius) 0 0;
   }
   .card-art img { object-fit: cover; object-position: top; }
-  body { padding: 16px; }
+  .card-name { font-size: 15px; }
 }
 
 /* --- texte long : casser les noms/badges pour ne jamais déborder --- */
