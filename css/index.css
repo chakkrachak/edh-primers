@@ -140,6 +140,7 @@ section { margin-bottom: 44px; }
   border-radius: var(--radius);
   text-decoration: none;
   color: inherit;
+  min-width: 0;
   transition: transform .15s, border-color .15s;
 }
 .card:hover {
@@ -254,7 +255,7 @@ footer {
 }
 footer a { color: var(--accent-blue); text-decoration: none; }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .grid { grid-template-columns: 1fr; }
   .card { flex-direction: column; }
   .card-art {
@@ -262,6 +263,15 @@ footer a { color: var(--accent-blue); text-decoration: none; }
     width: 100%;
     border-radius: var(--radius) var(--radius) 0 0;
     aspect-ratio: 63 / 88;
+    max-height: 260px;
   }
+  .card-art img { object-fit: cover; object-position: top; }
   body { padding: 16px; }
 }
+
+/* --- texte long : casser les noms/badges pour ne jamais déborder --- */
+.card-name { overflow-wrap: anywhere; }
+.card-badge { white-space: nowrap; }
+.card-plan { overflow-wrap: anywhere; }
+.hs-row { flex-wrap: nowrap; }
+
