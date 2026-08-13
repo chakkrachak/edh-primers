@@ -155,11 +155,33 @@ def _curl(url, timeout=40, data=None, retries=3, json_ok=True):
 # Scryfall
 # ---------------------------------------------------------------------------
 
+def _local_card(name):
+    """Carte depuis la base Scryfall locale (bulk SQLite, /opt/data/scryfall_bulk).
+    Retourne None si absente ou si la base est indisponible → l'API prend le relais.
+    Positionnable via SCRY_DB_PATH."""
+    try:
+        sys.path.insert(0, os.environ.get('SCRY_DB_PATH', '/opt/data/scryfall_bulk'))
+        import scry_db
+        return scry_db.get_card_with_img(name)
+    except Exception:
+        return None
+
+
 def scryfall_batch(names, force=False):
-    """Collection batch (70 max) avec fallback fuzzy pour les échecs (MDFC/Rooms)."""
+    """Collection batch (70 max) avec fallback fuzzy pour les échecs (MDFC/Rooms).
+    Local-first : résout via la base Scryfall locale, l'API ne traite que les manquants.
+    force=True = chemin API pur (contourne aussi la base locale)."""
     out = []
-    for i in range(0, len(names), 70):
-        chunk = names[i:i + 70]
+    missing = names if force else []
+    if not force:
+        for n in names:
+            c = _local_card(n)
+            if c:
+                out.append(c)
+            else:
+                missing.append(n)
+    for i in range(0, len(missing), 70):
+        chunk = missing[i:i + 70]
         key = _key('batch', sorted(chunk))
 
         def _fetch():
@@ -173,7 +195,7 @@ def scryfall_batch(names, force=False):
         time.sleep(0.1)
     # Fallback fuzzy pour les noms non résolus (MDFC avec '//' etc.)
     got = {c.get('name', '').split(' // ')[0] for c in out}
-    for n in names:
+    for n in missing:
         base = n.split(' // ')[0]
         if base not in got:
             c = scryfall_fuzzy(n, force=force)
@@ -184,7 +206,11 @@ def scryfall_batch(names, force=False):
 
 
 def scryfall_named(name, force=False):
-    """Recherche exacte (/cards/named?exact=)."""
+    """Recherche exacte (/cards/named?exact=). Local-first (base Scryfall locale)."""
+    if not force:
+        c = _local_card(name)
+        if c:
+            return c
     key = _key('named', name)
 
     def _fetch():
@@ -197,7 +223,12 @@ def scryfall_named(name, force=False):
 
 def scryfall_fuzzy(name, force=False):
     """Recherche fuzzy (/cards/named?fuzzy=) — fallback MDFC/Rooms.
+    Local-first (préfixe « face avant » inclus) ; API sinon.
     Retourne None si Scryfall répond par un objet d'erreur (nom introuvable)."""
+    if not force:
+        c = _local_card(name)
+        if c:
+            return c
     key = _key('fuzzy', name)
 
     def _fetch():
