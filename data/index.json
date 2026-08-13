@@ -1,10 +1,10 @@
 {
  "page_title": "EDH Primers — Commander Deck Reports",
  "meta_description": "Complete Commander EDH deck reports: Scryfall, EDHREC, Commander Spellbook.",
- "og_description": "14 Commander deck reports + 4 precon evaluations",
+ "og_description": "15 Commander deck reports + 4 precon evaluations",
  "header_title": "EDH <span class=\"accent\">Primers</span>",
  "header_sub": "Complete Commander deck reports — Scryfall · EDHREC · Commander Spellbook",
- "count_label": "18 documents analyzed",
+ "count_label": "19 documents analyzed",
  "footer": "Data: <a href=\"https://scryfall.com\">Scryfall</a> · <a href=\"https://edhrec.com\">EDHREC</a> · <a href=\"https://commanderspellbook.com\">Commander Spellbook</a>",
  "decks_order": [
   "Aminatou, the Fateshifter",
@@ -18,7 +18,8 @@
   "Slogurk, the Overslime",
   "Terra, Herald of Hope",
   "Yuriko, the Tiger's Shadow",
-  "Korvold, Fae-Cursed King"
+  "Korvold, Fae-Cursed King",
+  "Marwyn, the Nurturer"
  ],
  "plans": {
   "Aminatou, the Fateshifter": "BLINK / FLICKER",
@@ -32,7 +33,8 @@
   "Slogurk, the Overslime": "LANDS MATTER / LOAM",
   "Terra, Herald of Hope": "REANIMATOR (AGGRO REANIMATION)",
   "Yuriko, the Tiger's Shadow": "NINJUTSU TRIBAL",
-  "Korvold, Fae-Cursed King": "Sacrifice"
+  "Korvold, Fae-Cursed King": "Sacrifice",
+  "Marwyn, the Nurturer": "ELVES"
  },
  "descriptions": {
   "Aminatou, the Fateshifter": "The Esper flicker queen. Her −1 exiles a permanent you own and returns it — cascading ETB triggers. Her +1 controls the top of libraries, and her −6 resets the table.",
@@ -46,7 +48,8 @@
   "Slogurk, the Overslime": "A unique Simic lands-matter commander: every land that dies or is milled makes it grow (+1/+1). Sacrifice and replay your lands for value.",
   "Terra, Herald of Hope": "A Mardu reanimation commander who fills her own graveyard (Trance: mill 2 + flying at combat) then reanimates threats for free.",
   "Yuriko, the Tiger's Shadow": "A Dimir aggro/control ninjutsu commander who returns from the command zone at will for ~2 mana, flipping high-cost cards to drain the table.",
-  "Korvold, Fae-Cursed King": "Every sacrifice draws a card and grows the dragon — the classic Jund sac engine with treasure generators as the perfect fodder. Mayhem Devil drains, Pitiless Plunderer loops, and Korvold closes in two hits."
+  "Korvold, Fae-Cursed King": "Every sacrifice draws a card and grows the dragon — the classic Jund sac engine with treasure generators as the perfect fodder. Mayhem Devil drains, Pitiless Plunderer loops, and Korvold closes in two hits.",
+  "Marwyn, the Nurturer": "The elfball mana engine: every Elf makes Marwyn bigger and she taps for G equal to her power — Elvish Archdruid, Priest of Titania and friends snowball into a huge dork that fuels Staff of Domination combos or a stampede of elves."
  },
  "evals_order": [
   "Aminatou, Veil Piercer",
