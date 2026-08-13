@@ -1,0 +1,3 @@
+# Cache L1 local (réponses API brutes) — machine-local, jamais versionné
+# Les fiches L2 (data/cache/l2/) sont du contenu curé → VERSIONNÉES
+data/cache/l1/
