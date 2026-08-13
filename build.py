@@ -386,6 +386,19 @@ def build_one(slug, plan_tag=None):
             if key == 'HighSynergy':
                 flat[name]['explanation'] = expl
                 flat[name]['source_cat'] = key
+    # --- GARDE D'IDENTITÉ (user, 2026-08-13, Marwyn incident) : les cartes expliquées
+    # doivent être légales avec le commander. `card_meta.<name>.colors` (Scryfall) sert de
+    # source ; si absent (fiche legacy), la carte passe (pas de fausse alerte). ---
+    ci = set(d.get('color_id', ''))
+    off_color = []
+    for name in list(flat.keys()):
+        cols = d.get('card_meta', {}).get(name, {}).get('colors') or []
+        if cols and ci and not set(cols) <= ci:
+            off_color.append(name)
+            del flat[name]
+    if off_color:
+        print(f"  ⚠️ GARDE IDENTITÉ: {len(off_color)} carte(s) illégale(s) retirée(s): "
+              f"{', '.join(sorted(off_color)[:6])}{'…' if len(off_color) > 6 else ''}")
     # Combo pieces
     combo_pieces = set()
     for c in d.get('combos', []):

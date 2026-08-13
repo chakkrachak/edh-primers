@@ -169,295 +169,500 @@
  "card_meta": {
   "Voltaic Construct": {
    "type_line": "Artifact Creature — Golem Construct",
-   "cmc": 4.0
+   "cmc": 4.0,
+   "colors": []
   },
   "Elvish Warmaster": {
    "type_line": "Creature — Elf Warrior",
-   "cmc": 2.0
+   "cmc": 2.0,
+   "colors": [
+    "G"
+   ]
   },
   "Reclamation Sage": {
    "type_line": "Creature — Elf Shaman",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": [
+    "G"
+   ]
   },
   "Lys Alana Huntmaster": {
    "type_line": "Creature — Elf Warrior",
-   "cmc": 4.0
+   "cmc": 4.0,
+   "colors": [
+    "G"
+   ]
   },
   "Umbral Mantle": {
    "type_line": "Artifact — Equipment",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": []
   },
   "Freed from the Real": {
    "type_line": "Enchantment — Aura",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": [
+    "U"
+   ]
   },
   "Quirion Ranger": {
    "type_line": "Creature — Elf Ranger",
-   "cmc": 1.0
+   "cmc": 1.0,
+   "colors": [
+    "G"
+   ]
   },
   "Vitalize": {
    "type_line": "Instant",
-   "cmc": 1.0
+   "cmc": 1.0,
+   "colors": [
+    "G"
+   ]
   },
   "Singing Bell Strike": {
    "type_line": "Enchantment — Aura",
-   "cmc": 2.0
+   "cmc": 2.0,
+   "colors": [
+    "U"
+   ]
   },
   "Marwyn, the Nurturer": {
    "type_line": "Legendary Creature — Elf Druid",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": [
+    "G"
+   ]
   },
   "Elvish Archdruid": {
    "type_line": "Creature — Elf Druid",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": [
+    "G"
+   ]
   },
   "Raggadragga, Goreguts Boss": {
    "type_line": "Legendary Creature — Human Boar",
-   "cmc": 4.0
+   "cmc": 4.0,
+   "colors": [
+    "G",
+    "R"
+   ]
   },
   "Derevi, Empyrial Tactician": {
    "type_line": "Legendary Creature — Bird Wizard",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": [
+    "G",
+    "U",
+    "W"
+   ]
   },
   "Liquimetal Torque": {
    "type_line": "Artifact",
-   "cmc": 2.0
+   "cmc": 2.0,
+   "colors": []
   },
   "Whip Silk": {
    "type_line": "Enchantment — Aura",
-   "cmc": 1.0
+   "cmc": 1.0,
+   "colors": [
+    "G"
+   ]
   },
   "Akroma's Memorial": {
    "type_line": "Legendary Artifact",
-   "cmc": 7.0
+   "cmc": 7.0,
+   "colors": []
   },
   "Fain, the Broker": {
    "type_line": "Legendary Creature — Human Warlock",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": [
+    "B"
+   ]
   },
   "Experiment Kraj": {
    "type_line": "Legendary Creature — Ooze Mutant",
-   "cmc": 6.0
+   "cmc": 6.0,
+   "colors": [
+    "G",
+    "U"
+   ]
   },
   "Eternal Witness": {
    "type_line": "Creature — Human Shaman",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": [
+    "G"
+   ]
   },
   "Priest of Titania": {
    "type_line": "Creature — Elf Druid",
-   "cmc": 2.0
+   "cmc": 2.0,
+   "colors": [
+    "G"
+   ]
   },
   "Elvish Fury": {
    "type_line": "Instant",
-   "cmc": 1.0
+   "cmc": 1.0,
+   "colors": [
+    "G"
+   ]
   },
   "Candelabra of Tawnos": {
    "type_line": "Artifact",
-   "cmc": 1.0
+   "cmc": 1.0,
+   "colors": []
   },
   "Mirror Entity": {
    "type_line": "Creature — Shapeshifter",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": [
+    "W"
+   ]
   },
   "Imperious Perfect": {
    "type_line": "Creature — Elf Warrior",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": [
+    "G"
+   ]
   },
   "Tasigur, the Golden Fang": {
    "type_line": "Legendary Creature — Human Shaman",
-   "cmc": 6.0
+   "cmc": 6.0,
+   "colors": [
+    "B"
+   ]
   },
   "Ashaya, Soul of the Wild": {
    "type_line": "Legendary Creature — Elemental",
-   "cmc": 5.0
+   "cmc": 5.0,
+   "colors": [
+    "G"
+   ]
   },
   "Scryb Ranger": {
    "type_line": "Creature — Faerie Ranger",
-   "cmc": 2.0
+   "cmc": 2.0,
+   "colors": [
+    "G"
+   ]
   },
   "Bog Initiate": {
    "type_line": "Creature — Human Wizard",
-   "cmc": 2.0
+   "cmc": 2.0,
+   "colors": [
+    "B"
+   ]
   },
   "Mobilize": {
    "type_line": "Sorcery",
-   "cmc": 1.0
+   "cmc": 1.0,
+   "colors": [
+    "G"
+   ]
   },
   "Leaf-Crowned Visionary": {
    "type_line": "Creature — Elf Druid",
-   "cmc": 2.0
+   "cmc": 2.0,
+   "colors": [
+    "G"
+   ]
   },
   "Arcanis the Omnipotent": {
    "type_line": "Legendary Creature — Wizard",
-   "cmc": 6.0
+   "cmc": 6.0,
+   "colors": [
+    "U"
+   ]
   },
   "Wirewood Symbiote": {
    "type_line": "Creature — Insect",
-   "cmc": 1.0
+   "cmc": 1.0,
+   "colors": [
+    "G"
+   ]
   },
   "Wirewood Lodge": {
    "type_line": "Land",
-   "cmc": 0.0
+   "cmc": 0.0,
+   "colors": [
+    "G"
+   ]
   },
   "Marvin, Murderous Mimic": {
    "type_line": "Legendary Artifact Creature — Toy",
-   "cmc": 2.0
+   "cmc": 2.0,
+   "colors": []
   },
   "Magus of the Candelabra": {
    "type_line": "Creature — Human Wizard",
-   "cmc": 1.0
+   "cmc": 1.0,
+   "colors": [
+    "G"
+   ]
   },
   "Emerald Charm": {
    "type_line": "Instant",
-   "cmc": 1.0
+   "cmc": 1.0,
+   "colors": [
+    "G"
+   ]
   },
   "Temur Sabertooth": {
    "type_line": "Creature — Cat",
-   "cmc": 4.0
+   "cmc": 4.0,
+   "colors": [
+    "G"
+   ]
   },
   "Fanning the Flames": {
    "type_line": "Sorcery",
-   "cmc": 2.0
+   "cmc": 2.0,
+   "colors": [
+    "R"
+   ]
   },
   "Kogla, the Titan Ape": {
    "type_line": "Legendary Creature — Ape",
-   "cmc": 6.0
+   "cmc": 6.0,
+   "colors": [
+    "G"
+   ]
   },
   "Ioreth of the Healing House": {
    "type_line": "Legendary Creature — Human Cleric",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": [
+    "U"
+   ]
   },
   "Seeker of Skybreak": {
    "type_line": "Creature — Elf",
-   "cmc": 2.0
+   "cmc": 2.0,
+   "colors": [
+    "G"
+   ]
   },
   "Tolarian Kraken": {
    "type_line": "Creature — Kraken",
-   "cmc": 6.0
+   "cmc": 6.0,
+   "colors": [
+    "U"
+   ]
   },
   "Locust Swarm": {
    "type_line": "Creature — Insect",
-   "cmc": 4.0
+   "cmc": 4.0,
+   "colors": [
+    "G"
+   ]
   },
   "Pili-Pala": {
    "type_line": "Artifact Creature — Scarecrow",
-   "cmc": 2.0
+   "cmc": 2.0,
+   "colors": []
   },
   "Mycosynth Lattice": {
    "type_line": "Artifact",
-   "cmc": 6.0
+   "cmc": 6.0,
+   "colors": []
   },
   "Robaran Mercenaries": {
    "type_line": "Creature — Human Mercenary",
-   "cmc": 4.0
+   "cmc": 4.0,
+   "colors": [
+    "W"
+   ]
   },
   "Wurmcalling": {
    "type_line": "Sorcery",
-   "cmc": 1.0
+   "cmc": 1.0,
+   "colors": [
+    "G"
+   ]
   },
   "Ezuri, Renegade Leader": {
    "type_line": "Legendary Creature — Elf Warrior",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": [
+    "G"
+   ]
   },
   "Woodcaller Automaton": {
    "type_line": "Artifact Creature — Construct",
-   "cmc": 10.0
+   "cmc": 10.0,
+   "colors": [
+    "G"
+   ]
   },
   "Aura of Dominion": {
    "type_line": "Enchantment — Aura",
-   "cmc": 2.0
+   "cmc": 2.0,
+   "colors": [
+    "U"
+   ]
   },
   "Timeless Witness": {
    "type_line": "Token Creature — Zombie Human Shaman",
-   "cmc": 0.0
+   "cmc": 0.0,
+   "colors": [
+    "B"
+   ]
   },
   "Battlemage's Bracers": {
    "type_line": "Artifact — Equipment",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": [
+    "R"
+   ]
   },
   "Volrath, the Shapestealer": {
    "type_line": "Legendary Creature — Phyrexian Shapeshifter",
-   "cmc": 5.0
+   "cmc": 5.0,
+   "colors": [
+    "B",
+    "G",
+    "U"
+   ]
   },
   "Mimeoplasm, Revered One": {
    "type_line": "Legendary Creature — Ooze",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": [
+    "B",
+    "G",
+    "U"
+   ]
   },
   "Saryth, the Viper's Fang": {
    "type_line": "Legendary Creature — Human Warlock",
-   "cmc": 4.0
+   "cmc": 4.0,
+   "colors": [
+    "G"
+   ]
   },
   "Sewer-veillance Cam": {
    "type_line": "Artifact",
-   "cmc": 1.0
+   "cmc": 1.0,
+   "colors": [
+    "U"
+   ]
   },
   "Staff of Domination": {
    "type_line": "Artifact",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": []
   },
   "Chromatic Orrery": {
    "type_line": "Legendary Artifact",
-   "cmc": 7.0
+   "cmc": 7.0,
+   "colors": []
   },
   "Hope Tender": {
    "type_line": "Creature — Human Druid",
-   "cmc": 2.0
+   "cmc": 2.0,
+   "colors": [
+    "G"
+   ]
   },
   "Immaculate Magistrate": {
    "type_line": "Creature — Elf Shaman",
-   "cmc": 4.0
+   "cmc": 4.0,
+   "colors": [
+    "G"
+   ]
   },
   "Malachite Talisman": {
    "type_line": "Artifact",
-   "cmc": 2.0
+   "cmc": 2.0,
+   "colors": []
   },
   "Hyrax Tower Scout": {
    "type_line": "Creature — Human Scout",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": [
+    "G"
+   ]
   },
   "Farmstead Gleaner": {
    "type_line": "Artifact Creature — Scarecrow",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": []
   },
   "Raised by Giants": {
    "type_line": "Legendary Enchantment — Background",
-   "cmc": 6.0
+   "cmc": 6.0,
+   "colors": [
+    "G"
+   ]
   },
   "Emiel the Blessed": {
    "type_line": "Legendary Creature — Unicorn",
-   "cmc": 4.0
+   "cmc": 4.0,
+   "colors": [
+    "W"
+   ]
   },
   "Concordant Crossroads": {
    "type_line": "World Enchantment",
-   "cmc": 1.0
+   "cmc": 1.0,
+   "colors": [
+    "G"
+   ]
   },
   "Mind Over Matter": {
    "type_line": "Enchantment",
-   "cmc": 6.0
+   "cmc": 6.0,
+   "colors": [
+    "U"
+   ]
   },
   "Pemmin's Aura": {
    "type_line": "Enchantment — Aura",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": [
+    "U"
+   ]
   },
   "Jeskai Ascendancy": {
    "type_line": "Enchantment",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": [
+    "R",
+    "U",
+    "W"
+   ]
   },
   "Gilder Bairn": {
    "type_line": "Creature — Ouphe",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": [
+    "G",
+    "U"
+   ]
   },
   "Rex, Cyber-Hound": {
    "type_line": "Legendary Artifact Creature — Robot Dog",
-   "cmc": 3.0
+   "cmc": 3.0,
+   "colors": [
+    "U",
+    "W"
+   ]
   },
   "Elvish Visionary": {
    "type_line": "Creature — Elf Shaman",
-   "cmc": 2.0
+   "cmc": 2.0,
+   "colors": [
+    "G"
+   ]
   },
   "Chrome Dome": {
    "type_line": "Artifact Creature — Robot Ninja",
-   "cmc": 2.0
+   "cmc": 2.0,
+   "colors": []
   }
  },
  "synergy": {
@@ -5391,14 +5596,6 @@
       "**X untap** : Paying X and tapping it untaps X lands, a scaling untap engine that converts Marwyn's mana into more mana."
      ],
      [
-      "Ioreth of the Healing House",
-      "**Legendary untapper** : It untaps any permanent or two legendary creatures, doubling up Marwyn's taps in a single turn."
-     ],
-     [
-      "Derevi, Empyrial Tactician",
-      "**Combat untapper** : Whenever a creature deals combat damage, Derevi taps or untaps a permanent — untapping Marwyn every combat step for free."
-     ],
-     [
       "Temur Sabertooth",
       "**Bounce engine** : For one green it bounces another creature to hand and becomes indestructible, reusing entry triggers and looping untap spells."
      ],
@@ -5407,20 +5604,8 @@
       "**Prototype untapper** : Cast for its prototype cost it untaps a land and turns it into a haste creature, adding a body and mana back at once."
      ],
      [
-      "Emiel the Blessed",
-      "**Blink engine** : For three mana it exiles and returns a creature you control, re-triggering Elves' entry abilities — including Marwyn's counter growth."
-     ],
-     [
-      "Tolarian Kraken",
-      "**Draw-trigger untapper** : Whenever you draw a card it can pay one mana to tap or untap a creature, turning draw spells into Marwyn untaps."
-     ],
-     [
       "Locust Swarm",
       "**Self-untapper** : It untaps itself for one green each turn and can regenerate, a cheap repeatable untap outlet for your mana."
-     ],
-     [
-      "Raggadragga, Goreguts Boss",
-      "**Mana-creature lord** : It pumps every creature with a mana ability and untaps them when they attack, doubling the output of your dorks."
      ]
     ],
     "Wincons": [
@@ -5457,22 +5642,6 @@
       "**Spell untap** : Whenever anyone casts a green spell it can untap a permanent, turning your own spells into Marwyn taps."
      ],
      [
-      "Mind Over Matter",
-      "**Discard untap** : Discarding a card taps or untaps any artifact, creature or land — an untap engine fueled by excess cards."
-     ],
-     [
-      "Freed from the Real",
-      "**Aura untap** : For two blue it taps or untaps the enchanted creature, a classic infinite-mana untap aura."
-     ],
-     [
-      "Aura of Dominion",
-      "**Creature-fueled untap** : Tap any untapped creature to untap the enchanted one, letting your Elf army untap Marwyn for free."
-     ],
-     [
-      "Pemmin's Aura",
-      "**Untap and protect** : It untaps, grants flying or shroud for two blue each, protecting Marwyn while looping her taps."
-     ],
-     [
       "Whip Silk",
       "**Recurring aura** : It grants reach and returns to hand for one green, a cheap untap-adjacent loop with Malachite Talisman."
      ],
@@ -5483,21 +5652,9 @@
      [
       "Wurmcalling",
       "**Buyback Wurms** : It makes an X/X Wurm with buyback, converting infinite mana into endless giant creatures."
-     ],
-     [
-      "Fanning the Flames",
-      "**Buyback burn** : It deals X damage to any target and returns with buyback, turning infinite mana into infinite damage."
      ]
     ],
     "Flex": [
-     [
-      "Mirror Entity",
-      "**Changeling lord** : With changeling it is an Elf, and its {X} activation makes your whole team X/X with every creature type, an overrun-style finisher."
-     ],
-     [
-      "Battlemage's Bracers",
-      "**Haste and copy** : It grants haste and, for one mana, copies an activated ability of the equipped creature — doubling Marwyn's untap effects."
-     ],
      [
       "Concordant Crossroads",
       "**Global haste** : All creatures have haste, letting your Elf army and freshly-made tokens attack the turn they arrive."
@@ -5511,62 +5668,14 @@
       "**Artifact copy** : It copies another artifact you control for five mana, duplicating mana rocks or untap artifacts."
      ],
      [
-      "Experiment Kraj",
-      "**Ability thief** : It gains every activated ability of creatures with +1/+1 counters, a strange but potent copy engine in counter-heavy builds."
-     ],
-     [
-      "Volrath, the Shapestealer",
-      "**Shape-shifter** : It becomes a copy of any creature with a counter on it, stealing Marwyn-grade abilities at instant speed."
-     ],
-     [
-      "Mimeoplasm, Revered One",
-      "**Counter copy** : It enters with counters for exiled creature cards and can copy them, a flexible tool for counter-heavy Marwyn."
-     ],
-     [
-      "Robaran Mercenaries",
-      "**Legendary mimic** : It has all activated abilities of your legendary creatures, effectively a second Marwyn untap engine."
-     ],
-     [
-      "Rex, Cyber-Hound",
-      "**Graveyard mimic** : It gains the activated abilities of exiled creature cards, turning your graveyard into an ability toolbox."
-     ],
-     [
       "Marvin, Murderous Mimic",
       "**Ability copy** : It has all activated abilities of your other creatures — including Marwyn's tap — enabling several engines from one body."
-     ],
-     [
-      "Jeskai Ascendancy",
-      "**Untap on cast** : Noncreature spells untap your creatures and pump them, turning every instant or sorcery into a Marwyn untap."
-     ],
-     [
-      "Gilder Bairn",
-      "**Counter doubler** : It doubles every kind of counter on a permanent, exploding Marwyn's power and the +1/+1 plan."
-     ],
-     [
-      "Fain, the Broker",
-      "**Counter and token engine** : It converts creatures and counters into +1/+1 counters or Treasures, a flexible utility engine."
      ]
     ],
     "CardAdvantage": [
      [
-      "Arcanis the Omnipotent",
-      "**Draw engine** : It draws three cards a turn and can return itself to hand, turning Marwyn's mana into massive card advantage."
-     ],
-     [
       "Eternal Witness",
       "**Recursion** : It returns any card from your graveyard to hand on entry, reusing key spells and combo pieces."
-     ],
-     [
-      "Timeless Witness",
-      "**Recursion copy** : Like its sibling, it returns a card from the graveyard on entry, adding loop density as a second Eternal Witness."
-     ],
-     [
-      "Sewer-veillance Cam",
-      "**Flash draw** : It enters or leaves the battlefield to tap or untap a creature and can sacrifice for two cards, a flexible utility piece."
-     ],
-     [
-      "Tasigur, the Golden Fang",
-      "**Graveyard advantage** : For two hybrid mana it mills two and returns a nonland card an opponent chooses, a repeatable source of value."
      ]
     ],
     "Ramp": [
@@ -5583,10 +5692,6 @@
       "**Colorless mana well** : It adds five mana of any color and lets you spend mana as though it were any color, fixing and ramping at once."
      ],
      [
-      "Bog Initiate",
-      "**Color filter** : For one mana it turns your green flood into black, useful for casting off-color payoffs in Marwyn's mono-green shell."
-     ],
-     [
       "Pili-Pala",
       "**Untap mana** : It taps to add mana of any color and untaps itself for two mana, a compact loop piece that can go infinite with Marwyn's output."
      ],
@@ -5599,7 +5704,6 @@
       "**Everything is an artifact** : All permanents become artifacts and all mana becomes usable anywhere, making every permanent a combo target."
      ]
     ],
-    "Wipes": [],
     "Interaction": [
      [
       "Reclamation Sage",
@@ -5612,10 +5716,6 @@
      [
       "Emerald Charm",
       "**Versatile instant** : It untaps a permanent, destroys a non-Aura enchantment, or strips flying — a cheap answer that also feeds untap loops."
-     ],
-     [
-      "Singing Bell Strike",
-      "**Tap lock** : It taps a creature on entry and keeps it tapped unless its controller pays six, neutralizing a blocker or combo piece."
      ],
      [
       "Saryth, the Viper's Fang",
