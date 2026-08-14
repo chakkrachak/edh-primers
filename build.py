@@ -24,7 +24,10 @@ def produces_of(combo):
     return out[:6]
 
 def copy_btn(card_names, label="📋"):
-    data = H.escape(", ".join(card_names))
+    # Format copié : UNE CARTE PAR LIGNE (user, 2026-08-13) — plus lisible quand on colle
+    # dans un éditeur / un search ; le \n dans l'attribut data-copy est légal en HTML et
+    # préservé par getAttribute().
+    data = H.escape("\n".join(card_names))
     return (f'<button class="copy-btn" data-copy="{data}" '
             f'onclick="copyText(this.getAttribute(\'data-copy\'))" '
             f'title="Copy card list">{label}</button>')
