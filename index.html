@@ -325,6 +325,67 @@
   </div>
 </section>
 
+<section id="reports">
+  <h2 class="section-title"><a href="#reports">📊 Thematic Reports <span class="section-count">6</span></a></h2>
+  <div class="grid">
+
+    <a class="card card-report" href="reports/EDH-Report-draw-commanders.html" data-kind="report" data-colors="">
+      <div class="card-art"><img loading="lazy" src="https://cards.scryfall.io/large/front/a/4/a4de19a1-c6f5-4364-97b4-9582607cd2c2.jpg?1783907945" alt="Card Draw Commanders" data-name="Card Draw Commanders"></div>
+      <div class="card-body">
+        <div class="card-name">Card Draw Commanders <span class="card-badge badge-report">Archetype</span></div>
+        <div class="card-plan">20 commanders</div>
+        <p class="card-desc">**20 commanders** built around the Card Draw archetype (Nekusar, Y’shtola, Xyris, Kefka cEDH…) — game plans + win conditions + combos.</p>
+      </div>
+    </a>
+
+    <a class="card card-report" href="reports/EDH-Report-precons-10-years.html" data-kind="report" data-colors="">
+      <div class="card-art"><img loading="lazy" src="https://cards.scryfall.io/large/front/9/7/974900db-87c4-4d39-8687-90ca7a8b6dda.jpg?1783902793" alt="Precons 2016–2026" data-name="Precons 2016–2026"></div>
+      <div class="card-body">
+        <div class="card-name">Precons 2016–2026 <span class="card-badge badge-report">Precons</span></div>
+        <div class="card-plan">147 commanders</div>
+        <p class="card-desc">**147 commanders** from 10 years of Commander precons, grouped by release year — top-5 plans with the general’s contribution.</p>
+      </div>
+    </a>
+
+    <a class="card card-report" href="reports/EDH-Report-cmc-le-2.html" data-kind="report" data-colors="">
+      <div class="card-art"><img loading="lazy" src="https://cards.scryfall.io/large/front/a/7/a71d1ec3-2d7a-4749-8936-8bf7a8b83d84.jpg?1783906379" alt="CMC ≤ 2 Commanders" data-name="CMC ≤ 2 Commanders"></div>
+      <div class="card-body">
+        <div class="card-name">CMC ≤ 2 Commanders <span class="card-badge badge-report">Theme</span></div>
+        <div class="card-plan">20 commanders</div>
+        <p class="card-desc">**20 commanders** with mana value 2 or less (Ragavan, Sram, Giada, Kinnan…) — the 462 legal options ranked by EDHREC popularity.</p>
+      </div>
+    </a>
+
+    <a class="card card-report" href="reports/EDH-Report-street-fighter.html" data-kind="report" data-colors="">
+      <div class="card-art"><img loading="lazy" src="https://cards.scryfall.io/large/front/8/6/86123ab7-ee60-4ef2-8467-1ad420213eb1.jpg?1783917774" alt="Street Fighter Commanders" data-name="Street Fighter Commanders"></div>
+      <div class="card-body">
+        <div class="card-name">Street Fighter Commanders <span class="card-badge badge-report">Crossover</span></div>
+        <div class="card-plan">8 commanders</div>
+        <p class="card-desc">**8 fighters** from the Street Fighter Secret Lair (Zangief, Chun-Li, Ryu…) — the real character names behind Scryfall’s renames.</p>
+      </div>
+    </a>
+
+    <a class="card card-report" href="reports/EDH-Report-final-fantasy.html" data-kind="report" data-colors="">
+      <div class="card-art"><img loading="lazy" src="https://cards.scryfall.io/large/front/e/8/e8df6177-e14d-4dc9-bfc6-5e5f31c2834d.jpg?1783906296" alt="Final Fantasy Commanders" data-name="Final Fantasy Commanders"></div>
+      <div class="card-body">
+        <div class="card-name">Final Fantasy Commanders <span class="card-badge badge-report">Crossover</span></div>
+        <div class="card-plan">20 commanders</div>
+        <p class="card-desc">**20 heroes** from the Final Fantasy set (Y’shtola, Vivi, Kefka, Sephiroth…) — the most-played commanders ranked by EDHREC.</p>
+      </div>
+    </a>
+
+    <a class="card card-report" href="reports/EDH-Report-marvel-super-heroes.html" data-kind="report" data-colors="">
+      <div class="card-art"><img loading="lazy" src="https://cards.scryfall.io/large/front/0/6/0676e955-ba95-4f91-8185-f6dae5045df1.jpg?1783905223" alt="Marvel Super Heroes" data-name="Marvel Super Heroes"></div>
+      <div class="card-body">
+        <div class="card-name">Marvel Super Heroes <span class="card-badge badge-report">Crossover</span></div>
+        <div class="card-plan">20 commanders</div>
+        <p class="card-desc">**20 heroes** from the Marvel sets (Norman Osborn, Storm, Captain America, Wolverine…) — grouped by color identity.</p>
+      </div>
+    </a>
+
+  </div>
+</section>
+
 <footer>Data: <a href="https://scryfall.com">Scryfall</a> · <a href="https://edhrec.com">EDHREC</a> · <a href="https://commanderspellbook.com">Commander Spellbook</a></footer>
 <script>
 (function(){
@@ -369,6 +430,7 @@
     var nP = countVisible('primer'), nE = countVisible('eval');
     document.getElementById('primers').style.display = (fType === 'all' || fType === 'primer') && nP > 0 ? '' : 'none';
     document.getElementById('evals').style.display = (fType === 'all' || fType === 'eval') && nE > 0 ? '' : 'none';
+    document.getElementById('reports').style.display = (fType === 'all') ? '' : 'none';
     document.querySelectorAll('.section-count')[0].textContent = nP;
     document.querySelectorAll('.section-count')[1].textContent = nE;
   }

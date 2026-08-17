@@ -56,7 +56,7 @@
   <h2 class="section-title"><a href="#evals">🎴 Evaluations <span class="section-count">{{ n_evals }}</span></a></h2>
   <div class="grid">
 {% for card in evals %}
-    <a class="card" href="{{ card.href }}" data-kind="{{ card.kind }}" data-colors="{{ card.colors }}">
+    <a class="card" href="{{ card.href }}" data-kind="eval" data-colors="{{ card.colors }}">
       <div class="card-art"><img loading="lazy" src="{{ card.img }}" alt="{{ card.name }}" data-name="{{ card.name }}"></div>
       <div class="card-body">
         <div class="card-name">{{ card.name|escape }} <span class="card-badge badge-eval">Evaluation</span></div>
@@ -67,6 +67,22 @@
           <div class="hs-label">High Synergy</div>
           <div class="hs-row">{% for t in card.thumbs %}<span class="thumb" title="{{ t.name }}"><img loading="lazy" src="{{ t.img }}" alt="{{ t.name }}"></span>{% endfor %}</div>
         </div>
+      </div>
+    </a>
+{% endfor %}
+  </div>
+</section>
+
+<section id="reports">
+  <h2 class="section-title"><a href="#reports">📊 Thematic Reports <span class="section-count">{{ n_reports }}</span></a></h2>
+  <div class="grid">
+{% for rep in reports %}
+    <a class="card card-report" href="{{ rep.href }}" data-kind="report" data-colors="">
+      <div class="card-art"><img loading="lazy" src="{{ rep.img }}" alt="{{ rep.name }}" data-name="{{ rep.name }}"></div>
+      <div class="card-body">
+        <div class="card-name">{{ rep.name|escape }} <span class="card-badge badge-report">{{ rep.tag }}</span></div>
+        <div class="card-plan">{{ rep.n }} commanders</div>
+        <p class="card-desc">{{ rep.desc|safe }}</p>
       </div>
     </a>
 {% endfor %}
@@ -117,6 +133,7 @@
     var nP = countVisible('primer'), nE = countVisible('eval');
     document.getElementById('primers').style.display = (fType === 'all' || fType === 'primer') && nP > 0 ? '' : 'none';
     document.getElementById('evals').style.display = (fType === 'all' || fType === 'eval') && nE > 0 ? '' : 'none';
+    document.getElementById('reports').style.display = (fType === 'all') ? '' : 'none';
     document.querySelectorAll('.section-count')[0].textContent = nP;
     document.querySelectorAll('.section-count')[1].textContent = nE;
   }

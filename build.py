@@ -1264,6 +1264,8 @@ def build_index():
     ctx = dict(idx)
     ctx['cards'] = cards
     ctx['evals'] = evals
+    ctx['reports'] = idx.get('thematic_reports', [])
+    ctx['n_reports'] = len(ctx['reports'])
     ctx['n_primers'] = len(cards)
     ctx['n_evals'] = len(evals)
     ctx['n_total'] = len(cards) + len(evals)

@@ -71,5 +71,55 @@
   "Terra, Herald of Hope": "Precon evaluation: the Final Fantasy VI Revival Trance list analyzed against EDHREC game plans — 92 unique cards, 5 archetypes ranked, high-synergy overlap per plan, combos and build-structure verdict.",
   "Korvold, Fae-Cursed King — Bracket 4": "Deck-list evaluation: the Moxfield Korvold Lands Bracket 4 list analyzed against EDHREC game plans — 99 unique cards, 6 archetypes ranked, high-synergy overlap per plan (Lands Matter 9/10, Combo 9/10), combos and build-structure verdict (glass-cannon cEDH).",
   "Marwyn, the Nurturer — cEDH": "Timo Isbarn's cEDH elfball: fast mana (Mox Diamond, Chrome Mox, Lotus Petal) powers Marwyn into an infinite-mana engine — Staff of Domination and Umbral Mantle are both in the 99, with a full tutor suite (GSZ, Chord, Finale, Natural Order, Tooth and Nail) to find them."
- }
+ },
+ "thematic_reports": [
+  {
+   "href": "reports/EDH-Report-draw-commanders.html",
+   "name": "Card Draw Commanders",
+   "img": "https://cards.scryfall.io/large/front/a/4/a4de19a1-c6f5-4364-97b4-9582607cd2c2.jpg?1783907945",
+   "desc": "**20 commanders** built around the Card Draw archetype (Nekusar, Y’shtola, Xyris, Kefka cEDH…) — game plans + win conditions + combos.",
+   "n": 20,
+   "tag": "Archetype"
+  },
+  {
+   "href": "reports/EDH-Report-precons-10-years.html",
+   "name": "Precons 2016–2026",
+   "img": "https://cards.scryfall.io/large/front/9/7/974900db-87c4-4d39-8687-90ca7a8b6dda.jpg?1783902793",
+   "desc": "**147 commanders** from 10 years of Commander precons, grouped by release year — top-5 plans with the general’s contribution.",
+   "n": 147,
+   "tag": "Precons"
+  },
+  {
+   "href": "reports/EDH-Report-cmc-le-2.html",
+   "name": "CMC ≤ 2 Commanders",
+   "img": "https://cards.scryfall.io/large/front/a/7/a71d1ec3-2d7a-4749-8936-8bf7a8b83d84.jpg?1783906379",
+   "desc": "**20 commanders** with mana value 2 or less (Ragavan, Sram, Giada, Kinnan…) — the 462 legal options ranked by EDHREC popularity.",
+   "n": 20,
+   "tag": "Theme"
+  },
+  {
+   "href": "reports/EDH-Report-street-fighter.html",
+   "name": "Street Fighter Commanders",
+   "img": "https://cards.scryfall.io/large/front/8/6/86123ab7-ee60-4ef2-8467-1ad420213eb1.jpg?1783917774",
+   "desc": "**8 fighters** from the Street Fighter Secret Lair (Zangief, Chun-Li, Ryu…) — the real character names behind Scryfall’s renames.",
+   "n": 8,
+   "tag": "Crossover"
+  },
+  {
+   "href": "reports/EDH-Report-final-fantasy.html",
+   "name": "Final Fantasy Commanders",
+   "img": "https://cards.scryfall.io/large/front/e/8/e8df6177-e14d-4dc9-bfc6-5e5f31c2834d.jpg?1783906296",
+   "desc": "**20 heroes** from the Final Fantasy set (Y’shtola, Vivi, Kefka, Sephiroth…) — the most-played commanders ranked by EDHREC.",
+   "n": 20,
+   "tag": "Crossover"
+  },
+  {
+   "href": "reports/EDH-Report-marvel-super-heroes.html",
+   "name": "Marvel Super Heroes",
+   "img": "https://cards.scryfall.io/large/front/0/6/0676e955-ba95-4f91-8185-f6dae5045df1.jpg?1783905223",
+   "desc": "**20 heroes** from the Marvel sets (Norman Osborn, Storm, Captain America, Wolverine…) — grouped by color identity.",
+   "n": 20,
+   "tag": "Crossover"
+  }
+ ]
 }
