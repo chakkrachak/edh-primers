@@ -45,8 +45,8 @@ a:hover { text-decoration: underline; }
 .cell-left { width: 38%; }
 .cell-right { width: 62%; }
 .msg1 { display: flex; gap: 14px; align-items: flex-start; }
-.art { flex: 0 0 120px; display: flex; background: #0a0a14; border-radius: 6px; border: 1px solid #2a2a4a; overflow: hidden; }
-.art img { width: 100%; height: 100%; object-fit: cover; display: block; cursor: zoom-in; transition: filter .15s; }
+.art { flex: 0 0 220px; width: 220px; display: block; background: #0a0a14; border-radius: 6px; border: 1px solid #2a2a4a; overflow: hidden; }
+.art img { width: 100%; height: auto; display: block; cursor: zoom-in; transition: filter .15s; }
 .art img:hover { filter: brightness(1.15); }
 .gname { font-size: 16px; font-weight: 700; }
 .gname a { color: #7cc4ff; }
@@ -165,20 +165,16 @@ modal.addEventListener('click', function () {
 document.addEventListener('keydown', function (e) {
   if (e.key === 'Escape') modal.classList.remove('open');
 });
-// Normalisation : hauteur de l'art = hauteur du texte du message 1, largeur = h × 63/88 (ratio exact → aucun crop)
-// UNIQUEMENT desktop (>700px) — sur mobile le CSS empile l'image au-dessus du texte.
+// Normalisation : taille FIXE des images (option B user 2026-08-17) — largeur 220px
+// desktop (CSS), hauteur auto = ratio carte naturel conservé (672×936), jamais de crop.
+// Mobile (≤700px) : CSS empile l'image au-dessus du texte (max 240px, height auto).
+// Le JS ne fait que purger les styles inline éventuels (les anciennes versions posaient
+// des dimensions dynamiques hauteur=texte×63/88).
 function normalizeArts() {
-  var mobile = window.innerWidth <= 700;
-  document.querySelectorAll('.msg1').forEach(function (msg1) {
-    var body = msg1.querySelector('.msg1-body');
-    var art = msg1.querySelector('.art');
-    if (!body || !art) return;
-    if (mobile) { art.style.height = ''; art.style.width = ''; art.style.flex = ''; return; }
-    var h = Math.max(body.getBoundingClientRect().height, 120);
-    var w = Math.round(h * 63 / 88);
-    art.style.height = Math.round(h) + 'px';
-    art.style.width = w + 'px';
-    art.style.flex = '0 0 ' + w + 'px';
+  document.querySelectorAll('.art').forEach(function (art) {
+    art.style.height = '';
+    art.style.width = '';
+    art.style.flex = '';
   });
 }
 normalizeArts();
