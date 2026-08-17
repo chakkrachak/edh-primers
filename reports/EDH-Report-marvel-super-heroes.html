@@ -7,6 +7,13 @@
 <style>
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
+.back-link { margin: 0 0 14px; font-size: 13px; }
+.back-link a {
+  color: #7ab4ff;
+  text-decoration: none;
+  font-weight: 700;
+}
+.back-link a:hover { text-decoration: underline; }
 body { font-family: 'Segoe UI', system-ui, sans-serif; background: #10101c; color: #e8e8f0; padding: 24px; max-width: 1200px; margin: 0 auto; line-height: 1.5; }
 .sticky-header { position: sticky; top: 0; z-index: 50; background: rgba(16,16,28,.97); border: 1px solid #2a2a45; border-radius: 10px; margin-bottom: 20px; }
 .sh-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 10px 16px; cursor: pointer; user-select: none; }
@@ -82,6 +89,7 @@ footer { margin-top: 26px; color: #666; font-size: 12px; }
 }
 
 </style></head><body>
+<p class="back-link"><a href="../index.html">← Back to index</a></p>
 <div class="sticky-header" id="stickyHeader">
   <div class="sh-top" id="tocToggle" role="button" aria-expanded="false">
     <span class="sh-title">☰ Table of Contents</span>
