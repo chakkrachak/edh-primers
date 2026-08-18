@@ -1,0 +1,505 @@
+{
+ "schema_version": 1,
+ "reconciled_at": "2026-08-19 00:00:00",
+ "commander": {
+  "name": "Okoye, Mighty and Adored",
+  "slug": "okoye-mighty-and-adored",
+  "mana_cost": "{2}{G}{W}",
+  "type_line": "Legendary Creature — Human Warrior Hero",
+  "color_id": "GW",
+  "power": "3",
+  "toughness": "3",
+  "rarity": "rare",
+  "legality": "legal",
+  "set_name": "Marvel Super Heroes Commander",
+  "img": "https://cards.scryfall.io/large/front/5/7/57606be3-6603-4265-9b2a-be1d21e08aae.jpg?1783903141",
+  "oracle": "When Okoye enters, you become the monarch.\nAt the beginning of combat on your turn, put a +1/+1 counter on target creature. Whenever that creature attacks the monarch this turn, it gains double strike and trample until end of turn.",
+  "keywords": [
+   "monarch",
+   "+1/+1 counter"
+  ]
+ },
+ "imgs": {
+  "Court of Grace": "https://cards.scryfall.io/large/front/d/c/dc098d5b-0cdb-422f-8bd2-7afd81a7b7c3.jpg?1783915198",
+  "Palace Jailer": "https://cards.scryfall.io/large/front/3/a/3a8c2a84-e0f2-4611-af3d-42f4578ad4e3.jpg?1783903243",
+  "Throne of the High City": "https://cards.scryfall.io/large/front/d/4/d469a8c3-3b9e-41a7-bc59-c09faeb48d86.jpg?1783903111",
+  "Regal Behemoth": "https://cards.scryfall.io/large/front/e/3/e3a8bdfa-a39c-4ca7-b591-1c6aca4cc5ac.jpg?1783913856",
+  "Anointed Procession": "https://cards.scryfall.io/large/front/c/9/c9d6af7b-41a5-4077-81ed-7560548dcf3e.jpg?1783924049",
+  "Doubling Season": "https://cards.scryfall.io/large/front/8/c/8c2d6fde-5c3b-48c3-828c-832f00570824.jpg?1783904178",
+  "Cathars' Crusade": "https://cards.scryfall.io/large/front/e/e/ee2f283f-e4ae-44d8-9f2b-d1c25c44705d.jpg?1783908029",
+  "Champion of Lambholt": "https://cards.scryfall.io/large/front/5/d/5d5f0288-480b-4c68-957f-2f2db04d25c6.jpg?1783904675",
+  "Branching Evolution": "https://cards.scryfall.io/large/front/c/0/c0f1a736-8b12-4f58-a031-bf1733f65c51.jpg?1783911212",
+  "Hardened Scales": "https://cards.scryfall.io/large/front/9/9/99cfd1a8-49fd-4cc0-96f2-f9f159ce5d55.jpg?1783903765",
+  "Unbreakable Formation": "https://cards.scryfall.io/large/front/7/0/70cd1d3a-59b7-4c51-beab-bf63bb125610.jpg?1783905176",
+  "Akroma's Will": "https://cards.scryfall.io/large/front/9/8/988b5c67-1521-4bff-aff5-b3536c20aa5c.jpg?1783903890",
+  "Felidar Retreat": "https://cards.scryfall.io/large/front/5/f/5f8c16d5-c2ed-4e5c-8f50-d39013845f55.jpg?1783904213",
+  "Avenger of Zendikar": "https://cards.scryfall.io/large/front/c/6/c6f1e60f-a195-4590-80b0-86767de6c423.jpg?1783904552",
+  "Adeline, Resplendent Cathar": "https://cards.scryfall.io/large/front/0/b/0b9579d8-bc8f-4d74-bfc1-dcdd42568f79.jpg?1783906395",
+  "Torens, Fist of the Angels": "https://cards.scryfall.io/large/front/f/8/f8566528-ba96-4425-8831-b5d6197da9ae.jpg?1783908071",
+  "Bastion Protector": "https://cards.scryfall.io/large/front/1/5/1582488a-ad15-487e-9271-6d9330b46fb4.jpg?1783903254",
+  "Okoye, Mighty and Adored": "https://cards.scryfall.io/large/front/5/7/57606be3-6603-4265-9b2a-be1d21e08aae.jpg?1783903141"
+ },
+ "oracle": {
+  "Court of Grace": "When this enchantment enters, you become the monarch.\nAt the beginning of your upkeep, create a 1/1 white Spirit creature token with flying. If you're the monarch, create a 4/4 white Angel creature token with flying instead.",
+  "Palace Jailer": "When this creature enters, you become the monarch.\nWhen this creature enters, exile target creature an opponent controls until an opponent becomes the monarch.",
+  "Throne of the High City": "{T}: Add {C}.\n{4}, {T}, Sacrifice this land: You become the monarch.",
+  "Regal Behemoth": "Trample\nWhen this creature enters, you become the monarch.\nWhenever you tap a land for mana while you're the monarch, add an additional one mana of any color.",
+  "Anointed Procession": "If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.",
+  "Doubling Season": "If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.\nIf an effect would put one or more counters on a permanent you control, it puts twice that many of those counters on that permanent instead.",
+  "Cathars' Crusade": "Whenever a creature you control enters, put a +1/+1 counter on each creature you control.",
+  "Champion of Lambholt": "Creatures with power less than this creature's power can't block creatures you control.\nWhenever another creature you control enters, put a +1/+1 counter on this creature.",
+  "Branching Evolution": "If one or more +1/+1 counters would be put on a creature you control, twice that many +1/+1 counters are put on that creature instead.",
+  "Hardened Scales": "If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.",
+  "Unbreakable Formation": "Creatures you control gain indestructible until end of turn.\nAddendum — If you cast this spell during your main phase, put a +1/+1 counter on each of those creatures and they gain vigilance until end of turn.",
+  "Akroma's Will": "Choose one. If you control a commander as you cast this spell, you may choose both instead.\n• Creatures you control gain flying, vigilance, and double strike until end of turn.\n• Creatures you control gain lifelink, indestructible, and protection from each color until end of turn.",
+  "Felidar Retreat": "Landfall — Whenever a land you control enters, choose one —\n• Create a 2/2 white Cat Beast creature token.\n• Put a +1/+1 counter on each creature you control. Those creatures gain vigilance until end of turn.",
+  "Avenger of Zendikar": "When this creature enters, create a 0/1 green Plant creature token for each land you control.\nLandfall — Whenever a land you control enters, you may put a +1/+1 counter on each Plant creature you control.",
+  "Adeline, Resplendent Cathar": "Vigilance\nAdeline's power is equal to the number of creatures you control.\nWhenever you attack, for each opponent, create a 1/1 white Human creature token that's tapped and attacking that player or a planeswalker they control.",
+  "Torens, Fist of the Angels": "Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)\nWhenever you cast a creature spell, create a 1/1 green and white Human Soldier creature token with training.",
+  "Bastion Protector": "Commander creatures you control get +2/+2 and have indestructible.",
+  "Okoye, Mighty and Adored": "When Okoye enters, you become the monarch.\nAt the beginning of combat on your turn, put a +1/+1 counter on target creature. Whenever that creature attacks the monarch this turn, it gains double strike and trample until end of turn."
+ },
+ "card_meta": {
+  "Court of Grace": {
+   "type_line": "Enchantment",
+   "cmc": 4.0
+  },
+  "Palace Jailer": {
+   "type_line": "Creature — Human Soldier",
+   "cmc": 4.0
+  },
+  "Throne of the High City": {
+   "type_line": "Land",
+   "cmc": 0.0
+  },
+  "Regal Behemoth": {
+   "type_line": "Creature — Dinosaur",
+   "cmc": 6.0
+  },
+  "Anointed Procession": {
+   "type_line": "Enchantment",
+   "cmc": 4.0
+  },
+  "Doubling Season": {
+   "type_line": "Enchantment",
+   "cmc": 5.0
+  },
+  "Cathars' Crusade": {
+   "type_line": "Enchantment",
+   "cmc": 5.0
+  },
+  "Champion of Lambholt": {
+   "type_line": "Creature — Human Warrior",
+   "cmc": 3.0
+  },
+  "Branching Evolution": {
+   "type_line": "Enchantment",
+   "cmc": 3.0
+  },
+  "Hardened Scales": {
+   "type_line": "Enchantment",
+   "cmc": 1.0
+  },
+  "Unbreakable Formation": {
+   "type_line": "Instant",
+   "cmc": 3.0
+  },
+  "Akroma's Will": {
+   "type_line": "Instant",
+   "cmc": 4.0
+  },
+  "Felidar Retreat": {
+   "type_line": "Enchantment",
+   "cmc": 4.0
+  },
+  "Avenger of Zendikar": {
+   "type_line": "Creature — Elemental",
+   "cmc": 7.0
+  },
+  "Adeline, Resplendent Cathar": {
+   "type_line": "Legendary Creature — Human Knight",
+   "cmc": 3.0
+  },
+  "Torens, Fist of the Angels": {
+   "type_line": "Legendary Creature — Human Cleric",
+   "cmc": 3.0
+  },
+  "Bastion Protector": {
+   "type_line": "Creature — Human Soldier",
+   "cmc": 3.0
+  }
+ },
+ "synergy": {
+  "Court of Grace": {
+   "synergy": 0.95
+  },
+  "Palace Jailer": {
+   "synergy": 0.94
+  },
+  "Throne of the High City": {
+   "synergy": 0.85
+  },
+  "Regal Behemoth": {
+   "synergy": 0.93
+  },
+  "Anointed Procession": {
+   "synergy": 0.9
+  },
+  "Doubling Season": {
+   "synergy": 0.91
+  },
+  "Cathars' Crusade": {
+   "synergy": 0.88
+  },
+  "Champion of Lambholt": {
+   "synergy": 0.84
+  },
+  "Branching Evolution": {
+   "synergy": 0.9
+  },
+  "Hardened Scales": {
+   "synergy": 0.87
+  },
+  "Unbreakable Formation": {
+   "synergy": 0.82
+  },
+  "Akroma's Will": {
+   "synergy": 0.92
+  },
+  "Felidar Retreat": {
+   "synergy": 0.8
+  },
+  "Avenger of Zendikar": {
+   "synergy": 0.83
+  },
+  "Adeline, Resplendent Cathar": {
+   "synergy": 0.86
+  },
+  "Torens, Fist of the Angels": {
+   "synergy": 0.85
+  },
+  "Bastion Protector": {
+   "synergy": 0.89
+  }
+ },
+ "plans": [
+  {
+   "tag": "Monarch",
+   "decks": 194,
+   "description": [
+    "**Core** : Okoye becomes the monarch the moment she enters, so the whole plan is to claim the crown and keep it — every turn you hold it you draw an extra card and can pump a creature.",
+    "**Engine** : At the beginning of combat she puts a +1/+1 counter on target creature and gives it double strike and trample while it attacks the monarch — magnified by Doubling Season, Branching Evolution and Hardened Scales into a one-shot attacker.",
+    "**Payoff** : Court pieces (Court of Grace, Palace Jailer, Regal Behemoth, Throne of the High City) keep the crown and flood tokens, then a buffed double-striking attacker or Akroma's Will closes the game."
+   ],
+   "win": [
+    "**Buffed double striker** : Okoye's combat counter — doubled by Doubling Season and Branching Evolution — turns a designated creature into a lethal double-striking, trampling attacker against the monarch.",
+    "**Angel swarm** : While you hold the crown, Court of Grace makes a 4/4 flying Angel each upkeep, and Anointed Procession or Doubling Season doubles them into a flying army.",
+    "**Akroma's Will** : With your commander on the field you choose both modes, giving the whole team double strike, flying, vigilance, lifelink and protection — one attack wipes the table."
+   ],
+   "high_synergy": [
+    {
+     "name": "Court of Grace",
+     "synergy": 0.95
+    },
+    {
+     "name": "Palace Jailer",
+     "synergy": 0.94
+    },
+    {
+     "name": "Throne of the High City",
+     "synergy": 0.85
+    },
+    {
+     "name": "Regal Behemoth",
+     "synergy": 0.93
+    },
+    {
+     "name": "Anointed Procession",
+     "synergy": 0.9
+    },
+    {
+     "name": "Doubling Season",
+     "synergy": 0.91
+    },
+    {
+     "name": "Cathars' Crusade",
+     "synergy": 0.88
+    },
+    {
+     "name": "Champion of Lambholt",
+     "synergy": 0.84
+    },
+    {
+     "name": "Branching Evolution",
+     "synergy": 0.9
+    },
+    {
+     "name": "Hardened Scales",
+     "synergy": 0.87
+    },
+    {
+     "name": "Unbreakable Formation",
+     "synergy": 0.82
+    },
+    {
+     "name": "Akroma's Will",
+     "synergy": 0.92
+    },
+    {
+     "name": "Felidar Retreat",
+     "synergy": 0.8
+    },
+    {
+     "name": "Avenger of Zendikar",
+     "synergy": 0.83
+    },
+    {
+     "name": "Adeline, Resplendent Cathar",
+     "synergy": 0.86
+    },
+    {
+     "name": "Torens, Fist of the Angels",
+     "synergy": 0.85
+    },
+    {
+     "name": "Bastion Protector",
+     "synergy": 0.89
+    }
+   ],
+   "deck_matches": [
+    "Court of Grace",
+    "Palace Jailer",
+    "Regal Behemoth",
+    "Doubling Season",
+    "Akroma's Will",
+    "Anointed Procession"
+   ],
+   "combos": []
+  }
+ ],
+ "combos": [],
+ "hs_imgs": {
+  "Court of Grace": "https://cards.scryfall.io/large/front/d/c/dc098d5b-0cdb-422f-8bd2-7afd81a7b7c3.jpg?1783915198",
+  "Palace Jailer": "https://cards.scryfall.io/large/front/3/a/3a8c2a84-e0f2-4611-af3d-42f4578ad4e3.jpg?1783903243",
+  "Throne of the High City": "https://cards.scryfall.io/large/front/d/4/d469a8c3-3b9e-41a7-bc59-c09faeb48d86.jpg?1783903111",
+  "Regal Behemoth": "https://cards.scryfall.io/large/front/e/3/e3a8bdfa-a39c-4ca7-b591-1c6aca4cc5ac.jpg?1783913856",
+  "Anointed Procession": "https://cards.scryfall.io/large/front/c/9/c9d6af7b-41a5-4077-81ed-7560548dcf3e.jpg?1783924049",
+  "Doubling Season": "https://cards.scryfall.io/large/front/8/c/8c2d6fde-5c3b-48c3-828c-832f00570824.jpg?1783904178",
+  "Cathars' Crusade": "https://cards.scryfall.io/large/front/e/e/ee2f283f-e4ae-44d8-9f2b-d1c25c44705d.jpg?1783908029",
+  "Champion of Lambholt": "https://cards.scryfall.io/large/front/5/d/5d5f0288-480b-4c68-957f-2f2db04d25c6.jpg?1783904675",
+  "Branching Evolution": "https://cards.scryfall.io/large/front/c/0/c0f1a736-8b12-4f58-a031-bf1733f65c51.jpg?1783911212",
+  "Hardened Scales": "https://cards.scryfall.io/large/front/9/9/99cfd1a8-49fd-4cc0-96f2-f9f159ce5d55.jpg?1783903765",
+  "Unbreakable Formation": "https://cards.scryfall.io/large/front/7/0/70cd1d3a-59b7-4c51-beab-bf63bb125610.jpg?1783905176",
+  "Akroma's Will": "https://cards.scryfall.io/large/front/9/8/988b5c67-1521-4bff-aff5-b3536c20aa5c.jpg?1783903890",
+  "Felidar Retreat": "https://cards.scryfall.io/large/front/5/f/5f8c16d5-c2ed-4e5c-8f50-d39013845f55.jpg?1783904213",
+  "Avenger of Zendikar": "https://cards.scryfall.io/large/front/c/6/c6f1e60f-a195-4590-80b0-86767de6c423.jpg?1783904552",
+  "Adeline, Resplendent Cathar": "https://cards.scryfall.io/large/front/0/b/0b9579d8-bc8f-4d74-bfc1-dcdd42568f79.jpg?1783906395",
+  "Torens, Fist of the Angels": "https://cards.scryfall.io/large/front/f/8/f8566528-ba96-4425-8831-b5d6197da9ae.jpg?1783908071",
+  "Bastion Protector": "https://cards.scryfall.io/large/front/1/5/1582488a-ad15-487e-9271-6d9330b46fb4.jpg?1783903254"
+ },
+ "type_recs": {},
+ "card_plan_texts": {
+  "Court of Grace": {
+   "Monarch": "**Crown engine** : It makes you the monarch on entry and, while you keep the crown, escalates its upkeep token from a 1/1 Spirit to a 4/4 flying Angel — doubling the plan's reward."
+  },
+  "Palace Jailer": {
+   "Monarch": "**Monarch removal** : It claims the crown on entry and exiles an opponent's creature until someone else takes the monarchy — tempo removal that also secures your extra draw."
+  },
+  "Throne of the High City": {
+   "Monarch": "**Crown land** : A land that sacrifices for four mana to make you the monarch, guaranteeing the draw and the double-strike trigger whenever you need to reclaim the throne."
+  },
+  "Regal Behemoth": {
+   "Monarch": "**Monarch ramp** : It becomes the monarch on entry with trample, and while you hold the crown every land taps for an extra mana — fueling Okoye's pumps."
+  },
+  "Anointed Procession": {
+   "Monarch": "**Token doubler** : It doubles every token you create, so Court of Grace's Angels and Adeline's Humans go twice as wide while you hold the crown."
+  },
+  "Doubling Season": {
+   "Monarch": "**Double tokens and counters** : It doubles the +1/+1 counters Okoye puts on her attacker as well as your token production, supercharging the monarch plan's reward."
+  },
+  "Cathars' Crusade": {
+   "Monarch": "**Board pump** : Every creature that enters puts a +1/+1 counter on each creature you control, snowballing your token swarm into a huge army."
+  },
+  "Champion of Lambholt": {
+   "Monarch": "**Unblockable outlet** : Creatures with less power than it can't block, and it grows whenever another creature enters — making your buffed double-striker unblockable."
+  },
+  "Branching Evolution": {
+   "Monarch": "**Counter doubler** : The +1/+1 counter Okoye puts on target creature each combat is doubled, making the buffed attacker lethal in a single swing."
+  },
+  "Hardened Scales": {
+   "Monarch": "**Counter plus one** : Every +1/+1 counter dropped on the designated attacker lands one extra, a cheap early repetition of Okoye's combat pump."
+  },
+  "Unbreakable Formation": {
+   "Monarch": "**Protection and pump** : It makes your creatures indestructible, and in your main phase also drops a +1/+1 counter with vigilance, keeping the buffed attacker alive."
+  },
+  "Akroma's Will": {
+   "Monarch": "**Finisher** : With Okoye as your commander it gives your whole team double strike, flying and vigilance — or lifelink, indestructible and protection — ending a turn that was already threatening."
+  },
+  "Felidar Retreat": {
+   "Monarch": "**Landfall engine** : Every land you play makes either a 2/2 Cat token or a +1/+1 with vigilance, an engine that pairs with the extra draws of holding the crown."
+  },
+  "Avenger of Zendikar": {
+   "Monarch": "**Plant army** : It creates a 0/1 Plant for each land you control and pumps them on every landfall, a classic finisher that doubles the monarch's board."
+  },
+  "Adeline, Resplendent Cathar": {
+   "Monarch": "**Attack token army** : On every attack she makes a 1/1 Human attacking each opponent, flooding the board and giving Okoye more bodies to buff into double-striking threats."
+  },
+  "Torens, Fist of the Angels": {
+   "Monarch": "**Creature-cast tokens** : Every creature spell you cast makes a 1/1 Human Soldier token with training, converting your monarch card draw into a wide army."
+  },
+  "Bastion Protector": {
+   "Monarch": "**Crown guardian** : Your commander gains +2/+2 and indestructible, so Okoye survives combat and keeps delivering the monarch and pump triggers turn after turn."
+  }
+ },
+ "content": {
+  "primer": {
+   "explanations": {
+    "Engines": [
+     [
+      "Anointed Procession",
+      "**Token doubler** : It doubles every token you create, so Court of Grace's Angels and Adeline's Humans go twice as wide while you hold the crown."
+     ],
+     [
+      "Doubling Season",
+      "**Double tokens and counters** : It doubles both the +1/+1 counters Okoye puts on her attacker and your token production, supercharging the monarch plan's reward."
+     ],
+     [
+      "Cathars' Crusade",
+      "**Board pump** : Every creature that enters puts a +1/+1 counter on each creature you control, snowballing your token swarm into a huge army."
+     ],
+     [
+      "Branching Evolution",
+      "**Counter doubler** : The +1/+1 counter Okoye puts on target creature each combat is doubled, making the buffed attacker lethal in a single swing."
+     ],
+     [
+      "Hardened Scales",
+      "**Counter plus one** : Every +1/+1 counter dropped on the designated attacker lands one extra, a cheap early repetition of Okoye's combat pump."
+     ],
+     [
+      "Felidar Retreat",
+      "**Landfall engine** : Every land you play makes either a 2/2 Cat token or a +1/+1 with vigilance, an engine that pairs with the extra draws of holding the crown."
+     ],
+     [
+      "Adeline, Resplendent Cathar",
+      "**Attack token army** : On every attack she makes a 1/1 Human attacking each opponent, flooding the board and giving Okoye more bodies to buff into double-striking threats."
+     ],
+     [
+      "Torens, Fist of the Angels",
+      "**Creature-cast tokens** : Every creature spell you cast makes a 1/1 Human Soldier token with training, converting your monarch card draw into a wide army."
+     ]
+    ],
+    "Wincons": [
+     [
+      "Champion of Lambholt",
+      "**Unblockable outlet** : Creatures with less power than it can't block, and it grows whenever another creature enters — making your buffed double-striker unblockable."
+     ],
+     [
+      "Akroma's Will",
+      "**Finisher** : With Okoye as your commander it gives your whole team double strike, flying and vigilance — or lifelink, indestructible and protection — ending a turn that was already threatening."
+     ],
+     [
+      "Avenger of Zendikar",
+      "**Plant army** : It creates a 0/1 Plant for each land you control and pumps them on every landfall, a classic finisher that doubles the monarch's board."
+     ]
+    ],
+    "Flex": [
+     [
+      "Bastion Protector",
+      "**Crown guardian** : Your commander gains +2/+2 and indestructible, so Okoye survives combat and keeps delivering the monarch and pump triggers turn after turn."
+     ]
+    ],
+    "CardAdvantage": [
+     [
+      "Court of Grace",
+      "**Crown engine** : It makes you the monarch on entry and, while you keep the crown, escalates its upkeep token from a 1/1 Spirit to a 4/4 flying Angel — doubling the plan's reward."
+     ]
+    ],
+    "Ramp": [
+     [
+      "Regal Behemoth",
+      "**Monarch ramp** : It becomes the monarch on entry with trample, and while you hold the crown every land taps for an extra mana — fueling Okoye's pumps."
+     ]
+    ],
+    "Wipes": [],
+    "Interaction": [
+     [
+      "Palace Jailer",
+      "**Monarch removal** : It claims the crown on entry and exiles an opponent's creature until someone else takes the monarchy — tempo removal that also secures your extra draw."
+     ],
+     [
+      "Unbreakable Formation",
+      "**Protection and pump** : It makes your creatures indestructible, and in your main phase also drops a +1/+1 counter with vigilance, keeping the buffed attacker alive."
+     ]
+    ],
+    "Lands": [
+     [
+      "Throne of the High City",
+      "**Crown land** : A land that sacrifices for four mana to make you the monarch, guaranteeing the draw and the double-strike trigger whenever you need to reclaim the throne."
+     ]
+    ]
+   },
+   "cat_synopsis": {
+    "Engines": [
+     "⚙️ Engines / Synergies",
+     "Token doublers, counter multipliers and attack-token makers that turn the monarch's extra draw into a wide, pumping board."
+    ],
+    "Wincons": [
+     "🏆 Wincons / Finishers",
+     "Unblockable outlets, finisher instants and Plant armies that convert Okoye's buffed double-striker into lethal combat damage."
+    ],
+    "Flex": [
+     "🎯 Flex / Personal Slots",
+     "Protection and utility pieces that guard the crown and keep the monarch engine running."
+    ],
+    "CardAdvantage": [
+     "🔍 Card Advantage / Draw",
+     "Monarch-granting cards that secure the extra draw every turn while the crown is yours."
+    ],
+    "Ramp": [
+     "⚡ Ramp / Acceleration",
+     "Monarch ramp that turns each land into extra mana while you hold the crown."
+    ],
+    "Wipes": [
+     "💥 Wipes / Board Sweeps",
+     "No dedicated board sweepers anchor the plan — the deck wins by going under opponents with a buffed, double-striking attacker."
+    ],
+    "Interaction": [
+     "🛡️ Interaction / Removal",
+     "Monarch-tied removal and protection instants that answer threats without giving up the crown."
+    ],
+    "Lands": [
+     "🏞️ Lands / Mana Base",
+     "Utility lands like Throne of the High City that reach for the monarchy right from the mana base."
+    ]
+   },
+   "quick_read": [
+    "**Become king** : Okoye makes you the monarch the moment she enters, so you draw an extra card every turn while you keep the crown.",
+    "**Pump and slam** : At the beginning of combat she puts a +1/+1 counter on a creature that gains double strike and trample while attacking the monarch — a growing one-shot attacker.",
+    "**Hold the crown** : Court of Grace, Palace Jailer, Regal Behemoth and Throne of the High City keep re-assigning or defending the monarchy for value.",
+    "**Win big** : Doublers like Doubling Season and Branching Evolution explode that counter, and Akroma's Will turns a single attack into a game-ending swing."
+   ],
+   "combos_note": "Okoye has no infinite or looped combos listed on Commander Spellbook — she is a value-and-combat commander, not a combo engine. Games are won by holding the monarch for the extra draw, pumping a designated creature into a double-striking, trampling one-shot attacker, and finishing with Akroma's Will or a doubled Angel swarm rather than through any errant loop.",
+   "source_html": "<ul class=\"src-list\"><li><strong>EDHREC</strong> : Okoye's page tags Monarch as her signature game plan, with roughly 194 decks built around holding the crown, with Court of Grace and Palace Jailer among her most-played companions.</li><li><strong>Scryfall oracle</strong> : Every card is grounded in current oracle text; Okoye becomes the monarch on entry and pumps a designated attacker with +1/+1, double strike and trample each combat.</li><li><strong>Low-data note</strong> : Okoye, Mighty and Adored is a relatively new, low-data commander, so the Monarch plan is inferred from her own monarchy ability and the synergy scores of the included cards rather than from a deep deck sample.</li><li><strong>No combos</strong> : Commander Spellbook lists no combos for Okoye, so the deck is built to win through monarch card advantage and a buffed, double-striking attacker rather than loops.</li></ul>",
+   "plan_title": "MONARCH — The chosen plan (194 decks)",
+   "plan_cards": [
+    "Court of Grace",
+    "Palace Jailer",
+    "Regal Behemoth",
+    "Doubling Season",
+    "Akroma's Will",
+    "Anointed Procession"
+   ],
+   "mana_cost_html": "{2}{G}{W}",
+   "cat_order": [
+    "Engines",
+    "Wincons",
+    "Flex",
+    "CardAdvantage",
+    "Ramp",
+    "Wipes",
+    "Interaction",
+    "Lands"
+   ]
+  }
+ }
+}
