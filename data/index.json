@@ -131,6 +131,14 @@
    "desc": "**20 heroes and villains** from Tales of Middle-earth (Sauron, Aragorn, Galadriel, Lord of the Nazgûl…) — ranked by EDHREC popularity, grouped by color.",
    "n": 20,
    "tag": "Crossover"
+  },
+  {
+   "href": "reports/EDH-Report-mono-white-tribal.html",
+   "name": "Mono-White Tribal",
+   "img": "https://cards.scryfall.io/large/front/a/3/a3ed5007-a574-45cd-bd33-444f7b84fdfb.jpg?1783905103",
+   "desc": "**20 mono-white commanders** that build around Humans, Soldiers and token swarms (Myrel, Darien, Adeline, Mondrak…) — ranked by EDHREC popularity.",
+   "n": 20,
+   "tag": "Archetype"
   }
  ]
 }
