@@ -19,7 +19,8 @@
   "Terra, Herald of Hope",
   "Yuriko, the Tiger's Shadow",
   "Korvold, Fae-Cursed King",
-  "Marwyn, the Nurturer"
+  "Marwyn, the Nurturer",
+  "Okoye, Dora Milaje Leader"
  ],
  "plans": {
   "Aminatou, the Fateshifter": "BLINK / FLICKER",
@@ -34,7 +35,8 @@
   "Terra, Herald of Hope": "REANIMATOR (AGGRO REANIMATION)",
   "Yuriko, the Tiger's Shadow": "NINJUTSU TRIBAL",
   "Korvold, Fae-Cursed King": "Sacrifice",
-  "Marwyn, the Nurturer": "ELVES"
+  "Marwyn, the Nurturer": "ELVES",
+  "Okoye, Dora Milaje Leader": "TOKENS — THE SIGNATURE PLAN (10 DECKS)"
  },
  "descriptions": {
   "Aminatou, the Fateshifter": "The Esper flicker queen. Her −1 exiles a permanent you own and returns it — cascading ETB triggers. Her +1 controls the top of libraries, and her −6 resets the table.",
@@ -49,7 +51,8 @@
   "Terra, Herald of Hope": "A Mardu reanimation commander who fills her own graveyard (Trance: mill 2 + flying at combat) then reanimates threats for free.",
   "Yuriko, the Tiger's Shadow": "A Dimir aggro/control ninjutsu commander who returns from the command zone at will for ~2 mana, flipping high-cost cards to drain the table.",
   "Korvold, Fae-Cursed King": "Every sacrifice draws a card and grows the dragon — the classic Jund sac engine with treasure generators as the perfect fodder. Mayhem Devil drains, Pitiless Plunderer loops, and Korvold closes in two hits.",
-  "Marwyn, the Nurturer": "The elfball mana engine: every Elf makes Marwyn bigger and she taps for G equal to her power — Elvish Archdruid, Priest of Titania and friends snowball into a huge dork that fuels Staff of Domination combos or a stampede of elves."
+  "Marwyn, the Nurturer": "The elfball mana engine: every Elf makes Marwyn bigger and she taps for G equal to her power — Elvish Archdruid, Priest of Titania and friends snowball into a huge dork that fuels Staff of Domination combos or a stampede of elves.",
+  "Okoye, Dora Milaje Leader": "**Mono-white token queen** : Okoye drops two 1/1 Soldier tokens on entry and every attacking token gets first strike — a go-wide commander whose tiny army punches above its weight. Low-data commander (~10 decks) with emerging Tokens and Blink builds."
  },
  "evals_order": [
   "Aminatou, Veil Piercer",

@@ -1,0 +1,782 @@
+{
+ "deck_slug": "okoye-dora-milaje-leader",
+ "commander_name": "Okoye, Dora Milaje Leader",
+ "imgs": {
+  "Anointed Procession": "https://cards.scryfall.io/large/front/c/9/c9d6af7b-41a5-4077-81ed-7560548dcf3e.jpg?1783924049",
+  "Mondrak, Glory Dominus": "https://cards.scryfall.io/large/front/1/0/1016251d-b84a-4934-a1d7-339d7f54078d.jpg?1783917862",
+  "Cathars' Crusade": "https://cards.scryfall.io/large/front/e/e/ee2f283f-e4ae-44d8-9f2b-d1c25c44705d.jpg?1783908029",
+  "Jazal Goldmane": "https://cards.scryfall.io/large/front/5/a/5aa8f635-c638-4207-8631-f6b5185f8696.jpg?1783908966",
+  "Finale of Glory": "https://cards.scryfall.io/large/front/1/e/1e71b0fb-2d36-4b81-bd5b-c3fd083e3e97.jpg?1783912564",
+  "White Sun's Twilight": "https://cards.scryfall.io/large/front/4/9/49401601-6e11-4dde-bdc7-5d1631439728.jpg?1783917858",
+  "Secure the Wastes": "https://cards.scryfall.io/large/front/a/a/aadf5e24-1ac0-40b4-8702-cd0e077c17e0.jpg?1783908433",
+  "Intangible Virtue": "https://cards.scryfall.io/large/front/7/1/716d82a1-fb5d-4607-b1fa-e8e9edd4dd77.jpg?1783908178",
+  "Always Watching": "https://cards.scryfall.io/large/front/d/d/dd95982f-a2a5-4066-8ca5-3568784cde67.jpg?1783917722",
+  "Luminarch Ascension": "https://cards.scryfall.io/large/front/b/3/b3770d86-4496-4c06-aab1-2917cfec100e.jpg?1783935193",
+  "Benalish Marshal": "https://cards.scryfall.io/large/front/f/c/fc395215-a2ec-49e1-9b1b-f8fcfe73e361.jpg?1783933992",
+  "Martial Coup": "https://cards.scryfall.io/large/front/b/6/b6e7563a-a613-49f4-98a0-dd0f5c00f299.jpg?1783903177",
+  "Reverent Hoplite": "https://cards.scryfall.io/large/front/b/4/b4836c47-ba54-46a5-a186-92c1efbda4f8.jpg?1783910398",
+  "Heliod, Sun-Crowned": "https://cards.scryfall.io/large/front/2/3/236a1f7c-3ca9-4029-9064-4c215d02137a.jpg?1783905170",
+  "Elspeth, Sun's Champion": "https://cards.scryfall.io/large/front/8/f/8f8bdb2a-d6be-4a9c-bfa8-de00ccf3ca06.jpg?1783908251",
+  "Flickerwisp": "https://cards.scryfall.io/large/front/4/b/4b2dd835-b299-435e-bfce-e399d6356bdd.jpg?1783905564",
+  "Restoration Angel": "https://cards.scryfall.io/large/front/f/1/f17f85d3-58e5-4128-90c5-98b524256af8.jpg?1783908175",
+  "Ephemerate": "https://cards.scryfall.io/large/front/6/2/621e3239-b527-4154-bce6-b51241809fc5.jpg?1783903323",
+  "Cloudshift": "https://cards.scryfall.io/large/front/8/e/8e4e2bb2-a84b-4c45-9055-c5824c970215.jpg?1784895283",
+  "Ghostway": "https://cards.scryfall.io/large/front/d/f/df7f9133-103e-4600-84b4-6d4420eae595.jpg?1783913243",
+  "Conjurer's Closet": "https://cards.scryfall.io/large/front/7/e/7e520d49-f3d5-46b3-a941-c57936648a47.jpg?1783907713",
+  "Eldrazi Displacer": "https://cards.scryfall.io/large/front/0/d/0d87a0d9-13d5-46f2-b32a-acc080d8f480.jpg?1783911390",
+  "Teleportation Circle": "https://cards.scryfall.io/large/front/d/4/d4291f04-2f94-483f-93f6-db313ecffabf.jpg?1783904181",
+  "Semester's End": "https://cards.scryfall.io/large/front/d/b/db2bb091-ac6d-4c99-bdf6-70ffb6291ef0.jpg?1783915447",
+  "Lae'zel's Acrobatics": "https://cards.scryfall.io/large/front/0/c/0c46db4a-f28b-4ac5-b639-e2ca5083ad2d.jpg?1783922082",
+  "Glorious Protector": "https://cards.scryfall.io/large/front/3/e/3e63385a-e32f-4abc-aff6-bb022b2f56f7.jpg?1783922491",
+  "Angel of Serenity": "https://cards.scryfall.io/large/front/b/d/bd17c9df-7d78-4228-a4ca-2f39b69f2ace.jpg?1783914750",
+  "Court of Grace": "https://cards.scryfall.io/large/front/d/c/dc098d5b-0cdb-422f-8bd2-7afd81a7b7c3.jpg?1783915198",
+  "Eerie Interlude": "https://cards.scryfall.io/large/front/a/e/ae9dd2f0-ed6a-4f53-afeb-0c42fe71b3cf.jpg?1783918564",
+  "Otherworldly Journey": "https://cards.scryfall.io/large/front/3/8/38d5b686-232a-4bc9-acce-4f1eabdeca0b.jpg?1783910454",
+  "Okoye, Dora Milaje Leader": "https://cards.scryfall.io/large/front/2/c/2c89acf5-20f0-4441-b96f-2c5cacd685fb.jpg?1783902970"
+ },
+ "oracle": {
+  "Anointed Procession": "If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.",
+  "Mondrak, Glory Dominus": "If one or more tokens would be created under your control, twice that many of those tokens are created instead.\n{1}{W/P}{W/P}, Sacrifice two other artifacts and/or creatures: Put an indestructible counter on Mondrak. ({W/P} can be paid with either {W} or 2 life.)",
+  "Cathars' Crusade": "Whenever a creature you control enters, put a +1/+1 counter on each creature you control.",
+  "Jazal Goldmane": "First strike (This creature deals combat damage before creatures without first strike.)\n{3}{W}{W}: Attacking creatures you control get +X/+X until end of turn, where X is the number of attacking creatures.",
+  "Finale of Glory": "Create X 2/2 white Soldier creature tokens with vigilance. If X is 10 or more, also create X 4/4 white Angel creature tokens with flying and vigilance.",
+  "White Sun's Twilight": "You gain X life. Create X 1/1 colorless Phyrexian Mite artifact creature tokens with toxic 1 and \"This token can't block.\" If X is 5 or more, destroy all other creatures. (Players dealt combat damage by a creature with toxic 1 also get a poison counter.)",
+  "Secure the Wastes": "Create X 1/1 white Warrior creature tokens.",
+  "Intangible Virtue": "Creature tokens you control get +1/+1 and have vigilance.",
+  "Always Watching": "Nontoken creatures you control get +1/+1 and have vigilance.",
+  "Luminarch Ascension": "At the beginning of each opponent's end step, if you didn't lose life this turn, you may put a quest counter on this enchantment. (Damage causes loss of life.)\n{1}{W}: Create a 4/4 white Angel creature token with flying. Activate only if this enchantment has four or more quest counters on it.",
+  "Benalish Marshal": "Other creatures you control get +1/+1.",
+  "Martial Coup": "Create X 1/1 white Soldier creature tokens. If X is 5 or more, destroy all other creatures.",
+  "Reverent Hoplite": "When this creature enters, create a number of 1/1 white Human Soldier creature tokens equal to your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)",
+  "Heliod, Sun-Crowned": "Indestructible\nAs long as your devotion to white is less than five, Heliod isn't a creature.\nWhenever you gain life, put a +1/+1 counter on target creature or enchantment you control.\n{1}{W}: Another target creature gains lifelink until end of turn.",
+  "Elspeth, Sun's Champion": "+1: Create three 1/1 white Soldier creature tokens.\n−3: Destroy all creatures with power 4 or greater.\n−7: You get an emblem with \"Creatures you control get +2/+2 and have flying.\"",
+  "Flickerwisp": "Flying\nWhen this creature enters, exile another target permanent. Return that card to the battlefield under its owner's control at the beginning of the next end step.",
+  "Restoration Angel": "Flash\nFlying\nWhen this creature enters, you may exile target non-Angel creature you control, then return that card to the battlefield under your control.",
+  "Ephemerate": "Exile target creature you control, then return it to the battlefield under its owner's control.\nRebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
+  "Cloudshift": "Exile target creature you control, then return that card to the battlefield under your control.",
+  "Ghostway": "Exile each creature you control. Return those cards to the battlefield under their owner's control at the beginning of the next end step.",
+  "Conjurer's Closet": "At the beginning of your end step, you may exile target creature you control, then return that card to the battlefield under your control.",
+  "Eldrazi Displacer": "Devoid (This card has no color.)\n{2}{C}: Exile another target creature, then return it to the battlefield tapped under its owner's control. ({C} represents colorless mana.)",
+  "Teleportation Circle": "At the beginning of your end step, exile up to one target artifact or creature you control, then return that card to the battlefield under its owner's control.",
+  "Semester's End": "Exile any number of target creatures and/or planeswalkers you control. At the beginning of the next end step, return each of them to the battlefield under its owner's control. Each of them enters with an additional +1/+1 counter on it if it's a creature and an additional loyalty counter on it if it's a planeswalker.",
+  "Lae'zel's Acrobatics": "Exile all nontoken creatures you control, then roll a d20.\n1—9 | Return those cards to the battlefield under their owner's control at the beginning of the next end step.\n10—20 | Return those cards to the battlefield under their owner's control, then exile them again. Return those cards to the battlefield under their owner's control at the beginning of the next end step.",
+  "Glorious Protector": "Flash\nFlying\nWhen this creature enters, you may exile any number of non-Angel creatures you control until this creature leaves the battlefield.\nForetell {2}{W}",
+  "Angel of Serenity": "Flying\nWhen this creature enters, you may exile up to three other target creatures from the battlefield and/or creature cards from graveyards.\nWhen this creature leaves the battlefield, return the exiled cards to their owners' hands.",
+  "Court of Grace": "When this enchantment enters, you become the monarch.\nAt the beginning of your upkeep, create a 1/1 white Spirit creature token with flying. If you're the monarch, create a 4/4 white Angel creature token with flying instead.",
+  "Eerie Interlude": "Exile any number of target creatures you control. Return those cards to the battlefield under their owner's control at the beginning of the next end step.",
+  "Otherworldly Journey": "Exile target creature. At the beginning of the next end step, return that card to the battlefield under its owner's control with a +1/+1 counter on it.",
+  "Okoye, Dora Milaje Leader": "When Okoye enters, create two 1/1 white Soldier creature tokens.\nAttacking creature tokens you control have first strike."
+ },
+ "synergy": {
+  "Anointed Procession": {
+   "synergy": 0.93
+  },
+  "Mondrak, Glory Dominus": {
+   "synergy": 0.93
+  },
+  "Cathars' Crusade": {
+   "synergy": 0.88
+  },
+  "Jazal Goldmane": {
+   "synergy": 0.88
+  },
+  "Finale of Glory": {
+   "synergy": 0.93
+  },
+  "White Sun's Twilight": {
+   "synergy": 0.88
+  },
+  "Secure the Wastes": {
+   "synergy": 0.88
+  },
+  "Intangible Virtue": {
+   "synergy": 0.88
+  },
+  "Always Watching": {
+   "synergy": 0.88
+  },
+  "Luminarch Ascension": {
+   "synergy": 0.88
+  },
+  "Benalish Marshal": {
+   "synergy": 0.88
+  },
+  "Martial Coup": {
+   "synergy": 0.88
+  },
+  "Reverent Hoplite": {
+   "synergy": 0.88
+  },
+  "Heliod, Sun-Crowned": {
+   "synergy": 0.88
+  },
+  "Elspeth, Sun's Champion": {
+   "synergy": 0.88
+  },
+  "Flickerwisp": {
+   "synergy": 0.92
+  },
+  "Restoration Angel": {
+   "synergy": 0.86
+  },
+  "Ephemerate": {
+   "synergy": 0.92
+  },
+  "Cloudshift": {
+   "synergy": 0.92
+  },
+  "Ghostway": {
+   "synergy": 0.86
+  },
+  "Conjurer's Closet": {
+   "synergy": 0.86
+  },
+  "Eldrazi Displacer": {
+   "synergy": 0.86
+  },
+  "Teleportation Circle": {
+   "synergy": 0.86
+  },
+  "Semester's End": {
+   "synergy": 0.86
+  },
+  "Lae'zel's Acrobatics": {
+   "synergy": 0.86
+  },
+  "Glorious Protector": {
+   "synergy": 0.86
+  },
+  "Angel of Serenity": {
+   "synergy": 0.86
+  },
+  "Court of Grace": {
+   "synergy": 0.86
+  },
+  "Eerie Interlude": {
+   "synergy": 0.86
+  },
+  "Otherworldly Journey": {
+   "synergy": 0.86
+  }
+ },
+ "combos": [],
+ "explanations": {
+  "Engines": [
+   [
+    "Anointed Procession",
+    "**Token doubler** : It doubles every token you create, so Okoye's two Soldiers become four and every token spell goes twice as far."
+   ],
+   [
+    "Mondrak, Glory Dominus",
+    "**Doubler and shield** : It doubles token creation and can sacrifice two permanents to become indestructible, protecting your engine."
+   ],
+   [
+    "Cathars' Crusade",
+    "**Board pump** : Whenever a creature enters it puts a +1/+1 counter on every creature you control, snowballing each token that enters the battlefield."
+   ],
+   [
+    "Intangible Virtue",
+    "**Token lord** : Creature tokens get +1/+1 and vigilance, turning 1/1 Soldiers into resilient attackers that can also defend."
+   ],
+   [
+    "Always Watching",
+    "**Nontoken lord** : Nontoken creatures get +1/+1 and vigilance, boosting Okoye and your blink creatures while they attack."
+   ],
+   [
+    "Benalish Marshal",
+    "**Anthem** : Other creatures you control get +1/+1, a cheap global pump that makes the whole swarm hit harder."
+   ],
+   [
+    "Luminarch Ascension",
+    "**Angel engine** : Build quest counters by not taking damage, then pay {1}{W} for a 4/4 flying Angel each turn — blockers that double as a clock."
+   ],
+   [
+    "Reverent Hoplite",
+    "**Devotion maker** : On entry it creates 1/1 Human Soldiers equal to your devotion to white, which a white-heavy shell pushes high."
+   ],
+   [
+    "Heliod, Sun-Crowned",
+    "**Lifegain counters** : Gaining life puts a +1/+1 counter on a creature or enchantment, and you can grant lifelink to keep fueling it."
+   ],
+   [
+    "Teleportation Circle",
+    "**End-step blink** : Each end step it blinks an artifact or creature, re-triggering Okoye or a token maker every single turn."
+   ],
+   [
+    "Conjurer's Closet",
+    "**Repeatable blink** : At your end step it blinks a creature you control, re-triggering Okoye's two Soldiers each turn for free."
+   ],
+   [
+    "Eldrazi Displacer",
+    "**Repeatable blink** : Pay {2}{C} to flicker another creature, re-triggering Okoye or saving a key piece from removal."
+   ]
+  ],
+  "Wincons": [
+   [
+    "Jazal Goldmane",
+    "**Overrun** : For {3}{W}{W}, attacking creatures get +X/+X where X is the number of attackers — a lethal swing from a wide board."
+   ],
+   [
+    "Finale of Glory",
+    "**Army spell** : Create X 2/2 Soldiers with vigilance, or X 4/4 Angels too when X is 10+, flooding the board from nowhere."
+   ],
+   [
+    "White Sun's Twilight",
+    "**Tokens and sweep** : Make X Mites with toxic 1 and gain X life, and at X=5+ destroy all other creatures as a one-card wipe."
+   ],
+   [
+    "Elspeth, Sun's Champion",
+    "**Planeswalker finisher** : +1 makes three Soldiers, −3 destroys all power-4+ creatures, and −7 gives the team +2/+2 and flying."
+   ],
+   [
+    "Angel of Serenity",
+    "**Recursive removal** : On entry it exiles up to three creatures, and when it leaves they return to hands — blink it to repeat the removal."
+   ]
+  ],
+  "Flex": [
+   [
+    "Secure the Wastes",
+    "**Instant army** : Create X 1/1 Warriors at instant speed, ideal end-step attackers that trigger first strike from Okoye."
+   ],
+   [
+    "Flickerwisp",
+    "**Value flicker** : Flying, and on entry it blinks another permanent to re-trigger ETBs or reset a blocker."
+   ],
+   [
+    "Restoration Angel",
+    "**Flash blink** : Cast at instant speed to blink a non-Angel creature you control, re-triggering an entering ability."
+   ],
+   [
+    "Glorious Protector",
+    "**Flash guardian** : It exiles any number of non-Angel creatures until it leaves, protecting your board from a wipe."
+   ]
+  ],
+  "CardAdvantage": [
+   [
+    "Court of Grace",
+    "**Monarch tokens** : You become the monarch; each upkeep create a Spirit — or a 4/4 Angel if still monarch — and draw a card."
+   ]
+  ],
+  "Ramp": [],
+  "Wipes": [
+   [
+    "Martial Coup",
+    "**Soldiers and sweep** : Make X 1/1 Soldiers, and if X is 5+ destroy all other creatures, leaving your own board intact."
+   ]
+  ],
+  "Interaction": [
+   [
+    "Cloudshift",
+    "**Cheap blink** : For {W} it blinks a creature, re-triggering Okoye and dodging removal at instant speed."
+   ],
+   [
+    "Ghostway",
+    "**Board flicker** : Exile your whole board and return it next end step, saving everything and re-triggering every ETB."
+   ],
+   [
+    "Ephemerate",
+    "**Recurring blink** : It blinks a creature for {W} and has rebound, giving you a second free blink on the next upkeep."
+   ],
+   [
+    "Eerie Interlude",
+    "**Team reset** : Blink any number of your creatures and return them next end step, protecting the whole board."
+   ],
+   [
+    "Semester's End",
+    "**Mass blink plus counters** : Blink creatures and planeswalkers, returning them with extra +1/+1 or loyalty counters."
+   ],
+   [
+    "Otherworldly Journey",
+    "**Blink with counter** : Blink one creature for {1}{W} and return it with a +1/+1 counter on it."
+   ],
+   [
+    "Lae'zel's Acrobatics",
+    "**D20 blink** : Exile all nontoken creatures, roll a d20, and on a 10+ blink them again for double triggers."
+   ]
+  ],
+  "Lands": []
+ },
+ "cat_synopsis": {
+  "Engines": [
+   "⚙️ Engines / Synergies",
+   "Token doublers, anthems and repeatable blink pieces that form the core of Okoye's go-wide and flicker plans."
+  ],
+  "Wincons": [
+   "🏆 Wincons / Finishers",
+   "X-mana army spells and overruns that turn Okoye's first-strike token swarm into a winning attack."
+  ],
+  "Flex": [
+   "🎯 Flex / Personal Slots",
+   "Instant-speed token makers, flash blinkers and flexible pieces that adapt to the chosen game plan."
+  ],
+  "CardAdvantage": [
+   "🔍 Card Advantage / Draw",
+   "Monarch triggers and token/card engines that keep your hand and board stocked."
+  ],
+  "Wipes": [
+   "💥 Wipes / Board Clears",
+   "Tokens-and-sweep spells that reset the board without clearing your own army."
+  ],
+  "Interaction": [
+   "🛡️ Interaction / Removal",
+   "Blink instants that double as protection, plus recursive removal to answer threats."
+  ]
+ },
+ "cat_order": [
+  "Engines",
+  "Wincons",
+  "Flex",
+  "CardAdvantage",
+  "Ramp",
+  "Wipes",
+  "Interaction",
+  "Lands"
+ ],
+ "quick_read": [
+  "**Token payoff** : Okoye makes two 1/1 Soldiers on entry and gives attacking tokens first strike, so the deck wants a wide, pumped token army.",
+  "**Two plans** : The deck builds either a go-wide Tokens shell or a Blink shell that re-enters Okoye to make Soldiers repeatedly.",
+  "**Low-data commander** : With only about 10 decks on EDHREC, these synergies are judged from the card's own oracle text rather than a large meta.",
+  "**No combos** : Okoye has no Commander Spellbook combos, so both plans win through creature swarm and value rather than loops."
+ ],
+ "combos_note": "Okoye has no known Commander Spellbook combos — she is a low-data commander just breaking into the format, so his primer flags that honestly. Both of Okoye's plans win the fair way: the Tokens plan runs away with a wide, first-striking Soldier army backed by doublers and anthems, while the Blink plan re-enters Okoye (and other enters-the-battlefield creatures) to re-create tokens and grind out value. There are no infinite loops to assemble — the win comes from board presence and repeated triggers, not from a two-card kill.",
+ "source_html": "<ul class=\"src-list\"><li><strong>EDHREC</strong> : Okoye's page shows a low-data commander — only about 10 decks — with the emerging archetypes tagged Blink and Midrange.</li><li><strong>Scryfall oracle</strong> : Every card is grounded in its current oracle text; Okoye herself creates two 1/1 white Soldier tokens on entry and grants attacking creature tokens first strike.</li><li><strong>Design note</strong> : Because the deck pool is small, the Tokens and Blink plans are inferred from the commander's own abilities and the synergy scores of the included cards rather than from a deep sample.</li><li><strong>No combos</strong> : Commander Spellbook lists no combos for Okoye, so the deck is built to win through token swarm and blink value rather than loops.</li></ul>",
+ "mana_cost_html": "{3}{W}",
+ "type_line": "Legendary Creature — Human Warrior Hero",
+ "color_id": "W",
+ "rarity": "uncommon",
+ "legality": "legal",
+ "oracle_text": "When Okoye enters, create two 1/1 white Soldier creature tokens.\nAttacking creature tokens you control have first strike.",
+ "power": "3",
+ "toughness": "2",
+ "card_meta": {
+  "Anointed Procession": {
+   "type_line": "Enchantment",
+   "cmc": 3
+  },
+  "Mondrak, Glory Dominus": {
+   "type_line": "Legendary Creature — Phyrexian Horror",
+   "cmc": 3
+  },
+  "Cathars' Crusade": {
+   "type_line": "Enchantment",
+   "cmc": 3
+  },
+  "Jazal Goldmane": {
+   "type_line": "Legendary Creature — Cat Warrior",
+   "cmc": 3
+  },
+  "Finale of Glory": {
+   "type_line": "Sorcery",
+   "cmc": 3
+  },
+  "White Sun's Twilight": {
+   "type_line": "Sorcery",
+   "cmc": 3
+  },
+  "Secure the Wastes": {
+   "type_line": "Instant",
+   "cmc": 3
+  },
+  "Intangible Virtue": {
+   "type_line": "Enchantment",
+   "cmc": 3
+  },
+  "Always Watching": {
+   "type_line": "Enchantment",
+   "cmc": 3
+  },
+  "Luminarch Ascension": {
+   "type_line": "Enchantment",
+   "cmc": 3
+  },
+  "Benalish Marshal": {
+   "type_line": "Creature — Human Knight",
+   "cmc": 3
+  },
+  "Martial Coup": {
+   "type_line": "Sorcery",
+   "cmc": 3
+  },
+  "Reverent Hoplite": {
+   "type_line": "Creature — Human Soldier",
+   "cmc": 3
+  },
+  "Heliod, Sun-Crowned": {
+   "type_line": "Legendary Enchantment Creature — God",
+   "cmc": 3
+  },
+  "Elspeth, Sun's Champion": {
+   "type_line": "Legendary Planeswalker — Elspeth",
+   "cmc": 3
+  },
+  "Flickerwisp": {
+   "type_line": "Creature — Elemental",
+   "cmc": 3
+  },
+  "Restoration Angel": {
+   "type_line": "Creature — Angel",
+   "cmc": 3
+  },
+  "Ephemerate": {
+   "type_line": "Instant",
+   "cmc": 3
+  },
+  "Cloudshift": {
+   "type_line": "Instant",
+   "cmc": 3
+  },
+  "Ghostway": {
+   "type_line": "Instant",
+   "cmc": 3
+  },
+  "Conjurer's Closet": {
+   "type_line": "Artifact",
+   "cmc": 3
+  },
+  "Eldrazi Displacer": {
+   "type_line": "Creature — Eldrazi",
+   "cmc": 3
+  },
+  "Teleportation Circle": {
+   "type_line": "Enchantment",
+   "cmc": 3
+  },
+  "Semester's End": {
+   "type_line": "Instant",
+   "cmc": 3
+  },
+  "Lae'zel's Acrobatics": {
+   "type_line": "Instant",
+   "cmc": 3
+  },
+  "Glorious Protector": {
+   "type_line": "Creature — Angel Cleric",
+   "cmc": 3
+  },
+  "Angel of Serenity": {
+   "type_line": "Creature — Angel",
+   "cmc": 3
+  },
+  "Court of Grace": {
+   "type_line": "Enchantment",
+   "cmc": 3
+  },
+  "Eerie Interlude": {
+   "type_line": "Instant",
+   "cmc": 3
+  },
+  "Otherworldly Journey": {
+   "type_line": "Instant — Arcane",
+   "cmc": 3
+  },
+  "Okoye, Dora Milaje Leader": {
+   "type_line": "Legendary Creature — Human Warrior Hero",
+   "cmc": 4
+  }
+ },
+ "extra_table_rows": "",
+ "plans": [
+  {
+   "tag": "Tokens",
+   "decks": 10,
+   "description": [
+    "**Core** : Okoye creates two 1/1 Soldier tokens on entry and every attacking token has first strike, so the plan is to multiply and pump that Soldier army.",
+    "**Engine** : Doublers like Anointed Procession and Mondrak double every token while lords Intangible Virtue, Always Watching and Benalish Marshal make the swarm hit harder.",
+    "**Payoff** : Spells like Finale of Glory and Secure the Wastes flood the board, then Jazal Goldmane's overrun turns the wide team into a lethal attack."
+   ],
+   "win": [
+    "**First-strike swarm** : Okoye gives attacking tokens first strike, so your wide Soldier army fights first and sweeps past blockers.",
+    "**Overrun** : Jazal Goldmane gives attacking creatures +X/+X, turning dozens of tokens into a one-shot lethal swing.",
+    "**Emblem finish** : Elspeth, Sun's Champion's −7 gives your whole team +2/+2 and flying for a clean board-final attack."
+   ],
+   "high_synergy": [
+    {
+     "name": "Anointed Procession",
+     "synergy": 0.93
+    },
+    {
+     "name": "Mondrak, Glory Dominus",
+     "synergy": 0.93
+    },
+    {
+     "name": "Cathars' Crusade",
+     "synergy": 0.88
+    },
+    {
+     "name": "Jazal Goldmane",
+     "synergy": 0.88
+    },
+    {
+     "name": "Finale of Glory",
+     "synergy": 0.93
+    },
+    {
+     "name": "White Sun's Twilight",
+     "synergy": 0.88
+    },
+    {
+     "name": "Secure the Wastes",
+     "synergy": 0.88
+    },
+    {
+     "name": "Intangible Virtue",
+     "synergy": 0.88
+    },
+    {
+     "name": "Always Watching",
+     "synergy": 0.88
+    },
+    {
+     "name": "Luminarch Ascension",
+     "synergy": 0.88
+    },
+    {
+     "name": "Benalish Marshal",
+     "synergy": 0.88
+    },
+    {
+     "name": "Martial Coup",
+     "synergy": 0.88
+    },
+    {
+     "name": "Reverent Hoplite",
+     "synergy": 0.88
+    },
+    {
+     "name": "Heliod, Sun-Crowned",
+     "synergy": 0.88
+    },
+    {
+     "name": "Elspeth, Sun's Champion",
+     "synergy": 0.88
+    }
+   ],
+   "deck_matches": [
+    "Anointed Procession",
+    "Finale of Glory",
+    "Mondrak, Glory Dominus",
+    "Always Watching",
+    "Benalish Marshal",
+    "Cathars' Crusade"
+   ],
+   "combos": []
+  },
+  {
+   "tag": "Blink",
+   "decks": 10,
+   "description": [
+    "**Core** : Okoye creates two Soldiers every time she enters, so the plan is to flicker her repeatedly to re-make tokens and reset her value.",
+    "**Engine** : Repeatable blinks like Teleportation Circle, Conjurer's Closet and Eldrazi Displacer re-trigger Okoye (and other enters-the-battlefield creatures) every turn.",
+    "**Payoff** : Instant flickers — Cloudshift, Ephemerate, Eerie Interlude — also dodge removal and save your board, turning blink into both value and protection."
+   ],
+   "win": [
+    "**Re-entry value** : Each blink re-creates two Soldiers and re-triggers other enters-the-battlefield abilities for a growing army.",
+    "**Protect the board** : Instant-speed mass blinks like Eerie Interlude and Lae'zel's Acrobatics save your creatures from wipes and removal.",
+    "**Value blink** : Flickerwisp, Restoration Angel and Glorious Protector re-trigger your best ETB creatures for extra tokens and board impact."
+   ],
+   "high_synergy": [
+    {
+     "name": "Flickerwisp",
+     "synergy": 0.92
+    },
+    {
+     "name": "Restoration Angel",
+     "synergy": 0.86
+    },
+    {
+     "name": "Ephemerate",
+     "synergy": 0.92
+    },
+    {
+     "name": "Cloudshift",
+     "synergy": 0.92
+    },
+    {
+     "name": "Ghostway",
+     "synergy": 0.86
+    },
+    {
+     "name": "Conjurer's Closet",
+     "synergy": 0.86
+    },
+    {
+     "name": "Eldrazi Displacer",
+     "synergy": 0.86
+    },
+    {
+     "name": "Teleportation Circle",
+     "synergy": 0.86
+    },
+    {
+     "name": "Semester's End",
+     "synergy": 0.86
+    },
+    {
+     "name": "Lae'zel's Acrobatics",
+     "synergy": 0.86
+    },
+    {
+     "name": "Glorious Protector",
+     "synergy": 0.86
+    },
+    {
+     "name": "Angel of Serenity",
+     "synergy": 0.86
+    },
+    {
+     "name": "Court of Grace",
+     "synergy": 0.86
+    },
+    {
+     "name": "Eerie Interlude",
+     "synergy": 0.86
+    },
+    {
+     "name": "Otherworldly Journey",
+     "synergy": 0.86
+    }
+   ],
+   "deck_matches": [
+    "Cloudshift",
+    "Ephemerate",
+    "Flickerwisp",
+    "Angel of Serenity",
+    "Conjurer's Closet",
+    "Court of Grace"
+   ],
+   "combos": []
+  }
+ ],
+ "card_plan_texts": {
+  "Anointed Procession": {
+   "Tokens": "**Token doubler** : At the heart of the Tokens plan, it doubles every token you create — Okoye's two Soldiers become four and each X-spell goes twice as far.",
+   "Blink": "**Amplifier** : Even in the Blink plan it doubles the two Soldiers each Okoye re-entry makes, so every flicker produces four instead of two."
+  },
+  "Mondrak, Glory Dominus": {
+   "Tokens": "**Doubler and shield** : It doubles all tokens and can sacrifice two permanents to become indestructible, making your token army both bigger and harder to wipe.",
+   "Blink": "**Double re-entry** : When Okoye re-enters after a blink, Mondrak turns her two Soldier tokens into four, scaling with every flicker."
+  },
+  "Cathars' Crusade": {
+   "Tokens": "**Board pump** : Every creature entering puts a +1/+1 counter on each creature you control, so flooding the board turns every token into a bigger threat.",
+   "Blink": "**Counters on re-entry** : Each blink puts a creature back and triggers the Crusade, stacking +1/+1 counters across your whole team."
+  },
+  "Jazal Goldmane": {
+   "Tokens": "**Overrun** : For {3}{W}{W} it gives attacking creatures +X/+X where X is the number of attackers — the classic finisher for a wide first-strike token board.",
+   "Blink": "**Blink payoff** : The more creatures you flicker in to build your army, the bigger Jazal's X overrun becomes for a lethal swing."
+  },
+  "Finale of Glory": {
+   "Tokens": "**Army spell** : Create X 2/2 Soldiers with vigilance, or X 4/4 Angels too when X is 10+, a scalable way to flood the board from nowhere.",
+   "Blink": "**Post-blink finisher** : After a blink turn it refills the board with Soldiers and Angels, pairing a huge army with Okoye's first strike."
+  },
+  "White Sun's Twilight": {
+   "Tokens": "**Tokens and sweep** : Create X Mites with toxic 1 and gain X life, and if X is 5+ it destroys all other creatures — a token spell that also resets the board.",
+   "Blink": "**Board reset** : In the Blink plan it doubles as a one-card wipe, clearing enemy boards while leaving your Mite tokens behind."
+  },
+  "Secure the Wastes": {
+   "Tokens": "**Instant army** : Create X 1/1 Warrior tokens at instant speed, letting you make a big block of first-striking attackers on an opponent's end step.",
+   "Blink": "**Instant filler** : It adds instant-speed token bodies that keep the attacking count high for Jazal-style payoffs."
+  },
+  "Intangible Virtue": {
+   "Tokens": "**Token lord** : Creature tokens get +1/+1 and vigilance, turning Okoye's Soldiers into resilient attackers that don't have to tap out to block.",
+   "Blink": "**Token pump** : It keeps the Soldiers from every re-entry relevant, adding both power and vigilance to the recurring army."
+  },
+  "Always Watching": {
+   "Tokens": "**Nontoken lord** : Nontoken creatures get +1/+1 and vigilance, boosting Okoye and the few nontoken creatures in your token shell.",
+   "Blink": "**Blink-creature pump** : Your flicker creatures enter as nontokens, so the +1/+1 and vigilance help your blink bodies attack too."
+  },
+  "Luminarch Ascension": {
+   "Tokens": "**Angel engine** : Skip damage for a turn to build quest counters, then pay {1}{W} each turn for a 4/4 flying Angel — blockers that double as a clock.",
+   "Blink": "**Value maker** : It churns out Angel tokens each upkeep while blink recursion keeps your life total safe, funding the lifegain plan."
+  },
+  "Benalish Marshal": {
+   "Tokens": "**Anthem** : Other creatures you control get +1/+1, a cheap global pump that makes your whole Soldier swarm hit harder at once.",
+   "Blink": "**Team pump** : The +1/+1 anthem applies to every creature your blinks put back onto the battlefield."
+  },
+  "Martial Coup": {
+   "Tokens": "**Soldiers and sweep** : Create X 1/1 Soldiers, and if X is 5+ destroy all other creatures — a positional wipe that leaves your own board alive.",
+   "Blink": "**Post-blink wipe** : It resets an enemy board while creating enough Soldiers to swing immediately after."
+  },
+  "Reverent Hoplite": {
+   "Tokens": "**Devotion maker** : On entry it creates Human Soldiers equal to your devotion to white, which a token-heavy shell pushes very high.",
+   "Blink": "**Big re-entry** : Every time you blink it, it re-makes Soldiers based on devotion, so each flicker floods the board."
+  },
+  "Heliod, Sun-Crowned": {
+   "Tokens": "**Lifegain counters** : Whenever you gain life, put a +1/+1 counter on a creature or enchantment, and grant lifelink to grow your creatures.",
+   "Blink": "**Counter sink** : Repeated blinks let you grant lifelink and stack +1/+1 counters on your entering creatures turn after turn."
+  },
+  "Elspeth, Sun's Champion": {
+   "Tokens": "**Planeswalker finisher** : +1 makes three Soldiers, −3 destroys everything with power 4+, and −7 gives the team +2/+2 and flying.",
+   "Blink": "**Emblem closer** : A blink dodge can protect her, and her −7 emblem makes every creature — including your flickered army — hard to beat."
+  },
+  "Flickerwisp": {
+   "Tokens": "**Value flicker** : It blinks another permanent on entry, re-triggering token makers or resetting blockers as a flexible utility piece.",
+   "Blink": "**Core blink** : Flying and an enters trigger make Flickerwisp a repeatable way to re-trigger Okoye and other ETB creatures when flickered itself."
+  },
+  "Restoration Angel": {
+   "Tokens": "**Flash value** : With flash it can re-trigger a token maker at instant speed, sneaking extra Soldiers past an opponent's guard.",
+   "Blink": "**Flash blink** : Cast it at instant speed to blink a non-Angel creature you control, re-triggering Okoye or another ETB creature on demand."
+  },
+  "Ephemerate": {
+   "Tokens": "**Cheap trigger** : For {W} it blinks a creature to re-trigger a token ability, and rebound lets you do it again next upkeep for free.",
+   "Blink": "**Recurring blink** : One white for an instant flicker, plus rebound, means two Okoye re-entries from a single one-mana spell."
+  },
+  "Cloudshift": {
+   "Tokens": "**One-mana trigger** : It blinks a token maker to re-create its tokens, a cheap instant that keeps your army topped up.",
+   "Blink": "**Cheap blink** : A single {W} instant that re-triggers Okoye, letting you make two more Soldiers at instant speed."
+  },
+  "Ghostway": {
+   "Tokens": "**Board flicker** : Exile every creature you control and return them next end step — a reset that also breaks token-generation chains.",
+   "Blink": "**Mass protection** : It blinks your entire board at once, saving everything from a wipe while re-triggering every ETB the next end step."
+  },
+  "Conjurer's Closet": {
+   "Tokens": "**Steady value** : At your end step it blinks a creature you control, re-triggering a token maker every single turn for free.",
+   "Blink": "**Repeatable engine** : Blink Okoye at each end step to re-create two Soldiers every turn — a passive token-and-value machine."
+  },
+  "Eldrazi Displacer": {
+   "Tokens": "**Repeatable maker** : For {2}{C} it can blink a token maker, re-triggering token production as often as you have colorless mana.",
+   "Blink": "**Repeatable blink** : Pay {2}{C} to flicker Okoye at will, making two more Soldiers on demand or saving a creature from removal."
+  },
+  "Teleportation Circle": {
+   "Tokens": "**End-step engine** : Each end step it blinks an artifact or creature, re-triggering a token generator every single turn.",
+   "Blink": "**Core engine** : Blink Okoye (or another creature) every end step to re-create two Soldiers and reset your ETB value each turn."
+  },
+  "Semester's End": {
+   "Tokens": "**Board reset** : It blinks any number of creatures and planeswalkers, returning them with a +1/+1 counter each — growing your army while re-triggering it.",
+   "Blink": "**Mass blink plus counters** : Flicker your whole board and every creature comes back bigger, re-triggering Okoye and all ETBs at once."
+  },
+  "Lae'zel's Acrobatics": {
+   "Tokens": "**D20 blink** : It exiles all nontoken creatures, then rolls a d20 — on a 10+ your creatures are exiled and returned again for double triggers.",
+   "Blink": "**Double-dip mass flicker** : Flicker everything and, on a good roll, flicker them again, letting Okoye and your ETB army trigger twice."
+  },
+  "Glorious Protector": {
+   "Tokens": "**Flash guardian** : With flash it exiles any number of non-Angel creatures until it leaves, protecting your token army from a wipe.",
+   "Blink": "**Protective blink** : Cast with flash to tuck your board away until it leaves, re-triggering everything when they return — including Okoye."
+  },
+  "Angel of Serenity": {
+   "Tokens": "**Recursive removal** : On entry it exiles up to three creatures, and when it leaves they return to owners' hands — blinking it becomes removal.",
+   "Blink": "**Blink removal** : Flicker the Angel to exile enemy creatures repeatedly, then return them to hand when it leaves — value through blink loops."
+  },
+  "Court of Grace": {
+   "Tokens": "**Monarch tokens** : You become the monarch; each upkeep creates a Spirit — or a 4/4 Angel if still monarch, plus a card draw.",
+   "Blink": "**Token and draw** : It makes a flying token and draws a card while you hold the monarchy, casual value that keeps your blink lines fed."
+  },
+  "Eerie Interlude": {
+   "Tokens": "**Team reset** : Blink any number of your creatures and return them next end step — protect your board and re-trigger token makers.",
+   "Blink": "**Board-wide blink** : It flickers your whole team at instant speed, re-triggering Okoye and every ETB while dodging removal."
+  },
+  "Otherworldly Journey": {
+   "Tokens": "**Cheap trigger** : Blink one creature and return it with a +1/+1 counter, re-triggering a token maker for one white.",
+   "Blink": "**Recurring blink** : A {1}{W} instant that re-triggers Okoye and leaves an extra +1/+1 counter on her each time."
+  }
+ },
+ "plan_title": "TOKENS — The chosen plan (10 decks)",
+ "plan_html": "<h3>🧝 Tokens <span class=\"badge\">CHOSEN PLAN</span></h3>\n<p>The Tokens plan for Okoye, Dora Milaje Leader (10 decks on EDHREC).</p>\n<div class=\"plan-block\"><span class=\"plan-badge\">How it plays</span>\n<ul><li>**Core** : Okoye creates two 1/1 Soldier tokens on entry and every attacking token has first strike, so the plan is to multiply and pump that Soldier army.</li><li>**Engine** : Doublers like Anointed Procession and Mondrak double every token while lords Intangible Virtue, Always Watching and Benalish Marshal make the swarm hit harder.</li><li>**Payoff** : Spells like Finale of Glory and Secure the Wastes flood the board, then Jazal Goldmane's overrun turns the wide team into a lethal attack.</li></ul></div>\n<div class=\"plan-block\"><span class=\"plan-badge\">Win conditions</span>\n<ul><li>**First-strike swarm** : Okoye gives attacking tokens first strike, so your wide Soldier army fights first and sweeps past blockers.</li><li>**Overrun** : Jazal Goldmane gives attacking creatures +X/+X, turning dozens of tokens into a one-shot lethal swing.</li><li>**Emblem finish** : Elspeth, Sun's Champion's −7 gives your whole team +2/+2 and flying for a clean board-final attack.</li></ul></div>\n<div class=\"plan-block\"><span class=\"plan-badge\">High Synergy matches</span>\n<div class=\"card-grid\">\n<div class=\"card-block\">\n<img src=\"https://cards.scryfall.io/large/front/c/9/c9d6af7b-41a5-4077-81ed-7560548dcf3e.jpg?1783924049\" data-large=\"https://cards.scryfall.io/large/front/c/9/c9d6af7b-41a5-4077-81ed-7560548dcf3e.jpg?1783924049\" data-name=\"Anointed Procession\" loading=\"lazy\" onclick=\"openModal(this)\"/>\n<div class=\"cb-body\">\n<div class=\"cb-name\">Anointed Procession <span class=\"plan-tag\">Tokens</span></div>\n<div class=\"cb-expl\">**Token doubler** : At the heart of the Tokens plan, it doubles every token you create — Okoye's two Soldiers become four and each X-spell goes twice as far.</div>\n</div>\n</div>\n<div class=\"card-block\">\n<img src=\"https://cards.scryfall.io/large/front/1/e/1e71b0fb-2d36-4b81-bd5b-c3fd083e3e97.jpg?1783912564\" data-large=\"https://cards.scryfall.io/large/front/1/e/1e71b0fb-2d36-4b81-bd5b-c3fd083e3e97.jpg?1783912564\" data-name=\"Finale of Glory\" loading=\"lazy\" onclick=\"openModal(this)\"/>\n<div class=\"cb-body\">\n<div class=\"cb-name\">Finale of Glory <span class=\"plan-tag\">Tokens</span></div>\n<div class=\"cb-expl\">**Army spell** : Create X 2/2 Soldiers with vigilance, or X 4/4 Angels too when X is 10+, a scalable way to flood the board from nowhere.</div>\n</div>\n</div>\n<div class=\"card-block\">\n<img src=\"https://cards.scryfall.io/large/front/1/0/1016251d-b84a-4934-a1d7-339d7f54078d.jpg?1783917862\" data-large=\"https://cards.scryfall.io/large/front/1/0/1016251d-b84a-4934-a1d7-339d7f54078d.jpg?1783917862\" data-name=\"Mondrak, Glory Dominus\" loading=\"lazy\" onclick=\"openModal(this)\"/>\n<div class=\"cb-body\">\n<div class=\"cb-name\">Mondrak, Glory Dominus <span class=\"plan-tag\">Tokens</span></div>\n<div class=\"cb-expl\">**Doubler and shield** : It doubles all tokens and can sacrifice two permanents to become indestructible, making your token army both bigger and harder to wipe.</div>\n</div>\n</div>\n<div class=\"card-block\">\n<img src=\"https://cards.scryfall.io/large/front/d/d/dd95982f-a2a5-4066-8ca5-3568784cde67.jpg?1783917722\" data-large=\"https://cards.scryfall.io/large/front/d/d/dd95982f-a2a5-4066-8ca5-3568784cde67.jpg?1783917722\" data-name=\"Always Watching\" loading=\"lazy\" onclick=\"openModal(this)\"/>\n<div class=\"cb-body\">\n<div class=\"cb-name\">Always Watching <span class=\"plan-tag\">Tokens</span></div>\n<div class=\"cb-expl\">**Nontoken lord** : Nontoken creatures get +1/+1 and vigilance, boosting Okoye and the few nontoken creatures in your token shell.</div>\n</div>\n</div>\n<div class=\"card-block\">\n<img src=\"https://cards.scryfall.io/large/front/f/c/fc395215-a2ec-49e1-9b1b-f8fcfe73e361.jpg?1783933992\" data-large=\"https://cards.scryfall.io/large/front/f/c/fc395215-a2ec-49e1-9b1b-f8fcfe73e361.jpg?1783933992\" data-name=\"Benalish Marshal\" loading=\"lazy\" onclick=\"openModal(this)\"/>\n<div class=\"cb-body\">\n<div class=\"cb-name\">Benalish Marshal <span class=\"plan-tag\">Tokens</span></div>\n<div class=\"cb-expl\">**Anthem** : Other creatures you control get +1/+1, a cheap global pump that makes your whole Soldier swarm hit harder at once.</div>\n</div>\n</div>\n<div class=\"card-block\">\n<img src=\"https://cards.scryfall.io/large/front/e/e/ee2f283f-e4ae-44d8-9f2b-d1c25c44705d.jpg?1783908029\" data-large=\"https://cards.scryfall.io/large/front/e/e/ee2f283f-e4ae-44d8-9f2b-d1c25c44705d.jpg?1783908029\" data-name=\"Cathars' Crusade\" loading=\"lazy\" onclick=\"openModal(this)\"/>\n<div class=\"cb-body\">\n<div class=\"cb-name\">Cathars' Crusade <span class=\"plan-tag\">Tokens</span></div>\n<div class=\"cb-expl\">**Board pump** : Every creature entering puts a +1/+1 counter on each creature you control, so flooding the board turns every token into a bigger threat.</div>\n</div>\n</div>\n</div></div>\n",
+ "plan_cards": [
+  "Anointed Procession",
+  "Finale of Glory",
+  "Mondrak, Glory Dominus",
+  "Always Watching",
+  "Benalish Marshal",
+  "Cathars' Crusade"
+ ]
+}
