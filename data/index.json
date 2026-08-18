@@ -120,6 +120,14 @@
    "desc": "**20 heroes** from the Marvel sets (Norman Osborn, Storm, Captain America, Wolverine…) — grouped by color identity.",
    "n": 20,
    "tag": "Crossover"
+  },
+  {
+   "href": "reports/EDH-Report-lord-of-the-rings.html",
+   "name": "Lord of the Rings",
+   "img": "https://cards.scryfall.io/large/front/d/d/dd6dd9dc-ef2a-4806-a3e4-0597288a8162.jpg?1783902773",
+   "desc": "**20 heroes and villains** from Tales of Middle-earth (Sauron, Aragorn, Galadriel, Lord of the Nazgûl…) — ranked by EDHREC popularity, grouped by color.",
+   "n": 20,
+   "tag": "Crossover"
   }
  ]
 }
