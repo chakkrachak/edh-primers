@@ -142,6 +142,14 @@
    "desc": "**20 mono-white commanders** that build around Humans, Soldiers and token swarms (Myrel, Darien, Adeline, Mondrak…) — ranked by EDHREC popularity.",
    "n": 20,
    "tag": "Archetype"
+  },
+  {
+   "href": "reports/EDH-Report-top-10-archetypes.html",
+   "name": "Top 10 Archetypes",
+   "img": "https://cards.scryfall.io/large/front/f/7/f7f00791-de5e-4f10-9931-8694afcd580c.jpg?1784715333",
+   "desc": "**10 best Commander archetypes** from the Yoonns MTG ranking (Tokens #1, Poison, Reanimator, Ramp, Enchantress…) with the **5 most popular generals** per archetype by EDHREC popularity.",
+   "n": 50,
+   "tag": "Archetype"
   }
  ]
 }
