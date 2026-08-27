@@ -150,6 +150,14 @@
    "desc": "**10 best Commander archetypes** from the Yoonns MTG ranking (Tokens #1, Poison, Reanimator, Ramp, Enchantress…) with the **5 most popular generals** per archetype by EDHREC popularity.",
    "n": 50,
    "tag": "Archetype"
+  },
+  {
+   "href": "reports/EDH-Report-top-10-archetypes-marvel.html",
+   "name": "Top 10 Archetypes — Marvel Super Heroes",
+   "img": "https://cards.scryfall.io/large/front/e/f/ef518e5b-7942-4e66-aee0-a1c2aa1f9754.jpg?1783902847",
+   "desc": "**The 10 Commander archetypes** from the Yoonns MTG ranking, each illustrated by the 5 most popular **Marvel Super Heroes** generals by EDHREC deck count (50 generals).",
+   "n": 50,
+   "tag": "Archetype"
   }
  ]
 }
